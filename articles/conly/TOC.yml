@@ -1,0 +1,440 @@
+- name: Dynamics 365 Project Operations (โหมด 2)
+  items:
+    - name: โฮมเพจ Dynamics 365 Project Operations (โหมด 2)
+      href: project-operations-mode-2-home-page.md
+    - name: สถานการณ์ที่ใช้งานได้
+      href: applicable-scenarios.md
+    - name: มีอะไรใหม่
+      href: whats-new-mode-2-project-operations.md
+    - name: ตั้งค่าสภาพแวดล้อมของคุณ
+      href: set-up-environment-mode-2.md
+    - name: ข้อมูลตัวอย่าง
+      href: sample-data-mode-2.md
+    - name: กระบวนการขาย
+      items:
+        - name: ภาพรวมกระบวนการขาย
+          href: ../project-operations/sales/sales-overview.md
+        - name: ความแตกต่างที่สำคัญ
+          href: ../project-operations/sales/key-differences.md
+        - name: การตั้งค่า
+          items:
+            - name: ผลิตภัณฑ์
+              href: ../project-operations/sales/sales-products.md
+            - name: หน่วยนับและกลุ่มของหน่วยนับ
+              href: ../project-operations/sales/sales-units-unit-groups.md
+            - name: สกุลเงิน
+              href: ../project-operations/sales/sales-currency.md
+        - name: จัดการลูกค้าเป้าหมาย
+          href: ../project-operations/sales/managing-leads.md
+        - name: จัดการโอกาสทางการขาย
+          items:
+            - name: ส่วนหัวของโอกาสทางการขาย
+              href: ../project-operations/sales/opportunity-header.md
+            - name: บรรทัดตามผลิตภัณฑ์
+              href: ../project-operations/sales/product-based-lines.md
+            - name: บรรทัดตามโครงการ
+              href: ../project-operations/sales/project-based-lines.md
+            - name: เชื่อมโยงใบเสนอราคาและโอกาสทางการขาย
+              href: ../project-operations/sales/link-quotes-opportunities.md
+            - name: ปิดโอกาสทางการขาย
+              href: ../project-operations/sales/close-opportunity.md
+        - name: จัดการใบเสนอราคา
+          items:
+            - name: แนวคิดหลัก
+              href: ../project-operations/sales/quotes-key-concepts.md
+            - name: จัดการมูลค่าที่เสนอราคา งบประมาณของลูกค้า และวงเงินที่ต้องไม่เกิน
+              href: ../project-operations/sales/quote-values-budget-limits.md
+            - name: จัดการลูกค้าหลายรายในใบเสนอราคา
+              href: ../project-operations/sales/manage-multiple-customers-quote.md
+            - name: บรรทัดใบเสนอราคาตามผลิตภัณฑ์
+              items:
+                - name: บรรทัดใบเสนอราคาตามผลิตภัณฑ์ที่มีต้นทุน
+                  href: ../project-operations/sales/costing-product-based-quote-lines.md
+                - name: จัดการหน่วยที่ซับซ้อนสำหรับบรรทัดใบเสนอราคาตามผลิตภัณฑ์
+                  href: ../project-operations/sales/managing-complex-units-product-based-quote-lines.md
+            - name: บรรทัดใบเสนอราคาตามโครงการ
+              items:
+                - name: จัดการราคาตลาดของโครงการ
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: จัดการลูกค้าหลายรายในบรรทัดใบเสนอราคา
+                  href: ../project-operations/sales/manage-multiple-customers-quote-line.md
+                - name: แมปโครงการและงานกับบรรทัดใบเสนอราคา
+                  href: ../project-operations/sales/mapping-projects-tasks-quote-line.md
+                - name: สร้างการประมาณในบรรทัดใบเสนอราคา
+                  href: ../project-operations/sales/create-estimate-quote-line.md
+                - name: นำเข้าการประมาณจากโครงการไปยังบรรทัดใบเสนอราคา
+                  href: ../project-operations/sales/import-estimate-project-quote-line.md
+                - name: จัดการมูลค่าที่เสนอราคา งบประมาณของลูกค้า และวงเงินที่ต้องไม่เกิน
+                  href: ../project-operations/sales/manage-quoted-values-budget-limites-quote-line.md
+                - name: กำหนดการใบแจ้งหนี้บนบรรทัดใบเสนอราคา
+                  href: ../project-operations/sales/invoice-schedule-quote-line.md
+            - name: ชนะใบเสนอราคา
+              href: ../project-operations/sales/win-quote.md
+            - name: แพ้ใบเสนอราคา
+              href: ../project-operations/sales/lose-quote.md
+        - name: จัดการสัญญา
+          items:
+            - name: แนวคิดหลัก
+              href: ../project-operations/sales/contracts-key-concepts.md
+            - name: จัดการมูลค่าสัญญา งบประมาณของลูกค้า และวงเงินที่ต้องไม่เกิน
+              href: ../project-operations/sales/contract-quote-values-budgets-limits.md
+            - name: จัดการลูกค้าหลายรายในสัญญา
+              href: ../project-operations/sales/manage-multiple-customers-contract.md
+            - name: รายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
+              items:
+                - name: รายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์ที่มีต้นทุน
+                  href: ../project-operations/sales/cost-product-based-contract-lines.md
+                - name: จัดการหน่วยที่ซับซ้อนสำหรับรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
+                  href: ../project-operations/sales/manage-complex-units-product-based-contract-lines.md
+            - name: รายละเอียดการให้บริการตามสัญญาตามโครงการ
+              items:
+                - name: จัดการราคาตลาดของโครงการ
+                  href: ../project-operations/sales/manage-project-price-lists.md
+                - name: จัดการลูกค้าหลายรายในรายละเอียดการให้บริการตามสัญญา
+                  href: ../project-operations/sales/manage-multiple-customers-contract-line.md
+                - name: แมปโครงการและงานกับรายละเอียดการให้บริการตามสัญญา
+                  href: ../project-operations/sales/mapping-projects-tasks-contract-line.md
+                - name: สร้างการประมาณจากโครงการไปยังรายละเอียดการให้บริการตามสัญญา
+                  href: ../project-operations/sales/create-estimate-project-contract-line.md
+                - name: นำเข้าการประมาณจากโครงการไปยังรายละเอียดการให้บริการตามสัญญา
+                  href: ../project-operations/sales/import-estimate-project-contract-line.md
+                - name: จัดการมูลค่าสัญญา งบประมาณของลูกค้า และวงเงินที่ต้องไม่เกินในรายละเอียดการให้บริการตามสัญญา
+                  href: ../project-operations/sales/manage-contract-values-project-based.md
+                - name: กำหนดการใบแจ้งหนี้บนบรรทัดใบเสนอราคา
+                  href: ../project-operations/sales/invoice-schedules-quote-line.md
+            - name: ยืนยันสัญญา
+              href: ../project-operations/sales/confirm-contract.md
+            - name: ปิดสัญญาเป็นงานเสร็จสมบูรณ์
+              href: ../project-operations/sales/close-contract-work-completed.md
+            - name: ปิดสัญญาเป็นยกเลิก
+              href: ../project-operations/sales/close-contract-canceled.md
+    - name: การกำหนดราคาและต้นทุน
+      items:
+        - name: ราคาตลาดของผลิตภัณฑ์
+          href: ../project-operations/pricing-costing/product-price-lists.md
+        - name: ราคาตลาดของโครงการ
+          items:
+            - name: ราคาตลาดสำหรับต้นทุน
+              items:
+                - name: ตั้งค่าราคาตลาดต้นทุน
+                  href: ../project-operations/pricing-costing/cost-price-list-setup.md
+                - name: ค่าเริ่มต้นของราคาตลาด
+                  href: ../project-operations/pricing-costing/cost-price-list-default.md
+                - name: แทนที่ค่าเริ่มต้น
+                  href: ../project-operations/pricing-costing/cost-override-default.md
+            - name: การตั้งค่าราคาตลาดสำหรับการขาย
+              items:
+                - name: ตั้งค่าราคาตลาดสำหรับการขาย
+                  href: ../project-operations/pricing-costing/sales-price-list-setup.md
+                - name: ค่าเริ่มต้นของราคาตลาดในการขาย
+                  href: ../project-operations/pricing-costing/sales-price-list-default.md
+                - name: แทนที่ค่าเริ่มต้น
+                  href: ../project-operations/pricing-costing/sales-override-default.md
+        - name: มิติการกำหนดราคา
+          items:
+            - name: ภาพรวมมิติการกำหนดราคา
+              href: ../project-operations/pricing-costing/pricing-dimension-overview.md
+            - name: ใช้ฟิลด์ที่มีอยู่ใน Project Operations เป็นมิติการกำหนดราคา
+              href: ../project-operations/pricing-costing/use-existing-field-pricing-dimension.md
+            - name: ฟิลด์ที่กำหนดเองเป็นมิติการกำหนดราคา
+              items:
+                - name: สร้างฟิลด์และเอนทิตีแบบกำหนดเองเป็นมิติการกำหนดราคา
+                  href: ../project-operations/pricing-costing/create-custom-fields-entities-pricing-dimensions.md
+                - name: เพิ่มฟิลด์ที่กำหนดเองในการตั้งค่าราคาและเอนทิตีธุรกรรม
+                  href: ../project-operations/pricing-costing/add-custom-fields-price-setup-transactional-entities.md
+                - name: ตั้งค่าฟิลด์ที่กำหนดเองเป็นมิติการกำหนดราคา
+                  href: ../project-operations/pricing-costing/set-up-custom-fields-pricing-dimensions.md
+            - name: ปิดมิติการกำหนดราคา
+              href: ../project-operations/pricing-costing/turn-off-pricing-dimension.md
+    - name: การจัดการโครงการ
+      items:
+        - name: ภาพรวมของการจัดการโครงการ
+          href: ../project-operations/project-management/project-management-overview.md
+        - name: ลำดับขั้นของโครงการ
+          href: ../project-operations/project-management/project-stages.md
+        - name: การนำทาง UI
+          href: ../project-operations/project-management/navigate-ui.md
+        - name: ทำความเข้าใจสถานะโครงการ
+          href: ../project-operations/project-management/understand-project-status.md
+        - name: กำหนดปฏิทินโครงการ
+          href: ../project-operations/project-management/define-project-calendars.md
+        - name: สร้างโครงการ
+          items:
+            - name: สร้างการประมาณการเบื้องต้น
+              href: ../project-operations/project-management/create-initial-estimates.md
+            - name: ตั้งค่าปฏิทินโครงการ
+              href: ../project-operations/project-management/set-project-calendar.md
+            - name: ตั้งค่าสกุลเงินสำหรับโครงการ
+              href: ../project-operations/project-management/set-project-currency.md
+            - name: กำหนดลูกค้า
+              href: ../project-operations/project-management/set-customer.md
+            - name: เพิ่มกลุ่ม
+              href: ../project-operations/project-management/add-group.md
+        - name: ปรับปรุงโครงการ
+          href: ../project-operations/project-management/update-project.md
+        - name: คัดลอกโครงการ
+          href: ../project-operations/project-management/copy-project.md
+        - name: การวางแผนโครงสร้างการแบ่งงาน
+          items:
+            - name: สร้างโครงสร้างการแบ่งงาน
+              items:
+                - name: สร้างงาน
+                  href: ../project-operations/project-management/wbs-create-tasks.md
+                - name: ตัด คัดลอก และวางงาน
+                  href: ../project-operations/project-management/cut-copy-paste-tasks.md
+                - name: ยกเลิกหรือทำซ้ำงาน
+                  href: ../project-operations/project-management/undo-redo-tasks-wbs.md
+                - name: ลำดับชั้นโครงสร้างการแบ่งงาน
+                  href: ../project-operations/project-management/work-breakdown-structure-hierarchy.md
+                - name: การอัปเดตงานจำนวนมาก
+                  href: ../project-operations/project-management/bulk-task-updates.md
+                - name: แก้ไขรายละเอียดงาน
+                  href: ../project-operations/project-management/edit-task-details.md
+            - name: สร้างงานที่มอบหมาย
+              items:
+                - name: เพิ่มทรัพยากรที่มีอยู่
+                  href: ../project-operations/project-management/add-existing-resources.md
+                - name: เพิ่มทรัพยากรทั่วไป
+                  href: ../project-operations/project-management/add-generic-resources.md
+                - name: ทำความเข้าใจผลกระทบของงานที่มอบหมายของความพยายามในการทำงาน ระยะเวลา และวันที่สิ้นสุด
+                  href: ../project-operations/project-management/understand-impact-assignment-task-effort-duration-end-date.md
+                - name: ดูเส้นชั้นความสูงการมอบหมายงาน
+                  href: ../project-operations/project-management/view-assignment-contours.md
+            - name: นำทางประสบการณ์การจัดการงาน
+              items:
+                - name: การจัดการคอลัมน์
+                  href: ../project-operations/project-management/column-management.md
+                - name: มุมมอง
+                  href: ../project-operations/project-management/task-management-views.md
+                - name: บักเก็ต
+                  href: ../project-operations/project-management/task management-buckets.md
+        - name: ประมาณการโครงการ
+          items:
+            - name: ประมาณการภาพรวมโครงการ
+              href: ../project-operations/project-management/estimate-projects-overview.md
+            - name: การประมาณการทรัพยากร
+              items:
+                - name: รีเฟรชการประมาณการโครงการเพื่อให้สอดคล้องกับการเปลี่ยนแปลงแผนโครงการ
+                  href: ../project-operations/project-management/refresh-project-estimates-reflect-changes-project-plan.md
+                - name: รีเฟรชราคาและอัตราต้นทุนในการประมาณการโครงการ
+                  href: ../project-operations/project-management/refresh-prices-cost-rates-project-estimates.md
+                - name: ราคาต้นทุนทรัพยากรและค่าเริ่มต้นของสกุลเงินต้นทุน
+                  href: ../project-operations/project-management/resource-default-cost-price-cost-currency.md
+                - name: อัตราการเรียกเก็บเงินทรัพยากรและค่าเริ่มต้นของสกุลเงินการขาย
+                  href: ../project-operations/project-management/resource-default-bill-rate-sales-currency.md
+            - name: สร้างการประมาณการค่าใช้จ่าย
+              items:
+                - name: ราคาต้นทุนค่าใช้จ่ายและค่าเริ่มต้นของสกุลเงินต้นทุน
+                  href: ../project-operations/project-management/expense-default-cost-price-cost-currency.md
+                - name: อัตราการเรียกเก็บค่าใช้จ่ายและค่าเริ่มต้นของสกุลเงินการขาย
+                  href: ../project-operations/project-management/expense-default-bill-rate-sales-currency.md
+        - name: การสร้างใบเสนอราคาและสัญญา
+          items:
+            - name: นำเข้าโครงสร้างการแบ่งงานไปยังใบเสนอราคา
+              href: ../project-operations/project-management/import-wbs-structure-quotes.md
+            - name: นำเข้าโครงสร้างการแบ่งงานไปยังสัญญา
+              href: ../project-operations/project-management/import-wbs-structure-contracts.md
+        - name: การติดตามโครงการ
+          items:
+            - name: โฮมเพจของการติดตามโครงการ
+              href: ../project-operations/project-management/cost-vs-effort-overview.md
+            - name: คำจำกัดความของคอลัมน์
+              items:
+                - name: ความพยายาม
+                  href: ../project-operations/project-management/effort.md
+                - name: ต้นทุน
+                  href: ../project-operations/project-management/cost.md
+                - name: การขาย
+                  href: ../project-operations/project-management/sales.md
+            - name: อัปเดตการประมาณการเมื่อดำเนินงานเสร็จสมบูรณ์
+              href: ../project-operations/project-management/update-completed-estimate.md
+        - name: สมาชิกของทีมโครงการ
+          items:
+            - name: ภาพรวมสมาชิกของทีมโครงการ
+              href: ../project-operations/project-management/project-team-members-overview.md
+            - name: ดูแลสมาชิกในทีม
+              items:
+                - name: เพิ่มสมาชิกในทีม
+                  href: ../project-operations/project-management/add-team-members.md
+                - name: อัปเดตสมาชิกของทีมโครงการ
+                  href: ../project-operations/project-management/update-project-team-members.md
+                - name: ลบสมาชิกในทีม
+                  href: ../project-operations/project-management/delete-team-members.md
+                - name: รักษาการจอง
+                  href: ../project-operations/project-management/maintain-bookings.md
+                - name: ผู้อนุมัติโครงการ
+                  href: ../project-operations/project-management/project-approvers.md
+        - name: การขาย
+          items:
+            - name: ภาพรวมแท็บการขาย
+              href: ../project-operations/project-management/sales-tab-overview.md
+        - name: การทำงานร่วมกัน
+          items:
+            - name: กลุ่ม
+              href: ../project-operations/project-management/groups.md
+        - name: คำถามที่ถามบ่อยเกี่ยวกับการวางแผนโครงการ
+          href: ../project-operations/project-management/project-planning-faq.md
+    - name: การจัดการทรัพยากร
+      items:
+        - name: ภาพรวมการจัดการทรัพยากร
+          href: ../project-operations/resource-management/resource-management-overview.md
+        - name: แนวคิดหลัก
+          href: ../project-operations/resource-management/resource-management-key-concepts.md
+        - name: การจองและการมอบหมายงาน
+          href: ../project-operations/resource-management/booking-vs-assignment.md
+        - name: โหมดการจัดการทรัพยากร
+          items:
+            - name: ภาพรวมโหมดการจัดการทรัพยากร
+              href: ../project-operations/resource-management/resource-management-mode-overview.md
+            - name: ไฮบริด
+              href: ../project-operations/resource-management/resource-management-mode-hybrid.md
+            - name: ส่วนกลาง
+              href: ../project-operations/resource-management/resource-management-mode-central.md
+        - name: การจองส่วนกลาง
+          items:
+            - name: ภาพรวมการจองส่วนกลาง
+              href: ../project-operations/resource-management/centralized-booking-overview.md
+            - name: เพิ่มสมาชิกในทีมทั่วไปในงาน
+              href: ../project-operations/resource-management/add-generic-team-members-tasks.md
+            - name: กำหนดความต้องการทรัพยากร
+              href: ../project-operations/resource-management/define-resource-requirements.md
+            - name: กำหนดเส้นชั้นความสูงของความต้องการ
+              href: ../project-operations/resource-management/define-resource-requirement-contours.md
+            - name: อัปเดตความต้องการทรัพยากร
+              href: ../project-operations/resource-management/update-resource-requirements.md
+            - name: ส่งความต้องการทรัพยากร
+              href: ../project-operations/resource-management/submit-resource-requirements.md
+            - name: คำขอทรัพยากร
+              items:
+                - name: ภาพรวมคำขอทรัพยากร
+                  href: ../project-operations/resource-management/resource-requests-overview.md
+                - name: ตรวจสอบฟิลด์และการดำเนินการ
+                  href: ../project-operations/resource-management/review-fields-actions.md
+                - name: ค้นหาทรัพยากร
+                  href: ../project-operations/resource-management/find-resources.md
+                - name: ตรวจทานทรัพยากรที่เสนอ
+                  href: ../project-operations/resource-management/review-proposed-resources.md
+        - name: การจองทรัพยากรแบบกระจายอำนาจ
+          items:
+            - name: ภาพรวมการจองทรัพยากรแบบกระจายอำนาจ
+              href: ../project-operations/resource-management/decentralized-resource-booking-overview.md
+            - name: ตัวเลือกในการจองโดยตรง
+              href: ../project-operations/resource-management/options-book-directly.md
+            - name: ตอบสนองความต้องการทรัพยากรทั่วไป
+              href: resource-management/generic-resource-requirement-fulfillment.md
+        - name: การบริหารทรัพยากร
+          items:
+            - name: สร้างทรัพยากร
+              href: ../project-operations/resource-management/create-resources.md
+            - name: กำหนดทักษะและความเชี่ยวชาญ
+              href: ../project-operations/resource-management/define-skills-proficiencies.md
+            - name: กำหนดบทบาท
+              href: ../project-operations/resource-management/define-roles.md
+            - name: กำหนดปฏิทินทรัพยากร
+              href: ../project-operations/resource-management/define-resource-calendars.md
+            - name: เชื่อมโยงทรัพยากรกับหน่วยขององค์กร
+              href: ../project-operations/resource-management/associate-resources-organizational-units.md
+            - name: เชื่อมโยงทรัพยากรกับบริษัทต่างๆ
+              href: ../project-operations/resource-management/associate-resources-companies.md
+        - name: วิธีการจัดสรรการจอง
+          href: ../project-operations/resource-management/booking-allocation-methods.md
+        - name: สถานะการจอง
+          href: resource-management/booking-status.md
+        - name: แบบจำลองทักษะและความชำนาญ
+          href: ../project-operations/resource-management/skills-proficiency-models.md
+        - name: การกระทบยอดทรัพยากร
+          items:
+            - name: ภาพรวมการกระทบยอดทรัพยากร
+              href: ../project-operations/resource-management/resource-reconciliation-overview.md
+            - name: แนวคิดหลัก
+              href: ../project-operations/resource-management/resource-reconciliation-key-concepts.md
+            - name: การนำทาง
+              href: ../project-operations/resource-management/resource-reconciliation-navigation.md
+            - name: ขยายการจอง
+              href: ../project-operations/resource-management/extend-bookings.md
+            - name: จัดการเขตเวลาต่างๆ
+              href: ../project-operations/resource-management/manage-multiple-time-zones.md
+        - name: การใช้ประโยชน์ของทรัพยากร
+          items:
+            - name: ภาพรวมการใช้ประโยชน์ของทรัพยากร
+              href: ../project-operations/resource-management/resource-utilization-overview.md
+            - name: การค้นหา การตั้งค่า และการนำทาง
+              href: ../project-operations/resource-management/search-settings-navigation.md
+        - name: กระดานตารางเวลา
+          items:
+            - name: การนำทางและการตั้งค่าหลัก
+              href: ../project-operations/resource-management/navigation-key-settings-urs.md
+            - name: การตั้งค่าส่วนบุคคล
+              href: ../project-operations/resource-management/personalization-urs.md
+            - name: การค้นหา
+              href: ../project-operations/resource-management/search-urs.md
+            - name: การดำเนินการจอง
+              href: ../project-operations/resource-management/booking-actions-urs.md
+            - name: การจอง
+              items:
+                - name: จองสำหรับโครงการ
+                  href: ../project-operations/resource-management/book-project.md
+                - name: จองความต้องการที่เปิด
+                  href: ../project-operations/resource-management/book-open-requirements.md
+                - name: ทรัพยากรทดแทน
+                  href: ../project-operations/resource-management/substitute-resources.md
+                - name: แก้ไขการจองที่มีอยู่
+                  href: ../project-operations/resource-management/edit-existing-bookings.md
+        - name: คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
+          href: ../project-operations/resource-management/resource-management-faq.md
+    - name: เวลา
+      items:
+        - name: ภาพรวมการป้อนเวลา
+          href: ../project-operations/time/time-entry-overview.md
+        - name: สร้างรายการเวลา
+          items:
+            - name: นำเข้าการจอง การมอบหมาย และรายการปฏิทิน
+              href: ../project-operations/time/import-bookings-assignments-calendar-entries.md
+            - name: ลักษณะการทำงาน UI
+              href: ../project-operations/time/ui-behavior.md
+        - name: ส่งรายการเวลา
+          href: ../project-operations/time/submit-time-entries.md
+        - name: เรียกคืนรายการเวลา
+          items:
+            - name: ก่อนการอนุมัติ
+              href: ../project-operations/time/recall-time-entries-before-approval.md
+            - name: หลังจากได้รับการอนุมัติ
+              href: ../project-operations/time/recall-time-entries-after-approval.md
+        - name: อนุมัติรายการเวลา
+          href: ../project-operations/time/approvals.md
+        - name: หมายเหตุสำหรับนักพัฒนา
+          items:
+            - name: ขยายเวลารายการ
+              href: ../project-operations/time/extending-time-entries.md
+            - name: ปรับแต่งกริดการป้อนเวลารายสัปดาห์
+              href: ../project-operations/time/customize-weekly-time-entry-grid.md
+            - name: ข้อควรพิจารณาด้านความปลอดภัย
+              href: ../project-operations/time/security-considerations.md
+    - name: ค่าใช้จ่าย
+      items:
+        - name: โฮมเพจค่าใช้จ่าย
+          href: ../project-operations/expense/expense-overview.md
+        - name: รายการค่าใช้จ่าย
+          href: expense-entry.md
+    - name: การอนุมัติ
+      items:
+        - name: ภาพรวม
+          href: ../project-operarations/approvals/approvals-overview.md
+        - name: อนุมัติรายการเวลา
+          href: approvals/approving-time-entries.md
+        - name: อนุมัติรายการค่าใช้จ่าย
+          href: approve-expense-entries.md
+    - name: การออกใบแจ้งหนี้ Proforma
+      items:
+        - name: สร้างกำหนดการใบแจ้งหนี้
+          href: ../project-operarations/proforma-invoicing/create-invoice-schedules.md
+        - name: สร้างใบแจ้งหนี้ Proforma ด้วยตนเอง
+          href: ../project-operarations/proforma-invoicing/create-manual-proforma-invoice.md
+        - name: จัดการใบแจ้งหนี้ Proforma
+          href: ../project-operarations/proforma-invoicing/manage-proforma-invoice.md
+        - name: ยืนยันใบแจ้งหนี้ Proforma
+          href: ../project-operarations/proforma-invoicing/confirm-proforma-invoice.md
+        - name: แก้ไขใบแจ้งหนี้
+          href: ../project-operarations/proforma-invoicing/corrective-invoices.md
+        - name: กำหนดค่าการสร้างใบแจ้งหนี้อัตโนมัติ
+          href: ../project-operarations/proforma-invoicing/configure-automated-invoice-creation.md
