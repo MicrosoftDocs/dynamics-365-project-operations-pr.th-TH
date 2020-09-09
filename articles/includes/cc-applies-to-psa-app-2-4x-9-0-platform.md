@@ -1,0 +1,1 @@
+<span data-ttu-id="7e007-101">นำไปใช้กับแอป Project Service รุ่น 2.4.4.30 หรือรุ่นก่อนหน้าบน Dynamics 365 (online) รุ่น 9.x</span><span class="sxs-lookup"><span data-stu-id="7e007-101">Applies to Project Service app version 2.4.4.30 or earlier on Dynamics 365 (online) version 9.x</span></span>

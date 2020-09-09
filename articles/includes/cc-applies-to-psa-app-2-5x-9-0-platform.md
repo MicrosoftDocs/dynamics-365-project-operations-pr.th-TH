@@ -1,0 +1,1 @@
+<span data-ttu-id="b342d-101">แอป Project Service รุ่น 2.5.x หรือใหม่กว่าบน Dynamics 365 (online) รุ่น 9.x</span><span class="sxs-lookup"><span data-stu-id="b342d-101">Project Service app version 2.5.x or later on Dynamics 365 (online) version 9.x</span></span>
