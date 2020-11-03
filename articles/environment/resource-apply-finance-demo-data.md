@@ -8,18 +8,19 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 1a94862d5a024eb1630f33c0c96699e8b4b49bf2
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: b9af6c71b61840f4ffdf2892d8e7e5bbf0f8df67
+ms.sourcegitcommit: 91ad491e94a421f256a378b0f4b26ed48c67bc93
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949115"
+ms.lasthandoff: 10/22/2020
+ms.locfileid: "4096645"
 ---
 # <a name="apply-project-operations-demo-data-to-a-finance-cloud-hosted-environment"></a>ใช้ข้อมูลสาธิตของ Project Operations กับสภาพแวดล้อมที่โฮสต์บนระบบคลาวด์ของ Finance
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
->[สำคัญ] หัวข้อนี้ใช้ได้เฉพาะ Microsoft Dynamics 365 Finance เวอร์ชัน 10.0.13 เท่านั้นและสามารถทำได้บนสภาพแวดล้อมที่โฮสต์บนระบบคลาวด์เท่านั้น ทำตามขั้นตอนในหัวข้อนี้ **ก่อน** คุณจึงจะสามารถใช้การปรับปรุงคุณภาพกับสภาพแวดล้อมได้
+> [!IMPORTANT]
+> หัวข้อนี้ใช้ได้เฉพาะ Microsoft Dynamics 365 Finance เวอร์ชัน 10.0.13 เท่านั้นและสามารถทำได้บนสภาพแวดล้อมที่โฮสต์บนระบบคลาวด์เท่านั้น ทำตามขั้นตอนในหัวข้อนี้ **ก่อน** คุณจึงจะสามารถใช้การปรับปรุงคุณภาพกับสภาพแวดล้อมได้
 
 1. ในโครงการ LCS ของคุณ ให้เปิดเพจ **รายละเอียดสภาพแวดล้อม** สังเกตว่ามีรายละเอียดที่จำเป็นในการเชื่อมต่อกับสภาพแวดล้อมโดยใช้โพรโทคอลการใช้เดสก์ท็อประยะไกล (RDP)
 
