@@ -9,11 +9,11 @@ ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
 ms.openlocfilehash: 4c814754e68b3a1a8bf8784434d45010bf8d0123
-ms.sourcegitcommit: 56c42d7f5995a674426a1c2a81bae897dceb391c
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/01/2020
-ms.locfileid: "3908661"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085849"
 ---
 # <a name="skills-and-certifications"></a>ทักษะและการรับรอง
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_

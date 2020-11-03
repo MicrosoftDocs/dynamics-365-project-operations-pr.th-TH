@@ -8,14 +8,16 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ffb89a954b8af9d726c64cceeafca638c3393130
-ms.sourcegitcommit: fd8ea1779db2bb39a428f459ae3293c4fd785572
+ms.openlocfilehash: ea7f0a8207fc78914783f5b9c919b3243a0bb5a4
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/06/2020
-ms.locfileid: "3965905"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085808"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>จัดการลูกค้าหลายรายในรายการใบเสนอราคาตามโครงการ
+
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
 รายการใบเสนอราคาตามโครงการสนับสนุนสถานการณ์ที่แต่ละรายการใบเสนอราคามีรายชื่อลูกค้าที่ชำระเงิน รายชื่อของลูกค้าในรายการใบเสนอราคาตามโครงการอาจเหมือนกับรายชื่อลูกค้าในใบเสนอราคาได้ นอกจากนี้ คุณยังสามารถเปลี่ยนรายชื่อลูกค้าให้แตกต่างกันได้ด้วย หากต้องการสร้างสัญญาโครงการที่เป็นผลสุดท้ายเมื่อได้รับใบเสนอราคาโครงการ รายชื่อลูกค้าในรายการใบเสนอราคาตามโครงการจะถูกคัดลอกไปยังรายละเอียดการให้บริการตามสัญญาของโครงการที่เกี่ยวข้อง ลูกค้าในใบเสนอราคาตามโครงการจะถูกคัดลอกไปยังสัญญาโครงการ
 

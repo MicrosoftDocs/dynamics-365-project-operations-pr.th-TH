@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d99ab4c7b2ebf6ba56b86a3e0151036c6247e484
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949110"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085805"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service สำหรับ Project Operations
 
@@ -27,7 +27,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ![การโอนย้ายการตั้งค่าคอนฟิก](./media/1ConfigurationMigration.png)
 
-4. ในเพจ 2 ของวิซาร์ด CMT ให้เลือก **Office 365** เป็น **ชนิดการปรับใช้งาน**
+4. ในเพจ 2 ของวิซาร์ด CMT ให้เลือก **Microsoft 365** เป็น **ชนิดการปรับใช้งาน**
 5. เลือกกล่องกาเครื่องหมาย **แสดงรายชื่อขององค์กรที่มีอยู่** และ **แสดงขั้นสูง**
 6. เลือกภูมิภาคของผู้เช่าของคุณ ป้อนข้อมูลประจำตัวของคุณ และเลือก **เข้าสู่ระบบ**
 
@@ -114,10 +114,10 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
  
 12. ปรับปรุงฟิลด์ต่อไปนี้:
 
- - **บริษัทเริ่มต้น**: USPM
- - **หน่วยองค์กรเริ่มต้น**: Contoso Robotics Global
- - **ความถี่ของใบแจ้งหนี้**: วันที่เจ็ดและวันสุดท้าย
- - **แม่แบบชั่วโมงทำงาน**: เปลี่ยนเป็นแม่แบบที่คุณสร้างขึ้น
+ - **บริษัทเริ่มต้น** : USPM
+ - **หน่วยองค์กรเริ่มต้น** : Contoso Robotics Global
+ - **ความถี่ของใบแจ้งหนี้** : วันที่เจ็ดและวันสุดท้าย
+ - **แม่แบบชั่วโมงทำงาน** : เปลี่ยนเป็นแม่แบบที่คุณสร้างขึ้น
 
 13. เลือก **บันทึก** 
 

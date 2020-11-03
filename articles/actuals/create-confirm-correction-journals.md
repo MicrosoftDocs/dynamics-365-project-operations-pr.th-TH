@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 274f99527804b0db81b26201a22eb5a8cbe86c9a
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 855593df1ea14827f06961dda5b4becd2fa75c18
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3896979"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085929"
 ---
 # <a name="create-and-confirm-correction-journals"></a>สร้างและยืนยันสมุดรายวันการแก้ไข
 

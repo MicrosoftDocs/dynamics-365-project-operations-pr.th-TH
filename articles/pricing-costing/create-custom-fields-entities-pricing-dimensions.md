@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 2000f7e710267560fe2bd52b0e33024617d108ea
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: 9dd43be79f8e906298578911b3bff03e66c2f1e5
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898284"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085970"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>สร้างฟิลด์และเอนทิตีแบบกำหนดเองเป็นมิติการกำหนดราคา
 

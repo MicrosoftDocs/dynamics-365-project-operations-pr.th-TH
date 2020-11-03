@@ -7,7 +7,6 @@ ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-365-customerservice
-ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -18,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e14da1c07d5b697de6caf1b9041c30581ecff102
-ms.sourcegitcommit: a2c3cd49a3b667b8b5edaa31788b4b9b1f728d78
+ms.openlocfilehash: b31e702cc15bbb3937e8c4b305064212f63ce919
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/28/2020
-ms.locfileid: "3898104"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086100"
 ---
 # <a name="corrected-invoices"></a>ใบแจ้งหนี้ที่แก้ไข
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
 ใบแจ้งหนี้ที่ยืนยันแล้วสามารถแก้ไขได้ เมื่อคุณแก้ไขใบแจ้งหนี้ที่ยืนยันแล้ว จะมีการสร้างใบแจ้งหนี้ที่แก้ไขฉบับร่าง เนื่องจากสมมติฐานคือคุณต้องการย้อนกลับธุรกรรมและปริมาณทั้งหมดจากใบแจ้งหนี้ต้นฉบับ ใบแจ้งหนี้ที่แก้ไขนี้รวมธุรกรรมทั้งหมดจากใบแจ้งหนี้ต้นฉบับ และปริมาณทั้งหมดบนใบแจ้งหนี้เป็นศูนย์ (0)
 

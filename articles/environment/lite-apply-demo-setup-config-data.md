@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 42e02f393e89d20b2a462645f519a3792bee8f2f
-ms.sourcegitcommit: b9d8bf00239815f31686e9b28998ac684fd2fca4
+ms.openlocfilehash: 33b85115963f3561718b8951e5b518fd34de7723
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/02/2020
-ms.locfileid: "3949107"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085797"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations-lite-deployment---deal-to-proforma-invoicing"></a>ใช้การตั้งค่าการสาธิตและข้อมูลการกำหนดค่าสำหรับการปรับใช้งานแบบ Lite ของ Project Operations - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 
@@ -25,7 +25,7 @@ _**การปรับใช้งานแบบ Lite - จัดการก
 
 ![การโอนย้ายการตั้งค่าคอนฟิก](./media/1ConfigurationMigration.png)
 
-4. ในเพจ 2 ของวิซาร์ด CMT ให้เลือก **Office 365** เป็น **ชนิดการปรับใช้งาน**
+4. ในเพจ 2 ของวิซาร์ด CMT ให้เลือก **Microsoft 365** เป็น **ชนิดการปรับใช้งาน**
 5. เลือกกล่องกาเครื่องหมาย **แสดงรายชื่อขององค์กรที่มีอยู่** และ **แสดงขั้นสูง**
 6. เลือกภูมิภาคของผู้เช่าของคุณ ป้อนข้อมูลประจำตัวของคุณ จากนั้นเลือก **เข้าสู่ระบบ**
 
