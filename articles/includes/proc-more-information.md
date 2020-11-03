@@ -1,0 +1,9 @@
+---
+ms.openlocfilehash: 02febe21fcd28cd0e0816a5ad762195185c7e4e5
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4070343"
+---
+<span data-ttu-id="e4241-101">ข้อมูลเพิ่มเติม:</span><span class="sxs-lookup"><span data-stu-id="e4241-101">More information:</span></span>
