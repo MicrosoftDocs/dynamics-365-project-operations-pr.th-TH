@@ -4,23 +4,29 @@
   items:
     - name: กำหนดชนิดการปรับใช้งานของคุณ
       href: environment/determine-deployment-type.md
+    - name: การปรับปรุง Project Operations
+      href: whats-new/project-operations-updates.md
 - name: Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก
   items:
     - name: การเริ่มต้นใช้งาน
       items:
-        - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว (ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก)
+        - name: Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก
+          href: environment/project-operations-integrated-deployment-overview.md
+        - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว
           href: environment/resource-sign-up-preview-subscription.md
+        - name: ไปยัง Project Operations
+          href: environment/navigate-project-operations.md
         - name: กำหนดค่าข้อกำหนดเบื้องต้น
           items:
             - name: เริ่มต้นโครงการ LCS ใหม่
               href: environment/create-lcs-project.md
             - name: เพิ่มการสมัครใช้งาน Azure ไปยังโครงการ LCS
               href: environment/resource-add-azure-subscription-lcs-project.md
-        - name: ใช้ข้อมูลสาธิต
+        - name: นำข้อมูลสาธิตไปใช้
           items:
-            - name: ใช้ข้อมูลสาธิตของ Project Operations กับสภาพแวดล้อมที่เป็นโฮสต์บนระบบคลาวด์ของ Finance
+            - name: นำข้อมูลสาธิตไปใช้กับสภาพแวดล้อมที่เป็นโฮสต์บนระบบคลาวด์ของ Finance
               href: environment/resource-apply-finance-demo-data.md
-            - name: ใช้ข้อมูลการตั้งค่าคอนฟิกใน Common Data Service สำหรับ Project Operations
+            - name: ใช้ข้อมูลการกำหนดค่าใน Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: ปรับใช้งานสภาพแวดล้อม
           items:
@@ -30,9 +36,13 @@
               href: environment/security-model.md
             - name: กำหนดค่าการรวม Project Operations ตามนิติบุคคล
               href: environment/resource-configure-integration-per-legal-entity.md
-    - name: กระบวนการขาย
+    - name: มีอะไรใหม่
       items:
-        - name: ภาพรวมการขาย
+        - name: พฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-nov-2020-resource-based.md
+    - name: กระบวนการขายของโครงการ
+      items:
+        - name: ภาพรวมกระบวนการขายของโครงการ
           href: sales/sales-overview.md
         - name: การตั้งค่า
           items:
@@ -42,95 +52,105 @@
               href: sales/sales-units-unit-groups.md
             - name: สกุลเงิน
               href: sales/sales-currency.md
-        - name: จัดการลูกค้าเป้าหมาย
+        - name: จัดการลูกค้าเป้าหมายของโครงการ
           href: sales/manage-leads.md
-        - name: จัดการโอกาสทางการขาย
+        - name: จัดการโอกาสทางการขายของโครงการ
           items:
-            - name: จัดการโอกาสทางการขายตามโครงการ
+            - name: ภาพรวมจัดการโอกาสทางการขายของโครงการ
               href: sales/manage-project-based-opportunities.md
-            - name: ส่วนหัวของโอกาสทางการขาย
+            - name: การตั้งค่าโอกาสทางการขายตามโครงการ
               href: sales/opportunity-header.md
-            - name: รายการตามโครงการ
+            - name: รายการโอกาสทางการขายตามโครงการ
               href: sales/project-based-lines.md
-            - name: คัดลอกโอกาสทางการขายตามโครงการ
-              href: sales/copy-project-based-opportunity.md
             - name: สร้างใบเสนอราคาโครงการจากโอกาสทางการขาย
               href: sales/link-quotes-opportunities.md
-            - name: ปิดโอกาสทางการขาย
+            - name: คัดลอกโอกาสทางการขายตามโครงการ
+              href: sales/copy-project-based-opportunity.md
+            - name: ปิดโอกาสทางการขายของโครงการ
               href: sales/close-opportunity.md
-        - name: จัดการใบเสนอราคา
+        - name: จัดการใบเสนอราคาโครงการ
           items:
-            - name: แนวคิดหลัก
+            - name: ภาพรวมจัดการใบเสนอราคาโครงการ
+              href: pro/sales/manage-quotes-sales.md
+            - name: แนวคิดของใบเสนอราคาโครงการ
               href: sales/quotes-key-concepts.md
-            - name: ข้อมูลสรุปเกี่ยวกับใบเสนอราคาโครงการ
+            - name: การตั้งค่าใบเสนอราคาโครงการ
               href: sales/quote-values-budget-limits-contract.md
-            - name: จัดการลูกค้าหลายรายในใบเสนอราคา
+            - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคา
               href: sales/manage-multiple-customers-quote.md
-            - name: รายการใบเสนอราคาตามผลิตภัณฑ์
-              item:
-                - name: รายการใบเสนอราคาตามผลิตภัณฑ์ที่มีต้นทุน
-                  href: sales/costing-product-based-quote-lines.md
-                - name: จัดการหน่วยที่ซับซ้อนสำหรับรายการใบเสนอราคาตามผลิตภัณฑ์
-                  href: sales/managing-complex-units-product-based-quote-lines.md
+            - name: จัดการรายการราคาของโครงการในใบเสนอราคา
+              href: sales/managing-project-price-lists.md
             - name: รายการใบเสนอราคาตามโครงการ
               items:
-                - name: จัดการรายการราคาของโครงการ
-                  href: sales/managing-project-price-lists.md
+                - name: ภาพรวมรายการใบเสนอราคาตามโครงการ
+                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคาตามโครงการ
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: สร้างการประมาณในรายการใบเสนอราคา
+                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินของรายการใบเสนอราคาโครงการ
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
+                - name: สร้างประมาณการในรายการใบเสนอราคา
                   href: sales/create-estimate-quote-line.md
-                - name: นำเข้าประมาณการสำหรับโครงการไปยังรายการใบเสนอราคาตามโครงการ
+                - name: นำเข้าประมาณการจากโครงการไปยังรายการใบเสนอราคาตามโครงการ
                   href: sales/import-estimate-quote-line.md
-                - name: จัดการมูลค่าที่เสนอราคา งบประมาณของลูกค้า และวงเงินที่ต้องไม่เกิน
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
                 - name: กำหนดการใบแจ้งหนี้ในรายการใบเสนอราคาตามโครงการ
                   href: sales/invoice-schedule-quote-line.md
-            - name: คัดลอกใบเสนอราคาตามโครงการ
+            - name: คัดลอกใบเสนอราคาโครงการ
               href: sales/lose-quote.md
-            - name: ปิดใบเสนอราคา
+            - name: ปิดใบเสนอราคาโครงการ
               href: sales/win-quote.md
-        - name: จัดการสัญญา
+        - name: จัดการสัญญาโครงการ
           items:
-            - name: แนวคิดหลัก - สัญญาโครงการ
+            - name: ภาพรวมจัดการสัญญาโครงการ
+              href: pro/sales/manage-contracts-sales.md
+            - name: แนวคิดของสัญญาโครงการ
               href: sales/contracts-key-concepts.md
             - name: การตั้งค่าสัญญาโครงการ
               href: sales/project-contract-settings.md
+            - name: จัดการรายการราคาของโครงการในสัญญาโครงการ
+              href: sales/contracts-manage-project-price-lists.md
+            - name: จัดการลูกค้าหลายรายในสัญญาโครงการ
+              href: sales/contracts-manage-project-price-lists.md
             - name: รายละเอียดการให้บริการตามสัญญาตามโครงการ
               items:
+                - name: ภารวมของรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                  href: sales/manage-contract-values-project-based.md
+                - name: จัดการลูกค้าหลายรายในรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                  href: sales/manage-multiple-customers-contract-line.md
                 - name: กำหนดค่าส่วนประกอบที่คิดค่าบริการของรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/configure-chargeable-contract-line.md
-                - name: นำเข้าประมาณไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                - name: ประเมินรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                  href: sales/create-estimate-contract-line.md
+                - name: นำเข้าประมาณการจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/import-estimate-project-contract-line.md
                 - name: สร้างกำหนดการใบแจ้งหนี้ในรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/invoice-schedules-contract-line.md
             - name: ยืนยันสัญญาโครงการ
               href: pro/sales/confirm-contract-sales.md
-    - name: การกำหนดราคาและต้นทุน
+            - name: คัดลอกสัญญาโครงการ
+              href: pro/sales/copy-project-contracts-sales.md
+    - name: การกำหนดราคาและการคิดต้นทุน
       items:
-        - name: ตั้งค่ารายการราคา
-          href: pricing-costing/price-list-setup.md
-        - name: รายการราคาของผลิตภัณฑ์
-          href: pricing-costing/product-price-list.md
-        - name: รายการราคาของโครงการ
+        - name: การตั้งค่ารายการราคา
           items:
-            - name: การตั้งค่ารายการราคาสำหรับการขาย
-              items:
-                - name: ตั้งค่ารายการราคาสำหรับการขาย
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: ตั้งค่าอัตราการเรียกเก็บเงินค่าแรง
-                  href: pricing-costing/set-up-labor-bill-rate.md
-                - name: ตั้งค่าอัตราต้นทุนค่าแรง
-                  href: pricing-costing/set-up-labor-cost-rate.md
-                - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับค่าใช้จ่าย
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: รายการราคาเริ่มต้น
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: การแก้ไขราคาต้นทุนสำหรับประมาณการและตามจริง
-                  href: pricing-costing/cost-price-resolution.md
+            - name: ตั้งค่ารายการราคา
+              href: pricing-costing/price-list-setup.md
+            - name: รายการราคาของผลิตภัณฑ์
+              href: pricing-costing/product-price-list.md
+            - name: ตั้งค่าอัตราการเรียกเก็บเงินค่าแรง
+              href: pricing-costing/set-up-labor-bill-rate.md
+            - name: ตั้งค่าอัตราต้นทุนค่าแรง
+              href: pricing-costing/set-up-labor-cost-rate.md
+            - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับค่าใช้จ่าย
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: ค่าเริ่มต้นและการแทนที่
           items:
-            - name: แก้ไขราคาขายสำหรับประมาณการและตามจริง
+            - name: รายการราคาเริ่มต้น
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: แทนที่รายการราคาสำหรับการขายของโครงการ
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: แก้ไขราคาต้นทุนสำหรับประมาณการและข้อมูลจริง
+              href: pricing-costing/cost-price-resolution.md
+            - name: แก้ไขราคาขายสำหรับประมาณการและข้อมูลจริง
               href: pricing-costing/sales-price-resolution.md
             - name: คัดลอกรายการราคา
               href: pricing-costing/copy-price-lists.md
@@ -139,7 +159,9 @@
             - name: ภาพรวมมิติการกำหนดราคา
               href: pricing-costing/pricing-dimensions-overview.md
             - name: ใช้ฟิลด์ที่มีอยู่เป็นมิติการกำหนดราคา
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+              items:
+                - name: ฟิลด์ Project Operations เป็นมิติการกำหนดราคา
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: ฟิลด์ที่กำหนดเองเป็นมิติการกำหนดราคา
               items:
                 - name: สร้างฟิลด์และเอนทิตีแบบกำหนดเองเป็นมิติการกำหนดราคา
@@ -156,7 +178,7 @@
           href: project-management/project-management-overview.md
         - name: ลำดับขั้นของโครงการ
           href: project-management/project-stages.md
-        - name: การนำทาง UI
+        - name: ไปยังอินเทอร์เฟซผู้ใช้
           href: project-management/navigate-ui.md
         - name: ทำความเข้าใจสถานะโครงการ
           href: project-management/understand-project-status.md
@@ -242,13 +264,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: จัดการโซนเวลาต่างๆ
               href: resource-management/manage-multiple-time-zones.md
+        - name: การใช้ประโยชน์ของทรัพยากร
+          items:
+            - name: ภาพรวมการใช้ประโยชน์ของทรัพยากร
+              href: resource-management/resource-utilization-overview.md
     - name: เวลา
       items:
-        - name: ภาพรวมของ
+        - name: ภาพรวมของเวลา
           href: time/time-entry-overview.md
         - name: สร้างรายการเวลา
           items:
-            - name: ลักษณะการทำงานของส่วนติดต่อผู้ใช้รายการเวลา
+            - name: อินเทอร์เฟซผู้ใช้รายการเวลา
               href: time/ui-behavior-time.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
@@ -306,48 +332,66 @@
       items:
         - name: ภาพรวมการอนุมัติ
           href: approvals/approvals-overview.md
+        - name: หมายเหตุสำหรับนักพัฒนา
+          items:
+            - name: หมายเหตุสำหรับนักพัฒนาสำหรับการอนุมัติ
+              href: approvals/dev-notes-approvals.md
     - name: ข้อมูลจริง
       items:
         - name: ภาพรวมข้อมูลจริง
           href: actuals/actuals-overview.md
-        - name: สมุดรายวันสำหรับบันทึกการแก้ไข
+        - name: สมุดรายวันการแก้ไข
           items:
             - name: สร้างและยืนยันสมุดรายวันการแก้ไข
               href: actuals/create-confirm-correction-journals.md
     - name: การออกใบแจ้งหนี้ชั่วคราว
       items:
-        - name: จัดการรายการคงค้างของการเรียกเก็บเงิน
+        - name: จัดการรายการคงค้างของการเรียกเก็บเงินโครงการ
           href: proforma-invoicing/manage-billing-backlog.md
-        - name: สร้างใบแจ้งหนี้ชั่วคราวด้วยตนเอง
+        - name: จัดการสถานะไม่เกินและการตรวจสอบความถูกต้อง
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: สร้างใบแจ้งหนี้โครงการชั่วคราวด้วยตนเอง
           href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: ยืนยันใบแจ้งหนี้ชั่วคราว
+        - name: จัดการใบแจ้งหนี้โครงการชั่วคราว
+          href: proforma-invoicing/manage-proforma-invoice.md
+        - name: ยืนยันใบแจ้งหนี้โครงการชั่วคราว
           href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: ใบแจ้งหนี้ที่แก้ไข
-          href: proforma-invoicing/corrective-invoices.md
-        - name: กำหนดค่าการสร้างใบแจ้งหนี้อัตโนมัติ
+        - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้โครงการ
           href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: การบัญชีของโครงการ
       items:
+        - name: ค่าเริ่มต้นของมิติทางการเงิน
+          href: project-accounting/financial-dimension-defaults.md
         - name: กำหนดค่าประเภทโครงการ
           href: project-accounting/configure-project-categories.md
         - name: กำหนดค่าการบัญชีสำหรับโครงการภายใน
           href: project-accounting/configure-accounting-internal-projects.md
         - name: กำหนดค่าการบัญชีสำหรับโครงการที่เรียกเก็บเงินได้
           href: project-accounting/configure-accounting-billable-projects.md
-- name: การปรับใช้งานอย่างง่าย - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+        - name: สมุดรายวันการรวมใน Project Operations
+          href: project-accounting/project-operations-integration-journal.md
+- name: การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
   items:
     - name: การเริ่มต้นใช้งาน
       items:
-        - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว (รุ่นใช้งานง่าย)
+        - name: ภาพรวมการปรับใช้งานแบบ Lite
+          href: pro/project-operations-overview-lite.md
+        - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite
           href: environment/lite-preview-subscription-sign-up.md
-        - name: การปรับใช้งาน Project Operations Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+        - name: ปรับใช้งาน Project Operations - Lite
           href: environment/lite-deployment.md
-        - name: ใช้การตั้งค่าสาธิตและข้อมูลการกำหนดค่า
+        - name: ใช้การตั้งค่าสาธิตและข้อมูลการกำหนดค่า - Lite
           href: environment/lite-apply-demo-setup-config-data.md
         - name: โมเดลความปลอดภัย
           href: environment/security-model.md
-    - name: กระบวนการขาย
+    - name: มีอะไรใหม่
       items:
+        - name: มีอะไรใหม่ในเดือนพฤศจิกายน 2020 - การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+          href: pro/whats-new/whats-new-nov-2020-lite.md
+    - name: กระบวนการขายของโครงการ
+      items:
+        - name: ภาพรวมกระบวนการขายของโครงการ
+          href: sales/sales-overview.md
         - name: การตั้งค่า
           items:
             - name: ผลิตภัณฑ์
@@ -356,118 +400,148 @@
               href: sales/sales-units-unit-groups.md
             - name: สกุลเงิน
               href: sales/sales-currency.md
-        - name: จัดการลูกค้าเป้าหมาย
+        - name: จัดการลูกค้าเป้าหมายของโครงการ
           href: pro/sales/managing-leads-sales.md
-        - name: จัดการโอกาสทางการขาย
+        - name: จัดการโอกาสทางการขายของโครงการ
           items:
-            - name: จัดการโอกาสทางการขายตามโครงการ
+            - name: ภาพรวมโอกาสทางการขายของโครงการ
               href: sales/manage-project-based-opportunities.md
-            - name: ส่วนหัวของโอกาสทางการขาย
+            - name: การตั้งค่าโอกาสทางการขายของโครงการ
               href: pro/sales/opportunity-header-sales.md
-            - name: รายการตามโครงการ
+            - name: จัดการรายการโอกาสทางการขายตามผลิตภัณฑ์
+              href: pro/sales/product-based-lines-sales.md
+            - name: จัดการรายการโอกาสทางการขายตามโครงการ
               href: pro/sales/project-based-lines-sales.md
+            - name: สร้างใบเสนอราคาจากโอกาสทางการขายของโครงการ
+              href: sales/link-quotes-opportunities.md
             - name: คัดลอกโอกาสทางการขายตามโครงการ
               href: sales/copy-project-based-opportunity.md
-            - name: สร้างใบเสนอราคาโครงการจากโอกาสทางการขาย
-              href: sales/link-quotes-opportunities.md
-            - name: รายการโอกาสทางการขายตามผลิตภัณฑ์
-              href: pro/sales/product-based-lines-sales.md
-            - name: ปิดโอกาสทางการขาย
+            - name: ปิดโอกาสทางการขายของโครงการ
               href: sales/close-opportunity.md
-        - name: จัดการใบเสนอราคา
+        - name: จัดการใบเสนอราคาตามโครงการ
           items:
-            - name: แนวคิดหลักของใบเสนอราคาโครงการ
+            - name: ภาพรวมใบเสนอราคาตามโครงการ
+              href: pro/sales/manage-quotes-sales.md
+            - name: แนวคิดของใบเสนอราคาโครงการ
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: ข้อมูลสรุปเกี่ยวกับใบเสนอราคาโครงการ (การขาย)
+            - name: การตั้งค่าใบเสนอราคาโครงการ
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: การจัดการลูกค้าหลายรายในใบเสนอราคาโครงการ
+            - name: ลูกค้าหลายรายในใบเสนอราคาโครงการ
               href: pro/sales/manage-multiple-customers-quote-sales.md
+            - name: รายการราคาของโครงการในใบเสนอราคาโครงการ
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: รายการใบเสนอราคาตามผลิตภัณฑ์
               items:
+                - name: ภาพรวมรายการใบเสนอราคาตามผลิตภัณฑ์
+                  href: pro/sales/product-based-quote-lines-sales.md
                 - name: รายการใบเสนอราคาตามผลิตภัณฑ์ที่มีต้นทุน
                   href: pro/sales/costing-product-based-quote-lines-sales.md
-                - name: การจัดการหน่วยที่ซับซ้อน เช่น ต่อผู้ใช้ ต่อเดือน สำหรับใบเสนอราคาตามผลิตภัณฑ์
+                - name: จัดการหน่วยที่ซับซ้อนสำหรับรายการใบเสนอราคาตามผลิตภัณฑ์
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
             - name: รายการใบเสนอราคาตามโครงการ
               items:
-                - name: จัดการรายการราคาของโครงการในใบเสนอราคาโครงการ
-                  href: pro/sales/manage-project-price-lists-sales.md
-                - name: การจัดการลูกค้าหลายรายในรายการใบเสนอราคาตามโครงการ
+                - name: ภาพรวมรายการใบเสนอราคาตามโครงการ
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
+                - name: จัดการลูกค้าหลายราย
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: แมปโครงการและงานกับรายการใบเสนอราคาตามโครงการ
+                - name: แมปโครงการและงาน
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงิน
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: ประเมินรายการใบเสนอราคาตามโครงการ
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: รายการใบเสนอราคาตามโครงการ (การขาย)
-                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: นำเข้าประมาณการสำหรับโครงการไปยังรายการใบเสนอราคาตามโครงการ
+                - name: นำเข้าการประมาณการจากโครงการ
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: กำหนดการใบแจ้งหนี้ในรายการใบเสนอราคาตามโครงการ
+                - name: จัดการกำหนดการใบแจ้งหนี้
                   href: sales/invoice-schedule-quote-line.md
-                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินของรายการใบเสนอราคา
-                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
-        - name: คัดลอกใบเสนอราคาตามโครงการ
-          href: sales/lose-quote.md
-        - name: ปิดใบเสนอราคา
-          href: pro/sales/win-quote-sales.md
-    - name: จัดการสัญญา
-      items:
-        - name: แนวคิดหลักของสัญญาโครงการ
-          href: pro/sales/contracts-key-concepts-sales.md
-        - name: ฟิลด์สัญญาโครงการและข้อมูล
-          href: pro/sales/project-contract-settings-sales.md
-        - name: รายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
+            - name: คัดลอกใบเสนอราคาตามโครงการ
+              href: sales/lose-quote.md
+            - name: ปิดใบเสนอราคาตามโครงการ
+              href: pro/sales/win-quote-sales.md
+        - name: จัดการสัญญาตามโครงการ
           items:
-            - name: ภารวมของรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
-              href: pro/sales/product-based-contract-lines-overview-sales.md
-            - name: รายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์ที่มีต้นทุน
-              href: pro/sales/cost-product-based-contract-lines-sales.md
-        - name: รายละเอียดการให้บริการตามสัญญาตามโครงการ
-          items:
-            - name: การกำหนดค่าส่วนประกอบที่คิดค่าบริการของรายละเอียดการให้บริการตามสัญญาตามโครงการ
-              href: pro/sales/configure-chargeable-components-contract-line.md
-            - name: การนำเข้าประมาณไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ
-              href: pro/sales/import-estimate-project-contract-line-sales.md
-            - name: การสร้างกำหนดการใบแจ้งหนี้ในรายละเอียดการให้บริการตามสัญญาตามโครงการ
-              href: pro/sales/invoice-schedules-contract-line-sales.md
-        - name: การคัดลอกสัญญาโครงการ
-          href: pro/sales/copy-project-contracts-sales.md
-        - name: ยืนยันสัญญาโครงการ
-          href: pro/sales/confirm-contract-sales.md
-        - name: สัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้า
-          href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-    - name: การกำหนดราคาและต้นทุน
-      items:
-        - name: ตั้งค่ารายการราคา
-          href: pricing-costing/price-list-setup.md
-        - name: รายการราคาของโครงการ
-          items:
-            - name: การตั้งค่ารายการราคาสำหรับการขาย
+            - name: ภาพรวมของสัญญาตามโครงการ
+              href: pro/sales/manage-contracts-sales.md
+            - name: แนวคิดของสัญญาโครงการ
+              href: pro/sales/contracts-key-concepts-sales.md
+            - name: การตั้งค่าสัญญาโครงการ
+              href: pro/sales/project-contract-settings-sales.md
+            - name: ลูกค้าหลายรายในสัญญาโครงการ
+              href: pro/sales/manage-multiple-customers-contract-sales.md
+            - name: รายการราคาของโครงการสำหรับสัญญาโครงการ
+              href: sales/contracts-manage-project-price-lists.md
+            - name: รายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
               items:
-                - name: ตั้งค่ารายการราคาสำหรับการขาย
-                  href: pricing-costing/sales-price-list-setup.md
-                - name: การตั้งค่าอัตราการเรียกเก็บเงินค่าแรง
-                  href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-                - name: การตั้งค่าอัตราการเรียกเก็บเงินต้นทุน
-                  href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-                - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับผลิตภัณฑ์ในแค็ตตาล็อก
-                  href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
-                - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับค่าใช้จ่าย
-                  href: pricing-costing/set-up-cost-sales-rates-expenses.md
-                - name: รายการราคาเริ่มต้น
-                  href: pricing-costing/default-project-sales-price-lists.md
-                - name: การแก้ไขราคาต้นทุนในประมาณการและตามจริง
-                  href: pro/pricing-costing/cost-price-resolution-sales.md
+                - name: ภารวมของรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
+                  href: pro/sales/product-based-contract-lines-overview-sales.md
+                - name: รายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์ที่มีต้นทุน
+                  href: pro/sales/cost-product-based-contract-lines-sales.md
+                - name: จัดการหน่วยที่ซับซ้อนสำหรับรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
+                  href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
+            - name: รายละเอียดการให้บริการตามสัญญาตามโครงการ
+              items:
+                - name: ภารวมของรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                  href: pro/sales/manage-contract-values-project-based-sales.md
+                - name: จัดการลูกค้าหลายรายในสัญญา
+                  href: pro/sales/manage-multiple-customers-contract-line-sales.md
+                - name: แมปโครงการและงานกับรายละเอียดการให้บริการตามสัญญาโครงการ
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: กำหนดค่าส่วนประกอบที่คิดค่าบริการในรายละเอียดการให้บริการตามสัญญาของโครงการ
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: ประเมินรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                  href: pro/sales/create-estimate-project-contract-line-sales.md
+                - name: นำเข้าการประมาณจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาของโครงการ
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
+                - name: จัดการกำหนดการใบแจ้งหนี้ในรายละเอียดการให้บริการตามสัญญาของโครงการ
+                  href: pro/sales/invoice-schedules-contract-line-sales.md
+            - name: คัดลอกสัญญาโครงการ
+              href: pro/sales/copy-project-contracts-sales.md
+            - name: ยืนยันสัญญาโครงการ
+              href: pro/sales/confirm-contract-sales.md
+            - name: เงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า
+              items:
+                - name: สัญญาตามเงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า - Lite
+                  href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
+                - name: ตั้งค่ากำหนดการของค่าธรรมเนียมล่วงหน้า - Lite
+                  href: pro/sales/set-up-schedule-retainers-sales.md
+                - name: สร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา - Lite
+                  href: pro/sales/create-ad-hoc-advance-sales.md
+    - name: การกำหนดราคาและการคิดต้นทุน
+      items:
+        - name: การตั้งค่ารายการราคา
+          items:
+            - name: ตั้งค่ารายการราคา
+              href: pricing-costing/price-list-setup.md
+            - name: ตั้งค่ารายการราคาสำหรับการขาย
+              href: pricing-costing/sales-price-list-setup.md
+            - name: ตั้งค่าอัตราการเรียกเก็บเงินค่าแรง - Lite
+              href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
+            - name: ตั้งค่าอัตราต้นทุนค่าแรง - Lite
+              href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
+            - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับผลิตภัณฑ์ในแค็ตตาล็อก - Lite
+              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
+            - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับค่าใช้จ่าย
+              href: pricing-costing/set-up-cost-sales-rates-expenses.md
         - name: ค่าเริ่มต้นและการแทนที่
           items:
-            - name: การแก้ไขราคาขายสำหรับประมาณการและตามจริง
+            - name: รายการราคาเริ่มต้น
+              href: pricing-costing/default-project-sales-price-lists.md
+            - name: แทนที่รายการราคาสำหรับการขายของโครงการ
+              href: pricing-costing/override-project-sales-price-list-default.md
+            - name: แก้ไขราคาต้นทุนในประมาณการและข้อมูลจริง - Lite
+              href: pro/pricing-costing/cost-price-resolution-sales.md
+            - name: แก้ไขราคาขายสำหรับประมาณการและข้อมูลจริง - Lite
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: คัดลอกรายการราคา
               href: pricing-costing/copy-price-lists.md
         - name: มิติการกำหนดราคา
           items:
+            - name: ภาพรวมมิติการกำหนดราคา
+              href: pricing-costing/pricing-dimensions-overview.md
             - name: ใช้ฟิลด์ที่มีอยู่เป็นมิติการกำหนดราคา
-              href: pricing-costing/use-existing-field-pricing-dimension.md
+              items:
+                - name: ใช้ฟิลด์ที่มีอยู่เป็นมิติการกำหนดราคา
+                  href: pricing-costing/use-existing-field-pricing-dimension.md
             - name: ฟิลด์ที่กำหนดเองเป็นมิติการกำหนดราคา
               items:
                 - name: สร้างฟิลด์และเอนทิตีแบบกำหนดเองเป็นมิติการกำหนดราคา
@@ -566,13 +640,17 @@
               href: resource-management/resource-reconciliation-overview.md
             - name: จัดการโซนเวลาต่างๆ
               href: resource-management/manage-multiple-time-zones.md
+        - name: การใช้ประโยชน์ของทรัพยากร
+          items:
+            - name: ภาพรวมการใช้ประโยชน์ของทรัพยากร
+              href: resource-management/resource-utilization-overview.md
     - name: เวลา
       items:
-        - name: ภาพรวมของ
+        - name: ภาพรวมของเวลา
           href: time/time-entry-overview.md
         - name: สร้างรายการเวลา
           items:
-            - name: ลักษณะการทำงานของส่วนติดต่อผู้ใช้รายการเวลา
+            - name: อินเทอร์เฟซผู้ใช้รายการเวลา
               href: time/ui-behavior-time.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
@@ -582,34 +660,50 @@
       items:
         - name: ภาพรวมค่าใช้จ่าย
           href: expense/expense-overview.md
-        - name: รายการค่าใช้จ่าย (รุ่นใช้งานง่าย)
+        - name: รายการค่าใช้จ่าย (Lite)
           href: expense/basic-expense.md
     - name: การอนุมัติ
       items:
         - name: ภาพรวมการอนุมัติ
           href: approvals/approvals-overview.md
+        - name: หมายเหตุสำหรับนักพัฒนา
+          items:
+            - name: หมายเหตุสำหรับนักพัฒนาสำหรับการอนุมัติ
+              href: approvals/dev-notes-approvals.md
     - name: ข้อมูลจริง
       items:
         - name: ภาพรวมข้อมูลจริง
           href: actuals/actuals-overview.md
-        - name: สมุดรายวันสำหรับบันทึกการแก้ไข
+        - name: สมุดรายวันการแก้ไข
           items:
             - name: สร้างและยืนยันสมุดรายวันการแก้ไข
               href: actuals/create-confirm-correction-journals.md
-        - name: การออกใบแจ้งหนี้ชั่วคราว
-          items:
-            - name: จัดการรายการคงค้างของการเรียกเก็บเงิน
-              href: proforma-invoicing/manage-billing-backlog.md
-            - name: การสร้างใบแจ้งหนี้ชั่วคราวด้วยตนเอง
-              href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
-            - name: ออกใบแจ้งหนี้ค่าธรรมเนียมล่วงหน้าหรือเงินทดรอง
-              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: ใบแจ้งหนี้ที่แก้ไข
-              href: proforma-invoicing/corrective-invoices.md
-            - name: กำหนดค่าการสร้างใบแจ้งหนี้แบบอัตโนมัติ
-              href: proforma-invoicing/configure-automated-invoice-creation.md
+    - name: การออกใบแจ้งหนี้ชั่วคราว
+      items:
+        - name: จัดการรายการคงค้างของการเรียกเก็บเงินโครงการ
+          href: pro/proforma-invoicing/manage-billing-backlog-sales.md
+        - name: จัดการสถานะไม่เกินและการตรวจสอบความถูกต้อง
+          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+        - name: สร้างใบแจ้งหนี้โครงการชั่วคราวด้วยตนเอง
+          href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
+        - name: จัดการใบแจ้งหนี้โครงการชั่วคราว
+          href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
+        - name: ออกใบแจ้งหนี้ค่าธรรมเนียมล่วงหน้าหรือเงินทดรองจ่าย
+          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+        - name: ยืนยันใบแจ้งหนี้โครงการชั่วคราว
+          href: pro/proforma-invoicing/confirm-proforma-invoice-sales.md
+        - name: สร้างใบแจ้งหนี้โครงการที่แก้ไข
+          href: pro/proforma-invoicing/corrective-invoices-sales.md
+        - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้โครงการ
+          href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
   items:
+    - name: มีอะไรใหม่
+      items:
+        - name: มีอะไรใหม่ในเดือนพฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
+    - name: Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
+      href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: ภาพรวมการจัดการโครงการและการบัญชี
       href: prod-pma/overview-project-management-accounting.md
     - name: การออกใบแจ้งหนี้ระหว่างบริษัท
@@ -734,12 +828,14 @@
       href: prod-exp/personal-expenses.md
 - name: Dynamics 365 Project Service Automation
   items:
-    - name: ภาพรวมของ Project Service Automation
+    - name: Project Service Automation
       href: psa/overview.md
     - name: มีอะไรใหม่
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 25, V3'
+          href: psa/whats-new-ur-25.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 24, V3'
           href: psa/whats-new-ur-24.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 23, V3'
@@ -770,79 +866,91 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation V3
           href: psa/whats-new-changed-v3.md
-    - name: ใช้งาน Project Service Automation 3.x
+    - name: วางแผนการนำไปใช้ของคุณ (รุ่นแอป 3.x)
       items:
-        - name: ภาพรวมของการใช้งาน
+        - name: การติดตั้งข้อมูลตัวอย่าง
           href: psa/install-sample-data-3-x.md
-    - name: ปรับรุ่น
+        - name: การวางแผนโครงการและคู่มือการติดตาม
+          href: psa/implementation-guides/project-planning-tracking.md
+        - name: คู่มือใบเสนอราคาพื้นฐาน การกำหนดราคา และการเรียกเก็บเงิน
+          href: psa/implementation-guides/begin-quoting-pricing-billing.md
+        - name: คู่มือใบเสนอราคาขั้นสูง การกำหนดราคา และการเรียกเก็บเงิน
+          href: psa/implementation-guides/adv-quoting-pricing-billing.md
+        - name: คู่มือการจัดการทรัพยากร
+          href: psa/implementation-guides/resource-management-guide.md
+        - name: คู่มือการรายงาน
+          href: psa/implementation-guides/reporting-guide.md
+    - name: การปรับรุ่น Project Service Automation (แอปรุ่น 3.x)
       items:
-        - name: การปรับรุ่น Project Service Automation (3.x)
+        - name: การปรับรุ่น Project Service Automation
           href: psa/upgrade-psa-home-page.md
         - name: ข้อควรพิจารณาในการปรับรุ่น - เวอร์ชัน 2.x หรือ 1.x เป็นเวอร์ชัน 3
           href: psa/upgrade-v3.md
         - name: การพัฒนา (3.x)
-          href: psa/developer-guides/overview-dev-notes-v3.x.md
-        - name: การเปลี่ยนแปลงเอนทิตี
-          href: psa/developer-guides/entity-changes-v3.x.md
-        - name: เวลาและค่าใช้จ่าย
-          href: psa/developer-guides/time-expense-changes-v3.x.md
-        - name: การจัดการทรัพยากร
-          href: psa/developer-guides/resource-management-changes-v3.x.md
-        - name: ทรัพยากรบนเว็บที่ไม่สนับสนุนใน Project Service Automation v3.x
-          href: psa/developer-guides/web-resources-deprecated-v3.x.md
-    - name: การวางแผนโครงการ
-      items:
-        - name: ภาพรวมของการวางแผนโครงการ
-          href: psa/project-planning.md
-        - name: กำหนดการโครงการ
-          href: psa/project-creating.md
-        - name: ต้นทุนโครงการและรายได้
-          href: psa/project-estimating.md
-        - name: การประมาณการยอดขายและโครงการ
-          href: psa/project-leveraging.md
-        - name: ความคืบหน้าของโครงการและการใช้ต้นทุน
-          href: psa/project-tracking.md
-        - name: แม่แบบโครงการ
-          href: psa/project-templates.md
-        - name: ลำดับขั้นของโครงการ
-          href: psa/project-stages.md
-        - name: การตั้งค่าโครงการ
-          href: psa/project-settings.md
-    - name: มิติการกำหนดราคาและต้นทุน
-      items:
-        - name: ภาพรวมของมิติการกำหนดราคาและต้นทุน
-          href: psa/pricing-costing-dimensions.md
-        - name: สร้างโซลูชันสำหรับมิติการกำหนดราคาที่กำหนดเอง
-          href: psa/custompricingdimensionssolution.md
-        - name: สร้างฟิลด์แบบกำหนดเองและเอนทิตี
-          href: psa/create-custom-fields-entities.md
-        - name: เพิ่มฟิลด์ที่กำหนดเองในการตั้งค่าราคาและเอนทิตีธุรกรรม
-          href: psa/field-references.md
-        - name: 'ตั้งค่าฟิลด์ที่กำหนดเองเป็นมิติการกำหนดราคา '
-          href: psa/set-up-pricing-dimensions.md
-        - name: อัปเดตแอตทริบิวต์ปลั๊กอินเพื่อรวมมิติการกำหนดราคาแบบใหม่
-          href: psa/update-plug-in-attributes.md
-        - name: นำองค์ประกอบมาใช้ใหม่เป็นมิติการกำหนดราคา
           items:
-            - name: ใช้ฟิลด์ที่มีอยู่ใน Project Service เป็นมิติการกำหนดราคา
-              href: psa/use-existing-field.md
-            - name: ใช้ทรัพยากรที่สามารถจองได้เป็นมิติการกำหนดราคา
-              href: psa/bookable-resource-pricing-dimension.md
-            - name: ใช้ประเภทธุรกรรมเป็นมิติการกำหนดราคา
-              href: psa/transaction-category-pricing-dimension.md
-        - name: ทรัพยากรที่จองได้ที่มีหลายบทบาทในโครงการ
-          href: psa/bookable-resource-multiple-roles.md
-        - name: ปิดมิติการกำหนดราคา
-          href: psa/turn-off-pricing-dimension.md
-    - name: การเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
+            - name: การพัฒนา (แอปรุ่น 3.x)
+              href: psa/developer-guides/overview-dev-notes-v3.x.md
+            - name: การเปลี่ยนแปลงเอนทิตี
+              href: psa/developer-guides/entity-changes-v3.x.md
+            - name: เวลาและค่าใช้จ่าย
+              href: psa/developer-guides/time-expense-changes-v3.x.md
+            - name: การจัดการทรัพยากร
+              href: psa/developer-guides/resource-management-changes-v3.x.md
+            - name: ทรัพยากรบนเว็บที่ไม่สนับสนุนใน Project Service Automation v3.x
+              href: psa/developer-guides/web-resources-deprecated-v3.x.md
+    - name: Project Service Automation (3.x)
       items:
-        - name: ภาพรวมของการเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
-          href: psa/quote-bill-price.md
-        - name: การเสนอราคา
+        - name: การวางแผนโครงการ
           items:
+            - name: โฮมเพจการวางแผนโครงการ
+              href: psa/project-planning.md
+            - name: กำหนดการโครงการ
+              href: psa/project-creating.md
+            - name: ต้นทุนโครงการและรายได้
+              href: psa/project-estimating.md
+            - name: การประมาณการยอดขายและโครงการ
+              href: psa/project-leveraging.md
+            - name: ความคืบหน้าของโครงการและการใช้ต้นทุน
+              href: psa/project-tracking.md
+            - name: แม่แบบโครงการ
+              href: psa/project-templates.md
+            - name: ลำดับขั้นของโครงการ
+              href: psa/project-stages.md
+            - name: การตั้งค่าโครงการ
+              href: psa/project-settings.md
+        - name: มิติการกำหนดราคาและต้นทุน
+          items:
+            - name: โฮมเพจมิติการกำหนดราคาและการคิดต้นทุน
+              href: psa/pricing-costing-dimensions.md
+            - name: สร้างโซลูชันสำหรับมิติการกำหนดราคาที่กำหนดเอง
+              href: psa/custompricingdimensionssolution.md
+            - name: สร้างฟิลด์แบบกำหนดเองและเอนทิตี
+              href: psa/create-custom-fields-entities.md
+            - name: เพิ่มฟิลด์ที่กำหนดเองในการตั้งค่าราคาและเอนทิตีธุรกรรม
+              href: psa/field-references.md
+            - name: 'ตั้งค่าฟิลด์ที่กำหนดเองเป็นมิติการกำหนดราคา '
+              href: psa/set-up-pricing-dimensions.md
+            - name: ปรับปรุงแอตทริบิวต์ปลั๊กอินเพื่อรวมมิติการกำหนดราคาแบบใหม่
+              href: psa/update-plug-in-attributes.md
+            - name: ใช้ฟิลด์ที่มีอยู่ในมิติการกำหนดราคา
+              items:
+                - name: ใช้ฟิลด์ที่มีอยู่ใน Project Service เป็นมิติการกำหนดราคา
+                  href: psa/use-existing-field.md
+                - name: ใช้ทรัพยากรที่สามารถจองได้เป็นมิติการกำหนดราคา
+                  href: psa/bookable-resource-pricing-dimension.md
+                - name: ใช้ประเภทธุรกรรมเป็นมิติการกำหนดราคา
+                  href: psa/transaction-category-pricing-dimension.md
+            - name: ทรัพยากรที่จองได้ที่มีหลายบทบาทในโครงการ
+              href: psa/bookable-resource-multiple-roles.md
+            - name: ปิดมิติการกำหนดราคา
+              href: psa/turn-off-pricing-dimension.md
+        - name: การเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
+          items:
+            - name: โฮมเพจการเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
+              href: psa/quote-bill-price.md
             - name: กระบวนการขาย
               href: psa/basic-sales-process.md
-            - name: หน่วยนับและกลุ่มของหน่วยนับ
+            - name: กลุ่มของหน่วยนับและหน่วยนับ
               href: psa/advanced-units.md
             - name: หน่วยองค์กร
               href: psa/advanced-organizational.md
@@ -850,21 +958,15 @@
               href: psa/basic-quote-lines.md
             - name: รายการใบเสนอราคาตามผลิตภัณฑ์
               href: psa/product-based-quote-lines.md
-            - name: การวิเคราะห์ใบเสนอราคาโครงการ
-              href: psa/basic-analyzing-quotes.md
-        - name: ราคา
-          items:
             - name: การกำหนดราคาโครงการ
               href: psa/basic-pricing.md
             - name: การกำหนดราคาแค็ตตาล็อกผลิตภัณฑ์
-              hreF: psa/product-catalog-pricing.md
+              href: psa/product-catalog-pricing.md
             - name: ธุรกรรมทางธุรกิจ
               href: psa/basic-business-transactions.md
             - name: ประมาณการ
               href: psa/estimates.md
-        - name: การเรียกเก็บเงิน
-          items:
-            - name: การวิเคราะห์ใบเสนอราคาโครงการ
+            - name: วิเคราะห์ใบเสนอราคาโครงการ
               href: psa/basic-analyzing-quotes.md
             - name: เรียกคืนรายการเวลาหรือค่าใช้จ่ายที่อนุมัติก่อนหน้านี้
               href: psa/recall-approved.md
@@ -880,71 +982,71 @@
               href: psa/invoicing.md
             - name: สถานการณ์หลายสกุลเงิน
               href: psa/advanced-currency.md
-    - name: โครงการการจัดหาทรัพยากร
-      items:
-        - name: ภาพรวมของโครงการการหาทรัพยากร
-          href: psa/resource-management.md
-        - name: มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร
-          href: psa/assign-generic-bookable-resource.md
-        - name: จองทรัพยากรที่มีชื่อว่าสามารถจองได้ให้ทีมโครงการและมอบหมายงาน
-          href: psa/assign-named-bookable-resource.md
-        - name: มอบหมายทรัพยากรให้กับงาน
-          href: psa/FAQ-assign-resources-to-tasks.md
-        - name: จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร
-          href: psa/book-named-resource.md
-        - name: การจองทรัพยากรและความเกี่ยวข้องกับการมอบหมายงาน
-          href: psa/FAQ-bookings-and-assignments.md
-        - name: ส่งคำขอทรัพยากร
-          href: psa/submit-resource-request.md
-        - name: การยอมรับหรือปฏิเสธทรัพยากรที่นำเสนอ
-          href: psa/accept-reject-proposed-resource.md
-        - name: ดูการใช้ประโยชน์ที่คิดค่าธรรมเนียมสำหรับทรัพยากร
-          href: psa/FAQ-utilization-view.md
+        - name: โครงการการจัดหาทรัพยากร
+          items:
+            - name: โฮมเพจโครงการการจัดหาทรัพยากร
+              href: psa/resource-management.md
+            - name: มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร
+              href: psa/assign-generic-bookable-resource.md
+            - name: จองทรัพยากรที่มีชื่อว่าสามารถจองได้ให้ทีมโครงการและมอบหมายงาน
+              href: psa/assign-named-bookable-resource.md
+            - name: มอบหมายทรัพยากรให้กับงาน
+              href: psa/FAQ-assign-resources-to-tasks.md
+            - name: จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร
+              href: psa/book-named-resource.md
+            - name: การจองทรัพยากรและความเกี่ยวข้องกับการมอบหมายงาน
+              href: psa/FAQ-bookings-and-assignments.md
+            - name: ส่งคำขอทรัพยากร
+              href: psa/submit-resource-request.md
+            - name: การยอมรับหรือปฏิเสธทรัพยากรที่นำเสนอ
+              href: psa/accept-reject-proposed-resource.md
+            - name: ดูการใช้ประโยชน์ที่คิดค่าธรรมเนียมสำหรับทรัพยากร
+              href: psa/FAQ-utilization-view.md
         - name: ทำให้การจองและการมอบหมายงานเชื่อมกัน
           href: psa/reconcile-booking-assignment.md
-    - name: การจัดการทรัพยากร
-      items:
-        - name: โฮมเพจการจัดการทรัพยากร
-          href: psa/resource-management-home-page.md
-        - name: จัดการทรัพยากร
-          href: psa/manage-resources.md
-        - name: แนวคิดหลัก
-          href: psa/reports-key-concepts.md
-        - name: การเติมเต็มคำขอของทรัพยากร
-          href: psa/resource-management-fulfill-requests.md
-        - name: การนำเสนอทรัพยากร
-          href: psa/resource-management-propose-resources.md
-        - name: การจองทรัพยากร
-          href: psa/resource-management-book-resources-scheduleboard.md
-        - name: วิธีการจัดสรรการจอง
-          href: psa/FAQ-allocation-methods.md
-        - name: ความต้องการการจองแบบไม่ตายตัว
-          href: psa/resource-management-softbook-requirements.md
-        - name: การจองทรัพยากรแบบไม่ตายตัว
-          href: psa/FAQ-soft-book.md
-        - name: สร้างการจองโครงการจากตารางกำหนดการ
-          href: psa/FAQ-project-booking-schedule-board.md
-        - name: โมเดลทักษะและความชำนาญ
-          href: psa/resource-management-skills-proficiency.md
-        - name: คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
-          href: psa/resource-management-faq.md
-    - name: การรายงาน
-      items:
-        - name: ภาพรวมของการรายงาน
-          href: psa/reports-reporting-dynamics-365-project-service.md
-        - name: แดชบอร์ด
-          href: psa/reports-dashboards.md
-        - name: การทำงานกับแบบจำลองข้อมูล Project Service Automation
-          href: psa/reports-working-project-service-data-model.md
-    - name: รายการเวลา
-      items:
-        - name: สร้างรายการเวลา
-          href: psa/time-entries.md
-        - name: ปฏิทินรายการเวลา
-          href: psa/time-entry-calendar.md
-        - name: ปรับแต่งการป้อนเวลารายสัปดาห์
-          href: psa/time-entry-extensibility-v3.md
-    - name: คำถามที่ถามบ่อยและการแก้ไขปัญหา
+        - name: การจัดการทรัพยากร
+          items:
+            - name: โฮมเพจการจัดการทรัพยากร
+              href: psa/resource-management-home-page.md
+            - name: จัดการทรัพยากร
+              href: psa/manage-resources.md
+            - name: แนวคิดหลัก
+              href: psa/reports-key-concepts.md
+            - name: ดำเนินการตามคำขอทรัพยากร
+              href: psa/resource-management-fulfill-requests.md
+            - name: เสนอทรัพยากร
+              href: psa/resource-management-propose-resources.md
+            - name: จองทรัพยากร
+              href: psa/resource-management-book-resources-scheduleboard.md
+            - name: วิธีการจัดสรรการจอง
+              href: psa/FAQ-allocation-methods.md
+            - name: ความต้องการการจองแบบไม่ตายตัว
+              href: psa/resource-management-softbook-requirements.md
+            - name: การจองทรัพยากรแบบไม่ตายตัว
+              href: psa/FAQ-soft-book.md
+            - name: สร้างการจองโครงการจากตารางกำหนดการ
+              href: psa/FAQ-project-booking-schedule-board.md
+            - name: โมเดลทักษะและความชำนาญ
+              href: psa/resource-management-skills-proficiency.md
+            - name: คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
+              href: psa/resource-management-faq.md
+        - name: การรายงาน
+          items:
+            - name: โฮมเพจการรายงาน
+              href: psa/reports-reporting-dynamics-365-project-service.md
+            - name: แดชบอร์ด
+              href: psa/reports-dashboards.md
+            - name: โมเดลข้อมูล Project Service Automation
+              href: psa/reports-working-project-service-data-model.md
+        - name: รายการเวลา
+          items:
+            - name: สร้างรายการเวลา
+              href: psa/time-entries.md
+            - name: ปฏิทินรายการเวลา
+              href: psa/time-entry-calendar.md
+            - name: ปรับแต่งการป้อนเวลารายสัปดาห์
+              href: psa/time-entry-extensibility-v3.md
+    - name: คำถามที่ถามบ่อยและการแก้ไขปัญหา (3.x)
       items:
         - name: ทำไมราคาที่กำหนดค่าเริ่มต้นเป็นศูนย์ในต้นทุนค่าใช้จ่ายจริง
           href: psa/FAQ-zero-price-expense-cost-actuals.md
@@ -970,61 +1072,63 @@
               href: psa/upgrade-considerations-tasks.md
         - name: เอกสาร
           href: psa/white-papers.md
-        - name: คู่มือของผู้ดูแลระบบ
-          href: psa/admin-guide.md
-        - name: ติดตั้งและกำหนดเอง
-          href: psa/install-customize.md
-        - name: ใช้ข้อมูลสาธิต
-          href: psa/use-demo-data.md
-        - name: กำหนดค่า Project Service Automation
+        - name: คู่มือผู้ดูแลระบบ
           items:
-            - name: กำหนดค่าแอปพลิเคชัน Project Service Automation
-              href: psa/configure.md
-            - name: ตั้งค่าหน่วยเวลา
-              href: psa/set-up-time-units.md
-            - name: ตั้งค่าสกุลเงินและอัตราแลกเปลี่ยน
-              href: psa/set-up-currencies-exchange-rates.md
-            - name: สร้างหน่วยองค์กร
-              href: psa/create-organizational-units.md
-            - name: ตั้งค่าความถี่ของใบแจ้งหนี้
-              href: psa/set-up-invoice-frequencies.md
-            - name: กำหนดค่าประเภทธุรกรรม
-              href: psa/configure-transaction-categories.md
-            - name: กำหนดค่าประเภทค่าใช้จ่าย
-              href: psa/configure-expense-categories.md
-            - name: สร้างรายการแค็ตตาล็อกผลิตภัณฑ์
-              href: psa/create-product-catalog-items.md
-            - name: สร้างรายการราคา
-              href: psa/create-price-list.md
-        - name: ทรัพยากร
-          items:
+            - name: คู่มือผู้ดูแลระบบ (Project Service)
+              href: psa/admin-guide.md
+            - name: ติดตั้งและกำหนดเอง
+              href: psa/install-customize.md
+            - name: ใช้ข้อมูลสาธิต
+              href: psa/use-demo-data.md
+            - name: กำหนดค่าแอป Project Service
+              items:
+                - name: กำหนดค่า Project Service
+                  href: psa/configure.md
+                - name: ตั้งค่าหน่วยเวลา
+                  href: psa/set-up-time-units.md
+                - name: ตั้งค่าสกุลเงินและอัตราแลกเปลี่ยน
+                  href: psa/set-up-currencies-exchange-rates.md
+                - name: สร้างหน่วยองค์กร
+                  href: psa/create-organizational-units.md
+                - name: ตั้งค่าความถี่ของใบแจ้งหนี้
+                  href: psa/set-up-invoice-frequencies.md
+                - name: กำหนดค่าประเภทธุรกรรม
+                  href: psa/configure-transaction-categories.md
+                - name: กำหนดค่าประเภทค่าใช้จ่าย
+                  href: psa/configure-expense-categories.md
+                - name: สร้างรายการแค็ตตาล็อกผลิตภัณฑ์
+                  href: psa/create-product-catalog-items.md
+                - name: สร้างรายการราคา
+                  href: psa/create-price-list.md
             - name: ตั้งค่าทรัพยากร
-              href: psa/set-up-resources.md
-            - name: เพิ่มทรัพยากร
-              href: psa/add-resources.md
-            - name: เพิ่มทักษะของทรัพยากร
-              href: psa/add-resource-skills.md
-            - name: ตั้งค่าโมเดลความชำนาญ
-              href: psa/set-up-proficiency-models.md
-            - name: เพิ่มบทบาททรัพยากร
-              href: psa/add-resource-roles.md
-            - name: กำหนดค่าบทบาทของทรัพยากร
-              href: psa/configure-resource-roles.md
-            - name: เชื่อมโยงทักษะกับทรัพยากร
-              href: psa/associate-skills-with-resources.md
-            - name: เชื่อมโยงทักษะกับบทบาททรัพยากร
-              href: psa/associate-skills-with-resource-roles.md
-            - name: สร้างแม่แบบชั่วโมงทำงาน
-              href: psa/create-work-hours-template.md
-            - name: นำปฏิทินไปใช้กับทรัพยากร
-              href: psa/apply-calendar-resource.md
-            - name: กำหนดค่าการตั้งค่าเพิ่มเติม
-              href: psa/configure-additional-parameters-settings.md
-            - name: เปิดใช้งาน Project Finder Mobile
-              href: psa/enable-project-finder-mobile-app-features.md
-        - name: การจัดการทรัพยากร
+              items:
+                - name: ตั้งค่าทรัพยากร (Project Service)
+                  href: psa/set-up-resources.md
+                - name: เพิ่มทรัพยากร
+                  href: psa/add-resources.md
+                - name: เพิ่มทักษะของทรัพยากร
+                  href: psa/add-resource-skills.md
+                - name: ตั้งค่าโมเดลความชำนาญ
+                  href: psa/set-up-proficiency-models.md
+                - name: เพิ่มบทบาททรัพยากร
+                  href: psa/add-resource-roles.md
+                - name: กำหนดค่าบทบาทของทรัพยากร
+                  href: psa/configure-resource-roles.md
+                - name: เชื่อมโยงทักษะกับทรัพยากร
+                  href: psa/associate-skills-with-resources.md
+                - name: เชื่อมโยงทักษะกับบทบาททรัพยากร
+                  href: psa/associate-skills-with-resource-roles.md
+                - name: สร้างแม่แบบชั่วโมงทำงาน
+                  href: psa/create-work-hours-template.md
+                - name: นำปฏิทินไปใช้กับทรัพยากร
+                  href: psa/apply-calendar-resource.md
+                - name: กำหนดค่าการตั้งค่าเพิ่มเติม
+                  href: psa/configure-additional-parameters-settings.md
+                - name: เปิดใช้งาน Project Finder Mobile
+                  href: psa/enable-project-finder-mobile-app-features.md
+        - name: คู่มือผู้จัดการทรัพยากร
           items:
-            - name: คู่มือตัวจัดการทรัพยากร
+            - name: คู่มือผู้จัดการทรัพยากร (Project Service)
               href: psa/resource-manager-guide.md
             - name: จัดการคำขอของทรัพยากร
               href: psa/manage-resource-requests.md
@@ -1036,9 +1140,9 @@
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
               href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
-        - name: การจัดการโครงการ
+        - name: คู่มือผู้จัดการโครงการ
           items:
-            - name: คู่มือของผู้จัดการโครงการ
+            - name: คู่มือผู้จัดการโครงการ (Project Service)
               href: psa/project-manager-guide.md
             - name: แสดงประมาณการของงาน
               href: psa/provide-estimates-project-during-sales-process.md
@@ -1074,21 +1178,21 @@
               href: psa/view-dashboards-reports.md
             - name: ใช้ Add-in เพื่อวางแผนการทำงานใน Microsoft Project
               href: psa/add-plan-work-microsoft-project.md
-        - name: การจัดการบัญชี
+        - name: คู่มือผู้จัดการลูกค้าองค์กร
           items:
-            - name: คู่มือของผู้จัดการลูกค้าองค์กร
+            - name: คู่มือผู้จัดการลูกค้าองค์กร (Project Service)
               href: psa/account-manager-guide.md
             - name: สร้างบัญชีลูกค้า
               href: psa/create-customer-account.md
-            - name: สร้างโอกาสทางการขายสำหรับผลิตภัณฑ์
+            - name: สร้างโอกาสทางการขายของโครงการ
               href: psa/create-project-opportunity.md
             - name: สร้างใบเสนอราคาโครงการ
               href: psa/create-project-quote.md
             - name: สร้างสัญญาโครงการ
               href: psa/create-project-contract.md
-        - name: เวลาและค่าใช้จ่าย
+        - name: เวลา ค่าใช้จ่าย และการทำงานร่วมกัน
           items:
-            - name: เวลา ค่าใช้จ่าย และการทำงานร่วมกัน
+            - name: คู่มือเวลา ค่าใช้จ่าย และการทำงานร่วมกัน (Project Service)
               href: psa/time-expense-collaboration-guide.md
             - name: ดาวน์โหลดแอป
               href: psa/get-apps.md
@@ -1106,12 +1210,13 @@
               href: psa/allow-someone-else-enter-time-entry-expense.md
             - name: การจัดกำหนดการลาหยุด
               href: psa/schedule-time-off.md
-            - name: 'ทำงานร่วมกันโดยใช้กลุ่ม Office 365](collaborate-project-team-members-office-365-groups.md'
+            - name: ทำงานร่วมกันโดยใช้กลุ่ม Office 365
+              href: psa/collaborate-project-team-members-office-365-groups.md
             - name: ค้นหาโครงการด้วย Project Finder Mobile
               href: psa/find-next-project-finder-mobile-app.md
-            - name: คู่มือฮับทรัพยากรของโครงการ
+            - name: คู่มือศูนย์กลางทรัพยากรของโครงการ
               href: psa/project-resource-hub-users-guide.md
-        - name: หมายเหตุสำหรับนักพัฒนา
+        - name: หมายเหตุสำหรับนักพัฒนา (แอปรุ่น 2.x)
           items:
             - name: เพิ่มฟอร์มที่กำหนดเองสำหรับเอนทิตี
               href: psa/developer-guides/add-custom-qoi-forms-v2.x.md
