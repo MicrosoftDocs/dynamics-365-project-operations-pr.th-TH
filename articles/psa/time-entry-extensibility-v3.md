@@ -3,7 +3,7 @@ title: ปรับแต่งการป้อนข้อมูลเวล�
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้กฎทางธุรกิจแบบกำหนดเองที่สนับสนุนการปฏิบัติขององค์กร
 author: stsporen
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cc395e77e987dac062251ef87fcf8295305178e2
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c4a508f2a67f87302f8b81640d2031fd5d2627b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086019"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127946"
 ---
 # <a name="customize-weekly-time-entry"></a>ปรับแต่งการป้อนข้อมูลเวลารายสัปดาห์ 
 

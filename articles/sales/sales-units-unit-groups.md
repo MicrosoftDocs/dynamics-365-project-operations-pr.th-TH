@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 345a4f38ad0bc5acddb90cfd8cb3e92154e46513
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086055"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131051"
 ---
 # <a name="units-and-unit-groups"></a>หน่วยนับและกลุ่มของหน่วยนับ
 
@@ -45,4 +45,4 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 2. เลือก **เพิ่มหน่วยใหม่** และบนเพจ **สร้างด่วน: หน่วย** ในฟิลด์ **ชื่อ** ให้ป้อนชื่อของหน่วย
 3. ในฟิลด์ **ปริมาณ** ให้ป้อนปริมาณที่หน่วยจะมี ตัวอย่างเช่น ถ้ากล่องประกอบด้วยสองชิ้นส่วน ให้ป้อน "2" 
 4. ในฟิลด์ **หน่วยฐาน** ให้เลือกหน่วยฐานเพื่อสร้างหน่วยวัดต่ำสุดสำหรับหน่วย ตัวอย่างเช่น คุณอาจเลือก "ชิ้น"
-5. เลือก **บันทึก** :
+5. เลือก **บันทึก**:

@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e589465eb98723b3b49c5d96e263eb3abf15eb2c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 920388b622eaace1787428facbd12a0608615fe0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085972"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131006"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>เพิ่มฟิลด์แบบกำหนดเองที่ต้องการในการตั้งค่าราคาและเอนทิตีธุรกรรม
 

@@ -3,7 +3,7 @@ title: มีอะไรใหม่หรือมีการเปลี่�
 description: หัวข้อนี้แสดงรายการคุณลักษณะและการแก้ไขที่พร้อมใช้งานใน Project Service Automation รุ่นการปรับปรุง 19 V3
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 05/05/2020
 ms.topic: article
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ecc923cccfad21985025ab9d8006aaff16afc25f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e116bcbb8e9d184b7b894709c893aaf1dadefc2f
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085885"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4126865"
 ---
 # <a name="project-service-automation-update-release-19-v3"></a>Project Service Automation รุ่นการปรับปรุง 19 V3
 

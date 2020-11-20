@@ -3,7 +3,7 @@ title: จัดการคำขอของทรัพยากร
 description: วิธีการจัดการคำขอของทรัพยากรใน Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 49a2d2102246126f6edc9cb36a072583c566c95a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 11d7e603755c9339c2d43b79ef65c27e3bb6e6fd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085931"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129026"
 ---
 # <a name="manage-resource-requests-project-service"></a>จัดการคำขอของทรัพยากร (Project Service)
 
@@ -37,7 +37,7 @@ ms.locfileid: "4085931"
   
     ทำสิ่งต่อไปนี้เพื่อปรับปรุงการค้นหาของคุณ:  
   
-   -   เลือกมุมมองหรือลำดับการจัดเรียงจากด้านบนของหน้าจอ คุณยังสามารถเลือกว่าจะแสดงความพร้อมใช้งานสำหรับ **วัน** , **สัปดาห์** หรือ **เดือน** และใช้ลูกศรเพื่อดูระยะเวลาก่อนหน้าหรือถัดไป  ใช้กล่องค้นหาเพื่อค้นหาทรัพยากรที่ระบุ  
+   -   เลือกมุมมองหรือลำดับการจัดเรียงจากด้านบนของหน้าจอ คุณยังสามารถเลือกว่าจะแสดงความพร้อมใช้งานสำหรับ **วัน**,**สัปดาห์** หรือ **เดือน** และใช้ลูกศรเพื่อดูระยะเวลาก่อนหน้าหรือถัดไป  ใช้กล่องค้นหาเพื่อค้นหาทรัพยากรที่ระบุ  
   
    -   คลิก **ตัวเลือก** เพื่อเปลี่ยนสิ่งที่แสดง ตัวอย่างเช่น คุณสามารถแสดงคำอธิบายแบบแผนชุดสีสำหรับการจองชนิดต่างๆ หรือคุณสามารถเลือกให้แสดงเฉพาะการจองบางชนิด (สำหรับตัวอย่าง การจองแบบตายตัว หรือการจองแบบไม่ตายตัว)  
   

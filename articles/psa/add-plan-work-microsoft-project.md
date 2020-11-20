@@ -3,7 +3,7 @@ title: ใช้ Add-in ของ Project Service เพื่อวางแผ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการเพิ่ม การตั้งค่าคอนฟิก และการใช้ add-in ของ Microsoft Project สำหรับ Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 04/06/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1d988419ae5a9d57532902d2553cd7de147e27c1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086062"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129701"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>ใช้ Add-in Project Service Automation เพื่อวางแผนการทำงานของคุณใน Microsoft Project
 
