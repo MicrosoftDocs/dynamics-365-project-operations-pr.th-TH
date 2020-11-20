@@ -1,23 +1,33 @@
 ---
-title: ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service สำหรับ Project Operations
+title: ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าและการใช้ข้อมูลการกำหนดค่าใน Project Operations
 author: sigitac
 manager: Annbe
-ms.date: 10/01/2020
+ms.date: 11/04/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5e72b88a4dae1eb89859fdfd55f6d5e6ee5befcd
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 7de8db5e91265c77c79f34a513bf27d9a55b789a
+ms.sourcegitcommit: 14aa380759214713d9bf560f5a7f619b7f4bd5b8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085805"
+ms.lasthandoff: 11/05/2020
+ms.locfileid: "4401151"
 ---
-# <a name="set-up-and-apply-configuration-data-in-the-common-data-service-for-project-operations"></a>ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service สำหรับ Project Operations
+# <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service 
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+
+## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
+
+ก่อนที่คุณจะกำหนดค่าข้อมูลใน Common Data Service (CDS) ต้องปฏิบัติตามข้อกำหนดเบื้องต้นต่อไปนี้:
+
+1.  จัดเตรียมสภาพแวดล้อม CDS และสภาพแวดล้อม Dynamics 365 Finance สำหรับ Project Operations
+2.  ข้อมูลนิติบุคคลจาก Dynamics 365 Finance ถูกแบ่งปันกับสภาพแวดล้อม CDS ซึ่งหมายความว่าเอนทิตี **บริษัท** ใน CDS มีเรกคอร์ดบริษัทดังต่อไปนี้:
+  - THPM
+  - USPM
+  - GBPM
 
 ## <a name="install-setup-and-configuration-data"></a>ติดตั้งโปรแกรมตั้งค่าและข้อมูลการกำหนดค่า
 
@@ -114,10 +124,10 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
  
 12. ปรับปรุงฟิลด์ต่อไปนี้:
 
- - **บริษัทเริ่มต้น** : USPM
- - **หน่วยองค์กรเริ่มต้น** : Contoso Robotics Global
- - **ความถี่ของใบแจ้งหนี้** : วันที่เจ็ดและวันสุดท้าย
- - **แม่แบบชั่วโมงทำงาน** : เปลี่ยนเป็นแม่แบบที่คุณสร้างขึ้น
+ - **บริษัทเริ่มต้น**: USPM
+ - **หน่วยองค์กรเริ่มต้น**: Contoso Robotics Global
+ - **ความถี่ของใบแจ้งหนี้**: วันที่เจ็ดและวันสุดท้าย
+ - **แม่แบบชั่วโมงทำงาน**: เปลี่ยนเป็นแม่แบบที่คุณสร้างขึ้น
 
 13. เลือก **บันทึก** 
 
