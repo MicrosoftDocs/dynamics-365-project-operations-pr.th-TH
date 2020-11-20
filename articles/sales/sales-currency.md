@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1db7e76dbb220954b9f9088b2168eed1a1902abc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085964"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121241"
 ---
 # <a name="currency"></a>สกุลเงิน
 
@@ -31,7 +31,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 สกุลเงินจะใช้เพื่อกำหนดราคาสำหรับผลิตภัณฑ์ในแค็ตตาล็อกผลิตภัณฑ์ และต้นทุนของการทำธุรกรรม เช่น ใบสั่งขาย ถ้าลูกค้าของคุณแพร่กระจายตามพื้นที่ ให้เพิ่มสกุลเงินของพวกเขาเพื่อจัดการธุรกรรมของคุณ เพิ่มสกุลเงินที่เหมาะสมที่สุดสำหรับความจำเป็นทางธุรกิจในปัจจุบันและในอนาคต  
 
 > [!NOTE]
-> หากสภาพแวดล้อมของคุณคือสภาพแวดล้อม Common Data Service แสดงว่าคุณอยู่ในศูนย์จัดการ Power Platform และคุณเลือกเพจ **สกุลเงิน** ( **สภาพแวดล้อม** > [เลือกสภาพแวดล้อม] > **การตั้งค่า** > **ธุรกิจ** > **สกุลเงิน** ) เพจดังกล่าวจะว่างเปล่า นี่เป็นเพราะไม่รองรับการตั้งค่าสกุลเงินในสภาพแวดล้อม Common Data Service
+> หากสภาพแวดล้อมของคุณคือสภาพแวดล้อม Common Data Service แสดงว่าคุณอยู่ในศูนย์จัดการ Power Platform และคุณเลือกเพจ **สกุลเงิน** (**สภาพแวดล้อม** > [เลือกสภาพแวดล้อม] > **การตั้งค่า** > **ธุรกิจ** > **สกุลเงิน**) เพจดังกล่าวจะว่างเปล่า นี่เป็นเพราะไม่รองรับการตั้งค่าสกุลเงินในสภาพแวดล้อม Common Data Service
 
 ## <a name="add-a-currency"></a>เพิ่มสกุลเงิน  
 ก่อนที่คุณจะเริ่มขั้นตอนนี้ ตรวจสอบว่า Security role ของคุณมีสิทธิ์ของผู้ดูแลระบบ 

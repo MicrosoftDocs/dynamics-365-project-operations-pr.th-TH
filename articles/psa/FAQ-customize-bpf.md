@@ -2,7 +2,7 @@
 title: ฉันจะกำหนดโฟลว์กระบวนการธุรกิจของลำดับขั้นของโครงการได้อย่างไร?
 description: ภาพรวมของวิธีการกำหนดโฟลว์กระบวนการธุรกิจของลำดับขั้นของโครงการเอง
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/11/2018
@@ -18,18 +18,18 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2dccc33088cd9e49e7ffe609f9d9754ef33a5dba
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: a999bbffff848db7a6349df380d9ed5e73c143ab
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086118"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4125067"
 ---
 # <a name="how-do-i-customize-the-project-stages-business-process-flow"></a>ฉันจะกำหนดโฟลว์กระบวนการธุรกิจของลำดับขั้นของโครงการได้อย่างไร?
 [!INCLUDE[cc-applies-to-psa-app-2-4x-9-0-platform](../includes/cc-applies-to-psa-app-2-4x-9-0-platform.md)]
 [!INCLUDE[cc-applies-to-psa-app-1x-8-2-platform](../includes/cc-applies-to-psa-app-1x-8-2-platform.md)]
 
-มีข้อจำกัดที่ทราบในรุ่นก่อนหน้าของแอพพลิเคชัน Project Service ที่ชื่อของขั้นตอนในโฟลว์กระบวนการธุรกิจของ Project Stages ต้องเหมือนกับชื่อที่เป็นภาษาอังกฤษที่คาดไว้ ( **Quote** **Plan** **Close** ) มิฉะนั้น ตรรกะทางธุรกิจ ซึ่งขึ้นกับชื่อขั้นตอนภาษาอังกฤษ จะไม่ทำงานตามที่คาดไว้ นั่นคือเหตุผลที่คุณไม่คุ้นเคยกับการกระทำ เช่น **สลับกระบวนการ** หรือ **แก้ไขกระบวนการ** พร้อมใช้งานบนแบบฟอร์มโครงการ และการกำหนดโฟลว์กระบวนการธุรกิจเองไม่ได้รับการสนับสนุน 
+มีข้อจำกัดที่ทราบในรุ่นก่อนหน้าของแอพพลิเคชัน Project Service ที่ชื่อของขั้นตอนในโฟลว์กระบวนการธุรกิจของ Project Stages ต้องเหมือนกับชื่อที่เป็นภาษาอังกฤษที่คาดไว้ (**Quote** **Plan** **Close**) มิฉะนั้น ตรรกะทางธุรกิจ ซึ่งขึ้นกับชื่อขั้นตอนภาษาอังกฤษ จะไม่ทำงานตามที่คาดไว้ นั่นคือเหตุผลที่คุณไม่คุ้นเคยกับการกระทำ เช่น **สลับกระบวนการ** หรือ **แก้ไขกระบวนการ** พร้อมใช้งานบนแบบฟอร์มโครงการ และการกำหนดโฟลว์กระบวนการธุรกิจเองไม่ได้รับการสนับสนุน 
 
 ข้อจำกัดนี้ถูกระบุไว้ในรุ่น 2.4.5.48 และรุ่นที่ใหม่กว่า บทความนี้แสดงวิธีแก้ไขปัญหาที่แนะนำ ถ้าคุณต้องการกำหนดโฟลว์กระบวนการธุรกิจเริ่มต้นสำหรับรุ่นก่อนหน้านี้  
 

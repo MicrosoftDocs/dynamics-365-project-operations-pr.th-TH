@@ -3,7 +3,7 @@ title: การจองทรัพยากรแบบไม่ตายต�
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจัดกำหนดการอย่างไม่แน่นอนหรือจองสมาชิกทีมโครงการแบบไม่ตายตัว
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +12,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: cb506a519dbc490ecdd579edf1e3fa5dd0153bdb
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: af71ff9d60e237a9d1379b3ccd4c0d5ffce411e4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086057"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122231"
 ---
 # <a name="soft-book-a-resource"></a>การจองทรัพยากรแบบไม่ตายตัว
 

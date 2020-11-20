@@ -3,7 +3,7 @@ title: กำหนดการโครงการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการสร้างกำหนดการ
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 3/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9a6b27050a19d8a7f2ed35f74b42bb4f371ad069
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bad7a8712057b60d202c37cc75ea68bf04fd4cc9
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085967"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123266"
 ---
 # <a name="project-schedules"></a>กำหนดการโครงการ 
 
@@ -83,12 +83,12 @@ ms.locfileid: "4085967"
 
 ตาราง **Schedule** สามารถใช้งานได้และสามารถใช้กับโปรแกรมอ่านหน้าจอ เช่น Narrator, JAWS, or NVDA ได้ คุณสามารถเลื่อนผ่านพื้นที่ของตารางโดยการใช้ปุ่มลูกศร เช่นเดียวกับใน Microsoft Excel คุณสามารถใช้กดปุ่ม Tab เพื่อยกระดับกาารตอบโต้กับ UI elements และคุณสามารถใช้ปุ่มลูกศรชี้ลง ปุ่ม Enter หรือ Spacebar ในการเลือกและเรียกใช้ drop-down menus ส่วนหัวของคอลัมน์ก็สามารถตอบโต้ได้เช่นกัน คุณสามารถซ่อนหรือแสดงคอลัมน์ โดยการใช้ปุ่ม Tab และปุ่มลูกศร ในการเลื่อนผ่านส่วนหัวของคอลัมน์ และใช้ปุ่ม action บนแถบเครื่องมือ นอกจากนี้ คุณสามารถใช้ทางลัดของคีย์บอร์ดดังต่อไปนี้
 
-- **การรีเฟรช** : ALT+SHIFT+F5
-- **การเพิ่ม** : ALT+SHIFT+Insert
-- **การลบ** : ALT+SHIFT+Delete
-- **การเลื่อนขึ้นลง** : ALT+SHIFT+Up/Down arrows
-- **การย่อหน้าและการเยื้องไปด้านหน้า** : ALT_SHIFT+Left/Right arrows
-- **การเพิ่มหรือลดลำดับ** : ALT+SHIFT+Plus/Minus keys
+- **การรีเฟรช**: ALT+SHIFT+F5
+- **การเพิ่ม**: ALT+SHIFT+Insert
+- **การลบ**: ALT+SHIFT+Delete
+- **การเลื่อนขึ้นลง**: ALT+SHIFT+Up/Down arrows
+- **การย่อหน้าและการเยื้องไปด้านหน้า**: ALT_SHIFT+Left/Right arrows
+- **การเพิ่มหรือลดลำดับ**: ALT+SHIFT+Plus/Minus keys
 
 ## <a name="task-attributes"></a>แอตทริบิวต์งาน
 
@@ -98,7 +98,7 @@ ms.locfileid: "4085967"
  
 ### <a name="schedule-attributes"></a>แอททริบิวต์กำหนดการ
 
-คุณสมบัติ **ความพยายาม** , **วันเริ่มต้น** , **วันสิ้นสุด** , and **ระยะเวลา** เป็นตัวกำหนดกำหนดการของงาน
+คุณสมบัติ **ความพยายาม**, **วันเริ่มต้น**, **วันสิ้นสุด**, and **ระยะเวลา** เป็นตัวกำหนดกำหนดการของงาน
 
 คุณลักษณะของกำหนดการเพิ่มเติม ได้แก่:
 
@@ -110,7 +110,7 @@ ms.locfileid: "4085967"
 
 คุณลักษณะของการจ้างงานจะสามารถใช้ได้ในฟิลด์ **Resources** ในกำหนดการ คุณมาสารถหาทรัพยากรที่มีอยู่ หรือคลิก **Create** และในหน้าต่าง **Quick Create** เพิ่มข้อมูลสมาชิกทีมของโครงการเป็นทรัพยากรใหม่
 
-ฟิลด์ **Role** , **Resourcing Unit** , and **Position Name** จะถูกใช้ในการอธิบายความต้องการของแรงงานสำหรับงาน คุณลักษณะเหล่านี้ของพนักงานและกำหนดการงานจะถูกใช้ในการเสาะหาทรัพยากรที่มีอยู่เพื่อมาทำงานนี้
+ฟิลด์ **Role**, **Resourcing Unit**, and **Position Name** จะถูกใช้ในการอธิบายความต้องการของแรงงานสำหรับงาน คุณลักษณะเหล่านี้ของพนักงานและกำหนดการงานจะถูกใช้ในการเสาะหาทรัพยากรที่มีอยู่เพื่อมาทำงานนี้
 
 **บทบาท** ระบุชนิดของทรัพยากรที่ต้องการใช้ในงานนี้
 

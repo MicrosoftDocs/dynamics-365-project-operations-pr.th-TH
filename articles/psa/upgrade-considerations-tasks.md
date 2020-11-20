@@ -2,7 +2,7 @@
 title: ข้อควรพิจารณาในการอัพเกรดสำหรับโครงสร้างการแบ่งงาน
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการอัพเกรดโครงสร้างการแบ่งงานจาก Project Service Automation 2.x เป็น 3.x.
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 169dc24f0d1ae151ea5927123fb738221de88250
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0b75fd372732f42a3557aaa5eccec1f24a644941
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086014"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121826"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>ข้อควรพิจารณาในการอัพเกรดสำหรับโครงสร้างการแบ่งงาน
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับการอัพเกรดโครงสร้างการแบ่งงานจาก Project Service Automation 2.x เป็น 3.x. หัวข้อนี้กำหนดสถานะสุขภาพของโครงการใน Project Service Automation (PSA) ที่จำเป็นสำหรับการอัพเกรดที่ประสบความสำเร็จ นอกจากนี้ยังมีข้อมูลเกี่ยวกับเงื่อนไขการปิดกั้นทั่วไปที่จะทำให้การอัพเกรดล้มเหลว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดงานของโครงการและฟังก์ชันภายในกำหนดการโครงการ ให้ดูที่ [ตารางเวลาโครงการ](project-creating.md)

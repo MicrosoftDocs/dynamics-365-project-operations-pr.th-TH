@@ -3,7 +3,7 @@ title: สร้างราคาตลาด
 description: วิธีการสร้างราคาตลาดใน Project Service
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf75286fd1837e27a9b6053ccb21b60771ee197d
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 08d93ad86d782922df6b22370749628ddbdc0718
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085968"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122051"
 ---
 # <a name="create-a-price-list-project-service"></a>สร้างราคาตลาด (Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "4085968"
   
 2.  คลิก **สร้าง**  
   
-3.  ใน **บริบท** เลือกว่าราคาตลาดนี้สำหรับ **ต้นทุน** , **ซื้อ** หรือ **ขาย**  
+3.  ใน **บริบท** เลือกว่าราคาตลาดนี้สำหรับ **ต้นทุน**, **ซื้อ** หรือ **ขาย**  
   
 4.  ใน **ชื่อ** ป้อนชื่อสำหรับราคาตลาด  
   
@@ -47,7 +47,7 @@ ms.locfileid: "4085968"
   
 6.  ใน **หน่วยเวลา** ระบุรอบระยะเวลาที่มีใช้ราคา เช่นวันหรือชั่วโมง  
   
-7.  กรอกข้อมูล **วันเริ่ม** , **วันสิ้นสุด** และ **คำอธิบาย** ตามความจำเป็น  
+7.  กรอกข้อมูล **วันเริ่ม**, **วันสิ้นสุด** และ **คำอธิบาย** ตามความจำเป็น  
   
 8.  คลิก **บันทึก** เพื่อสร้างเรกคอร์ดเพื่อที่คุณจะสามารถทำการแก้ไขตอไปได้  
   

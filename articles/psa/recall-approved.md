@@ -3,7 +3,7 @@ title: เรียกคืนรายการเวลาหรือรา�
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการเรียกคืนธุรกรรมเวลาหรือค่าใช้จ่ายที่ได้รับอนุมัติก่อนหน้า
 author: rumant
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/08/2019
@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7bacd70881a6c463cc449a365173da5338a3d3fc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 102da39d5940874a8e1f4220437ecdf386a7187b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085979"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120566"
 ---
 # <a name="recall-approved-time-or-expense-entries"></a>เรียกคืนรายการเวลาหรือรายการค่าใช้จ่ายที่อนุมัติ
 

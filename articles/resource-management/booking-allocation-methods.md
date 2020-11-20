@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c2a964c18c7eae61c5a0239da3b18da31b6ad574
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: cc539a376088627aa8d3e9678b2aec4bd5d0edc3
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085882"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121511"
 ---
 # <a name="booking-allocation-methods"></a>วิธีการจัดสรรการจอง
 
@@ -39,7 +39,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 - [กำลังการผลิตเป็นเปอร์เซ็นต์](#percentage)
 - [กระจายชั่วโมงเท่าๆ กัน](#evenly)
 - [ชั่วโมงเน้นช่วงต้น](#front)
-- [ ไม่มี](#none)
+- [ไม่มี](#none)
 
 ### <a name="full-capacity"></a><a name="full"></a>เต็มกำลังการผลิต 
 วิธีกำลังการผลิตแบบเต็ม จองกำลังการผลิตแบบเต็มของทรัพยากร สำหรับวันที่เริ่มต้นและวันที่สิ้นสุดที่ระบุ ตัวอย่างเช่น ถ้าทรัพยากรมีการตั้งค่าปฏิทินให้ทำงาน 8 ชั่วโมงต่อวัน 5 วันต่อสัปดาห์ การตั้งค่าวันที่เริ่มต้นและวันที่สิ้นสุดที่ครอบคลุม 5 วันทำงาน จะจองทรัพยากรสำหรับ 40 ชั่วโมง การจองเสร็จสิ้นโดยไม่คำนึงถึงกำลังการผลิตที่เหลือของทรัพยากร ถ้าทรัพยากรถูกจองไว้แล้วในระยะเวลานั้นบนโครงการอื่น เวลา 40 ชั่วโมงจะถูกจองเป็นชั่วโมงเพิ่มเติม ซึ่งอาจนำไปสู่การจองเกิน

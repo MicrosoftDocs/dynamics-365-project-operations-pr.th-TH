@@ -6,7 +6,7 @@ manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: f949c639530aecf9f7368925208ab12b68d2062e
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 97030689eddb88576ffcf9dd848f8a0776512192
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085960"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122951"
 ---
 # <a name="create-estimates-on-a-quote-line"></a>สร้างการประมาณในรายการใบเสนอราคา
 
@@ -83,7 +83,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 2. เลือก **ค้นหา** และค้นหาปลั๊กอินที่จะปรับปรุง
 3. เลือกปลั๊กอิน จากนั้นบนหน้าหลักให้เลือก **เลือก**
 4. เลือกขั้นตอนของปลั๊กอินที่จะปรับปรุง คลิกขวา และจากนั้นเลือก **การปรับปรุง**
-5. ในกล่องโต้ตอบ **ปรับปรุงขั้นตอนที่มีอยู่** ในฟิลด์ **การกรองแอตทริบิวต์** เลือกปุ่มจุดไข่ปลา ( **...** ):
+5. ในกล่องโต้ตอบ **ปรับปรุงขั้นตอนที่มีอยู่** ในฟิลด์ **การกรองแอตทริบิวต์** เลือกปุ่มจุดไข่ปลา (**...**):
 6. ในกล่องโต้ตอบ **เลือกแอตทริบิวต์** เลือกกล่องกาเครื่องหมายสำหรับแอตทริบิวต์แบบกำหนดเอง
 7. เลือก **ตกลง** เพื่อปิดกล่องโต้ตอบ และจากนั้นเลือก **ขั้นตอนการปรับปรุง**
 8. ทำซ้ำขั้นตอนที่ 1 ถึง 7 สำหรับปลั๊กอินที่สอง

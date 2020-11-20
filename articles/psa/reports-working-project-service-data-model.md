@@ -3,7 +3,7 @@ title: การทำงานกับแบบจำลองข้อมู�
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการทำงานกับแบบจำลองข้อมูล
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 19e999e16a5bf6321a5a61208c8654f7870e6007
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8d63a1b36abe0a154c43e99738340f32f28c2f5e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086117"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4120296"
 ---
 # <a name="working-with-the-project-service-automation-data-model"></a>การทำงานกับแบบจำลองข้อมูล Project Service Automation
 

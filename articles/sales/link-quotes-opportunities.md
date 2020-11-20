@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 606098473db479d0015e3a7a3c01a3d3b6de9db1
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085844"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118136"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>สร้างใบเสนอราคาโครงการจากโอกาสทางการขาย
 
@@ -30,7 +30,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 หากต้องการสร้างใบเสนอราคาโครงการจากโอกาสทางการขาย ให้ทำตามขั้นตอนต่อไปนี้
 
 1. เปิดเพจ **โอกาสทางการขายของโครงการ** และเลือกแท็บ **ใบเสนอราคา** 
-2. บนตารางย่อย **ใบเสนอราคา** เลือก **+** เพื่อสร้างใบเสนอราคาของโครงการใหม่ที่อิงตามโอกาสทางการขาย รายการโอกาสทางการขายและรายการราคาโครงการที่เกี่ยวข้องทั้งหมดจะมีการคัดลอกไปยังใบเสนอราคาใหม่จากโอกาสทางการขาย
+2. บนกริดย่อย **ใบเสนอราคา** เลือก **+** เพื่อสร้างใบเสนอราคาโครงการใหม่ตามโอกาสทางการขาย รายการโอกาสทางการขายและรายการราคาโครงการที่เกี่ยวข้องทั้งหมดจะมีการคัดลอกไปยังใบเสนอราคาใหม่จากโอกาสทางการขาย
 
 ## <a name="from-the-opportunity-sales-process-flow"></a>จากโฟลว์กระบวนการขายของโอกาสทางการขาย
 

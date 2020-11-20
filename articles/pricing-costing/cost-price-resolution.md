@@ -5,15 +5,15 @@ author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d3422ef2eacc1e0617e60d41b7ddbcefe44d5b90
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: c447e725753d738662f33cc9a5f20ec1a72b2e18
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085794"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119721"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>การแก้ไขราคาต้นทุนสำหรับประมาณการและตามจริง
 

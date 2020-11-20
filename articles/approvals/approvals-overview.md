@@ -5,15 +5,15 @@ author: stsporen
 manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 37994422e9146765076fdbb77f5c763b4f1d0802
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 14c6914cf9b5fb52e7554e51604e79f0920064df
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085792"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4123851"
 ---
 # <a name="approvals-overview"></a>ภาพรวมการอนุมัติ
 
@@ -27,7 +27,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 ## <a name="approve-an-entry"></a>อนุมัติรายการ
 ฟอร์ม **การอนุมัติ** ช่วยให้คุณสามารถสลับระหว่างมุมมองต่างๆ เพื่อให้คุณสามารถดูการอนุมัติชนิดต่างๆ ได้
   
-1. ไปที่ฟอร์ม **การอนุมัติ** และเลือก **ค่าใช้จ่าย** , **เวลา** หรือ **การเรียกคืน**
+1. ไปที่ฟอร์ม **การอนุมัติ** และเลือก **ค่าใช้จ่าย**, **เวลา** หรือ **การเรียกคืน**
 2. ตรวจสอบการอนุมัติแต่ละรายการ และเลือกรายการที่คุณต้องการอนุมัติ
 3. เลือก **อนุมัติ** เพื่ออนุมัติรายการที่เลือก
 ระบบจะประมวลผลรายการเหล่านี้และสร้างข้อมูลจริงหรือการจอง
