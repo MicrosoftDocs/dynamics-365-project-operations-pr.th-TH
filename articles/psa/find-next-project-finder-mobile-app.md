@@ -3,7 +3,7 @@ title: ค้นหาโครงการถัดไปของคุณด�
 description: วิธีการค้นหาโครงการต่อไปของคุณที่มีแอป Project Finder Mobile สำหรับ Project Service
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: be88ee348d11347365ddad28516a0d4bc02b4634
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5823ba6d17aea01f04b7b53eb02c886fff058730
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086036"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132676"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>ค้นหาโครงการต่อไปของคุณที่มีแอพลิเคชัน Project Finder Mobile (Project Service)
 

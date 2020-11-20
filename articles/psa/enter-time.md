@@ -3,7 +3,7 @@ title: ป้อนเวลา
 description: วิธีการป้อนเวลาใน Project Service
 author: revathimuthiah
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4db1e62e062aa5024c8b8807e155fbd543af1059
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b06062cf21cacedda759cc7bf7f940fc33f16bd0
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086135"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132896"
 ---
 # <a name="enter-time-project-service"></a>ป้อนเวลา (Project Service)
 
@@ -51,7 +51,7 @@ ms.locfileid: "4086135"
   
    ถ้าคุณกำลังใช้แอปสำหรับมือถือ:  
   
-9. จากเมนู ไปที่ **รายการเวลา**     คุณสามารถสลับไปดู **วัน** , **สัปดาห์** หรือ **เดือน** หรือการนำทางไปยังรอบระยะเวลาก่อนหน้าหรือถัดไปได้  
+9. จากเมนู ไปที่ **รายการเวลา**     คุณสามารถสลับไปดู **วัน**, **สัปดาห์** หรือ **เดือน** หรือการนำทางไปยังรอบระยะเวลาก่อนหน้าหรือถัดไปได้  
   
 10. แตะ **…** และแตะ **สร้าง**  
   

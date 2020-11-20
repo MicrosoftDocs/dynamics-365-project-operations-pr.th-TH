@@ -1,21 +1,21 @@
 ---
-title: การแก้ไขราคาต้นทุนในประมาณการและตามจริง
+title: แก้ไขราคาต้นทุนในประมาณการและข้อมูลจริง - Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการแก้ไขราคาต้นทุนสำหรับการประมาณการและตามจริง
 author: rumant
 manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bad8f4b95ac5803d3f334e1b306d2a9d27a6645d
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 3fedf7b577e2372fb10ea85ea1e3caa9bf2f5ad0
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085842"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176814"
 ---
-# <a name="resolving-cost-prices-on-estimates-and-actuals"></a>การแก้ไขราคาต้นทุนในประมาณการและตามจริง
+# <a name="resolve-cost-prices-on-estimates-and-actuals---lite"></a>แก้ไขราคาต้นทุนในประมาณการและข้อมูลจริง - Lite
 
 _**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 

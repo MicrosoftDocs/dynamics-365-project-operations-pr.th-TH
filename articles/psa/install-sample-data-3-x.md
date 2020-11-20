@@ -3,7 +3,7 @@ title: การติดตั้งข้อมูลตัวอย่าง
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการติดตั้งข้อมูลตัวอย่างใน Project Service Automation
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,12 +11,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 3c9cca7aa9d85bb38e48820b361ba07923ceddbd
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085997"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4132446"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>การติดตั้งข้อมูลตัวอย่างสำหรับแอพลิเคชัน Project Service
 
@@ -49,7 +49,7 @@ ms.locfileid: "4085997"
 
 - สร้าง หรือตั้งค่าพารามิเตอร์เริ่มต้นสำหรับการใช้ Project Service Field Service หรือแอพลิเคชันทั้งสอง (ถ้ามี)
 
-- นำเข้าข้อมูลตัวอย่างสำหรับแอพลิเคชัน เช่น ทรัพยากรที่สามารถจองได้ บทบาทเฉพาะแอพลิเคชัน การขาย และรายการราคาต้นทุน หน่วยองค์กร เรกคอร์ดกระบวนการขาย และเอนทิตีอื่น เพื่อสาธิตความสามารถหลัก  
+- นำเข้าข้อมูลตัวอย่างสำหรับแอพลิเคชัน เช่น ทรัพยากรที่สามารถจองได้ บทบาทเฉพาะแอพลิเคชัน การขาย และรายการราคาต้นทุน หน่วยองค์กร เรกคอร์ดกระบวนการขาย และเอนทิตีอื่น เพื่อสาธิตความสามารถหลัก  
 
 ด้วยแพคเกจ **ข้อมูลสาธิต** คุณได้รับข้อมูลธุรกรรมด้านบนและเพิ่มเติม เช่น ใบสั่งผลิต และโครงการ
 
@@ -114,7 +114,7 @@ ms.locfileid: "4085997"
 
 เมื่อต้องการสร้าง หรือตั้งค่าคอนฟิกผู้ใช้ ไปที่ **การตั้งค่า** > **ความปลอดภัย** > **ผู้ใช้** และทำสิ่งต่อไปนี้:
 
-1. ตั้งค่า UserFullname = "Spencer Low" ที่มีชื่อผู้ใช้ "spencerl" ( **ตัวพิมพ์เล็ก** ) เป็นบทบาทผู้จัดการโครงการและผู้จัดการฝ่ายปฏิบัติงาน
+1. ตั้งค่า UserFullname = "Spencer Low" ที่มีชื่อผู้ใช้ "spencerl" (**ตัวพิมพ์เล็ก**) เป็นบทบาทผู้จัดการโครงการและผู้จัดการฝ่ายปฏิบัติงาน
 
 2. เลือกผู้ใช้ **Spencer Low** และจากนั้น เลือก **จัดการบทบาท** ค้นหา และเลือกบทบาท **ผู้ดูแลระบบ** และจากนั้นเลือก **ตกลง** เพื่อให้สิทธิผู้ดูแลแบบเต็มรูปแบบกับ Spencer Low ขั้นตอนนี้จำเป็นในการตรวจสอบว่า เรกคอร์ดตัวอย่างถูกสร้างขึ้นด้วยความเป็นเจ้าของผู้ใช้ที่ถูกต้อง และดังนั้น จึงเติมข้อมูลมุมมองได้อย่างถูกต้อง
 

@@ -1,12 +1,12 @@
 ---
-title: การตั้งค่ารายการราคาสำหรับการขาย
+title: ตั้งค่ารายการราคาสำหรับการขาย
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับรายการราคาสำหรับการขายในการกำหนดราคาของโครงการ
 author: rumant
 manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1d2c797b72666123eb0a18d2d0c1df9fe3d207f7
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: eb8dfa61a2d17ba644daf1552889cbcde0f1e47a
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085987"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176274"
 ---
-# <a name="sales-price-list-setup"></a>การตั้งค่ารายการราคาสำหรับการขาย
+# <a name="set-up-a-sales-price-list"></a>ตั้งค่ารายการราคาสำหรับการขาย
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 สำหรับใบเสนอราคาและสัญญาราคาโครงการ ราคาตลาดโครงการมีรูปแบบการแทนที่ราคาที่แตกต่างจากราคาตลาดผลิตภัณฑ์ บนรายการใบเสนอราคาตามแค็ตตาล็อกผลิตภัณฑ์ คุณสามารถแทนที่ราคาให้กับบทบาทและประเภทโดยตรงบนรายการใบเสนอราคา เนื่องจากแต่ละรายการใบเสนอราคาชี้ไปที่สินค้าในแค็ตตาล็อกหนึ่งรายการ อย่างไรก็ตามในรายการใบเสนอราคาตามโครงการ คุณไม่สามารถแทนที่ราคาให้กับบทบาทและประเภทโดยตรงบนรายการใบเสนอราคาได้ คุณสามารถใช้รายการราคาของโครงการเพื่อทำงานกับรูปแบบการแทนที่ที่แตกต่างกันสองรูปแบบ
 

@@ -2,28 +2,22 @@
 title: ภาพรวมกระบวนการขาย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับกระบวนการขายพื้นฐาน
 author: rumant
-manager: kfend
-ms.service: dynamics-365-customerservice
-ms.custom:
-- dyn365-projectservice
-ms.date: 09/23/2019
+manager: Annbe
+ms.date: 10/29/2020
 ms.topic: article
-ms.prod: ''
+ms.service: project-operations
+ms.reviewer: kfend
 ms.author: rumant
-audience: Admin
-search.audienceType:
-- admin
-- customizer
-- enduser
-search.app: ''
-ms.openlocfilehash: c70760748c5faa87f6738ab7e2ab593e2df49e41
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5da29d2959a6e49defa185630f45d280dba283c4
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086131"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177624"
 ---
-# <a name="sales-processes-overview"></a>ภาพรวมกระบวนการขาย
+# <a name="sales-process-overview"></a>ภาพรวมกระบวนการขาย
+
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 กระบวนการขายที่ใช้ในองค์กรตามโครงการแตกต่างจากกระบวนการขายที่ใช้ในองค์กรตามผลิตภัณฑ์ ซึ่งเป็นเพราะวงจรการขายสำหรับองค์กรตามโครงการจะนานกว่า และต้องใช้เทคนิคการประเมินที่กำหนดเองเพื่อวิเคราะห์และสร้างใบเสนอราคาสำหรับแต่ละข้อตกลง Dynamics 365 Project Operations ใช้ฟังก์ชันการทำงานบางส่วนต่อไปนี้ที่ใช้ในกระบวนการขาย:
 

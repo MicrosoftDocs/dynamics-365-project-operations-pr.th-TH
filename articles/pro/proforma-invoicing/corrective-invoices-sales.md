@@ -1,21 +1,21 @@
 ---
-title: เครดิตและใบแจ้งหนี้ที่แก้ไข
+title: ใบแจ้งหนี้ที่แก้ไข - Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับใบแจ้งหนี้ที่แก้ไขใน Project Operations
 author: rumant
 manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d2187627439d42b37222dce0a491c62dafc358d5
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 55bec8ad1d9c2b55cabb453321f13df8b7cd1614
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086043"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176454"
 ---
-# <a name="credits-and-corrected-invoices"></a>เครดิตและใบแจ้งหนี้ที่แก้ไข
+# <a name="corrected-invoices---lite"></a>ใบแจ้งหนี้ที่แก้ไข - Lite
 
 _**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 

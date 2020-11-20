@@ -1,21 +1,21 @@
 ---
-title: จัดการรายการราคาของโครงการในใบเสนอราคาโครงการ
+title: จัดการรายการราคาของโครงการในใบเสนอราคาโครงการ - Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการทำงานกับรายการราคาของโครงการในใบเสนอราคา (Sales)
 author: rumant
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4013d2e8cc0d2329f824a17484ee6f4a054a390e
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 2ff830c63f7acf4cc23ac75d44afa9c3553b8724
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085855"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4176004"
 ---
-# <a name="manage-project-price-lists-on-project-quotes-sales"></a>จัดการราคาตลาดของโครงการในใบเสนอราคาโครงการ (Sales)
+# <a name="manage-project-price-lists-on-project-quotes---lite"></a>จัดการรายการราคาของโครงการในใบเสนอราคาโครงการ - Lite
 
 _**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 

@@ -1,21 +1,21 @@
 ---
-title: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว
+title: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสมัครใช้งานและปรับใช้งาน Project Operations Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5342466f308ab62a9f73a85fbd838d7c33bb1f47
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085795"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4175914"
 ---
-# <a name="sign-up-for-a-preview-subscription-for-lite-deployment--deal-to-proforma-invoicing"></a>ลงทะเบียนสำหรับการสมัครใช้งานพรีวิวสำหรับการปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+# <a name="sign-up-for-a-preview-subscription---lite"></a>ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite 
 
 หัวข้อนี้อธิบายวิธีการสมัครใช้งานข้อเสนอเสนอพรีวิวสำหรับคู่ค้าและปรับใช้งาน Dynamics 365 Project Operations Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 

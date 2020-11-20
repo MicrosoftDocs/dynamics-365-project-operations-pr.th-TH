@@ -1,21 +1,21 @@
 ---
-title: ภารวมของรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
+title: ภารวมของรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์ - Lite
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
 author: rumant
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 794a80b0dd6b8717b43e712b96b9ac077517c226
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: eb09140eae5383b882db73195d0360a836ece791
+ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085859"
+ms.lasthandoff: 10/30/2020
+ms.locfileid: "4177894"
 ---
-# <a name="product-based-contract-lines-overview"></a>ภารวมของรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
+# <a name="product-based-contract-lines-overview---lite"></a>ภารวมของรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์ - Lite
 
 _**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
