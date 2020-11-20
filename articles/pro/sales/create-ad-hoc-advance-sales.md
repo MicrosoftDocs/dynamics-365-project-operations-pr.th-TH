@@ -1,0 +1,41 @@
+---
+title: การสร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา - Lite
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการสร้างเงินทดรองจ่ายบนสัญญาตามต้องการ
+author: rumant
+manager: Annbe
+ms.date: 10/26/2020
+ms.topic: article
+ms.service: project-operations
+ms.reviewer: kfend
+ms.author: rumant
+ms.openlocfilehash: a6bf02c2e2ab2f3c696b1eab1b92a20272187bf5
+ms.sourcegitcommit: f6f86e80dfef15a7b5f9174b55dddf410522f7c8
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 10/31/2020
+ms.locfileid: "4181385"
+---
+# <a name="creating-an-ad-hoc-advance-on-a-contract---lite"></a><span data-ttu-id="98924-103">การสร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา - Lite</span><span class="sxs-lookup"><span data-stu-id="98924-103">Creating an ad hoc advance on a contract - lite</span></span>
+
+<span data-ttu-id="98924-104">_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_</span><span class="sxs-lookup"><span data-stu-id="98924-104">_**Applies To:** Lite deployment - deal to proforma invoicing_</span></span>
+
+<span data-ttu-id="98924-105">Microsoft Dynamics 365 Project Operations สนับสนุนสถานการณ์การออกใบแจ้งหนี้ที่เกี่ยวข้องกับการชำระเงินล่วงหน้าและเงินทดรองจ่าย</span><span class="sxs-lookup"><span data-stu-id="98924-105">Microsoft Dynamics 365 Project Operations supports invoicing scenarios that involve pre-payments and advances.</span></span> <span data-ttu-id="98924-106">ขั้นตอนการใช้ **เงินทดรองจ่าย** ใน **Project Operations** เหมือนกับสัญญา **ค่าธรรมเนียมล่วงหน้า**</span><span class="sxs-lookup"><span data-stu-id="98924-106">The process for using **Advances** in **Project Operations** is similar to **Retainer** contracts.</span></span> 
+
+<span data-ttu-id="98924-107">ทำตามขั้นตอนต่อไปนี้เพื่อออกใบแจ้งหนี้ให้ลูกค้าสำหรับเงินทดรองจ่าย</span><span class="sxs-lookup"><span data-stu-id="98924-107">Complete the following steps to invoice the customer for an advance.</span></span>
+
+1. <span data-ttu-id="98924-108">ไปที่หน้า **สัญญาโครงการ** จากนั้นเลือกแท็บ **เงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า**</span><span class="sxs-lookup"><span data-stu-id="98924-108">Go to the **Project Contract** page, and then select the **Advances and Retainers** tab.</span></span>
+2. <span data-ttu-id="98924-109">ในตารางย่อยที่แสดงรายการเงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้าที่บันทึกไว้ก่อนหน้านี้ ให้เลือก **+ ค่าธรรมเนียมล่วงหน้าสัญญาโครงการใหม่**</span><span class="sxs-lookup"><span data-stu-id="98924-109">In the subgrid that lists all the previously recorded advances and prepayments, select **+ New Project contract retainer**.</span></span> 
+
+    <span data-ttu-id="98924-110">ฟอร์ม **สร้างด่วน** เปิดขึ้นเพื่อบันทึกการชำระเงินล่วงหน้าหรือเงินทดรองจ่าย</span><span class="sxs-lookup"><span data-stu-id="98924-110">The **Quick Create** form opens for recording a prepayment or advance.</span></span>
+    
+3. <span data-ttu-id="98924-111">ตารางด้านล่างแสดงฟิลด์สำหรับการบันทึกเงินทดรองจ่ายและข้อควรพิจารณาที่ควรคำนึงถึงเมื่อคุณสร้างรายการใหม่:</span><span class="sxs-lookup"><span data-stu-id="98924-111">The table below lists the fields for recording an advance and the considerations to keep in mind as you create new ones:</span></span>
+
+    | <span data-ttu-id="98924-112">เขตข้อมูล</span><span class="sxs-lookup"><span data-stu-id="98924-112">Field</span></span> | <span data-ttu-id="98924-113">รายละเอียด</span><span class="sxs-lookup"><span data-stu-id="98924-113">Description</span></span> | <span data-ttu-id="98924-114">ผลกระทบขั้นปลาย</span><span class="sxs-lookup"><span data-stu-id="98924-114">Downstream impact</span></span> |
+    | --- | --- | --- |
+    | <span data-ttu-id="98924-115">**ลูกค้าในสัญญาโครงการ**</span><span class="sxs-lookup"><span data-stu-id="98924-115">**Project Contract Customer**</span></span> | <span data-ttu-id="98924-116">ฟิลด์นี้ระบุว่าลูกค้ารายใดในสัญญาจะได้รับการออกใบแจ้งหนี้สำหรับเงินทดรองจ่ายนี้</span><span class="sxs-lookup"><span data-stu-id="98924-116">This field indicates which customer on the contract will be invoiced for this advance.</span></span> | <span data-ttu-id="98924-117">หากคุณมีลูกค้าหลายรายในสัญญา และต้องการออกใบแจ้งหนี้ให้กับลูกค้าแต่ละรายสำหรับค่าธรรมเนียมล่วงหน้าและเงินทดรองจ่ายที่เฉพาะเจาะจง ให้สร้างเงินทดรองจ่ายสำหรับลูกค้าแต่ละรายทีละราย</span><span class="sxs-lookup"><span data-stu-id="98924-117">If you have multiple customers on the contract and want to invoice each of them for a specific retainer or advance amount, create an advance for each customer individually.</span></span> |
+    | <span data-ttu-id="98924-118">**คำอธิบาย**</span><span class="sxs-lookup"><span data-stu-id="98924-118">**Description**</span></span> | <span data-ttu-id="98924-119">คำอธิบายวัตถุประสงค์หรือระยะเวลาของเงินทดรองจ่ายเพื่อช่วยระบุเงินทดรองจ่ายนี้</span><span class="sxs-lookup"><span data-stu-id="98924-119">The description of the purpose or timing of the advance to help identify this advance.</span></span> | <span data-ttu-id="98924-120">คำอธิบายนี้จะแสดงในรายการใบแจ้งหนี้สำหรับเงินทดรองจ่ายนี้</span><span class="sxs-lookup"><span data-stu-id="98924-120">This description is displayed on the invoice line for this advance.</span></span> |
+    | <span data-ttu-id="98924-121">**จำนวน**</span><span class="sxs-lookup"><span data-stu-id="98924-121">**Amount**</span></span> | <span data-ttu-id="98924-122">จำนวนเงินสำหรับการชำระเงินล่วงหน้าหรือเงินทดรองจ่าย</span><span class="sxs-lookup"><span data-stu-id="98924-122">The amount for the pre-payment or advance.</span></span> | <span data-ttu-id="98924-123">จำนวนนี้จะแสดงในรายการใบแจ้งหนี้สำหรับเงินทดรองจ่ายนี้</span><span class="sxs-lookup"><span data-stu-id="98924-123">This amount is displayed on the invoice line for this advance.</span></span> |
+    | <span data-ttu-id="98924-124">**วันที่ในใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="98924-124">**Invoice Date**</span></span> | <span data-ttu-id="98924-125">วันที่ออกใบแจ้งหนี้เงินทดรองจ่ายนี้ให้กับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="98924-125">The date on which this advance is invoiced to the customer.</span></span> | <span data-ttu-id="98924-126">นี่คือวันที่สำหรับกระบวนการสร้างใบแจ้งหนี้อัตโนมัติ เพื่อสร้างรายการใบแจ้งหนี้สำหรับเงินทดรองจ่ายนี้</span><span class="sxs-lookup"><span data-stu-id="98924-126">This is the date for the automated invoice creation process to create an invoice line for this advance.</span></span> |
+    | <span data-ttu-id="98924-127">**สถานะใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="98924-127">**Invoice Status**</span></span> | <span data-ttu-id="98924-128">นี่คือการตั้งค่าตัวเลือกที่ระบุว่ามีการเพิ่มเงินทดรองจ่ายนี้ในใบแจ้งหนี้ฉบับร่างสำหรับลูกค้ารายนี้หรือไม่</span><span class="sxs-lookup"><span data-stu-id="98924-128">This is an option setting that indicates whether this advance is added to a draft invoice for this customer.</span></span> <span data-ttu-id="98924-129">ค่าที่เป็นไปได้คือ</span><span class="sxs-lookup"><span data-stu-id="98924-129">The possible values are:</span></span></br><span data-ttu-id="98924-130">- **ไม่พร้อมที่จะออกใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="98924-130">- **Not ready to invoice**</span></span></br><span data-ttu-id="98924-131">- **พร้อมที่จะออกใบแจ้งหนี้**</span><span class="sxs-lookup"><span data-stu-id="98924-131">- **Ready to invoice**</span></span> | <span data-ttu-id="98924-132">เมื่อมีการทำเครื่องหมายการชำระเงินล่วงหน้าหรือเงินทดรองจ่ายเป็น **พร้อมออกใบแจ้งหนี้** โดยจะเพิ่มเป็นเวลารายการในใบแจ้งหนี้ฉบับร่าง</span><span class="sxs-lookup"><span data-stu-id="98924-132">When an advance or pre-payment is marked as **Ready to invoice**, it is added as a line time on a draft invoice.</span></span> <span data-ttu-id="98924-133">สามารถใช้เฉพาะใบแจ้งหนี้เงินทดรองจ่ายเต็มจำนวนเพื่อกระทบยอดกับต้นทุนโครงการสำหรับงวดใบแจ้งหนี้ถัดไป</span><span class="sxs-lookup"><span data-stu-id="98924-133">Only a fully invoiced advance can be used to reconcile against project costs for the next invoice period.</span></span> |
+
+4. <span data-ttu-id="98924-134">เลือก **บันทึกและปิด** ในกล่องโต้ตอบสร้างด่วน เพื่อบันทึกเงินทดรองจ่ายหรือการชำระเงินล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="98924-134">Select **Save and close** on the quick create dialog to record the advance or the pre-payment.</span></span>
