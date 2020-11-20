@@ -5,49 +5,49 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 746d5d9ff56222e7d6b9b6e264db75d5814365c7
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: 536c961593599df8e7e2986f92259b0e690eae8b
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085816"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4121106"
 ---
-# <a name="expense-entry-lite"></a><span data-ttu-id="8d798-103">รายการค่าใช้จ่าย (Lite)</span><span class="sxs-lookup"><span data-stu-id="8d798-103">Expense entry (lite)</span></span>
+# <a name="expense-entry-lite"></a><span data-ttu-id="3694f-103">รายการค่าใช้จ่าย (Lite)</span><span class="sxs-lookup"><span data-stu-id="3694f-103">Expense entry (lite)</span></span>
 
-<span data-ttu-id="8d798-104">_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_</span><span class="sxs-lookup"><span data-stu-id="8d798-104">_**Applies to:** Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="3694f-104">_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_</span><span class="sxs-lookup"><span data-stu-id="3694f-104">_**Applies to:** Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="8d798-105">การจัดการค่าใช้จ่ายเบื้องต้นหรือแบบ Lite เป็นความสามารถในการบันทึกค่าใช้จ่ายแบบง่าย</span><span class="sxs-lookup"><span data-stu-id="8d798-105">Basic, or lite, expense management is the capability to record simple expenses.</span></span> <span data-ttu-id="8d798-106">คุณสามารถบันทึกค่าใช้จ่ายต่อโครงการ จากนั้นผู้อนุมัติโครงการจะตรวจสอบและอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="8d798-106">You can record expenses against a project, and then the project approver will review and approve them.</span></span>
+<span data-ttu-id="3694f-105">การจัดการค่าใช้จ่ายเบื้องต้นหรือแบบ Lite เป็นความสามารถในการบันทึกค่าใช้จ่ายแบบง่าย</span><span class="sxs-lookup"><span data-stu-id="3694f-105">Basic, or lite, expense management is the capability to record simple expenses.</span></span> <span data-ttu-id="3694f-106">คุณสามารถบันทึกค่าใช้จ่ายต่อโครงการ จากนั้นผู้อนุมัติโครงการจะตรวจสอบและอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="3694f-106">You can record expenses against a project, and then the project approver will review and approve them.</span></span>
 
-<span data-ttu-id="8d798-107">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความสามารถด้านค่าใช้จ่ายใน Dynamics 365 Project Operations ดูที่ [ภาพรวมของค่าใช้จ่าย](expense-overview.md)</span><span class="sxs-lookup"><span data-stu-id="8d798-107">For more information about expense capabilities in Dynamics 365 Project Operations, see [Expense overview](expense-overview.md).</span></span>
+<span data-ttu-id="3694f-107">สำหรับข้อมูลเพิ่มเติมเกี่ยวกับความสามารถด้านค่าใช้จ่ายใน Dynamics 365 Project Operations ดูที่ [ภาพรวมของค่าใช้จ่าย](expense-overview.md)</span><span class="sxs-lookup"><span data-stu-id="3694f-107">For more information about expense capabilities in Dynamics 365 Project Operations, see [Expense overview](expense-overview.md).</span></span>
 
-## <a name="capture-a-basic-expense"></a><span data-ttu-id="8d798-108">บันทึกค่าใช้จ่ายเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="8d798-108">Capture a basic expense</span></span>
+## <a name="capture-a-basic-expense"></a><span data-ttu-id="3694f-108">บันทึกค่าใช้จ่ายเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="3694f-108">Capture a basic expense</span></span>
 
-<span data-ttu-id="8d798-109">คุณสามารถบันทึกค่าใช้จ่ายของคุณเพื่อส่งให้ผู้อนุมัติได้</span><span class="sxs-lookup"><span data-stu-id="8d798-109">You can capture your expenses so that you can submit them to the approver.</span></span>
+<span data-ttu-id="3694f-109">คุณสามารถบันทึกค่าใช้จ่ายของคุณเพื่อส่งให้ผู้อนุมัติได้</span><span class="sxs-lookup"><span data-stu-id="3694f-109">You can capture your expenses so that you can submit them to the approver.</span></span>
 
-1. <span data-ttu-id="8d798-110">ไปที่ **ค่าใช้จ่าย** และเลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="8d798-110">Go to **Expenses** , and select **New**.</span></span>
-2. <span data-ttu-id="8d798-111">บนเพจ **ค่าใช้จ่ายใหม่** ให้ป้อนข้อมูลค่าใช้จ่ายที่จำเป็น จากนั้นเลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="8d798-111">On the **New Expense** page, enter the required expense information, and then select **Save**.</span></span>
+1. <span data-ttu-id="3694f-110">ไปที่ **ค่าใช้จ่าย** และเลือก **ใหม่**</span><span class="sxs-lookup"><span data-stu-id="3694f-110">Go to **Expenses**, and select **New**.</span></span>
+2. <span data-ttu-id="3694f-111">บนเพจ **ค่าใช้จ่ายใหม่** ให้ป้อนข้อมูลค่าใช้จ่ายที่จำเป็น จากนั้นเลือก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="3694f-111">On the **New Expense** page, enter the required expense information, and then select **Save**.</span></span>
 
-## <a name="submit-a-basic-expense"></a><span data-ttu-id="8d798-112">ส่งค่าใช้จ่ายเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="8d798-112">Submit a basic expense</span></span>
+## <a name="submit-a-basic-expense"></a><span data-ttu-id="3694f-112">ส่งค่าใช้จ่ายเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="3694f-112">Submit a basic expense</span></span>
 
-<span data-ttu-id="8d798-113">หลังจากที่คุณบันทึกค่าใช้จ่ายทั้งหมดของคุณเสร็จแล้วและคุณพร้อมที่จะให้มีการอนุมัติ คุณต้องส่งค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="8d798-113">After you've finished capturing all your expenses, and you're ready to have them approved, you must submit them.</span></span>
+<span data-ttu-id="3694f-113">หลังจากที่คุณบันทึกค่าใช้จ่ายทั้งหมดของคุณเสร็จแล้วและคุณพร้อมที่จะให้มีการอนุมัติ คุณต้องส่งค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="3694f-113">After you've finished capturing all your expenses, and you're ready to have them approved, you must submit them.</span></span>
 
-1. <span data-ttu-id="8d798-114">ไปที่ **ค่าใช้จ่าย** และเลือกค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="8d798-114">Go to **Expenses** , and select an expense.</span></span> <span data-ttu-id="8d798-115">หรือเลือกค่าใช้จ่ายทั้งหมดโดยใช้กล่องกาเครื่องหมายที่ส่วนหัว</span><span class="sxs-lookup"><span data-stu-id="8d798-115">Or, select all the expenses by using the check box on the header.</span></span>
-2. <span data-ttu-id="8d798-116">เลือก **ส่ง**</span><span class="sxs-lookup"><span data-stu-id="8d798-116">Select **Submit**.</span></span> <span data-ttu-id="8d798-117">ระบบจะประมวลผลรายการที่เลือก จากนั้นสร้างคำขออนุมัติค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="8d798-117">The system processes the selected entries and then creates expense approval requests.</span></span>
+1. <span data-ttu-id="3694f-114">ไปที่ **ค่าใช้จ่าย** และเลือกค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="3694f-114">Go to **Expenses**, and select an expense.</span></span> <span data-ttu-id="3694f-115">หรือเลือกค่าใช้จ่ายทั้งหมดโดยใช้กล่องกาเครื่องหมายที่ส่วนหัว</span><span class="sxs-lookup"><span data-stu-id="3694f-115">Or, select all the expenses by using the check box on the header.</span></span>
+2. <span data-ttu-id="3694f-116">เลือก **ส่ง**</span><span class="sxs-lookup"><span data-stu-id="3694f-116">Select **Submit**.</span></span> <span data-ttu-id="3694f-117">ระบบจะประมวลผลรายการที่เลือก จากนั้นสร้างคำขออนุมัติค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="3694f-117">The system processes the selected entries and then creates expense approval requests.</span></span>
 
-## <a name="recall-a-basic-expense"></a><span data-ttu-id="8d798-118">เรียกคืนค่าใช้จ่ายเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="8d798-118">Recall a basic expense</span></span>
+## <a name="recall-a-basic-expense"></a><span data-ttu-id="3694f-118">เรียกคืนค่าใช้จ่ายเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="3694f-118">Recall a basic expense</span></span>
 
-<span data-ttu-id="8d798-119">เมื่อคุณส่งค่าใช้จ่ายโดยไม่ได้ตั้งใจ คุณสามารถเรียกคืนได้</span><span class="sxs-lookup"><span data-stu-id="8d798-119">When you submit an expense by mistake, you can recall it.</span></span> <span data-ttu-id="8d798-120">เวลาที่ต้องเรียกคืนรายการค่าใช้จ่ายขึ้นอยู่กับขั้นตอนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="8d798-120">The time that is required to recall an expense entry depends on its approval stage.</span></span>  <span data-ttu-id="8d798-121">หากผู้อนุมัติยังไม่อนุมัติรายการ การเรียกคืนสามารถเกิดขึ้นได้ทันที</span><span class="sxs-lookup"><span data-stu-id="8d798-121">If the approver hasn't yet approved the entry, the recall can occur immediately.</span></span> <span data-ttu-id="8d798-122">อย่างไรก็ตาม หากรายการได้รับการอนุมัติแล้ว ผู้อนุมัติจะได้รับการขอให้อนุมัติการเรียกคืน และย้อนกลับการทำรายการ</span><span class="sxs-lookup"><span data-stu-id="8d798-122">However, if the entry has already been approved, the approver is asked to approve the recall and reverse the transactions.</span></span>
+<span data-ttu-id="3694f-119">เมื่อคุณส่งค่าใช้จ่ายโดยไม่ได้ตั้งใจ คุณสามารถเรียกคืนได้</span><span class="sxs-lookup"><span data-stu-id="3694f-119">When you submit an expense by mistake, you can recall it.</span></span> <span data-ttu-id="3694f-120">เวลาที่ต้องเรียกคืนรายการค่าใช้จ่ายขึ้นอยู่กับขั้นตอนการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="3694f-120">The time that is required to recall an expense entry depends on its approval stage.</span></span>  <span data-ttu-id="3694f-121">หากผู้อนุมัติยังไม่อนุมัติรายการ การเรียกคืนสามารถเกิดขึ้นได้ทันที</span><span class="sxs-lookup"><span data-stu-id="3694f-121">If the approver hasn't yet approved the entry, the recall can occur immediately.</span></span> <span data-ttu-id="3694f-122">อย่างไรก็ตาม หากรายการได้รับการอนุมัติแล้ว ผู้อนุมัติจะได้รับการขอให้อนุมัติการเรียกคืน และย้อนกลับการทำรายการ</span><span class="sxs-lookup"><span data-stu-id="3694f-122">However, if the entry has already been approved, the approver is asked to approve the recall and reverse the transactions.</span></span>
 
-1. <span data-ttu-id="8d798-123">ไปที่ **ค่าใช้จ่าย** จากนั้นในรายการค่าใช้จ่าย ให้เลือกค่าใช้จ่ายที่จะเรียกคืน</span><span class="sxs-lookup"><span data-stu-id="8d798-123">Go to **Expenses** , and then, in the list of expenses, select the expense to recall.</span></span>
-2. <span data-ttu-id="8d798-124">เลือก **การเรียกคืน**</span><span class="sxs-lookup"><span data-stu-id="8d798-124">Select **Recall**.</span></span> <span data-ttu-id="8d798-125">หากรายการค่าใช้จ่ายยังไม่ได้รับการอนุมัติ ระบบจะเรียกคืนทันที</span><span class="sxs-lookup"><span data-stu-id="8d798-125">If the expense entry hasn't yet been approved, the system immediately recalls it.</span></span> <span data-ttu-id="8d798-126">หากรายการค่าใช้จ่ายได้รับการอนุมัติแล้ว ระบบจะสร้างคำขอเรียกคืนขึ้นเพื่อแจ้งให้ผู้อนุมัติทราบว่าคุณต้องการย้อนกลับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="8d798-126">If the expense entry has already been approved, a recall request is created to notify the approver that you want to reverse the expense.</span></span> <span data-ttu-id="8d798-127">จากนั้นผู้อนุมัติจะยืนยันว่าการกลับรายการสามารถทำได้ และจะส่งคืนรายการ</span><span class="sxs-lookup"><span data-stu-id="8d798-127">The approver will then confirm that the reversal can be done, and the entry will be returned.</span></span>
+1. <span data-ttu-id="3694f-123">ไปที่ **ค่าใช้จ่าย** จากนั้นในรายการค่าใช้จ่าย ให้เลือกค่าใช้จ่ายที่จะเรียกคืน</span><span class="sxs-lookup"><span data-stu-id="3694f-123">Go to **Expenses**, and then, in the list of expenses, select the expense to recall.</span></span>
+2. <span data-ttu-id="3694f-124">เลือก **การเรียกคืน**</span><span class="sxs-lookup"><span data-stu-id="3694f-124">Select **Recall**.</span></span> <span data-ttu-id="3694f-125">หากรายการค่าใช้จ่ายยังไม่ได้รับการอนุมัติ ระบบจะเรียกคืนทันที</span><span class="sxs-lookup"><span data-stu-id="3694f-125">If the expense entry hasn't yet been approved, the system immediately recalls it.</span></span> <span data-ttu-id="3694f-126">หากรายการค่าใช้จ่ายได้รับการอนุมัติแล้ว ระบบจะสร้างคำขอเรียกคืนขึ้นเพื่อแจ้งให้ผู้อนุมัติทราบว่าคุณต้องการย้อนกลับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="3694f-126">If the expense entry has already been approved, a recall request is created to notify the approver that you want to reverse the expense.</span></span> <span data-ttu-id="3694f-127">จากนั้นผู้อนุมัติจะยืนยันว่าการกลับรายการสามารถทำได้ และจะส่งคืนรายการ</span><span class="sxs-lookup"><span data-stu-id="3694f-127">The approver will then confirm that the reversal can be done, and the entry will be returned.</span></span>
 
-## <a name="delete-a-basic-expense"></a><span data-ttu-id="8d798-128">ลบค่าใช้จ่ายเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="8d798-128">Delete a basic expense</span></span>
+## <a name="delete-a-basic-expense"></a><span data-ttu-id="3694f-128">ลบค่าใช้จ่ายเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="3694f-128">Delete a basic expense</span></span>
 
-<span data-ttu-id="8d798-129">ค่าใช้จ่ายที่ยังไม่ได้ส่งสามารถลบได้</span><span class="sxs-lookup"><span data-stu-id="8d798-129">Expenses that haven't yet been submitted can be deleted.</span></span> <span data-ttu-id="8d798-130">หากต้องการลบค่าใช้จ่ายที่ส่งไปแล้ว คุณต้องเรียกคืนก่อน</span><span class="sxs-lookup"><span data-stu-id="8d798-130">To delete an expense that has already been submitted, you must first recall it.</span></span>
+<span data-ttu-id="3694f-129">ค่าใช้จ่ายที่ยังไม่ได้ส่งสามารถลบได้</span><span class="sxs-lookup"><span data-stu-id="3694f-129">Expenses that haven't yet been submitted can be deleted.</span></span> <span data-ttu-id="3694f-130">หากต้องการลบค่าใช้จ่ายที่ส่งไปแล้ว คุณต้องเรียกคืนก่อน</span><span class="sxs-lookup"><span data-stu-id="3694f-130">To delete an expense that has already been submitted, you must first recall it.</span></span>
 
-## <a name="see-also"></a><span data-ttu-id="8d798-131">ดูเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="8d798-131">See also</span></span>
+## <a name="see-also"></a><span data-ttu-id="3694f-131">ดูเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="3694f-131">See also</span></span>
 
-- [<span data-ttu-id="8d798-132">ภาพรวมการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="8d798-132">Approvals overview</span></span>](../approvals/approvals-overview.md)
+- [<span data-ttu-id="3694f-132">ภาพรวมการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="3694f-132">Approvals overview</span></span>](../approvals/approvals-overview.md)

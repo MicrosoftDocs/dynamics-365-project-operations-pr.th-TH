@@ -3,7 +3,7 @@ title: จองคำขอแบบไม่ตายตัว
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจองคำขอแบบไม่ตายตัว
 author: ruhercul
 manager: kfend
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -18,46 +18,46 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 861e484ea2fc251e0082b4cb0cd5409a45a74057
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086142"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124121"
 ---
-# <a name="soft-book-requirements"></a><span data-ttu-id="b4d31-103">จองคำขอแบบไม่ตายตัว</span><span class="sxs-lookup"><span data-stu-id="b4d31-103">Soft-book requirements</span></span>
+# <a name="soft-book-requirements"></a><span data-ttu-id="d6483-103">จองคำขอแบบไม่ตายตัว</span><span class="sxs-lookup"><span data-stu-id="d6483-103">Soft-book requirements</span></span>
 
-<span data-ttu-id="b4d31-104">คำขอทรัพยากรสามารถจองแบบตายตัวได้</span><span class="sxs-lookup"><span data-stu-id="b4d31-104">A resource requirement can be hard-booked.</span></span> <span data-ttu-id="b4d31-105">การจองแบบตายตัวจะสร้างการประชุมข้อเสนอที่ใช้กำลังการผลิตของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4d31-105">A hard booking creates a proposal that consumes a resource's capacity.</span></span> <span data-ttu-id="b4d31-106">การประชุมข้อเสนอจะถูกส่งกลับไปยังผู้ขอเพื่อการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="b4d31-106">The proposal is then sent back to the requester for approval.</span></span> <span data-ttu-id="b4d31-107">การจองแบบไม่ตายตัว จะเพิ่มทรัพยากรไปยังทีมของโครงการแบบไม่แน่นอน และมีสถานะที่แตกต่างในตารางกำหนดการ แต่จะไม่ใช้กำลังการผลิตของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4d31-107">A soft booking tentatively adds a resource to a project team and has a different status on the Schedule Board, but it doesn't consume the resource's capacity.</span></span> <span data-ttu-id="b4d31-108">หากต้องการจองทรัพยากรแบบไม่ตายตัวจากตารางกำหนดการ ให้ตั้งค่าฟิลด์ **สถานะการจอง** เป็น **ไม่ตายตัว**</span><span class="sxs-lookup"><span data-stu-id="b4d31-108">To soft-book a resource from the Schedule Board, set the **Booking Status** field to **Soft**.</span></span>
+<span data-ttu-id="d6483-104">คำขอทรัพยากรสามารถจองแบบตายตัวได้</span><span class="sxs-lookup"><span data-stu-id="d6483-104">A resource requirement can be hard-booked.</span></span> <span data-ttu-id="d6483-105">การจองแบบตายตัวจะสร้างการประชุมข้อเสนอที่ใช้กำลังการผลิตของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="d6483-105">A hard booking creates a proposal that consumes a resource's capacity.</span></span> <span data-ttu-id="d6483-106">การประชุมข้อเสนอจะถูกส่งกลับไปยังผู้ขอเพื่อการอนุมัติ</span><span class="sxs-lookup"><span data-stu-id="d6483-106">The proposal is then sent back to the requester for approval.</span></span> <span data-ttu-id="d6483-107">การจองแบบไม่ตายตัว จะเพิ่มทรัพยากรไปยังทีมของโครงการแบบไม่แน่นอน และมีสถานะที่แตกต่างในตารางกำหนดการ แต่จะไม่ใช้กำลังการผลิตของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="d6483-107">A soft booking tentatively adds a resource to a project team and has a different status on the Schedule Board, but it doesn't consume the resource's capacity.</span></span> <span data-ttu-id="d6483-108">หากต้องการจองทรัพยากรแบบไม่ตายตัวจากตารางกำหนดการ ให้ตั้งค่าฟิลด์ **สถานะการจอง** เป็น **ไม่ตายตัว**</span><span class="sxs-lookup"><span data-stu-id="d6483-108">To soft-book a resource from the Schedule Board, set the **Booking Status** field to **Soft**.</span></span>
 
 ![สถานะการจองถูกตั้งค่าเป็นไม่ตายตัวแล้ว](media/Resource-Management-image77.png)
 
-<span data-ttu-id="b4d31-110">เมื่อแท็บ **ทีม** อยู่ในมุมมอง **สมาชิกทีมที่ตั้งชื่อ** ทรัพยากรจะปรากฏที่นี่</span><span class="sxs-lookup"><span data-stu-id="b4d31-110">When the **Team** tab is in the **Named Team Members** view, the resource appears there.</span></span> <span data-ttu-id="b4d31-111">ชั่วโมงที่จองแบบไม่ตายตัวจะถูกรายงานในคอลัมน์ **ชั่วโมงที่จองแบบไม่ตายตัว**</span><span class="sxs-lookup"><span data-stu-id="b4d31-111">The soft-booked hours are reported in the **Soft Booked Hours** column.</span></span>
+<span data-ttu-id="d6483-110">เมื่อแท็บ **ทีม** อยู่ในมุมมอง **สมาชิกทีมที่ตั้งชื่อ** ทรัพยากรจะปรากฏที่นี่</span><span class="sxs-lookup"><span data-stu-id="d6483-110">When the **Team** tab is in the **Named Team Members** view, the resource appears there.</span></span> <span data-ttu-id="d6483-111">ชั่วโมงที่จองแบบไม่ตายตัวจะถูกรายงานในคอลัมน์ **ชั่วโมงที่จองแบบไม่ตายตัว**</span><span class="sxs-lookup"><span data-stu-id="d6483-111">The soft-booked hours are reported in the **Soft Booked Hours** column.</span></span>
 
 ![ชั่วโมงที่ทำการจองแบบไม่ตายตัวอยู่ในมุมมองสมาชิกทีมที่ตั้งชื่อ](media/Resource-Management-image78.png)
 
-<span data-ttu-id="b4d31-113">สมาชิกทีมที่จองแบบไม่ตายตัวสามารถถูกมอบหมายงานให้สมาชิกได้</span><span class="sxs-lookup"><span data-stu-id="b4d31-113">Soft-booked team members can be assigned to tasks.</span></span>
+<span data-ttu-id="d6483-113">สมาชิกทีมที่จองแบบไม่ตายตัวสามารถถูกมอบหมายงานให้สมาชิกได้</span><span class="sxs-lookup"><span data-stu-id="d6483-113">Soft-booked team members can be assigned to tasks.</span></span>
 
 ![สมาชิกทีมที่จองแบบไม่ตายตัวถูกมอบหมายงานให้](media/Resource-Management-image79.png)
 
-<span data-ttu-id="b4d31-115">ในแท็บ **การกระทบยอด** ไม่มีการจองที่แสดงสำหรับการจองทรัพยากรแบบไม่ตายตัว เนื่องจากแท็บ **การกระทบยอด** จะพิจารณาเฉพาะการจองแบบตายตัว</span><span class="sxs-lookup"><span data-stu-id="b4d31-115">On the **Reconciliation** tab, no bookings are shown for a soft-book resource, because the **Reconciliation** tab considers only hard-bookings.</span></span>
+<span data-ttu-id="d6483-115">ในแท็บ **การกระทบยอด** ไม่มีการจองที่แสดงสำหรับการจองทรัพยากรแบบไม่ตายตัว เนื่องจากแท็บ **การกระทบยอด** จะพิจารณาเฉพาะการจองแบบตายตัว</span><span class="sxs-lookup"><span data-stu-id="d6483-115">On the **Reconciliation** tab, no bookings are shown for a soft-book resource, because the **Reconciliation** tab considers only hard-bookings.</span></span>
 
 ![การจองทรัพยากรแบบไม่ตายตัว โดยไม่มีการจองในแท็บการกระทบยอด](media/Resource-Management-image80.png)
 
 > [!NOTE]
-> <span data-ttu-id="b4d31-117">คุณไม่สามารถจองทรัพยากรแบบไม่ตายตัวจากคำขอที่ถูกสร้างจากสมาชิกทีมทั่วไปได้</span><span class="sxs-lookup"><span data-stu-id="b4d31-117">You can't soft-book a resource from a requirement that was generated from a generic team member.</span></span>
+> <span data-ttu-id="d6483-117">คุณไม่สามารถจองทรัพยากรแบบไม่ตายตัวจากคำขอที่ถูกสร้างจากสมาชิกทีมทั่วไปได้</span><span class="sxs-lookup"><span data-stu-id="d6483-117">You can't soft-book a resource from a requirement that was generated from a generic team member.</span></span>
 
-<span data-ttu-id="b4d31-118">ในตารางกำหนดการ สีที่แตกต่างจะถูกใช้สำหรับการจองทรัพยากรแบบไม่ตายตัว</span><span class="sxs-lookup"><span data-stu-id="b4d31-118">On the Schedule Board, a different coloring is used for soft bookings for a resource.</span></span>
+<span data-ttu-id="d6483-118">ในตารางกำหนดการ สีที่แตกต่างจะถูกใช้สำหรับการจองทรัพยากรแบบไม่ตายตัว</span><span class="sxs-lookup"><span data-stu-id="d6483-118">On the Schedule Board, a different coloring is used for soft bookings for a resource.</span></span>
 
 ![การจองแบบไม่ตายตัวในตารางกำหนดการ](media/Resource-Management-image81.png)
 
-<span data-ttu-id="b4d31-120">ในการแปลงจากการจองแบบไม่ตายตัวไปเป็นการจองแบบตายตัว ในตารางกำหนดการ ให้คลิกขวาที่การจองแบบไม่ตายตัว แล้วเลือก **เปลี่ยนสถานะ** \> **การจองแบบตายตัว** \> **แบบตายตัว**</span><span class="sxs-lookup"><span data-stu-id="b4d31-120">To convert a soft booking to a hard booking, on the Schedule Board, right-click the soft booking, and then select **Change Status** \> **Hard Book** \> **Hard**.</span></span>
+<span data-ttu-id="d6483-120">ในการแปลงจากการจองแบบไม่ตายตัวไปเป็นการจองแบบตายตัว ในตารางกำหนดการ ให้คลิกขวาที่การจองแบบไม่ตายตัว แล้วเลือก **เปลี่ยนสถานะ** \> **การจองแบบตายตัว** \> **แบบตายตัว**</span><span class="sxs-lookup"><span data-stu-id="d6483-120">To convert a soft booking to a hard booking, on the Schedule Board, right-click the soft booking, and then select **Change Status** \> **Hard Book** \> **Hard**.</span></span>
 
 ![เปลี่ยนสถานะการจองไปเป็นแบบตายตัว](media/Resource-Management-image82.png)
 
-<span data-ttu-id="b4d31-122">การจองถูกเปลี่ยนแปลงแล้ว และสถานะถูกเปลี่ยนในตารางกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="b4d31-122">The booking is changed, and the status is changed on the Schedule Board.</span></span> <span data-ttu-id="b4d31-123">เนื่องจากสถานะการจองกลายเป็น **ตายตัว** แล้ว ทรัพยากรที่แสดงว่าจองแกล้ว และกำลังการผลิตและความพร้อมใช้งานถูกปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="b4d31-123">Because the booking status is now **Hard** , the resource is shown as booked, and its capacity and availability are adjusted.</span></span>
+<span data-ttu-id="d6483-122">การจองถูกเปลี่ยนแปลงแล้ว และสถานะถูกเปลี่ยนในตารางกำหนดการ</span><span class="sxs-lookup"><span data-stu-id="d6483-122">The booking is changed, and the status is changed on the Schedule Board.</span></span> <span data-ttu-id="d6483-123">เนื่องจากสถานะการจองกลายเป็น **ตายตัว** แล้ว ทรัพยากรที่แสดงว่าจองแกล้ว และกำลังการผลิตและความพร้อมใช้งานถูกปรับเปลี่ยน</span><span class="sxs-lookup"><span data-stu-id="d6483-123">Because the booking status is now **Hard**, the resource is shown as booked, and its capacity and availability are adjusted.</span></span>
 
-<span data-ttu-id="b4d31-124">คุณสามารถใช้วิธีเดียวกันในการยกเลิกการจองแบบตายตัวหรือแบบไม่ตายตัวจากตารางกำหนดการได้</span><span class="sxs-lookup"><span data-stu-id="b4d31-124">You can use the same method to cancel a hard booking or a soft booking from the Schedule Board.</span></span>
+<span data-ttu-id="d6483-124">คุณสามารถใช้วิธีเดียวกันในการยกเลิกการจองแบบตายตัวหรือแบบไม่ตายตัวจากตารางกำหนดการได้</span><span class="sxs-lookup"><span data-stu-id="d6483-124">You can use the same method to cancel a hard booking or a soft booking from the Schedule Board.</span></span>
 
-<span data-ttu-id="b4d31-125">ในการแปลงทรัพยากรที่ถูกจองแบบไม่ตายตัวไปยังแบบตายตัว ในแท็บ **ทีม** ของโครงการ เลือกทรัพยากร แล้วเลือก **ยืนยัน**</span><span class="sxs-lookup"><span data-stu-id="b4d31-125">To convert a resource that is soft-booked to hard-booked on the project's **Team** tab, select the resource, and then select **Confirm**.</span></span>
+<span data-ttu-id="d6483-125">ในการแปลงทรัพยากรที่ถูกจองแบบไม่ตายตัวไปยังแบบตายตัว ในแท็บ **ทีม** ของโครงการ เลือกทรัพยากร แล้วเลือก **ยืนยัน**</span><span class="sxs-lookup"><span data-stu-id="d6483-125">To convert a resource that is soft-booked to hard-booked on the project's **Team** tab, select the resource, and then select **Confirm**.</span></span>
 
 ![ยืนยันคำสั่ง](media/Resource-Management-image83.png)
