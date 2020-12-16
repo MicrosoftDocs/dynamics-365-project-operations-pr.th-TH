@@ -2,8 +2,9 @@
 title: อัปเดตกำหนดการเผยแพร่สำหรับ Project Service 3.x
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการเผยแพร่ที่พร้อมใช้งานและที่กำลังจะเกิดขึ้นของ Dynamics 365 Project Service Automation
 ms.custom: dyn365-projectservice
-ms.date: 11/01/2020
+ms.date: 12/07/2020
 ms.reviewer: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.suite: ''
 ms.tgt_pltfrm: ''
@@ -23,12 +24,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bf1203884cb4e49e0982bffb3092730122b2be9c
-ms.sourcegitcommit: 2848a8a654df601911593da8e2f9b6ffd6adc702
+ms.openlocfilehash: 8e9a29b05e07bb59ade00c8f4acdf0275538d5bd
+ms.sourcegitcommit: 87dd3b9bb23384e4d0c3208f0341a3de295eefc8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/09/2020
-ms.locfileid: "4404838"
+ms.lasthandoff: 12/07/2020
+ms.locfileid: "4689478"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>อัปเดตกำหนดการเผยแพร่สำหรับ Project Service 3.x
 
@@ -36,7 +37,7 @@ ms.locfileid: "4404838"
 
 | โซลูชัน  | รุ่นล่าสุด |
 |-------|----|
-| Project Service Automation    | 3.10.43.76 |
+| Project Service Automation    | 3.10.44.59 |
 | Add-in เดสก์ท็อป Project Service Automation                | 3.15          |
 
 สำหรับข้อมูลเกี่ยวกับการปรับปรุงอื่นๆ ของ Project Service ดูที่ [แผนการนำออกใช้ของ Dynamics 365](https://docs.microsoft.com/dynamics365/release-plans/) 
@@ -44,27 +45,27 @@ ms.locfileid: "4404838"
 | สถานี  | ขอบเขต | รุ่นปัจจุบัน | รุ่นถัดไป |  วันที่ตามกำหนดการ
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>สถานี 1</strong> | |  |  | |
-| | <i>การเปิดตัวครั้งแรก</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 20 พฤศจิกายน 2020
+| | <i>การเปิดตัวครั้งแรก</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 8 มกราคม 2021
 |<strong>สถานี 2</strong> | |  |  | |
-| | <i>อเมริกาใต้</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 พฤศจิกายน 2020
-| | <i>แคนาดา</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 พฤศจิกายน 2020 
-| | <i>อินเดีย</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 พฤศจิกายน 2020
-| | <i>ฝรั่งเศส</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 พฤศจิกายน 2020
-| | <i>สหรัฐอาหรับเอมิเรตส์</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 พฤศจิกายน 2020
-| | <i>แอฟริกาใต้</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 พฤศจิกายน 2020
-| | <i>เยอรมนี</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 27 พฤศจิกายน 2020
+| | <i>อเมริกาใต้</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 มกราคม 2021
+| | <i>แคนาดา</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 มกราคม 2021
+| | <i>อินเดีย</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 มกราคม 2021
+| | <i>ฝรั่งเศส</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 มกราคม 2021
+| | <i>สหรัฐอาหรับเอมิเรตส์</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 มกราคม 2021
+| | <i>แอฟริกาใต้</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 มกราคม 2021
+| | <i>เยอรมนี</i> | [3.10.44.59](whats-new-ur-26.md) | TBD | 15 มกราคม 2021
 |<strong>สถานี 3</strong> | |  |  | |
-| | <i>ญี่ปุ่น</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 ธันวาคม 2020
-| | <i>เอเชียแปซิฟิก</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 ธันวาคม 2020
-| | <i>สหราชอาณาจักร</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 ธันวาคม 2020
-| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | TBD | 11 ธันวาคม 2020
+| | <i>ญี่ปุ่น</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 ธันวาคม 2020
+| | <i>เอเชียแปซิฟิก</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 ธันวาคม 2020
+| | <i>สหราชอาณาจักร</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 ธันวาคม 2020
+| | <i>Oceana</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 11 ธันวาคม 2020
 |<strong>สถานี 4</strong> | |  |  | |
-| | <i>ยุโรป</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 13 พฤศจิกายน 2020
+| | <i>ยุโรป</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 18 ธันวาคม 2020
 |<strong>สถานี 5</strong> | |  |  | |
-| | <i>อเมริกาเหนือ</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 พฤศจิกายน 2020
+| | <i>อเมริกาเหนือ</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 มกราคม 2021
 |<strong>สถานี 6</strong> | |  |  | |
-| | <i>คลาวด์ชุมชนของรัฐบาล</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 20 พฤศจิกายน 2020
-| | <i>กลุ่มสเกลเฉพาะ</i> |[3.10.42.43](whats-new-ur-24.md) | [3.10.43.76](whats-new-ur-25.md) | 27 พฤศจิกายน 2020
+| | <i>คลาวด์ชุมชนของรัฐบาล</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 8 มกราคม 2021
+| | <i>กลุ่มสเกลเฉพาะ</i> | [3.10.43.76](whats-new-ur-25.md) | [3.10.44.59](whats-new-ur-26.md) | 15 มกราคม 2021
 
 >[!Note]
 > - วันที่ในทุกภูมิภาคยกเว้นคลาวด์ชุมชนของรัฐบาล (GCC) ระบุเวลาของการอัปเดตอัตโนมัติครั้งถัดไป วันที่ใน GCC ระบุเวอร์ชันที่พร้อมใช้งาน; ในขณะนี้ไม่มีการอัปเดตอัตโนมัติสำหรับภูมิภาคเหล่านี้

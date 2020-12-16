@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: dc3b353f19b915f645aed91dc2a8127117027034
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a6dfa51f59119834230b7c9f8859a9d85eaae999
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121151"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643004"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>ลงทะเบียนการสมัครใช้งานรุ่นพรีวิวของ Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงวิธีการสมัครรับข้อเสนอรุ่นพรีวิว/คู่ค้าและปรับใช้งานสภาพแวดล้อม Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
@@ -75,7 +77,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ![มอบหมายสิทธิ์การใช้งาน](./media/15AssignLicenses.png)
 
-3. ตรวจสอบว่าสิทธิ์การใช้งาน **การแสดงตัวอย่าง Dynamics 365 Project Operations (CRM)** และ **Office 365 การดำเนินงานโครงการ - ดูตัวอย่าง** ถูกเลือกและเลือก **บันทึกการเปลี่ยนแปลง**
+3. ตรวจสอบว่าสิทธิ์การใช้งาน **พรีวิว Dynamics 365 Project Operations (CRM)** และ **Office 365 Project Operations - พรีวิว** ถูกเลือกและเลือก **บันทึกการเปลี่ยนแปลง**
 
 > [!NOTE]
 > ข้อเสนอการทดลองใช้ Finance ไม่จำเป็นต้องมอบหมายให้กับผู้ใช้

@@ -8,16 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 0100c29873be6346614e958ef6ea0c77da2c9590
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 22976730ef3c8c22ea028b27a6eb5f14fb88993e
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131636"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642431"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>พัฒนาแม่แบบโครงการด้วย คัดลอกโครงการ
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 Dynamics 365 Project Operations สนับสนุนความสามารถในการคัดลอกโครงการและเปลี่ยนการมอบหมายกลับไปยังทรัพยากรทั่วไปที่แสดงถึงบทบาท ลูกค้าสามารถใช้ฟังก์ชันนี้เพื่อสร้างแม่แบบโครงการพื้นฐาน
 

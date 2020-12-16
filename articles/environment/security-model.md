@@ -1,6 +1,6 @@
 ---
 title: โมเดลความปลอดภัย
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับรูปแบบความปลอดภัยใน Dynamics 365 Project Operations
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับโมเดลความปลอดภัยใน Dynamics 365 Project Operations
 author: stsporen
 manager: Annbe
 ms.date: 10/01/2020
@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 3fc4101d0ea4b8e2a4ba8f1d43540d57239cf402
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b01f3d88dd021895933bc863b762f019ae50eed6
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124391"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642926"
 ---
 # <a name="security-model"></a>รูปแบบความปลอดภัย
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
-Microsoft Dynamics 365 Project Operations มีรูปแบบความปลอดภัยเฉพาะที่ช่วยให้สามารถใช้รูปแบบความปลอดภัยทางธุรกิจตามบทบาทที่ทำงานร่วมกันกับกลุ่ม Microsoft Office ได้ 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Microsoft Dynamics 365 Project Operations มีโมเดลความปลอดภัยเฉพาะที่อนุญาตให้ใช้โมเดลความปลอดภัยทางธุรกิจตามบทบาทที่ทำงานร่วมกันกับกลุ่ม Microsoft Office 
 
 
 ## <a name="security-roles"></a>บทบาทความปลอดภัย

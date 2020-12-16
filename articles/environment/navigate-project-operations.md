@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 92a9c4e62165f3e26ccb03c7af61f483c6744cc5
-ms.sourcegitcommit: 627d42e2a318dfc9564a4b803ada157682d4a0db
+ms.openlocfilehash: d948c1cfe2d95e61f2405a9a23e7045af678ae40
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/29/2020
-ms.locfileid: "4174288"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642071"
 ---
 # <a name="navigate-project-operations"></a>ไปยัง Project Operations
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
-การดำเนินโครงการของ Dynamics 365 สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลังประกอบด้วยสององค์ประกอบ: 
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+Dynamics 365 Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลังประกอบด้วยสององค์ประกอบ: 
 
  - **Project Operations บนสภาพแวดล้อม Common Data Service (CDS)**: ส่วนประกอบนี้ครอบคลุมถึงความสามารถและกระบวนการต่าง ๆ ตั้งแต่โอกาสทางการขายไปจนถึงการออกใบแจ้งหนี้ชั่วคราว 
  - **การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance**: ส่วนประกอบนี้ครอบคลุมถึงความสามารถในการจัดการค่าใช้จ่าย การบัญชีโครงการ และการรับรู้รายได้ 

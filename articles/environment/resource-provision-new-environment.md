@@ -8,18 +8,20 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 044a942a068b33318b98041cc94944d90c1d63c3
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 9ed502a1312b702e029d8910d62f72b8e0e4df06
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121196"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4643015"
 ---
 # <a name="provision-a-new-environment"></a>เตรียมใช้งานสภาพแวดล้อมใหม่
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับการเตรียมใช้งานสภาพแวดล้อม Dynamics 365 Project Operations ใหม่สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
+หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานสภาพแวดล้อม Dynamics 365 Project Operations ใหม่สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>เปิดใช้งานการเตรียมใช้งานอัตโนมัติของ Project Operations ในโครงการ LCS
 
@@ -120,7 +122,7 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 
 ![ใช้โซลูชัน](./media/13ApplySolutions.png)
 
-5. เลือกทั้งสองโซลูชัน **การแม็ปเอนทิตีการรวมแบบสองทิศทางของ Dynamics 365 Finance and Operations** และ **การแม็ปเอนทิตีการรวมแบบสองทิศทางของ Dynamics 365 Project Operations** แล้วเลือก **นำไปใช้**
+5. เลือกทั้งสองโซลูชัน **แผนที่เอนทิตีแบบสองทิศทางของ Dynamics 365 Finance and Operations** และ **แผนที่เอนทิตีแบบสองทิศทางของ Dynamics 365 Project Operations** แล้วเลือก **สมัคร**
 
 ![ยืนยันโซลูชัน](./media/14ConfirmSolutions.png)
 
@@ -158,9 +160,10 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 
 | **เอนทิตีแมป** | **รีเฟรชเอนทิตี** | **การทำข้อมูลให้ตรงกันครั้งแรก** | **ข้อมูลหลักสำหรับการทำข้อมูลให้ตรงกันครั้งแรก** | **ข้อกำหนดเบื้องต้นการเรียกใช้** | **ข้อกำหนดเบื้องต้นสำหรับการซิงค์ครั้งแรก** |
 | --- | --- | --- | --- | --- | --- |
-| **บทบาททรัพยากรโครงการสำหรับทุกบริษัท (bookableresourcecategories)** | No | มี | Common Data Service | No | N\A |
-| **นิติบุคคล (cdm\_companies)** | No | มี | แอป Finance and Operations | No | N\A |
-| **ข้อมูลจริงของการรวม Project Operations (msdyn\_actuals)** | No | No | N\A | มี | No |
+| **บทบาททรัพยากรโครงการสำหรับทุกบริษัท (bookableresourcecategories)** | ไม่ | มี | Common Data Service | ไม่ | N\A |
+| **นิติบุคคล (cdm\_companies)** | ไม่ | มี | แอป Finance and Operations | ไม่ | N\A |
+| **บัญชีแยกประเภท (msdyn_ledgers)** | ไม่ | มี | แอป Finance and Operations | มี | ใช่ แอป Finance and Operations |
+| **ข้อมูลจริงของการรวม Project Operations (msdyn\_actuals)** | ไม่ | No | N\A | มี | No |
 | **รายละเอียดการให้บริการตามสัญญาตามโครงการ (salesorderdetails)** | No | No | N\A | No | No |
 | **เอนทิตีการรวมสำหรับความสัมพันธ์ธุรกรรมโครงการ (msdyn\_transactionconnections)** | No | No | N\A | No | N\A |
 | **หลักเป้าหมายในรายละเอียดการให้บริการตามสัญญาของการรวม Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | N\A | No | N\A |

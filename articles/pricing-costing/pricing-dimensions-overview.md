@@ -3,30 +3,22 @@ title: ภาพรวมมิติการกำหนดราคา
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับมิติการกำหนดราคาใน Dynamics 365 Project Operations
 author: rumant
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ec2e350e0e4c28ea1c9540d70c83fdf0a75dc408
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.author: rumant
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128486"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650237"
 ---
 # <a name="pricing-dimensions-overview"></a>ภาพรวมมิติการกำหนดราคา
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 มิติที่ใช้ในทรัพยากรบุคคลเพื่อตั้งค่าการกำหนดราคาและการคิดต้นทุนจะแบ่งออกเป็นสองประเภท: 
 
@@ -40,9 +32,21 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="pricing-dimensions"></a>มิติการกำหนดราคา
 
-Dynamics 365 Project Operations มาพร้อมกับชุดมิติการกำหนดราคาเริ่มต้น คุณสามารถมิติการกำหนดราคาเหล่านี้ได้โดยไปที่ **Project Operations** > **พารามิเตอร์** ในบันทึกพารามิเตอร์ บนแท็บ **Amount-based pricing dimensions** ตรวจสอบบทบาทนั้น **msdyn_resourcecategory** และจัดเตรียมทรัพยากรหน่อยองค์กร **msdyn_organizationalunit** มีฟิล์ด **Applicable to sales** และ **Applicable to cost** ให้ตั้งเป็น **Yes** เมื่อเปิดใช้งานฟิลด์เหล่านี้ คุณสามารถตั้งค่าการกำหนดราคาและการคิดต้นทุนสำหรับทุกบทบาทและการรวมหน่วยองค์กร
+Dynamics 365 Project Operations จัดส่งกับชุดการกำหนดราคาเริ่มต้น คุณสามารถมิติการกำหนดราคาเหล่านี้ได้โดยไปที่ **Project Operations** > **พารามิเตอร์** ในบันทึกพารามิเตอร์ บนแท็บ **Amount-based pricing dimensions** ตรวจสอบบทบาทนั้น **msdyn_resourcecategory** และจัดเตรียมทรัพยากรหน่อยองค์กร **msdyn_organizationalunit** มีฟิล์ด **Applicable to sales** และ **Applicable to cost** ให้ตั้งเป็น **Yes** เมื่อเปิดใช้งานฟิลด์เหล่านี้ คุณสามารถตั้งค่าการกำหนดราคาและการคิดต้นทุนสำหรับทุกบทบาทและการรวมหน่วยองค์กร
 
-ถ้าคุณต้องการกำหนดราคาหรือคิดต้นทุนสำหรับทรัพยากรของคุณโดยใช้แอตทริบิวต์เพิ่มเติม คุณสามารถสร้างฟิล์ดที่กำหนดเอง เอนทิตี และมิติ
+![ภาพหน้าจอของพารามิเตอร์ Project Service กับ “Applicable to Sales” ที่ไฮไลต์](media/PS-OOB-parameters.png)
+
+ถ้าคุณต้องการกำหนดราคาหรือคิดต้นทุนสำหรับทรัพยากรของคุณโดยใช้แอตทริบิวต์เพิ่มเติม คุณสามารถสร้างฟิล์ดที่กำหนดเอง เอนทิตี และมิติ สำหรับข้อมูลเพิ่มเติม ดูหัวข้อต่อไปนี้ 
+  
+  > [!NOTE]
+  > ขั้นตอนจะต้องเสร็จสมบูรณ์ตามลำดับที่ระบุไว้
+
+1. [สร้างโซลูชันสำหรับมิติการกำหนดราคาที่กำหนดเอง](../sales/create-solution-custompd.md)
+2. [สร้างฟิลด์แบบกำหนดเองและเอนทิตี](create-custom-fields-entities-pricing-dimensions.md)
+3. [เพิ่มฟิลด์ที่กำหนดเองในการตั้งค่าราคาและเอนทิตีธุรกรรม ](add-custom-fields-price-setup-transactional-entities.md)
+4. [ตั้งค่าฟิลด์ที่กำหนดเองเป็นมิติการกำหนดราคา ](set-up-custom-fields-pricing-dimensions.md)
+5. [อัปเดตแอตทริบิวต์ปลั๊กอินเพื่อรวมมิติการกำหนดราคาแบบใหม่ไปด้วย](update-plugin-attributes-pd.md)
+
 
 ## <a name="pricing-human-resource-time"></a>การกำหนดราคาเวลาทรัพยากรบุลคล
 วิธีที่องค์กรกำหนดราคาเวลาทรัพยากรบุลคลมักจะเป็นการพิจารณาเชิงกุลยุทธ์ที่สำคัญที่ส่งผลกับผลกำไรขององค์กรโดยตรง ทำงานร่วมกับทีมการเงินและปฏิบัติกับหัวหน้าเมื่อองค์กรของคุณพร้อมที่จะระบุวิธีที่ต้องการจะตั้งค่าบิลและอัตราต้นทุนสำหรับเวลาทรัพยยากรบุคคล

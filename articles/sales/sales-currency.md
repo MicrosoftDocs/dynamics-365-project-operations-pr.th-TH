@@ -17,16 +17,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8d4e1d73dc183ed572fb5099d055d2fbe0c08746
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 093eaa78b5f88aee364a753374a56c33e20a5ce3
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4121241"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642296"
 ---
 # <a name="currency"></a>สกุลเงิน
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 สกุลเงินจะใช้เพื่อกำหนดราคาสำหรับผลิตภัณฑ์ในแค็ตตาล็อกผลิตภัณฑ์ และต้นทุนของการทำธุรกรรม เช่น ใบสั่งขาย ถ้าลูกค้าของคุณแพร่กระจายตามพื้นที่ ให้เพิ่มสกุลเงินของพวกเขาเพื่อจัดการธุรกรรมของคุณ เพิ่มสกุลเงินที่เหมาะสมที่สุดสำหรับความจำเป็นทางธุรกิจในปัจจุบันและในอนาคต  
 
