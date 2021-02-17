@@ -6,11 +6,11 @@
       href: environment/determine-deployment-type.md
     - name: การปรับปรุง Project Operations
       href: whats-new/project-operations-updates.md
-- name: Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก
+- name: Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในสต็อก
   items:
     - name: เริ่มต้นใช้งาน
       items:
-        - name: Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก
+        - name: Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในสต็อก
           href: environment/project-operations-integrated-deployment-overview.md
         - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว
           href: environment/resource-sign-up-preview-subscription.md
@@ -20,12 +20,10 @@
           items:
             - name: เริ่มต้นโครงการ LCS ใหม่
               href: environment/create-lcs-project.md
-            - name: เพิ่มการสมัครใช้งาน Azure ไปยังโครงการ LCS
+            - name: เพิ่มการสมัครใช้งาน Azure ในโครงการ LCS
               href: environment/resource-add-azure-subscription-lcs-project.md
         - name: นำข้อมูลสาธิตไปใช้
           items:
-            - name: นำข้อมูลสาธิตไปใช้กับสภาพแวดล้อมที่เป็นโฮสต์บนระบบคลาวด์ของ Finance
-              href: environment/resource-apply-finance-demo-data.md
             - name: ใช้ข้อมูลการกำหนดค่าใน Common Data Service
               href: environment/resource-apply-pro-setup-config-data.md
         - name: ปรับใช้งานสภาพแวดล้อม
@@ -38,9 +36,13 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: มีอะไรใหม่
       items:
-        - name: ธันวาคม 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
+        - name: กุมภาพันธ์ 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-feb-2021-resource-based.md
+        - name: มกราคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-jan-2021-resource-based.md
+        - name: ธันวาคม 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-dec-2020-resource-based.md
-        - name: พฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
+        - name: พฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-nov-2020-resource-based.md
     - name: กระบวนการขายของโครงการ
       items:
@@ -132,19 +134,19 @@
               href: pro/sales/copy-project-contracts-sales.md
             - name: เงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า
               items:
-                - name: สัญญาตามเงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า - Lite
+                - name: สัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้า
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: ตั้งค่ากำหนดการของค่าธรรมเนียมล่วงหน้า - Lite
+                - name: ตั้งค่ากำหนดการค่าธรรมเนียมล่วงหน้า
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: สร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา - Lite
+                - name: สร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: การกำหนดราคาและการคิดต้นทุน
       items:
-        - name: การตั้งค่าราคาตลาด
+        - name: การตั้งค่ารายการราคา
           items:
-            - name: ตั้งค่าราคาตลาด
+            - name: ตั้งค่ารายการราคา
               href: pricing-costing/price-list-setup.md
-            - name: ราคาตลาดของผลิตภัณฑ์
+            - name: รายการราคาของผลิตภัณฑ์
               href: pricing-costing/product-price-list.md
             - name: ตั้งค่าอัตราการเรียกเก็บเงินค่าแรง
               href: pricing-costing/set-up-labor-bill-rate.md
@@ -210,11 +212,13 @@
           href: project-management/copy-project.md
         - name: การวางแผนโครงสร้างการแบ่งงาน
           items:
+            - name: สร้างโครงสร้างการแบ่งงาน
+              href: project-management/create-wbs.md
             - name: สร้างงานที่มอบหมาย
               href: project-management/create-assignments.md
         - name: ประมาณการโครงการ
           items:
-            - name: ประมาณการภาพรวมโครงการ
+            - name: ภาพรวมของประมาณการโครงการ
               href: project-management/estimating-projects-overview.md
             - name: การประมาณการทรัพยากร
               href: project-management/resource-estimates.md
@@ -232,6 +236,8 @@
               href: project-management/project-team-members-overview.md
             - name: ดูแลสมาชิกทีม
               href: project-management/maintain-team-members.md
+        - name: แก้ไขปัญหาการทำงานในตารางงาน
+          href: project-management/projectplanningUIFAQ.md
         - name: การทำงานร่วมกัน
           items:
             - name: การทำงานร่วมกับกลุ่ม Office
@@ -262,9 +268,11 @@
               href: resource-management/book-project.md
             - name: ตรวจทานทรัพยากรที่เสนอ
               href: resource-management/review-proposed-resources.md
+            - name: แก้ไขการจอง
+              href: resource-management/edit-existing-bookings.md
         - name: การจองทรัพยากรแบบกระจายอำนาจ (แบบไฮบริด)
           items:
-            - name: เพิ่มสมาชิกในทีมจากตารางสมาชิกทีม
+            - name: เพิ่มสมาชิกทีมจากตารางสมาชิกทีม
               href: resource-management/add-team-members-grid.md
             - name: การตอบสนองความต้องการทรัพยากรทั่วไป
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -326,9 +334,11 @@
                   href: expense/set-up-credit-card-integration.md
                 - name: ตั้งค่าประเภทค่าใช้จ่าย
                   href: expense/set-up-expense-categories.md
+            - name: ทำงานกับค่าใช้จ่ายส่วนตัวในรายงานค่าใช้จ่าย
+              href: expense/personal-expenses-expense-report.md
             - name: สร้างรายงานค่าใช้จ่าย
               items:
-                - name: การแจกจ่ายในรายงานค่าใช้จ่าย
+                - name: การกระจายในรายงานค่าใช้จ่าย
                   href: expense/distributions-expense-report.md
             - name: อนุมัติรายงานค่าใช้จ่าย
               items:
@@ -370,22 +380,28 @@
           items:
             - name: สร้างและยืนยันสมุดรายวันการแก้ไข
               href: actuals/create-confirm-correction-journals.md
-    - name: การออกใบแจ้งหนี้ชั่วคราว
+    - name: การออกใบแจ้งหนี้
       items:
-        - name: จัดการรายการคงค้างของการเรียกเก็บเงินโครงการ
-          href: proforma-invoicing/manage-billing-backlog.md
-        - name: จัดการสถานะไม่เกินและการตรวจสอบความถูกต้อง
-          href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: สร้างใบแจ้งหนี้โครงการชั่วคราวด้วยตนเอง
-          href: proforma-invoicing/create-manual-proforma-invoice.md
-        - name: จัดการใบแจ้งหนี้โครงการชั่วคราว
-          href: proforma-invoicing/manage-proforma-invoice.md
-        - name: ออกใบแจ้งหนี้ค่าธรรมเนียมล่วงหน้าหรือเงินทดรองจ่าย
-          href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-        - name: ยืนยันใบแจ้งหนี้โครงการชั่วคราว
-          href: proforma-invoicing/confirm-proforma-invoice.md
-        - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้โครงการ
-          href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: ภาพรวมของการประมวลผลใบแจ้งหนี้
+          href: invoicing/post-project-invoices.md
+        - name: จัดการข้อเสนอใบแจ้งหนี้โครงการชั่วคราว
+          href: invoicing/format-update-project-invoice-proposals.md
+        - name: การออกใบแจ้งหนี้ชั่วคราว
+          items:
+            - name: จัดการรายการคงค้างของการเรียกเก็บเงินโครงการ
+              href: proforma-invoicing/manage-billing-backlog.md
+            - name: จัดการสถานะไม่เกินและการตรวจสอบความถูกต้อง
+              href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
+            - name: สร้างใบแจ้งหนี้โครงการชั่วคราวด้วยตนเอง
+              href: proforma-invoicing/create-manual-proforma-invoice.md
+            - name: จัดการใบแจ้งหนี้โครงการชั่วคราว
+              href: proforma-invoicing/manage-proforma-invoice.md
+            - name: ออกใบแจ้งหนี้ค่าธรรมเนียมล่วงหน้าหรือเงินทดรองจ่าย
+              href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
+            - name: ยืนยันใบแจ้งหนี้โครงการชั่วคราว
+              href: proforma-invoicing/confirm-proforma-invoice.md
+            - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้โครงการ
+              href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: การบัญชีของโครงการ
       items:
         - name: ค่าเริ่มต้นของมิติทางการเงิน
@@ -404,10 +420,10 @@
               href: project-accounting/intercompany-invoicing-overview.md
             - name: กำหนดค่าการออกใบแจ้งหนี้ระหว่างบริษัท
               href: project-accounting/configure-intercompany-invoicing.md
-            - name: สร้างใบแจ้งหนี้ของลูกค้าและผู้ขายระหว่างบริษัท
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
             - name: สร้างธุรกรรมระหว่างบริษัท
               href: project-accounting/create-intercompany-transactions.md
+            - name: สร้างใบแจ้งหนี้ของลูกค้าและผู้ขายระหว่างบริษัท
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: การรับรู้รายได้
       items:
         - name: ภาพรวมการรับรู้รายได้
@@ -416,14 +432,14 @@
           items:
             - name: ตั้งค่าชนิดรอบระยะเวลา
               href: project-accounting/period-types.md
-            - name: ตั้งค่าแม่แบบต้นทุน
+            - name: ตั้งค่าเท็มเพลตต้นทุน
               href: revenue-recognition/rev-rec-cost-templates.md
-        - name: จัดการประมาณการรายได้
-          href: revenue-recognition/rev-rec-completed-contract-method.md
         - name: โครงการประมาณการรายได้สำหรับราคาคงที่
           href: revenue-recognition/rev-rec-percentage-completion-method.md
         - name: ต้นทุนในการดำเนินการตามวิธีการ
           href: revenue-recognition/cost-complete-methods.md
+        - name: จัดการประมาณการรายได้
+          href: revenue-recognition/rev-rec-completed-contract-method.md
 - name: การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
   items:
     - name: เริ่มต้นใช้งาน
@@ -440,9 +456,13 @@
           href: environment/security-model.md
     - name: มีอะไรใหม่
       items:
-        - name: มีอะไรใหม่ในเดือนธันวาคม 2020 - การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+        - name: มีอะไรใหม่เดือนกุมภาพันธ์ 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-feb-2021-lite.md
+        - name: มีอะไรใหม่เดือนมกราคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-jan-2021-lite.md
+        - name: มีอะไรใหม่เดือนธันวาคม 2020 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-dec-2020-lite.md
-        - name: มีอะไรใหม่ในเดือนพฤศจิกายน 2020 - การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+        - name: มีอะไรใหม่เดือนพฤศจิกายน 2020 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-nov-2020-lite.md
     - name: กระบวนการขายของโครงการ
       items:
@@ -564,9 +584,9 @@
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: การกำหนดราคาและการคิดต้นทุน
       items:
-        - name: การตั้งค่าราคาตลาด
+        - name: การตั้งค่ารายการราคา
           items:
-            - name: ตั้งค่าราคาตลาด
+            - name: ตั้งค่ารายการราคา
               href: pricing-costing/price-list-setup.md
             - name: ตั้งค่าราคาตลาดสำหรับการขาย
               href: pricing-costing/sales-price-list-setup.md
@@ -636,11 +656,13 @@
           href: project-management/copy-project.md
         - name: การวางแผนโครงสร้างการแบ่งงาน
           items:
+            - name: สร้างโครงสร้างการแบ่งงาน
+              href: project-management/create-wbs.md
             - name: สร้างงานที่มอบหมาย
               href: project-management/create-assignments.md
         - name: ประมาณการโครงการ
           items:
-            - name: ประมาณการภาพรวมโครงการ
+            - name: ภาพรวมของประมาณการโครงการ
               href: project-management/estimating-projects-overview.md
             - name: การประมาณการทรัพยากร
               href: project-management/resource-estimates.md
@@ -658,10 +680,16 @@
               href: project-management/project-team-members-overview.md
             - name: ดูแลสมาชิกทีม
               href: project-management/maintain-team-members.md
+        - name: แก้ไขปัญหาการทำงานในตารางงาน
+          href: project-management/projectplanningUIFAQ.md
         - name: การทำงานร่วมกัน
           items:
             - name: การทำงานร่วมกับกลุ่ม Office
               href: project-management/collaboration-groups.md
+        - name: หมายเหตุสำหรับนักพัฒนา
+          items:
+            - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
+              href: project-management/dev-copy-project.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
@@ -684,9 +712,11 @@
               href: resource-management/book-project.md
             - name: ตรวจทานทรัพยากรที่เสนอ
               href: resource-management/review-proposed-resources.md
+            - name: แก้ไขการจอง
+              href: resource-management/edit-existing-bookings.md
         - name: การจองทรัพยากรแบบกระจายอำนาจ (แบบไฮบริด)
           items:
-            - name: เพิ่มสมาชิกในทีมจากตารางสมาชิกทีม
+            - name: เพิ่มสมาชิกทีมจากตารางสมาชิกทีม
               href: resource-management/add-team-members-grid.md
             - name: การตอบสนองความต้องการทรัพยากรทั่วไป
               href: resource-management/generic-resource-requirement-fulfillment.md
@@ -768,13 +798,17 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้โครงการ
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
-- name: Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
+- name: Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
   items:
     - name: มีอะไรใหม่
       items:
-        - name: มีอะไรใหม่ในเดือนพฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
+        - name: มีอะไรใหม่ในเดือนมกราคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
+        - name: มีอะไรใหม่ในเดือนธันวาคม 2020 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-dec-2020-stocked.md
+        - name: มีอะไรใหม่ในเดือนพฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
           href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
-    - name: Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
+    - name: Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: ภาพรวมการจัดการโครงการและการบัญชี
       href: prod-pma/overview-project-management-accounting.md
@@ -878,7 +912,7 @@
       href: prod-exp/expense-receipt-processing.md
     - name: นำเข้าและรักษาธุรกรรมบัตรเครดิต
       href: prod-exp/import-credit-card.md
-    - name: การแจกจ่ายในรายงานค่าใช้จ่าย
+    - name: การกระจายในรายงานค่าใช้จ่าย
       href: prod-exp/expense-report-distributions.md
     - name: ค่าใช้จ่ายระหว่างบริษัท
       href: prod-exp/intercompany-expense.md
@@ -906,6 +940,14 @@
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 28.5 โปรแกรมแก้ไขด่วน, V3'
+          href: psa/whats-new-ur-28-5.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 28, V3'
+          href: psa/whats-new-ur-28.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 27.5 โปรแกรมแก้ไขด่วน, V3'
+          href: psa/whats-new-ur-27-5.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 27, V3'
+          href: psa/whats-new-ur-27.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 26, V3'
           href: psa/whats-new-ur-26.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 25, V3'
@@ -936,6 +978,8 @@
           href: psa/whats-new-ur-13.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 12, V3'
           href: psa/whats-new-ur-12.md
+        - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation V3.x เวฟ 1 2021
+          href: psa/whats-new-2021-wave1.md
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation V3.x เวฟ 1 2020
           href: psa/whats-new-v3-2020-wave1.md
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation V3
@@ -986,12 +1030,14 @@
               href: psa/project-leveraging.md
             - name: ความคืบหน้าของโครงการและการใช้ต้นทุน
               href: psa/project-tracking.md
-            - name: แม่แบบโครงการ
+            - name: เทมเพลตโครงการ
               href: psa/project-templates.md
             - name: ลำดับขั้นของโครงการ
               href: psa/project-stages.md
             - name: การตั้งค่าโครงการ
               href: psa/project-settings.md
+            - name: วางแผนการทำงานของคุณใน Microsoft Project ด้วย Project Service Add-in
+              href: psa/add-in-plan-work-projects.md
         - name: มิติการกำหนดราคาและต้นทุน
           items:
             - name: โฮมเพจมิติการกำหนดราคาและการคิดต้นทุน
