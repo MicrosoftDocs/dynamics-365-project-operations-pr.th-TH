@@ -18,14 +18,16 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e753dd2f5635d1e9d0d6a02ea5d1d537879dd3a5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 09f7acb95be014034cc03d7eed9d37363d430601
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124121"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5147407"
 ---
 # <a name="soft-book-requirements"></a>จองคำขอแบบไม่ตายตัว
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 คำขอทรัพยากรสามารถจองแบบตายตัวได้ การจองแบบตายตัวจะสร้างการประชุมข้อเสนอที่ใช้กำลังการผลิตของทรัพยากร การประชุมข้อเสนอจะถูกส่งกลับไปยังผู้ขอเพื่อการอนุมัติ การจองแบบไม่ตายตัว จะเพิ่มทรัพยากรไปยังทีมของโครงการแบบไม่แน่นอน และมีสถานะที่แตกต่างในตารางกำหนดการ แต่จะไม่ใช้กำลังการผลิตของทรัพยากร หากต้องการจองทรัพยากรแบบไม่ตายตัวจากตารางกำหนดการ ให้ตั้งค่าฟิลด์ **สถานะการจอง** เป็น **ไม่ตายตัว**
 
