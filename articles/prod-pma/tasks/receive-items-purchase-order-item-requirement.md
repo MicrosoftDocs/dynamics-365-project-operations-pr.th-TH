@@ -56,3 +56,6 @@ ms.locfileid: "4086099"
 21. ใน **ใบรับสินค้า** พิมพ์ค่า
 22. เลือก **ตกลง**
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

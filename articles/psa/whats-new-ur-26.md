@@ -74,3 +74,6 @@ ms.locfileid: "5143581"
 - เมื่อเลือกรายการตามโครงการในใบเสนอราคาหรือสัญญา ปุ่ม **ข้อเสนอแนะ** ควรมองเห็นได้เฉพาะเมื่อเลือกรายการตามผลิตภัณฑ์ที่เกี่ยวข้องกับผลิตภัณฑ์ที่มีอยู่
 - แยกสิทธิ์การใช้งาน **Create_Product** จากสิทธิ์การใช้งาน **Create_ProjectContract**
 - การลบรายการใบแจ้งหนี้ทำให้การอ้างอิงเป็นโมฆะบน **MarkReadyToInvoiceForProductContractLineAfterDeletingInvoice**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

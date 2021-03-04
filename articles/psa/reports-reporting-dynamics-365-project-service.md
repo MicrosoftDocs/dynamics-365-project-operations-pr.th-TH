@@ -52,3 +52,6 @@ Microsoft Power BI และ Dynamics 365 ทั้งสองให้คุ�
 - [การทำงานกับแบบจำลองข้อมูล Project Service](reports-working-project-service-data-model.md)
 - [แดชบอร์ด](reports-dashboards.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

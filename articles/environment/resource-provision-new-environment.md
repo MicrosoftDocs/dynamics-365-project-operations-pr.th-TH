@@ -209,3 +209,6 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 
 
 ขณะนี้ สภาพแวดล้อม Project Operations ของคุณได้รับการเตรียมใช้งานและกำหนดค่าแล้ว 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

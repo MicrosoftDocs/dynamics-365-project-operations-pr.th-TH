@@ -113,3 +113,6 @@ USSI ซึ่งเป็นนิติบุคคลที่ให้ยื
 สำหรับข้อมูลเพิ่มเติม โปรดดู [กำหนดค่าการออกใบแจ้งหนี้โครงการระหว่างบริษัท](tasks/configure-intercompany-project-invoicing.md)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

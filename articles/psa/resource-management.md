@@ -53,3 +53,6 @@ ms.locfileid: "5147451"
 - [จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร](book-named-resource.md)
 - [ส่งคำขอทรัพยากร](submit-resource-request.md)
 - [ยอมรับหรือปฏิเสธทรัพยากรโครงการที่นำเสนอจากคำขอทรัพยากร](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

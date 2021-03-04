@@ -73,3 +73,6 @@ ms.locfileid: "5147361"
  [คำแนะนำผู้จัดการลูกค้าองค์กร](../psa/account-manager-guide.md)   
  [คำแนะนำของผู้จัดการโครงการ](../psa/project-manager-guide.md)   
  [เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

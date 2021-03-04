@@ -44,3 +44,6 @@ Dynamics 365 Project Operations รองรับความสามารถ
 
 ## <a name="determine-your-expense-deployment"></a>กำหนดการปรับใช้งานค่าใช้จ่ายของคุณ
 หากต้องการตรวจสอบว่าคุณกำลังเรียกใช้การปรับใช้งานการจัดการค่าใช้จ่ายขั้นพื้นฐานหรือไม่ ให้ตรวจสอบว่า URL ที่อยู่ลงท้ายด้วย **.crm.dynamics.com** 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

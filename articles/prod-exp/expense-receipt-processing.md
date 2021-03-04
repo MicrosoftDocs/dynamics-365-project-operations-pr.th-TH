@@ -95,3 +95,6 @@ ms.locfileid: "4960315"
 Finance จะติดต่อ Cognitive Services เพื่อดึงข้อมูลภาคสนาม Cognitive Services จะเก็บสำเนาใบเสร็จรับเงินของคุณไว้เป็นเวลา 24 ชั่วโมงในขณะที่มีการประมวลผล หลังจากการประมวลผลเสร็จสิ้น Cognitive Services จะลบใบเสร็จรับเงินออก ใบเสร็จรับเงินยังคงเก็บไว้ใน Finance
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [เปิดใช้งานการทำความเข้าใจใบเสร็จรับเงินด้วยความสามารถใหม่ของตัวรู้จำฟอร์ม](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -81,3 +81,6 @@ ms.locfileid: "5146731"
 - ปุ่ม **รีเฟรชตามจริง** คำนวณงานสรุปไม่ถูกต้อง
 - Microsoft Project Add-in: แก้ไขข้อผิดพลาดในการอ้างอิงเป็น null หากสมาชิกทีมมีหน่วยจัดหาทรัพยากรที่ว่างเปล่า
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

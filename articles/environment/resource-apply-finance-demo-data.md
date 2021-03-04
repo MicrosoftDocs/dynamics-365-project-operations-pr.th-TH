@@ -79,3 +79,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 18. ปิดเซสชันเดสก์ท็อประยะไกลและใช้เพจ **รายละเอียดสภาพแวดล้อม** ของ LCS เพื่อเข้าสู่สภาพแวดล้อมในการยืนยันว่าทำงานได้ตามที่คาดไว้
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

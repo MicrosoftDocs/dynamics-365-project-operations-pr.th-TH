@@ -91,3 +91,6 @@ ms.locfileid: "5146551"
 
 4. เมื่อทรัพยากรถูกจองแล้ว คุณจำเป็นต้องมอบหมายงานด้วยตนเอง
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

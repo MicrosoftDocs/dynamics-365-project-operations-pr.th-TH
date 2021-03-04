@@ -288,3 +288,6 @@ _**นำไปใช้กับ:** การปรับใช้งานแ�
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

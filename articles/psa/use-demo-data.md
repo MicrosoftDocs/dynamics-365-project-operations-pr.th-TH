@@ -55,3 +55,6 @@ ms.locfileid: "5151141"
  [คำแนะนำของผู้จัดการโครงการ](../psa/project-manager-guide.md)   
  [คำแนะนำของผู้จัดการทรัพยากร](../psa/resource-manager-guide.md)   
  [เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

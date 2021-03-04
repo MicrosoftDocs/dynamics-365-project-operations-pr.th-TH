@@ -52,3 +52,6 @@ Dynamics 365 Project Service Automation เสนอการสนับสน�
 - [แม่แบบโครงการ](project-templates.md)
 - [ลำดับขั้นของโครงการ](project-stages.md)
 - [การตั้งค่าโครงการ](project-settings.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -76,3 +76,6 @@ ms.locfileid: "5145021"
 5. เพิ่ม **msdyn_projectteam** ลงในฟิลด์ **ชื่อตรรกะของเอนทิตี** และ **msdyn_bookableresourceid** ไปยังฟิลด์ **ชื่อฟิลด์** บันทึกเรกคอร์ด
 
  ![ฟอร์มชื่อฟิลด์มิติการกำหนดราคาใหม่](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

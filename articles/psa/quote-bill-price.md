@@ -44,3 +44,6 @@ ms.locfileid: "5147900"
 - [กลุ่มหน่วยและหน่วย](advanced-units.md)
 - [สกุลเงินหลายหน่วย](advanced-currency.md)
 - [ค่าจริงของการบันทึก](advanced-actuals.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

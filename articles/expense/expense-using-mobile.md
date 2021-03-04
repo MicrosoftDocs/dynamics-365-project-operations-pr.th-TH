@@ -236,3 +236,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 22. เลือก **ส่ง**
 23. ป้อนข้อคิดเห็นสำหรับผู้อนุมัติ
 24. เลือก **สำเร็จ**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

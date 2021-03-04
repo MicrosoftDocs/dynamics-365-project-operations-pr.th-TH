@@ -39,3 +39,6 @@ ms.locfileid: "4085909"
 10. คลิก OK 
 
 หลังจากขั้นตอนนี้ ใบลดหนี้จะพร้อมใช้งานสำหรับข้อเสนอใบแจ้งหนี้
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

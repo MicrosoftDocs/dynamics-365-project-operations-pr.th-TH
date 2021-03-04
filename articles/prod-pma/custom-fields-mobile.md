@@ -429,3 +429,6 @@ final class TSTimesheetDetails_Extension
 1. แอปพยายามใส่หมวดหมู่เริ่มต้นจากทรัพยากรโครงการ ประเภทเริ่มต้นนี้ถูกตั้งค่าในวิธี **getCurrentUserResource** และ **getDelegatedResourcesForCurrentUser** ในคลาส **TSTimesheetSettingsService**
 2. หากไม่ได้ระบุหมวดหมู่เริ่มต้นที่ระดับทรัพยากรโครงการ แอปจะพยายามดึงออกจากกิจกรรมโครงการ ประเภทเริ่มต้นนี้ถูกตั้งค่าในวิธี **getActivitiesForProject** ในคลาส **TSTimesheetProjectService**
 3. หากไม่ได้ระบุหมวดหมู่เริ่มต้นที่ระดับกิจกรรมโครงการ ประเภทเริ่มต้นจะถูกดึงออกจากพารามิเตอร์โครงการ ประเภทเริ่มต้นนี้ถูกตั้งค่าในวิธี **getProjectDetailsbyRule** ในคลาส **TSTimesheetProjectService**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ ms.locfileid: "4643106"
 5. เพิ่ม **msdyn_bookableresourceid** เป็น **ชื่อฟิลด์**
 
  ![ฟอร์มชื่อฟิลด์มิติการกำหนดราคาใหม่](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

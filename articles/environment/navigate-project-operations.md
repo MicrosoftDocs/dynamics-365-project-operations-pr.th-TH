@@ -38,3 +38,6 @@ Dynamics 365 Project Operations สำหรับสถานการณ์ท
 
 > [!NOTE]
 > คุณสามารถเข้าถึง Project Operations ในโมดูล Common Data Service และ **การจัดการโครงการและการบัญชี** โดยตรงโดยใช้ URL ตามลำดับ 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

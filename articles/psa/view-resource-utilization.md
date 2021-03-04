@@ -43,3 +43,6 @@ ms.locfileid: "5150736"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [คำแนะนำของผู้จัดการทรัพยากร](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

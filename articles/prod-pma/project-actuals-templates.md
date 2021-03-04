@@ -140,3 +140,6 @@ ms.locfileid: "4086064"
 [![การแม็ปแม่แบบ - อัปเดตข้อมูลจริง](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![การแม็ปแม่แบบ - อัปเดตธุรกรรม](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

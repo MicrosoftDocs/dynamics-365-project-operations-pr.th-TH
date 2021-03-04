@@ -71,3 +71,6 @@ Dynamics 365 Project Operations จัดส่งกับชุดการก
 | ----------------|-------------|----------|----------:|----------|
 | บริษัทของฉัน_Band1 | Contoso US  |Hour | 145|USD     |
 | บริษัทของฉัน_Band2 | Contoso India |Hour|   67|USD     |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -112,3 +112,6 @@ Dynamics 365 Project Operations สนับสนุนความสามา
     }
 }
 ```
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

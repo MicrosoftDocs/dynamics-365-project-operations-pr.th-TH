@@ -43,3 +43,6 @@ Dynamics 365 Project Operations ใช้โฟลว์ต่อไปนี้
 - [กำหนดค่าการออกใบแจ้งหนี้ระหว่างบริษัท](configure-intercompany-invoicing.md)
 - [บันทึกธุรกรรมระหว่างบริษัท](create-intercompany-transactions.md)
 - [สร้างใบแจ้งหนี้ของลูกค้าและผู้ขายระหว่างบริษัท](create-intercompany-customer-vendor-invoices.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -342,3 +342,6 @@ Project Operations จะบันทึกธุรกรรมทางกา�
 </tr>
 </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

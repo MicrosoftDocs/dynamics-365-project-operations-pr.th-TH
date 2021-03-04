@@ -20,3 +20,6 @@ ms.locfileid: "4514596"
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 คุณสามารถใช้ Dynamics 365 Field Service เพื่อสร้างทรัพยากรที่สามารถจองได้เพื่อใช้ในสภาพแวดล้อม Dynamics 365 Project Operations หากต้องการสร้างทรัพยากรเหล่านี้ ดูที่ [ตั้งค่าทรัพยากรที่สามารถจองได้](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resources)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

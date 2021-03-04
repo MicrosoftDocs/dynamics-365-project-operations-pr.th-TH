@@ -91,3 +91,6 @@ ms.locfileid: "4175914"
 ## <a name="install-a-cds-configuration-and-setup-demo-data"></a>ติดตั้งการกำหนดค่า CDS และตั้งค่าข้อมูลสาธิต
 
 ติดตั้งการกำหนดค่า CDS และตั้งค่าข้อมูลสาธิตโดยทำตามคำแนะนำในหัวข้อ [ใช้การตั้งค่าการสาธิตและข้อมูลการกำหนดค่า](lite-apply-demo-setup-config-data.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

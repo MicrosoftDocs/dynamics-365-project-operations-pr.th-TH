@@ -57,3 +57,6 @@ ms.locfileid: "5143788"
 - แก้ไขแล้ว: เมื่อคลาสธุรกรรมคือ **เวลา** **UnitGroup** เป็นแบบไม่สามารถแก้ไขได้สำหรับเอนทิตีทั้งหมด ซึ่งรวมถึง **QuoteLineDetails** **JournalLine** **InvoiceLineDetail** และ **ContractLineDetails** อย่างไรก็ตาม **หน่วย** เป็นแบบไม่สามารถแก้ไขได้ เฉพาะสำหรับ **JournalLine** และ **InvoiceLineDetails**
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

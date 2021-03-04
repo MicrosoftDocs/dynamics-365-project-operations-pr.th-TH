@@ -160,3 +160,6 @@ ms.locfileid: "4960360"
 - นโยบายจะหมดอายุเมื่อใด
 - กฎของนโยบายคืออะไร
 - ผลลัพธ์ของกฎของนโยบายคืออะไร
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

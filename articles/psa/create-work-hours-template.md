@@ -65,3 +65,6 @@ ms.locfileid: "5148801"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [ตั้งค่าทรัพยากรที่สามารถจองได้](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

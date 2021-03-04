@@ -153,3 +153,6 @@ ms.locfileid: "4764842"
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>การแม็ปเป้าหมายรายละเอียดการให้บริการตามสัญญาโครงการในโครงการและสัญญา (PSA 3.x ถึง Dynamics) - แม่แบบ v2:
 
 [![การแม็ปเหตุการณ์สำคัญรายละเอียดการให้บริการตามสัญญาโครงการพร้อมแม่แบบรุ่นสอง](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -47,3 +47,6 @@ ms.locfileid: "5144841"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [คำแนะนำผู้จัดการลูกค้าองค์กร](../psa/account-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

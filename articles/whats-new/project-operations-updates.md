@@ -77,3 +77,6 @@ Dynamics 365 Project Operations ประกอบด้วยสององค
 | --- | --- |
 | 10.0.17 | 19 มีนาคม 2021 |
 | 10.0.18 | 16 เมษายน 2021 |
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

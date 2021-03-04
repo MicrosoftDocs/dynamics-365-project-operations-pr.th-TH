@@ -88,3 +88,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 7. เลือก **ตกลง** เพื่อปิดกล่องโต้ตอบ และจากนั้นเลือก **ขั้นตอนการปรับปรุง**
 8. ทำซ้ำขั้นตอนที่ 1 ถึง 7 สำหรับปลั๊กอินที่สอง
 9. ปิด PluginRegistrationTool
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

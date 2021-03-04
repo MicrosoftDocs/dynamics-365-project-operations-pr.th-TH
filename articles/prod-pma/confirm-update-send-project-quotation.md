@@ -57,3 +57,6 @@ ms.locfileid: "4086070"
 
 > [!NOTE]
 > คุณไม่สามารถแก้ไขใบเสนอราคาโครงการหลังจากเปลี่ยนสถานะเป็น **ส่งแล้ว**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

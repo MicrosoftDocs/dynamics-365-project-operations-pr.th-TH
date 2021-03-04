@@ -107,3 +107,6 @@ ms.locfileid: "5147879"
 ภาพประกอบต่อไปนี้แสดงการเปลี่ยนแปลงที่เกิดขึ้นสำหรับรายการค่าใช้จ่ายที่ได้รับอนุมัติ เมื่อถูกเรียกคืน
 
 ![การเปลี่ยนสถานะของรายการค่าใช้จ่าย](media/ExpenseEntryStateTransitions.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

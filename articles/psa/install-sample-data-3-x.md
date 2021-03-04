@@ -297,3 +297,6 @@ ms.locfileid: "5144526"
 
 > [!div class="mx-imgBorder"]
 > ![ภาพหน้าจอของทรัพยากรที่สามารถจองได้ที่ใช้งานอยู่](media/sample-data-6.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

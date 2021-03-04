@@ -316,3 +316,6 @@ Finance ใช้กฎการหารายได้ 0: 100 เมื่อ�
 
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

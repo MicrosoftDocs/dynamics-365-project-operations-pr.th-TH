@@ -37,3 +37,6 @@ ms.locfileid: "4960765"
 |โรงแรม         |EUR 725              |EUR 557                        |EUR 168                          |
 |ค่าอาหาร         |EUR 346              |EUR 284                        |EUR 62                           |
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

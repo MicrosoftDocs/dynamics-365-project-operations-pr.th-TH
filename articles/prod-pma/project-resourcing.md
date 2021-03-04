@@ -55,3 +55,6 @@ ms.locfileid: "4085918"
 - [ประสิทธิภาพการจัดกำหนดการทรัพยากรโครงการ](project-scheduling-performance.md)
 - [ตั้งค่าบทบาทในแม่แบบโครงสร้างการแบ่งงาน](set-up-roles-wbs-template.md)
 - [การเติมเต็มทรัพยากรสำหรับทรัพยากรที่วางแผนไว้](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -35,3 +35,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 > [!NOTE]
 > ใน Dynamics 365 Project Operations การปิดสัญญาโครงการเป็นแพ้จะไม่ส่งผลกระทบต่อสถานะของโอกาสทางการขายที่เกี่ยวข้อง โอกาสทางการขายนี้จะยังคงเปิดอยู่และต้องปิดด้วยตนเอง
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

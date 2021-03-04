@@ -84,3 +84,6 @@ SalesOrderDetail (บรรทัดใบสั่ง) | msdyn_quotelineid | ms
 > สำหรับรายการทรัพยากรที่ไม่ได้รับการสนับสนุนทั้งหมด ดู [ทรัพยากรบนเว็บที่ไม่สนับสนุนใน Project Service Automation v3.x](../developer-guides/web-resources-deprecated-v3.x.md)
 
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

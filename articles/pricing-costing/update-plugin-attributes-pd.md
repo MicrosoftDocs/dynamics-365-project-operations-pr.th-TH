@@ -52,3 +52,6 @@ ms.locfileid: "4643241"
 7. เลือก **ตกลง** เพื่อปิดหน้า และจากนั้นเลือก **ขั้นตอนการปรับปรุง**
 8. ทำซ้ำขั้นตอนที่ 2 ถึง 7 สำหรับปลั๊กอินที่สอง **PreOperationQuoteLineDetail** สำหรับปลั๊กอินนี้ คุณต้องปรับปรุงขั้นตอน **การปรับปรุงของ msdyn_quotelinetransaction**
 9. ปิด **PluginRegistrationTool**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

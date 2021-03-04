@@ -134,3 +134,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 13. เลือก **บันทึก** 
 
 ![พารามิเตอร์โครงการที่ปรับปรุง](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

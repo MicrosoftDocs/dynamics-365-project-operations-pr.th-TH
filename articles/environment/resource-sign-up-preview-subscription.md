@@ -98,3 +98,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ติดตั้งโปรแกรมตั้งค่า CDS และข้อมูลการกำหนดค่าตามที่อธิบายไว้ในหัวข้อ [ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service](resource-apply-pro-setup-config-data.md)
 ทำตามขั้นตอนนี้หลังจากที่สภาพแวดล้อมการสาธิต Finance ถูกปรับใช้ และข้อมูลสาธิตใน FO พร้อมแล้ว
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

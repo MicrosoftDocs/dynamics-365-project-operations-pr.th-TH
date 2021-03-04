@@ -63,3 +63,6 @@ ms.locfileid: "5147407"
 ในการแปลงทรัพยากรที่ถูกจองแบบไม่ตายตัวไปยังแบบตายตัว ในแท็บ **ทีม** ของโครงการ เลือกทรัพยากร แล้วเลือก **ยืนยัน**
 
 ![ยืนยันคำสั่ง](media/Resource-Management-image83.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

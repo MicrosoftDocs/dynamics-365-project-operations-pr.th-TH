@@ -60,3 +60,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 [จัดการประมาณการรายได้](rev-rec-completed-contract-method.md)
 
 [ต้นทุนในการดำเนินการตามวิธีการ](cost-complete-methods.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

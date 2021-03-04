@@ -170,3 +170,6 @@ ms.locfileid: "4086060"
 [![การแม็ปแม่แบบของธุรกรรมประมาณการค่าใช้จ่าย](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)](./media/ExpenseEstimateTransactionRelationshipsMapping.jpg)
 
 [![การแม็ปแม่แบบของประมาณการค่าใช้จ่าย](./media/ExpenseEstimatesMapping.jpg)](./media/ExpenseEstimatesMapping.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

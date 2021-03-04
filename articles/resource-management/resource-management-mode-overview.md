@@ -48,3 +48,6 @@ Dynamics 365 Project Operations รองรับสองโหมดเพื
 จองทรัพยากรจากความต้องการทรัพยากร:
 - [มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
 - [จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

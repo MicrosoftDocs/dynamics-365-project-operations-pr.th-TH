@@ -127,3 +127,6 @@ ms.locfileid: "4085993"
 8.  เลือก **ปฏิทิน** เพื่อใช้ในการจัดหาทรัพยากร
 
 11. คลิก **ตกลง**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

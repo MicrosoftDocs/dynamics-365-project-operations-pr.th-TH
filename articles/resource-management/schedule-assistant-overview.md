@@ -57,3 +57,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 -   บริษัทที่จัดหาทรัพยากร
 -   ชนิดทรัพยากร
 -   ทรัพยากรที่ต้องการ
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

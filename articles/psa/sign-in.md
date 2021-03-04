@@ -56,3 +56,6 @@ ms.locfileid: "5150286"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

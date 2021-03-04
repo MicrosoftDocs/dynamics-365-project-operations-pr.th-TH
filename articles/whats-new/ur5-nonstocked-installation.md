@@ -125,3 +125,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
  
  ![การทำข้อมูลแมปบัญชีแยกประเภทให้ตรงกัน](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

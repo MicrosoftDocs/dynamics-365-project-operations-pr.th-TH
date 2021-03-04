@@ -82,3 +82,6 @@ ms.locfileid: "5150016"
 
 3. เลือกทรัพยากรที่คุณต้องการมอบหมายให้กับงาน
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -78,3 +78,6 @@ ms.locfileid: "4960270"
 - เวิร์กโฟลว์ระดับรายการ
 - การสนับสนุนผู้อนุมัติระหว่างกาล
 - การแสดงรายการขั้นสูง
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

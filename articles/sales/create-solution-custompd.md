@@ -64,3 +64,6 @@ ms.locfileid: "4514031"
 5.  เมื่อได้รับแจ้งให้รวมเอนทิตีที่เกี่ยวข้องสำหรับเอนทิตีที่เลือก ให้เลือก **ไม่ ไม่รวมส่วนประกอบที่ต้องใช้**
 
     ![รวมถึงเอนทิตีที่ขึ้นต่อกัน](./media/Do-not-include-required.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

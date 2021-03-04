@@ -73,3 +73,6 @@ ms.locfileid: "5144886"
 > ![ข้อมูลตัวอย่างสำหรับเอนทิตีชื่อมาตรฐาน ](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

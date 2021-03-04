@@ -54,3 +54,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 ## <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
 
 สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) อีกวิธีหนึ่งในการเรียนรู้เกี่ยวกับการอัปเดตกฎข้อบังคับคือการลงชื่อเข้าใช้ Lifecycle Services (LCS) และดูการอัปเดตกฎข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

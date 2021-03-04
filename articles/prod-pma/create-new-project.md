@@ -104,3 +104,6 @@ ms.locfileid: "4086067"
 
 3. เลือก **บันทึก** แล้วจากนั้น ปิดหน้า
 4. บนแท็บ **ความสามารถ** เพิ่มทักษะ **ProjectMgmt** และใบรับรอง **PMP**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

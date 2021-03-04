@@ -34,3 +34,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 1. องค์กร
 2. ลูกค้า
 3. ใบเสนอราคา/สัญญา
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -54,3 +54,6 @@ ms.locfileid: "5148396"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>การนำเข้าค่าประมาณจากโครงการสู่ใบแจ้งราคา
 
 หลังจากที่คุณระบุการประมาณโครงการแล้ว คุณสามารถนำข้อมูลนั้นเข้าสู่รายการที่เสนอราคาได้ บนหน้า **Quote Line Details** เลือก **Import from estimates** บนแถบรายการเพื่อสรุปการประมาณโครงการตามระดับของการซื้อขาย ประเภท บทบาท หรือประเภทงาน
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -74,3 +74,6 @@ _**การปรับใช้งานแบบ Lite - จัดการก
     -   คุณลักษณะทรัพยากรที่สามารถจองได้
 
     ![การนำเข้าเสร็จสมบูรณ์](./media/6CompleteImport.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

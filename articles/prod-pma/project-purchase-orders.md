@@ -76,3 +76,6 @@ ms.locfileid: "4085920"
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [รับสินค้าตามใบสั่งซื้อจากความต้องการสินค้า](tasks/receive-items-purchase-order-item-requirement.md)
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

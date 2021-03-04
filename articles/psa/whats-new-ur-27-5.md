@@ -42,3 +42,6 @@ ms.locfileid: "5151096"
 ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:
 
 - กำหนดการลดประสิทธิภาพการค้นหาความช่วยเหลือ
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

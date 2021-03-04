@@ -33,3 +33,6 @@ Dynamics 365 Project Service Automation 3.x เสนอคุณลักษณ
 - [การเปลี่ยนแปลงเวลาและค่าใช้จ่าย (Project Service Automation 3.x)](../developer-guides/time-expense-changes-v3.x.md)
 - [การเปลี่ยนแปลงการจัดการทรัพยากร (Project Service Automation 3.x)](../developer-guides/resource-management-changes-v3.x.md)
 - [ทรัพยากรเว็บที่เลิกใช้แล้วใน Project Service Automation 3.x](../developer-guides/web-resources-deprecated-v3.x.md)
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

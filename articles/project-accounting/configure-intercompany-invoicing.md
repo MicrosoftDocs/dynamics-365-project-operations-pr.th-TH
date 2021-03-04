@@ -101,3 +101,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
           - **บริษัทที่จัดเตรียมทรัพยากร** = **Contoso Robotics UK**
           - **อัตราเรียกเก็บเงิน** = **200 USD**
       9. ไปที่ **การขาย** > **สัญญาโครงการ** และแนบราคาตลาด **อัตราการเรียกเก็บเงิน Adventure Works** ไปยังราคาตลาดของโครงการ Adventure Works ของสัญญาโครงการ
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -52,3 +52,6 @@ ms.locfileid: "5145786"
  [คำแนะนำของผู้จัดการฝ่ายบัญชี](../psa/account-manager-guide.md) [คำแนะนำของผู้จัดการฝ่ายบัญชี](../psa/project-manager-guide.md)   
  [คำแนะนำของผู้จัดการทรัพยากร](../psa/resource-manager-guide.md)   
  [เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน](../psa/time-expense-collaboration-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

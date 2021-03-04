@@ -152,3 +152,6 @@ ms.locfileid: "5149836"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [คู่มือของผู้จัดการโครงการ](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

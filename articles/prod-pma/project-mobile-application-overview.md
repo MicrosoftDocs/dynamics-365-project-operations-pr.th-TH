@@ -49,3 +49,6 @@ ms.locfileid: "4085921"
 - [รายการเวลาโครงการ]( project-time-entry-mobile-workspace.md)
 - [แผ่นเวลาโครงการบนอุปกรณ์มือถือ](Mobile-timesheets.md)
 - [ใช้ฟิลด์ที่กำหนดเองสำหรับแอปบนมือถือ Microsoft Dynamics 365 Project Timesheet บน iOS และ Android](custom-fields-mobile.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

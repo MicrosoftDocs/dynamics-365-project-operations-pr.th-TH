@@ -198,3 +198,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
         </tr>
     </tbody>
 </table>
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

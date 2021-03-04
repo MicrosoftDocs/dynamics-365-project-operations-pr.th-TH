@@ -105,3 +105,6 @@ ms.locfileid: "5148216"
  [ภาพรวมของ Project Service](../psa/overview.md)   
  [เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน](../psa/time-expense-collaboration-guide.md)   
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

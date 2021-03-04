@@ -64,3 +64,6 @@ ms.locfileid: "5143656"
 
     -   แก้ไขแล้ว: เมื่อผู้ใช้อัพเกรดจาก 2.X เป็น 3.X โครงการที่มีค่า NULL สำหรับชื่อโครงการจะได้รับอนุญาต
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

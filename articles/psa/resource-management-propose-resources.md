@@ -113,3 +113,6 @@ ms.locfileid: "5147541"
 หากต้องการดูรายละเอียดเพิ่มเติมเกี่ยวกับทรัพยากรแต่ละรายการ ให้คลิกขวาเพื่อเปิดบัตรทรัพยากร
 
 ![บัตรทรัพยากร](media/Resource-Management-image71.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

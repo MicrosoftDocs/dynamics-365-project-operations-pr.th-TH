@@ -20,3 +20,6 @@ ms.locfileid: "4514598"
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 คุณสามารถใช้ฟังก์ชันที่มีให้ใน Dynamics 365 Field Service เพื่อกำหนดบทบาทในสภาพแวดล้อม Dynamics 365 Project Operations ในการตั้งค่านี้ให้เสร็จสมบูรณ์ ดูที่ [ตั้งค่าประเภททรัพยากรที่สามารถจองได้](https://docs.microsoft.com/dynamics365/field-service/set-up-bookable-resource-categories)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

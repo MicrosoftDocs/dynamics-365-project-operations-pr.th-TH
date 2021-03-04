@@ -36,3 +36,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ใช้โครงการ LCS นี้เพื่อปรับใช้งานสภาพแวดล้อม Project Operations ของคุณ
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

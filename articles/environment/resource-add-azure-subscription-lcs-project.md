@@ -70,3 +70,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 คุณได้เชื่อมต่อการสมัครใช้งาน Azure ของคุณเรียบร้อยแล้ว ตอนนี้คุณสามารถปรับใช้งานสภาพแวดล้อมที่โฮสต์บนระบบคลาวด์ของ Dynamics 365 Finance เรียบร้อยแล้ว
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

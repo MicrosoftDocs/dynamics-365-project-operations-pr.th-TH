@@ -64,3 +64,6 @@ ms.locfileid: "4085991"
 32. ในฟิลด์ **ราคา** ให้ป้อนตัวเลข
 33. เลือก **บันทึก**
 
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

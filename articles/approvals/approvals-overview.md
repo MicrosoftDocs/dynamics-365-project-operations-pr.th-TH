@@ -59,3 +59,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 3. เลือก **บันทึก**
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

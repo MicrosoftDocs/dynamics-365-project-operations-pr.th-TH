@@ -41,3 +41,6 @@ ms.locfileid: "5147586"
 - [ความต้องการการจองแบบไม่ตายตัว](resource-management-softbook-requirements.md)
 - [แบบจำลองทักษะและความชำนาญ](resource-management-skills-proficiency.md)
 - [คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร](resource-management-faq.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -49,3 +49,6 @@ ms.locfileid: "4085910"
     | วันที่สิ้นสุด    | ป้อนวันที่สิ้นสุดของกระบวนการซิงโครไนซ์สำหรับค่าสะสมของกำลังการผลิตของทรัพยากร |
 
 [![กระบวนการซิงโครไนซ์](./media/projectresourcing09.jpg)](./media/projectresourcing09.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

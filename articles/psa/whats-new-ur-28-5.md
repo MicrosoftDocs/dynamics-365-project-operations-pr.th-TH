@@ -42,3 +42,6 @@ ms.locfileid: "5146641"
 
 - กำหนดการลดประสิทธิภาพการค้นหาความช่วยเหลือ
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -77,3 +77,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 5. ทำซ้ำขั้นตอนที่ 1-3 เพื่อสร้างชื่อมาตรฐานอื่นสำหรับ "Senior Systems Engineer"
 
 > ![ข้อมูลตัวอย่างสำหรับเอนทิตีชื่อมาตรฐาน](media/ST-data.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

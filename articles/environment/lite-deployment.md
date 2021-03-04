@@ -44,3 +44,6 @@ Project Operations รองรับรูปแบบการปรับใ�
 2. ติดตั้ง **Microsoft Dynamics 365 Project Operations** จากรายการการปรับใช้แอป Dynamics 365 สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [จัดการแอป Dynamics Dynamics 365](https://docs.microsoft.com/power-platform/admin/manage-apps)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
