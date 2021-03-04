@@ -16,14 +16,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 46aab1bdce15613ce0551de5a8265b9130aa1938
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 7c63000cc9d320340dad824256e63dc445b3a921
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085943"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148576"
 ---
 # <a name="deprecated-web-resources-in-project-service-automation-3x"></a>ทรัพยากรบนเว็บที่ไม่สนับสนุนแล้วใน Project Service Automation 3.x
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 เนื่องจากอินเทอร์เฟซของไคลเอ็นต์ใหม่และการเปลี่ยนแปลงอื่นๆ ที่ได้ทำกับโซลูชัน Dynamics 365 Project Service Automation ทรัพยากรบนเว็บสำหรับโซลูชันบางรายการจะถูกใช้ต่อไป ดังนั้น รายการเหล่านั้นจะล้าสมัย (ไม่สนับสนุนแล้ว) ในรุ่น 3.0
 

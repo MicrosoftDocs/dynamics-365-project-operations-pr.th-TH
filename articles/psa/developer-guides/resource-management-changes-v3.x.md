@@ -16,20 +16,22 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5176d2c6b7b00d47d4aeb12f54bdb84d4b87304c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 94f9adc67163254486387a1ce59d5d3e8e93c335
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086123"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148666"
 ---
 # <a name="resource-management-changes-project-service-automation-3x"></a>การจัดการทรัพยากรเปลี่ยนแปลง (Project Service Automation 3.x)
+
+[!include [banner](../../includes/psa-now-project-operations.md)]
 
 ส่วนของหัวข้อนี้ให้ข้อมูลเกี่ยวกับการเปลี่ยนแปลงที่ได้ทำไว้ในพื้นที่การจัดการทรัพยากรของ Dynamics 365 Project Service Automation รุ่น 3.x
 
 ## <a name="project-estimates"></a>การประมาณการโครงการ
 
-แทนที่จะขึ้นอยู่กับ **msdyn\_งานโครงการ** เอนทิตี **(งานโครงการ)** , การประเมินโครงการจะขึ้นอยู่กับ **msdyn\_การมอบหมายทรัพยากร** เอนทิตี ( **การมอบหมายทรัพยากร** ) การมอบหมายทรัพยากรได้กลายเป็น "แหล่งที่มาของความจริง" สำหรับการจัดกำหนดการและการกำหนดราคางาน
+แทนที่จะขึ้นอยู่กับ **msdyn\_งานโครงการ** เอนทิตี **(งานโครงการ)**, การประเมินโครงการจะขึ้นอยู่กับ **msdyn\_การมอบหมายทรัพยากร** เอนทิตี (**การมอบหมายทรัพยากร**) การมอบหมายทรัพยากรได้กลายเป็น "แหล่งที่มาของความจริง" สำหรับการจัดกำหนดการและการกำหนดราคางาน
 
 ## <a name="line-tasks"></a>งานในรายการ
 
@@ -65,7 +67,7 @@ ms.locfileid: "4086123"
 
 ## <a name="scheduling-fields-on-the-project-task-entity"></a>ฟิลด์การจัดกำหนดการบนเอนทิตีงานโครงการ
 
-ฟิล์ดในเอนทิตี **msdyn\_projecttask** ได้ถูกยกเลิกการสนับสนุนหรือย้ายไปยังเอนทิตี **msdyn\_resourceassignment** ตอนนี้มีการอ้างอิงจากเอนทิตี **msdyn\_projectteam** ( **Project Team Member** )
+ฟิล์ดในเอนทิตี **msdyn\_projecttask** ได้ถูกยกเลิกการสนับสนุนหรือย้ายไปยังเอนทิตี **msdyn\_resourceassignment** ตอนนี้มีการอ้างอิงจากเอนทิตี **msdyn\_projectteam** (**Project Team Member**)
 
 | ฟิลด์ที่ไม่สนับสนุนใน msdyn\_projecttask (งานโครงการ) | ฟิลด์ใหม่บน msdyn\_resourceassignment (การมอบหมายทรัพยากร) | ข้อคิดเห็น |
 |---|---|---|
@@ -77,7 +79,7 @@ ms.locfileid: "4086123"
 
 ## <a name="schedule-contour"></a>เส้นชั้นหมายกำหนดการให้บริการ
 
-เส้นชั้นหมายกำหนดการให้บริการจะถูกจัดเก็บไว้ในฟิลด์ **งานที่วางแผน** ( **msdyn\_plannedwork** ) ของแต่ละเอนทิตี **การมอบหมายทรัพยากร** ( **msdyn\_resourceassignment** )
+เส้นชั้นหมายกำหนดการให้บริการจะถูกจัดเก็บไว้ในฟิลด์ **งานที่วางแผน** (**msdyn\_plannedwork**) ของแต่ละเอนทิตี **การมอบหมายทรัพยากร** (**msdyn\_resourceassignment**)
 
 ### <a name="structure"></a>โครงสร้าง
 
@@ -139,7 +141,7 @@ ms.locfileid: "4086123"
 
 ## <a name="pricing-dimensions"></a>มิติการกำหนดราคา
 
-ใน PSA 3.x, ฟิลด์มิติการกำหนดราคาเฉพาะทรัพยากร (เช่น **บทบาท** และ **หน่วยองค์กร** ) ถูกลบออกจากเอนทิตี **msdyn\_projecttask** ฟิลด์เหล่านี้สามารถดึงข้อมูลจากสมาชิกทีมโครงการที่เกี่ยวข้อง ( **msdyn\_projectteam** ) ของการมอบหมายทรัพยากร ( **msdyn\_resourceassignment** ) เมื่อการประเมินโครงการมีการสร้างขึ้น ฟิลด์ใหม่ **msdyn\_organizationalunit** ได้ถูกเพิ่มลงในเอนทิตีของ **msdyn\_projectteam**
+ใน PSA 3.x, ฟิลด์มิติการกำหนดราคาเฉพาะทรัพยากร (เช่น **บทบาท** และ **หน่วยองค์กร**) ถูกลบออกจากเอนทิตี **msdyn\_projecttask** ฟิลด์เหล่านี้สามารถดึงข้อมูลจากสมาชิกทีมโครงการที่เกี่ยวข้อง (**msdyn\_projectteam**) ของการมอบหมายทรัพยากร (**msdyn\_resourceassignment**) เมื่อการประเมินโครงการมีการสร้างขึ้น ฟิลด์ใหม่ **msdyn\_organizationalunit** ได้ถูกเพิ่มลงในเอนทิตีของ **msdyn\_projectteam**
 
 | ฟิลด์ที่ไม่สนับสนุนใน msdyn\_projecttask (งานโครงการ) | ฟิลด์จาก msdyn\_projectteam (สมาชิกทีมโครงการ) ที่ใช้แทน |
 |---|---|
@@ -155,12 +157,12 @@ ms.locfileid: "4086123"
 | msdyn\_costestimatecontour | msdyn\_plannedcostcontour |
 | msdyn\_salesestimatecontour | msdyn\_plannedcostcontour |
 
-ฟิล์ดต่อไปนี้ถูกเพิ่มไปยังเอนทิตี **msdyn\_resourceassignment** :
+ฟิล์ดต่อไปนี้ถูกเพิ่มไปยังเอนทิตี **msdyn\_resourceassignment**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
 
-ฟิลด์ต่อไปนี้สำหรับต้นทุนและการขายที่วางแผน, จริง, และที่คงเหลือจะไม่มีการเปลี่ยนแปลงในเอนทิตี **msdyn\_projecttask** :
+ฟิลด์ต่อไปนี้สำหรับต้นทุนและการขายที่วางแผน, จริง, และที่คงเหลือจะไม่มีการเปลี่ยนแปลงในเอนทิตี **msdyn\_projecttask**:
 
 * msdyn\_plannedcost
 * msdyn\_plannedsales
