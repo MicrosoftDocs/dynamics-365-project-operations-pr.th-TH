@@ -17,14 +17,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 442ff9cf2206bec307cea7ff30b9266502d8f77b
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086001"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144886"
 ---
 # <a name="create-custom-fields-and-entities"></a>การสร้างฟิลด์และเอนทิตีแบบกำหนดเอง 
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 ทำตามขั้นตอนต่อไปนี้ทุกครั้งที่คุณต้องการสร้างชุดตัวเลือกหรือเอนทิตีแบบกำหนดบนแพลตฟอร์ม Power Apps  
 ขั้นตอนในหัวข้อนี้ควรจะทำให้เสร็จโดยใช้ส่วนติดต่อเว็บของ Project Service Automation (PSA)

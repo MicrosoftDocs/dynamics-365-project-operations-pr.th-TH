@@ -3,6 +3,7 @@ title: เปิดใช้งานคุณลักษณะแอป Projec
 description: วิธีการเปิดใช้งานคุณลักษณะแอป Project Finder Mobile สำหรับ Project Service
 author: JohnPBurrows
 manager: kfend
+ms.prod: ''
 ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
@@ -18,22 +19,24 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af267b5adc48b6edec57de196f91e338c058558c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 1b70182125d607aa17528ef3dc4ea2345b76acd1
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4132986"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144571"
 ---
 # <a name="enable-project-finder-mobile-app-features-project-service"></a>เปิดใช้งานคุณลักษณะแอป Project Finder Mobile (Project Service)
 
+[!include [banner](../includes/psa-now-project-operations.md)]
+
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-ทรัพยากรของคุณสามารถใช้แอพ Project Finder Mobile บนโทรศัพท์ของพวกเขาด้วย [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เพื่อค้นหาโครงการใหม่ที่จะทำงาน และอัพเดตชุดทักษะของพวกเขา  
+ทรัพยากรของคุณสามารถใช้แอป Project Finder Mobile บนโทรศัพท์ของพวกเขาด้วย [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เพื่อค้นหาโครงการใหม่ที่จะทำงาน และอัปเดตชุดทักษะของพวกเขา  
   
  แอปพร้อมใช้งานสำหรับ [!INCLUDE[tn_Apple_iphone](../includes/tn-apple-iphone.md)] [!INCLUDE[tn_android](../includes/tn-android.md)] โทรศัพท์และ [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)]  
-  
- คุณต้องตั้งค่าตัวเลือกสองตัวเลือกในพารามิเตอร์ ที่ตั้งค่าสำหรับหน่วยขององค์กรเพื่ออนุญาตให้ผู้ใช้สามารถดูความต้องการทรัพยากรของโครงการ และอัพเดตทักษะของพวกเขา  
+    
+ เพื่ออนุญาตให้ผู้ใช้สามารถดูความต้องการทรัพยากรของโครงการ และอัปเดตทักษะ คุณต้องเลือกตัวเลือกในการตั้งค่าพารามิเตอร์สำหรับหน่วยขององค์กรของคุณ
   
 > [!NOTE]
 >  แอป Project Finder Mobile ทำงานกับ [!INCLUDE[pn_crm_online_shortest](../includes/pn-crm-online-shortest.md)] เท่านั้น ไม่ทำงานกับการติดตั้งแบบ on-premises  
@@ -57,8 +60,8 @@ ms.locfileid: "4132986"
   
 |ผู้รับ|กิจกรรมพิเศษ|  
 |---------------|-----------|  
-|ผู้จัดการโครงการ|-   เมื่อทรัพยากรลงทะเบียนสำหรับโครงการที่มีแอป Project Finder Mobile|  
-|ทรัพยากร|-   เมื่อทรัพยากรของงานโครงการได้ลงชื่อสมัครสำหรับการได้มีการการเติมเรียบร้อยแล้วโดยทรัพยากรอื่น<br />-   เมื่อคำขอการอนุมัติทักษะของพวกเขาได้รับการอนุมัติ หรือถูกปฏิเสธ<br />-   เมื่อคำขอการลงทะเบียนโครงการของพวกเขาได้รับการอนุมัติ หรือถูกปฏิเสธ|  
+|ผู้จัดการโครงการ|- ทรัพยากรลงทะเบียนสำหรับโครงการที่มีแอป Project Finder Mobile|  
+|ทรัพยากร|- งานโครงการที่ทรัพยากรได้ลงทะเบียนให้ ได้มีการดำเนินการเรียบร้อยแล้วโดยทรัพยากรอื่น<br />- คำขอการอนุมัติทักษะได้รับอนุมัติ หรือถูกปฏิเสธ<br />- คำขอการลงทะเบียนโครงการได้รับอนุมัติ หรือถูกปฏิเสธ|  
   
 ## <a name="privacy-notice"></a>ประกาศเกี่ยวกับความเป็นส่วนตัว  
  [!INCLUDE[cc_privacy_crm_project_finder_mobile_app](../includes/cc-privacy-crm-project-finder-mobile-app.md)]  

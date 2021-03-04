@@ -18,14 +18,16 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 6d6c03cc74d47ca3ae7c2bd7d0aa0720bb2f3c01
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086108"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144976"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>การแก้ไขเป็นกลุ่มของข้อมูลจริงที่สร้างขึ้นโดยเวลาที่ได้รับอนุมัติและรายการค่าใช้จ่าย
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 บางครั้ง อาจมีการป้อนเวลาหรือค่าใช้จ่ายอย่างไม่ถูกต้อง ตัวอย่างเช่น ที่ปรึกษาอาจเลือกวันที่ที่ไม่ถูกต้อง เมื่อสร้างรายการเวลา หรือพวกเขาอาจสลับเปลี่ยนตัวเลขเมื่อป้อนค่าใช้จ่าย หากที่ปรึกษาไม่สามารถปรับปรุงรายการที่ส่งได้ ผู้ดูแลระบบสามารถแก้ไขรายการสำหรับโครงการได้โดยตรง
 
