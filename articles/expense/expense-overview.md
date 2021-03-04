@@ -5,15 +5,16 @@ author: stsporen
 manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
+ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 6c5ef2a45e8141bda38baf3eaf0a403d6db95e48
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4122861"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764932"
 ---
 # <a name="expense-home-page"></a>โฮมเพจค่าใช้จ่าย
 
@@ -24,11 +25,11 @@ Dynamics 365 Project Operations รองรับความสามารถ
 
 ใน Project Operations มีรูปแบบการปรับใช้งานที่รองรับสองแบบสำหรับค่าใช้จ่าย: 
 
-- **เต็มรูปแบบ**: การปรับใช้งานเต็มรูปแบบสามารถใช้ได้สำหรับ **Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง** หรือ **Project Operations สำหรับสถานการณ์ของใบสั่งผลิต**
+- **เต็มรูปแบบ**: การปรับใช้งานเต็มรูปแบบสามารถใช้ได้สำหรับ **Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง** หรือ **Project Operations สำหรับสถานการณ์ตามใบสั่งผลิต**
 - **ขั้นพื้นฐาน**: การปรับใช้งานขั้นพื้นฐานสามารถใช้ได้สำหรับ **Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง** และ **การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว**
 
 ## <a name="full"></a>เต็ม 
-การปรับใช้งานค่าใช้จ่ายเต็มรูปแบบให้การบังคับใช้นโยบายที่สมบูรณ์ซึ่งรวมถึงความสามารถในการสร้างนโยบาย เช่น:
+การปรับใช้ค่าใช้จ่ายเต็มรูปแบบให้การบังคับใช้นโยบายที่สมบูรณ์ ซึ่งรวมถึงความสามารถในการสร้างนโยบาย เช่น:
 
   - ค่าจำกัดประเภทค่าใช้จ่าย
   - การเดินทาง

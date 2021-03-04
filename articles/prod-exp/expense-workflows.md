@@ -16,16 +16,14 @@ ms.search.region: Global
 ms.author: shylaw
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 0af23ed2cf172e4c90de72f5db389c349303c039
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 8f3235d12499c68a52f9d1c7e118e7bc91dc3a0a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086086"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960540"
 ---
 # <a name="set-up-expense-management-workflows"></a>ตั้งค่าเวิร์กโฟลว์การจัดการค่าใช้จ่าย
-
-[!include [banner](../includes/banner.md)]
 
 คุณสามารถตั้งค่ากระบวนการเวิร์กโฟลว์ที่ใช้ในการตรวจสอบและอนุมัติเอกสารการเดินทางและค่าใช้จ่าย เอกสารสำหรับเวิร์กโฟลว์ที่สามารถกำหนดได้รวมถึงรายงานค่าใช้จ่าย ใบขอเดินทาง และคำขอเบิกเงินสดล่วงหน้า
 

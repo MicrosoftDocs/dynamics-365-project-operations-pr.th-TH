@@ -16,18 +16,15 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2017-06-30
 ms.dyn365.ops.version: July 2017 update
-ms.openlocfilehash: af49187a3ad530919376fbfdb5a0fbc288b7c28c
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 454d3f6feb46b28762a6a1249df2336f1aa5e91a
+ms.sourcegitcommit: 9f31b33ed6e7f1b49200a407913201a1337f3401
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085976"
+ms.lasthandoff: 01/14/2021
+ms.locfileid: "4960405"
 ---
 # <a name="expense-management-parameters"></a>พารามิเตอร์การจัดการค่าใช้จ่าย
 
-[!include [banner](../includes/banner.md)]
-
------------------------------
 
 พารามิเตอร์ควบคุมลักษณะการทำงานทั่วไปในการจัดการค่าใช้จ่าย
 

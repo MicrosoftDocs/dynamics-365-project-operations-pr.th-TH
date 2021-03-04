@@ -1,9 +1,9 @@
 ---
-title: ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations
+title: ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance
 description: หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 author: Yowelle
 manager: AnnBe
-ms.date: 09/09/2019
+ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.service: dynamics-ax-applications
@@ -17,14 +17,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 0b3bc159fff25c4f6e5b1ed1b2eabbba675fb0f5
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642656"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764842"
 ---
-# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance-and-operations"></a>ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations
+# <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance 
 
 [!include[banner](../includes/banner.md)]
 
@@ -53,24 +53,24 @@ ms.locfileid: "4642656"
 แม่แบบและงานพื้นฐานต่อไปนี้ถูกใช้เพื่อซิงโครไนซ์การประมาณค่าใช้จ่ายสัญญาโครงการและโครงการจาก Project Service Automation ไปยัง Finance:
 
 ### <a name="integrating-with-dynamics-365-project-service-automation-v2x"></a>รวมกับ Dynamics 365 Project Service Automation v2.x
-- **ชื่อของแม่แบบในการรวมข้อมูล:** โครงการและสัญญา (PSA ไปยัง Fin และ Ops)
+- **ชื่อของเทมเพลตในการรวมข้อมูล:** โครงการและสัญญา (Project Service Automation ไปยัง Finance)
 - **ชื่อของงานในโครงการ:**
 
-    - โครงการทำสัญญา PSA ไปยัง Fin และ Ops
-    - โครงการ PSA ไปยัง Fin และ Ops
-    - รายละเอียดการให้บริการตามสัญญาของโครงการ PSA ไปยัง Fin และ Ops
-    - เป้าหมายรายละเอียดการให้บริการตามสัญญาของโครงการ PSA ไปยัง Fin และ Ops
+    - สัญญาของโครงการ Project Service Automation ไปยัง Finance
+    - โครงการ Project Service Automation ไปยัง Finance
+    - รายละเอียดการให้บริการตามสัญญาของโครงการ Project Service Automation ไปยัง Finance
+    - เหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาของโครงการ Project Service Automation ไปยัง Finance
   
 ### <a name="integrating-with-dynamics-365-project-service-automation-v3x"></a>รวมกับ Dynamics 365 Project Service Automation v3.x
 มีการเปลี่ยนแปลง Schema ใน Project Service Automation ที่ส่งผลกระทบต่อแม่แบบเป้าหมายรายละเอียดการให้บริการตามสัญญาของโครงการและการใช้แม่แบบเวอร์ชัน v2 จึงจำเป็นต้องรวม Project Service Automation v3.x เข้ากับ Dynamics 365
 
-- **ชื่อของแม่แบบในการรวมข้อมูล:** โครงการและสัญญา (PSA 3.x ไปยัง Fin และ Ops) - v2
+- **ชื่อของเทมเพลตในการรวมข้อมูล:** โครงการและสัญญา (Project Service Automation 3.x ไปยัง Finance) - v2
 - **ชื่อของงานในโครงการ:**
 
-    - โครงการทำสัญญา PSA ไปยัง Fin และ Ops
-    - โครงการ PSA ไปยัง Fin และ Ops
-    - รายละเอียดการให้บริการตามสัญญาของโครงการ PSA ไปยัง Fin และ Ops
-    - เป้าหมายรายละเอียดการให้บริการตามสัญญาของโครงการ PSA ไปยัง Fin และ Ops
+    - สัญญาของโครงการ Project Service Automation ไปยัง Finance
+    - โครงการ Project Service Automation ไปยัง Finance
+    - รายละเอียดการให้บริการตามสัญญาของโครงการ Project Service Automation ไปยัง Finance
+    - เหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาของโครงการ Project Service Automation ไปยัง Finance
 
 ก่อนที่จะเกิดการซิงโครไนซ์สัญญาโครงการและโครงการ คุณต้องซิงโครไนซ์บัญชี
 
@@ -87,7 +87,8 @@ ms.locfileid: "4642656"
 
 สัญญาโครงการได้รับการจัดการใน Project Service Automation และมีการซิงโครไนซ์กับ Finance เป็นสัญญาของโครงการ ในฐานะส่วนหนึ่งของแม่แบบการรวม คุณสามารถตั้งค่าแหล่งการรวมใน Finance สำหรับสัญญาโครงการ
 
-โครงการเวลาและวัสดุและโครงการราคาคงที่ได้รับการจัดการใน Project Service Automation และมีการซิงโครไนซ์กับ Finance เป็นโครงการ ในฐานะส่วนหนึ่งของการรวมแม่แบบ คุณสามารถตั้งค่าแหล่งการรวมใน Finance สำหรับโครงการ
+เวลาและวัสดุและโครงการที่มีราคาคงที่ ได้รับการจัดการใน Project Service Automation และซิงโครไนซ์กับ Finance เป็นโครงการ ในฐานะที่เป็นส่วนหนึ่งของการรวมเทมเพลต คุณสามารถตั้งค่าแหล่งการรวมสำหรับโครงการใน Finance ในขณะนี้ รองรับเฉพาะเวลาและวัสดุและโครงการที่มีราคาคงที่
+
 
 รายละเอียดการให้บริการตามสัญญาของโครงการได้รับการจัดการใน Project Service Automation และมีการซิงโครไนซ์กับ Finance เป็นกฎการเรียกเก็บเงินของสัญญา หากวิธีการเรียกเก็บเงินแตกต่างจากประเภทโครงการเริ่มต้น การซิงโครไนซ์จะอัปเดตประเภทโครงการสำหรับโครงการรายละเอียดการให้บริการตามสัญญาและกลุ่มโครงการ
 
@@ -122,7 +123,7 @@ ms.locfileid: "4642656"
 
 ## <a name="power-query"></a>Power Query
 
-คุณต้องใช้ Microsoft Power Query สำหรับ Excel เพื่อกรองข้อมูล หากตรงตามเงื่อนไขต่อไปนี้:
+ใช้ Microsoft Power Query สำหรับ Excel เพื่อกรองข้อมูล หากตรงตามเงื่อนไขต่อไปนี้:
 
 - คุณมีใบสั่งขายใน Dynamics 365 Sales
 - คุณมีหน่วยขององค์กรหลายหน่วยใน Project Service Automation และหน่วยขององค์กรเหล่านี้จะถูกแม็ปกับนิติบุคคลหลายแห่งใน Finance
@@ -130,7 +131,7 @@ ms.locfileid: "4642656"
 หากคุณต้องใช้ Power Query ให้ปฏิบัติตามแนวทางเหล่านี้:
 
 - แม่แบบโครงการและสัญญา (PSA กับ Fin and Ops) มีตัวกรองเริ่มต้นที่รวมเฉพาะใบสั่งขายของประเภท **รายการงาน (msdyn\_ordertype = 192350001)** ตัวกรองนี้ช่วยรับประกันว่าไม่ได้สร้างสัญญาโครงการสำหรับใบสั่งขายใน Finance หากคุณสร้างแม่แบบของคุณเอง คุณต้องเพิ่มตัวกรองนี้
-- คุณต้องสร้างตัวกรอง Power Query ที่มีเฉพาะองค์กรที่ทำสัญญาเท่านั้นที่ควรซิงโครไนซ์กับนิติบุคคลของชุดการเชื่อมต่อการรวม ตัวอย่างเช่น สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso US ควรซิงโครไนซ์กับนิติบุคคล USSI แต่สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso Global ควรซิงโครไนซ์กับนิติบุคคลของ USMF หากคุณไม่เพิ่มตัวกรองนี้ในการแม็ปงานของคุณ สัญญาโครงการทั้งหมดจะซิงโครไนซ์กับนิติบุคคลที่กำหนดไว้สำหรับชุดการเชื่อมต่อ โดยไม่คำนึงถึงหน่วยขององค์กรตามสัญญา
+- สร้างตัวกรอง Power Query ที่มีเฉพาะองค์กรตามสัญญาที่ควรซิงโครไนซ์กับนิติบุคคลของชุดการเชื่อมต่อการรวม ตัวอย่างเช่น สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso US ควรซิงโครไนซ์กับนิติบุคคล USSI แต่สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso Global ควรซิงโครไนซ์กับนิติบุคคลของ USMF หากคุณไม่เพิ่มตัวกรองนี้ในการแม็ปงานของคุณ สัญญาโครงการทั้งหมดจะซิงโครไนซ์กับนิติบุคคลที่กำหนดไว้สำหรับชุดการเชื่อมต่อ โดยไม่คำนึงถึงหน่วยขององค์กรตามสัญญา
 
 ## <a name="template-mapping-in-data-integration"></a>การแม็ปแม่แบบในการรวมข้อมูล
 
