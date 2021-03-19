@@ -8,16 +8,16 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6f4360b7febab57b97df0776ef9148d2a38f16a7
-ms.sourcegitcommit: 625878bf48ea530f3381843be0e778cebbbf1922
+ms.openlocfilehash: 44edf2613ea4b26dadbd9edc47c784c488c577de
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/30/2020
-ms.locfileid: "4175914"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290067"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite 
 
-หัวข้อนี้อธิบายวิธีการสมัครใช้งานข้อเสนอเสนอพรีวิวสำหรับคู่ค้าและปรับใช้งาน Dynamics 365 Project Operations Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+หัวข้อ นี้อธิบายวิธีสมัครรับข้อเสนอรุ่นพรีวิวของคู่ค้าและใช้การปรับใช้งาน Dynamics 365 Project Operations แบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 
 > [!NOTE]
 > กระบวนการนี้จะเปลี่ยนไปใน Project Operations รุ่นที่กำลังจะออกมา
@@ -71,7 +71,7 @@ ms.locfileid: "4175914"
 
 ![มอบหมายสิทธิ์การใช้งาน](./media/15AssignLicenses.png)
 
-3. ตรวจสอบว่าสิทธิ์การใช้งาน **การแสดงตัวอย่าง Dynamics 365 Project Operations (CRM)** และสิทธิ์การใช้งาน **Office 365 Project Operations - พรีวิว** ถูกเลือก 
+3. ตรวจสอบว่ามีการเลือกสิทธืการใช้งาน **Dynamics 365 Project Operations (CRM) พรีวิว** และ **Office 365 Project Operations - พรีวิว** หรือไม่ 
 4. เลือก **บันทึกการเปลี่ยนแปลง**
 
 ## <a name="create-a-new-cds-environment"></a>สร้างสภาพแวดล้อม CDS ใหม่

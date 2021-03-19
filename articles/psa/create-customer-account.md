@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fb4ba934c444b3447f42c78b4dd1244185bb2f7e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 13d309ac8200c114624cec69fa124d6af766cba8
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144841"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290534"
 ---
 # <a name="create-a-customer-account-project-service"></a>สร้างบัญชีลูกค้า (Project Service)
 
@@ -41,7 +41,7 @@ ms.locfileid: "5144841"
   
 4.  คลิก **บันทึก** เพื่อสร้างเรกคอร์ดเพื่อที่คุณจะสามารถทำการแก้ไขตอไปได้  
   
-5.  ในพื้นที่ **ราคาตลาดของโครงการ** คลิก + เพื่อเพิ่มราคาตลาด คุณสามารถเพิ่มราคาตลาดมากกว่าหนึ่งสำหรับบัญชีนี้  
+5.  ในพื้นที่ **รายการราคาของโครงการ** คลิก + เพื่อเพิ่มรายการราคา คุณสามารถเพิ่มรายการราคามากกว่าหนึ่งสำหรับบัญชีนี้  
   
 6.  เมื่อคุณทำเสร็จแล้ว คลิก **บันทึก** ที่มุมล่างขวาของหน้าจอ  
   

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1651d3b3b85d3dc581bf61976fada249bafd6b7b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642251"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289842"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service 
 
@@ -66,8 +66,8 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
   - กลุ่มลูกค้า
   - หน่วย
   - กลุ่มของหน่วย
-  - ราคาตลาด
-  - ราคาตลาดสำหรับพารามิเตอร์โครงการ
+  - รายการราคา
+  - รายการราคาสำหรับพารามิเตอร์โครงการ
   - ความถี่ของใบแจ้งหนี้
   - ประเภททรัพยากรที่สามารถจองได้
   - ประเภทธุรกรรม

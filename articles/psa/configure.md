@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ec5381f91b1fe5198bd93ac8d6015b1fea38738d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 06a29f67040cd7da583bdeae85d6a0f6a3684c52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146956"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5290607"
 ---
 # <a name="configure-project-service"></a>ตั้งค่าคอนฟิก Project Service
 
@@ -47,7 +47,7 @@ ms.locfileid: "5146956"
   
 -   [การสร้างสินค้าแค็ตตาล็อกผลิตภัณฑ์](../psa/create-product-catalog-items.md) เพิ่มผลิตภัณฑ์ที่คุณขาย เช่น สิทธิ์การใช้งานซอฟต์แวร์ ไปยังแค็ตตาล็อกผลิตภัณฑ์  
   
--   [สร้างราคาตลาด](../psa/create-price-list.md) กำหนดค่ารายการราคาที่แตกต่างกัน ขึ้นอยู่กับจำนวนที่คุณต้องการเรียกเก็บจากไคลเอนต์ของคุณสำหรับแต่ละบทบาทโครงการที่จำเป็นของพวกเขา  
+-   [สร้างรายการราคา](../psa/create-price-list.md) กำหนดค่ารายการราคาที่แตกต่างกัน ขึ้นอยู่กับจำนวนที่คุณต้องการเรียกเก็บจากไคลเอนต์ของคุณสำหรับแต่ละบทบาทโครงการที่จำเป็นของพวกเขา  
   
 -   [ตั้งค่าทรัพยากร](../psa/set-up-resources.md) เพิ่มทักษะ ความชำนาญ บทบาทของทรัพยากร และข้อมูลทรัพยากรอื่นๆ ที่คุณต้องมีสำหรับโครงการของคุณ  
   
