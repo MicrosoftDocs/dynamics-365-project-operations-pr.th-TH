@@ -18,50 +18,53 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 54d7385a2bb161c7dd02d882090790debaef3bdb
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 5e859a58f86d8cd98fa429beeeb99cf397a207cf
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148801"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5285056"
 ---
-# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="99bd7-103">สร้างเท็มเพลตชั่วโมงทำงาน (Project Service)</span><span class="sxs-lookup"><span data-stu-id="99bd7-103">Create a work hours template (Project Service)</span></span>
+# <a name="create-a-work-hours-template-project-service"></a><span data-ttu-id="9a827-103">สร้างเท็มเพลตชั่วโมงทำงาน (Project Service)</span><span class="sxs-lookup"><span data-stu-id="9a827-103">Create a work hours template (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="99bd7-104">ก่อนที่คุณจะสามารถสร้างกำหนดการโครงการได้ คุณจำเป็นต้องตั้งค่าปฏิทินโครงการที่กำหนดจำนวนของชั่วโมงการทำงานเพื่อให้เหมาะสมกับแต่ละวันในกำหนดการและระยะเวลาที่ปิดดำเนินการใดๆ</span><span class="sxs-lookup"><span data-stu-id="99bd7-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="99bd7-105">คุณทำเช่นนี้กับแม่แบบชั่วโมงทำงาน ซึ่งประกอบด้วยรายละเอียดเกี่ยวกับชั่วโมงทำงานต่อวัน วันหยุด และระยะเวลาที่ปิดดำเนินการอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="99bd7-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
+<span data-ttu-id="9a827-104">ก่อนที่คุณจะสามารถสร้างกำหนดการโครงการได้ คุณจำเป็นต้องตั้งค่าปฏิทินโครงการที่กำหนดจำนวนของชั่วโมงการทำงานเพื่อให้เหมาะสมกับแต่ละวันในกำหนดการและระยะเวลาที่ปิดดำเนินการใดๆ</span><span class="sxs-lookup"><span data-stu-id="9a827-104">Before you can create project schedules, you need to set up a project calendar that defines the number of working hours to accommodate per day in the schedule and any business closures.</span></span> <span data-ttu-id="9a827-105">คุณทำเช่นนี้กับแม่แบบชั่วโมงทำงาน ซึ่งประกอบด้วยรายละเอียดเกี่ยวกับชั่วโมงทำงานต่อวัน วันหยุด และระยะเวลาที่ปิดดำเนินการอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="9a827-105">You do this with a work hours template, which contains details about work hours per day, days off, and any other business closures.</span></span>  
   
- <span data-ttu-id="99bd7-106">เมื่อคุณกำลังสร้างโครงการ คุณเชื่อมโยงแม่แบบงานไปยังปฏิทินโครงการเพื่อใช้การจัดกำหนดการสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="99bd7-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
+ <span data-ttu-id="9a827-106">เมื่อคุณกำลังสร้างโครงการ คุณเชื่อมโยงแม่แบบงานไปยังปฏิทินโครงการเพื่อใช้การจัดกำหนดการสำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="9a827-106">When you’re creating a project, you associate a work template to the project calendar to apply the schedule for the project.</span></span>  
   
- <span data-ttu-id="99bd7-107">มีสองวิธีที่คุณสามารถสร้างต้นแบบชั่วโมงทำงาน:</span><span class="sxs-lookup"><span data-stu-id="99bd7-107">There are two ways you can create a work hours template:</span></span>  
+ <span data-ttu-id="9a827-107">มีสองวิธีที่คุณสามารถสร้างต้นแบบชั่วโมงทำงาน:</span><span class="sxs-lookup"><span data-stu-id="9a827-107">There are two ways you can create a work hours template:</span></span>  
   
--   <span data-ttu-id="99bd7-108">สร้างแม่แบบชั่วโมงทำงานตามปฏิทินของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="99bd7-108">Create a work hours template based on a resource’s calendar.</span></span>  
+-   <span data-ttu-id="9a827-108">สร้างแม่แบบชั่วโมงทำงานตามปฏิทินของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="9a827-108">Create a work hours template based on a resource’s calendar.</span></span>  
   
--   <span data-ttu-id="99bd7-109">สร้างแม่แบบชั่วโมงทำงานใหม่</span><span class="sxs-lookup"><span data-stu-id="99bd7-109">Create a new work hours template.</span></span>  
+-   <span data-ttu-id="9a827-109">สร้างแม่แบบชั่วโมงทำงานใหม่</span><span class="sxs-lookup"><span data-stu-id="9a827-109">Create a new work hours template.</span></span>  
   
-#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="99bd7-110">เพื่อสร้างต้นแบบชั่วโมงทำงานตามปฏิทินของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="99bd7-110">To create a work hours template based on a resource’s calendar</span></span>  
+#### <a name="to-create-a-work-hours-template-based-on-a-resources-calendar"></a><span data-ttu-id="9a827-110">เพื่อสร้างต้นแบบชั่วโมงทำงานตามปฏิทินของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="9a827-110">To create a work hours template based on a resource’s calendar</span></span>  
   
-1.  <span data-ttu-id="99bd7-111">ไปที่ **Project Service > ทรัพยากร**</span><span class="sxs-lookup"><span data-stu-id="99bd7-111">Go to **Project Service > Resources**.</span></span>  
+1.  <span data-ttu-id="9a827-111">ไปที่ **Project Service > ทรัพยากร**</span><span class="sxs-lookup"><span data-stu-id="9a827-111">Go to **Project Service > Resources**.</span></span>  
   
-2.  <span data-ttu-id="99bd7-112">เลือกทรัพยากรคุณต้องการให้ชั่วโมงการทำงานของคุณยึดตาม</span><span class="sxs-lookup"><span data-stu-id="99bd7-112">Select the resource you want to base your work hours on.</span></span>  
+2.  <span data-ttu-id="9a827-112">เลือกทรัพยากรคุณต้องการให้ชั่วโมงการทำงานของคุณยึดตาม</span><span class="sxs-lookup"><span data-stu-id="9a827-112">Select the resource you want to base your work hours on.</span></span>  
   
-3.  <span data-ttu-id="99bd7-113">คลิก **บันทึกปฏิทินเป็น** ป้อนชื่อสำหรับแม่แบบชั่วโมงทำงาน แล้วคลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="99bd7-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
+3.  <span data-ttu-id="9a827-113">คลิก **บันทึกปฏิทินเป็น** ป้อนชื่อสำหรับแม่แบบชั่วโมงทำงาน แล้วคลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="9a827-113">Click **Save Calendar As**, enter a name for the work hours template, and then click **Save**.</span></span>  
   
-4.  <span data-ttu-id="99bd7-114">เมื่อคุณเสร็จสิ้นการแก้ไขตัวเลือกแล้ว ให้คลิก **บันทึกและปิด**</span><span class="sxs-lookup"><span data-stu-id="99bd7-114">When you’re done changing options, click **Save and Close**.</span></span>  
+4.  <span data-ttu-id="9a827-114">เมื่อคุณเสร็จสิ้นการแก้ไขตัวเลือกแล้ว ให้คลิก **บันทึกและปิด**</span><span class="sxs-lookup"><span data-stu-id="9a827-114">When you’re done changing options, click **Save and Close**.</span></span>  
   
-5.  <span data-ttu-id="99bd7-115">คลิกปุ่ม **บันทึก** ที่มุมล่างขวาของหน้าจอ</span><span class="sxs-lookup"><span data-stu-id="99bd7-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
+5.  <span data-ttu-id="9a827-115">คลิกปุ่ม **บันทึก** ที่มุมล่างขวาของหน้าจอ</span><span class="sxs-lookup"><span data-stu-id="9a827-115">Click the **Save** button at the bottom right corner of the screen.</span></span>  
   
-#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="99bd7-116">เพื่อสร้างแม่แบบชั่วโมงทำงานใหม่</span><span class="sxs-lookup"><span data-stu-id="99bd7-116">To create a new work hours template</span></span>  
+#### <a name="to-create-a-new-work-hours-template"></a><span data-ttu-id="9a827-116">เพื่อสร้างแม่แบบชั่วโมงทำงานใหม่</span><span class="sxs-lookup"><span data-stu-id="9a827-116">To create a new work hours template</span></span>  
   
-1.  <span data-ttu-id="99bd7-117">ไปที่ **Project Service > แม่แบบชั่วโมงทำงาน**</span><span class="sxs-lookup"><span data-stu-id="99bd7-117">Go to **Project Service > Work Hours Templates**.</span></span>  
+1.  <span data-ttu-id="9a827-117">ไปที่ **Project Service > แม่แบบชั่วโมงทำงาน**</span><span class="sxs-lookup"><span data-stu-id="9a827-117">Go to **Project Service > Work Hours Templates**.</span></span>  
   
-2.  <span data-ttu-id="99bd7-118">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="99bd7-118">Click **New**.</span></span>  
+2.  <span data-ttu-id="9a827-118">คลิก **สร้าง**</span><span class="sxs-lookup"><span data-stu-id="9a827-118">Click **New**.</span></span>  
   
-3.  <span data-ttu-id="99bd7-119">ป้อนชื่อสำหรับแม่แบบชั่วโมงทำงาน</span><span class="sxs-lookup"><span data-stu-id="99bd7-119">Enter a name for the work hours template.</span></span>  
+3.  <span data-ttu-id="9a827-119">ป้อนชื่อสำหรับแม่แบบชั่วโมงทำงาน</span><span class="sxs-lookup"><span data-stu-id="9a827-119">Enter a name for the work hours template.</span></span>  
   
-4.  <span data-ttu-id="99bd7-120">เลือกทรัพยากรที่จะให้ชั่วโมงการทำงานยึดตาม แล้ว คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="99bd7-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
+4.  <span data-ttu-id="9a827-120">เลือกทรัพยากรที่จะให้ชั่วโมงการทำงานยึดตาม แล้ว คลิก **บันทึก**</span><span class="sxs-lookup"><span data-stu-id="9a827-120">Select a resource to base the work hours on, and then click **Save**.</span></span>  
   
-### <a name="see-also"></a><span data-ttu-id="99bd7-121">ดูเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="99bd7-121">See Also</span></span>  
- [<span data-ttu-id="99bd7-122">ตั้งค่าทรัพยากรที่สามารถจองได้</span><span class="sxs-lookup"><span data-stu-id="99bd7-122">Set up resources</span></span>](../psa/set-up-resources.md)
+### <a name="see-also"></a><span data-ttu-id="9a827-121">ดูเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="9a827-121">See Also</span></span>  
+ [<span data-ttu-id="9a827-122">ตั้งค่าทรัพยากรที่สามารถจองได้</span><span class="sxs-lookup"><span data-stu-id="9a827-122">Set up resources</span></span>](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
