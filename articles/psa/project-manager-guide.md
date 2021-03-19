@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 7d375616038381bda05a02870f9e4edb06fb3307
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 47761815403992799950ca2c8a5469343bd1c9ff
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148306"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5283886"
 ---
 # <a name="project-manager-guide-project-service"></a>คู่มือของผู้จัดการโครงการ (Project Service)
 
@@ -84,7 +84,7 @@ ms.locfileid: "5148306"
   
 -   [สร้างแม่แบบชั่วโมงทำงาน](../psa/create-work-hours-template.md) ตั้งค่าปฏิทินโครงการที่กำหนดจำนวนของชั่วโมงการทำงานเพื่อให้เหมาะสมกับแต่ละวันในกำหนดการและการปิดธุรกิจใดๆ  
   
--   [สร้างราคาตลาด](../psa/create-price-list.md) ตั้งค่าต้นทุนและราคาขายสำหรับบทบาทของทรัพยากรในองค์กรของคุณ รวมถึงสำหรับประเภทอื่นๆ เช่น ค่าใช้จ่ายและผลิตภัณฑ์  
+-   [สร้างรายการราคา](../psa/create-price-list.md) ตั้งค่าต้นทุนและราคาขายสำหรับบทบาทของทรัพยากรในองค์กรของคุณ รวมถึงสำหรับประเภทอื่นๆ เช่น ค่าใช้จ่ายและผลิตภัณฑ์  
   
 -   [เพิ่มบทบาททรัพยากร](../psa/add-resource-roles.md) กำหนดบทบาทเพื่อช่วยกำหนดความต้องการทรัพยากรและต้นทุนของโครงการ  
   
