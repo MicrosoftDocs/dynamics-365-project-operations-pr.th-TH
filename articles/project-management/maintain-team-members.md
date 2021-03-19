@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: abab21ff98481166517be0c74a2c14c36d5e9d1d
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 60b6788d881518502d314e9ee5daf6bbc0ae8764
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131546"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5286856"
 ---
 # <a name="maintain-team-members"></a>ดูแลสมาชิกในทีม
 
@@ -21,7 +21,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 คุณสามารถเพิ่มทรัพยากรที่มีชื่อให้กับทีมโครงการของคุณโดยการจองโดยตรงไปยังทีม
 
-1. ใน Dynamics 365 Project Operations ไปที่ **โครงการ** และเลือกเปิดโครงการที่คุณกำลังทำการจอง
+1. ใน Dynamics 365 Project Operations ให้ไปที่ **โครงการ** และเลือกเปิดโครงการที่คุณกำลังทำการจอง
 2. บนเพจ **โครงการ** บนแท็บ **ทีม** ให้เลือก **สร้าง** 
 3. ในกล่องโต้ตอบ **สร้างสมาชิกทีมโครงการด่วน** ให้เลือกทรัพยากรที่จองได้ ฟิลด์ **บทบาท** จะเติมข้อมูลด้วยบทบาทเริ่มต้นของทรัพยากรถ้ามีการกำหนดไว้ คุณสามารถเปลี่ยนบทบาท 
 4. เลือกวันที่เริ่มต้นและวันที่สิ้นสุดที่จะต้องใช้ทรัพยากรและเลือกวิธีการจัดสรรของความสามารถรองรับของทรัพยากร 

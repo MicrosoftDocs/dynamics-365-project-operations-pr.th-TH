@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d7fa645e78d2206e333d9f85fcec0f7a9c213c23
-ms.sourcegitcommit: 260ce052fed760bb44c514517806049ca13a5459
+ms.openlocfilehash: 695bbc2ae1ba1e762472b5f5fa853c89017d2f52
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 01/08/2021
-ms.locfileid: "4841412"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5287036"
 ---
 # <a name="create-a-work-breakdown-structure-wbs"></a>สร้างโครงสร้างการแบ่งงาน (WBS)
 
@@ -92,6 +92,8 @@ ms.locfileid: "4841412"
 | เริ่ม | วันที่และเวลาเริ่มต้น |
 | ชื่อ | ชื่อของงาน |
 | ID | รหัสของงานในโครงสร้างการแบ่งงาน |
+
+ในฐานะผู้ดูแลระบบ คุณสามารถกำหนดฟิลด์ที่กำหนดเองบนเอนทิตีงานได้ แต่คุณไม่สามารถแสดงฟิลด์บนตารางกำหนดการได้ หากต้องการดูฟิลด์ที่กำหนดเองของคุณ ให้เพิ่มฟิลด์ลงในเพจรายละเอียด **งานโครงการ**
 
 ## <a name="staffing-attributes"></a>แอตทริบิวต์การสรรหาพนักงาน
 
