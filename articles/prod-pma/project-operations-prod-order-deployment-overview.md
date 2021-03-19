@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 7bad4de10a508f0c1aa2cc6bb0c41081f81fb259
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 8ffbcb326e5cd86c49b3b3b27ce7d68404a6842b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365646"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289257"
 ---
 # <a name="project-operations-for-stockedproduction-based-scenarios-deployment-overview"></a>Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
 
@@ -35,7 +35,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ชนิดการปรับใช้นี้ยังมีส่วนขยายให้กับฟังก์ชันการทำงานที่มีให้โดยโปรแกรมประยุกต์ Dynamics 365 Finance และ Dynamics 365 Supply Chain Management
 
-เลือกชนิดการปรับใช้นี้เพื่อใช้ Dynamics 365 Project Operations สำหรับวงจรชีวิตของโครงการแบบเต็ม รวมถึงข้อกำหนดหลักต่อไปนี้:
+เลือกชนิดการปรับใช้งานนี้เพื่อใช้ Dynamics 365 Project Operations สำหรับวงจรการใช้งานของโครงการทั้งหมด รวมถึงข้อกำหนดหลักต่อไปนี้:
 
 - ระบบการจัดการโครงการที่ครอบคลุมซึ่งจัดการสินค้าประดิษฐ์และการคิดต้นทุนงาน/ใบสั่งผลิตสำหรับโครงการภายในและเรียกเก็บเงินได้สำหรับกำหนดการและการเงิน
 - องค์กรที่มีแอป Dynamics 365 Finance หรือ Dynamics 365 Supply Chain and Manufacturing และการรวมธุรกรรมตามโครงการอยู่แล้ว จะทำให้การเข้าถึงข้อมูลและการรายงานความต้องการง่ายขึ้น
