@@ -18,38 +18,41 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6d62baf0d5a535d118df507edaba3059d44fd4d7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7fb1e2fbe08c3b2885b690915904d172f14fdb54
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147451"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5282896"
 ---
-# <a name="resourcing-projects-home-page"></a><span data-ttu-id="b4224-103">โฮมเพจโครงการการจัดเตรียมทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4224-103">Resourcing projects home page</span></span>
+# <a name="resourcing-projects-home-page"></a><span data-ttu-id="bdfa5-103">โฮมเพจโครงการการจัดเตรียมทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="bdfa5-103">Resourcing projects home page</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="b4224-104">ทรัพยากรเป็นสินทรัพย์ที่สำคัญที่สุดขององค์กรที่ใช้การบริการ</span><span class="sxs-lookup"><span data-stu-id="b4224-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="b4224-105">ความสามารถในการค้นหาทรัพยากรที่ถูกต้องในเวลาที่เหมาะสม จองทรัพยากรเหล่านั้นในโครงการ และใช้ทรัพยากร และช่วยให้องค์กรบรรลุเป้าหมายรายได้ และเป้าหมายความพึงพอใจของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="b4224-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="b4224-106">คุณสามารถใช้ฟังก์ชันการจัดเตรียมทรัพยากรโครงการใน Project Service Automation (PSA) เพื่อดำเนินการต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="b4224-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
+<span data-ttu-id="bdfa5-104">ทรัพยากรเป็นสินทรัพย์ที่สำคัญที่สุดขององค์กรที่ใช้การบริการ</span><span class="sxs-lookup"><span data-stu-id="bdfa5-104">Resources are the most important asset of a service-based organization.</span></span> <span data-ttu-id="bdfa5-105">ความสามารถในการค้นหาทรัพยากรที่ถูกต้องในเวลาที่เหมาะสม จองทรัพยากรเหล่านั้นในโครงการ และใช้ทรัพยากร และช่วยให้องค์กรบรรลุเป้าหมายรายได้ และเป้าหมายความพึงพอใจของลูกค้า</span><span class="sxs-lookup"><span data-stu-id="bdfa5-105">The ability to find the right resources at the right time, book those resources on projects and keep them utilized, helps the organization meet revenue targets and customer satisfaction goals.</span></span> <span data-ttu-id="bdfa5-106">คุณสามารถใช้ฟังก์ชันการจัดเตรียมทรัพยากรโครงการใน Project Service Automation (PSA) เพื่อดำเนินการต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="bdfa5-106">You can use the project resourcing functionality in Project Service Automation (PSA) to do the following:</span></span>
 
-- <span data-ttu-id="b4224-107">สร้างทีมโครงการโดยการจองที่มีพร้อมใช้งานและทรัพยากรที่มีคุณภาพ</span><span class="sxs-lookup"><span data-stu-id="b4224-107">Form project teams by booking available and qualified resources.</span></span>
-- <span data-ttu-id="b4224-108">สร้างเรกคอร์ดสมาชิกในทีมทั่วไปและกำหนดบทบาทและหน่วยองค์กรทรัพยากรของตน</span><span class="sxs-lookup"><span data-stu-id="b4224-108">Create generic team member records and define their roles and resource organization unit.</span></span>
-- <span data-ttu-id="b4224-109">สร้างความต้องการทรัพยากรสำหรับสมาชิกในทีมทั่วไปจากการมอบหมายงานของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="b4224-109">Generate resource requirements for generic team members from their task assignments.</span></span>
-- <span data-ttu-id="b4224-110">จับคู่ทักษะโดยการระบุทักษะที่กำหนดไว้ในความต้องการทรัพยากรกับทักษะของทรัพยากรที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="b4224-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
-- <span data-ttu-id="b4224-111">ทรัพยากรทดแทน</span><span class="sxs-lookup"><span data-stu-id="b4224-111">Substitute resources.</span></span>
-- <span data-ttu-id="b4224-112">จัดการมอบหมายกำหนดการให้บริการโครงการและการจองทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4224-112">Align project schedule assignments and resource bookings.</span></span>
-- <span data-ttu-id="b4224-113">กระทบยอดแตกต่างในการจองและงานมอบหมาย</span><span class="sxs-lookup"><span data-stu-id="b4224-113">Reconcile differences in bookings and assignments.</span></span>
-- <span data-ttu-id="b4224-114">เปลี่ยนการจองทรัพยากรในการตอบสนองต่อสถานะที่ไม่อยู่ที่สำนักงาน</span><span class="sxs-lookup"><span data-stu-id="b4224-114">Change resource bookings in response to out-of-office status.</span></span>
-- <span data-ttu-id="b4224-115">ทำงานร่วมกันระหว่างผู้จัดการโครงการและผู้จัดการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4224-115">Collaborate between project managers and resource managers.</span></span>
-- <span data-ttu-id="b4224-116">ดูประวัติของการใช้ทรัพยากรกับเป้าหมายรวมถึงการแบ่งการใช้เวลาของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4224-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
-- <span data-ttu-id="b4224-117">เก็บรักษาทักษะและข้อมูลความชำนาญ</span><span class="sxs-lookup"><span data-stu-id="b4224-117">Maintain a skills and proficiency repository.</span></span>
+- <span data-ttu-id="bdfa5-107">สร้างทีมโครงการโดยการจองที่มีพร้อมใช้งานและทรัพยากรที่มีคุณภาพ</span><span class="sxs-lookup"><span data-stu-id="bdfa5-107">Form project teams by booking available and qualified resources.</span></span>
+- <span data-ttu-id="bdfa5-108">สร้างเรกคอร์ดสมาชิกในทีมทั่วไปและกำหนดบทบาทและหน่วยองค์กรทรัพยากรของตน</span><span class="sxs-lookup"><span data-stu-id="bdfa5-108">Create generic team member records and define their roles and resource organization unit.</span></span>
+- <span data-ttu-id="bdfa5-109">สร้างความต้องการทรัพยากรสำหรับสมาชิกในทีมทั่วไปจากการมอบหมายงานของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="bdfa5-109">Generate resource requirements for generic team members from their task assignments.</span></span>
+- <span data-ttu-id="bdfa5-110">จับคู่ทักษะโดยการระบุทักษะที่กำหนดไว้ในความต้องการทรัพยากรกับทักษะของทรัพยากรที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="bdfa5-110">Match skills by identifying the skills defined on the resource demand against available resource skills.</span></span>
+- <span data-ttu-id="bdfa5-111">ทรัพยากรทดแทน</span><span class="sxs-lookup"><span data-stu-id="bdfa5-111">Substitute resources.</span></span>
+- <span data-ttu-id="bdfa5-112">จัดการมอบหมายกำหนดการให้บริการโครงการและการจองทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="bdfa5-112">Align project schedule assignments and resource bookings.</span></span>
+- <span data-ttu-id="bdfa5-113">กระทบยอดแตกต่างในการจองและงานมอบหมาย</span><span class="sxs-lookup"><span data-stu-id="bdfa5-113">Reconcile differences in bookings and assignments.</span></span>
+- <span data-ttu-id="bdfa5-114">เปลี่ยนการจองทรัพยากรในการตอบสนองต่อสถานะที่ไม่อยู่ที่สำนักงาน</span><span class="sxs-lookup"><span data-stu-id="bdfa5-114">Change resource bookings in response to out-of-office status.</span></span>
+- <span data-ttu-id="bdfa5-115">ทำงานร่วมกันระหว่างผู้จัดการโครงการและผู้จัดการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="bdfa5-115">Collaborate between project managers and resource managers.</span></span>
+- <span data-ttu-id="bdfa5-116">ดูประวัติของการใช้ทรัพยากรกับเป้าหมายรวมถึงการแบ่งการใช้เวลาของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="bdfa5-116">View the history of resource utilization against a target, including a breakdown of how the resources' time was utilized.</span></span>
+- <span data-ttu-id="bdfa5-117">เก็บรักษาทักษะและข้อมูลความชำนาญ</span><span class="sxs-lookup"><span data-stu-id="bdfa5-117">Maintain a skills and proficiency repository.</span></span>
 
 
-<span data-ttu-id="b4224-118">คุณสามารถสรรหาโครงการของคุณกับทีมงานของทรัพยากรทั่วไปหรือทรัพยากรที่ระบุชื่อใน PSA</span><span class="sxs-lookup"><span data-stu-id="b4224-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="b4224-119">คุณสามารถใช้วิธีการต่างๆเพื่อเพิ่มและมอบหมายสมาชิกในทีมและจัดการการจองและงานมอบหมายของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="b4224-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="b4224-120">สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="b4224-120">For additional information, see the following topics:</span></span>
+<span data-ttu-id="bdfa5-118">คุณสามารถสรรหาโครงการของคุณกับทีมงานของทรัพยากรทั่วไปหรือทรัพยากรที่ระบุชื่อใน PSA</span><span class="sxs-lookup"><span data-stu-id="bdfa5-118">You can staff your project with a team of generic or named resources in PSA.</span></span> <span data-ttu-id="bdfa5-119">คุณสามารถใช้วิธีการต่างๆเพื่อเพิ่มและมอบหมายสมาชิกในทีมและจัดการการจองและงานมอบหมายของพวกเขา</span><span class="sxs-lookup"><span data-stu-id="bdfa5-119">You can use various methods to add and assign team members and to manage their bookings and assignments.</span></span> <span data-ttu-id="bdfa5-120">สำหรับข้อมูลเพิ่มเติม ให้ดูหัวข้อต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="bdfa5-120">For additional information, see the following topics:</span></span>
 
-- [<span data-ttu-id="b4224-121">จองทรัพยากรที่ระบุชื่อที่สามารถจองได้ให้ทีมโครงการและมอบหมายงานให้พวกเขา</span><span class="sxs-lookup"><span data-stu-id="b4224-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
-- [<span data-ttu-id="b4224-122">มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4224-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
-- [<span data-ttu-id="b4224-123">จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4224-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
-- [<span data-ttu-id="b4224-124">ส่งคำขอทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4224-124">Submit a resource request</span></span>](submit-resource-request.md)
-- [<span data-ttu-id="b4224-125">ยอมรับหรือปฏิเสธทรัพยากรโครงการที่นำเสนอจากคำขอทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="b4224-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+- [<span data-ttu-id="bdfa5-121">จองทรัพยากรที่ระบุชื่อที่สามารถจองได้ให้ทีมโครงการและมอบหมายงานให้พวกเขา</span><span class="sxs-lookup"><span data-stu-id="bdfa5-121">Book named bookable resources to a project team and assigning them tasks</span></span>](assign-named-bookable-resource.md)
+- [<span data-ttu-id="bdfa5-122">มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="bdfa5-122">Assign generic bookable resources to a task and generate resource requirements</span></span>](assign-generic-bookable-resource.md)
+- [<span data-ttu-id="bdfa5-123">จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="bdfa5-123">Book named resources from resource requirements</span></span>](book-named-resource.md)
+- [<span data-ttu-id="bdfa5-124">ส่งคำขอทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="bdfa5-124">Submit a resource request</span></span>](submit-resource-request.md)
+- [<span data-ttu-id="bdfa5-125">ยอมรับหรือปฏิเสธทรัพยากรโครงการที่นำเสนอจากคำขอทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="bdfa5-125">Accept or reject a proposed project resource from a resource request</span></span>](accept-reject-proposed-resource.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
