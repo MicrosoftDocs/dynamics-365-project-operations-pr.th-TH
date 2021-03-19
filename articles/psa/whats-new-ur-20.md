@@ -17,12 +17,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ee3be43da401af405ab329b9b5a724a2e95c0219
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: db416343ac9ac2591007e83be80493a48f9ae904
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147136"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5280691"
 ---
 # <a name="project-service-automation-update-release-20-v3"></a>Project Service Automation รุ่นการปรับปรุง 20 V3
 
@@ -42,7 +42,7 @@ ms.locfileid: "5147136"
 
 - การนำเข้าสมาชิกทีมโครงการด้วยวิธีการจัดสรรที่ต้องใช้ชั่วโมง ส่งผลให้เกิดข้อผิดพลาดที่ไม่ชัดเจนเมื่อเวลาที่ระบุเป็นศูนย์
 - ผู้ใช้จะได้รับข้อผิดพลาดที่ไม่ถูกต้องเมื่อป้อนจำนวนอักขระสูงสุดในฟิลด์ **คำอธิบาย** สำหรับงานโครงการ
-- หน้า **การดาวน์โหลด Add-in Microsoft Dynamics 365 Project Service Automation** จะเปลี่ยนเส้นทางไปยังหน้าดาวน์โหลดภาษาอังกฤษเมื่อตั้งค่าภาษาของผู้ใช้เป็นภาษาญี่ปุ่น
+- เพจ **ดาวน์โหลด Add-in ของ Microsoft Dynamics 365 Project Service Automation** เปลี่ยนเส้นทางไปยังเพจดาวน์โหลดภาษาอังกฤษเมื่อตั้งค่าภาษาของผู้ใช้เป็นภาษาญี่ปุ่น
 - เมื่อเกิดข้อผิดพลาดเซิร์ฟเวอร์ ป้ายชื่อการทำข้อมูลให้ตรงกันบนแท็บ **จัดกำหนดการ** ของฟอร์ม **โครงการ** บางครั้งจะยังคงอยู่
 - การปรับปรุงงานซ้ำซ้อนจะถูกส่งไปยังเซิร์ฟเวอร์เมื่อมีการแก้ไขงาน
 

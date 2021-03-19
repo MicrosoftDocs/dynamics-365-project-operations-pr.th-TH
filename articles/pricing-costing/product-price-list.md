@@ -1,5 +1,5 @@
 ---
-title: ราคาตลาดของผลิตภัณฑ์
+title: รายการราคาของผลิตภัณฑ์
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับรายการราคาในการกำหนดราคาของแค็ตตาล็อกที่ใช้สำหรับใบเสนอราคาและสัญญาของโครงการ
 author: rumant
 manager: AnnBe
@@ -17,14 +17,14 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 702402854c0787dae0bde854c9c274f5c23c131f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: c0f30bec159254c078024549b7b0dd0c048ef65d
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4119621"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275381"
 ---
-# <a name="product-price-lists"></a>ราคาตลาดของผลิตภัณฑ์
+# <a name="product-price-lists"></a>รายการราคาของผลิตภัณฑ์
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 

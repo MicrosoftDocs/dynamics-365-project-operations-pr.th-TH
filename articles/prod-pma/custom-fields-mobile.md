@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.3
 ms.search.validFrom: 2019-05-29
-ms.openlocfilehash: 1ea1ca002a8f68f86808831b398e452244471322
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 5dae571fce746b49281587f5349774a7f2c4111b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085986"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5271016"
 ---
 # <a name="implement-custom-fields-for-the-microsoft-dynamics-365-project-timesheet-mobile-app-on-ios-and-android"></a>ใช้ฟิลด์ที่กำหนดเองสำหรับแอปบนมือถือ Microsoft Dynamics 365 Project Timesheet บน iOS และ Android
 
@@ -410,7 +410,7 @@ final class TSTimesheetDetails_Extension
 
 - ถ้า **validateWrite** ในตาราง TSTimesheetLine ส่งกลับ **เท็จ** ในระหว่างการดำเนินการบันทึกสำหรับรายการแผ่นเวลา ข้อความแสดงข้อผิดพลาดจะปรากฏในแอปมือถือ
 - ถ้า **validateSubmit** ในตาราง TSTimesheetTable ส่งกลับ **เท็จ** ในระหว่างการส่งรายการแผ่นเวลา ข้อความแสดงข้อผิดพลาดจะปรากฏกับผู้ใช้
-- ตรรกะที่เติมในฟิลด์ (ตัวอย่างเช่น **คุณสมบัติรายการ** ) ในระหว่างวิธี **แทรก** บนตาราง TSTimesheetLine จะยังคงทำงานอยู่
+- ตรรกะที่เติมในฟิลด์ (ตัวอย่างเช่น **คุณสมบัติรายการ**) ในระหว่างวิธี **แทรก** บนตาราง TSTimesheetLine จะยังคงทำงานอยู่
 
 ### <a name="hiding-and-marking-out-of-box-fields-as-read-only-via-configuration"></a>การซ่อนและทำเครื่องหมายฟิลด์สำเร็จรูปเป็นแบบอ่านอย่างเดียวผ่านการกำหนดค่า
 

@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: bc97af1ec90e60417c502eb329a85004e769e05b
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128846"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279161"
 ---
 # <a name="submit-a-resource-request"></a>ส่งคำขอทรัพยากร
 
@@ -21,7 +21,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 คุณสามารถส่งคำขอทรัพยากรที่สร้างขึ้นเป็นคำขอทรัพยากรได้ จากนั้นคำขอจะถูกส่งไปยังผู้จัดการทรัพยากรเพื่อทำตามคำขอ
 
-1. ใน Dynamics 365 Project Operations บนเพจ **โครงการ** เลือกแท็บ **ทีม** เพื่อดูรายการทรัพยากรที่สามารถจองได้ 
+1. ใน Dynamics 365 Project Operations บนเพจ **โครงการ** ให้เลือกแท็บ **ทีม** เพื่อดูรายการทรัพยากรที่สามารถจองได้ 
 2. เลือกทรัพยากรทั่วไปที่มีความจำเป็นจากในรายการ จากนั้นคลิก **ส่งคำขอ**
 
 สถานะของคำขอของสมาชิกทีมทั่วไปจะถูกเปลี่ยนเป็น **ส่งแล้ว**

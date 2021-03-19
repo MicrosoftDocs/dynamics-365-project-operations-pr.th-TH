@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: a2c752ba6395ed4bf025092219350dc245f7428f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124706"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277271"
 ---
 # <a name="close-a-quote"></a>ปิดใบเสนอราคา
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
-การเสนอราคาโครงการสามารถปิดเป็นชนะหรือแพ้ เพราะฟังก์ชันเปิดใช้งานและแก้ไขไม่ได้รองรับใบเสนอราคาใน Microsoft Dynamics 365 Project Operations คุณจึงสามารถปิดใบเสนอราคาแบบร่างได้
+การเสนอราคาโครงการสามารถปิดเป็นชนะหรือแพ้ เนื่องจากฟังก์ชัน เริ่มการใช้งาน และ ทบทวน ไม่รองรับสำหรับใบเสนอราคาใน Microsoft Dynamics 365 Project Operations คุณสามารถปิดใบเสนอราคาฉบับร่างได้
 
 ## <a name="close-a-quote-as-won"></a>ปิดใบเสนอราคาเป็นชนะ
 
