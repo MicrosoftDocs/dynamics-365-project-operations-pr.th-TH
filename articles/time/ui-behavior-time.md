@@ -3,17 +3,17 @@ title: ลักษณะการทำงานของ UI รายการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับลักษณะการทำงานของ UI สำหรับรายการเวลา
 author: stsporen
 manager: AnnBe
-ms.date: 10/05/2020
+ms.date: 03/03/2021
 ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 8719e2f9ee4867f17ed75142eca2115f61e37999
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: b552266eddc4efc1b41fc500d157239388ad219b
+ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124526"
+ms.lasthandoff: 03/04/2021
+ms.locfileid: "5499637"
 ---
 # <a name="time-entry-ui-behavior"></a>ลักษณะการทำงานของ UI รายการเวลา
 
@@ -22,7 +22,20 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ตาราง **รายการเวลารายสัปดาห์** เป็นตัวควบคุมแบบกำหนดเองที่มีสองส่วนหลัก **มิติ** และ **ระยะเวลา**
 
-## <a name="dimensions"></a>มิติ
+## <a name="keyboard-shortcuts"></a>แป้นพิมพ์ลัด
+| การดำเนินการ        | ทางลัด                  |
+|------------   |------------------------   |
+| ใหม่           | Alt + Shift + n           |
+| คัดลอกแถว      | Alt + Shift + c           |
+| แก้ไขรายการ    | Alt + Shift + e           |
+| แก้ไขแถว      | Alt + Shift + Ctrl + e    |
+| เปิดรายการ    | Alt + Shift + o           |
+| ส่ง        | Alt + Shift + s           |
+| เรียกคืน        | Alt + Shift + r           |
+| Delete        | Alt + Shift + d           |
+| คัดลอกสัปดาห์     | Alt + Shift + w           |
+
+## <a name="dimensions"></a>ขนาด
 ส่วน **มิติ** แสดงมิติที่สามารถป้อนข้อมูลเวลา มิติต่อไปนี้ได้รับการสนับสนุนแบบสำเร็จรูป:
 
   - Project
