@@ -36,6 +36,8 @@
               href: environment/resource-configure-integration-per-legal-entity.md
     - name: มีอะไรใหม่
       items:
+        - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-apr-2021-resource-based.md
         - name: มีนาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-mar-2021-resource-based.md
         - name: กุมภาพันธ์ 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -64,7 +66,7 @@
           items:
             - name: ภาพรวมจัดการโอกาสทางการขายของโครงการ
               href: sales/manage-project-based-opportunities.md
-            - name: การตั้งค่าโอกาสทางการขายตามโครงการ
+            - name: รายละเอียดส่วนหัวสำหรับโอกาสทางการขายตามโครงการ
               href: sales/opportunity-header.md
             - name: รายการโอกาสทางการขายตามโครงการ
               href: sales/project-based-lines.md
@@ -78,23 +80,27 @@
           items:
             - name: ภาพรวมจัดการใบเสนอราคาโครงการ
               href: pro/sales/manage-quotes-sales.md
-            - name: แนวคิดของใบเสนอราคาโครงการ
+            - name: แนวคิดเฉพาะสำหรับใบเสนอราคาตามโครงการ
               href: sales/quotes-key-concepts.md
-            - name: การตั้งค่าใบเสนอราคาโครงการ
+            - name: รายละเอียดส่วนหัวสำหรับใบเสนอราคาตามโครงการ
               href: sales/quote-values-budget-limits-contract.md
-            - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคา
+            - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคาโครงการ
               href: sales/manage-multiple-customers-quote.md
             - name: จัดการรายการราคาของโครงการในใบเสนอราคา
-              href: sales/managing-project-price-lists.md
+              href: pro/sales/manage-project-price-lists-sales.md
             - name: รายการใบเสนอราคาตามโครงการ
               items:
                 - name: ภาพรวมรายการใบเสนอราคาตามโครงการ
-                  href: sales/manage-quoted-values-budget-limits-quote-line.md
+                  href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคาตามโครงการ
                   href: sales/manage-multiple-customers-quote-line.md
+                - name: แมปโครงการและงานกับรายการใบเสนอราคาตามโครงการ
+                  href: pro/sales/mapping-projects-tasks-quote-line-sales.md
+                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินสำหรับรายการใบเสนอราคาตามโครงการ
+                  href: pro/sales/configure-chargeable-components-quote-line-sales.md
                 - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินของรายการใบเสนอราคาโครงการ
                   href: sales/configure-chargeable-quoteline.md
-                - name: สร้างประมาณการในรายการใบเสนอราคา
+                - name: ประเมินรายการใบเสนอราคาโครงการ
                   href: sales/create-estimate-quote-line.md
                 - name: นำเข้าประมาณการจากโครงการไปยังรายการใบเสนอราคาตามโครงการ
                   href: sales/import-estimate-quote-line.md
@@ -108,9 +114,9 @@
           items:
             - name: ภาพรวมจัดการสัญญาโครงการ
               href: pro/sales/manage-contracts-sales.md
-            - name: แนวคิดของสัญญาโครงการ
+            - name: แนวคิดเฉพาะสำหรับสัญญาตามโครงการ
               href: sales/contracts-key-concepts.md
-            - name: การตั้งค่าสัญญาโครงการ
+            - name: รายละเอียดส่วนหัวสำหรับสัญญาตามโครงการ
               href: sales/project-contract-settings.md
             - name: จัดการรายการราคาของโครงการในสัญญาโครงการ
               href: sales/contracts-manage-project-price-lists.md
@@ -119,12 +125,14 @@
             - name: รายละเอียดการให้บริการตามสัญญาตามโครงการ
               items:
                 - name: ภารวมของรายละเอียดการให้บริการตามสัญญาตามโครงการ
-                  href: sales/manage-contract-values-project-based.md
+                  href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: จัดการลูกค้าหลายรายในรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: กำหนดค่าส่วนประกอบที่คิดค่าบริการของรายละเอียดการให้บริการตามสัญญาตามโครงการ
-                  href: sales/configure-chargeable-contract-line.md
-                - name: ประเมินรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                - name: แมปโครงการและงานในรายละเอียดการให้บริการตามสัญญาโครงการ
+                  href: pro/sales/mapping-projects-tasks-contract-line-sales.md
+                - name: กำหนดค่าส่วนประกอบที่คิดค่าบริการสำหรับรายละเอียดการให้บริการตามสัญญาโครงการ
+                  href: pro/sales/configure-chargeable-components-contract-line.md
+                - name: ประมาณการรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: sales/create-estimate-contract-line.md
                 - name: นำเข้าประมาณการจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/import-estimate-project-contract-line.md
@@ -132,8 +140,6 @@
                   href: sales/invoice-schedules-contract-line.md
             - name: ยืนยันสัญญาโครงการ
               href: pro/sales/confirm-contract-sales.md
-            - name: คัดลอกสัญญาโครงการ
-              href: pro/sales/copy-project-contracts-sales.md
             - name: เงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า
               items:
                 - name: สัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้า
@@ -146,16 +152,16 @@
       items:
         - name: การตั้งค่ารายการราคา
           items:
-            - name: ตั้งค่ารายการราคา
+            - name: ข้อกำหนดรายการราคา
               href: pricing-costing/price-list-setup.md
-            - name: รายการราคาของผลิตภัณฑ์
-              href: pricing-costing/product-price-list.md
             - name: ตั้งค่าอัตราการเรียกเก็บเงินค่าแรง
               href: pricing-costing/set-up-labor-bill-rate.md
             - name: ตั้งค่าอัตราต้นทุนค่าแรง
               href: pricing-costing/set-up-labor-cost-rate.md
             - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับค่าใช้จ่าย
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับวัสดุ
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: ค่าเริ่มต้นและการแทนที่
           items:
             - name: รายการราคาเริ่มต้น
@@ -166,8 +172,10 @@
               href: pricing-costing/cost-price-resolution.md
             - name: แก้ไขราคาขายสำหรับประมาณการและข้อมูลจริง
               href: pricing-costing/sales-price-resolution.md
-            - name: คัดลอกราคาตลาด
+            - name: คัดลอกรายการราคา
               href: pricing-costing/copy-price-lists.md
+            - name: ปิดการใช้งานรายการราคา
+              href: pricing-costing/deactivatepricelists.md
         - name: มิติการกำหนดราคา
           items:
             - name: ภาพรวมมิติการกำหนดราคา
@@ -218,18 +226,24 @@
               href: project-management/create-wbs.md
             - name: สร้างงานที่มอบหมาย
               href: project-management/create-assignments.md
-        - name: ประมาณการโครงการ
+        - name: ประมาณการทางการเงินสำหรับโครงการ
           items:
-            - name: ภาพรวมของประมาณการโครงการ
+            - name: แนวคิดการประมาณทางการเงิน
               href: project-management/estimating-projects-overview.md
-            - name: การประมาณการทรัพยากร
+            - name: ประมาณการทางการเงินสำหรับเวลาของทรัพยากรในโครงการ
               href: project-management/resource-estimates.md
-            - name: สร้างการประมาณการค่าใช้จ่าย
+            - name: ประมาณการทางการเงินสำหรับค่าใช้จ่ายในโครงการ
               href: project-management/create-expense-estimates.md
+            - name: ประมาณการทางการเงินสำหรับวัสดุในโครงการ
+              href: project-management/create-material-estimate.md
         - name: การติดตามโครงการ
           items:
-            - name: ภาพรวมของการติดตามโครงการ
+            - name: การติดตามกำลังคนของโครงการ
               href: project-management/project-tracking-overview.md
+            - name: การติดตามต้นทุนค่าแรงในโครงการ
+              href: project-management/project-cost-tracking.md
+            - name: การติดตามรายได้ค่าแรงในโครงการ
+              href: project-management/project-sales-tracking.md
             - name: อัปเดตการประมาณการเมื่อดำเนินงานเสร็จสมบูรณ์
               href: project-management/update-completed-estimate.md
         - name: สมาชิกของทีมโครงการ
@@ -248,6 +262,8 @@
           items:
             - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
               href: project-management/dev-copy-project.md
+            - name: ใช้ API กำหนดการ (พรีวิวสำหรับสาธารณะ)
+              href: project-management/schedule-api-preview.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
@@ -314,7 +330,7 @@
               href: time/ui-behavior-time.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
-            - name: ปรับแต่งกริดการป้อนเวลารายสัปดาห์
+            - name: ปรับแต่งกริดรายการเวลารายสัปดาห์
               href: time/customize-weekly-time-entry-grid.md
     - name: ค่าใช้จ่าย
       items:
@@ -360,12 +376,16 @@
           href: expense/cash-advance.md
         - name: เบี้ยเลี้ยง
           href: expense/per-diems.md
-        - name: แอปค่าใช้จ่ายเกี่ยวกับมือถือ
+        - name: แอปค่าใช้จ่ายสำหรับอุปกรณ์เคลื่อนที่
           href: expense/expense-using-mobile.md
         - name: การจัดการทางการเงิน
           items:
-            - name: การกู้คืน VAT
+            - name: การขอคืน VAT
               href: expense/vat-recovery.md
+    - name: การใช้วัสดุ
+      items:
+        - name: บันทึกการใช้วัสดุในโครงการและงานโครงการ
+          href: material/material-usage-log.md
     - name: การอนุมัติ
       items:
         - name: ภาพรวมการอนุมัติ
@@ -378,6 +398,8 @@
       items:
         - name: ภาพรวมข้อมูลจริง
           href: actuals/actuals-overview.md
+        - name: เชื่อมโยงข้อมูลจริงกับเรกคอร์ดเดิม
+          href: actuals/linkingactuals.md
         - name: สมุดรายวันการแก้ไข
           items:
             - name: สร้างและยืนยันสมุดรายวันการแก้ไข
@@ -390,19 +412,21 @@
           href: invoicing/format-update-project-invoice-proposals.md
         - name: การออกใบแจ้งหนี้ชั่วคราว
           items:
-            - name: จัดการรายการคงค้างของการเรียกเก็บเงินโครงการ
+            - name: จัดการรายการคงค้างของการเรียกเก็บเงินตามโครงการ
               href: proforma-invoicing/manage-billing-backlog.md
             - name: จัดการสถานะไม่เกินและการตรวจสอบความถูกต้อง
               href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-            - name: สร้างใบแจ้งหนี้โครงการชั่วคราวด้วยตนเอง
+            - name: ใบแจ้งหนี้ตามโครงการชั่วคราว
               href: proforma-invoicing/create-manual-proforma-invoice.md
-            - name: จัดการใบแจ้งหนี้โครงการชั่วคราว
+            - name: จัดการใบแจ้งหนี้ตามโครงการชั่วคราว
               href: proforma-invoicing/manage-proforma-invoice.md
             - name: ออกใบแจ้งหนี้ค่าธรรมเนียมล่วงหน้าหรือเงินทดรองจ่าย
               href: pro/proforma-invoicing/invoice-retainer-advance-sales.md
-            - name: ยืนยันใบแจ้งหนี้โครงการชั่วคราว
+            - name: ยืนยันใบแจ้งหนี้ตามโครงการชั่วคราว
               href: proforma-invoicing/confirm-proforma-invoice.md
-            - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้โครงการ
+            - name: สร้างใบแจ้งหนี้ตามโครงการที่แก้ไข
+              href: proforma-invoicing/corrective-invoices.md
+            - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้ตามโครงการ
               href: proforma-invoicing/configure-automated-invoice-creation.md
     - name: การบัญชีของโครงการ
       items:
@@ -458,6 +482,8 @@
           href: environment/security-model.md
     - name: มีอะไรใหม่
       items:
+        - name: มีอะไรใหม่เดือนเมษายน 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: มีอะไรใหม่เดือนมีนาคม 2021 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-mar-2021-lite.md
         - name: มีอะไรใหม่เดือนกุมภาพันธ์ 2021 - การปรับใช้งานแบบ Lite
@@ -486,7 +512,7 @@
           items:
             - name: ภาพรวมโอกาสทางการขายของโครงการ
               href: sales/manage-project-based-opportunities.md
-            - name: การตั้งค่าโอกาสทางการขายของโครงการ
+            - name: รายละเอียดส่วนหัวสำหรับโอกาสทางการขายของโครงการ
               href: pro/sales/opportunity-header-sales.md
             - name: จัดการรายการโอกาสทางการขายตามผลิตภัณฑ์
               href: pro/sales/product-based-lines-sales.md
@@ -502,9 +528,9 @@
           items:
             - name: ภาพรวมใบเสนอราคาตามโครงการ
               href: pro/sales/manage-quotes-sales.md
-            - name: แนวคิดของใบเสนอราคาโครงการ
+            - name: แนวคิดเฉพาะสำหรับใบเสนอราคาโครงการ
               href: pro/sales/quotes-key-concepts-sales.md
-            - name: การตั้งค่าใบเสนอราคาโครงการ
+            - name: รายละเอียดส่วนหัวสำหรับใบเสนอราคาโครงการ
               href: pro/sales/quote-values-budget-limits-contract-sales.md
             - name: ลูกค้าหลายรายในใบเสนอราคาโครงการ
               href: pro/sales/manage-multiple-customers-quote-sales.md
@@ -542,9 +568,9 @@
           items:
             - name: ภาพรวมของสัญญาตามโครงการ
               href: pro/sales/manage-contracts-sales.md
-            - name: แนวคิดของสัญญาโครงการ
+            - name: แนวคิดเฉพาะสำหรับสัญญาโครงการ
               href: pro/sales/contracts-key-concepts-sales.md
-            - name: การตั้งค่าสัญญาโครงการ
+            - name: รายละเอียดส่วนหัวสำหรับสัญญาโครงการ
               href: pro/sales/project-contract-settings-sales.md
             - name: ลูกค้าหลายรายในสัญญาโครงการ
               href: pro/sales/manage-multiple-customers-contract-sales.md
@@ -590,30 +616,32 @@
       items:
         - name: การตั้งค่ารายการราคา
           items:
-            - name: ตั้งค่ารายการราคา
+            - name: ข้อกำหนดรายการราคา
               href: pricing-costing/price-list-setup.md
-            - name: ตั้งค่าราคาตลาดสำหรับการขาย
-              href: pricing-costing/sales-price-list-setup.md
-            - name: ตั้งค่าอัตราการเรียกเก็บเงินค่าแรง - Lite
+            - name: ตั้งค่ารายการราคาผลิตภัณฑ์
+              href: pricing-costing/product-price-list.md
+            - name: ตั้งค่าอัตราการเรียกเก็บเงินสำหรับค่าแรง
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
-            - name: ตั้งค่าอัตราต้นทุนค่าแรง - Lite
+            - name: ตั้งค่าอัตราต้นทุนสำหรับค่าแรง
               href: pro/pricing-costing/set-up-labor-cost-rates-sales.md
-            - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับผลิตภัณฑ์ในแค็ตตาล็อก - Lite
-              href: pro/pricing-costing/set-up-cost-sales-rates-catalog-products.md
             - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับค่าใช้จ่าย
               href: pricing-costing/set-up-cost-sales-rates-expenses.md
+            - name: ตั้งค่าอัตราต้นทุนและการขายสำหรับวัสดุ
+              href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: ค่าเริ่มต้นและการแทนที่
           items:
             - name: รายการราคาเริ่มต้น
               href: pricing-costing/default-project-sales-price-lists.md
             - name: แทนที่รายการราคาสำหรับการขายของโครงการ
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: แก้ไขราคาต้นทุนในประมาณการและข้อมูลจริง - Lite
+            - name: แก้ไขราคาต้นทุนในประมาณการและข้อมูลจริงของโครงการ
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: แก้ไขราคาขายสำหรับประมาณการและข้อมูลจริง - Lite
+            - name: แก้ไขราคาขายสำหรับประมาณการและข้อมูลจริงของโครงการ
               href: pro/pricing-costing/sales-price-resolution-sales.md
-            - name: คัดลอกราคาตลาด
+            - name: คัดลอกรายการราคา
               href: pricing-costing/copy-price-lists.md
+            - name: ปิดการใช้งานรายการราคาของโครงการ
+              href: pricing-costing/deactivatepricelists.md
         - name: มิติการกำหนดราคา
           items:
             - name: ภาพรวมมิติการกำหนดราคา
@@ -664,18 +692,24 @@
               href: project-management/create-wbs.md
             - name: สร้างงานที่มอบหมาย
               href: project-management/create-assignments.md
-        - name: ประมาณการโครงการ
+        - name: ประมาณการทางการเงินสำหรับโครงการ
           items:
-            - name: ภาพรวมของประมาณการโครงการ
+            - name: แนวคิดการประมาณทางการเงิน
               href: project-management/estimating-projects-overview.md
-            - name: การประมาณการทรัพยากร
+            - name: ประมาณการทางการเงินสำหรับเวลาของทรัพยากรในโครงการ
               href: project-management/resource-estimates.md
-            - name: สร้างการประมาณการค่าใช้จ่าย
+            - name: ประมาณการทางการเงินสำหรับค่าใช้จ่ายในโครงการ
               href: project-management/create-expense-estimates.md
+            - name: ประมาณการทางการเงินสำหรับวัสดุในโครงการ
+              href: project-management/create-material-estimate.md
         - name: การติดตามโครงการ
           items:
-            - name: ภาพรวมของการติดตามโครงการ
+            - name: การติดตามกำลังคนของโครงการ
               href: project-management/project-tracking-overview.md
+            - name: การติดตามต้นทุนค่าแรงในโครงการ
+              href: project-management/project-cost-tracking.md
+            - name: การติดตามรายได้ค่าแรงในโครงการ
+              href: project-management/project-sales-tracking.md
             - name: อัปเดตการประมาณการเมื่อดำเนินงานเสร็จสมบูรณ์
               href: project-management/update-completed-estimate.md
         - name: สมาชิกของทีมโครงการ
@@ -694,6 +728,8 @@
           items:
             - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
               href: project-management/dev-copy-project.md
+            - name: ใช้ API กำหนดการ (พรีวิวสำหรับสาธารณะ)
+              href: project-management/schedule-api-preview.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
@@ -760,7 +796,7 @@
               href: time/ui-behavior-time.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
-            - name: ปรับแต่งกริดการป้อนเวลารายสัปดาห์
+            - name: ปรับแต่งกริดรายการเวลารายสัปดาห์
               href: time/customize-weekly-time-entry-grid.md
     - name: ค่าใช้จ่าย
       items:
@@ -768,6 +804,10 @@
           href: expense/expense-overview.md
         - name: รายการค่าใช้จ่าย (Lite)
           href: expense/basic-expense.md
+    - name: การใช้วัสดุ
+      items:
+        - name: บันทึกการใช้วัสดุในโครงการและงานโครงการ
+          href: material/material-usage-log.md
     - name: การอนุมัติ
       items:
         - name: ภาพรวมการอนุมัติ
@@ -780,6 +820,8 @@
       items:
         - name: ภาพรวมข้อมูลจริง
           href: actuals/actuals-overview.md
+        - name: เชื่อมโยงข้อมูลจริงกับเรกคอร์ดเดิม
+          href: actuals/linkingactuals.md
         - name: สมุดรายวันการแก้ไข
           items:
             - name: สร้างและยืนยันสมุดรายวันการแก้ไข
@@ -790,7 +832,7 @@
           href: pro/proforma-invoicing/manage-billing-backlog-sales.md
         - name: จัดการสถานะไม่เกินและการตรวจสอบความถูกต้อง
           href: pro/proforma-invoicing/manage-nte-status-validations-sales.md
-        - name: สร้างใบแจ้งหนี้โครงการชั่วคราวด้วยตนเอง
+        - name: ใบแจ้งหนี้โครงการชั่วคราว
           href: pro/proforma-invoicing/create-manual-proforma-invoice-sales.md
         - name: จัดการใบแจ้งหนี้โครงการชั่วคราว
           href: pro/proforma-invoicing/manage-proforma-invoice-sales.md
@@ -806,6 +848,8 @@
   items:
     - name: มีอะไรใหม่
       items:
+        - name: มีอะไรใหม่ในเดือนมีนาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนมกราคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
           href: prod-pma/whats-new/whats-new-jan-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนธันวาคม 2020 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
@@ -830,6 +874,8 @@
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
     - name: การออกใบแจ้งหนี้โครงการ
       href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+    - name: ประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
+      href: prod-pma/project-invoice-proposal-performance.md
     - name: สัญญาโครงการ
       href: prod-pma/project-contracts.md
     - name: สร้างสัญญาขั้นสูงสำหรับการเรียกเก็บเงินตามความคืบหน้า
@@ -938,11 +984,11 @@
       href: expense/cash-advance.md
     - name: เบี้ยเลี้ยง
       href: expense/per-diems.md
-    - name: แอปค่าใช้จ่ายเกี่ยวกับมือถือ
+    - name: แอปค่าใช้จ่ายสำหรับอุปกรณ์เคลื่อนที่
       href: expense/expense-using-mobile.md
     - name: การจัดการทางการเงิน
       items:
-        - name: การกู้คืน VAT
+        - name: การขอคืน VAT
           href: expense/vat-recovery.md
 - name: Dynamics 365 Project Service Automation
   items:
@@ -952,6 +998,10 @@
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 30, V3'
+          href: psa/whats-new-ur-30.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 29.5 โปรแกรมแก้ไขด่วน, V3'
+          href: psa/whats-new-ur-29-5.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 29, V3'
           href: psa/whats-new-ur-29.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 28.6 โปรแกรมแก้ไขด่วน, V3'
