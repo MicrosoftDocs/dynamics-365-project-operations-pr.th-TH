@@ -17,44 +17,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 711255ab66f84fe46d0f16fa72e5a10fe0360394
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 0e1ff0db42adb8b991b26dca1585bd603b2e2276
+ms.sourcegitcommit: f57408d6637f670b920d7ce95f8ace8eb1963093
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499694"
+ms.lasthandoff: 03/17/2021
+ms.locfileid: "5664666"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a><span data-ttu-id="a0f1e-103">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Project Service Automation รุ่นการปรับปรุง 29 V3</span><span class="sxs-lookup"><span data-stu-id="a0f1e-103">What's new or changed in Project Service Automation Update Release 29, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-29-v3"></a><span data-ttu-id="d0f17-103">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Project Service Automation รุ่นการปรับปรุง 29 V3</span><span class="sxs-lookup"><span data-stu-id="d0f17-103">What's new or changed in Project Service Automation Update Release 29, V3</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-<span data-ttu-id="a0f1e-104">เรายินดีที่จะประกาศการปรับปรุงล่าสุดสำหรับแอปพลิเคชัน Project Service Automation สำหรับ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="a0f1e-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="a0f1e-105">รุ่นนี้มีการปรับปรุงที่สำคัญบางอย่างเกี่ยวกับคุณภาพ ประสิทธิภาพ และการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="a0f1e-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="a0f1e-106">รุ่นนี้เข้ากันได้กับ Dynamics 365 9.x</span><span class="sxs-lookup"><span data-stu-id="a0f1e-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="a0f1e-107">หากต้องการปรับปรุงเป็นรุ่นนี้ ให้เยี่ยมชมศูนย์การจัดการสำหรับ Dynamics 365 ออนไลน์ และหน้าโซลูชัน เพื่อติดตั้งการปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="a0f1e-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="a0f1e-108">สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ติดตั้ง อัปเดต หรือลบโซลูชันที่ต้องการ](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)</span><span class="sxs-lookup"><span data-stu-id="a0f1e-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="d0f17-104">เรายินดีที่จะประกาศการปรับปรุงล่าสุดสำหรับแอปพลิเคชัน Project Service Automation สำหรับ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="d0f17-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="d0f17-105">รุ่นนี้มีการปรับปรุงที่สำคัญบางอย่างเกี่ยวกับคุณภาพ ประสิทธิภาพ และการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="d0f17-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="d0f17-106">รุ่นนี้เข้ากันได้กับ Dynamics 365 9.x</span><span class="sxs-lookup"><span data-stu-id="d0f17-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="d0f17-107">หากต้องการปรับปรุงเป็นรุ่นนี้ ให้เยี่ยมชมศูนย์การจัดการสำหรับ Dynamics 365 ออนไลน์ และหน้าโซลูชัน เพื่อติดตั้งการปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="d0f17-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="d0f17-108">สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ติดตั้ง อัปเดต หรือลบโซลูชันที่ต้องการ](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution)</span><span class="sxs-lookup"><span data-stu-id="d0f17-108">For more information, see [Install, update, or remove a preferred solution](https://docs.microsoft.com/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="a0f1e-109">หัวข้อนี้แสดงรายการคุณลักษณะและการแก้ไขใหม่หรือที่เปลี่ยนแปลงสำหรับ Project Service Automation V3 รุ่นการปรับปรุง 29</span><span class="sxs-lookup"><span data-stu-id="a0f1e-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 29.</span></span> <span data-ttu-id="a0f1e-110">รุ่นนี้มีหมายเลขรุ่น V3.10.45.98 และโดยทั่วไปจะพร้อมใช้งานผ่านการอัปเดตด้วยตนเองในเดือนกุมภาพันธ์ 2021</span><span class="sxs-lookup"><span data-stu-id="a0f1e-110">This version has a build number of V3.10.45.98 and is generally available through a self-update in February 2021.</span></span>
+<span data-ttu-id="d0f17-109">หัวข้อนี้แสดงรายการคุณลักษณะและการแก้ไขใหม่หรือที่เปลี่ยนแปลงสำหรับ Project Service Automation V3 รุ่นการปรับปรุง 29</span><span class="sxs-lookup"><span data-stu-id="d0f17-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 29.</span></span> <span data-ttu-id="d0f17-110">รุ่นนี้มีหมายเลขรุ่น V3.10.47.7 และโดยทั่วไปจะพร้อมใช้งานผ่านการอัปเดตด้วยตนเองในเดือนกุมภาพันธ์ 2021</span><span class="sxs-lookup"><span data-stu-id="d0f17-110">This version has a build number of V3.10.47.7 and is generally available through a self-update in February 2021.</span></span>
 
-## <a name="update-release-29"></a><span data-ttu-id="a0f1e-111">รุ่นการปรับปรุง 29</span><span class="sxs-lookup"><span data-stu-id="a0f1e-111">Update Release 29</span></span>
+## <a name="update-release-29"></a><span data-ttu-id="d0f17-111">รุ่นการปรับปรุง 29</span><span class="sxs-lookup"><span data-stu-id="d0f17-111">Update Release 29</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="a0f1e-112">แก้ไขข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="a0f1e-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="d0f17-112">แก้ไขข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="d0f17-112">Bug fixes</span></span>
 
-<span data-ttu-id="a0f1e-113">**เวลาและค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="a0f1e-113">**Time and Expense**</span></span>
+<span data-ttu-id="d0f17-113">**เวลาและค่าใช้จ่าย**</span><span class="sxs-lookup"><span data-stu-id="d0f17-113">**Time and Expense**</span></span>
 
-<span data-ttu-id="a0f1e-114">ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:</span><span class="sxs-lookup"><span data-stu-id="a0f1e-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="d0f17-114">ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:</span><span class="sxs-lookup"><span data-stu-id="d0f17-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="a0f1e-115">ผู้ใช้ไม่สามารถดูชั่วโมงการทำงานที่บันทึกไว้ในวันที่ไม่ทำงานในตารางรายการเวลา</span><span class="sxs-lookup"><span data-stu-id="a0f1e-115">Users can't see working hours logged on non-working days in the time entry grid.</span></span>
-- <span data-ttu-id="a0f1e-116">รายการค่าใช้จ่ายที่อนุมัติแล้วสามารถแก้ไขได้ในตาราง</span><span class="sxs-lookup"><span data-stu-id="a0f1e-116">Approved expense entries can be edited on the grid.</span></span>
+- <span data-ttu-id="d0f17-115">ผู้ใช้ไม่สามารถดูชั่วโมงการทำงานที่บันทึกไว้ในวันที่ไม่ทำงานในตารางรายการเวลา</span><span class="sxs-lookup"><span data-stu-id="d0f17-115">Users can't see working hours logged on non-working days in the time entry grid.</span></span>
+- <span data-ttu-id="d0f17-116">รายการค่าใช้จ่ายที่อนุมัติแล้วสามารถแก้ไขได้ในตาราง</span><span class="sxs-lookup"><span data-stu-id="d0f17-116">Approved expense entries can be edited on the grid.</span></span>
 
-<span data-ttu-id="a0f1e-117">**การจัดการโครงการ**</span><span class="sxs-lookup"><span data-stu-id="a0f1e-117">**Project Management**</span></span>
+<span data-ttu-id="d0f17-117">**การจัดการโครงการ**</span><span class="sxs-lookup"><span data-stu-id="d0f17-117">**Project Management**</span></span>
 
-<span data-ttu-id="a0f1e-118">ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:</span><span class="sxs-lookup"><span data-stu-id="a0f1e-118">The following issues have been fixed:</span></span>
+<span data-ttu-id="d0f17-118">ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:</span><span class="sxs-lookup"><span data-stu-id="d0f17-118">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="a0f1e-119">ไม่มีตรรกะในการตรวจสอบความถูกต้องเพื่อให้แน่ใจว่าชั่วโมงความพยายามในการมอบหมายทรัพยากรไม่สามารถติดลบ</span><span class="sxs-lookup"><span data-stu-id="a0f1e-119">Missing validation logic to ensure resource assignment effort hours can't be negative.</span></span>
-- <span data-ttu-id="a0f1e-120">การดำเนินการที่กำหนดเอง **AssignResourcesForTask** ปรับปรุงฟิลด์ทั้งหมดแทนที่จะปรับปรุงฟิลด์ที่เปลี่ยนแปลงเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="a0f1e-120">The custom action, **AssignResourcesForTask** updates all fields instead of only changed fields.</span></span>
-- <span data-ttu-id="a0f1e-121">เมื่อคัดลอกโครงการในสภาพแวดล้อมที่มีปลั๊กอินหรือเวิร์กโฟลว์ที่ลงทะเบียนในเหตุการณ์ **CreateProject** แอตทริบิวต์ **msdyn_bulkgenerationstatus** จะไม่ถูกปรับปรุงหาก **CopyWBSToProject** ล้มเหลว</span><span class="sxs-lookup"><span data-stu-id="a0f1e-121">When copying a project in an environment with plug-ins or workflows that are registered on the **CreateProject** event, the **msdyn_bulkgenerationstatus** attribute isn't updated if the **CopyWBSToProject** fails.</span></span>
-- <span data-ttu-id="a0f1e-122">เมื่อคุณขยายปฏิทินโครงการ วันทำงานจะไม่เรียงลำดับจากน้อยไปหามาก ทำให้การปรับปรุงงานโครงการบางอย่างล้มเหลว</span><span class="sxs-lookup"><span data-stu-id="a0f1e-122">When you expand the project calendar, the working days aren't sorted in ascending order causing some project task updates to fail.</span></span>
-- <span data-ttu-id="a0f1e-123">การเปลี่ยนผู้จัดการโครงการในโครงการที่มีอยู่จะทริกเกอร์ตรรกะการกำหนดค่าเริ่มต้นของหน่วยขององค์กร</span><span class="sxs-lookup"><span data-stu-id="a0f1e-123">Changing the Project Manager on an existing project triggers the organizational unit defaulting logic.</span></span>
+- <span data-ttu-id="d0f17-119">ไม่มีตรรกะในการตรวจสอบความถูกต้องเพื่อให้แน่ใจว่าชั่วโมงของกำลังคนในการกำหนดทรัพยากรไม่สามารถติดลบ</span><span class="sxs-lookup"><span data-stu-id="d0f17-119">Missing validation logic to ensure resource assignment effort hours can't be negative.</span></span>
+- <span data-ttu-id="d0f17-120">การดำเนินการที่กำหนดเอง **AssignResourcesForTask** ปรับปรุงฟิลด์ทั้งหมดแทนที่จะปรับปรุงฟิลด์ที่เปลี่ยนแปลงเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="d0f17-120">The custom action, **AssignResourcesForTask** updates all fields instead of only changed fields.</span></span>
+- <span data-ttu-id="d0f17-121">เมื่อคัดลอกโครงการในสภาพแวดล้อมที่มีปลั๊กอินหรือเวิร์กโฟลว์ที่ลงทะเบียนในเหตุการณ์ **CreateProject** แอตทริบิวต์ **msdyn_bulkgenerationstatus** จะไม่ถูกปรับปรุงหาก **CopyWBSToProject** ล้มเหลว</span><span class="sxs-lookup"><span data-stu-id="d0f17-121">When copying a project in an environment with plug-ins or workflows that are registered on the **CreateProject** event, the **msdyn_bulkgenerationstatus** attribute isn't updated if the **CopyWBSToProject** fails.</span></span>
+- <span data-ttu-id="d0f17-122">เมื่อคุณขยายปฏิทินโครงการ วันทำงานจะไม่เรียงลำดับจากน้อยไปหามาก ทำให้การปรับปรุงงานโครงการบางอย่างล้มเหลว</span><span class="sxs-lookup"><span data-stu-id="d0f17-122">When you expand the project calendar, the working days aren't sorted in ascending order causing some project task updates to fail.</span></span>
+- <span data-ttu-id="d0f17-123">การเปลี่ยนผู้จัดการโครงการในโครงการที่มีอยู่จะทริกเกอร์ตรรกะการกำหนดค่าเริ่มต้นของหน่วยขององค์กร</span><span class="sxs-lookup"><span data-stu-id="d0f17-123">Changing the Project Manager on an existing project triggers the organizational unit defaulting logic.</span></span>
 
-<span data-ttu-id="a0f1e-124">**การขาย**</span><span class="sxs-lookup"><span data-stu-id="a0f1e-124">**Sales**</span></span>
+<span data-ttu-id="d0f17-124">**การขาย**</span><span class="sxs-lookup"><span data-stu-id="d0f17-124">**Sales**</span></span>
 
-<span data-ttu-id="a0f1e-125">ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:</span><span class="sxs-lookup"><span data-stu-id="a0f1e-125">The following issues have been fixed:</span></span>
+<span data-ttu-id="d0f17-125">ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:</span><span class="sxs-lookup"><span data-stu-id="d0f17-125">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="a0f1e-126">แท็บ **การปฏิบัติงานตามสัญญา** บนเพจ **สัญญา** ล้มเหลวโดยไม่แจ้งระหว่างการเริ่มการทำงานเมื่อไม่มีรายละเอียดการให้บริการตามสัญญาอยู่</span><span class="sxs-lookup"><span data-stu-id="a0f1e-126">The **Contract Performance** tab on the **Contract** page fails silently during initialization when no contract lines are present.</span></span>
+- <span data-ttu-id="d0f17-126">แท็บ **การปฏิบัติงานตามสัญญา** บนเพจ **สัญญา** ล้มเหลวโดยไม่แจ้งระหว่างการเริ่มการทำงานเมื่อไม่มีรายละเอียดการให้บริการตามสัญญาอยู่</span><span class="sxs-lookup"><span data-stu-id="d0f17-126">The **Contract Performance** tab on the **Contract** page fails silently during initialization when no contract lines are present.</span></span>

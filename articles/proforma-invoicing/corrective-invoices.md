@@ -1,41 +1,264 @@
 ---
-title: ใบแจ้งหนี้ที่แก้ไข
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับใบแจ้งหนี้ที่แก้ไข
+title: ใบแจ้งหนี้ตามโครงการที่แก้ไข
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีสร้างและยืนยันใบแจ้งหนี้ตามโครงการที่มีการแก้ไขใน Project Operations
 author: rumant
-manager: AnnBe
-ms.date: 09/18/2020
+manager: Annbe
+ms.date: 03/29/2021
 ms.topic: article
-ms.prod: ''
 ms.service: project-operations
-audience: Application User
 ms.reviewer: kfend
-ms.search.scope: ''
-ms.custom: ''
-ms.assetid: ''
-ms.search.region: Global
-ms.search.industry: Service industries
-ms.author: suvaidya
-ms.dyn365.ops.version: ''
-ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 734dc01e15339a31ac21f92bb3fb20d634a075ad
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.author: rumant
+ms.openlocfilehash: fc96bb40f5207efc381986d46a3e37dfc1dc111c
+ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287846"
+ms.lasthandoff: 04/07/2021
+ms.locfileid: "5867064"
 ---
-# <a name="corrected-invoices"></a><span data-ttu-id="f92ba-103">ใบแจ้งหนี้ที่แก้ไข</span><span class="sxs-lookup"><span data-stu-id="f92ba-103">Corrected invoices</span></span>
+# <a name="corrective-project-based-invoices"></a><span data-ttu-id="0efaa-103">ใบแจ้งหนี้ตามโครงการที่แก้ไข</span><span class="sxs-lookup"><span data-stu-id="0efaa-103">Corrective project-based invoices</span></span>
 
-<span data-ttu-id="f92ba-104">_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_</span><span class="sxs-lookup"><span data-stu-id="f92ba-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
+<span data-ttu-id="0efaa-104">_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_</span><span class="sxs-lookup"><span data-stu-id="0efaa-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios_</span></span>
 
-<span data-ttu-id="f92ba-105">ใบแจ้งหนี้ที่ยืนยันแล้วสามารถแก้ไขได้</span><span class="sxs-lookup"><span data-stu-id="f92ba-105">Confirmed invoices can be edited.</span></span> <span data-ttu-id="f92ba-106">เมื่อคุณแก้ไขใบแจ้งหนี้ที่ยืนยันแล้ว จะมีการสร้างใบแจ้งหนี้ที่แก้ไขฉบับร่าง</span><span class="sxs-lookup"><span data-stu-id="f92ba-106">When you edit a confirmed invoice, a draft of the corrected invoice is created.</span></span> <span data-ttu-id="f92ba-107">เนื่องจากสมมติฐานคือคุณต้องการย้อนกลับธุรกรรมและปริมาณทั้งหมดจากใบแจ้งหนี้ต้นฉบับ ใบแจ้งหนี้ที่แก้ไขนี้รวมธุรกรรมทั้งหมดจากใบแจ้งหนี้ต้นฉบับ และปริมาณทั้งหมดบนใบแจ้งหนี้เป็นศูนย์ (0)</span><span class="sxs-lookup"><span data-stu-id="f92ba-107">Because the assumption is that you want to reverse all the transactions and quantities from the original invoice, the corrected invoice includes all the transactions from the original invoice, and all the quantities on it are zero (0).</span></span>
+<span data-ttu-id="0efaa-105">ใบแจ้งหนี้โครงการที่ได้รับการยืนยันสามารถแก้ไขเพื่อประมวลผลการเปลี่ยนแปลงหรือเครดิตตามที่เจรจากับลูกค้าและผู้จัดการโครงการ</span><span class="sxs-lookup"><span data-stu-id="0efaa-105">A confirmed project invoice can be corrected to process changes or credits as negotiated with the customer and project manager.</span></span>
 
-<span data-ttu-id="f92ba-108">เมื่อธุรกรรมใดๆ ไม่จำเป็นต้องแก้ไข คุณสามารถลบออกจากใบแจ้งหนี้ที่แก้ไขฉบับร่างได้</span><span class="sxs-lookup"><span data-stu-id="f92ba-108">When transactions don't require correction, you can remove them from the draft corrective invoice.</span></span> <span data-ttu-id="f92ba-109">หากต้องการย้อนกลับหรือส่งคืนเฉพาะปริมาณบางส่วน คุณสามารถแก้ไขฟิลด์ ปริมาณ บนรายละเอียดรายการได้</span><span class="sxs-lookup"><span data-stu-id="f92ba-109">To reverse or return only a partial quantity, you can edit the Quantity field on the line detail.</span></span> <span data-ttu-id="f92ba-110">ถ้าคุณเปิดรายละเอียดรายการใบแจ้งหนี้ คุณสามารถดูปริมาณต้นฉบับใบแจ้งหนี้ได้</span><span class="sxs-lookup"><span data-stu-id="f92ba-110">If you open the invoice line detail, you can see the original invoice quantity.</span></span> <span data-ttu-id="f92ba-111">จากนั้นคุณสามารถแก้ไขปริมาณในใบแจ้งหนี้ปัจจุบันได้ เพื่อให้น้อยกว่าหรือมากกว่าปริมาณในใบแจ้งหนี้ต้นฉบับ</span><span class="sxs-lookup"><span data-stu-id="f92ba-111">You can then edit the current invoice quantity so that it's less than or more than the original invoice quantity.</span></span>
+<span data-ttu-id="0efaa-106">หากต้องการแก้ไขใบแจ้งหนี้ที่ได้รับการยืนยัน ให้เปิดใบแจ้งหนี้ที่ยืนยันแล้วเลือก **แก้ไขใบแจ้งหนี้นี้**</span><span class="sxs-lookup"><span data-stu-id="0efaa-106">To make edits to a confirmed invoice, open the confirmed invoice and select **Correct this Invoice**.</span></span> 
 
-<span data-ttu-id="f92ba-112">เมื่อคุณยืนยันใบแจ้งหนี้ที่มีการแก้ไข การขายที่เรียกเก็บเงินจริงต้นฉบับจะย้อนกลับ และการขายที่เรียกเก็บเงินจริงใหม่จะถูกสร้างขึ้น</span><span class="sxs-lookup"><span data-stu-id="f92ba-112">When you confirm a corrective invoice, the original billed sales actual is reversed, and a new billed sales actual is created.</span></span> <span data-ttu-id="f92ba-113">ถ้าปริมาณถูกลดลง ความแตกต่างจะทำใหการขายจริงที่ยังไม่ได้เรียกเก็บเงินใหม่ที่ถูกสร้างด้วย</span><span class="sxs-lookup"><span data-stu-id="f92ba-113">If the quantity was reduced, the difference will cause a new unbilled sales actual to be created too.</span></span> <span data-ttu-id="f92ba-114">ตัวอย่างเช่น ถ้าการขายที่เรียกเก็บเงินต้นฉบับเป็นเวลา 8 ชั่วโมง และรายละเอียดรายการใบแจ้งหนี้ที่แก้ไขมีปริมาณที่ลดลง 6 ชั่วโมง จะมีการย้อนกลับรายการขายที่เรียกเก็บเงินต้นฉบับ และสร้างใหม่สองรายการจริง</span><span class="sxs-lookup"><span data-stu-id="f92ba-114">For example, if the original billed sale was for eight hours, and the corrected invoice line detail has a reduced quantity of six hours, the original billed sales line is revered and two new actuals are created:</span></span>
+> [!NOTE]
+> <span data-ttu-id="0efaa-107">ตัวเลือกนี้ไม่สามารถใช้ได้เว้นแต่ใบแจ้งหนี้โครงการจะได้รับการยืนยันหรือใบแจ้งหนี้ตามโครงการมีการเบิกเงินล่วงหน้าหรือค่าธรรมเนียมล่วงหน้าหรือการกระทบยอดของการเบิกเงินล่วงหน้าหรือค่าธรรมเนียมล่วงหน้า</span><span class="sxs-lookup"><span data-stu-id="0efaa-107">This selection isn't available unless a project invoice is confirmed or the project-based invoice has advances or retainers or reconciliations of advances or retainers.</span></span>
 
-- <span data-ttu-id="f92ba-115">การขายที่มีการเรียกเก็บเงินจริงเป็นเวลาหกชั่วโมง</span><span class="sxs-lookup"><span data-stu-id="f92ba-115">A billed sales actual for six hours.</span></span>
-- <span data-ttu-id="f92ba-116">การขายจริงที่ยังไม่ได้เรียกเก็บเงินป็นเวลาสองชั่วโมงที่เหลือ</span><span class="sxs-lookup"><span data-stu-id="f92ba-116">An unbilled sales actual for the remaining two hours.</span></span> <span data-ttu-id="f92ba-117">คุณสามารถเรียกเก็บเงินธุรกรรมนี้ในภายหลัง หรือทำเครื่องหมายว่าไม่สามารถคิดค่าธรรมเนียมได้ โดยขึ้นอยู่กับการเจรจากับลูกค้า</span><span class="sxs-lookup"><span data-stu-id="f92ba-117">This transaction can either be billed later or marked as non-chargeable, depending on the negotiations with the customer.</span></span>
+<span data-ttu-id="0efaa-108">ร่างใบแจ้งหนี้ใหม่ถูกสร้างขึ้นจากใบแจ้งหนี้ที่ได้รับการยืนยัน</span><span class="sxs-lookup"><span data-stu-id="0efaa-108">A new draft invoice is created from the confirmed invoice.</span></span> <span data-ttu-id="0efaa-109">รายละเอียดรายการใบแจ้งหนี้ทั้งหมดจากใบแจ้งหนี้ที่ยืนยันก่อนหน้านี้จะถูกคัดลอกไปยังแบบร่างใหม่</span><span class="sxs-lookup"><span data-stu-id="0efaa-109">All invoice line details from the previously confirmed invoice are copied to the new draft.</span></span> <span data-ttu-id="0efaa-110">ต่อไปนี้เป็นประเด็นสำคัญบางประการที่ควรทำความเข้าใจเกี่ยวกับรายละเอียดรายการในใบแจ้งหนี้ที่แก้ไขใหม่:</span><span class="sxs-lookup"><span data-stu-id="0efaa-110">The following are some of the key points to understand about the line details on the new corrected invoice:</span></span>
+
+- <span data-ttu-id="0efaa-111">ปริมาณทั้งหมดจะถูกอัปเดตเป็นศูนย์</span><span class="sxs-lookup"><span data-stu-id="0efaa-111">All quantities are updated to zero.</span></span> <span data-ttu-id="0efaa-112">Dynamics 365 Project Operations จะถือว่าสินค้าในใบแจ้งหนี้ทั้งหมดได้รับเครดิตเต็มจำนวน</span><span class="sxs-lookup"><span data-stu-id="0efaa-112">Dynamics 365 Project Operations assumes that all invoiced items are fully credited.</span></span> <span data-ttu-id="0efaa-113">หากจำเป็นคุณสามารถอัปเดตปริมาณเหล่านี้ด้วยตนเองเพื่อให้สอดคล้องกับปริมาณที่จะถูกออกใบแจ้งหนี้ ไม่ใช่ปริมาณการให้สินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="0efaa-113">If needed, you can manually update these quantities to reflect the quantity that is being invoiced, and not the quantity that is being credited.</span></span> <span data-ttu-id="0efaa-114">ตามปริมาณที่คุณป้อน แอปพลิเคชันจะคำนวณปริมาณการให้สินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="0efaa-114">Based on the quantity you enter, the application calculates the credited quantity.</span></span> <span data-ttu-id="0efaa-115">จำนวนเงินนี้จะแสดงในข้อมูลจริงที่สร้างขึ้นเมื่อมีการยืนยันใบแจ้งหนี้ที่แก้ไขแล้ว</span><span class="sxs-lookup"><span data-stu-id="0efaa-115">This amount is reflected in the actuals that are created when the corrected invoice is confirmed.</span></span> <span data-ttu-id="0efaa-116">หากคุณกำลังทำการเปลี่ยนแปลงจำนวนภาษี คุณต้องป้อนจำนวนภาษีที่ถูกต้อง ไม่ใช่จำนวนเงินภาษีที่มีการให้สินเชื่อ</span><span class="sxs-lookup"><span data-stu-id="0efaa-116">If you are making changes to the tax amount, you must enter the correct tax amount and not the tax amount that is being credited.</span></span>
+- <span data-ttu-id="0efaa-117">การแก้ไขหลักเป้าหมายจะถูกประมวลผลเป็นการให้สินเชื่อเต็มรูปแบบเสมอ</span><span class="sxs-lookup"><span data-stu-id="0efaa-117">Milestone corrections are always processed as full credits.</span></span>
+
+
+> [!IMPORTANT]
+> <span data-ttu-id="0efaa-118">สำหรับรายละเอียดรายการใบแจ้งหนี้ที่แก้ไขการเรียกเก็บเงินอื่นๆ ที่ออกใบแจ้งหนี้แล้ว มีการตั้งค่าฟิลด์ **การแก้ไข** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="0efaa-118">For invoice line details that are corrections to other already invoiced charges, the **Correction** field is set to **Yes**.</span></span> <span data-ttu-id="0efaa-119">สำหรับใบแจ้งหนี้ที่มีการแก้ไขรายละเอียดรายการใบแจ้งหนี้ มีการตั้งค่าฟิลด์ **มีการแก้ไข** เป็น **ใช่**</span><span class="sxs-lookup"><span data-stu-id="0efaa-119">For invoices that have corrected invoice line details, the **Has corrections** field is set to **Yes**.</span></span>
+
+## <a name="actuals-created-when-a-corrective-invoice-is-confirmed"></a><span data-ttu-id="0efaa-120">ข้อมูลจริงที่สร้างขึ้นเมื่อมีการยืนยันใบแจ้งหนี้ที่แก้ไข:</span><span class="sxs-lookup"><span data-stu-id="0efaa-120">Actuals created when a corrective invoice is confirmed</span></span>
+
+<span data-ttu-id="0efaa-121">ตารางต่อไปนี้แสดงรายการข้อมูลจริงที่สร้างขึ้นเมื่อมีการยืนยันใบแจ้งหนี้ที่แก้ไข</span><span class="sxs-lookup"><span data-stu-id="0efaa-121">The following table lists the actuals that are created when a corrective invoice is confirmed.</span></span>
+
+<table border="0" cellspacing="0" cellpadding="0">
+    <tbody>
+        <tr>
+            <td width="216" valign="top">
+                <p><span data-ttu-id="0efaa-122">
+                    <strong>สถานการณ์สมมติ</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="0efaa-122">
+                    <strong>Scenario</strong>
+                </span></span></p>
+            </td>
+            <td width="808" valign="top">
+                <p><span data-ttu-id="0efaa-123">
+                    <strong>สิ่งที่เกิดขึ้นจริงสร้างขึ้นจากการยืนยัน</strong>
+                </span><span class="sxs-lookup"><span data-stu-id="0efaa-123">
+                    <strong>Actuals created on confirmation</strong>
+                </span></span></p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="0efaa-124">การออกใบแจ้งหนี้การให้สินเชื่อเต็มรูปแบบของธุรกรรมเวลาที่ออกใบแจ้งหนี้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-124">Invoicing the full credit of a previously invoiced time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-125">การกลับรายการขายที่เรียกเก็บเงินสำหรับชั่วโมงและจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับเวลา</span><span class="sxs-lookup"><span data-stu-id="0efaa-125">A billed sales reversal for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-126">การขายจริงที่เรียกเก็บเงินแล้วสำหรับชั่วโมงและจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับเวลา</span><span class="sxs-lookup"><span data-stu-id="0efaa-126">A new unbilled sales actual for the hours and amount on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="0efaa-127">การออกใบแจ้งหนี้การให้สินเชื่อบางส่วนในธุรกรรมเวลา</span><span class="sxs-lookup"><span data-stu-id="0efaa-127">Invoicing the partial credit on a time transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-128">การกลับรายการขายที่เรียกเก็บเงินสำหรับชั่วโมงและจำนวนเงินที่ออกใบแจ้งหนี้ในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับเวลา</span><span class="sxs-lookup"><span data-stu-id="0efaa-128">A billed sales reversal for the hours and amount invoiced on the original invoice line detail for time.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-129">การขายจริงที่ยังไม่เรียกเก็บเงินใหม่ซึ่งคิดค่าธรรมเนียมเป็นชั่วโมงและจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้ที่แก้ไข การกลับรายการนี้ และการขายจริงที่เรียกเก็บเงินแล้วเทียบเท่า</span><span class="sxs-lookup"><span data-stu-id="0efaa-129">A new unbilled sales actual that is chargeable for the hours and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-130">การขายจริงที่ยังไม่เรียกเก็บเงินใหม่ซึ่งคิดค่าธรรมเนียมสำหรับชั่วโมงและจำนวนที่เหลือหลังจากหักตัวเลขที่แก้ไขแล้วในรายละเอียดรายการใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-130">A new unbilled sales actual that is chargeable for the remaining hours and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="0efaa-131">การออกใบแจ้งหนี้การให้สินเชื่อเต็มรูปแบบของธุรกรรมค่าใช้จ่ายที่ออกใบแจ้งหนี้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-131">Invoicing the full credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-132">การกลับรายการขายที่เรียกเก็บเงินสำหรับปริมาณและจำนวนเงินที่ออกใบแจ้งหนี้ในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="0efaa-132">A billed sales reversal for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-133">การขายจริงใหม่ที่เรียกเก็บเงินสำหรับปริมาณและจำนวนเงินที่ออกใบแจ้งหนี้ในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="0efaa-133">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="0efaa-134">การออกใบแจ้งหนี้การให้สินเชื่อบางส่วนของธุรกรรมค่าใช้จ่ายที่ออกใบแจ้งหนี้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-134">Invoicing the partial credit of a previously invoiced expense transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-135">การกลับรายการขายที่เรียกเก็บเงินสำหรับปริมาณและจำนวนเงินที่ออกใบแจ้งหนี้ในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="0efaa-135">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for an expense.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-136">การขายจริงที่ยังไม่เรียกเก็บเงินใหม่ซึ่งคิดค่าธรรมเนียมเป็นปริมาณและจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้ที่แก้ไข การกลับรายการนี้ และการขายจริงที่เรียกเก็บเงินแล้วเทียบเท่า</span><span class="sxs-lookup"><span data-stu-id="0efaa-136">A new unbilled sales actual that is chargeable for the quantity and amount on the corrected invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-137">การขายจริงที่ยังไม่เรียกเก็บเงินใหม่ซึ่งคิดค่าธรรมเนียมสำหรับปริมาณและจำนวนที่เหลือหลังจากหักตัวเลขที่แก้ไขแล้วในรายละเอียดรายการใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-137">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+                <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="0efaa-138">การออกใบแจ้งหนี้เครดิตเต็มจำนวนของธุรกรรมวัสดุที่ออกใบแจ้งหนี้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-138">Invoicing the full credit of a previously invoiced material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-139">การกลับรายการยอดขายที่เรียกเก็บเงินสำหรับปริมาณและจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับวัสดุ</span><span class="sxs-lookup"><span data-stu-id="0efaa-139">A billed sales reversal for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-140">การขายจริงที่ยังไม่เรียกเก็บเงินใหม่สำหรับปริมาณและจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับวัสดุ</span><span class="sxs-lookup"><span data-stu-id="0efaa-140">A new unbilled sales actual for the quantity and amount on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="3" valign="top">
+                <p>
+<span data-ttu-id="0efaa-141">การออกใบแจ้งหนี้เครดิตบางส่วนสำหรับธุรกรรมวัสดุ</span><span class="sxs-lookup"><span data-stu-id="0efaa-141">Invoicing the partial credit on a material transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-142">การกลับรายการยอดขายที่เรียกเก็บเงินสำหรับปริมาณและจำนวนเงินที่ออกใบแจ้งหนี้ในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับวัสดุ</span><span class="sxs-lookup"><span data-stu-id="0efaa-142">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for material.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-143">การขายจริงที่ยังไม่เรียกเก็บเงินใหม่ซึ่งคิดค่าธรรมเนียมได้สำหรับปริมาณและจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้ที่แก้ไข การกลับรายการนี้และการขายจริงที่เรียกเก็บเงินแล้วเทียบเท่า</span><span class="sxs-lookup"><span data-stu-id="0efaa-143">A new unbilled sales actual that is chargeable for the quantity and amount on the edited invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-144">การขายจริงที่ยังไม่เรียกเก็บเงินใหม่ซึ่งคิดค่าธรรมเนียมสำหรับปริมาณและจำนวนที่เหลือหลังจากหักตัวเลขที่แก้ไขแล้วในรายละเอียดรายการใบแจ้งหนี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-144">A new unbilled sales actual that is chargeable for the remaining quantity and amount after deducting the corrected figures on the invoice line detail.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="0efaa-145">การออกใบแจ้งหนี้การให้สินเชื่อเต็มรูปแบบของธุรกรรมค่าธรรมเนียมที่ออกใบแจ้งหนี้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-145">Invoicing the full credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-146">การกลับรายการขายที่เรียกเก็บเงินสำหรับปริมาณและจำนวนเงินที่ออกใบแจ้งหนี้ในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="0efaa-146">A billed sales reversal for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-147">การขายจริงใหม่ที่เรียกเก็บเงินสำหรับปริมาณและจำนวนเงินที่ออกใบแจ้งหนี้ในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="0efaa-147">A new unbilled sales actual for the quantity and amount on the original invoice line detail for the fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" rowspan="2" valign="top">
+                <p>
+<span data-ttu-id="0efaa-148">การออกใบแจ้งหนี้การให้สินเชื่อบางส่วนของธุรกรรมค่าธรรมเนียมที่ออกใบแจ้งหนี้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-148">Invoicing the partial credit of a previously invoiced fee transaction.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-149">การกลับรายการขายที่เรียกเก็บเงินสำหรับปริมาณและจำนวนเงินที่ออกใบแจ้งหนี้ในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับค่าธรรมเนียม</span><span class="sxs-lookup"><span data-stu-id="0efaa-149">A billed sales reversal for the quantity and amount invoiced on the original invoice line detail for fee.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-150">การขายจริงที่ยังไม่เรียกเก็บเงินใหม่ซึ่งคิดค่าธรรมเนียมเป็นปริมาณและจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้การแก้ไขที่แก้ไข การกลับรายการนี้ และการขายจริงที่เรียกเก็บเงินแล้วเทียบเท่า</span><span class="sxs-lookup"><span data-stu-id="0efaa-150">A new unbilled sales actual that is chargeable for the quantity and amount on the edited corrective invoice line detail, a reversal of this, and an equivalent billed sales actual.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="0efaa-151">การออกใบแจ้งหนี้การให้สินเชื่อเต็มรูปแบบของเหตุการณ์สําคัญที่ออกใบแจ้งหนี้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-151">Invoicing the full credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-152">การกลับรายการขายที่เรียกเก็บเงินสำหรับจำนวนเงินในรายละเอียดรายการใบแจ้งหนี้เดิมสำหรับเหตุการณ์สําคัญ</span><span class="sxs-lookup"><span data-stu-id="0efaa-152">A billed sales reversal for the amount on the original invoice line detail for the milestone.</span></span>
+                </p>
+                <p>
+<span data-ttu-id="0efaa-153">สถานะใบแจ้งหนี้ของหลักเป้าหมายได้รับการปรับปรุงจาก <b>ใบแจ้งหนี้ของลูกค้าที่ลงรายการบัญชีแล้ว</b> เป็น <b>พร้อมที่จะออกใบแจ้งหนี้</b></span><span class="sxs-lookup"><span data-stu-id="0efaa-153">The invoice status of the milestone is updated from <b>Customer Invoice Posted</b> to <b>Ready to Invoice</b>.</span></span>
+                </p>
+            </td>
+        </tr>
+        <tr>
+            <td width="216" valign="top">
+                <p>
+<span data-ttu-id="0efaa-154">การออกใบแจ้งหนี้การให้สินเชื่อบางส่วนของเหตุการณ์สําคัญที่ออกใบแจ้งหนี้ก่อนหน้านี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-154">Invoicing the partial credit of a previously invoiced milestone.</span></span>
+                </p>
+            </td>
+            <td width="408" valign="top">
+                <p>
+<span data-ttu-id="0efaa-155">ไม่สนับสนุนสถานการณ์นี้</span><span class="sxs-lookup"><span data-stu-id="0efaa-155">This scenario isn't supported.</span></span>
+                </p>
+            </td>
+        </tr>       
+    </tbody>
+</table>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
