@@ -1,0 +1,51 @@
+---
+title: ประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงประสิทธิภาพของข้อเสนอใบแจ้งหนี้โครงการ
+author: Yowelle
+manager: AnnBe
+ms.date: 03/05/2021
+ms.topic: article
+ms.prod: ''
+ms.service: dynamics-ax-applications
+ms.technology: ''
+ms.search.form: ''
+audience: Application User, IT Pro
+ms.reviewer: kfend
+ms.search.scope: Core, Operations
+ms.custom: 23561
+ms.assetid: bfd18d9b-d9a6-4e21-bc95-bf4af45f617f
+ms.search.region: Global
+ms.author: andchoi
+ms.search.validFrom: 20121-03-05
+ms.dyn365.ops.version: 10.0.18
+ms.openlocfilehash: 78c924cba8107471a5f8e6d6a38265890d32d72b
+ms.sourcegitcommit: 2350c6f3728067a8298adde640e6fdd5984eb077
+ms.translationtype: HT
+ms.contentlocale: th-TH
+ms.lasthandoff: 03/10/2021
+ms.locfileid: "5573582"
+---
+# <a name="project-invoice-proposal-performance"></a>ประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
+
+[!include [banner](../includes/banner.md)]
+
+[!include [banner](../includes/preview-banner.md)]
+
+เมื่อคุณสร้างข้อเสนอใบแจ้งหนี้ใหม่ คุณอาจพบปัญหาด้านประสิทธิภาพเนื่องจากจำนวนของโครงการและโครงการย่อยเพิ่มขึ้น เพื่อปรับปรุงประสิทธิภาพ คุณลักษณะนี้จะสามารถใช้งานเพื่อช่วยลดเวลาที่ต้องใช้ในการสร้างข้อเสนอใบแจ้งหนี้ใหม่สำหรับธุรกรรมโครงการที่ลงรายการบัญชี
+
+## <a name="enable-project-invoice-proposal-performance-enhancement"></a>เปิดใช้งานการปรับปรุงประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
+หากต้องการเปิดใช้งานคุณลักษณะการปรับปรุงประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ ให้ทำตามขั้นตอนต่อไปนี้
+
+1.  ไปที่ **การจัดการคุณลักษณะ** > **ทั้งหมด** ในรายการคุณลักษณะ ให้ค้นหา **การปรับปรุงประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ**
+2.  เลือก **เปิดใช้งานตอนนี้**
+3.  รีเฟรชเบราว์เซอร์ของคุณแล้วสร้างข้อเสนอใบแจ้งหนี้ใหม่
+
+## <a name="turn-off-project-invoice-proposal-performance-enhancement"></a>ปิดการปรับปรุงประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
+ทำตามขั้นตอนต่อไปนี้เพื่อปิดการปรับปรุงประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
+
+1.  ไปที่ **การจัดการคุณลักษณะ** > **ทั้งหมด** ในรายการคุณลักษณะ ให้ค้นหา **การปรับปรุงประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ**
+2.  เลือก **ปิดใช้งาน**
+3.  รีเฟรชเบราว์เซอร์ของคุณ
+
+> [!NOTE]
+> ไม่สามารถใช้ประสิทธิภาพข้อเสนอใบแจ้งหนี้ได้เมื่อเปิดใช้งานกฎการเรียกเก็บเงินหรือกระบวนการชุดงานกำลังทำงานอยู่
