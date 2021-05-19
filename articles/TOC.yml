@@ -34,6 +34,22 @@
               href: environment/security-model.md
             - name: กำหนดค่าการรวม Project Operations ตามนิติบุคคล
               href: environment/resource-configure-integration-per-legal-entity.md
+        - name: กำหนดค่าการรวมแบบสองทิศทาง
+          items:
+            - name: ภาพรวมของการรวมแบบสองทิศทาง
+              href: environment/resource-dual-write-overview.md
+            - name: รุ่นการแมปการรวมแบบสองทิศทางของ Project Operations
+              href: environment/resource-dual-write-maps.md
+            - name: การตั้งค่าและการรวมข้อมูลการกำหนดค่าของ Project Operations
+              href: environment/resource-dual-write-setup-integration.md
+            - name: การข้อมูลโดยประมาณและข้อมูลจริงของโครงการ
+              href: environment/resource-dual-write-estimates-actuals.md
+            - name: การรวมใบแจ้งหนี้ของโครงการ
+              href: environment/resource-dual-write-project-invoice.md
+            - name: การรวมการจัดการค่าใช้จ่าย
+              href: environment/resource-dual-write-expense.md
+            - name: การรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
+              href: environment/resource-dual-write-vendor-invoice.md
     - name: มีอะไรใหม่
       items:
         - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -216,6 +232,8 @@
           href: project-management/understand-project-status.md
         - name: กำหนดปฏิทินโครงการ
           href: project-management/define-project-calendars.md
+        - name: โหมดการจัดตารางเวลา
+          href: project-management/scheduling-modes.md
         - name: อัปเดตโครงการ
           href: project-management/update-project.md
         - name: คัดลอกโครงการ
@@ -404,6 +422,12 @@
           items:
             - name: สร้างและยืนยันสมุดรายวันการแก้ไข
               href: actuals/create-confirm-correction-journals.md
+    - name: การจัดซื้อ
+      items:
+        - name: กำหนดค่าวัสดุที่ไม่มีในสต็อกและใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
+          href: procurement/configure-materials-nonstocked.md
+        - name: จัดหาวัสดุที่ไม่มีในสต็อกสำหรับโครงการโดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
+          href: procurement/pending-vendor-invoices.md
     - name: การออกใบแจ้งหนี้
       items:
         - name: ภาพรวมของการประมวลผลใบแจ้งหนี้
@@ -428,6 +452,8 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้ตามโครงการ
               href: proforma-invoicing/configure-automated-invoice-creation.md
+        - name: จัดการข้อเสนอใบแจ้งหนี้โครงการชั่วคราว
+          href: invoicing/format-update-project-invoice-proposals.md
     - name: การบัญชีของโครงการ
       items:
         - name: ค่าเริ่มต้นของมิติทางการเงิน
@@ -682,6 +708,8 @@
           href: project-management/understand-project-status.md
         - name: กำหนดปฏิทินโครงการ
           href: project-management/define-project-calendars.md
+        - name: โหมดการจัดตารางเวลา
+          hreF: project-management/scheduling-modes.md
         - name: อัปเดตโครงการ
           href: project-management/update-project.md
         - name: คัดลอกโครงการ
@@ -848,6 +876,8 @@
   items:
     - name: มีอะไรใหม่
       items:
+        - name: มีอะไรใหม่ในเดือนเมษายน 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนมีนาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
           href: prod-pma/whats-new/whats-new-mar-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนมกราคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
@@ -871,9 +901,9 @@
     - name: ตั้งค่าและใช้การชำระเงินของผู้จัดจำหน่ายแบบจ่ายเมื่อได้รับชำระเงิน
       href: prod-pma/setup-manage-vendor-payments.md
     - name: ต้นทุนโครงการคงค้างในใบเสร็จรับเงินการซื้อ
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts'
+      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
     - name: การออกใบแจ้งหนี้โครงการ
-      href: 'https://docs.microsoft.com/dynamics365/finance/accounts-payable/project-invoicing'
+      href: /dynamics365/finance/accounts-payable/project-invoicing
     - name: ประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
       href: prod-pma/project-invoice-proposal-performance.md
     - name: สัญญาโครงการ
@@ -998,6 +1028,8 @@
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 31, V3'
+          href: psa/whats-new-ur-31.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 30, V3'
           href: psa/whats-new-ur-30.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 29.5 โปรแกรมแก้ไขด่วน, V3'
@@ -1327,7 +1359,7 @@
             - name: ดูการใช้ประโยชน์ของทรัพยากร
               href: psa/view-resource-utilization.md
             - name: Universal Resource Scheduling (URS)
-              href: 'https://docs.microsoft.com/dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling'
+              href: /dynamics365/common-scheduler/schedule-anything-with-universal-resource-scheduling
         - name: คู่มือผู้จัดการโครงการ
           items:
             - name: คู่มือผู้จัดการโครงการ (Project Service)
