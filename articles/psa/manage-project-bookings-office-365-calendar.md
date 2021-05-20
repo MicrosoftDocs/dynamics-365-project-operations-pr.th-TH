@@ -17,12 +17,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1df4864ca8dbf6948ca88a7c82a6c0a676e3bd53
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f9ebfadf8a331fd6a8a86a9cc040dc8957db3b82
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5275066"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950332"
 ---
 # <a name="manage-projects-and-bookings-in-your-calendar-project-service"></a>จัดการโครงการและการจองในปฏิทิน (Project Service) ของคุณ
 
@@ -52,7 +52,7 @@ ms.locfileid: "5275066"
   
 - คุณจะต้องมีผู้ดูแลระบบส่วนกลางของ [!INCLUDE[pn_office_365](../includes/pn-office-365.md)] หรือข้อมูลประจำตัวของผู้ดูแลระบบ  
   
-- ผู้ดูแลระบบของคุณจำเป็นต้องกำหนดค่าโปรไฟล์เซิร์ฟเวอร์อีเมล และผู้ใช้แต่ละรายจะต้องกำหนดค่ากล่องจดหมายของพวกเขา [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ตั้งค่าการประมวลผลอีเมลผ่านการทำข้อมูลให้ตรงกันทางฝั่งเซิร์ฟเวอร์](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
+- ผู้ดูแลระบบของคุณจำเป็นต้องกำหนดค่าโปรไฟล์เซิร์ฟเวอร์อีเมล และผู้ใช้แต่ละรายจะต้องกำหนดค่ากล่องจดหมายของพวกเขา [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ตั้งค่าการประมวลผลอีเมลผ่านการทำข้อมูลให้ตรงกันทางฝั่งเซิร์ฟเวอร์](/dynamics365/customerengagement/on-premises/admin/set-up-server-side-synchronization-of-email-appointments-contacts-and-tasks)  
   
 ## <a name="turn-on-synchronization-for-your-organization-admin-task"></a>เปิดใช้งานการทำข้อมูลให้ตรงกันสำหรับองค์กรของคุณ (งานผู้ดูแลระบบ)  
   

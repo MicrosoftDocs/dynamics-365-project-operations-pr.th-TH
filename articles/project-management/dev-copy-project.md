@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: 27847575e2d6ec9af77d24f756b13d3aeb0efea7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: cc17df0c73b276048f7c4b04bd9dc6644e828dc0
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286946"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949837"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>พัฒนาแม่แบบโครงการด้วย คัดลอกโครงการ
 
@@ -44,7 +44,7 @@ Dynamics 365 Project Operations สนับสนุนความสามา
 - **{"clearTeamsAndAssignments":true}**: เป็นลักษณะการทำงานเริ่มต้นสำหรับโครงการสำหรับเว็บและจะลบการมอบหมายงานและสมาชิกในทีมทั้งหมด
 - **{"removeNamedResources":true}** ลักษณะการทำงานเริ่มต้นสำหรับ Project Operations และจะเปลี่ยนการมอบหมายกลับเป็นทรัพยากรทั่วไป
 
-สำหรับค่าเริ่มต้นบนการดำเนินการ ดูที่ [ใช้การดำเนินการ API เว็บ](https://docs.microsoft.com/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+สำหรับค่าเริ่มต้นบนการดำเนินการ ดูที่ [ใช้การดำเนินการ API เว็บ](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
 
 ## <a name="specify-fields-to-copy"></a>ระบุช่องที่จะคัดลอก 
 เมื่อมีการเรียกการดำเนินการ **คัดลอกโครงการ** จะดูมุมมองโครงการ **คัดลอกคอลัมน์โครงการ** เพื่อกำหนดฟิลด์ที่จะคัดลอกเมื่อโครงการถูกคัดลอก

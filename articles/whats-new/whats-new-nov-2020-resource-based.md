@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f8e9bce6612e617785264470b7946ffc4795a621
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: fa6530a0eefb1ae6a84a662c6131182d97d49aeb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291867"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950962"
 ---
 # <a name="whats-new-november-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่เดือนพฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
 
@@ -67,7 +67,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | การบัญชีของโครงการ  | [510041](https://fix.lcs.dynamics.com/Issue/Details/?bugId=510041)           | การเปิดใช้งานคุณลักษณะนี้ ไม่สามารถทำสัญญาหลายรายการได้หากไม่มีการรวม CDS                                                                                   |
 
 ### <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

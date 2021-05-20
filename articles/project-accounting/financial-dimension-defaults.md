@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: eec85b83cad4cd8fb6e0ec9c026c6a571bccf7f2
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 0a76447bb1a81a7157fccc0cd58eddd1eb5995de
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287396"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950152"
 ---
 # <a name="financial-dimension-defaults"></a>ค่าเริ่มต้นของมิติทางการเงิน
 
@@ -21,7 +21,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-Dynamics 365 Project Operations ใช้กรอบงาน [มิติทางการเงิน](https://docs.microsoft.com/dynamics365/finance/general-ledger/financial-dimensions) ใน Dynamics 365 Finance เพื่อให้ข้อมูลเชิงลึกเพิ่มเติมเกี่ยวกับการทำธุรกรรมบัญชีแยกประเภทย่อยและบัญชีแยกประเภททั่วไป
+Dynamics 365 Project Operations ใช้กรอบงาน [มิติทางการเงิน](/dynamics365/finance/general-ledger/financial-dimensions) ใน Dynamics 365 Finance เพื่อให้ข้อมูลเชิงลึกเพิ่มเติมเกี่ยวกับการทำธุรกรรมบัญชีแยกประเภทย่อยและบัญชีแยกประเภททั่วไป
 
 มิติทางการเงินเริ่มต้นสามารถตั้งค่าบนลูกค้า แหล่งเงินทุนของโครงการ หลักเป้าหมาย รายละเอียดการให้บริการตามสัญญาโครงการ หรือโครงการ
 

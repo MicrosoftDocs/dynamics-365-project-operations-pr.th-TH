@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: f5927a638fe8e454aecc9ce8dfc0871ed51d09f5
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: e7c252ba01a4665bd09423e9b2b250622a149beb
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291957"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951052"
 ---
 # <a name="whats-new-december-2020---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่เดือนธันวาคม 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
 
@@ -108,7 +108,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | การเดินทางและค่าใช้จ่าย                | [513845](https://fix.lcs.dynamics.com/Issue/Details/?bugId=513845)            | เวิร์กโฟลว์การลงรายการบัญชีรายงานค่าใช้จ่ายอัตโนมัติเสร็จสมบูรณ์ แต่ไม่มีการลงรายการบัญชีใบแจ้งหนี้                                                                                                                                                                                          |
 
 ### <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

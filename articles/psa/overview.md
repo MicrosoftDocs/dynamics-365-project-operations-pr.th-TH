@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 371cfc5bc04ac0fe780400247dc1c1762ade9e21
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a1aa7a5529ef23476523f2c00882da30bb3a3e97
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284201"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5949657"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation คืออะไร
 
@@ -47,10 +47,10 @@ ms.locfileid: "5284201"
 ## <a name="whats-new-in-psa"></a>มีอะไรใหม่ใน PSA
 กลุ่มคนรู้สึกตื่นเต้นที่จะประกาศการปรับปรุงใหม่ล่าสุดของเรา! ตั้งแต่การปรับปรุงไปจนถึงส่วนติดต่อผู้ใช้ การแก้ไขข้อบกพร่อง และการเพิ่มคุณลักษณะและความสามารถใหม่ที่สำคัญ คุณขอ; เรารับฟัง
 
-ลองดูที่ [บันทึกย่อประจำรุ่นของเดือนตุลาคม 2019](https://docs.microsoft.com/dynamics365-release-plan/2019wave2/index) เพื่อดูการปรับปรุงและส่วนเพิ่มเติมใหม่ล่าสุดของเรา
+ลองดูที่ [บันทึกย่อประจำรุ่นของเดือนตุลาคม 2019](/dynamics365-release-plan/2019wave2/index) เพื่อดูการปรับปรุงและส่วนเพิ่มเติมใหม่ล่าสุดของเรา
 
 ### <a name="in-development"></a>ในการพัฒนา
-เพื่อดูว่าพวกเราได้วางแผนอะไรไว้บ้างในอนาคตอันใกล้ ตรงไปที่ [Dynamics 365: แผนการปล่อย 2020 เวฟ 1](https://docs.microsoft.com/dynamics365-release-plan/2020wave1/index)
+เพื่อดูว่าพวกเราได้วางแผนอะไรไว้บ้างในอนาคตอันใกล้ ตรงไปที่ [Dynamics 365: แผนการปล่อย 2020 เวฟ 1](/dynamics365-release-plan/2020wave1/index)
 
 ## <a name="get-help-with-psa-version-3x"></a>ได้รับข้อมูลวิธีใช้รวมทั้งการใช้ร่วมกันกับ PSA รุ่น 3.x
 ค้นหาทรัพยากรที่จะช่วยในการวางแผนการนำไปใช้ของคุณ? ตรวจสอบคู่มือที่สามารถดาวน์โหลดเหล่านี้

@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 92c4cb3e1661f0415d49b84c9a59aba4bda38f20
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: d52caf0739ee55c25598318608f0c235107c85f3
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282311"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5951412"
 ---
 # <a name="sign-in-to-project-service-automation"></a>ลงชื่อเข้าใช้ Project Service Automation
 
@@ -39,7 +39,7 @@ ms.locfileid: "5282311"
   
 - ลืมรหัสผ่านของคุณ  
   
-  คุณอาจได้รับข้อมูลนี้ในอีเมลจากผู้ดูแลระบบของคุณ ถ้าคุณไม่มีข้อมูลทั้งหมดนี้ หรือถ้าคุณมีปัญหาในการลงชื่อเข้าใช้ [ค้นหาผู้ดูแลระบบหรือเจ้าหน้าที่ฝ่ายสนับสนุนของคุณ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/find-administrator-support)  
+  คุณอาจได้รับข้อมูลนี้ในอีเมลจากผู้ดูแลระบบของคุณ ถ้าคุณไม่มีข้อมูลทั้งหมดนี้ หรือถ้าคุณมีปัญหาในการลงชื่อเข้าใช้ [ค้นหาผู้ดูแลระบบหรือเจ้าหน้าที่ฝ่ายสนับสนุนของคุณ](/dynamics365/customerengagement/on-premises/basics/find-administrator-support)  
   
 ## <a name="set-your-personal-options-to-allow-email"></a>ตั้งค่าตัวเลือกส่วนบุคคลของคุณเพื่ออนุญาตอีเมล  
  คุณต้องตั้งค่าคอนฟิกการตั้งค่าอีเมลของคุณ เพื่ออนุญาตให้บุคคลอื่นสามารถส่งอีเมลในนามของคุณได้ ดังนั้น [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] สามารถส่งการแจ้งเตือนอีเมลให้กับคุณเมื่อคุณมีเวลาและค่าใช้จ่าย เพื่ออนุมัติ หรือลงทะเบียนสำหรับโครงการ  

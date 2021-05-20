@@ -9,12 +9,12 @@ ms.prod: ''
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 50e623d3716c9dd03ce34ec293ba57b5d966d39e
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 9ee9e4c31d1972e3a75ad214071b31527f0ca826
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5276911"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5950557"
 ---
 # <a name="provision-a-new-environment"></a>เตรียมใช้งานสภาพแวดล้อมใหม่
 
@@ -36,7 +36,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="provision-a-project-operations-environment"></a>เตรียมใช้งานสภาพแวดล้อม Project Operations
 
-1. เปิดการปรับใช้งาน Dynamics 365 Finance [สภาพแวดล้อมสาธิต](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) หรือ [sandbox/ สภาพแวดล้อมการทำงานจริง](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) 
+1. เปิดการปรับใช้งาน Dynamics 365 Finance [สภาพแวดล้อมสาธิต](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) หรือ [sandbox/ สภาพแวดล้อมการทำงานจริง](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) 
 2. ดำเนินการตามวิซาร์ด **การเตรียมใช้งานสภาพแวดล้อม** 
 
 > [!IMPORTANT]
