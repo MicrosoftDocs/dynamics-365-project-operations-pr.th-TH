@@ -1,9 +1,9 @@
 ---
 title: กำหนดปฏิทินโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการใช้ปฏิทินโครงการเพื่อติดตามกำหนดการของโครงการ
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีใช้เทมเพลตปฏิทินกับโครงการเพื่อติดตามกำหนดการของโครงการ
 author: ruhercul
 manager: AnnBe
-ms.date: 09/18/2020
+ms.date: 02/05/2021
 ms.topic: article
 ms.prod: ''
 ms.service: project-operations
@@ -17,38 +17,49 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e25b11b6b947627ca2ac88952e74aecccc346c89
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1d5642d7a2246dc878b2bc4f504f138b71d29a69
+ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286991"
+ms.lasthandoff: 05/04/2021
+ms.locfileid: "5981323"
 ---
-# <a name="define-project-calendars"></a><span data-ttu-id="55642-103">กำหนดปฏิทินโครงการ</span><span class="sxs-lookup"><span data-stu-id="55642-103">Define project calendars</span></span>
+# <a name="define-project-calendars"></a><span data-ttu-id="48b87-103">กำหนดปฏิทินโครงการ</span><span class="sxs-lookup"><span data-stu-id="48b87-103">Define project calendars</span></span>
 
-<span data-ttu-id="55642-104">_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_</span><span class="sxs-lookup"><span data-stu-id="55642-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+<span data-ttu-id="48b87-104">_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_</span><span class="sxs-lookup"><span data-stu-id="48b87-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="55642-105">เมื่อต้องการสร้างหมายกำหนดการให้บริการโครงการ สร้างแม่แบบปฏิทินโครงการที่กำหนดจำนวนของชั่วโมงการทำงานต่อวัน และระยะเวลาที่ปิดดำเนินการใดๆ</span><span class="sxs-lookup"><span data-stu-id="55642-105">To create a project schedule, you create a project calendar template that defines the number of working hours per day and any business closures.</span></span> <span data-ttu-id="55642-106">เมื่อต้องการสร้างแม่แบบปฏิทินโครงการ คุณเชื่อมโยงแม่แบบงานกับฟิลด์ **แม่แบบปฏิทิน** สำหรับโครงการ</span><span class="sxs-lookup"><span data-stu-id="55642-106">To create a project calendar template, you associate a work template with the **Calendar template** field for the project.</span></span> <span data-ttu-id="55642-107">ทำตามขั้นตอนเหล่านี้เพื่อสร้างแม่แบบงาน</span><span class="sxs-lookup"><span data-stu-id="55642-107">Follow these steps to create a work template.</span></span>
+<span data-ttu-id="48b87-105">ในการสร้างและจัดการโครงการ คุณต้องใช้เทมเพลตปฏิทินกับโครงการ</span><span class="sxs-lookup"><span data-stu-id="48b87-105">To create and manage a project, you must apply a calendar template to the project.</span></span> <span data-ttu-id="48b87-106">เทมเพลตปฏิทินกำหนดแอตทริบิวต์โครงการต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="48b87-106">The calendar template defines the following project attributes:</span></span>
 
-1. <span data-ttu-id="55642-108">ในบานหน้าต่างการนำทางด้านซ้าย เลือก **ทรัพยากร**</span><span class="sxs-lookup"><span data-stu-id="55642-108">In the left navigation pane, select **Resources**.</span></span> 
-2. <span data-ttu-id="55642-109">บนเพจรายการ **ทรัพยากร** ให้เปิดเรกคอร์ดผู้ใช้ แล้วเลือก **แสดงชั่วโมงทำงาน**</span><span class="sxs-lookup"><span data-stu-id="55642-109">On the **Resources** list page, open a user record, and then select **Show Work Hours**.</span></span>
+- <span data-ttu-id="48b87-107">เวลาทำงาน ซึ่งรวมถึงเวลาเริ่มต้นและเวลาสิ้นสุด</span><span class="sxs-lookup"><span data-stu-id="48b87-107">Working hours, including start and end time</span></span>
+- <span data-ttu-id="48b87-108">วันทำงาน</span><span class="sxs-lookup"><span data-stu-id="48b87-108">Working days</span></span>
+- <span data-ttu-id="48b87-109">ข้อยกเว้นของปฏิทิน เช่น วันที่ไม่ทำงาน</span><span class="sxs-lookup"><span data-stu-id="48b87-109">Calendar exceptions such as non-working days</span></span>
 
-  > [!NOTE]
-  > <span data-ttu-id="55642-110">ตรวจสอบให้แน่ใจว่าคุณอนุญาตป๊อปอัพในเพจเบราว์เซอร์</span><span class="sxs-lookup"><span data-stu-id="55642-110">Make sure that you allow pop-ups on the browser page.</span></span> <span data-ttu-id="55642-111">ซึ่งจะช่วยให้คุณเห็นชั่วโมงทำงานที่ตั้งค่าไว้สำหรับทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="55642-111">This lets you see the work hours set for the resource.</span></span>
-  
-3. <span data-ttu-id="55642-112">บนแท็บ **มุมมองรายเดือน** ให้เลือก **ตั้งค่า**</span><span class="sxs-lookup"><span data-stu-id="55642-112">On the **Monthly View** tab, select **Set Up**.</span></span> <span data-ttu-id="55642-113">รายการของสามตัวเลือกจะปรากฏขึ้น:</span><span class="sxs-lookup"><span data-stu-id="55642-113">A list of three options appears:</span></span> 
+<span data-ttu-id="48b87-110">เทมเพลตปฏิทินที่ใช้กับโครงการคือ สำเนาของเทมเพลตปฏิทินที่กำหนดไว้ในการตั้งค่าขององค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="48b87-110">The calendar template that's applied to a project is a copy of the calendar template defined in your organization’s settings.</span></span>
 
-  - <span data-ttu-id="55642-114">หมายกำหนดการให้บริการรายสัปดาห์ใหม่</span><span class="sxs-lookup"><span data-stu-id="55642-114">New Weekly Schedule</span></span>
-  - <span data-ttu-id="55642-115">กำหนดการทำงานสำหรับหนึ่งวัน</span><span class="sxs-lookup"><span data-stu-id="55642-115">Work Schedule for One Day</span></span>
-  - <span data-ttu-id="55642-116">Time Off</span><span class="sxs-lookup"><span data-stu-id="55642-116">Time Off</span></span>
+> [!NOTE]
+> <span data-ttu-id="48b87-111">หากคุณเปลี่ยนเทมเพลตปฏิทิน การเปลี่ยนแปลงเหล่านั้นจะไม่ส่งผลต่อชั่วโมงการทำงานของโครงการ</span><span class="sxs-lookup"><span data-stu-id="48b87-111">If you change the calendar template, those changes don't propagate to the working hours of the project.</span></span> <span data-ttu-id="48b87-112">ในการเปลี่ยนชั่วโมงการทำงานของโครงการ ต้องใช้เทมเพลตใหม่</span><span class="sxs-lookup"><span data-stu-id="48b87-112">To change the working hours of the project, a new template must be applied.</span></span>
 
-4. <span data-ttu-id="55642-117">เลือก **หมายกำหนดการให้บริการรายสัปดาห์ใหม่** และจากนั้นตั้งค่าตัวเลือกสำหรับหมายกำหนดการให้บริการทรัพยากรนี้</span><span class="sxs-lookup"><span data-stu-id="55642-117">Select **New Weekly Schedule**, and then set the options for this resource schedule.</span></span> <span data-ttu-id="55642-118">คุณสามารถตั้งค่าหมายกำหนดการให้บริการรายสัปดาห์ที่เป็นกิจวัตร พารามิเตอร์ชั่วโมงประจำวัน ระยะเวลาที่ปิดดำเนินการ และอื่นๆ</span><span class="sxs-lookup"><span data-stu-id="55642-118">You can set a recurring weekly schedule, daily hour parameters, business closures, and more.</span></span>
-5. <span data-ttu-id="55642-119">ตั้งค่าช่วงวันที่ เลือก **บันทึก** และจากนั้นเลือก **ปิด**</span><span class="sxs-lookup"><span data-stu-id="55642-119">Set the date range, select **Save**, and then select **Close**.</span></span> 
-6. <span data-ttu-id="55642-120">กลับไปที่หน้ารายการ **ทรัพยากร** และเลือกทรัพยากรที่คุณตั้งค่าชั่วโมงทำงานให้</span><span class="sxs-lookup"><span data-stu-id="55642-120">Go back to the **Resources** list page, and select the resource that you set the work hours for.</span></span> 
-7. <span data-ttu-id="55642-121">เลือก **ตั้งค่าปฏิทินเป็น** เพื่อตั้งค่าแม่แบบงาน</span><span class="sxs-lookup"><span data-stu-id="55642-121">Select **Set Calendar As** to set the work template.</span></span> 
-8. <span data-ttu-id="55642-122">ในกล่องโต้ตอบ **แม่แบบงาน** ป้อนชื่อสำหรับแม่แบบงาน และจากนั้นเลือก **นำไปใช้**</span><span class="sxs-lookup"><span data-stu-id="55642-122">In the **Work Template** dialog box, enter a name for the work template, and then select **Apply**.</span></span> 
+<span data-ttu-id="48b87-113">ในการสร้างเทมเพลตปฏิทินสำหรับองค์กรของคุณ มีข้อกำหนดหลักสองประการ:</span><span class="sxs-lookup"><span data-stu-id="48b87-113">To create a calendar template for your organization, there are two key requirements:</span></span>
 
-<span data-ttu-id="55642-123">ขณะนี้คุณสามารถเชื่อมโยงแม่แบบงานกับแม่แบบปฏิทินโครงการได้แล้ว</span><span class="sxs-lookup"><span data-stu-id="55642-123">You can now associate the work template with a project calendar template.</span></span>
+- <span data-ttu-id="48b87-114">กำหนดชั่วโมงการทำงานที่ต้องการของเทมเพลตโดยใช้ทรัพยากรที่จองได้ใหม่หรือที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="48b87-114">Define the desired working hours of the template using a new or existing bookable resource.</span></span>
+- <span data-ttu-id="48b87-115">สร้างเทมเพลตปฏิทินใหม่และเชื่อมโยงเทมเพลตกับทรัพยากรที่จองได้</span><span class="sxs-lookup"><span data-stu-id="48b87-115">Create a new calendar template and associate the template with the bookable resource.</span></span>
+
+<span data-ttu-id="48b87-116">**กำหนดชั่วโมงการทำงานของเทมเพลต**</span><span class="sxs-lookup"><span data-stu-id="48b87-116">**Define the working hours of the template**</span></span>
+
+1. <span data-ttu-id="48b87-117">ไปที่ **ทรัพยากร** \> **ทรัพยากร**</span><span class="sxs-lookup"><span data-stu-id="48b87-117">Go to **Resources** \> **Resources**.</span></span>
+2. <span data-ttu-id="48b87-118">สร้างทรัพยากรใหม่เพื่ออ้างอิงในเทมเพลตปฏิทิน หรือเลือกทรัพยากรที่มีอยู่</span><span class="sxs-lookup"><span data-stu-id="48b87-118">Create a new resource to reference in the calendar template, or select an existing resource.</span></span>
+3. <span data-ttu-id="48b87-119">เลือกแท็บ **ชั่วโมงทำงาน** ของทรัพยากร และกรอกคำแนะนำใน [กำหนดชั่วโมงการทำงานสำหรับทรัพยากร](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) เพื่อตั้งค่าคอนฟิกกฎปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="48b87-119">Select the **Work Hours** tab of the resource and complete the instructions in [Set work hours for a resource](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) to configure the calendar rules.</span></span>
+
+<span data-ttu-id="48b87-120">**สร้างเทมเพลตปฏิทินใหม่**</span><span class="sxs-lookup"><span data-stu-id="48b87-120">**Create a new calendar template**</span></span>
+
+1. <span data-ttu-id="48b87-121">ไปที่ **การตั้งค่า** \> **เทมเพลตปฏิทิน**</span><span class="sxs-lookup"><span data-stu-id="48b87-121">Go to **Settings** \> **Calendar Template**.</span></span>
+2. <span data-ttu-id="48b87-122">เลือก **ใหม่** และป้อนชื่อ คำอธิบาย และทรัพยากรเทมเพลต</span><span class="sxs-lookup"><span data-stu-id="48b87-122">Select **New**, and enter a name, description, and template resource.</span></span>
+
+> [!NOTE]
+> <span data-ttu-id="48b87-123">เมื่อทรัพยากรถูกอ้างอิงในเทมเพลตปฏิทิน สำเนาปฏิทินของทรัพยากรจะเชื่อมโยงกับเทมเพลตปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="48b87-123">When a resource is referenced in a calendar template, a copy of the resource’s calendar is associated with the calendar template.</span></span> <span data-ttu-id="48b87-124">หากชั่วโมงการทำงานของเทมเพลตเปลี่ยนแปลง การเปลี่ยนแปลงเหล่านั้นจะไม่ส่งผลต่อเทมเพลตปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="48b87-124">If the working hours of the copied template change, those changes will not propagate to the calendar template.</span></span>
+
+<span data-ttu-id="48b87-125">ขณะนี้คุณสามารถเชื่อมโยงแม่แบบงานกับแม่แบบปฏิทินโครงการได้แล้ว</span><span class="sxs-lookup"><span data-stu-id="48b87-125">You can now associate the work template with a project calendar template.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
+
