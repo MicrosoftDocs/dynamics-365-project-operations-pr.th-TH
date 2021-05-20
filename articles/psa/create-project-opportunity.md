@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5eb9c2bdc9274edbc55e730fd844d46477cd19f4
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: dc4693981194b8e8c22bfd9bbfda3f77af3e8f99
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5285236"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948217"
 ---
 # <a name="create-a-project-opportunity-project-service"></a>สร้างโอกาสทางการขายของโครงการ (Project Service)
 
@@ -39,7 +39,7 @@ ms.locfileid: "5285236"
   
 3.  ในพื้นที่ **สรุป** ป้อนของโอกาสทางการขายของบริษัทและข้อมูลอื่นๆ  
   
-4.  เพิ่มบันทึกย่อและกิจกรรม (ตัวอย่างเช่นการติดต่อทางโทรศัพท์หรืออีเมล) ที่เกี่ยวข้องกับลูกค้าเป้าหมาย เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการเพิ่มบันทึกย่อและกิจกรรม โปรดดู [ติดตามการบันทึก งาน โทรศัพท์ หรืออีเมลด้วยกิจกรรม](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/basics/work-with-activities)  
+4.  เพิ่มบันทึกย่อและกิจกรรม (ตัวอย่างเช่นการติดต่อทางโทรศัพท์หรืออีเมล) ที่เกี่ยวข้องกับลูกค้าเป้าหมาย เมื่อต้องการเรียนรู้เพิ่มเติมเกี่ยวกับการเพิ่มบันทึกย่อและกิจกรรม โปรดดู [ติดตามการบันทึก งาน โทรศัพท์ หรืออีเมลด้วยกิจกรรม](/dynamics365/customerengagement/on-premises/basics/work-with-activities)  
   
 5.  เพื่อเพิ่มผู้เกี่ยวข้อง ในพื้นที่ **ผู้เกี่ยวข้อง** คลิก **+**  
   

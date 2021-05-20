@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2d1f9b29e0e9516ff78517e47694a2385c083ec7
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5ce9ad1458d338d63469c3d6fddb98b9cbbced31
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5277856"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948443"
 ---
 # <a name="manage-project-based-opportunities"></a>จัดการโอกาสทางการขายตามโครงการ
 
@@ -64,7 +64,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 >
 > หากข้อตกลงตามโครงการของคุณเริ่มต้นด้วยโอกาสทางการขาย กระบวนการขายของโอกาสทางการขายจะมีความสำคัญเหนือกว่า
 
-คุณสามารถแก้ไขโฟลว์กระบวนการธุรกิจผลิตภัณฑ์ หรือสร้างโฟลว์กระบวนการธุรกิจของคุณเอง เพื่อติดตามกระบวนการขายของคุณได้ตามต้องการ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับโฟลว์กระบวนการธุรกิจ โปรดดูที่ [ภาพรวมโฟลว์กระบวนการธุรกิจ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview)
+คุณสามารถแก้ไขโฟลว์กระบวนการธุรกิจผลิตภัณฑ์ หรือสร้างโฟลว์กระบวนการธุรกิจของคุณเอง เพื่อติดตามกระบวนการขายของคุณได้ตามต้องการ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับโฟลว์กระบวนการธุรกิจ โปรดดูที่ [ภาพรวมโฟลว์กระบวนการธุรกิจ](/dynamics365/customerengagement/on-premises/customize/business-process-flows-overview)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

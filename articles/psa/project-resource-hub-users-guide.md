@@ -18,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e27cc0919272784a030374f457d1ab1dccc1f9f1
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 2450c00bae9eeb31d3b4bb14e6255e0681997672
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5283796"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948172"
 ---
 # <a name="user-guide-for-project-resource-hub"></a>คู่มือผู้ใช้สำหรับฮับทรัพยากรโครงการ
 
@@ -48,7 +48,7 @@ ms.locfileid: "5283796"
 ## <a name="install-the-mobile-app"></a>ติดตั้งแอพสำหรับมือถือ
 คุณจำเป็นต้องติดตั้งแอปฮับทรัพยากรของโครงการลงบนอุปกรณ์ของคุณ ก่อนจึงจะสามารถเริ่มต้นแอปฮับทรัพยากรของโครงการได้ 
 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ติดตั้ง Dynamics 365 for phones and tablets](https://docs.microsoft.com/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [ติดตั้ง Dynamics 365 for phones and tablets](/dynamics365/mobile-app/install-dynamics-365-for-phones-and-tablets)
 
 ## <a name="basic-navigation"></a>การนำทางพื้นฐาน
 1.  เมื่อคุณเข้าสู่ระบบในแอปบนมือถือ คุณจะเห็นเพจ MyApps ที่มีรายชื่อของแอปที่คุณมีสิทธิเข้าถึง 
@@ -99,7 +99,7 @@ ms.locfileid: "5283796"
 5. ดำเนินการป้อนค่าใช้จ่ายสำหรับสัปดาห์ เมื่อดำเนินการแล้วเสร็จและทุกอย่างถูกต้องดีแล้ว แตะที่ **ส่ง** ผู้จัดการจะตรวจทาน และอนุมัติค่าใช้จ่ายของคุณ
 
 ## <a name="general-information-on-how-to-use-the-mobile-app"></a>จ้อมูลทั่วไปเกี่ยวกับการใช้งานแอพบนอุปกรณ์เคลื่อนที่ 
-[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [คู่มือผู้ใช้พื้นฐานสำหรับอุปกรณ์เคลื่อนที่](https://docs.microsoft.com/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
+[!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [คู่มือผู้ใช้พื้นฐานสำหรับอุปกรณ์เคลื่อนที่](/dynamics365/mobile-app/dynamics-365-phones-tablets-users-guide).
 
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [ภาพรวมของ Project Service](../psa/overview.md)   

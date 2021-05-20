@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: ab8016014c0af60d1c0dfd37fdd457f279fb8059
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 7357e9a8c8c6294c0a395a80287bb7eeb5c47d85
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664112"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948307"
 ---
 # <a name="header-details-for-project-based-opportunities"></a>รายละเอียดส่วนหัวสำหรับโอกาสทางการขายตามโครงการ
 
@@ -35,7 +35,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | ผู้จัดการลูกค้าองค์กร | แท็บทั่วไป | ชื่อของผู้จัดการบัญชีสำหรับโอกาสทางการขายตามโครงการนี้ | ผู้จัดการลูกค้าองค์กรมีหน้าที่จัดการความสัมพันธ์กับลูกค้าจนโครงการนี้เสร็จสมบูรณ์ ตามเรกคอร์ดทรัพยากรที่สามารถจองได้ที่เชื่อมโยงกับผู้จัดการบัญชี หน่วยที่ทำสัญญาจะมีการกำหนดเป็นค่าเริ่มต้น |
 | หน่วยที่ทำสัญญา | แท็บทั่วไป | หน่วยองค์กรที่รับผิดชอบการส่งมอบโครงการที่เกี่ยวข้องกับข้อตกลงนี้ | หน่วยที่ทำสัญญาคือแผนกของบริษัทที่จะดำเนินโครงการหลังจากปิดข้อตกลง ทุกหน่วยที่ทำสัญญามีสกุลเงิน และสกุลเงินนี้ใช้เพื่อรายงานต้นทุนโดยประมาณและต้นทุนจริงที่เกิดขึ้นระหว่างโครงการ |
 
-สำหรับฟิลด์และส่วนอื่นๆ ทั้งหมดในแท็บ **สรุป** ของโอกาสทางการขาย ดูที่ [สร้างหรือแก้ไขโอกาสทางการขาย (การขายและฮับการขาย)](https://docs.microsoft.com/dynamics365/sales-enterprise/create-edit-opportunity-sales)
+สำหรับฟิลด์และส่วนอื่นๆ ทั้งหมดในแท็บ **สรุป** ของโอกาสทางการขาย ดูที่ [สร้างหรือแก้ไขโอกาสทางการขาย (การขายและฮับการขาย)](/dynamics365/sales-enterprise/create-edit-opportunity-sales)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
