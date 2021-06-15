@@ -52,6 +52,8 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: มีอะไรใหม่
       items:
+        - name: พฤษภาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-may-2021-resource-based.md
         - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-apr-2021-resource-based.md
         - name: มีนาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -374,6 +376,8 @@
               href: expense/set-up-credit-card-integration.md
             - name: ตั้งค่าประเภทค่าใช้จ่าย
               href: expense/set-up-expense-categories.md
+            - name: ตั้งค่าระยะทางโดยใช้ระดับอัตราระยะทางสะสม
+              href: expense/set-up-mileage.md
         - name: ค่าใช้จ่ายส่วนตัว
           href: expense/personal-expenses-expense-report.md
         - name: ค่าใช้จ่ายระหว่างบริษัท
@@ -508,6 +512,8 @@
           href: environment/security-model.md
     - name: มีอะไรใหม่
       items:
+        - name: มีอะไรใหม่เดือนพฤษภาคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-may-2021-lite.md
         - name: มีอะไรใหม่เดือนเมษายน 2021 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-apr-2021-lite.md
         - name: มีอะไรใหม่เดือนมีนาคม 2021 - การปรับใช้งานแบบ Lite
@@ -1028,6 +1034,8 @@
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 32, V3'
+          href: psa/whats-new-ur-32.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 31, V3'
           href: psa/whats-new-ur-31.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 30, V3'
@@ -1266,6 +1274,8 @@
               href: psa/time-entry-calendar.md
             - name: ปรับแต่งการป้อนเวลารายสัปดาห์
               href: psa/time-entry-extensibility-v3.md
+            - name: ชุดการอนุมัติ
+              href: psa/approval-set.md
     - name: คำถามที่ถามบ่อยและการแก้ไขปัญหา (3.x)
       items:
         - name: ทำไมราคาที่กำหนดค่าเริ่มต้นเป็นศูนย์ในต้นทุนค่าใช้จ่ายจริง
