@@ -2,18 +2,16 @@
 title: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้ระหว่างบริษัท
 description: หัวข้อนี้ให้ข้อมูลและตัวอย่างเกี่ยวกับการตั้งค่าคอนฟิกการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการ
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bb39e212d00f8874254d4255f310217cdf46eb5a
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 9894a405403d4faeb2f02387b03c77a40a6cea3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5949702"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001179"
 ---
 # <a name="configure-intercompany-invoicing"></a>ตั้งค่าคอนฟิกการออกใบแจ้งหนี้ระหว่างบริษัท
 
