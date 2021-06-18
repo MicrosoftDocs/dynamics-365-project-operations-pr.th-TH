@@ -2,18 +2,16 @@
 title: สัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้า
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับรูปแบบการทำสัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้าใน Project Operations
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: e098d25a3e96adf2a1b8e43a19da3a14f446fba9
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 5b4e2e0bfd0da02c3386978ce732232631f10421
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272366"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994249"
 ---
 # <a name="advances-and-retainer-based-contracts"></a>สัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้า
 

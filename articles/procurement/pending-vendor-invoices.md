@@ -2,19 +2,17 @@
 title: ซื้อวัสดุที่ไม่เก็บในคลังโดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
 description: หัวข้อนี้อธิบายวิธีการบันทึกใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7a706f419443dcdf92ce3b247d719943272907d0
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: b5e6632d73c8a211b1f0d568be8e10ef47be77e2
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880692"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993839"
 ---
 # <a name="purchase-non-stocked-materials-using-a-pending-vendor-invoice"></a>ซื้อวัสดุที่ไม่เก็บในคลังโดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
 

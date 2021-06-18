@@ -2,8 +2,6 @@
 title: วิธีการจัดสรรการจองใน Project Service Automation
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการต่าง ๆ ที่คุณสามารถจองการจัดสรรได้
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6fefaf0677ec1b3b84b202824ba16a87fa1b8d5c
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 89c455b45829a4e28dc8bb71cf34e52375ed6efd
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5286361"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993348"
 ---
 # <a name="booking-allocation-methods-in-project-service-automation"></a>วิธีการจัดสรรการจองใน Project Service Automation
 
@@ -48,7 +46,7 @@ ms.locfileid: "5286361"
 
 |         การจอง          |    วันที่ 1    |    วันที่ 2    |    วันที่ 3    |    วันที่ 4    |    วันที่ 5    |    รวม    |
 |---------------------------|-------------|-------------|-------------|-------------|-------------|-------------|
-|    การจองที่มีอยู่    |    12        |    12        |    12        |    12        |    12        |    12        |
+|    การจองที่มีอยู่    |    0        |    12        |    12        |    12        |    12        |    12        |
 |    การจองใหม่          |    8        |    8        |    4        |    0        |    0        |    20       |
 
 วิธีการโหลดหน้าคำนึงถึงพิจารณาการจองที่มีอยู่และกำลังการผลิตที่พร้อมใช้งาน ตัวอย่างเช่น ถ้าทรัพยากรเดียวกันมีอยู่ 20 ชั่วโมงของการจองในสัปดาห์การทำงาน การจองใหม่ใช้กำลังการผลิตที่เหลือเป็นดังนี้:

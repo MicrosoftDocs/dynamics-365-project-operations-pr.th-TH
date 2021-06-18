@@ -2,19 +2,17 @@
 title: มีอะไรใหม่ในเดือนธันวาคม 2020 - การปรับใช้งาน Project Operations แบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการอัปเดตคุณภาพที่มีอยู่ใน Project Operations รุ่นเดือนธันวาคม 2020 สำหรับการปรับใช้งาน Project Operations แบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 author: sigitac
-manager: Annbe
 ms.date: 12/07/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 383fa01a7d79989aef041a8fd68749446aeba367
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 8b813d0fc99b8bce9000c983f51f919adbe1aaac
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5272231"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5994069"
 ---
 # <a name="whats-new-december-2020---project-operations-lite-deployment---deal-to-proforma-invoicing"></a>มีอะไรใหม่ในเดือนธันวาคม 2020 - การปรับใช้งาน Project Operations แบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 

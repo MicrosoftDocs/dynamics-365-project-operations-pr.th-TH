@@ -2,19 +2,17 @@
 title: ตั้งค่าคอนฟิกวัสดุที่ไม่เก็บในคลังและใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
 description: หัวข้อนี้จะอธิบายวิธีการเปิดใช้งานวัสดุที่ไม่เก็บในคลังและใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
 author: sigitac
-manager: tfehr
 ms.date: 04/12/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a84245a246f49ab69466aba0fec332f0489eec6c
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: 24418f3aad8356bd209eef7487a47a3870bce10f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880693"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5993934"
 ---
 # <a name="configure-non-stocked-materials-and-pending-vendor-invoices"></a>ตั้งค่าคอนฟิกวัสดุที่ไม่เก็บในคลังและใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
 
@@ -61,11 +59,11 @@ Dynamics 365 Finance:
 
 ### <a name="activate-workflow-to-create-accounts-based-on-vendor-entity"></a>เริ่มการใช้งานเวิร์กโฟลว์เพื่อสร้างบัญชีตามเอนทิตีผู้จัดจำหน่าย
 
-โซลูชัน Dual Write Orchestration มี [การรวมหลักของผู้จัดจำหน่าย](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping) ดังข้อกำหนดเบื้องต้นสำหรับคุณลักษณะนี้ ต้องมีการสร้างข้อมูลผู้จัดจำหน่ายในเอนทิตี **บัญชี** เริ่มการใช้งานกระบวนการเวิร์กโฟลว์เทมเพลตเพื่อสร้างผู้จำหน่ายในตาราง **บัญชี** ตามที่อธิบายไว้ใน [สลับไปมาระหว่างการออกแบบของผู้จัดจำหน่าย](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch#use-the-extended-vendor-design-for-vendors-of-the-organization-type)
+โซลูชัน Dual Write Orchestration มี [การรวมหลักของผู้จัดจำหน่าย](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-mapping.md) ดังข้อกำหนดเบื้องต้นสำหรับคุณลักษณะนี้ ต้องมีการสร้างข้อมูลผู้จัดจำหน่ายในเอนทิตี **บัญชี** เริ่มการใช้งานกระบวนการเวิร์กโฟลว์เทมเพลตเพื่อสร้างผู้จำหน่ายในตาราง **บัญชี** ตามที่อธิบายไว้ใน [สลับไปมาระหว่างการออกแบบของผู้จัดจำหน่าย](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/vendor-switch.md#use-the-extended-vendor-design-for-vendors-of-the-organization-type)
 
 ### <a name="set-products-to-be-created-as-active"></a>ตั้งค่าผลิตภัณฑ์ที่จะถูกสร้างเป็นใช้งานอยู่
 
-ต้องตั้งค่าคอนฟิกวัสดุที่ไม่เก็บในคลังเป็น **ผลิตภัณฑ์ที่นำออกใช้** ใน Finance โซลูชัน Dual Write Orchestration มี [การรวมผลิตภัณฑ์ที่นำออกใช้กับแค็ตตาล็อกผลิตภัณฑ์ Dataverse](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping) โดยค่าเริ่มต้น ผลิตภัณฑ์จาก Finance จะถูกซิงโครไนซ์กับ Dataverse ในสถานะร่าง ในการซิงโครไนซ์ผลิตภัณฑ์ให้อยู่ในสถานะใช้งาน เพื่อให้สามารถใช้ได้โดยตรงในเอกสารการใช้วัสดุหรือใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ ให้ไปที่ **ระบบ** > **การจัดการ** > **การจัดการระบบ** > **การตั้งค่าระบบ** และบนแท็บ **การขาย** ตั้งค่า **สร้างผลิตภัณฑ์ในสถานะใช้งาน** เป็น **ใช่**
+ต้องตั้งค่าคอนฟิกวัสดุที่ไม่เก็บในคลังเป็น **ผลิตภัณฑ์ที่นำออกใช้** ใน Finance โซลูชัน Dual Write Orchestration มี [การรวมผลิตภัณฑ์ที่นำออกใช้กับแค็ตตาล็อกผลิตภัณฑ์ Dataverse](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/product-mapping.md) โดยค่าเริ่มต้น ผลิตภัณฑ์จาก Finance จะถูกซิงโครไนซ์กับ Dataverse ในสถานะร่าง ในการซิงโครไนซ์ผลิตภัณฑ์ให้อยู่ในสถานะใช้งาน เพื่อให้สามารถใช้ได้โดยตรงในเอกสารการใช้วัสดุหรือใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ ให้ไปที่ **ระบบ** > **การจัดการ** > **การจัดการระบบ** > **การตั้งค่าระบบ** และบนแท็บ **การขาย** ตั้งค่า **สร้างผลิตภัณฑ์ในสถานะใช้งาน** เป็น **ใช่**
 
 ## <a name="configure-prerequisites-in-finance"></a>ตั้งค่าคอนฟิกข้อกำหนดเบื้องต้นใน Finance
 
