@@ -2,18 +2,16 @@
 title: การตั้งค่าสัญญาโครงการ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับฟิลด์ที่ส่งผลกระทบต่อรายละเอียดการให้บริการตามสัญญาและข้อมูลเกี่ยวกับสัญญาที่สรุปไว้ในรายการทั้งหมด
 author: rumant
-manager: Annbe
 ms.date: 10/20/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 9ba005d82e0ce4fae58543401e34da5a24345dc4
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: 1e6971553bb436ee5bcad2c335d32c929ddc4800
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5663887"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996184"
 ---
 # <a name="header-details-for-project-based-contracts"></a>รายละเอียดส่วนหัวสำหรับสัญญาตามโครงการ
 

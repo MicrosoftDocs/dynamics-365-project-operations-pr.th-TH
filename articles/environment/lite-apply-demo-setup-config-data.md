@@ -2,18 +2,16 @@
 title: ใช้การตั้งค่าสาธิตและข้อมูลการกำหนดค่า - Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีใช้การตั้งค่าการสาธิตและข้อมูลการกำหนดค่าสำหรับ Project Operations
 author: sigitac
-manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 694dbc74591de74895095a9da6e590069711fc83
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7729b4a9ef5f498b78af298f7233d7dd45434bb3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5290157"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5997174"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>ใช้การตั้งค่าสาธิตและข้อมูลการกำหนดค่าสำหรับ Project Operations - Lite 
 
@@ -28,8 +26,8 @@ _**การปรับใช้งานแบบ Lite - จัดการก
 
 ## <a name="instructions"></a>คำแนะนำ
 
-1. ดาวน์โหลด [แพคเกจข้อมูลหลัก](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip) 
-2. ไปที่โฟลเดอร์ *ProjOpsDemoDataSetupAndMaster - CMT แบบในตัว* และเรียกใช้ไฟล์ปฏิบัติการ *DataMigrationUtility*
+1. ดาวน์โหลด [แพคเกจข้อมูลหลัก](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip) 
+2. นำทางไปยังโฟลเดอร์ *ProjOpsSampleSetupData - CE เท่านั้น CMT* และเรียกใช้ไฟล์ปฏิบัติการ *DataMigrationUtility*
 3. ในเพจ 1 ของวิซาร์ดการย้ายการกำหนดค่า Common Data Service (CMT) เลือก **นำเข้าข้อมูล** แล้วเลือก **ดำเนินการต่อ**
 
     ![การโอนย้ายการตั้งค่าคอนฟิก](./media/1ConfigurationMigration.png)
@@ -41,7 +39,7 @@ _**การปรับใช้งานแบบ Lite - จัดการก
    ![การลงชื่อเข้าใช้การกำหนดค่า](./media/2ConfigurationSignin.png)
 
 7. ในเพจ 3 จากรายชื่อองค์กรในผู้เช่า ให้เลือกองค์กรที่คุณต้องการนำเข้าข้อมูลสาธิต จากนั้นเลือก **เข้าสู่ระบบ**
-8. ในเพจ 4 เลือกไฟล์ zip *MasterAndSetupData* จากโฟลเดอร์ที่ขยาย *ProjOpsDemoDataSetupAndMaster - CMT ในตัว*
+8. ในหน้า 4 เลือกไฟล์ zip *SampleSetupAndConfigData* จากโฟลเดอร์ที่ขยาย *ProjOpsSampleSetupData - CMT เฉพาะ CE*
 
    ![ไฟล์ Zip](./media/3ZipFile.png)
 
@@ -52,7 +50,7 @@ _**การปรับใช้งานแบบ Lite - จัดการก
    ![การนำเข้าข้อมูล](./media/5ImportData.png)
 
 10. การนำเข้าจะทำงานประมาณสองถึงสิบนาที ขึ้นอยู่กับความเร็วเครือข่ายของคุณ หลังจากเสร็จสิ้น ให้ออกจากวิซาร์ด CMT 
-11. ตรวจสอบองค์กรของคุณสำหรับข้อมูลใน 20 เอนทิตีต่อไปนี้:
+11. ตรวจสอบองค์กรของคุณสำหรับข้อมูลใน 18 เอนทิตีต่อไปนี้:
 
     -   สกุลเงิน
     -   บัญชี
