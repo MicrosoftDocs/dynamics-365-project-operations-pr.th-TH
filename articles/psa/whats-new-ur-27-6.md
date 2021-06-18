@@ -2,8 +2,6 @@
 title: มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Project Service Automation รุ่นการปรับปรุงโปรแกรมแก้ไขด่วน 27.6 V3
 description: หัวข้อนี้แสดงรายการคุณลักษณะและการแก้ไขที่พร้อมใช้งานใน Project Service Automation รุ่นการปรับปรุงโปรแกรมแก้ไขด่วน 27.6 V3
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: dyn365-projectservice
 ms.date: 02/17/2021
 ms.topic: article
@@ -17,29 +15,29 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 829f0941f255aab11a37cacd90c0dca6f99bc2d2
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 58cb82701e5cb8c549250ce5e3397d5939ec1ea1
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948757"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5996904"
 ---
-# <a name="whats-new-or-changed-in-project-service-automation-update-release-276-v3"></a><span data-ttu-id="8f5ac-103">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Project Service Automation รุ่นการปรับปรุง 27.6 V3</span><span class="sxs-lookup"><span data-stu-id="8f5ac-103">What's new or changed in Project Service Automation Update Release 27.6, V3</span></span>
+# <a name="whats-new-or-changed-in-project-service-automation-update-release-276-v3"></a><span data-ttu-id="47d30-103">มีอะไรใหม่หรือมีการเปลี่ยนแปลงอะไรใน Project Service Automation รุ่นการปรับปรุง 27.6 V3</span><span class="sxs-lookup"><span data-stu-id="47d30-103">What's new or changed in Project Service Automation Update Release 27.6, V3</span></span>
 
-<span data-ttu-id="8f5ac-104">เรายินดีที่จะประกาศการปรับปรุงล่าสุดสำหรับแอปพลิเคชัน Project Service Automation สำหรับ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="8f5ac-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="8f5ac-105">รุ่นนี้มีการปรับปรุงที่สำคัญบางอย่างเกี่ยวกับคุณภาพ ประสิทธิภาพ และการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="8f5ac-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="8f5ac-106">รุ่นนี้เข้ากันได้กับ Dynamics 365 9.x</span><span class="sxs-lookup"><span data-stu-id="8f5ac-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="8f5ac-107">หากต้องการปรับปรุงเป็นรุ่นนี้ ให้เยี่ยมชมศูนย์การจัดการสำหรับ Dynamics 365 ออนไลน์ และหน้าโซลูชัน เพื่อติดตั้งการปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="8f5ac-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="8f5ac-108">สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ติดตั้ง อัปเดต หรือลบโซลูชันที่ต้องการ](/power-platform/admin/install-remove-preferred-solution)</span><span class="sxs-lookup"><span data-stu-id="8f5ac-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
+<span data-ttu-id="47d30-104">เรายินดีที่จะประกาศการปรับปรุงล่าสุดสำหรับแอปพลิเคชัน Project Service Automation สำหรับ Dynamics 365</span><span class="sxs-lookup"><span data-stu-id="47d30-104">We’re pleased to announce the latest update for the Project Service Automation application for Dynamics 365.</span></span> <span data-ttu-id="47d30-105">รุ่นนี้มีการปรับปรุงที่สำคัญบางอย่างเกี่ยวกับคุณภาพ ประสิทธิภาพ และการใช้งาน</span><span class="sxs-lookup"><span data-stu-id="47d30-105">This release includes some important improvements to quality, performance, and usability.</span></span> <span data-ttu-id="47d30-106">รุ่นนี้เข้ากันได้กับ Dynamics 365 9.x</span><span class="sxs-lookup"><span data-stu-id="47d30-106">This release is compatible with Dynamics 365 9.x.</span></span> <span data-ttu-id="47d30-107">หากต้องการปรับปรุงเป็นรุ่นนี้ ให้เยี่ยมชมศูนย์การจัดการสำหรับ Dynamics 365 ออนไลน์ และหน้าโซลูชัน เพื่อติดตั้งการปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="47d30-107">To update to this release, visit the Admin Center for Dynamics 365 online solutions page to install the update.</span></span> <span data-ttu-id="47d30-108">สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [ติดตั้ง อัปเดต หรือลบโซลูชันที่ต้องการ](/power-platform/admin/install-remove-preferred-solution)</span><span class="sxs-lookup"><span data-stu-id="47d30-108">For more information, see [Install, update, or remove a preferred solution](/power-platform/admin/install-remove-preferred-solution).</span></span>
 
-<span data-ttu-id="8f5ac-109">หัวข้อนี้แสดงรายการคุณลักษณะและการแก้ไขใหม่หรือที่เปลี่ยนแปลงสำหรับ Project Service Automation V3 รุ่นการปรับปรุง 27.6</span><span class="sxs-lookup"><span data-stu-id="8f5ac-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 27.6.</span></span> <span data-ttu-id="8f5ac-110">รุ่นนี้มีหมายเลขรุ่นเป็น V3.10.45.120 และโดยทั่วไปจะพร้อมใช้งานผ่านการอัปเดตด้วยตนเองในเดือนมกราคม 2021</span><span class="sxs-lookup"><span data-stu-id="8f5ac-110">This version has a build number of V3.10.45.120 and is generally available through a self-update in January 2021.</span></span>
+<span data-ttu-id="47d30-109">หัวข้อนี้แสดงรายการคุณลักษณะและการแก้ไขใหม่หรือที่เปลี่ยนแปลงสำหรับ Project Service Automation V3 รุ่นการปรับปรุง 27.6</span><span class="sxs-lookup"><span data-stu-id="47d30-109">This topic lists the features and fixes that are new or changed for Project Service Automation V3, Update Release 27.6.</span></span> <span data-ttu-id="47d30-110">รุ่นนี้มีหมายเลขรุ่นเป็น V3.10.45.120 และโดยทั่วไปจะพร้อมใช้งานผ่านการอัปเดตด้วยตนเองในเดือนมกราคม 2021</span><span class="sxs-lookup"><span data-stu-id="47d30-110">This version has a build number of V3.10.45.120 and is generally available through a self-update in January 2021.</span></span>
 
-## <a name="update-release-276"></a><span data-ttu-id="8f5ac-111">รุ่นการปรับปรุง 27.6</span><span class="sxs-lookup"><span data-stu-id="8f5ac-111">Update Release 27.6</span></span>
+## <a name="update-release-276"></a><span data-ttu-id="47d30-111">รุ่นการปรับปรุง 27.6</span><span class="sxs-lookup"><span data-stu-id="47d30-111">Update Release 27.6</span></span>
 
-### <a name="bug-fixes"></a><span data-ttu-id="8f5ac-112">แก้ไขข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="8f5ac-112">Bug fixes</span></span>
+### <a name="bug-fixes"></a><span data-ttu-id="47d30-112">แก้ไขข้อบกพร่อง</span><span class="sxs-lookup"><span data-stu-id="47d30-112">Bug fixes</span></span>
 
 
-<span data-ttu-id="8f5ac-113">**การจัดการทรัพยากร**</span><span class="sxs-lookup"><span data-stu-id="8f5ac-113">**Resource Management**</span></span>
+<span data-ttu-id="47d30-113">**การจัดการทรัพยากร**</span><span class="sxs-lookup"><span data-stu-id="47d30-113">**Resource Management**</span></span>
 
-<span data-ttu-id="8f5ac-114">ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:</span><span class="sxs-lookup"><span data-stu-id="8f5ac-114">The following issues have been fixed:</span></span>
+<span data-ttu-id="47d30-114">ปัญหาต่อไปนี้ได้รับการแก้ไขแล้ว:</span><span class="sxs-lookup"><span data-stu-id="47d30-114">The following issues have been fixed:</span></span>
 
-- <span data-ttu-id="8f5ac-115">เมื่อพบความพร้อมบริการของทรัพยากร จะมีการเรียก **ExpandCalendar** สำหรับทรัพยากรแต่ละรายการที่ไม่มีการใช้กฎปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="8f5ac-115">When finding resource availability, **ExpandCalendar** is called for each resource that has no calendar rules applied.</span></span>
+- <span data-ttu-id="47d30-115">เมื่อพบความพร้อมบริการของทรัพยากร จะมีการเรียก **ExpandCalendar** สำหรับทรัพยากรแต่ละรายการที่ไม่มีการใช้กฎปฏิทิน</span><span class="sxs-lookup"><span data-stu-id="47d30-115">When finding resource availability, **ExpandCalendar** is called for each resource that has no calendar rules applied.</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
