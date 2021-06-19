@@ -2,18 +2,16 @@
 title: ตั้งค่าแม่แบบต้นทุน
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างและใช้แม่แบบต้นทุนใน Project Operations
 author: sigitac
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4d9dcc54e62682a02ea6cf8caca90586b4217908
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f4a515db31a31028af4a60927ab360be6c261a3f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278981"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013914"
 ---
 # <a name="set-up-cost-templates"></a>ตั้งค่าแม่แบบต้นทุน
 

@@ -2,8 +2,6 @@
 title: ค่าจริงของการบันทึก
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีที่ข้อมูลจริงถูกบันทึก
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/06/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5dd853bfb41c6f2cd20965733a78eafdbbeb794b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7d9ebc0b283731356e0b9b26f2d665a12183519f
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291777"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014859"
 ---
 # <a name="recording-actuals"></a>ค่าจริงของการบันทึก 
 

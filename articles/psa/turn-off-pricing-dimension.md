@@ -2,12 +2,10 @@
 title: ปิดมิติการกำหนดราคา
 description: หัวข้อนี้แสดงวิธีการตั้งค่ามิติการกำหนดราคาในโซลูชัน Project Service
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/06/2018
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 6e4b80b9c4b1b0f57d04079c9d2f84051b451d29
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da8615fa147838d9088c639039d5a2534e662e82
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5281861"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014319"
 ---
 # <a name="turn-off-a-pricing-dimension"></a>ปิดมิติการกำหนดราคา
 
@@ -41,8 +39,8 @@ ms.locfileid: "5281861"
 
 | ชื่อมาตรฐาน         | หน่วยองค์กร    |หน่วย   |ราคา  |สกุลเงิน  |
 | -----------------------|-------------|-------|-------|----------|
-| วิศวกรระบบ|Contoso US|Hour| 100|USD|
-| วิศวกรระบบรุ่นพี่|Contoso US|Hour| 150| USD|
+| วิศวกรระบบ|Contoso US|ชั่วโมง| 100|USD|
+| วิศวกรระบบรุ่นพี่|Contoso US|ชั่วโมง| 150| USD|
 
 
 เมื่อคุณปิด **ชื่อมาตรฐาน** เป็นมิติการกำหนดราคา และกลไกจัดการการกำหนดราคา Project Service ค้นหาราคา จะใช้ค่า **หน่วยขององค์กร** จากบริบทการป้อนข้อมูลเท่านั้น ถ้า **หน่วยองค์กร** ของบริบทการป้อนข้อมูลคือ "Contoso US" ผลลัพธ์จะไม่สามารถระบุได้เนื่องจากทั้งสองแถวจะตรงกัน เพื่อหลีกเลี่ยงสถานการณ์นี้ เมื่อคุณสร้างเรกคอร์ด **ราคาตามบทบาท** Project Service จะตรวจสอบว่าการรวมกันของมิติไม่ซ้ำกัน ถ้ามิติถูกปิดหลังจากเรกคอร์ด **ราคาตามบทบาท** ถูกสร้าง ข้อจำกัดนี้สามารถถูกละเมิดได้ ดังนั้น ก่อนที่คุณจะปิดมิติ คุณลบแถว **ราคาตามบทบาท** และ **ส่วนเพิ่มราคาของราคาตามบทบาท** ทั้งหมดที่มีค่ามิตินำเข้าข้อมูล

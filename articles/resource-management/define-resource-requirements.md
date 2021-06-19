@@ -2,18 +2,16 @@
 title: กำหนดความต้องการทรัพยากร
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการกำหนดข้อมูลความต้องการทรัพยากร
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da803300f0e416be2544420d2b7e6e633923f65b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 345de0a4599a7f332312bbf032cab5f69e358f69
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279791"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015309"
 ---
 # <a name="define-resource-requirements"></a>กำหนดความต้องการทรัพยากร
 
