@@ -2,18 +2,16 @@
 title: มีอะไรใหม่ในเดือนพฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการอัปเดตคุณภาพที่มีอยู่ใน Project Operations รุ่นเดือนพฤศจิกายน 2020 สำหรับสถานการณ์ตามวัสดุที่เก็บในคลัง
 author: sigitac
-manager: Annbe
 ms.date: 10/15/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 31640ba6d91831d75ca21b7938a50e4b431d759f
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 809e89c10ea8c7978a79326b4a77e69007f86123
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950782"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6012024"
 ---
 # <a name="whats-new-november-2020---project-operations-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่ในเดือนพฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
 
