@@ -2,8 +2,6 @@
 title: เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน
 description: คู่มือสำหรับเวลา ค่าใช้จ่าย และการทำงานร่วมกันสำหรับ Project Service
 author: revathiMuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,61 +16,61 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 53bd787af65f4179d62ca6756bc6e8b4599730fa
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: ae95041bb6883cd7ae7a779eb6a3cf9741572802
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282041"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6011799"
 ---
-# <a name="time-expense-and-collaboration-guide-project-service"></a><span data-ttu-id="a2ed0-103">คู่มือของเวลา ค่าใช้จ่าย และการทำงานร่วมกัน (Project Service)</span><span class="sxs-lookup"><span data-stu-id="a2ed0-103">Time, expense, and collaboration guide (Project Service)</span></span>
+# <a name="time-expense-and-collaboration-guide-project-service"></a><span data-ttu-id="841bf-103">คู่มือของเวลา ค่าใช้จ่าย และการทำงานร่วมกัน (Project Service)</span><span class="sxs-lookup"><span data-stu-id="841bf-103">Time, expense, and collaboration guide (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="a2ed0-104">ยินดีต้อนรับสู่แอป [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ซึ่งช่วยให้บริษัทสามารถจัดการขายตามโครงการได้</span><span class="sxs-lookup"><span data-stu-id="a2ed0-104">Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales.</span></span> 
+<span data-ttu-id="841bf-104">ยินดีต้อนรับสู่แอป [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ซึ่งช่วยให้บริษัทสามารถจัดการขายตามโครงการได้</span><span class="sxs-lookup"><span data-stu-id="841bf-104">Welcome to the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] app, which helps companies manage their project-based sales.</span></span> 
   
- <span data-ttu-id="a2ed0-105">ซึ่งนำคุณผ่านการป้อนเวลาและค่าใช้จ่ายของคุณสำหรับโครงการที่คุณกำลังทำงานอยู่</span><span class="sxs-lookup"><span data-stu-id="a2ed0-105">This guides you through entering your time and expenses for the projects you’re working on.</span></span> <span data-ttu-id="a2ed0-106">อยู่ด้านบนสุดของรายการเวลาและค่าใช้จ่ายของคุณเพื่อให้แน่ใจ:</span><span class="sxs-lookup"><span data-stu-id="a2ed0-106">Stay on top of your time and expense entry to make sure:</span></span>  
+ <span data-ttu-id="841bf-105">ซึ่งนำคุณผ่านการป้อนเวลาและค่าใช้จ่ายของคุณสำหรับโครงการที่คุณกำลังทำงานอยู่</span><span class="sxs-lookup"><span data-stu-id="841bf-105">This guides you through entering your time and expenses for the projects you’re working on.</span></span> <span data-ttu-id="841bf-106">อยู่ด้านบนสุดของรายการเวลาและค่าใช้จ่ายของคุณเพื่อให้แน่ใจ:</span><span class="sxs-lookup"><span data-stu-id="841bf-106">Stay on top of your time and expense entry to make sure:</span></span>  
   
-- <span data-ttu-id="a2ed0-107">ไคลเอ็นต์ของคุณจะถูกเรียกเก็บเงินได้อย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="a2ed0-107">Your clients are billed properly</span></span>  
+- <span data-ttu-id="841bf-107">ไคลเอ็นต์ของคุณจะถูกเรียกเก็บเงินได้อย่างถูกต้อง</span><span class="sxs-lookup"><span data-stu-id="841bf-107">Your clients are billed properly</span></span>  
   
-- <span data-ttu-id="a2ed0-108">คุณจะได้รับสินเชื่อสำหรับงานที่คุณทำเสร็จแล้ว</span><span class="sxs-lookup"><span data-stu-id="a2ed0-108">You get credit for the work you’ve done</span></span>  
+- <span data-ttu-id="841bf-108">คุณจะได้รับสินเชื่อสำหรับงานที่คุณทำเสร็จแล้ว</span><span class="sxs-lookup"><span data-stu-id="841bf-108">You get credit for the work you’ve done</span></span>  
   
-- <span data-ttu-id="a2ed0-109">ผู้จัดการของคุณทราบเกี่ยวกับสถานะของโครงการของคุณ</span><span class="sxs-lookup"><span data-stu-id="a2ed0-109">Your managers know the status of your projects</span></span>  
+- <span data-ttu-id="841bf-109">ผู้จัดการของคุณทราบเกี่ยวกับสถานะของโครงการของคุณ</span><span class="sxs-lookup"><span data-stu-id="841bf-109">Your managers know the status of your projects</span></span>  
   
-  <span data-ttu-id="a2ed0-110">คุณยังสามารถร่วมมือกับสมาชิกในทีมของคุณโดยการใช้เอกสารร่วมกันและเริ่มต้นการสนทนาผ่าน [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] ที่ถูกเชื่อมโยงกับโครงการของคุณได้</span><span class="sxs-lookup"><span data-stu-id="a2ed0-110">You can also collaborate with your fellow team members by sharing documents and starting conversations through [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] associated with your projects.</span></span>  
+  <span data-ttu-id="841bf-110">คุณยังสามารถร่วมมือกับสมาชิกในทีมของคุณโดยการใช้เอกสารร่วมกันและเริ่มต้นการสนทนาผ่าน [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] ที่ถูกเชื่อมโยงกับโครงการของคุณได้</span><span class="sxs-lookup"><span data-stu-id="841bf-110">You can also collaborate with your fellow team members by sharing documents and starting conversations through [!INCLUDE[pn_office_365_groups](../includes/pn-office-365-groups.md)] associated with your projects.</span></span>  
   
-  <span data-ttu-id="a2ed0-111">คุณสามารถป้อนเวลาและค่าใช้จ่ายผ่านแอปพลิเคชันเว็บ (แอปที่ใช้เบราว์เซอร์), หรือด้วย [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] สำหรับแอปโทรศัพท์และแท็บเล็ตบนอุปกรณ์มือถือของคุณได้</span><span class="sxs-lookup"><span data-stu-id="a2ed0-111">You can enter time and expenses through the web app (browser-based app), or with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app on your mobile device.</span></span> <span data-ttu-id="a2ed0-112">เมื่อคุณพร้อมแล้วสำหรับโครงการถัดไปของคุณ คุณสามารถใช้แอป Project Finder Mobile</span><span class="sxs-lookup"><span data-stu-id="a2ed0-112">When you’re ready for your next project, you can use the Project Finder Mobile app.</span></span>  
+  <span data-ttu-id="841bf-111">คุณสามารถป้อนเวลาและค่าใช้จ่ายผ่านแอปพลิเคชันเว็บ (แอปที่ใช้เบราว์เซอร์), หรือด้วย [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] สำหรับแอปโทรศัพท์และแท็บเล็ตบนอุปกรณ์มือถือของคุณได้</span><span class="sxs-lookup"><span data-stu-id="841bf-111">You can enter time and expenses through the web app (browser-based app), or with the [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] for phones and tablets app on your mobile device.</span></span> <span data-ttu-id="841bf-112">เมื่อคุณพร้อมแล้วสำหรับโครงการถัดไปของคุณ คุณสามารถใช้แอป Project Finder Mobile</span><span class="sxs-lookup"><span data-stu-id="841bf-112">When you’re ready for your next project, you can use the Project Finder Mobile app.</span></span>  
   
-<span data-ttu-id="a2ed0-113">คลิกที่ลิงก์ด้านล่างเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับสิ่งที่คุณสามารถทำได้กับ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:</span><span class="sxs-lookup"><span data-stu-id="a2ed0-113">Click on a link below to learn more about what you can do with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:</span></span>  
+<span data-ttu-id="841bf-113">คลิกที่ลิงก์ด้านล่างเพื่อเรียนรู้เพิ่มเติมเกี่ยวกับสิ่งที่คุณสามารถทำได้กับ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:</span><span class="sxs-lookup"><span data-stu-id="841bf-113">Click on a link below to learn more about what you can do with [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]:</span></span>  
   
--   [<span data-ttu-id="a2ed0-114">รับโปรแกรมประยุกต์</span><span class="sxs-lookup"><span data-stu-id="a2ed0-114">Get the apps</span></span>](../psa/get-apps.md)  
+-   [<span data-ttu-id="841bf-114">รับโปรแกรมประยุกต์</span><span class="sxs-lookup"><span data-stu-id="841bf-114">Get the apps</span></span>](../psa/get-apps.md)  
   
--   [<span data-ttu-id="a2ed0-115">ลงชื่อเข้าใช้</span><span class="sxs-lookup"><span data-stu-id="a2ed0-115">Sign in</span></span>](../psa/sign-in.md)  
+-   [<span data-ttu-id="841bf-115">ลงชื่อเข้าใช้</span><span class="sxs-lookup"><span data-stu-id="841bf-115">Sign in</span></span>](../psa/sign-in.md)  
   
--   [<span data-ttu-id="a2ed0-116">ดูกำหนดการของคุณ</span><span class="sxs-lookup"><span data-stu-id="a2ed0-116">View your schedule</span></span>](../psa/view-schedule.md)  
+-   [<span data-ttu-id="841bf-116">ดูกำหนดการของคุณ</span><span class="sxs-lookup"><span data-stu-id="841bf-116">View your schedule</span></span>](../psa/view-schedule.md)  
   
--   [<span data-ttu-id="a2ed0-117">จัดการโครงการและการจองในปฏิทิน Office 365 ของคุณ</span><span class="sxs-lookup"><span data-stu-id="a2ed0-117">Manage projects and bookings in your Office 365 calendar</span></span>](../psa/manage-project-bookings-office-365-calendar.md)  
+-   [<span data-ttu-id="841bf-117">จัดการโครงการและการจองในปฏิทิน Office 365 ของคุณ</span><span class="sxs-lookup"><span data-stu-id="841bf-117">Manage projects and bookings in your Office 365 calendar</span></span>](../psa/manage-project-bookings-office-365-calendar.md)  
   
--   [<span data-ttu-id="a2ed0-118">ป้อนเวลา</span><span class="sxs-lookup"><span data-stu-id="a2ed0-118">Enter time</span></span>](../psa/enter-time.md)  
+-   [<span data-ttu-id="841bf-118">ป้อนเวลา</span><span class="sxs-lookup"><span data-stu-id="841bf-118">Enter time</span></span>](../psa/enter-time.md)  
   
--   [<span data-ttu-id="a2ed0-119">ป้อนค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="a2ed0-119">Enter expenses</span></span>](../psa/enter-expenses.md)  
+-   [<span data-ttu-id="841bf-119">ป้อนค่าใช้จ่าย</span><span class="sxs-lookup"><span data-stu-id="841bf-119">Enter expenses</span></span>](../psa/enter-expenses.md)  
   
--   [<span data-ttu-id="a2ed0-120">อนุญาตให้บุคคลอื่นป้อนรายการเวลาหรือค่าใช้จ่ายของคุณ</span><span class="sxs-lookup"><span data-stu-id="a2ed0-120">Allow someone else to enter your time entry or expense</span></span>](../psa/allow-someone-else-enter-time-entry-expense.md)  
+-   [<span data-ttu-id="841bf-120">อนุญาตให้บุคคลอื่นป้อนรายการเวลาหรือค่าใช้จ่ายของคุณ</span><span class="sxs-lookup"><span data-stu-id="841bf-120">Allow someone else to enter your time entry or expense</span></span>](../psa/allow-someone-else-enter-time-entry-expense.md)  
   
--   [<span data-ttu-id="a2ed0-121">การจัดกำหนดการ Time Off</span><span class="sxs-lookup"><span data-stu-id="a2ed0-121">Schedule time off</span></span>](../psa/schedule-time-off.md)  
+-   [<span data-ttu-id="841bf-121">การจัดกำหนดการ Time Off</span><span class="sxs-lookup"><span data-stu-id="841bf-121">Schedule time off</span></span>](../psa/schedule-time-off.md)  
   
--   [<span data-ttu-id="a2ed0-122">ร่วมมือกับสมาชิกทีมของโครงการของคุณกับกลุ่ม Office 365</span><span class="sxs-lookup"><span data-stu-id="a2ed0-122">Collaborate with your project team members with Office 365 Groups</span></span>](../psa/collaborate-project-team-members-office-365-groups.md)  
+-   [<span data-ttu-id="841bf-122">ร่วมมือกับสมาชิกทีมของโครงการของคุณกับกลุ่ม Office 365</span><span class="sxs-lookup"><span data-stu-id="841bf-122">Collaborate with your project team members with Office 365 Groups</span></span>](../psa/collaborate-project-team-members-office-365-groups.md)  
   
--   [<span data-ttu-id="a2ed0-123">ค้นหาโครงการถัดไปของคุณด้วยแอพลิเคชัน Project Finder Mobile</span><span class="sxs-lookup"><span data-stu-id="a2ed0-123">Find your next project with the Project Finder Mobile app</span></span>](../psa/find-next-project-finder-mobile-app.md)  
+-   [<span data-ttu-id="841bf-123">ค้นหาโครงการถัดไปของคุณด้วยแอพลิเคชัน Project Finder Mobile</span><span class="sxs-lookup"><span data-stu-id="841bf-123">Find your next project with the Project Finder Mobile app</span></span>](../psa/find-next-project-finder-mobile-app.md)  
   
-### <a name="see-also"></a><span data-ttu-id="a2ed0-124">ดูเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="a2ed0-124">See Also</span></span>  
- <span data-ttu-id="a2ed0-125">[ภาพรวมของ Project Service](../psa/overview.md) </span><span class="sxs-lookup"><span data-stu-id="a2ed0-125">[Overview of Project Service](../psa/overview.md) </span></span>  
- <span data-ttu-id="a2ed0-126">[คู่มือของผู้ดูแลระบบ](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="a2ed0-126">[Administrator Guide](../psa/admin-guide.md) </span></span>  
- <span data-ttu-id="a2ed0-127">[คำแนะนำผู้จัดการลูกค้าองค์กร](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="a2ed0-127">[Account Manager Guide](../psa/account-manager-guide.md) </span></span>  
- <span data-ttu-id="a2ed0-128">[คำแนะนำของผู้จัดการโครงการ](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="a2ed0-128">[Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
- [<span data-ttu-id="a2ed0-129">คำแนะนำของผู้จัดการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="a2ed0-129">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)   
+### <a name="see-also"></a><span data-ttu-id="841bf-124">ดูเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="841bf-124">See Also</span></span>  
+ <span data-ttu-id="841bf-125">[ภาพรวมของ Project Service](../psa/overview.md) </span><span class="sxs-lookup"><span data-stu-id="841bf-125">[Overview of Project Service](../psa/overview.md) </span></span>  
+ <span data-ttu-id="841bf-126">[คู่มือของผู้ดูแลระบบ](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="841bf-126">[Administrator Guide](../psa/admin-guide.md) </span></span>  
+ <span data-ttu-id="841bf-127">[คำแนะนำผู้จัดการลูกค้าองค์กร](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="841bf-127">[Account Manager Guide](../psa/account-manager-guide.md) </span></span>  
+ <span data-ttu-id="841bf-128">[คำแนะนำของผู้จัดการโครงการ](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="841bf-128">[Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
+ [<span data-ttu-id="841bf-129">คำแนะนำของผู้จัดการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="841bf-129">Resource Manager Guide</span></span>](../psa/resource-manager-guide.md)   
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

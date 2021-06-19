@@ -2,8 +2,6 @@
 title: จองทรัพยากรที่มีชื่อจากความต้องการทรัพยากร
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจองทรัพยากรที่มีชื่อสำหรับความต้องการทรัพยากรทั่วไป
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/11/2018
@@ -18,54 +16,54 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 50858d4fc55285b2e91117c6cbfb2419931b4197
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: c2f97107de938975491770ab4e2ed18a3145d0e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5291057"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013419"
 ---
-# <a name="book-named-resources-from-resource-requirements"></a><span data-ttu-id="2aff6-103">จองทรัพยากรที่มีชื่อจากความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="2aff6-103">Book named resources from resource requirements</span></span>
+# <a name="book-named-resources-from-resource-requirements"></a><span data-ttu-id="88bd5-103">จองทรัพยากรที่มีชื่อจากความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="88bd5-103">Book named resources from resource requirements</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-<span data-ttu-id="2aff6-104">คุณสามารถจองทรัพยากรที่มีชื่อเพื่อแทนที่ทรัพยากรทั่วไปที่มีความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="2aff6-104">You can book a named resource to replace generic resource that has a resource requirement.</span></span>
+<span data-ttu-id="88bd5-104">คุณสามารถจองทรัพยากรที่มีชื่อเพื่อแทนที่ทรัพยากรทั่วไปที่มีความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="88bd5-104">You can book a named resource to replace generic resource that has a resource requirement.</span></span>
 
-1. <span data-ttu-id="2aff6-105">ใน Project Service Automation (PSA) บนหน้า **โครงการ** ให้คลิกแท็บ **ทีม**</span><span class="sxs-lookup"><span data-stu-id="2aff6-105">In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.</span></span>
-2. <span data-ttu-id="2aff6-106">เลือกทรัพยากรทั่วไปที่มีความต้องการทรัพยากรจากรายการ จากนั้นคลิก **จอง**</span><span class="sxs-lookup"><span data-stu-id="2aff6-106">Select the generic resource that has a resource requirement from the list and then click **Book**.</span></span> <span data-ttu-id="2aff6-107">หรือเปิดความต้องการทรัพยากรแล้วคลิก **จอง**</span><span class="sxs-lookup"><span data-stu-id="2aff6-107">Or, open the resource requirement and then click **Book**.</span></span>
+1. <span data-ttu-id="88bd5-105">ใน Project Service Automation (PSA) บนหน้า **โครงการ** ให้คลิกแท็บ **ทีม**</span><span class="sxs-lookup"><span data-stu-id="88bd5-105">In Project Service Automation (PSA), on the **Projects** page, click the **Team** tab.</span></span>
+2. <span data-ttu-id="88bd5-106">เลือกทรัพยากรทั่วไปที่มีความต้องการทรัพยากรจากรายการ จากนั้นคลิก **จอง**</span><span class="sxs-lookup"><span data-stu-id="88bd5-106">Select the generic resource that has a resource requirement from the list and then click **Book**.</span></span> <span data-ttu-id="88bd5-107">หรือเปิดความต้องการทรัพยากรแล้วคลิก **จอง**</span><span class="sxs-lookup"><span data-stu-id="88bd5-107">Or, open the resource requirement and then click **Book**.</span></span>
 
 
 ![จองสมาชิกทีมทั่วไป](media/RM-how-to-14.png)
 
 
-3. <span data-ttu-id="2aff6-109">บนหน้า **ตัวช่วยจัดกำหนดการ** ให้เลือกทรัพยากรที่มีชื่อเพื่อจองลงในทีมโครงการของคุณ แล้วคลิก **จอง**</span><span class="sxs-lookup"><span data-stu-id="2aff6-109">On the **Schedule Assistant** page, select a named resource to book onto your project team and then click **Book**.</span></span>
+3. <span data-ttu-id="88bd5-109">บนหน้า **ตัวช่วยจัดกำหนดการ** ให้เลือกทรัพยากรที่มีชื่อเพื่อจองลงในทีมโครงการของคุณ แล้วคลิก **จอง**</span><span class="sxs-lookup"><span data-stu-id="88bd5-109">On the **Schedule Assistant** page, select a named resource to book onto your project team and then click **Book**.</span></span>
 
 ![การจองสมาชิกในทีมทั่วไปโดยใช้ผู้ช่วยจัดกำหนดการ](media/RM-how-to-15.png)
 
-<span data-ttu-id="2aff6-111">เมื่อการจองเสร็จสมบูรณ์และบรรลุเป้าหมายโดยทรัพยากรที่มีชื่อแล้ว ทรัพยากรทั่วไปจะถูกแทนที่ด้วยทรัพยากรที่มีชื่อ</span><span class="sxs-lookup"><span data-stu-id="2aff6-111">When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.</span></span>
+<span data-ttu-id="88bd5-111">เมื่อการจองเสร็จสมบูรณ์และบรรลุเป้าหมายโดยทรัพยากรที่มีชื่อแล้ว ทรัพยากรทั่วไปจะถูกแทนที่ด้วยทรัพยากรที่มีชื่อ</span><span class="sxs-lookup"><span data-stu-id="88bd5-111">When the booking is complete and fulfilled by a named resource, the generic resource is replaced with the named resource.</span></span>
 
 ![สมาชิกในทีมที่มีชื่อแทนที่สมาชิกในทีมทั่วไป](media/RM-how-to-16.png)
 
-<span data-ttu-id="2aff6-113">การกำหนดในกำหนดการจะมีการปรับปรุงด้วยทรัพยากรที่มีชื่อเช่นเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="2aff6-113">The assignments on the schedule are updated with the named resource as well.</span></span>
+<span data-ttu-id="88bd5-113">การกำหนดในกำหนดการจะมีการปรับปรุงด้วยทรัพยากรที่มีชื่อเช่นเดียวกัน</span><span class="sxs-lookup"><span data-stu-id="88bd5-113">The assignments on the schedule are updated with the named resource as well.</span></span>
 
 ![สมาชิกทีมที่มีชื่อถูกมอบหมายให้กับงานโครงการ](media/RM-how-to-17.png)
 
-## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a><span data-ttu-id="2aff6-115">เติมเต็มทรัพยากรทั่วไปด้วยหลายทรัพยากรที่มีชื่อ</span><span class="sxs-lookup"><span data-stu-id="2aff6-115">Fulfill a generic resource with multiple named resources</span></span>
-<span data-ttu-id="2aff6-116">เติมเต็มความต้องการสำหรับทรัพยากรทั่วไปด้วยหลายทรัพยากรที่มีชื่อจะคล้ายกับการกำหนดทรัพยากรที่มีชื่อเดียว</span><span class="sxs-lookup"><span data-stu-id="2aff6-116">Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource.</span></span> <span data-ttu-id="2aff6-117">ตัวอย่างเช่น มีงานที่มีระยะเวลาห้าวัน และ 120 ชั่วโมงของความพยายาม</span><span class="sxs-lookup"><span data-stu-id="2aff6-117">For example, there is a task with a duration of five days and 120 hours of effort.</span></span> <span data-ttu-id="2aff6-118">งานนี้ไม่สามารถเสร็จสมบูรณ์โดยทรัพยากรหนึ่งที่ทำงานเป็นเวลาแปดชั่วโมงทั่วไปในระยะห้าวันต่อสัปดาห์ได้</span><span class="sxs-lookup"><span data-stu-id="2aff6-118">This task can't be completed by one resource that works a typical eight-hour day over a five day week.</span></span> 
+## <a name="fulfill-a-generic-resource-with-multiple-named-resources"></a><span data-ttu-id="88bd5-115">เติมเต็มทรัพยากรทั่วไปด้วยหลายทรัพยากรที่มีชื่อ</span><span class="sxs-lookup"><span data-stu-id="88bd5-115">Fulfill a generic resource with multiple named resources</span></span>
+<span data-ttu-id="88bd5-116">เติมเต็มความต้องการสำหรับทรัพยากรทั่วไปด้วยหลายทรัพยากรที่มีชื่อจะคล้ายกับการกำหนดทรัพยากรที่มีชื่อเดียว</span><span class="sxs-lookup"><span data-stu-id="88bd5-116">Fulfilling a requirement for a generic resource with multiple named resources is similar to assigning a single named resource.</span></span> <span data-ttu-id="88bd5-117">ตัวอย่างเช่น มีงานที่มีระยะเวลาห้าวัน และ 120 ชั่วโมงของความพยายาม</span><span class="sxs-lookup"><span data-stu-id="88bd5-117">For example, there is a task with a duration of five days and 120 hours of effort.</span></span> <span data-ttu-id="88bd5-118">งานนี้ไม่สามารถเสร็จสมบูรณ์โดยทรัพยากรหนึ่งที่ทำงานเป็นเวลาแปดชั่วโมงทั่วไปในระยะห้าวันต่อสัปดาห์ได้</span><span class="sxs-lookup"><span data-stu-id="88bd5-118">This task can't be completed by one resource that works a typical eight-hour day over a five day week.</span></span> 
 
 ![งานที่ต้องใช้ความพยายาม 120 ชั่วโมงมากกว่าห้าวัน](media/RM-how-to-21.png)
 
-<span data-ttu-id="2aff6-120">ข้อกำหนดคือสำหรับ 120 ชั่วโมงของวิศวกรรมหุ่นยนต์ในห้าวัน ซึ่งเป็น 24 ชั่วโมงต่อวัน</span><span class="sxs-lookup"><span data-stu-id="2aff6-120">The requirement is for 120 hours of robotics engineering over five days, which is 24 hours per day.</span></span>
+<span data-ttu-id="88bd5-120">ข้อกำหนดคือสำหรับ 120 ชั่วโมงของวิศวกรรมหุ่นยนต์ในห้าวัน ซึ่งเป็น 24 ชั่วโมงต่อวัน</span><span class="sxs-lookup"><span data-stu-id="88bd5-120">The requirement is for 120 hours of robotics engineering over five days, which is 24 hours per day.</span></span>
 
 ![ข้อกำหนดต่อวัน](media/RM-how-to-22.png)
 
-<span data-ttu-id="2aff6-122">นี่คือตัวอย่างเมื่อหลายทรัพยากรที่มีชื่อมีความจำเป็นในการตอบสนองการร้องขอของทรัพยากรทั่วไป</span><span class="sxs-lookup"><span data-stu-id="2aff6-122">This is an example of when multiple named resources are needed to fulfill a generic resource request.</span></span> <span data-ttu-id="2aff6-123">คุณจะต้องจองทรัพยากรหลายรายการเพื่อตอบสนองความต้องการ</span><span class="sxs-lookup"><span data-stu-id="2aff6-123">You will need to book multiple resources to fulfill the requirement.</span></span>
+<span data-ttu-id="88bd5-122">นี่คือตัวอย่างเมื่อหลายทรัพยากรที่มีชื่อมีความจำเป็นในการตอบสนองการร้องขอของทรัพยากรทั่วไป</span><span class="sxs-lookup"><span data-stu-id="88bd5-122">This is an example of when multiple named resources are needed to fulfill a generic resource request.</span></span> <span data-ttu-id="88bd5-123">คุณจะต้องจองทรัพยากรหลายรายการเพื่อตอบสนองความต้องการ</span><span class="sxs-lookup"><span data-stu-id="88bd5-123">You will need to book multiple resources to fulfill the requirement.</span></span>
 
 ![การจองทรัพยากรหลายรายการเพื่อตอบสนองความต้องการ](media/RM-how-to-23.png)
 
-<span data-ttu-id="2aff6-125">ความแตกต่างหลักในสถานการณ์สมมตินี้คือว่า ทรัพยากรทั่วไปยังคงอยู่บนทีมที่กำหนดให้กับงาน และสมาชิกทีมทรัพยากรที่มีชื่อไม่ได้ถูกกำหนดเป็นส่วนหนึ่งของตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="2aff6-125">The main difference in this scenario is that the generic resource remains on the team assigned to the task, and the booked named resource team members are not assigned as part of the position.</span></span> <span data-ttu-id="2aff6-126">ผู้จัดการโครงการสามารถกำหนดงานตามความเหมาะสมกับทรัพยากรที่มีชื่อ</span><span class="sxs-lookup"><span data-stu-id="2aff6-126">The project manager can assign the work as appropriate to the named resources.</span></span> <span data-ttu-id="2aff6-127">มุมมอง **การกระทบยอด** สามารถช่วยผู้จัดการโครงการในการแบ่งการจองในหลายทรัพยากรไปเป็นการมอบหมายงาน</span><span class="sxs-lookup"><span data-stu-id="2aff6-127">The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments.</span></span> <span data-ttu-id="2aff6-128">จะไม่มีการทำโดยอัตโนมัติเพราะในสถานการณ์ที่ซับซ้อนมากขึ้นกว่าตัวอย่างง่ายๆ ข้างต้น เช่น เมื่อคุณมีกลุ่มของงานที่ทำให้เกิดความต้องการขึ้น เจตนาของวิธีการที่ผู้จัดการโครงการต้องการที่จะกำหนด จะต้องมีการสันนิษฐานโดยระบบ</span><span class="sxs-lookup"><span data-stu-id="2aff6-128">This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system.</span></span> <span data-ttu-id="2aff6-129">เนื่องจากระบบไม่สามารถเข้าใจเจตนา ก็มีโอกาสที่สมมติฐานจะแตกต่างจากที่ตั้งใจและผลลัพธ์ที่เกิดขึ้นอาจไม่ถูกต้องหรือคาดเดาไม่ได้</span><span class="sxs-lookup"><span data-stu-id="2aff6-129">Because the system can't understand intent, chances are that the assumptions will be different than intended and an incorrect or unpredictable result will happen.</span></span> <span data-ttu-id="2aff6-130">ผลลัพธ์ที่คาดการณ์ได้คือเมื่อทรัพยากรทั่วไปยังคงถูกกำหนดไว้จนกว่าผู้จัดการโครงการจะสร้างงานมอบหมายโดยเจตนา ด้วยความช่วยเหลือของมุมมอง **การกระทบยอด**</span><span class="sxs-lookup"><span data-stu-id="2aff6-130">The predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.</span></span>
+<span data-ttu-id="88bd5-125">ความแตกต่างหลักในสถานการณ์สมมตินี้คือว่า ทรัพยากรทั่วไปยังคงอยู่บนทีมที่กำหนดให้กับงาน และสมาชิกทีมทรัพยากรที่มีชื่อไม่ได้ถูกกำหนดเป็นส่วนหนึ่งของตำแหน่ง</span><span class="sxs-lookup"><span data-stu-id="88bd5-125">The main difference in this scenario is that the generic resource remains on the team assigned to the task, and the booked named resource team members are not assigned as part of the position.</span></span> <span data-ttu-id="88bd5-126">ผู้จัดการโครงการสามารถกำหนดงานตามความเหมาะสมกับทรัพยากรที่มีชื่อ</span><span class="sxs-lookup"><span data-stu-id="88bd5-126">The project manager can assign the work as appropriate to the named resources.</span></span> <span data-ttu-id="88bd5-127">มุมมอง **การกระทบยอด** สามารถช่วยผู้จัดการโครงการในการแบ่งการจองในหลายทรัพยากรไปเป็นการมอบหมายงาน</span><span class="sxs-lookup"><span data-stu-id="88bd5-127">The **Reconciliation** view can assist a project manager in breaking up the bookings across multiple resources to task assignments.</span></span> <span data-ttu-id="88bd5-128">จะไม่มีการทำโดยอัตโนมัติเพราะในสถานการณ์ที่ซับซ้อนมากขึ้นกว่าตัวอย่างง่ายๆ ข้างต้น เช่น เมื่อคุณมีกลุ่มของงานที่ทำให้เกิดความต้องการขึ้น เจตนาของวิธีการที่ผู้จัดการโครงการต้องการที่จะกำหนด จะต้องมีการสันนิษฐานโดยระบบ</span><span class="sxs-lookup"><span data-stu-id="88bd5-128">This is not done automatically because in any scenario more complicated than the simple example above, such as where you have a bundle of tasks making up the requirement, the intent of how the project manager wants to assign, needs to be assumed by the system.</span></span> <span data-ttu-id="88bd5-129">เนื่องจากระบบไม่สามารถเข้าใจเจตนา ก็มีโอกาสที่สมมติฐานจะแตกต่างจากที่ตั้งใจและผลลัพธ์ที่เกิดขึ้นอาจไม่ถูกต้องหรือคาดเดาไม่ได้</span><span class="sxs-lookup"><span data-stu-id="88bd5-129">Because the system can't understand intent, chances are that the assumptions will be different than intended and an incorrect or unpredictable result will happen.</span></span> <span data-ttu-id="88bd5-130">ผลลัพธ์ที่คาดการณ์ได้คือเมื่อทรัพยากรทั่วไปยังคงถูกกำหนดไว้จนกว่าผู้จัดการโครงการจะสร้างงานมอบหมายโดยเจตนา ด้วยความช่วยเหลือของมุมมอง **การกระทบยอด**</span><span class="sxs-lookup"><span data-stu-id="88bd5-130">The predictable outcome is that the generic resource remains assigned until the project manager deliberately creates assignments, with the assistance of the **Reconciliation** view.</span></span>
 
 
 
