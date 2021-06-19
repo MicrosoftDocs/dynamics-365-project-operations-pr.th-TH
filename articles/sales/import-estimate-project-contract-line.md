@@ -2,18 +2,16 @@
 title: นำเข้าการประมาณการไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการนำเข้าการประมาณการจากโครงการไปยังรายละเอียดการให้บริการตามสัญญา
 author: rumant
-manager: Annbe
 ms.date: 10/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: d51eb890a4744051ddd7268e1f1f11b15a23b609
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: f8d9637e4a8bd09664c43ccc2b02514dc825997e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5278396"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6010269"
 ---
 # <a name="import-an-estimate-to-a-project-based-contract-line"></a>นำเข้าการประมาณการไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ
 

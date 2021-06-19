@@ -2,8 +2,6 @@
 title: ตั้งค่าหน่วยเวลา
 description: วิธีการตั้งค่าหน่วยเวลาใน Project Service
 author: revathimuthiah
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 66ea761dba58a81b682280d09045b1a23eaa4f3b
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 7167eaee2842df5358b4de7ea40f65ef0364baf8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5282356"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6008199"
 ---
 # <a name="set-up-time-units-project-service"></a>ตั้งค่าหน่วยเวลา (Project Service)
 
