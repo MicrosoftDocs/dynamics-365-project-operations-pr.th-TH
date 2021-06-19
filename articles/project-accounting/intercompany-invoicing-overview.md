@@ -2,18 +2,16 @@
 title: ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
 description: หัวข้อนี้ให้ข้อมูลและตัวอย่างเกี่ยวกับการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการ
 author: sigitac
-manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 3ad75089de1a2f99646f7aba213e199a2bec347d
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 42af89105f8325f1c94df6d2133d2c329facf2b3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5287351"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6002664"
 ---
 # <a name="intercompany-invoicing-overview"></a>ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
 
@@ -21,7 +19,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 องค์กรของคุณอาจมีหลายแผนก บริษัท หน่วยย่อย และนิติบุคคลอื่นๆ ที่โอนผลิตภัณฑ์และบริการซึ่งกันและกันสำหรับโครงการต่างๆ นิติบุคคลที่ให้บริการหรือผลิตภัณฑ์เรียกว่า *นิติบุคคลที่ให้ยืม* นิติบุคคลที่รับบริการหรือผลิตภัณฑ์เรียกว่า *นิติบุคคลที่กู้ยืม*
 
-ภาพประกอบต่อไปนี้แสดงสถานการณ์ทั่วไปที่นิติบุคคล 2 แห่งคือ Contoso Robotics USA (นิติบุคคลที่กู้ยืม) และ Contoso Robotics UK (นิติบุคคลที่ให้ยืม) ใช้ทรัพยากรร่วมกันเพื่อส่งมอบโครงการให้กับลูกค้า Adventure works สำหรับสถานการณ์นี้ Contoso Robotics USA ได้รับสัญญาให้ส่งมอบงานให้กับ Adventure Works
+ภาพประกอบต่อไปนี้แสดงสถานการณ์สมมติทั่วไปที่นิติบุคคลสองราย Contoso Robotics USA (นิติบุคคลที่ขอยืม) และ Contoso Robotics UK (นิติบุคคลที่ให้ยืม) แบ่งปันทรัพยากรเพื่อส่งมอบโครงการให้กับลูกค้า Adventure Works สำหรับสถานการณ์นี้ Contoso Robotics USA ได้รับการว่าจ้างให้ส่งมอบงานให้กับ Adventure Works
 
 ![การออกใบแจ้งหนี้ระหว่างบริษัท](./media/IntercompanyScenario.png) 
 
