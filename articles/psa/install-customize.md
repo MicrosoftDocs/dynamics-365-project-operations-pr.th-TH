@@ -2,8 +2,6 @@
 title: ติดตั้งและกำหนดเอง
 description: วิธีการติดตั้งและกำหนด Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.date: 8/03/2018
 ms.topic: article
@@ -17,44 +15,44 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: cbce900adece5880f22962b5efb859a8d65c6904
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 93891931f07d5cb16a8773f4c360cff1187f8dbf
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5947947"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6015129"
 ---
-# <a name="install-and-customize-project-service"></a><span data-ttu-id="8bfa5-103">ติดตั้งและกำหนดค่า (Project Service)</span><span class="sxs-lookup"><span data-stu-id="8bfa5-103">Install and customize (Project Service)</span></span>
+# <a name="install-and-customize-project-service"></a><span data-ttu-id="8dc91-103">ติดตั้งและกำหนดค่า (Project Service)</span><span class="sxs-lookup"><span data-stu-id="8dc91-103">Install and customize (Project Service)</span></span>
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
-<span data-ttu-id="8bfa5-104">ความสามารถของ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เป็นโซลูชันแบบครบวงจรที่คุณต้องติดตั้ง ก่อนที่ผู้ใช้จะสามารถเริ่มต้นการใช้ความสามารถในการจัดการและการจัดส่งการขายตามโครงการได้</span><span class="sxs-lookup"><span data-stu-id="8bfa5-104">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities are an end-to-end solution that you need to install before users can start using the capabilities to manage and deliver project-based sales.</span></span> <span data-ttu-id="8bfa5-105">ขณะที่อยู่ในโซลูชันสิ้นสุด คุณยังคงสามารถทำการกำหนดได้ตามความจำเป็นให้เหมาะสมกับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="8bfa5-105">While it's an end-to-end solution, you can still make customizations as needed to suit your organization.</span></span>  
+<span data-ttu-id="8dc91-104">ความสามารถของ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เป็นโซลูชันแบบครบวงจรที่คุณต้องติดตั้ง ก่อนที่ผู้ใช้จะสามารถเริ่มต้นการใช้ความสามารถในการจัดการและการจัดส่งการขายตามโครงการได้</span><span class="sxs-lookup"><span data-stu-id="8dc91-104">[!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] capabilities are an end-to-end solution that you need to install before users can start using the capabilities to manage and deliver project-based sales.</span></span> <span data-ttu-id="8dc91-105">ขณะที่อยู่ในโซลูชันสิ้นสุด คุณยังคงสามารถทำการกำหนดได้ตามความจำเป็นให้เหมาะสมกับองค์กรของคุณ</span><span class="sxs-lookup"><span data-stu-id="8dc91-105">While it's an end-to-end solution, you can still make customizations as needed to suit your organization.</span></span>  
 <!-- TODO: I expect to find the information on how to get and install this here. Please find that and add it here. Same for Project Service.--> 
   
-## <a name="install-project-service"></a><span data-ttu-id="8bfa5-106">ติดตั้ง Project Service</span><span class="sxs-lookup"><span data-stu-id="8bfa5-106">Install Project Service</span></span>  
- [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] <span data-ttu-id="8bfa5-107">เป็นโซลูชันที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="8bfa5-107">is a preferred solution.</span></span> <span data-ttu-id="8bfa5-108">มีวิธีหลายวิธีในการซื้อโซลูชัน</span><span class="sxs-lookup"><span data-stu-id="8bfa5-108">There are several ways to purchase the solution.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="8bfa5-109">[เริ่มการทำงานสำหรับองค์กรและผู้ใช้ของคุณ](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)</span><span class="sxs-lookup"><span data-stu-id="8bfa5-109">[Onboard your organization and users](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).</span></span>  
+## <a name="install-project-service"></a><span data-ttu-id="8dc91-106">ติดตั้ง Project Service</span><span class="sxs-lookup"><span data-stu-id="8dc91-106">Install Project Service</span></span>  
+ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] <span data-ttu-id="8dc91-107">เป็นโซลูชันที่เหมาะสม</span><span class="sxs-lookup"><span data-stu-id="8dc91-107">is a preferred solution.</span></span> <span data-ttu-id="8dc91-108">มีวิธีหลายวิธีในการซื้อโซลูชัน</span><span class="sxs-lookup"><span data-stu-id="8dc91-108">There are several ways to purchase the solution.</span></span> [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] <span data-ttu-id="8dc91-109">[เริ่มการทำงานสำหรับองค์กรและผู้ใช้ของคุณ](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online)</span><span class="sxs-lookup"><span data-stu-id="8dc91-109">[Onboard your organization and users](/dynamics365/customerengagement/on-premises/admin/onboard-your-organization-and-users-to-dynamics-365-online).</span></span>  
   
-## <a name="customize-pn_project_service_auto-forms-and-reports"></a><span data-ttu-id="8bfa5-110">กำหนดฟอร์มและรายงาน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ตามความต้องการ</span><span class="sxs-lookup"><span data-stu-id="8bfa5-110">Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports</span></span>  
- <span data-ttu-id="8bfa5-111">ถ้าคุณต้องการกำหนดฟอร์ม [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] แดชบอร์ด หรือรายงานใดๆ ด้วยตนเอง คุณสามารถค้นหาข้อมูลเพิ่มเติมในลิงก์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="8bfa5-111">If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information in the following links:</span></span>  
+## <a name="customize-pn_project_service_auto-forms-and-reports"></a><span data-ttu-id="8dc91-110">กำหนดฟอร์มและรายงาน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ตามความต้องการ</span><span class="sxs-lookup"><span data-stu-id="8dc91-110">Customize [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms and reports</span></span>  
+ <span data-ttu-id="8dc91-111">ถ้าคุณต้องการกำหนดฟอร์ม [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] แดชบอร์ด หรือรายงานใดๆ ด้วยตนเอง คุณสามารถค้นหาข้อมูลเพิ่มเติมในลิงก์ต่อไปนี้:</span><span class="sxs-lookup"><span data-stu-id="8dc91-111">If you want to customize any of the [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] forms, dashboards, or reports, you can find more information in the following links:</span></span>  
   
-- [<span data-ttu-id="8bfa5-112">เริ่มต้นใช้งานการสร้างแอปและการกำหนด</span><span class="sxs-lookup"><span data-stu-id="8bfa5-112">Get started with app making and customization</span></span>](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
+- [<span data-ttu-id="8dc91-112">เริ่มต้นใช้งานการสร้างแอปและการกำหนด</span><span class="sxs-lookup"><span data-stu-id="8dc91-112">Get started with app making and customization</span></span>](/dynamics365/customerengagement/on-premises/customize/getting-started-customization)  
   
-- [<span data-ttu-id="8bfa5-113">สร้างและออกแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="8bfa5-113">Create and design forms</span></span>](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
+- [<span data-ttu-id="8dc91-113">สร้างและออกแบบฟอร์ม</span><span class="sxs-lookup"><span data-stu-id="8dc91-113">Create and design forms</span></span>](/dynamics365/customerengagement/on-premises/customize/create-design-forms)  
   
-- [<span data-ttu-id="8bfa5-114">การสร้างและแก้ไขแดชบอร์ด</span><span class="sxs-lookup"><span data-stu-id="8bfa5-114">Create and edit dashboards</span></span>](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
+- [<span data-ttu-id="8dc91-114">การสร้างและแก้ไขแดชบอร์ด</span><span class="sxs-lookup"><span data-stu-id="8dc91-114">Create and edit dashboards</span></span>](/dynamics365/customerengagement/on-premises/customize/create-edit-dashboards)  
   
-- [<span data-ttu-id="8bfa5-115">กระบวนการสร้างและแก้ไข</span><span class="sxs-lookup"><span data-stu-id="8bfa5-115">Create and edit processes</span></span>](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
+- [<span data-ttu-id="8dc91-115">กระบวนการสร้างและแก้ไข</span><span class="sxs-lookup"><span data-stu-id="8dc91-115">Create and edit processes</span></span>](/dynamics365/customerengagement/on-premises/customize/guide-staff-through-common-tasks-processes)  
   
-- [<span data-ttu-id="8bfa5-116">บทนำสู่การรายงานและการวิเคราะห์</span><span class="sxs-lookup"><span data-stu-id="8bfa5-116">Introduction to reporting & analytics</span></span>](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
+- [<span data-ttu-id="8dc91-116">บทนำสู่การรายงานและการวิเคราะห์</span><span class="sxs-lookup"><span data-stu-id="8dc91-116">Introduction to reporting & analytics</span></span>](/dynamics365/customerengagement/on-premises/analytics/reporting-analytics-with-dynamics-365)  
   
-### <a name="see-also"></a><span data-ttu-id="8bfa5-117">ดูเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="8bfa5-117">See Also</span></span>  
- <span data-ttu-id="8bfa5-118">[คู่มือของผู้ดูแลระบบ](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="8bfa5-118">[Administrator Guide](../psa/admin-guide.md) </span></span>  
- <span data-ttu-id="8bfa5-119">[คำแนะนำผู้จัดการลูกค้าองค์กร](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="8bfa5-119">[Account Manager Guide](../psa/account-manager-guide.md) </span></span>  
- <span data-ttu-id="8bfa5-120">[คำแนะนำของผู้จัดการโครงการ](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="8bfa5-120">[Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
- <span data-ttu-id="8bfa5-121">[คำแนะนำของผู้จัดการทรัพยากร](../psa/resource-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="8bfa5-121">[Resource Manager Guide](../psa/resource-manager-guide.md) </span></span>  
- [<span data-ttu-id="8bfa5-122">เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="8bfa5-122">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
+### <a name="see-also"></a><span data-ttu-id="8dc91-117">ดูเพิ่มเติม</span><span class="sxs-lookup"><span data-stu-id="8dc91-117">See Also</span></span>  
+ <span data-ttu-id="8dc91-118">[คู่มือของผู้ดูแลระบบ](../psa/admin-guide.md) </span><span class="sxs-lookup"><span data-stu-id="8dc91-118">[Administrator Guide](../psa/admin-guide.md) </span></span>  
+ <span data-ttu-id="8dc91-119">[คำแนะนำผู้จัดการลูกค้าองค์กร](../psa/account-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="8dc91-119">[Account Manager Guide](../psa/account-manager-guide.md) </span></span>  
+ <span data-ttu-id="8dc91-120">[คำแนะนำของผู้จัดการโครงการ](../psa/project-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="8dc91-120">[Project Manager Guide](../psa/project-manager-guide.md) </span></span>  
+ <span data-ttu-id="8dc91-121">[คำแนะนำของผู้จัดการทรัพยากร](../psa/resource-manager-guide.md) </span><span class="sxs-lookup"><span data-stu-id="8dc91-121">[Resource Manager Guide](../psa/resource-manager-guide.md) </span></span>  
+ [<span data-ttu-id="8dc91-122">เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน</span><span class="sxs-lookup"><span data-stu-id="8dc91-122">Time, Expense, and Collaboration Guide</span></span>](../psa/time-expense-collaboration-guide.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

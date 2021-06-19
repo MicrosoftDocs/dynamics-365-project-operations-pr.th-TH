@@ -2,46 +2,44 @@
 title: ทักษะและการรับรอง
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการเพิ่มลักษณะทักษะและการรับรองให้กับทรัพยากร
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 68675ca95f78382e7a3702805da840a5c8ef2f50
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 966db35a4af55665105518b51e90a494db199397
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279206"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6014094"
 ---
-# <a name="skills-and-certifications"></a><span data-ttu-id="76ba6-103">ทักษะและการรับรอง</span><span class="sxs-lookup"><span data-stu-id="76ba6-103">Skills and certifications</span></span>
-<span data-ttu-id="76ba6-104">_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_</span><span class="sxs-lookup"><span data-stu-id="76ba6-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
+# <a name="skills-and-certifications"></a><span data-ttu-id="96704-103">ทักษะและการรับรอง</span><span class="sxs-lookup"><span data-stu-id="96704-103">Skills and certifications</span></span>
+<span data-ttu-id="96704-104">_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_</span><span class="sxs-lookup"><span data-stu-id="96704-104">_**Applies To:** Project Operations for resource/non-stocked based scenarios, Lite deployment - deal to proforma invoicing_</span></span>
 
-<span data-ttu-id="76ba6-105">ลักษณะมีการใช้เพื่อเพิ่มคุณลักษณะที่ใช้เพื่ออธิบายความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="76ba6-105">Characteristics are used to enrich the attributes used to describe the abilities of a resource.</span></span> <span data-ttu-id="76ba6-106">ลักษณะแต่ละอย่างของทรัพยากรสามารถอธิบายเป็น **ทักษะ** หรือ **การรับรอง**</span><span class="sxs-lookup"><span data-stu-id="76ba6-106">Each characteristic of a resource can be described as a **Skill** or a **Certification**.</span></span>
+<span data-ttu-id="96704-105">ลักษณะมีการใช้เพื่อเพิ่มคุณลักษณะที่ใช้เพื่ออธิบายความสามารถของทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="96704-105">Characteristics are used to enrich the attributes used to describe the abilities of a resource.</span></span> <span data-ttu-id="96704-106">ลักษณะแต่ละอย่างของทรัพยากรสามารถอธิบายเป็น **ทักษะ** หรือ **การรับรอง**</span><span class="sxs-lookup"><span data-stu-id="96704-106">Each characteristic of a resource can be described as a **Skill** or a **Certification**.</span></span>
 
-<span data-ttu-id="76ba6-107">การเพิ่มลักษณะให้กับความต้องการทรัพยากรช่วยให้คุณสามารถจัดทำเอกสารความรู้หรือความเชี่ยวชาญที่ทรัพยากรต้องการเพื่อทำงานในโครงการให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="76ba6-107">Adding characteristics to resource requirements lets you document the knowledge or expertise needed by a resource to complete tasks on a project.</span></span> <span data-ttu-id="76ba6-108">ลักษณะเฉพาะช่วยให้คุณกรองรายการทรัพยากรที่มีให้เป็นทรัพยากรที่มีลักษณะที่ต้องการเมื่อจัดกำหนดการความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="76ba6-108">Characteristics let you filter the list of available resources to those resources that have the required characteristics when scheduling the resource requirement.</span></span>
+<span data-ttu-id="96704-107">การเพิ่มลักษณะให้กับความต้องการทรัพยากรช่วยให้คุณสามารถจัดทำเอกสารความรู้หรือความเชี่ยวชาญที่ทรัพยากรต้องการเพื่อทำงานในโครงการให้เสร็จสมบูรณ์</span><span class="sxs-lookup"><span data-stu-id="96704-107">Adding characteristics to resource requirements lets you document the knowledge or expertise needed by a resource to complete tasks on a project.</span></span> <span data-ttu-id="96704-108">ลักษณะเฉพาะช่วยให้คุณกรองรายการทรัพยากรที่มีให้เป็นทรัพยากรที่มีลักษณะที่ต้องการเมื่อจัดกำหนดการความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="96704-108">Characteristics let you filter the list of available resources to those resources that have the required characteristics when scheduling the resource requirement.</span></span>
 
-## <a name="add-characteristics"></a><span data-ttu-id="76ba6-109">เพิ่มคุณลักษณะ</span><span class="sxs-lookup"><span data-stu-id="76ba6-109">Add characteristics</span></span>
+## <a name="add-characteristics"></a><span data-ttu-id="96704-109">เพิ่มคุณลักษณะ</span><span class="sxs-lookup"><span data-stu-id="96704-109">Add characteristics</span></span>
 
-1. <span data-ttu-id="76ba6-110">จากเมนูหลัก เปิด **ทรัพยากร** และในส่วน **ทรัพยากร** ให้เลือก **ทักษะ**</span><span class="sxs-lookup"><span data-stu-id="76ba6-110">From the main menu, open **Resources** and in the **Resources** section, select **Skills**.</span></span>
-2. <span data-ttu-id="76ba6-111">เลือก **สร้าง** เพื่อเพิ่มคุณลักษณะ</span><span class="sxs-lookup"><span data-stu-id="76ba6-111">Select **New** to add characteristics.</span></span>
-3. <span data-ttu-id="76ba6-112">กรอกข้อมูลในฟิลด์ที่จำเป็น แล้วเลือก **ชนิดลักษณะ**</span><span class="sxs-lookup"><span data-stu-id="76ba6-112">Fill in the required fields and select the **Characteristic Type**.</span></span>
+1. <span data-ttu-id="96704-110">จากเมนูหลัก เปิด **ทรัพยากร** และในส่วน **ทรัพยากร** ให้เลือก **ทักษะ**</span><span class="sxs-lookup"><span data-stu-id="96704-110">From the main menu, open **Resources** and in the **Resources** section, select **Skills**.</span></span>
+2. <span data-ttu-id="96704-111">เลือก **สร้าง** เพื่อเพิ่มคุณลักษณะ</span><span class="sxs-lookup"><span data-stu-id="96704-111">Select **New** to add characteristics.</span></span>
+3. <span data-ttu-id="96704-112">กรอกข้อมูลในฟิลด์ที่จำเป็น แล้วเลือก **ชนิดลักษณะ**</span><span class="sxs-lookup"><span data-stu-id="96704-112">Fill in the required fields and select the **Characteristic Type**.</span></span>
 
-## <a name="assign-characteristics-to-resources"></a><span data-ttu-id="76ba6-113">กำหนดคุณลักษณะให้กับทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="76ba6-113">Assign characteristics to resources</span></span>
+## <a name="assign-characteristics-to-resources"></a><span data-ttu-id="96704-113">กำหนดคุณลักษณะให้กับทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="96704-113">Assign characteristics to resources</span></span>
 
-1. <span data-ttu-id="76ba6-114">จากเมนูหลัก เลือก **ทรัพยากร** > **ทรัพยากรที่สามารถจองได้**</span><span class="sxs-lookup"><span data-stu-id="76ba6-114">From the main menu, select **Resources** > **Bookable Resources**.</span></span> <span data-ttu-id="76ba6-115">เพจ **ทรัพยากรที่สามารถจองได้ที่ใช้งานอยู่** จะเปิดขึ้น และคุณสามารถดูรายการทรัพยากรที่มีอยู่ทั้งหมดในระบบ</span><span class="sxs-lookup"><span data-stu-id="76ba6-115">The **Active Bookable Resources** page opens and you can view a list of all available resources in the system.</span></span>
-2. <span data-ttu-id="76ba6-116">จากรายการ เลือกชื่อของทรัพยากรที่สามารถจองได้</span><span class="sxs-lookup"><span data-stu-id="76ba6-116">From the list, select the name of a bookable resource.</span></span>
-3. <span data-ttu-id="76ba6-117">ในส่วน **Project Service** เลือก **+เพิ่มเรกคอร์ดคุณลักษณะทรัพยากรที่สามารถจองได้**</span><span class="sxs-lookup"><span data-stu-id="76ba6-117">In the **Project Service** section, select **+Add Bookable Resource Characteristics record**.</span></span>
-4. <span data-ttu-id="76ba6-118">ในหน้าต่างแบบป๊อปอัพที่เปิดขึ้น ให้ค้นหาและเลือกลักษณะเฉพาะที่ต้องการ และเพิ่ม **ค่าการจัดอันดับคะแนน** สำหรับทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="76ba6-118">In the pop-up window that opens, find and select the required characteristics, and add a **Rating Value** for the resource.</span></span>
-5. <span data-ttu-id="76ba6-119">เลือก **บันทึกและปิด**</span><span class="sxs-lookup"><span data-stu-id="76ba6-119">Select **Save & Close**.</span></span>
+1. <span data-ttu-id="96704-114">จากเมนูหลัก เลือก **ทรัพยากร** > **ทรัพยากรที่สามารถจองได้**</span><span class="sxs-lookup"><span data-stu-id="96704-114">From the main menu, select **Resources** > **Bookable Resources**.</span></span> <span data-ttu-id="96704-115">เพจ **ทรัพยากรที่สามารถจองได้ที่ใช้งานอยู่** จะเปิดขึ้น และคุณสามารถดูรายการทรัพยากรที่มีอยู่ทั้งหมดในระบบ</span><span class="sxs-lookup"><span data-stu-id="96704-115">The **Active Bookable Resources** page opens and you can view a list of all available resources in the system.</span></span>
+2. <span data-ttu-id="96704-116">จากรายการ เลือกชื่อของทรัพยากรที่สามารถจองได้</span><span class="sxs-lookup"><span data-stu-id="96704-116">From the list, select the name of a bookable resource.</span></span>
+3. <span data-ttu-id="96704-117">ในส่วน **Project Service** เลือก **+เพิ่มเรกคอร์ดคุณลักษณะทรัพยากรที่สามารถจองได้**</span><span class="sxs-lookup"><span data-stu-id="96704-117">In the **Project Service** section, select **+Add Bookable Resource Characteristics record**.</span></span>
+4. <span data-ttu-id="96704-118">ในหน้าต่างแบบป๊อปอัพที่เปิดขึ้น ให้ค้นหาและเลือกลักษณะเฉพาะที่ต้องการ และเพิ่ม **ค่าการจัดอันดับคะแนน** สำหรับทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="96704-118">In the pop-up window that opens, find and select the required characteristics, and add a **Rating Value** for the resource.</span></span>
+5. <span data-ttu-id="96704-119">เลือก **บันทึกและปิด**</span><span class="sxs-lookup"><span data-stu-id="96704-119">Select **Save & Close**.</span></span>
 
-## <a name="assign-characteristics-to-resource-requirements"></a><span data-ttu-id="76ba6-120">กำหนดลักษณะเฉพาะให้กับความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="76ba6-120">Assign characteristics to resource requirements</span></span>
+## <a name="assign-characteristics-to-resource-requirements"></a><span data-ttu-id="96704-120">กำหนดลักษณะเฉพาะให้กับความต้องการทรัพยากร</span><span class="sxs-lookup"><span data-stu-id="96704-120">Assign characteristics to resource requirements</span></span>
 
-1. <span data-ttu-id="76ba6-121">ในตารางสมาชิกทีม ให้ค้นหาและดับเบิลคลิกสมาชิกทีมทั่วไปที่มีลักษณะเฉพาะที่ต้องปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="76ba6-121">In the team member grid, find and double-click the generic team member with the characteristics that need to be updated.</span></span>
-2. <span data-ttu-id="76ba6-122">ใน **รายละเอียดสมาชิกทีมโครงการ** เลือกแท็บ **ความต้องการทรัพยากร**</span><span class="sxs-lookup"><span data-stu-id="76ba6-122">In the **Project Team member Detail**, select the **Resource Requirement** tab.</span></span>
-3. <span data-ttu-id="76ba6-123">ในตารางย่อย **ทักษะ** เลือก **+ เพิ่มลักษณะเฉพาะความต้องการใหม่**</span><span class="sxs-lookup"><span data-stu-id="76ba6-123">In the **Skills** subgrid, select **+Add new Requirement Characteristic.**</span></span>
-4. <span data-ttu-id="76ba6-124">ในบานหน้าต่างสร้างด่วน ให้ค้นหาและเลือกลักษณะเฉพาะที่ต้องการ และเพิ่ม **ค่าการจัดอันดับคะแนน**</span><span class="sxs-lookup"><span data-stu-id="76ba6-124">In the quick create pane, find and select the required characteristics and add a **Rating Value**.</span></span>
-5. <span data-ttu-id="76ba6-125">เลือก **บันทึกและปิด**</span><span class="sxs-lookup"><span data-stu-id="76ba6-125">Select **Save & Close**.</span></span>
+1. <span data-ttu-id="96704-121">ในตารางสมาชิกทีม ให้ค้นหาและดับเบิลคลิกสมาชิกทีมทั่วไปที่มีลักษณะเฉพาะที่ต้องปรับปรุง</span><span class="sxs-lookup"><span data-stu-id="96704-121">In the team member grid, find and double-click the generic team member with the characteristics that need to be updated.</span></span>
+2. <span data-ttu-id="96704-122">ใน **รายละเอียดสมาชิกทีมโครงการ** เลือกแท็บ **ความต้องการทรัพยากร**</span><span class="sxs-lookup"><span data-stu-id="96704-122">In the **Project Team member Detail**, select the **Resource Requirement** tab.</span></span>
+3. <span data-ttu-id="96704-123">ในตารางย่อย **ทักษะ** เลือก **+ เพิ่มลักษณะเฉพาะความต้องการใหม่**</span><span class="sxs-lookup"><span data-stu-id="96704-123">In the **Skills** subgrid, select **+Add new Requirement Characteristic.**</span></span>
+4. <span data-ttu-id="96704-124">ในบานหน้าต่างสร้างด่วน ให้ค้นหาและเลือกลักษณะเฉพาะที่ต้องการ และเพิ่ม **ค่าการจัดอันดับคะแนน**</span><span class="sxs-lookup"><span data-stu-id="96704-124">In the quick create pane, find and select the required characteristics and add a **Rating Value**.</span></span>
+5. <span data-ttu-id="96704-125">เลือก **บันทึกและปิด**</span><span class="sxs-lookup"><span data-stu-id="96704-125">Select **Save & Close**.</span></span>
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
