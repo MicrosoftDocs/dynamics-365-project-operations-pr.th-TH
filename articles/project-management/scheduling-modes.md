@@ -2,18 +2,16 @@
 title: โหมดการจัดกำหนดการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับโหมดการจัดกำหนดการ
 author: ruhercul
-manager: AnnBe
-ms.date: 05/04/2021
+ms.date: 05/28/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: fe54944999617b248ff925148a78601dd4be7aca
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 508ff1df8f7e31066712fab6f8871dfdb107a43b
+ms.sourcegitcommit: fc96c6eb9a2094f9fa3d1ae39646730ef9d558ba
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981458"
+ms.lasthandoff: 05/28/2021
+ms.locfileid: "6116730"
 ---
 # <a name="scheduling-modes"></a>โหมดการจัดกำหนดการ
 
@@ -25,12 +23,12 @@ Dynamics 365 Project Operations ให้ความสามารถสำห
 มีโหมดการจัดกำหนดการสามโหมดที่พร้อมใช้งานใน Project Operations:
 
   - ระยะเวลาคงที่ (นี่คือโหมดเริ่มต้น)
-  - งานตายตัว
+  - ความพยายามคงที่ (*งาน*)
   - หน่วยคงที่
 
 ค่าที่ได้รับผลกระทบจากคำจำกัดความของโหมดการจัดกำหนดการเฉพาะ ถูกกำหนดโดยสูตรต่อไปนี้:
 
-  ความพยายาม (*งาน*) = ระยะเวลา x หน่วย
+  ความพยายาม = ระยะเวลา x หน่วย
 
 เมื่อคุณกำหนดโหมดการจัดกำหนดการของโครงการ คุณกำลังตั้งค่าหนึ่งในค่าเหล่านี้ ซึ่งจะไม่สามารถเปลี่ยนแปลงได้ การถือค่านี้เป็นค่าคงที่จะจัดลำดับความสำคัญให้กับค่านั้น ซึ่งจะแจ้งให้ระบบไม่เปลี่ยนแปลงเมื่อค่าอีกสองค่าเปลี่ยนไป ตารางต่อไปนี้ให้ข้อมูลเกี่ยวกับผลกระทบของการเลือกโหมดเฉพาะ
 
