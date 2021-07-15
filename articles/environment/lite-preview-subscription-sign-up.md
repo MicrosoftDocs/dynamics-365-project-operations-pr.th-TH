@@ -2,93 +2,70 @@
 title: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสมัครใช้งานและปรับใช้งาน Project Operations Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 author: sigitac
-ms.date: 10/07/2020
+ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 4de51277e5a08690cc16497e3916f40498b39fb8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 2b5a65f5e29915c349d40400ebbf3e4923b36a67
+ms.sourcegitcommit: 52b26950bb3b1596ad81aa4ff91745ee9615d1b0
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5997444"
+ms.lasthandoff: 07/02/2021
+ms.locfileid: "6334805"
 ---
-# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="ee055-103">ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite</span><span class="sxs-lookup"><span data-stu-id="ee055-103">Sign up for a preview subscription - lite</span></span> 
+# <a name="sign-up-for-a-preview-subscription---lite"></a><span data-ttu-id="74886-103">ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite</span><span class="sxs-lookup"><span data-stu-id="74886-103">Sign up for a preview subscription - lite</span></span> 
 
-<span data-ttu-id="ee055-104">หัวข้อ นี้อธิบายวิธีสมัครรับข้อเสนอรุ่นพรีวิวของคู่ค้าและใช้การปรับใช้งาน Dynamics 365 Project Operations แบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว</span><span class="sxs-lookup"><span data-stu-id="ee055-104">This topic explains how to subscribe to the preview partner offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
+<span data-ttu-id="74886-104">หัวข้อนี้อธิบายวิธีสมัครรับข้อเสนอรุ่นทดลองใช้งานและการปรับใช้งาน Dynamics 365 Project Operations แบบ lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว</span><span class="sxs-lookup"><span data-stu-id="74886-104">This topic explains how to subscribe to the trial offer and deploy Dynamics 365 Project Operations lite deployment - deal to proforma invoicing.</span></span>
 
 > [!NOTE]
-> <span data-ttu-id="ee055-105">กระบวนการนี้จะเปลี่ยนไปใน Project Operations รุ่นที่กำลังจะออกมา</span><span class="sxs-lookup"><span data-stu-id="ee055-105">This process will change in upcoming releases of Project Operations.</span></span>
+> <span data-ttu-id="74886-105">กระบวนการนี้จะเปลี่ยนไปใน Project Operations รุ่นที่กำลังจะออกมา</span><span class="sxs-lookup"><span data-stu-id="74886-105">This process will change in upcoming releases of Project Operations.</span></span>
 
-## <a name="prerequisites"></a><span data-ttu-id="ee055-106">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="ee055-106">Prerequisites</span></span>
-
-- <span data-ttu-id="ee055-107">คุณจะได้รับอีเมลเชิญให้คุณเข้าร่วมในการทดลองใช้รุ่นพรีวิว</span><span class="sxs-lookup"><span data-stu-id="ee055-107">You'll receive an email inviting you to participate in the preview.</span></span> <span data-ttu-id="ee055-108">คุณสามารถขอรุ่นพรีวิวได้ที่ [เว็บไซต์ Project Operations](https://dynamics.microsoft.com/en-us/project-operations/overview/)</span><span class="sxs-lookup"><span data-stu-id="ee055-108">You can request a preview on the [Project Operations website](https://dynamics.microsoft.com/en-us/project-operations/overview/).</span></span>
-- <span data-ttu-id="ee055-109">ผู้ใช้ที่ปรับใช้งานรุ่นพรีวิวต้องมีสิทธิ์ของผู้ดูแลระบบส่วนกลางของลูกค้า Azure</span><span class="sxs-lookup"><span data-stu-id="ee055-109">The user who deploys the preview must have Azure tenant global administrator rights.</span></span>
-- <span data-ttu-id="ee055-110">ตรวจสอบข้อกำหนดและเงื่อนไขทั้งหมด</span><span class="sxs-lookup"><span data-stu-id="ee055-110">Review all terms and conditions.</span></span>
-
-## <a name="subscribe"></a><span data-ttu-id="ee055-111">สมัครรับข้อมูล</span><span class="sxs-lookup"><span data-stu-id="ee055-111">Subscribe</span></span>
-
-<span data-ttu-id="ee055-112">เมื่อคุณได้รับการอนุมัติ [คำขอรุ่นพรีวิว](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) คุณจะได้รับข้อเสนอสองข้อจาก Microsoft ทางอีเมล</span><span class="sxs-lookup"><span data-stu-id="ee055-112">When you receive a [preview request](https://forms.office.com/FormsPro/Pages/ResponsePage.aspx?id=v4j5cvGGr0GRqy180BHbR56j8lZs0FdAvwT75_WNFyxUMkRDV1NYQU5TNjE2VjhKOVBUNVg2R0s1NC4u) approval, you'll receive two offers from Microsoft by email.</span></span> <span data-ttu-id="ee055-113">ข้อเสนอเหล่านี้ช่วยให้คุณสามารถปรับใช้งาน Project Operations รุ่นพรีวิว:</span><span class="sxs-lookup"><span data-stu-id="ee055-113">These offers allow you to deploy the Project Operations Preview:</span></span>
-
-- <span data-ttu-id="ee055-114">Dynamics 365 Project Operations (CRM) - การทดลองใช้รุ่นพรีวิว</span><span class="sxs-lookup"><span data-stu-id="ee055-114">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span>
-- <span data-ttu-id="ee055-115">Office 365 Project Operations - การทดลองใช้รุ่นพรีวิว</span><span class="sxs-lookup"><span data-stu-id="ee055-115">Office 365 Project Operations - Preview Trial</span></span>
+## <a name="prerequisites"></a><span data-ttu-id="74886-106">ข้อกำหนดเบื้องต้น</span><span class="sxs-lookup"><span data-stu-id="74886-106">Prerequisites</span></span>
+- <span data-ttu-id="74886-107">ผู้ใช้ที่ปรับใช้งานรุ่นพรีวิวต้องมีสิทธิ์ของผู้ดูแลระบบส่วนกลางของลูกค้า Azure</span><span class="sxs-lookup"><span data-stu-id="74886-107">The user who deploys the preview must have Azure tenant global administrator rights.</span></span> <span data-ttu-id="74886-108">คุณสามารถสร้างผู้เช่าได้ในระหว่างการแลกรับข้อเสนอครั้งแรก</span><span class="sxs-lookup"><span data-stu-id="74886-108">You can create a tenant during the first offer redemption.</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="ee055-116">มีเพียงคนเดียวคือ ผู้เช่าที่เป็นผู้ดูแลระบบ ในองค์กรเท่านั้นที่ต้องทำงานนี้</span><span class="sxs-lookup"><span data-stu-id="ee055-116">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="ee055-117">หากคุณไม่ใช่สมาชิกของรุ่นนี้ ให้รอจนกว่าองค์กรของคุณจะลงทะเบียนและคุณได้รับข้อมูลประจำตัวของผู้ใช้ของคุณ</span><span class="sxs-lookup"><span data-stu-id="ee055-117">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> <span data-ttu-id="74886-109">มีเพียงคนเดียวคือ ผู้เช่าที่เป็นผู้ดูแลระบบ ในองค์กรเท่านั้นที่ต้องทำงานนี้</span><span class="sxs-lookup"><span data-stu-id="74886-109">Only one person, the tenant administrator, in an organization needs to perform this task.</span></span> <span data-ttu-id="74886-110">หากคุณไม่ใช่สมาชิกของรุ่นนี้ ให้รอจนกว่าองค์กรของคุณจะลงทะเบียนและคุณได้รับข้อมูลประจำตัวของผู้ใช้ของคุณ</span><span class="sxs-lookup"><span data-stu-id="74886-110">If you aren't the subscriber to this release, wait until your organization has been signed up and you've received your user credentials.</span></span>
+> 
+> <span data-ttu-id="74886-111">รุ่นทดลองใช้เป็นแบบใช้ครั้งเดียวในผู้เช่า</span><span class="sxs-lookup"><span data-stu-id="74886-111">Trials are single use in the tenant.</span></span> <span data-ttu-id="74886-112">คุณสามารถเรียกใช้รุ่นทดลองใช้เพียงครั้งเดียวเท่านั้น</span><span class="sxs-lookup"><span data-stu-id="74886-112">You can only run a trial one time.</span></span> <span data-ttu-id="74886-113">เราขอแนะนำให้คุณสร้างผู้เช่าใหม่เพื่อวัตถุประสงค์ในรุ่นทดลองใช้งาน</span><span class="sxs-lookup"><span data-stu-id="74886-113">We recommend that you create a new tenant for the purpose of the trial.</span></span>
 
-### <a name="dynamics-365-project-operations-crm---preview-trial"></a><span data-ttu-id="ee055-118">Dynamics 365 Project Operations (CRM) - การทดลองใช้รุ่นพรีวิว</span><span class="sxs-lookup"><span data-stu-id="ee055-118">Dynamics 365 Project Operations (CRM) - Preview Trial</span></span> 
+### <a name="dynamics-365-project-operations-trial"></a><span data-ttu-id="74886-114">การทดลองใช้ Dynamics 365 Project Operations</span><span class="sxs-lookup"><span data-stu-id="74886-114">Dynamics 365 Project Operations trial</span></span> 
 
-<span data-ttu-id="ee055-119">ก่อนที่คุณจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ลงชื่อเข้าใช้เบราว์เซอร์ด้วยบัญชีงานของผู้ใช้ในผู้เช่าที่คุณต้องการดูตัวอย่าง Project Operations</span><span class="sxs-lookup"><span data-stu-id="ee055-119">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
+<span data-ttu-id="74886-115">ก่อนที่คุณจะเริ่ม ตรวจสอบให้แน่ใจว่าคุณได้ลงชื่อเข้าใช้เบราว์เซอร์ด้วยบัญชีงานของผู้ใช้ในผู้เช่าที่คุณต้องการดูตัวอย่าง Project Operations</span><span class="sxs-lookup"><span data-stu-id="74886-115">Before you begin, make sure you are logged in to a browser with the user work account in the tenant where you want the Project Operations preview.</span></span>
 
-1. <span data-ttu-id="ee055-120">แลกรหัสข้อเสนอแรก **Dynamics 365 Project Operations (CRM) - การทดลองใช้รุ่นพรีวิว** โดยวางลงใน URL ของเบราว์เซอร์</span><span class="sxs-lookup"><span data-stu-id="ee055-120">Redeem the first offer code, **Dynamics 365 Project Operations (CRM) - Preview Trial** by pasting it into the browser URL.</span></span>
+1. <span data-ttu-id="74886-116">ไปที่ [รุ่นทดลองใช้ Project Operations](https://aka.ms/try-po) เพื่อแลกรหัสข้อเสนอแรก **Dynamics 365 Project Operations**</span><span class="sxs-lookup"><span data-stu-id="74886-116">Go to [Project Operations Trial](https://aka.ms/try-po) to redeem the first offer code, **Dynamics 365 Project Operations**.</span></span>
+2. <span data-ttu-id="74886-117">ยืนยันใบสั่งของคุณ</span><span class="sxs-lookup"><span data-stu-id="74886-117">Confirm your order.</span></span>
 
-![แลกรับข้อเสนอ](./media/16RedeemFirstOfferNew.png)
+  <span data-ttu-id="74886-118">คุณจะเห็นว่าแลกรับข้อเสนอการยืนยันเรียบร้อยแล้ว</span><span class="sxs-lookup"><span data-stu-id="74886-118">You'll see the confirmation offer was successfully redeemed.</span></span>
 
-2. <span data-ttu-id="ee055-122">ยืนยันใบสั่งของคุณ</span><span class="sxs-lookup"><span data-stu-id="ee055-122">Confirm your order.</span></span>
-<span data-ttu-id="ee055-123">![ยืนยันใบสั่ง](./media/17ConfirmOrderNew.png)</span><span class="sxs-lookup"><span data-stu-id="ee055-123">![Confirm the order](./media/17ConfirmOrderNew.png)</span></span>
-
-<span data-ttu-id="ee055-124">คุณจะเห็นข้อเสนอยืนยันแลกสำเร็จแล้ว</span><span class="sxs-lookup"><span data-stu-id="ee055-124">You'll see confirmation offer was successfully redeemed.</span></span>
-
-![การยืนยัน](./media/18OrderConfirmationNew.png)
-
-### <a name="office-365-project-operations---preview-trial"></a><span data-ttu-id="ee055-126">Office 365 Project Operations - การทดลองใช้รุ่นพรีวิว</span><span class="sxs-lookup"><span data-stu-id="ee055-126">Office 365 Project Operations - Preview Trial</span></span>
-
-<span data-ttu-id="ee055-127">ทำซ้ำขั้นตอนเดียวกันกับรหัสข้อเสนอแรก</span><span class="sxs-lookup"><span data-stu-id="ee055-127">Repeat the same steps as with the first offer code.</span></span> <span data-ttu-id="ee055-128">อย่าลืมเพิ่มรหัสข้อเสนอที่สองโดยใช้บัญชีผู้ใช้เดียวกับที่ใช้กับรหัสข้อเสนอแรก</span><span class="sxs-lookup"><span data-stu-id="ee055-128">Make sure to add the second offer code using the same user account that was used with the first offer code.</span></span>
-
-## <a name="assign-licenses"></a><span data-ttu-id="ee055-129">มอบหมายสิทธิ์การใช้งาน</span><span class="sxs-lookup"><span data-stu-id="ee055-129">Assign licenses</span></span>
+## <a name="assign-licenses"></a><span data-ttu-id="74886-119">มอบหมายสิทธิ์การใช้งาน</span><span class="sxs-lookup"><span data-stu-id="74886-119">Assign licenses</span></span>
 
 > [!IMPORTANT]
-> <span data-ttu-id="ee055-130">คุณจะต้องมีสิทธิ์การเข้าถึงระดับผู้ดูแลระบบสำหรับพอร์ทัล Microsoft 365 ขององค์กรของคุณเพื่อทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="ee055-130">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
+> <span data-ttu-id="74886-120">คุณจะต้องมีสิทธิ์การเข้าถึงระดับผู้ดูแลระบบสำหรับพอร์ทัล Microsoft 365 ขององค์กรของคุณเพื่อทำตามขั้นตอนต่อไปนี้</span><span class="sxs-lookup"><span data-stu-id="74886-120">You will need administrative access to your organization's Microsoft 365 Portal to complete the following steps.</span></span>
 
 
-1. <span data-ttu-id="ee055-131">ไปที่ [ศูนย์จัดการ Microsoft 365](https://portal.office.com/) เพื่อมอบหมายสิทธิ์การใช้งานให้กับผู้ใช้ของคุณ</span><span class="sxs-lookup"><span data-stu-id="ee055-131">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+1. <span data-ttu-id="74886-121">ไปที่ [ศูนย์จัดการ Microsoft 365](https://portal.office.com/) เพื่อมอบหมายสิทธิ์การใช้งานให้กับผู้ใช้ของคุณ</span><span class="sxs-lookup"><span data-stu-id="74886-121">Go to [Microsoft 365 admin center](https://portal.office.com/) to assign the licenses to your users.</span></span>
+2. <span data-ttu-id="74886-122">บนเพจ **ผู้ใช้ที่ใช้งานอยู่** เลือกผู้ใช้ที่คุณต้องการมอบหมายสิทธิ์การใช้งาน</span><span class="sxs-lookup"><span data-stu-id="74886-122">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+3. <span data-ttu-id="74886-123">ตรวจสอบว่าเลือกสิทธิ์การใช้งาน **Dynamics 365 Project Operations**</span><span class="sxs-lookup"><span data-stu-id="74886-123">Verify that the **Dynamics 365 Project Operations** license is selected.</span></span> 
+4. <span data-ttu-id="74886-124">เลือก **บันทึกการเปลี่ยนแปลง**</span><span class="sxs-lookup"><span data-stu-id="74886-124">Select **Save changes**.</span></span>
 
-![โฮมเพจศูนย์การจัดการ](./media/14AdminPortal.png)
+## <a name="create-a-new-dataverse-environment"></a><span data-ttu-id="74886-125">สร้างสภาพแวดล้อม Dataverse ใหม่</span><span class="sxs-lookup"><span data-stu-id="74886-125">Create a new Dataverse environment</span></span>
 
-2. <span data-ttu-id="ee055-133">บนเพจ **ผู้ใช้ที่ใช้งานอยู่** เลือกผู้ใช้ที่คุณต้องการมอบหมายสิทธิ์การใช้งาน</span><span class="sxs-lookup"><span data-stu-id="ee055-133">On the **Active users** page, select the users that you want to assign a license to.</span></span>
+1. <span data-ttu-id="74886-126">จัดเตรียมสภาพแวดล้อมการปรับใช้งาน Project Operations Dataverse ใหม่โดยทำตามคำแนะนำในหัวข้อ [รูปแบบการปรับใช้งาน Dataverse](lite-deployment.md)</span><span class="sxs-lookup"><span data-stu-id="74886-126">Provision a new Project Operations Dataverse deployment environment by following instructions in the topic, [Dataverse deployment model](lite-deployment.md).</span></span> <span data-ttu-id="74886-127">เมื่อคุณเลือกประเภทสภาพแวดล้อม อย่าลืมใช้ **การทดลองใช้ (ตามการสมัครสมาชิก)**</span><span class="sxs-lookup"><span data-stu-id="74886-127">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
 
-![มอบหมายสิทธิ์การใช้งาน](./media/15AssignLicenses.png)
+  ![สภาพแวดล้อมใหม่](./media/19CreateEnvironment.png)
 
-3. <span data-ttu-id="ee055-135">ตรวจสอบว่ามีการเลือกสิทธืการใช้งาน **Dynamics 365 Project Operations (CRM) พรีวิว** และ **Office 365 Project Operations - พรีวิว** หรือไม่</span><span class="sxs-lookup"><span data-stu-id="ee055-135">Verify that the **Dynamics 365 Project Operations (CRM) Preview** and **Office 365 Project Operations - Preview** licenses are selected.</span></span> 
-4. <span data-ttu-id="ee055-136">เลือก **บันทึกการเปลี่ยนแปลง**</span><span class="sxs-lookup"><span data-stu-id="ee055-136">Select **Save changes**.</span></span>
+2. <span data-ttu-id="74886-129">เลือกการตั้งค่า **เปิดใช้งานแอป Dynamics 365** และปล่อย **ปรับใช้แอปเหล่านี้โดยอัตโนมัติ** ว่างเปล่า</span><span class="sxs-lookup"><span data-stu-id="74886-129">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
+3. <span data-ttu-id="74886-130">เลือก **บันทึก** เพื่อสร้างสภาพแวดล้อมใหม่</span><span class="sxs-lookup"><span data-stu-id="74886-130">Select **Save** to create the environment.</span></span>
 
-## <a name="create-a-new-cds-environment"></a><span data-ttu-id="ee055-137">สร้างสภาพแวดล้อม CDS ใหม่</span><span class="sxs-lookup"><span data-stu-id="ee055-137">Create a new CDS environment</span></span>
+  ![เพิ่มฐานข้อมูล](./media/20CreateEnvironment1.png)
 
-1. <span data-ttu-id="ee055-138">จัดเตรียมสภาพแวดล้อมการปรับใช้งาน Project Operations CDS ใหม่โดยทำตามคำแนะนำในหัวข้อ [รูปแบบการปรับใช้งาน CDS](lite-deployment.md)</span><span class="sxs-lookup"><span data-stu-id="ee055-138">Provision a new Project Operations CDS deployment environment by following instructions in the topic, [CDS deployment model](lite-deployment.md).</span></span> <span data-ttu-id="ee055-139">เมื่อคุณเลือกประเภทสภาพแวดล้อม อย่าลืมใช้ **การทดลองใช้ (ตามการสมัครสมาชิก)**</span><span class="sxs-lookup"><span data-stu-id="ee055-139">When you select the environment type, make sure to use **Trial (Subscription based)**.</span></span>
-<span data-ttu-id="ee055-140">![สภาพแวดล้อมใหม่](./media/19CreateEnvironment.png)</span><span class="sxs-lookup"><span data-stu-id="ee055-140">![New environment](./media/19CreateEnvironment.png)</span></span>
-
-2. <span data-ttu-id="ee055-141">เลือกการตั้งค่า **เปิดใช้งานแอป Dynamics 365** และปล่อย **ปรับใช้แอปเหล่านี้โดยอัตโนมัติ** ว่างเปล่า</span><span class="sxs-lookup"><span data-stu-id="ee055-141">Select the **Enable Dynamics 365 apps** setting, and leave **Automatically deploy these apps** blank.</span></span>  
-3. <span data-ttu-id="ee055-142">เลือก **บันทึก** เพื่อสร้างสภาพแวดล้อมใหม่</span><span class="sxs-lookup"><span data-stu-id="ee055-142">Select **Save** to create the environment.</span></span>
-
-![เพิ่มฐานข้อมูล](./media/20CreateEnvironment1.png)
-
-4. <span data-ttu-id="ee055-144">หลังจากสร้างสภาพแวดล้อมแล้ว ให้ติดตั้งโซลูชัน **Microsoft Dynamics 365 Project Operations**</span><span class="sxs-lookup"><span data-stu-id="ee055-144">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
+4. <span data-ttu-id="74886-132">หลังจากสร้างสภาพแวดล้อมแล้ว ให้ติดตั้งโซลูชัน **Microsoft Dynamics 365 Project Operations**</span><span class="sxs-lookup"><span data-stu-id="74886-132">After the environment is created, install **Microsoft Dynamics 365 Project Operations** solution.</span></span> 
 
 ![ติดตั้งโซลูชัน](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="ee055-146">ติดตั้งการกำหนดค่า CDS และตั้งค่าข้อมูลสาธิต</span><span class="sxs-lookup"><span data-stu-id="ee055-146">Install a CDS configuration and setup demo data</span></span>
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a><span data-ttu-id="74886-134">ติดตั้งการกำหนดค่า CDS และตั้งค่าข้อมูลสาธิต</span><span class="sxs-lookup"><span data-stu-id="74886-134">Install a CDS configuration and setup demo data</span></span>
 
-<span data-ttu-id="ee055-147">ติดตั้งการกำหนดค่า CDS และตั้งค่าข้อมูลสาธิตโดยทำตามคำแนะนำในหัวข้อ [ใช้การตั้งค่าการสาธิตและข้อมูลการกำหนดค่า](lite-apply-demo-setup-config-data.md)</span><span class="sxs-lookup"><span data-stu-id="ee055-147">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
+<span data-ttu-id="74886-135">ติดตั้งการกำหนดค่า CDS และตั้งค่าข้อมูลสาธิตโดยทำตามคำแนะนำในหัวข้อ [ใช้การตั้งค่าการสาธิตและข้อมูลการกำหนดค่า](lite-apply-demo-setup-config-data.md)</span><span class="sxs-lookup"><span data-stu-id="74886-135">Install the CDS configuration and set up demo data by following instructions in the topic, [Apply demo setup and configuration data](lite-apply-demo-setup-config-data.md).</span></span>
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
