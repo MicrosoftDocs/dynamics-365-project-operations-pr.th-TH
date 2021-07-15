@@ -28,6 +28,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: ปรับใช้งานสภาพแวดล้อม
           items:
+            - name: ปรับใช้แอป Project Operations Dataverse พร้อมการรองรับการรวมแบบสองทิศทาง
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: เตรียมใช้งานสภาพแวดล้อมใหม่
               href: environment/resource-provision-new-environment.md
             - name: โมเดลความปลอดภัย
@@ -50,8 +52,12 @@
               href: environment/resource-dual-write-expense.md
             - name: การรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: environment/resource-dual-write-vendor-invoice.md
-    - name: มีอะไรใหม่
+    - name: มีอะไรใหม่บ้าง
       items:
+        - name: กรกฎาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: มิถุนายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: พฤษภาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -282,7 +288,7 @@
           items:
             - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
               href: project-management/dev-copy-project.md
-            - name: ใช้ API กำหนดการ (พรีวิวสำหรับสาธารณะ)
+            - name: ใช้ API กำหนดการโครงการ (พรีวิวสำหรับสาธารณะ)
               href: project-management/schedule-api-preview.md
     - name: การจัดการทรัพยากร
       items:
@@ -436,8 +442,6 @@
       items:
         - name: ภาพรวมของการประมวลผลใบแจ้งหนี้
           href: invoicing/post-project-invoices.md
-        - name: จัดการข้อเสนอใบแจ้งหนี้โครงการชั่วคราว
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: การออกใบแจ้งหนี้ชั่วคราว
           items:
             - name: จัดการรายการคงค้างของการเรียกเก็บเงินตามโครงการ
@@ -456,8 +460,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้ตามโครงการ
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: จัดการข้อเสนอใบแจ้งหนี้โครงการชั่วคราว
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: การออกใบแจ้งหนี้สำหรับลูกค้า
+          items:
+            - name: จัดการข้อเสนอใบแจ้งหนี้โครงการ
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: แก้ไขการบัญชีบนข้อเสนอใบแจ้งหนี้โครงการฉบับร่าง
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: การออกใบแจ้งหนี้ระหว่างบริษัท
+          items:
+            - name: ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: กำหนดค่าการออกใบแจ้งหนี้ระหว่างบริษัท
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: สร้างธุรกรรมระหว่างบริษัท
+              href: project-accounting/create-intercompany-transactions.md
+            - name: สร้างใบแจ้งหนี้ของลูกค้าและผู้ขายระหว่างบริษัท
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: การบัญชีของโครงการ
       items:
         - name: ค่าเริ่มต้นของมิติทางการเงิน
@@ -470,16 +488,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: สมุดรายวันการรวมใน Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: การออกใบแจ้งหนี้ระหว่างบริษัท
-          items:
-            - name: ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: กำหนดค่าการออกใบแจ้งหนี้ระหว่างบริษัท
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: สร้างธุรกรรมระหว่างบริษัท
-              href: project-accounting/create-intercompany-transactions.md
-            - name: สร้างใบแจ้งหนี้ของลูกค้าและผู้ขายระหว่างบริษัท
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: การรับรู้รายได้
       items:
         - name: ภาพรวมการรับรู้รายได้
@@ -510,8 +518,12 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: โมเดลความปลอดภัย
           href: environment/security-model.md
-    - name: มีอะไรใหม่
+    - name: มีอะไรใหม่บ้าง
       items:
+        - name: มีอะไรใหม่เดือนกรกฎาคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: มีอะไรใหม่เดือนมิถุนายน 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: มีอะไรใหม่เดือนพฤษภาคม 2021 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: มีอะไรใหม่เดือนเมษายน 2021 - การปรับใช้งานแบบ Lite
@@ -762,7 +774,7 @@
           items:
             - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
               href: project-management/dev-copy-project.md
-            - name: ใช้ API กำหนดการ (พรีวิวสำหรับสาธารณะ)
+            - name: ใช้ API กำหนดการโครงการ (พรีวิวสำหรับสาธารณะ)
               href: project-management/schedule-api-preview.md
     - name: การจัดการทรัพยากร
       items:
@@ -880,8 +892,12 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
   items:
-    - name: มีอะไรใหม่
+    - name: มีอะไรใหม่บ้าง
       items:
+        - name: มีอะไรใหม่ในเดือนกรกฎาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: มีอะไรใหม่ในเดือนพฤษภาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนเมษายน 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนมีนาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
@@ -1030,10 +1046,14 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: มีอะไรใหม่
+    - name: มีอะไรใหม่บ้าง
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 31, V3'
