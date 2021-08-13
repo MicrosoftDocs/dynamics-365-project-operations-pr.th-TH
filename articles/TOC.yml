@@ -832,6 +832,16 @@
           items:
             - name: ภาพรวมการใช้ประโยชน์ของทรัพยากร
               href: resource-management/resource-utilization-overview.md
+    - name: การจัดการการรับเหมารายย่อยใน Project Operations
+      items:
+        - name: กำลังจัดการภาพรวมการรับเหมารายย่อย
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: แนวคิดหลักในการรับเหมารายย่อย
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: กำลังจัดการผู้จัดจำหน่ายและราคาตลาดของโครงการ
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: ผู้รับเหมารายย่อยเป็นทรัพยาการที่สามารถจองได้
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
     - name: เวลา
       items:
         - name: ภาพรวมของเวลา
@@ -1050,6 +1060,8 @@
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 34, V3'
+          href: psa/whats-new-ur-34.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 33, V3'
           href: psa/whats-new-ur-33.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 32.5, V3'
