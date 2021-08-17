@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 5dbf9c7158ce7d9e568e270791e7e7aaf8ce731d
-ms.sourcegitcommit: 3abf1e67938d91bd826b025ae3187cd313f556b9
+ms.openlocfilehash: 69507427521466335df9cbbaba79db1cfc7be91386b8b2ded5b1c384555946ee
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6433541"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008069"
 ---
 # <a name="whats-new-july-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนกรกฎาคม 2021 - Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
@@ -20,7 +20,7 @@ ms.locfileid: "6433541"
 
 หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
 
-   - Project Operations ในสภาพแวดล้อม Microsoft Dataverse รุ่น 4.12.0.148.
+   - Project Operations ในสภาพแวดล้อม Microsoft Dataverse เวอร์ชัน 4.12.0.148 หรือ 4.12.0.152
    - การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance รุ่น 10.0.20
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในรุ่นนี้:
@@ -79,7 +79,7 @@ ms.locfileid: "6433541"
 | ทั่วไป                       | 2296857              | การติดตามความคืบหน้าสำหรับงานระยะยาว                                                                                                                                                                        |
 | ทั่วไป                       | 2253682              | โซลูชันการรวมแบบสองทิศทางของ Project Operations ไม่ควรติดตั้งเมื่อติดตั้งการรวมแบบสองทิศทางหลักในสภาพแวดล้อมที่ไม่มีโซลูชันกระบวนการปฏิบัติการรวมแบบสองทิศทาง                                                |
 | ทั่วไป                       | 2316420              | การเตรียมใช้งานหลักของ Project Service ล้มเหลว ถ้ามีการเปลี่ยนแปลงหน่วยธุรกิจของผู้ใช้แอปพลิเคชัน                                                                                                                     |
-
+| ทั่วไป                       | 2376405              | แก้ไขปัญหาการอัปเดตที่ขับเคลื่อนโดยผู้เผยแพร่ (การอัปเดตคุณภาพพร้อมใช้งานในเวอร์ชัน 4.12.0.152)                                                                                                                     |
 ### <a name="project-management-and-accounting-on-dynamics-365-finance"></a>การจัดการโครงการและการบัญชีใน Dynamics 365 Finance
 
 | พื้นที่คุณลักษณะ                      | หมายเลขอ้างอิง | การปรับปรุงคุณภาพ                                                                                                                                                                                                                                                                                                                |
