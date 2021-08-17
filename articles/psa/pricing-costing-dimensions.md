@@ -16,12 +16,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5c8c28839f5e7b3259afbea4ab400d0c4fca95fd
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: d17939777a6670bafc41b372adc922f8bdcc0411f3fdb399e7c9ab01eca87dd0
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368904"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998484"
 ---
 # <a name="pricing-and-costing-dimensions-home-page"></a>โฮมเพจมิติการกำหนดราคาและการคิดต้นทุน
 
@@ -41,7 +41,7 @@ ms.locfileid: "6368904"
 
 PSA จัดส่งกับชุดการกำหนดราคาเริ่มต้น คุณสามารถดูสิ่งเหล่านี้ได้โดยไปที่ **Project Service** > **พารามิเตอร์** ในบันทึกพารามิเตอร์ บนแท็บ **Amount-based pricing dimensions** ตรวจสอบบทบาทนั้น **msdyn_resourcecategory** และจัดเตรียมทรัพยากรหน่อยองค์กร **msdyn_organizationalunit** มีฟิล์ด **Applicable to sales** และ **Applicable to cost** ให้ตั้งเป็น **Yes** สิ่งนี้จะอนุญาตให้คุณตั้งค่าการกำหนดราคาและการคิดต้นทุนสำหรับทุกบทบาทและการรวมหน่วยองค์กร
 
-![ภาพหน้าจอของพารามิเตอร์ Project Service กับ “Applicable to Sales” ที่ไฮไลต์](media/PS-OOB-parameters.png)
+![ภาพหน้าจอของพารามิเตอร์ Project Service กับ “Applicable to Sales” ที่เน้น](media/PS-OOB-parameters.png)
 
 > [!IMPORTANT]
 > ถ้าคุณเคยใช้ฟิลด์สำเร็จรูปของบทบาทและหน่วยองค์กรเป็นมิติการกำหนดราคาก่อนรุ่นที่ 3 ของ PSA จะไม่มีการเปลี่ยนแปลงใด ๆ ที่สังเกตได้ คุณสามารถใช้ Project Service ต่อได้ตามปกติ 

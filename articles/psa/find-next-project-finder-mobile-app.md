@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f686c8329c3965ab98b7de9909dc3567b6cb5094
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007524"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990824"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>ค้นหาโครงการต่อไปของคุณที่มีแอพลิเคชัน Project Finder Mobile (Project Service)
 
@@ -38,12 +38,12 @@ ms.locfileid: "6007524"
   
  แท็บลูกศรที่ด้านขวาของโครงการคุณสนใจ เพื่อดูรายละเอียดเพิ่มเติมและลงทะเบียนได้  
   
- ![รายการของโครงการที่ตรงกับทักษะในแอพลิเคชันเคลื่อนที่ในการค้นหาโครงการ](../psa/media/project-service-project-finder-list.png "รายการของโครงการที่ตรงกับทักษะในแอพลิเคชันเคลื่อนที่ในการค้นหาโครงการ")  
+ ![รายการของโครงการที่ตรงกับทักษะในแอป Project Finder Mobile](../psa/media/project-service-project-finder-list.png "รายการของโครงการที่ตรงกับทักษะในแอพลิเคชันเคลื่อนที่ในการค้นหาโครงการ")  
   
 ## <a name="update-your-skills"></a>อัพเดตทักษะของคุณ  
  แท็บปุ่มโพรไฟล์ทางด้านล่างขวาของหน้าจอ เพื่ออัพเดตทักษะและระดับความคล่องแคล่วของคุณ  
   
- ![ปุ่มโพรไฟล์ในแอพลิเคชันมือถือสำหรับค้นหาโครงการ](../psa/media/project-service-project-finder-profile.png "ปุ่มโพรไฟล์ในแอพลิเคชันมือถือสำหรับค้นหาโครงการ")  
+ ![ปุ่มโพรไฟล์ในแอป Project Finder Mobile](../psa/media/project-service-project-finder-profile.png "ปุ่มโพรไฟล์ในแอพลิเคชันมือถือสำหรับค้นหาโครงการ")  
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [เวลา ค่าใช้จ่าย และคำแนะนำในการทำงานร่วมกัน](../psa/time-expense-collaboration-guide.md)

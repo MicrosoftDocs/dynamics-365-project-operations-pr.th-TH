@@ -10,12 +10,12 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: 19fae15bf309936cab415c2a71a414ab37837fce
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 01e2f1f6b29e040d5c72af402031e13a867736405c4ee161e49b74a30e4b506e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6007299"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985569"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>การติดตั้งข้อมูลตัวอย่างสำหรับแอพลิเคชัน Project Service
 

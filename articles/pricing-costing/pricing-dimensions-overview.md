@@ -8,12 +8,12 @@ ms.prod: ''
 ms.reviewer: kfend
 ms.author: rumant
 ms.custom: intro-internal
-ms.openlocfilehash: e8d62dcf9975e5427926210a881dec2c256f1b8b
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6368499"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7001994"
 ---
 # <a name="pricing-dimensions-overview"></a>ภาพรวมมิติการกำหนดราคา
 
@@ -33,7 +33,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 Dynamics 365 Project Operations จัดส่งกับชุดการกำหนดราคาเริ่มต้น คุณสามารถมิติการกำหนดราคาเหล่านี้ได้โดยไปที่ **Project Operations** > **พารามิเตอร์** ในบันทึกพารามิเตอร์ บนแท็บ **Amount-based pricing dimensions** ตรวจสอบบทบาทนั้น **msdyn_resourcecategory** และจัดเตรียมทรัพยากรหน่อยองค์กร **msdyn_organizationalunit** มีฟิล์ด **Applicable to sales** และ **Applicable to cost** ให้ตั้งเป็น **Yes** เมื่อเปิดใช้งานฟิลด์เหล่านี้ คุณสามารถตั้งค่าการกำหนดราคาและการคิดต้นทุนสำหรับทุกบทบาทและการรวมหน่วยองค์กร
 
-![ภาพหน้าจอของพารามิเตอร์ Project Service กับ “Applicable to Sales” ที่ไฮไลต์](media/PS-OOB-parameters.png)
+![ภาพหน้าจอของพารามิเตอร์ Project Service กับ “Applicable to Sales” ที่เน้น](media/PS-OOB-parameters.png)
 
 ถ้าคุณต้องการกำหนดราคาหรือคิดต้นทุนสำหรับทรัพยากรของคุณโดยใช้แอตทริบิวต์เพิ่มเติม คุณสามารถสร้างฟิล์ดที่กำหนดเอง เอนทิตี และมิติ สำหรับข้อมูลเพิ่มเติม ดูหัวข้อต่อไปนี้ 
   

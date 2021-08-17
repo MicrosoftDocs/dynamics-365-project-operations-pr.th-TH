@@ -6,12 +6,12 @@ ms.date: 10/05/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 715a8bdb9a1f38f71b4c42f5307ed4a5c7170ef6
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 97483a53163edbbe6dfe383d6a6a60183a17e6e9df9ec3c47c9f33aef88aea3e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6014274"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989169"
 ---
 # <a name="navigating-the-user-interface"></a>การนำทางอินเทอร์เฟซผู้ใช้
 
@@ -31,7 +31,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 - **ทีม**: ให้รายละเอียดเกี่ยวกับผู้เข้าร่วมโครงการ กำลังคนที่ได้รับมอบหมายของสมาชิกทีมแต่ละคนยังสรุปไว้ในมุมมองนี้ด้วย
 
-    ![แท็บทีมและฟิลด์](media/navigation9.png)
+    ![แท็บกลุ่มคนและฟิลด์](media/navigation9.png)
 
 - **การมอบหมายทรัพยากร**: ให้มุมมองตามระยะเวลาของกำลังคนของทรัพยากรแต่ละรายในโครงการ
 
@@ -87,7 +87,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 **ขยาย**: แสดงเส้นตารางที่มองเห็นเป็นแบบเต็มหน้าจอเพื่อเพิ่มความสามารถในการดูบทบาทเพิ่มเติม
 
-![ปุ่ม ขยาย](media/navigation4.png)
+![ปุ่มขยาย](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>ระยะเวลาตาม
 

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d85a180aa094a048b4422605b25151d10785f67d
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6011079"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986784"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
 
@@ -33,7 +33,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 4. ตรวจสอบว่าสภาพแวดล้อมกำลังทำงานอยู่ หากยังไม่เริ่มต้น ให้เริ่มสภาพแวดล้อม
 5. ในส่วน **รุ่นใหม่** ภายใต้ **การอัปเดตที่มีอยู่** เลือก **ดูการอัปเดต** สำหรับ 10.0.15.
 
-![ดูปุ่มอัปเดต](media/view-update.png)
+![ดูปุ่มอัพเดต](media/view-update.png)
 
 6. บนหน้า **การปรับปรุงไบนารี** ให้เลือก **บันทึกแพคเกจ**
 7. บนหน้า **ตรวจทานและบันทึกอัปเดต** ให้เลือก **บันทึกแพคเกจ**
@@ -51,7 +51,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 4. เลือก **ใช่** เพื่อยืนยันว่าคุณต้องการอัปเดตโปรแกรมประยุกต์
 
-![ยืนยันกล่องโต้ตอบการอัปเดตโปรแกรมประยุกต์](media/confirm-application-update.png)
+![กล่องโต้ตอบยืนยันการอัพเดตแอปพลิเคชัน](media/confirm-application-update.png)
 
 การปรับใช้และการอัปเดตโปรแกรมประยุกต์จะเริ่มขึ้น 
 
@@ -121,7 +121,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 6. จากรายการแผนที่ เลือกแมป **บัญชีแยกประเภท (msdyn_ledgers)** ด้วยข้อกำหนดเบื้องต้นทั้งหมดและเลือกกล่องกาเครื่องหมาย **การทำข้อมูลให้ตรงกันครั้งแรก** 
 7. ในฟิลด์ **ข้อมูลหลักสำหรับการทำข้อมูลให้ตรงกันครั้งแรก** ให้เลือก **แอป Finance and Operations** จากนั้นเลือก **เรียกใช้**
  
- ![การทำข้อมูลแมปบัญชีแยกประเภทให้ตรงกัน](media/DW6.png)
+ ![การซิงโครไนซ์แผนที่บัญชีแยกประเภท](media/DW6.png)
  
 
 

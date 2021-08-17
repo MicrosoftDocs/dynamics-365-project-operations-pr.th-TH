@@ -6,12 +6,12 @@ ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6daa86d453ec5022cdd75dff0394c8818292406c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000639"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986694"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>เพิ่มการสมัครใช้งาน Azure ไปยังโครงการ LCS
 
@@ -39,7 +39,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ขณะนี้ การอนุญาตเสร็จสมบูรณ์แล้ว 
 
-![การอนุมัติสำเร็จ](./media/5AuthorizationComplete.png)
+![การอนุญาตสำเร็จ](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>ให้การเข้าถึงบริการปรับใช้งาน Dynamics กับการสมัครใช้งาน Azure ของคุณ
 

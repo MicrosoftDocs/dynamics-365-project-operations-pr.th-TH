@@ -15,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5999919"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988134"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>ซิงโครไนซ์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการเพื่อลงรายการบัญชีใน Finance and Operations
 
@@ -93,9 +93,9 @@ ms.locfileid: "5999919"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปงานแม่แบบในการรวมข้อมูล การแม็ปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Project Service Automation ไปยัง Finance
 
-[![การแม็ปแม่แบบ - ข้อมูลจริง](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![การแม็ปเทมเพลต - ข้อมูลจริง](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![การแม็ปแม่แบบ - การเชื่อมต่อธุรกรรม](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![การแม็ปเทมเพลต - การเชื่อมต่อธุรกรรม](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>นำเข้าจากตารางการจัดเตรียมหลังจากการรวมจาก Project Service Automation
 
@@ -135,9 +135,9 @@ ms.locfileid: "5999919"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปงานแม่แบบในการรวมข้อมูล การแม็ปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Finance ไปยัง Project Service Automation
 
-[![การแม็ปแม่แบบ - อัปเดตข้อมูลจริง](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![การแม็ปเทมเพลต - การอัปเดตข้อมูลจริง](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![การแม็ปแม่แบบ - อัปเดตธุรกรรม](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+[![การแม็ปเทมเพลต - การอัปเดตธุรกรรม](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

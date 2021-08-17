@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d0712d9d5dfc6c35ccd07142ff5948f50e6a254c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fd98ec360cbd89c9fb7e49bfa11cfffeffca541441e641c973a23c141c922cd2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5995509"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988584"
 ---
 # <a name="provision-a-new-environment"></a>เตรียมใช้งานสภาพแวดล้อมใหม่
 
@@ -67,7 +67,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 9. เพื่อยืนยันว่าสภาพแวดล้อมได้ปรับใช้เรียบร้อยแล้ว ให้เลือก **เข้าสู่ระบบ** และเข้าสู่ระบบเพื่อยืนยัน
 
-![ รายละเอียดสภาพแวดล้อม](./media/3EnvironmentDetails.png)
+![รายละเอียดสภาพแวดล้อม](./media/3EnvironmentDetails.png)
 
 ## <a name="apply-updates-to-the-finance-environment"></a>ใช้การปรับปรุงกับสภาพแวดล้อม Finance
 
@@ -85,11 +85,11 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 
 3. คลิก **เลือกทั้งหมด** แล้วเลือก **บันทึกแพคเกจ**
 
-![ตรวจทานและบันทึกการปรับปรุง](./media/7ReviewAndSaveUpdates.png)
+![รีวิวและบันทึกการปรับปรุง](./media/7ReviewAndSaveUpdates.png)
 
 4. ป้อนชื่อและคำอธิบายของแพคเกจ จากนั้นเลือก **บันทึก** กระบวนการนี้อาจใช้เวลาสักครู่ ทั้งนี้ขึ้นอยู่กับการเชื่อมต่ออินเทอร์เน็ต
 
-![อัปโหลดแพคเกจไปยังแอสเซทไลบรารี](./media/8UploadPackageToAssetsLibrary.png)
+![อัปโหลดแพคเกจไปยังไลบรารีสินทรัพย์](./media/8UploadPackageToAssetsLibrary.png)
 
 5. หลังจากบันทึกแพคเกจแล้ว ให้เลือก **เสร็จแล้ว** และบันทึกแพคเกจนี้ลงในแอสเซทไลบรารีในโครงการ LCS ของคุณ
 
@@ -129,7 +129,7 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 
 หลังจากใช้เอนทิตีแล้ว การแม็ปที่มีอยู่ทั้งหมดจะแสดงรายการในสภาพแวดล้อม
 
-![การแม็ปการรวมแบบสองทิศทาง](./media/15DWMappings.png)
+![แผนที่การรวมแบบสองทิศทาง](./media/15DWMappings.png)
 
 ## <a name="refresh-the-data-entities-after-the-update"></a>รีเฟรชเอนทิตีข้อมูลหลังการปรับปรุง
 
@@ -175,30 +175,30 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 | **บทบาททรัพยากรโครงการสำหรับทุกบริษัท (bookableresourcecategories)** | ไม่ | มี | Common Data Service | ไม่ | N\A |
 | **นิติบุคคล (cdm\_companies)** | ไม่ | มี | แอป Finance and Operations | ไม่ | N\A |
 | **บัญชีแยกประเภท (msdyn_ledgers)** | ไม่ | มี | แอป Finance and Operations | มี | ใช่ แอป Finance and Operations |
-| **ข้อมูลจริงของการรวม Project Operations (msdyn\_actuals)** | ไม่ | No | N\A | มี | No |
-| **รายละเอียดการให้บริการตามสัญญาตามโครงการ (salesorderdetails)** | No | No | N\A | No | No |
-| **เอนทิตีการรวมสำหรับความสัมพันธ์ธุรกรรมโครงการ (msdyn\_transactionconnections)** | No | No | N\A | No | N\A |
-| **หลักเป้าหมายในรายละเอียดการให้บริการตามสัญญาของการรวม Project Operations (msdyn\_contractlinesscheduleofvalues)** | No | No | N\A | No | N\A |
-| **เอนทิตีการรวม Project Operations สำหรับการประมาณการค่าใช้จ่าย (msdyn\_estimateslines)** | No | No | N\A | No | N\A |
-| **เอนทิตีการส่งออกชนิดค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn\_expensecategories)** | No | No | N\A | No | N\A |
-| **เอนทิตีการส่งออกค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn\_expenses)** | มี | No | N\A | No | N\A |
-| **เอนทิตีการรวม Project Operations สำหรับการประมาณการชั่วโมง (msdyn\_resourceassignments)** | มี | No | N\A | No | N\A |
+| **ข้อมูลจริงของการรวม Project Operations (msdyn\_actuals)** | ไม่ | ไม่ | N\A | มี | ไม่ |
+| **รายละเอียดการให้บริการตามสัญญาตามโครงการ (salesorderdetails)** | ไม่ | ไม่ | N\A | ไม่ | ไม่ |
+| **เอนทิตีการรวมสำหรับความสัมพันธ์ธุรกรรมโครงการ (msdyn\_transactionconnections)** | ไม่ | ไม่ | N\A | ไม่ | N\A |
+| **หลักเป้าหมายในรายละเอียดการให้บริการตามสัญญาของการรวม Project Operations (msdyn\_contractlinesscheduleofvalues)** | ไม่ | ไม่ | N\A | ไม่ | N\A |
+| **เอนทิตีการรวม Project Operations สำหรับการประมาณการค่าใช้จ่าย (msdyn\_estimateslines)** | ไม่ | ไม่ | N\A | ไม่ | N\A |
+| **เอนทิตีการส่งออกชนิดค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn\_expensecategories)** | ไม่ | ไม่ | N\A | ไม่ | N\A |
+| **เอนทิตีการส่งออกค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn\_expenses)** | มี | ไม่ | N\A | ไม่ | N\A |
+| **เอนทิตีการรวม Project Operations สำหรับการประมาณการชั่วโมง (msdyn\_resourceassignments)** | มี | ไม่ | N\A | ไม่ | N\A |
 
 
 4. หากต้องการรีเฟรชเอนทิตี เลือกชื่อการแม็ป จากนั้นเลือก **รีเฟรชเอนทิตี** 
 
 
-![รีเฟรชการแม็ป](./media/20RefreshMapping.png)
+![รีเฟรชแผนที่](./media/20RefreshMapping.png)
 
 5. หลังจากการรีเฟรชเสร็จสิ้น เรียกใช้การแม็ป ก่อนที่คุณจะเปิดใช้งานการแม็ปถัดไป ให้ตรวจสอบว่าการแม็ปในตารางอยู่ในสถานะ **กำลังทำงาน** การเรียกใช้การแม็ปที่มีข้อกำหนดเบื้องต้นจำนวนมากอาจใช้เวลาสักครู่
 
 หากต้องการเรียกใช้การแม็ปที่มีข้อกำหนดเบื้องต้น ให้เปิดใช้งานการสลับ **แสดงการแม็ปเอนทิตีที่เกี่ยวข้อง** ถ้าตารางระบุ **ข้อกำหนดเบื้องต้นสำหรับการซิงค์ครั้งแรก** เป็น **ไม่** ตรวจสอบว่าค่าสถานะ **การซิงค์ครั้งแรก** เป็น **ปิด** ในการแม็ปข้อกำหนดเบื้องต้นทั้งหมดก่อนที่คุณจะเรียกใช้
 
-![เรียกใช้การแม็ป](./media/21RunMap.png)
+![เรียกใช้แผนที่](./media/21RunMap.png)
 
 6. ตรวจสอบว่าการแม็ปที่เกี่ยวข้องกับโครงการทั้งหมดอยู่ในสถานะกำลังทำงาน
 
-![การเรียกใช้การแม็ปทั้งหมด](./media/22AllMapsRunning.png)
+![การเรียกใช้แผนที่ทั้งหมด](./media/22AllMapsRunning.png)
 
 
 ## <a name="apply-configuration-data-in-cds-for-project-operations-optional"></a>ใช้ข้อมูลการตั้งค่าคอนฟิกใน CDS สำหรับ Project Operations (ไม่จำเป็น)

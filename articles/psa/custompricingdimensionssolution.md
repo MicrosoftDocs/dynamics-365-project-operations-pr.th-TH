@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ae7f22b9cb092e956d0f1eaf1f1997c8e97392f4
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 4dea80d8e4645675d3e89e846532ca7c0f292faa328c45938941c50dc15486fc
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012339"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6995289"
 ---
 # <a name="create-custom-solutions-for-pricing-dimensions"></a>สร้างโซลูชันแบบกำหนดเองสำหรับมิติการกำหนดราคา
 

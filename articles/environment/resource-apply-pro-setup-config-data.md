@@ -6,12 +6,12 @@ ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6001314"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986649"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service 
 
@@ -41,7 +41,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 5. เลือกกล่องกาเครื่องหมาย **แสดงรายชื่อขององค์กรที่มีอยู่** และ **แสดงขั้นสูง**
 6. เลือกภูมิภาคของผู้เช่าของคุณ ป้อนข้อมูลประจำตัวของคุณ และเลือก **เข้าสู่ระบบ**
 
-![การลงชื่อเข้าใช้การกำหนดค่า](./media/2ConfigurationSignin.png)
+![การลงชื่อเข้าใช้การตั้งค่าคอนฟิก](./media/2ConfigurationSignin.png)
 
 7. ในเพจ 3 จากรายชื่อองค์กรในผู้เช่า ให้เลือกองค์กรที่คุณต้องการนำเข้าข้อมูลสาธิต และเลือก **เข้าสู่ระบบ**
 8. ในเพจ 4 เลือกไฟล์ zip *SampleSetupAndConfigData* จากโฟลเดอร์ที่ขยาย
@@ -84,7 +84,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
   - การกำหนดประเภททรัพยากรที่สามารถจองได้
   - คุณลักษณะทรัพยากรที่สามารถจองได้
 
-![การนำเข้าเสร็จสมบูรณ์](./media/6CompleteImport.png)
+![ทำให้การนำเข้าเสร็จสมบูรณ์](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>ปรับปรุงการกำหนดค่า Project Operations
 
@@ -119,11 +119,11 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 9. ไปที่ **การตั้งค่า** > **แม่แบบปฏิทิน** และเลือก **ใหม่**
  
- ![แม่แบบปฏิทิน](./media/14CalendarTemplates.png)
+ ![เทมเพลตปฏิทิน](./media/14CalendarTemplates.png)
  
  10. ป้อนชื่อ เลือกทรัพยากรแม่แบบที่คุณสร้างขึ้น จากนั้นเลือก **บันทึก** 
  
- ![บันทึกแม่แบบปฏิทิน](./media/15SaveCalendarTemplate.png)
+ ![บันทึกเทมเพลตปฏิทิน](./media/15SaveCalendarTemplate.png)
  
  11. ไปที่ **พารามิเตอร์** แล้วดับเบิลคลิกที่เรกคอร์ด 
  

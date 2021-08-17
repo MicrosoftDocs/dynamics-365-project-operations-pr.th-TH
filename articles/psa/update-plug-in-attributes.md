@@ -14,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b0d50733340f277453f4ef5b52bdd3ee089449cd
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012834"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988809"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>อัพเดตแอททริบิวต์ของปลั๊กอินเพื่อรวมมิติการกำหนดราคาใหม่
 
@@ -52,11 +52,11 @@ ms.locfileid: "6012834"
  
 5. ในหน้าต่างการปรับปรุง ให้คลิกจุดไข่ปลา (**...**) ในการกรองแอตทริบิวต์
 
- ![ภาพหน้าจอของการปรับปรุงข้อมูลการกำหนดค่าขั้นตอนที่มีอยู่](media/PRT-3.png)
+ ![ภาพหน้าจอของการอัพเดตข้อมูลการตั้งค่าคอนฟิกขั้นตอนที่มีอยู่](media/PRT-3.png)
  
 6. เลือกกล่องกาเครื่องหมายแอททริบิวต์การกำหนดราคา
 
- ![ภาพหน้าจอที่แสดงการเลือกช่องทำเครื่องหมายสำหรับแอตทริบิวต์การกำหนดราคา](media/PRT-4.png)
+ ![ภาพหน้าจอที่แสดงการเลือกกล่องกาเครื่องหมายสำหรับแอตทริบิวต์การกำหนดราคา](media/PRT-4.png)
 
 7. คลิก **ตกลง** เพื่อปิดเพจและจากนั้นเลือก **ขั้นตอนการปรับปรุง**
 

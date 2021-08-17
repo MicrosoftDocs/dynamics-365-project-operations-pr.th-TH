@@ -6,12 +6,12 @@ ms.date: 11/09/2020
 ms.topic: article
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 86f4cd2c26ebfca621d1b226b571d220d3b2441e
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 753f0c4496bafd43d7e4a399cedeb355c2163c7ce56d932b2c786d5f2e672b6b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6010359"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992229"
 ---
 # <a name="create-a-solution-for-custom-pricing-dimensions"></a>สร้างโซลูชันสำหรับมิติการกำหนดราคาที่กำหนดเอง
 
@@ -56,12 +56,12 @@ ms.locfileid: "6010359"
    >[!NOTE]
    > รวมฟอร์มและมุมมองทั้งหมดสำหรับแต่ละเอนทิตีที่ถูกเลือก
 
-  ![เพิ่มเอนทิตี](./media/solution-component-selection.png)
+  ![เพิ่มเอนทิตีแล้ว](./media/solution-component-selection.png)
 
 
 5.  เมื่อได้รับแจ้งให้รวมเอนทิตีที่เกี่ยวข้องสำหรับเอนทิตีที่เลือก ให้เลือก **ไม่ ไม่รวมส่วนประกอบที่ต้องใช้**
 
-    ![รวมถึงเอนทิตีที่ขึ้นต่อกัน](./media/Do-not-include-required.png)
+    ![ซึ่งรวมถึงเอนทิตีที่ขึ้นต่อกัน](./media/Do-not-include-required.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

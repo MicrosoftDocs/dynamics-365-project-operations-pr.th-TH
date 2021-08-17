@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 73be15d4d58531e6e181df92eaee2b4d7b924382
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6012654"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986829"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่เดือนกุมภาพันธ์ 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
 

@@ -15,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 3d838bde8a3d7cbc15e06fb3289924468c284a8a
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5998974"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992454"
 ---
 # <a name="create-custom-fields-and-entities"></a>การสร้างฟิลด์และเอนทิตีแบบกำหนดเอง 
 
@@ -54,9 +54,9 @@ ms.locfileid: "5998974"
 2. ใน Solution Explorer บนบานหน้าต่างการนำทางด้านซ้าย เลือก **ชุดตัวเลือก** 
 3. คลิก **สร้าง** เพื่อสร้างชุดตัวเลือกใหม่ ป้อนข้อมูลที่จำเป็นให้ครบ และจากนั้นคลิก **บันทึก**
 
-> ![มิติการกำหนดราคาตามชุดตัวเลือกที่เรียกว่า สถานที่ทำงานของทรัพยากร ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![มิติการกำหนดราคาตามชุดตัวเลือกที่เรียกว่า สถานที่ทำงานของทรัพยากร](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![มิติการกำหนดราคาตามชุดตัวเลือกที่เรียกว่า ชั่วโมงทำงานของทรัพยากร ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![มิติการกำหนดราคาตามชุดตัวเลือกที่เรียกว่า ชั่วโมงทำงานของทรัพยากร](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>สร้างข้อมูลสำหรับมิติตามเอนทิตี้
@@ -68,7 +68,7 @@ ms.locfileid: "5998974"
 3. ปิดฟอร์ม 
 4. ทำซ้ำขั้นตอนที่ 1-3 เพื่อสร้างชื่อมาตรฐานอื่นสำหรับ "Senior Systems Engineer"
 
-> ![ข้อมูลตัวอย่างสำหรับเอนทิตีชื่อมาตรฐาน ](media/ST-data.png)
+> ![ข้อมูลตัวอย่างสำหรับเอนทิตีชื่อมาตรฐาน](media/ST-data.png)
 
 
 
