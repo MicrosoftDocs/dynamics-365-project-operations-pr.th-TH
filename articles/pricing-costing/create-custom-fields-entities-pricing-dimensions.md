@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 41c57690fecbc3bee2a1eb5d26f8a6aa56d8bea9
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 40a6a4173cb0e4d7ea5bcf24c8954fe9d7e079d1e9ecf4aac252b5133f12d3ff
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6000549"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003659"
 ---
 # <a name="create-custom-fields-and-entities-as-pricing-dimensions"></a>สร้างฟิลด์และเอนทิตีแบบกำหนดเองเป็นมิติการกำหนดราคา
 

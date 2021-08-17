@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b24a20d47eefa43b2e4e184a377decdb280d436d
-ms.sourcegitcommit: fd6e9ff78392c7bac35591d9130c00d2750438ae
+ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/12/2021
-ms.locfileid: "6025797"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003839"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations
 
@@ -32,7 +32,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 1. จากรายการแผนที่ เลือกแผนที่ บัญชีแยกประเภท **(msdyn\_ledgers)** ที่มีข้อกำหนดเบื้องต้นทั้งหมด และเลือกกล่องกาเครื่องหมาย **การทำข้อมูลให้ตรงกันครั้งแรก** ในฟิลด์ **ข้อมูลหลักสำหรับการทำข้อมูลให้ตรงกันครั้งแรก** ให้เลือก **แอป Finance and Operations** สำหรับทั้งแผนที่บัญชีแยกประเภทและแผนที่ข้อกำหนดเบื้องต้นทั้งหมด เลือก **เรียกใช้**
 
-![การทำข้อมูลแมปบัญชีแยกประเภทให้ตรงกัน](media/DW6.png)
+![การซิงโครไนซ์แผนที่บัญชีแยกประเภท](media/DW6.png)
 
 2. ทำตามขั้นตอนเดียวกันสำหรับแผนที่ตารางที่เหลือทั้งหมดที่แสดงในตารางด้านบน อย่าเลือกกล่องกาเครื่องหมาย **การทำข้อมูลให้ตรงกันครั้งแรก** เมื่อเรียกใช้แผนที่เหล่านั้น
 

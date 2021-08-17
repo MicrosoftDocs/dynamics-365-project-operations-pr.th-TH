@@ -7,12 +7,12 @@ ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
 ms.custom: intro-internal
-ms.openlocfilehash: c1dcf642f79ce64cb83285ac6dc6d7eaf815145c
-ms.sourcegitcommit: 0fafe022731f0e1e8693382ff906e3f8541d34ca
+ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/07/2021
-ms.locfileid: "6369399"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005414"
 ---
 # <a name="intercompany-invoicing-overview"></a>ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
 
