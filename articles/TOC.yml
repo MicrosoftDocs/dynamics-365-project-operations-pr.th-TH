@@ -56,6 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
     - name: มีอะไรใหม่บ้าง
       items:
+        - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: กันยายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-sept-2021-resource-based.md
         - name: สิงหาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-august-2021-resource-based.md
         - name: กรกฎาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -292,7 +296,7 @@
           items:
             - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
               href: project-management/dev-copy-project.md
-            - name: ใช้ API กำหนดการโครงการ (พรีวิวสำหรับสาธารณะ)
+            - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
     - name: การจัดการทรัพยากร
       items:
@@ -444,6 +448,14 @@
           href: procurement/configure-materials-nonstocked.md
         - name: จัดหาวัสดุที่ไม่มีในสต็อกสำหรับโครงการโดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
           href: procurement/pending-vendor-invoices.md
+        - name: สั่งวัสดุที่ไม่มีในสต็อกสำหรับโครงการโดยใช้ใบสั่งซื้อโครงการ
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: การรักษาผู้จัดจำหน่าย
+          items:
+            - name: ภาพรวมของการรักษาผู้จัดจำหน่าย
+              href: procurement/vendor-retention-overview.md
+            - name: ตั้งค่าการรักษาผู้จัดจำหน่าย
+              href: procurement/set-up-vendor-retention.md
     - name: การออกใบแจ้งหนี้
       items:
         - name: ภาพรวมของการประมวลผลใบแจ้งหนี้
@@ -528,6 +540,10 @@
       items:
         - name: มีอะไรใหม่การเข้าใช้ล่วงหน้า 2021 เวฟ 2 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: มีอะไรใหม่เดือนตุลาคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: มีอะไรใหม่เดือนกันยายน 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-sept-2021-lite.md
         - name: มีอะไรใหม่เดือนสิงหาคม 2021 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-august-2021-lite.md
         - name: มีอะไรใหม่เดือนกรกฎาคม 2021 - การปรับใช้งานแบบ Lite
@@ -784,7 +800,7 @@
           items:
             - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
               href: project-management/dev-copy-project.md
-            - name: ใช้ API กำหนดการโครงการ (พรีวิวสำหรับสาธารณะ)
+            - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
     - name: การจัดการทรัพยากร
       items:
@@ -858,7 +874,7 @@
           href: pro/subcontracting/subcontract-header-details.md
         - name: รายการรับเหมารายย่อยสำหรับเวลา
           href: pro/subcontracting/subcontract-line-time.md
-        - name: รายการรับเหมารายย่อยสำหรับค่าใช้จ่าย
+        - name: รายการรับเหมารายย่อยสำหรับประเภทค่าใช้จ่าย
           href: pro/subcontracting/subcontract-line-expense.md
         - name: รายการรับเหมารายย่อยสำหรับผลิตภัณฑ์
           href: pro/subcontracting/subcontract-line-products.md
@@ -1086,6 +1102,8 @@
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 36, V3'
+          href: psa/whats-new-ur-36.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 35, V3'
           href: psa/whats-new-ur-35.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 34, V3'
