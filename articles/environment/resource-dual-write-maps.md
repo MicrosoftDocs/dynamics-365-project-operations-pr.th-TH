@@ -6,12 +6,12 @@ ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c8bc389c83eaf2a7720ef3fa969c677eed11e7959199b5f0083df5bf3b43ea43
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 452f9f16bfbae2d547afb9fcf4fc51595ea49890
+ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003839"
+ms.lasthandoff: 09/23/2021
+ms.locfileid: "7547132"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations
 
@@ -49,8 +49,8 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | ตารางการรวม Project Operations สำหรับการประมาณวัสดุ (msdyn\_estimatelines) | 1.0.0.0 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
 | ข้อเสนอใบแจ้งหนี้โครงการV2 (ใบแจ้งหนี้) | 1.0.0.3 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
 | ข้อมูลจริงของการรวม Project Operations (msdyn_actuals) | 1.0.0.14 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
-| เหตุการณ์สำคัญในรายละเอียดการให้บริการตามสัญญาของการรวม Project Operations (msdyn_contractlinesscheduleofvalues) | 1.0.0.4 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
-| เอนทิตีการรวม Project Operations สำหรับการประมาณการค่าใช้จ่าย (msdyn_estimateslines) | 1.0.0.2 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
+| หลักเป้าหมายในรายละเอียดการให้บริการตามสัญญาของการรวม Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
+| เอนทิตีการรวม Project Operations สำหรับประมาณการค่าใช้จ่าย (msdyn_estimatelines) | 1.0.0.2 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
 | เอนทิตีการรวม Project Operations สำหรับการประมาณการชั่วโมง (msdyn_resourceassignments) | 1.0.0.5 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
 | เอนทิตีการส่งออกประเภทค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn_expensecategories) | 1.0.0.1 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |
 | เอนทิตีการส่งออกค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn_expenses) | 1.0.0.2 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |

@@ -2,20 +2,20 @@
 title: ลงทะเบียนรับรุ่นทดลองใช้ Project Operations
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการปรับใช้งานรุ่นทดลองใช้ของ Dynamics 365 Project Operations
 author: ruhercul
-ms.date: 08/19/2021
+ms.date: 10/04/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: e9c0d81591061f0ff01200dd5fd634a4a9ff31e4
-ms.sourcegitcommit: 0e5de344f2040075ba431918a4499a80510458d9
+ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
+ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/25/2021
-ms.locfileid: "7418480"
+ms.lasthandoff: 10/04/2021
+ms.locfileid: "7599236"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>ลงทะเบียนรับรุ่นทดลองใช้ Project Operations 
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต_ 
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต_ 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -85,15 +85,9 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
    หลังจากเริ่มต้นการเตรียมใช้งาน ระบบจะเปลี่ยนเส้นทางคุณไปยังรายการสภาพแวดล้อมในศูนย์จัดการ Power Platform ขณะที่กำลังเตรียมใช้งาน สถานะของสภาพแวดล้อมของคุณคือ **PreparingInstance**
  
-  หลังจากการเตรียมใช้งานเสร็จสมบูรณ์ สถานะของสภาพแวดล้อมของคุณคือ **Ready**
+  เมื่อการเตรียมใช้งานเสร็จสมบูรณ์ สถานะของสภาพแวดล้อมของคุณคือ **พร้อม** การเตรียมใช้งานสภาพแวดล้อมรวมถึงการปรับใช้งานข้อมูลสาธิตด้วย
  
-4.  เมื่อการเตรียมใช้งานเสร็จสมบูรณ์ ให้เลือก URL ของ Microsoft Dataverse ที่เกี่ยวข้อง และ URL ของแอป Finance and Operations เพื่อตรวจสอบการปรับใช้งาน
-
-## <a name="demo-data-installation"></a>การติดตั้งข้อมูลสาธิต
-
-ใช้ลิงก์ต่อไปนี้เพื่อเข้าถึงแพคเกจข้อมูลสาธิตสำหรับทั้งวัสดุที่ไม่เก็บในคลังและสถานการณ์การปรับใช้งานแบบ Lite 
-- [ข้อมูลสาธิตวัสดุที่ไม่ได้เก็บในคลัง](resource-apply-pro-setup-config-data.md)
-- [ข้อมูลสาธิต Lite](lite-apply-demo-setup-config-data.md)
+4.  เลือก URL ของ Microsoft Dataverse  และ URLของแอป Finance and Operations ตามลำดับเพื่อตรวจสอบการปรับใช้งาน
 
 ## <a name="configuring-dual-write"></a>การกำหนดค่าการรวมแบบสองทิศทาง
 สำหรับการปรับใช้งานวัสดุที่ไม่ได้เก็บในคลังเท่านั้น ให้กำหนดค่าการแม็ปการรวมแบบสองทิศทาง ดูข้อมูลเพิ่มเติมได้ที่ [เวอร์ชันการแม็ปการรวมแบบสองทิศทางของ Project Operations](resource-dual-write-maps.md)
