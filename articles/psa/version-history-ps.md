@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9ed9cb4615ba45c6b42154caffbd16806d30a8e7
-ms.sourcegitcommit: 23f68542fb5913534f0f76529b843cd268dbd7f6
+ms.openlocfilehash: 71cb8d0d9111e84bbd85dd116ce39465081f1653
+ms.sourcegitcommit: 95c0a30142fbacfd0c2ef63f42066f3a3534b832
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/11/2021
-ms.locfileid: "7623369"
+ms.lasthandoff: 11/08/2021
+ms.locfileid: "7773627"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>อัปเดตกำหนดการเผยแพร่สำหรับ Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "7623369"
 
 | โซลูชัน  | รุ่นล่าสุด |
 |-------|----|
-| Project Service Automation    | 3.10.57.152 |
+| Project Service Automation    | 3.10.58.120 |
 | Add-in เดสก์ท็อป Project Service Automation                | 3.15          |
 
 สำหรับข้อมูลเกี่ยวกับการปรับปรุงอื่นๆ ของ Project Service ดูที่ [แผนการนำออกใช้ของ Dynamics 365](/dynamics365/release-plans/) 
@@ -45,28 +45,29 @@ ms.locfileid: "7623369"
 | สถานี  | ขอบเขต | รุ่นปัจจุบัน | รุ่นถัดไป |  วันที่ตามกำหนดการ
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>สถานี 1</strong> | |  |  | |
-| | <i>การเปิดตัวครั้งแรก</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 29 ตุลาคม 2021
+| | <i>การเปิดตัวครั้งแรก</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 03 ธันวาคม 2021
 |<strong>สถานี 2</strong> | |  |  | |
-| | <i>อเมริกาใต้</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 พฤศจิกายน 2021
-| | <i>แคนาดา</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 พฤศจิกายน 2021
-| | <i>อินเดีย</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 พฤศจิกายน 2021
-| | <i>ฝรั่งเศส</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 พฤศจิกายน 2021
-| | <i>แอฟริกาใต้</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 พฤศจิกายน 2021
-| | <i>เยอรมนี</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 พฤศจิกายน 2021
-| | <i>สวิตเซอร์แลนด์</i> | [3.10.57.152](whats-new-ur-36.md) | TBD | 05 พฤศจิกายน 2021
+| | <i>อเมริกาใต้</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 ธันวาคม 2021
+| | <i>แคนาดา</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 ธันวาคม 2021
+| | <i>อินเดีย</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 ธันวาคม 2021
+| | <i>ฝรั่งเศส</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 ธันวาคม 2021
+| | <i>แอฟริกาใต้</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 ธันวาคม 2021
+| | <i>เยอรมนี</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 ธันวาคม 2021
+| | <i>สวิตเซอร์แลนด์</i> | [3.10.58.120](whats-new-ur-37.md) | TBD | 10 ธันวาคม 2021
 |<strong>สถานี 3</strong> | |  |  | |
-| | <i>ญี่ปุ่น</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 ตุลาคม 2021
-| | <i>เอเชียแปซิฟิก</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 ตุลาคม 2021
-| | <i>สหราชอาณาจักร</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 ตุลาคม 2021
-| | <i>Oceana</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 ตุลาคม 2021
-| | <i>สหรัฐอาหรับเอมิเรตส์</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 15 ตุลาคม 2021
+| | <i>ญี่ปุ่น</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 พฤศจิกายน 2021
+| | <i>เอเชียแปซิฟิก</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 พฤศจิกายน 2021
+| | <i>สหราชอาณาจักร</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 พฤศจิกายน 2021
+| | <i>Oceana</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 พฤศจิกายน 2021
+| | <i>สหรัฐอาหรับเอมิเรตส์</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 12 พฤศจิกายน 2021
 |<strong>สถานี 4</strong> | |  |  | |
-| | <i>ยุโรป</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 22 ตุลาคม 2021
+| | <i>ยุโรป</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 19 พฤศจิกายน 2021
 |<strong>สถานี 5</strong> | |  |  | |
-| | <i>อเมริกาเหนือ</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 29 ตุลาคม 2021
+| | <i>อเมริกาเหนือ</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 ธันวาคม 2021
 |<strong>สถานี 6</strong> | |  |  | |
-| | <i>คลาวด์ชุมชนของรัฐบาล</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 29 ตุลาคม 2021
-| | <i>กลุ่มสเกลเฉพาะ</i> | [3.10.56.110](whats-new-ur-35.md) | [3.10.57.152](whats-new-ur-36.md) | 05 พฤศจิกายน 2021
+| | <i>คลาวด์ชุมชนของรัฐบาล</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 03 ธันวาคม 2021
+| | <i>กลุ่มสเกลเฉพาะ</i> | [3.10.57.152](whats-new-ur-36.md) | [3.10.58.120](whats-new-ur-37.md) | 10 ธันวาคม 2021
+
 
 
 >[!Note]

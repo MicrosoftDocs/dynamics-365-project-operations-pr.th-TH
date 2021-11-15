@@ -54,6 +54,8 @@
               href: environment/resource-dual-write-expense.md
             - name: การรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: ถอนการติดตั้ง Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: มีอะไรใหม่บ้าง
       items:
         - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -298,6 +300,8 @@
               href: project-management/dev-copy-project.md
             - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
+            - name: ประสิทธิภาพของ API หมายกำหนดการให้บริการโครงการ
+              href: project-management/project-schedule-api-performance.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
@@ -802,6 +806,8 @@
               href: project-management/dev-copy-project.md
             - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
+            - name: ประสิทธิภาพของ API หมายกำหนดการให้บริการโครงการ
+              href: project-management/project-schedule-api-performance.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
@@ -1102,6 +1108,8 @@
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 37, V3'
+          href: psa/whats-new-ur-37.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 36, V3'
           href: psa/whats-new-ur-36.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 35, V3'

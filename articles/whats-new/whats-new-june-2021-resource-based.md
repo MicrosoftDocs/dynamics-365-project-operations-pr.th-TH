@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 483992768f8b8a02dd0d56b9479c7d591fa676d1eca41161e68b7cf3f97107af
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
+ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003884"
+ms.lasthandoff: 10/25/2021
+ms.locfileid: "7679232"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนมิถุนายน 2021 - Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
@@ -30,6 +30,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 - ความสามารถในการลบ [รายการข้อเสนอใบแจ้งหนี้โครงการสำหรับสถานการณ์การปรับปรุง](../invoicing/correct-project-invoice-proposals.md)
 - รายการค่าใช้จ่ายที่แสดงรายการจะแสดงชื่อประเภทย่อยในรายงานค่าใช้จ่าย [รายงานค่าใช้จ่ายที่สมมติขึ้น-คุณลักษณะใหม่](../expense/expense-reports-reimagined.md#new-features)
 - วิธีการชำระเงินจะพร้อมใช้งานในบานหน้าต่างค่าใช้จ่ายใหม่เมื่อสร้างค่าใช้จ่ายใหม่
+- ความพร้อมใช้งานทั่วไปของ API กำหนดการโครงการ ฟังก์ชันการทำงานใหม่นี้ช่วยให้ลูกค้าสามารถดำเนินการสร้าง ปรับปรุง และลบตามโปรแกรมได้ในงานโครงการ การกำหนดทรัพยากร การขึ้นต่อกันของงาน และเรกคอร์ดสมาชิกทีมโครงการ ดูข้อมูลเพิ่มเติมได้ที่ [ใช้ API กำหนดการโครงการเพื่อดำเนินการกับเอนทิตีการจัดกำหนดการ](../project-management/schedule-api-preview.md)
 
 ## <a name="project-operations-dual-write-maps-updates"></a>การอัปเดตแผนที่การรวมแบบสองทิศทางของ Project Operations
 
