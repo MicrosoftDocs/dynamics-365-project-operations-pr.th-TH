@@ -56,8 +56,10 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: ถอนการติดตั้ง Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: มีอะไรใหม่บ้าง
+    - name: มีอะไรใหม่
       items:
+        - name: พฤศจิกายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-nov-2021-resource-based.md
         - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-oct-2021-resource-based.md
         - name: กันยายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -300,13 +302,15 @@
               href: project-management/dev-copy-project.md
             - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
-            - name: ประสิทธิภาพของ API หมายกำหนดการให้บริการโครงการ
+            - name: ประสิทธิภาพของ API กำหนดการโครงการ
               href: project-management/project-schedule-api-performance.md
+            - name: บันทึกการจัดกำหนดการโครงการ
+              href: project-management/schedule-api-logs.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
           href: resource-management/resource-management-key-concepts.md
-        - name: การจองเทียบกับการมอบหมายงาน
+        - name: การจองเทียบกับการมอบหมาย
           href: resource-management/booking-vs-assignment.md
         - name: ภาพรวมโหมดการจัดการทรัพยากร
           href: resource-management/resource-management-mode-overview.md
@@ -540,10 +544,12 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: โมเดลความปลอดภัย
           href: environment/security-model.md
-    - name: มีอะไรใหม่บ้าง
+    - name: มีอะไรใหม่
       items:
         - name: มีอะไรใหม่การเข้าใช้ล่วงหน้า 2021 เวฟ 2 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: มีอะไรใหม่เดือนพฤศจิกายน 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: มีอะไรใหม่เดือนตุลาคม 2021 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-oct-2021-lite.md
         - name: มีอะไรใหม่เดือนกันยายน 2021 - การปรับใช้งานแบบ Lite
@@ -806,13 +812,13 @@
               href: project-management/dev-copy-project.md
             - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
-            - name: ประสิทธิภาพของ API หมายกำหนดการให้บริการโครงการ
+            - name: ประสิทธิภาพของ API กำหนดการโครงการ
               href: project-management/project-schedule-api-performance.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
           href: resource-management/resource-management-key-concepts.md
-        - name: การจองเทียบกับการมอบหมายงาน
+        - name: การจองเทียบกับการมอบหมาย
           href: resource-management/booking-vs-assignment.md
         - name: ภาพรวมโหมดการจัดการทรัพยากร
           href: resource-management/resource-management-mode-overview.md
@@ -950,8 +956,12 @@
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
 - name: Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
   items:
-    - name: มีอะไรใหม่บ้าง
+    - name: มีอะไรใหม่
       items:
+        - name: มีอะไรใหม่ในเดือนตุลาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: มีอะไรใหม่ในเดือนกันยายน 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนกรกฎาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
           href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนพฤษภาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
@@ -1104,10 +1114,12 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: มีอะไรใหม่บ้าง
+    - name: มีอะไรใหม่
       items:
-        - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
+        - name: กำหนดการออกรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 37, V3'
           href: psa/whats-new-ur-37.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 36, V3'
