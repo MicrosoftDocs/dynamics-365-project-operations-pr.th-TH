@@ -8,6 +8,10 @@
       href: environment/admin-trials.md
     - name: การปรับปรุง Project Operations
       href: whats-new/project-operations-updates.md
+    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
+      items:
+        - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในสต็อก
   items:
     - name: เริ่มต้นใช้งาน
@@ -58,6 +62,8 @@
           href: environment/uninstall-project-operations.md
     - name: มีอะไรใหม่
       items:
+        - name: ธันวาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-dec-2021-resource-based.md
         - name: พฤศจิกายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-nov-2021-resource-based.md
         - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -400,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: ตั้งค่าระยะทางโดยใช้ระดับอัตราระยะทางสะสม
               href: expense/set-up-mileage.md
+        - name: การแสดงรายการค่าใช้จ่าย
+          href: prod-exp/expense-itemization.md
         - name: ค่าใช้จ่ายส่วนตัว
           href: expense/personal-expenses-expense-report.md
         - name: ค่าใช้จ่ายระหว่างบริษัท
@@ -530,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: จัดการประมาณการรายได้
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: การแก้ไขปัญหา
+      items:
+        - name: กระบวนการขายของโครงการ
+          items:
+            - name: ข้อผิดพลาดของสกุลเงินไม่ตรงกันเมื่อสร้างโครงการ สัญญา ใบเสนอราคา หรือทรัพยากรที่สามารถจองได้
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
   items:
     - name: เริ่มต้นใช้งาน
@@ -548,6 +562,8 @@
       items:
         - name: มีอะไรใหม่การเข้าใช้ล่วงหน้า 2021 เวฟ 2 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: มีอะไรใหม่เดือนธันวาคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: มีอะไรใหม่เดือนพฤศจิกายน 2021 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-nov-2021-lite.md
         - name: มีอะไรใหม่เดือนตุลาคม 2021 - การปรับใช้งานแบบ Lite
@@ -894,6 +910,20 @@
           href: pro/subcontracting/subcontract-line-resources.md
         - name: หลักเป้าหมายของรายการรับเหมารายย่อย
           href: pro/subcontracting/subcontract-line-milestones.md
+        - name: สมาชิกของทีมโครงการรับเหมารายย่อย
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: ตัวเลือกการรับเหมารายย่อยสำหรับสมาชิกของทีมโครงการ
+          href: pro/subcontracting/subcon-options.md
+        - name: การประเมินต้นทุนของการกำหนดทรัพยากรที่รับเหมารายย่อย
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: กำหนดค่ากระดานหมายกำหนดการให้บริการเพื่อแสดงผู้ปฏิบัติงานแบบสัญญาจ้างและความสามารถในการรับเหมารายย่อย
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: การจัดโครงการกับผู้ปฏิบัติงานแบบสัญญาจ้างและความสามารถในการรับเหมารายย่อย
+          href: pro/subcontracting/staffing-cw.md
+        - name: การบันทึกเวลา ค่าใช้จ่าย และการใช้วัสดุสำหรับส่วนประกอบที่รับเหมารายย่อย
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: การเปลี่ยนสถานะในสัญญารับเหมารายย่อย
+          href: pro/subcontracting/subcon-states.md
     - name: เวลา
       items:
         - name: ภาพรวมของเวลา
@@ -1118,6 +1148,8 @@
       items:
         - name: กำหนดการออกรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 38, V3'
+          href: psa/whats-new-ur-38.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 37.5, V3'
           href: psa/whats-new-ur-37-5.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 37, V3'
@@ -1204,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: คู่มือการรายงาน
           href: psa/implementation-guides/reporting-guide.md
+    - name: การปรับรุ่นจาก Project Service Automation เป็น Project Operations - lite
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: การปรับรุ่น Project Service Automation (แอปรุ่น 3.x)
       items:
         - name: การปรับรุ่น Project Service Automation
