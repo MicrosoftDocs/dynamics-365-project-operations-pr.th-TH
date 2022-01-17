@@ -2,20 +2,20 @@
 title: ลงทะเบียนรับรุ่นทดลองใช้ Project Operations
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการปรับใช้งานรุ่นทดลองใช้ของ Dynamics 365 Project Operations
 author: ruhercul
-ms.date: 10/04/2021
+ms.date: 12/08/2021
 ms.topic: article
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1c8ae111acffb45fef1c2e6435849471ae331796
-ms.sourcegitcommit: 05ee415093d152b5b9e1203c3db0ea7f0c5a75a5
+ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
+ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/04/2021
-ms.locfileid: "7599236"
+ms.lasthandoff: 12/09/2021
+ms.locfileid: "7901640"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>ลงทะเบียนรับรุ่นทดลองใช้ Project Operations 
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต_ 
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต_ 
 
 [!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
@@ -90,7 +90,8 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 4.  เลือก URL ของ Microsoft Dataverse  และ URLของแอป Finance and Operations ตามลำดับเพื่อตรวจสอบการปรับใช้งาน
 
 ## <a name="configuring-dual-write"></a>การกำหนดค่าการรวมแบบสองทิศทาง
-สำหรับการปรับใช้งานวัสดุที่ไม่ได้เก็บในคลังเท่านั้น ให้กำหนดค่าการแม็ปการรวมแบบสองทิศทาง ดูข้อมูลเพิ่มเติมได้ที่ [เวอร์ชันการแม็ปการรวมแบบสองทิศทางของ Project Operations](resource-dual-write-maps.md)
+- ในการกำหนดค่าบทบาทความปลอดภัยสำหรับการรวมแบบสองทิศทาง โปรดดูที่ [ปรับปรุงการตั้งค่าความปลอดภัยของ Project Operations ใน Dataverse](resource-provision-new-environment.md)
+- ในการกำหนดค่าแผนผังการรวมแบบสองทิศทาง โปรดดูที่ [เรียกใช้แผนผังการรวมแบบสองทิศทางของ Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps)
 
 ## <a name="assign-licenses"></a>กำหนดสิทธิ์การใช้งาน
 
@@ -128,7 +129,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 2. เลือก **Dynamics 365 Project Operations (CE) - การทดลองใช้รุ่นพรีวิว**
 3. ภายใต้ **วันหมดอายุ** เลือก **ขยายวันที่**
 
-### <a name="can-i-upgrade-from-the-lite-deployment-to-the-resourcenon-stocked-based-scenario-deployment"></a>ฉันสามารถปรับรุ่นจากการปรับใช้งาน Lite ไปเป็นการปรับใช้สถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลังได้หรือไม่
+### <a name="can-i-upgrade-from-the-lite-deployment-to-the-resourcenon-stocked-based-scenario-deployment"></a>ฉันสามารถปรับรุ่นจากการปรับใช้งาน Lite ไปเป็นการปรับใช้สถานการณ์ทรัพยากร/ไม่ได้เก็บในคลังได้หรือไม่
 ปัจจุบันยังไม่มีการรองรับการปรับรุ่นสภาพแวดล้อมจากแบบ Lite ไปเป็นการปรับใช้งานแบบไม่ได้เก็บในคลัง
 
 ### <a name="can-i-access-lifecycle-services-lcs-for-my-finance-environments"></a>ฉันสามารถเข้าถึง Lifecycle Services (LCS) สำหรับสภาพแวดล้อม Finance ของฉันได้หรือไม่  
