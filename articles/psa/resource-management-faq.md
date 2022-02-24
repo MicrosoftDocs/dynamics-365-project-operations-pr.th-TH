@@ -2,6 +2,8 @@
 title: คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
 description: หัวข้อนี้แสดงคำตอบของคำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f80e65e7ff423c362fd1a86676a84ab67afabc88115c99b582c5eefa6c725a46
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d335a12a9b478bff63b6c93809c89dac9718a4be
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002399"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144391"
 ---
 # <a name="resource-management-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
 
@@ -52,6 +54,3 @@ ms.locfileid: "7002399"
 ## <a name="what-is-the-difference-between-an-assignment-and-a-booking"></a>ความแตกต่างระหว่างการมอบหมายและการจองคืออะไร?
 
 การมอบหมายคือการมอบหมายของทรัพยากรให้กับงานโครงการในหมายกำหนดการให้บริการโครงการ ทรัพยากรสามารถเป็นได้ทั้งทรัพยากรจริงหรือทั่วไป การจองคือการจัดสรรที่ตายตัวและไม่ตายตัวของทรัพยากรให้กับโครงการ การจองแบบตายตัวใช้กำลังการผลิตของทรัพยากร ตามหลักการแล้วสำหรับทรัพยากรจริง การจองและการมอบหมายควรยอมรับเพราะพวกเขาไม่แตกต่างกัน อย่างไรก็ตาม PSA ไม่บังคับใช้ข้อตกลงนี้ มุมมองการกระทบยอดแสดงตำแหน่งผู้จัดการโครงการที่การจองและการมอบหมายทรัพยากรไม่เห็นด้วย
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

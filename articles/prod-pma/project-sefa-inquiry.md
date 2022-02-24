@@ -2,9 +2,11 @@
 title: กำหนดการค่าใช้จ่ายของการสอบถาม Federal Awards
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับกำหนดการค่าใช้จ่ายของการสอบถาม Federal Awards
 author: velofog
+manager: Ann Beebe
 ms.date: 04/2/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: PSNProjSEFAinquiry
 audience: Application User
@@ -18,12 +20,12 @@ ms.search.industry: public sector
 ms.author: andchoi
 ms.search.validFrom: 2020-4-01
 ms.dyn365.ops.version: 10.0.11
-ms.openlocfilehash: d0cc3db3fd05fa809f707b15a50380753ac8f9f779f45c13f707321d2b0e0841
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: eaf523ab147cbe974fed6e7eab21967404583fe6
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007259"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085916"
 ---
 # <a name="schedule-of-expenditures-of-federal-awards-inquiry"></a>กำหนดการค่าใช้จ่ายของการสอบถาม Federal Awards
 
@@ -60,7 +62,7 @@ ms.locfileid: "7007259"
 ## <a name="set-up-grants-to-report-for-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>ตั้งค่าเงินช่วยเหลือเพื่อรายงานกำหนดการค่าใช้จ่ายของการสอบถาม Federal Awards
 
 1. ไปที่ **การจัดการโครงการและการบัญชี \> เงินช่วยเหลือ \> เงินช่วยเหลือ** และเลือกเงินช่วยเหลือที่มีอยู่
-2. บนแท็บด่วน **การตั้งค่า** ในฟิลด์ **แคตตาล็อกของความช่วยเหลือภายในประเทศของรัฐบาลกลาง** กำหนดหมายเลข CFDA หมายเลข CFDA ในเงินช่วยเหลือจะกำหนดกลุ่ม CFDA สำหรับการรายงาน
+2. บนแท็บด่วน **การตั้งค่า** ในฟิลด์ **แคตตาล็อกของความช่วยเหลือภายในประเทศของรัฐบาลกลาง** กำหนดหมายเลข CFDA หมายเลข CFDA ในเงินช่วยเหลือจะกำหนดกลุ่ม CFDA สำหรับการรายงาน
 3. บนแท็บด่วน **ข้อมูลติดต่อ** ให้ป้อนข้อมูลผู้ให้เงินช่วยเหลือ โดยทำตามขั้นตอนเหล่านี้:
 
     1. ในฟิลด์ **ลูกค้าที่ให้เงินช่วยเหลือ** ป้อนลูกค้าที่รับผิดชอบเงินช่วยเหลือ สำหรับเงินช่วยเหลือที่มีอยู่ อาจมีการป้อนข้อมูลนี้ไว้แล้ว
@@ -77,8 +79,8 @@ ms.locfileid: "7007259"
 
 ## <a name="exclude-grants-from-sefa-reporting-based-on-the-grant-type"></a>ยกเว้นเงินช่วยเหลือจากการรายงาน SEFA ตามประเภทเงินช่วยเหลือ
 
-1. ไปที่ **การจัดการโครงการและการบัญชี \> การตั้งค่า \> เงินช่วยเหลือ \> ชนิดเงินช่วยเหลือ**
-2. บนแท็บด่วน **ข้อมูลเริ่มต้น** เลือกกล่องกาเครื่องหมาย **ไม่รวมในกำหนดการค่าใช้จ่ายของ Federal Awards**
+1. ไปที่ **การจัดการโครงการและการบัญชี \> การตั้งค่า \> เงินช่วยเหลือ \> ชนิดเงินช่วยเหลือ**
+2. บนแท็บด่วน **ข้อมูลเริ่มต้น** เลือกกล่องกาเครื่องหมาย **ไม่รวมในกำหนดการค่าใช้จ่ายของ Federal Awards**
 3. เลือก **บันทึก** เพื่อบันทึกการเปลี่ยนแปลงของคุณ
 
 ## <a name="run-the-schedule-of-expenditures-of-federal-awards-inquiry"></a>เรียกใช้งานกำหนดการค่าใช้จ่ายของการสอบถาม Federal Awards
@@ -102,6 +104,3 @@ ms.locfileid: "7007259"
 - แค็ตตาล็อก Federal Domestic Assistance
 - ใบรับสินค้า
 - ค่าใช้จ่าย
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,16 +2,18 @@
 title: แก้ไขความต้องการทรัพยากร
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงข้อมูลความต้องการทรัพยากร
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 8c80c7148df972e542ea1952ef333b3c7c2709b4409ffaf0508f8f617d5f9894
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 988d3338f19443f1d8bcb7cf77e69aa3c1cff155
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999789"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128801"
 ---
 # <a name="edit-a-resource-requirement"></a>แก้ไขความต้องการทรัพยากร
 
@@ -35,5 +37,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 ## <a name="edit-resource-assignment-contours"></a>แก้ไขลักษณะการกำหนดทรัพยากร
 
 นอกเหนือจากการแก้ไขรายละเอียดความต้องการทรัพยากรแล้ว ผู้จัดการโครงการยังสามารถปรับปรุงลักษณะความต้องการทรัพยากรแต่ละรายการโดยใช้ฟังก์ชันการทำงาน **ระบุรูปแบบ** เมื่อมีการเลือก **ระบุรูปแบบ** เพจจะเปิดขึ้นและคุณสามารถดูลักษณะตามมาตราส่วนเวลาเป็นวัน สัปดาห์ หรือเดือน แต่ละลักษณะสามารถปรับได้สำหรับเวลาเริ่มต้น เวลาสิ้นสุด และกำลังคนทั้งหมดในช่วงเวลาที่กำหนด
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

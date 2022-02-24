@@ -2,16 +2,18 @@
 title: ใช้การตั้งค่าสาธิตและข้อมูลการกำหนดค่า - Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีใช้การตั้งค่าการสาธิตและข้อมูลการกำหนดค่าสำหรับ Project Operations
 author: sigitac
+manager: Annbe
 ms.date: 01/27/2021
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 762b0cf317d442565a033f56033a53a5b5cc435c
+ms.sourcegitcommit: b4298ca4729643c1040ef35dde8c67f829461ce7
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993309"
+ms.lasthandoff: 01/29/2021
+ms.locfileid: "5089142"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>ใช้การตั้งค่าสาธิตและข้อมูลการกำหนดค่าสำหรับ Project Operations - Lite 
 
@@ -26,8 +28,8 @@ _**การปรับใช้งานแบบ Lite - จัดการก
 
 ## <a name="instructions"></a>คำแนะนำ
 
-1. ดาวน์โหลด [แพคเกจข้อมูลหลัก](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData-%20CE%20only.zip) 
-2. นำทางไปยังโฟลเดอร์ *ProjOpsSampleSetupData - CE เท่านั้น CMT* และเรียกใช้ไฟล์ปฏิบัติการ *DataMigrationUtility*
+1. ดาวน์โหลด [แพคเกจข้อมูลหลัก](https://download.microsoft.com/download/3/4/1/341bf279-a64f-4baa-af31-ce624859b518/ProjOpsSampleSetupData%20-%20CE%20only%20CMT.zip) 
+2. ไปที่โฟลเดอร์ *ProjOpsDemoDataSetupAndMaster - CMT แบบในตัว* และเรียกใช้ไฟล์ปฏิบัติการ *DataMigrationUtility*
 3. ในเพจ 1 ของวิซาร์ดการย้ายการกำหนดค่า Common Data Service (CMT) เลือก **นำเข้าข้อมูล** แล้วเลือก **ดำเนินการต่อ**
 
     ![การโอนย้ายการตั้งค่าคอนฟิก](./media/1ConfigurationMigration.png)
@@ -36,10 +38,10 @@ _**การปรับใช้งานแบบ Lite - จัดการก
 5. เลือกกล่องกาเครื่องหมาย **แสดงรายชื่อขององค์กรที่มีอยู่** และ **แสดงขั้นสูง**
 6. เลือกภูมิภาคของผู้เช่าของคุณ ป้อนข้อมูลประจำตัวของคุณ จากนั้นเลือก **เข้าสู่ระบบ**
 
-   ![การลงชื่อเข้าใช้การตั้งค่าคอนฟิก](./media/2ConfigurationSignin.png)
+   ![การลงชื่อเข้าใช้การกำหนดค่า](./media/2ConfigurationSignin.png)
 
 7. ในเพจ 3 จากรายชื่อองค์กรในผู้เช่า ให้เลือกองค์กรที่คุณต้องการนำเข้าข้อมูลสาธิต จากนั้นเลือก **เข้าสู่ระบบ**
-8. ในหน้า 4 เลือกไฟล์ zip *SampleSetupAndConfigData* จากโฟลเดอร์ที่ขยาย *ProjOpsSampleSetupData - CMT เฉพาะ CE*
+8. ในเพจ 4 เลือกไฟล์ zip *MasterAndSetupData* จากโฟลเดอร์ที่ขยาย *ProjOpsDemoDataSetupAndMaster - CMT ในตัว*
 
    ![ไฟล์ Zip](./media/3ZipFile.png)
 
@@ -47,10 +49,10 @@ _**การปรับใช้งานแบบ Lite - จัดการก
 
 9. หลังจากเลือกไฟล์ zip แล้ว ให้เลือก **นำเข้าข้อมูล**
 
-   ![นำเข้าข้อมูล](./media/5ImportData.png)
+   ![การนำเข้าข้อมูล](./media/5ImportData.png)
 
 10. การนำเข้าจะทำงานประมาณสองถึงสิบนาที ขึ้นอยู่กับความเร็วเครือข่ายของคุณ หลังจากเสร็จสิ้น ให้ออกจากวิซาร์ด CMT 
-11. ตรวจสอบองค์กรของคุณสำหรับข้อมูลใน 18 เอนทิตีต่อไปนี้:
+11. ตรวจสอบองค์กรของคุณสำหรับข้อมูลใน 20 เอนทิตีต่อไปนี้:
 
     -   สกุลเงิน
     -   บัญชี
@@ -58,8 +60,8 @@ _**การปรับใช้งานแบบ Lite - จัดการก
     -   ผู้ติดต่อ
     -   หน่วย
     -   กลุ่มของหน่วย
-    -   รายการราคา
-    -   รายการราคาสำหรับพารามิเตอร์โครงการ 
+    -   ราคาตลาด
+    -   ราคาตลาดสำหรับพารามิเตอร์โครงการ 
     -   ความถี่ของใบแจ้งหนี้
     -   ประเภททรัพยากรที่สามารถจองได้
     -   ประเภทธุรกรรม
@@ -71,7 +73,4 @@ _**การปรับใช้งานแบบ Lite - จัดการก
     -   การกำหนดประเภททรัพยากรที่สามารถจองได้
     -   คุณลักษณะทรัพยากรที่สามารถจองได้
 
-    ![ทำให้การนำเข้าเสร็จสมบูรณ์](./media/6CompleteImport.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+    ![การนำเข้าเสร็จสมบูรณ์](./media/6CompleteImport.png)

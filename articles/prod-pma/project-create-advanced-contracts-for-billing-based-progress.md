@@ -2,9 +2,11 @@
 title: สร้างสัญญาขั้นสูงสำหรับการเรียกเก็บเงินตามความคืบหน้า
 description: หัวข้อนี้จะอธิบายวิธีสร้างสัญญาโครงการเพื่อให้คุณสามารถสร้างใบแจ้งหนี้สำหรับลูกค้าโดยพิจารณาจากเปอร์เซ็นต์ของงานที่เสร็จสมบูรณ์
 author: RadhikaRS
+manager: AnnBe
 ms.date: 03/26/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: 661e8aa0be70e9c8aadcb3a3d9dd6d39d1bcb2fd55d198b3c9af19fc2d0ae9d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1a83785a9db4dffc4585acf11ef971c08594f312
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001004"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086061"
 ---
 # <a name="create-advanced-contracts-for-billing-based-on-progress"></a>สร้างสัญญาขั้นสูงสำหรับการเรียกเก็บเงินตามความคืบหน้า
 [!include [banner](../includes/banner.md)]
@@ -101,6 +103,3 @@ ms.locfileid: "7001004"
 8. ทางเลือก: กำหนดกฎการเรียกเก็บเงินให้กับโครงการเพิ่มเติม บนแท็บด่วน **โครงการ** ในส่วน **โครงการที่มีอยู่** เลือกโครงการ จากนั้นเลือกปุ่มลูกศรขวาเพื่อเพิ่มโครงการลงในส่วน **โครงการที่เลือก**
 9. ทางเลือก: คำนวณเปอร์เซ็นต์จำนวนเงินที่ลูกค้าหักจากการชำระเงินในใบแจ้งหนี้ บนแท็บด่วน **เงื่อนไขการชำระเงิน** เลือกแหล่งเงินทุน จากนั้นในฟิลด์ **เปอร์เซ็นต์การรักษา** ป้อนเปอร์เซ็นต์การเก็บรักษา
 10. ทำซ้ำขั้นตอนเหล่านี้เพื่อสร้างกฎการเรียกเก็บเงินเพิ่มเติมสำหรับสัญญาโครงการ
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

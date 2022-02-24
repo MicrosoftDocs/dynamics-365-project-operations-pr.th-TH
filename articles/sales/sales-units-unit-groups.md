@@ -1,10 +1,12 @@
 ---
 title: หน่วยนับและกลุ่มของหน่วยนับ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีสร้างหน่วยนับและกลุ่มของหน่วยนับใน Dynamics 365 Project Operations
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีสร้างหน่วยและกลุ่มของหน่วยนับใน Dynamics 365 Project Operations
 author: rumant
+manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -15,16 +17,16 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 6a0aec1cc32ebdea9d2dbc7cc891f82da07e044f5c5655e008068f72dd198587
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 3f588e41d001befeac87bb6a4e28a83cf5cfa865
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999564"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4131051"
 ---
 # <a name="units-and-unit-groups"></a>หน่วยนับและกลุ่มของหน่วยนับ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 หน่วยคือปริมาณหรือการวัดที่คุณขายผลิตภัณฑ์หรือการบริการของคุณ ตัวอย่างเช่น ถ้าคุณขายวัสดุอุปกรณ์ทำสวน คุณอาจขายเมล็ดพืชในหน่วยของห่อ กล่อง และแท่นวางสินค้า กลุ่มของหน่วยนับคือคอลเลกชันของหน่วยต่างๆ
 
@@ -44,6 +46,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 3. ในฟิลด์ **ปริมาณ** ให้ป้อนปริมาณที่หน่วยจะมี ตัวอย่างเช่น ถ้ากล่องประกอบด้วยสองชิ้นส่วน ให้ป้อน "2" 
 4. ในฟิลด์ **หน่วยฐาน** ให้เลือกหน่วยฐานเพื่อสร้างหน่วยวัดต่ำสุดสำหรับหน่วย ตัวอย่างเช่น คุณอาจเลือก "ชิ้น"
 5. เลือก **บันทึก**:
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

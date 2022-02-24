@@ -2,16 +2,18 @@
 title: ตั้งค่าแม่แบบต้นทุน
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างและใช้แม่แบบต้นทุนใน Project Operations
 author: sigitac
+manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: b3a9f1e4f5ea0abe34dc860db87ef349daa46c487b03d271bfe207868c521f39
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993579"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642746"
 ---
 # <a name="set-up-cost-templates"></a>ตั้งค่าแม่แบบต้นทุน
 
@@ -77,6 +79,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 7. บนแท็บ **ประเภท** เลือกประเภทโครงการที่จะรวมไว้ในบรรทัดแม่แบบต้นทุน
 8. บนแท็บ **ทั่วไป** เลือกว่าจะรวมบรรทัดนี้ในเปอร์เซ็นต์ของการคำนวณความสำเร็จหรือไม่
 9. เลือกวิธีต้นทุนเพื่อทำให้เสร็จสมบูรณ์เพื่อใช้ในการคำนวณเปอร์เซ็นต์ของความสำเร็จ
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,23 +2,24 @@
 title: Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับชนิดการปรับใช้ Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 author: rumant
+manager: Annbe
 ms.date: 11/02/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 035ad22d2b51182c11e5c29d35f74f499fc903d5
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009734"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365643"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
-ชนิดการปรับใช้งาน, Dynamics 365 Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลังมีความสามารถดังต่อไปนี้สำหรับบริษัทตามโครงการ:
+ชนิดการปรับใช้ Dynamics 365 Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลังมีความสามารถดังต่อไปนี้สำหรับบริษัทตามโครงการ:
 
 - การวางแผนโครงการโดยใช้ Microsoft Project สำหรับเว็บ
 - การกำหนดราคาหลายมิติ และต้นทุนสำหรับทรัพยากรแรงงาน
@@ -42,6 +43,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 - จำเป็นต้องมีภาษีการขายระดับองค์กรและกลไกอัตราแลกเปลี่ยนสมบูรณ์เพื่อสร้างใบแจ้งหนี้สำหรับลูกค้าสำหรับโครงการ
 - มาตรฐานการรายงานทางการเงินระหว่างประเทศ (IFRS) - ตามโครงการบัญชีและระบบการรับรู้รายได้
 - โปรแกรมประยุกต์ Finance หรือ Supply Chain Management และการรวมธุรกรรมตามโครงการ
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

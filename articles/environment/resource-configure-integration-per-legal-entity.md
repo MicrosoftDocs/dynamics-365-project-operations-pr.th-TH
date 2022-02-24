@@ -2,16 +2,18 @@
 title: กำหนดค่าการรวม Project Operations ตามนิติบุคคล
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าการรวมโดยนิติบุคคลใน Project Operations
 author: sigitac
+manager: Annbe
 ms.date: 10/21/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: fc3f5be1318d482ece9a6e9e4fadc3cf628ff79577776e679f32cef7c0b2fc8f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 5d2bb415362a088e01253fbe54f9f06569b4a921
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6999429"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122906"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>กำหนดค่าการรวม Project Operations ตามนิติบุคคล 
 
@@ -49,6 +51,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
   - **ค่าเริ่มต้นชนิดการเรียกเก็บเงิน**: Project Operations ใช้ชุดค่าเริ่มต้นของชนิดการเรียกเก็บเงินคงที่ ซึ่งต้องแมปกับคุณสมบัติรายการ Finance สร้างเรกคอร์ดสำหรับการเรียกเก็บเงินแต่ละชนิด: **ไม่ระบุ** **คิดค่าบริการ** **ไม่คิดเงิน** **ฟรี** และ **ไม่สามารถใช้ได้**
   - **ค่าเริ่มต้นชนิดโครงการ**: เลือกประเภทโครงการเริ่มต้นที่จะใช้สำหรับธุรกรรมแต่ละชนิด ค่าเริ่มต้นเหล่านี้จะถูกใช้ใน **สมุดรายวันเกี่ยวกับการรวม Project Operations** และในการประมาณการที่ไม่มีการระบุประเภทธุรกรรมสำหรับโครงการจริง
   - **การคาดการณ์**: เลือกแบบจำลองการคาดการณ์ที่จะใช้สำหรับเวลาและค่าใช้จ่ายโดยประมาณ
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

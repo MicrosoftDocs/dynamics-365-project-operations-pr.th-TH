@@ -2,9 +2,11 @@
 title: จัดการความสามารถของทรัพยากร
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าความสามารถสำหรับทรัพยากรโครงการ
 author: Yowelle
+manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: f93fbda0ad6435c627eb7e580f92fd90481034cae2236b9a636195883470ca5c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db96ffc5fdd6bc759cd35fff0a39a64d9854a4f0
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007439"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270656"
 ---
 # <a name="manage-resource-competencies"></a>จัดการความสามารถของทรัพยากร
 
@@ -29,7 +31,7 @@ ms.locfileid: "7007439"
 
 ความสามารถของทรัพยากรเป็นส่วนสำคัญของการจัดการทรัพยากร ความสามารถสามารถใช้เป็นพื้นฐานในการกำหนดทรัพยากรที่มีความสมดุลที่ถูกต้องของทักษะ การศึกษา การรับรอง และประสบการณ์โครงการ คุณควรตั้งค่าข้อมูลนี้สำหรับทรัพยากรแต่ละรายการ และปรับปรุงข้อมูลเป็นประจำ ด้วยวิธีนี้ คุณสามารถเพิ่มขีดความสามารถสูงสุด เมื่อความสามารถของทรัพยากรเฉพาะถูกจับคู่ระหว่างการมอบหมายทรัพยากรของโครงการ
 
-[![ตัวอย่างของทักษะ, การรับรอง, การศึกษา, และประสบการณ์โครงการ](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
+[![ตัวอย่างของทักษะ การรับรอง การศึกษา และประสบการณ์โครงการ](./media/projectresourcing06-1024x383.jpg)](./media/projectresourcing06.jpg)
 
 กระบวนงานต่อไปนี้จะอธิบายวิธีการตั้งค่าความสามารถบางอย่างสำหรับทรัพยากร
 

@@ -1,10 +1,11 @@
 ---
 title: ปรับรุ่นโฮมเพจ
 description: หัวข้อนี้แสดงตำแหน่งที่จะหาข้อมูลที่สำคัญเกี่ยวกับคุณลักษณะใหม่และคุณลักษณะที่เปลี่ยนแปลงใน Dynamics 365 Project Service Automation และกระบวนการสำหรับการปรับรุ่นเป็นรุ่นใหม่ล่าสุด
+manager: kfend
 ms.prod: ''
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
-- intro-internal
 ms.date: 05/30/2019
 ms.topic: article
 author: rumant
@@ -18,12 +19,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 2b9b14d72157ae0046e1ca6abdc604b8dbc30377b5b24f5d79617a7201b1bf10
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: e30da3a5ade6d8bafcdc45801b830196841997bf
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006764"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5150106"
 ---
 # <a name="upgrade-home-page"></a>ปรับรุ่นโฮมเพจ
 
@@ -64,6 +65,3 @@ ms.locfileid: "7006764"
 
 > [!NOTE]
 > สำหรับประสบการณ์ที่ดีที่สุดเมื่อคุณใช้โปรแกรมประยุกต์ Field Service และโปรแกรมประยุกต์ PSA รุ่นที่เก่ากว่า ไปที่หน้า **การตั้งค่าระบบ** และสำหรับฟิลด์ **ใช้ส่วนติดต่อแบบรวมใหม่เท่านั้น (แนะนำ)** ให้เลือก **ไม่** เนื่องจากรุ่นเหล่านี้ไม่ได้ถูกออกแบบมาเพื่อให้มีการโหลดอย่างถูกต้องใน UCI หลังจากที่คุณปิด UCI คุณสามารถเปิดและเรียกใช้รุ่นเหล่านี้ของ Field Service และ PSA โดยใช้เว็บไคลเอ็นต์เก่า 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

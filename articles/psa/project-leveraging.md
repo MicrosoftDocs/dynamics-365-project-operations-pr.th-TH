@@ -2,6 +2,8 @@
 title: การประมาณการณ์ยอดขายและโครงการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับข้อดีของการวางแผนและการประมาณการณ์ในกระบวนการขาย
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 1dac342ead487c50d14f3b2fa39e60314d13b0047b77fe6df8f32dee29b09422
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76e21f80e51e6f3092880dc629ba90b400805486
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995199"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148396"
 ---
 # <a name="sales-estimates-and-projects"></a>การประมาณการณ์ยอดขายและโครงการ
 
@@ -35,11 +37,11 @@ ms.locfileid: "6995199"
 
 เมื่อคุณสร้างโครงการจากใบแจ้งราคา คุณสามารถสร้างโครงการใหม่หรือเชื่อมโยงกับโครงการที่มีอยู่เดิมบนหน้า **Quote Line** 
 
-> ![ฟอร์มรายการใบเสนอราคา](media/project-8.png)
+> ![รายการที่เสนอราคา (แบบฟอร์ม)](media/project-8.png)
  
 เมื่อคุณสร้างโครงการใหม่รายละเอียดรายการที่เสนอราคา คุณจะสามารถใช้งานเท็มเพลตของโครงการได้ เท็มเพลตของโครงการเป็นแบบจำลองของโครงการที่นำเสนอแผนการมาตรฐานของโครงการและการประมาณการทางการเงินที่เป็นรูปแบบขององค์กร เท็มเพลตดังกล่าวยังสามารถแสดงสำเนาของแผนการโครงการและประมาณการจากโครงการที่ผ่านมาได้อีกด้วย
 
-> ![รายละเอียดรายการใบเสนอราคา](media/project-9.png)
+> ![รายละเอียดบรรทัดใบเสนอราคา](media/project-9.png)
   
 เมื่อมีการสร้างโครงการจากใบแจ้งราคาแล้ว โครงการจะเชื่อมโยงข้อมูลกับรายการที่แจ้งราคาโดยอัตโนมัติ
 
@@ -52,6 +54,3 @@ ms.locfileid: "6995199"
 ## <a name="importing-estimates-from-a-project-into-a-quote"></a>การนำเข้าค่าประมาณจากโครงการสู่ใบแจ้งราคา
 
 หลังจากที่คุณระบุการประมาณโครงการแล้ว คุณสามารถนำข้อมูลนั้นเข้าสู่รายการที่เสนอราคาได้ บนหน้า **Quote Line Details** เลือก **Import from estimates** บนแถบรายการเพื่อสรุปการประมาณโครงการตามระดับของการซื้อขาย ประเภท บทบาท หรือประเภทงาน
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

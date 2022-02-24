@@ -1,6 +1,8 @@
 ---
 title: ข้อควรพิจารณาในการอัพเกรดสำหรับโครงสร้างการแบ่งงาน
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการอัพเกรดโครงสร้างการแบ่งงานจาก Project Service Automation 2.x เป็น 3.x.
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5258813410c3cea015775898cc72ba1574549edd8ee0c8b7aad8c94943eb5a60
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cea8ce7f61fbc0f0c8c8deb522bc332be102238d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992364"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149566"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>ข้อควรพิจารณาในการอัพเกรดสำหรับโครงสร้างการแบ่งงาน
 
@@ -32,20 +34,20 @@ ms.locfileid: "6992364"
 ## <a name="key-entities"></a>เอนทิตีคีย์
 สำหรับโครงสร้างการแบ่งงานที่ถูกต้องที่ถูกโหลดด้วยทรัพยากรอยู่แล้ว จำเป็นต้องมีเอนทิตีต่อไปนี้:
 
-- [โครงการ](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-- [ทีมโครงการ](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-- [งานโครงการ](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-- [การมอบหมายทรัพยากร](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
-- [การขึ้นต่อกันของงานโครงการ](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-- [ทรัพยากรที่สามารถจองได้](/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
+- [โครงการ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+- [ทีมโครงการ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+- [งานโครงการ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+- [การมอบหมายทรัพยากร](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+- [การขึ้นต่อกันของงานโครงการ](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+- [ทรัพยากรที่สามารถจองได้](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/bookableresource)
 
 ในการกำหนดโครงสร้างการแบ่งงานที่โหลดทรัพยากร คุณต้องดำเนินการขั้นตอนต่อไปนี้:
 
-1. สร้างโครงการใหม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างโครงการใหม่ ให้ดูที่ [msdyn_project](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
-2. สร้างงานอย่างน้อยหนึ่งภารกิจ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างงาน ให้ดูที่ [msdyn_projecttask](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
-3. กำหนดการขึ้นต่อกันของงาน สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [Project Task Dependency](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
-4. มอบหมายสมาชิกทีมโครงการให้กับโครงการ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [msdyn_projectteam](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
-5. มอบหมายสมาชิกทีมโครงการให้กับงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [msdyn_resourceassignment](/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
+1. สร้างโครงการใหม่ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างโครงการใหม่ ให้ดูที่ [msdyn_project](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_project)
+2. สร้างงานอย่างน้อยหนึ่งภารกิจ สำหรับข้อมูลเพิ่มเติมเกี่ยวกับวิธีการสร้างงาน ให้ดูที่ [msdyn_projecttask](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttask)
+3. กำหนดการขึ้นต่อกันของงาน สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [Project Task Dependency](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projecttaskdependency)
+4. มอบหมายสมาชิกทีมโครงการให้กับโครงการ สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [msdyn_projectteam](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_projectteam)
+5. มอบหมายสมาชิกทีมโครงการให้กับงาน สำหรับข้อมูลเพิ่มเติม ให้ดูที่ [msdyn_resourceassignment](https://docs.microsoft.com/dynamics365/customerengagement/on-premises/developer/entities/msdyn_resourceassignment)
 
 ## <a name="project-team-relationships"></a>ความสัมพันธ์ของสมาชิกทีมโครงการ
 
@@ -94,6 +96,3 @@ ms.locfileid: "6992364"
 
 - การขึ้นต่อกันของงานโครงการทั้งหมดต้องเกี่ยวข้องกับโครงการเดียวกัน
 - งานไม่สามารถมีการอ้างอิงการขึ้นต่อกันเหมือนกันมากกว่าหนึ่งครั้ง
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

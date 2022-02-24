@@ -2,16 +2,18 @@
 title: จัดการลูกค้าหลายรายในรายการใบเสนอราคาตามโครงการ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีจัดการลูกค้าหลายรายในรายการใบเสนอราคาตามโครงการ
 author: rumant
+manager: Annbe
 ms.date: 10/06/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bf3d10cc4a742f7247586d09f5b209cbfdbbd790bdf97e09da06d9db583e61a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 48336af0ad522e9d6aa68fa82ffa7921f09662d4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992049"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4118586"
 ---
 # <a name="manage-multiple-customers-on-project-based-quote-lines"></a>จัดการลูกค้าหลายรายในรายการใบเสนอราคาตามโครงการ
 
@@ -42,6 +44,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 คุณสามารถแก้ไขเปอร์เซ็นต์การแบ่งการเรียกเก็บเงินในรายการ เมื่อเปอร์เซ็นต์การแบ่งการเรียกเก็บเงินไม่เป็น 100% แสดงว่าเกิดข้อผิดพลาดขึ้น หลังจากคุณแก้ไขเปอร์เซ็นต์การแบ่งการเรียกเก็บเงินแล้ว ให้รีเฟรชหน้ารายการใบเสนอราคาเพื่อลบข้อผิดพลาด
 
 ใช้การดำเนินการกระจายอย่างเท่าๆ กันในตารางย่อยของลูกค้าในรายการใบเสนอราคาเพื่อจัดสรรการแบ่งการเรียกเก็บเงินให้กับลูกค้าในรายการใบเสนอราคาทั้งหมด หากมีปัจจัยในการปัดเศษ จะมีการเพิ่มให้กับลูกค้าที่ปัดเศษ ลูกค้าในรายการใบเสนอราคารายการหนึ่งจะถูกแท็กเป็นลูกค้าที่ปัดเศษเสมอ ซึ่งหมายความว่าเรกคอร์ดลูกค้าในรายการใบเสนอราคามีการตั้งค่าสถานะการปัดเศษเป็น **ใช่** 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

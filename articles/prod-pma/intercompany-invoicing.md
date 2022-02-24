@@ -2,9 +2,11 @@
 title: การออกใบแจ้งหนี้ระหว่างบริษัท
 description: บทความนี้ให้ข้อมูลและตัวอย่างเกี่ยวกับการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการ
 author: Yowelle
+manager: AnnBe
 ms.date: 09/14/2017
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: LedgerInterCompany
 audience: Application User
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 7c201ccec2069869707409ff6a9236e81e125f06b391c67202927f5c038787d8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 76eba87e7cc78dcc14510a8fb53677d626bf204f
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995829"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5270791"
 ---
 # <a name="intercompany-invoicing"></a>การออกใบแจ้งหนี้ระหว่างบริษัท
 

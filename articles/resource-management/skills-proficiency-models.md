@@ -2,16 +2,18 @@
 title: ทักษะและการรับรอง
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการเพิ่มลักษณะทักษะและการรับรองให้กับทรัพยากร
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990204"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128891"
 ---
 # <a name="skills-and-certifications"></a>ทักษะและการรับรอง
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
@@ -41,5 +43,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 3. ในตารางย่อย **ทักษะ** เลือก **+ เพิ่มลักษณะเฉพาะความต้องการใหม่**
 4. ในบานหน้าต่างสร้างด่วน ให้ค้นหาและเลือกลักษณะเฉพาะที่ต้องการ และเพิ่ม **ค่าการจัดอันดับคะแนน**
 5. เลือก **บันทึกและปิด**
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

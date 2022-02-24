@@ -2,22 +2,24 @@
 title: ปิดใบเสนอราคา
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปิดใบเสนอราคาใน Project Operations
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 2314444dfdbd4d1a2f38c7de55e2070011e51a86f1e074dd6667d54393c641fe
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 47804db0144c2b0f9dee2c60518e8aba6fb27473
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993444"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124706"
 ---
 # <a name="close-a-quote"></a>ปิดใบเสนอราคา
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
-การเสนอราคาโครงการสามารถปิดเป็นชนะหรือแพ้ เนื่องจากฟังก์ชัน เริ่มการใช้งาน และ ทบทวน ไม่รองรับสำหรับใบเสนอราคาใน Microsoft Dynamics 365 Project Operations คุณสามารถปิดใบเสนอราคาฉบับร่างได้
+การเสนอราคาโครงการสามารถปิดเป็นชนะหรือแพ้ เพราะฟังก์ชันเปิดใช้งานและแก้ไขไม่ได้รองรับใบเสนอราคาใน Microsoft Dynamics 365 Project Operations คุณจึงสามารถปิดใบเสนอราคาแบบร่างได้
 
 ## <a name="close-a-quote-as-won"></a>ปิดใบเสนอราคาเป็นชนะ
 
@@ -41,6 +43,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 > [!NOTE]
 > ใน Project Operations การปิดใบเสนอราคาเป็นชนะหรือแพ้จะไม่ส่งผลกระทบต่อสถานะของโอกาสทางการขาย ซึ่งโอกาสทางการขายจะยังคงเปิดอยู่จนกว่าจะมีการปิดด้วยตนเอง
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

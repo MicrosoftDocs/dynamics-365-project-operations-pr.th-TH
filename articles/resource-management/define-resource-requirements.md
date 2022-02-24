@@ -2,16 +2,18 @@
 title: กำหนดความต้องการทรัพยากร
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการกำหนดข้อมูลความต้องการทรัพยากร
 author: ruhercul
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 0fe030610424e84c823ae454542f2609a0b206033ab549619865e2c649cce113
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db3446c360c2d9278774d49ca3d5950cf2ce85ad
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990294"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085827"
 ---
 # <a name="define-resource-requirements"></a>กำหนดความต้องการทรัพยากร
 
@@ -24,5 +26,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 3.  บนแท็บ **สมาชิกทีม** ให้เลือกสมาชิกทีม และจากนั้นเลือก **สร้างความต้องการ**
 
 สำหรับข้อมูลเกี่ยวกับวิธีการปรับเปลี่ยนความต้องการทรัพยากร โปรดดู [ปรับปรุงรายละเอียดความต้องการทรัพยากร](define-resource-requirements.md) เพื่อปรับเปลี่ยนความต้องการทรัพยากร
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

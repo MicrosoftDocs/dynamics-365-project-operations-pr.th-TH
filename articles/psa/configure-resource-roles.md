@@ -2,6 +2,8 @@
 title: กำหนดค่าบทบาทของทรัพยากร
 description: วิธีการตั้งค่าคอนฟิกบทบาทของทรัพยากรใน Project Service
 author: JohnPBurrows
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d57f843b681760c214d1f66fb4e3c748d0c8b659ab844189f24c682f42d309f0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: deaff0977ebb50382a28494fba2a1c34ed5cc9b4
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002804"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144931"
 ---
 # <a name="configure-resource-roles-project-service"></a>ตั้งค่าคอนฟิกบทบาทของทรัพยากร (Project Service)
 
@@ -33,7 +35,7 @@ ms.locfileid: "7002804"
   
  การกำหนดค่ากบทบาททรัพยากรเพื่อให้แน่ใจว่าการประเมินโครงการจะผลบังคับใช้สำหรับองค์กรของคุณ  หรือทำให้แน่ใจว่า คุณตั้งค่าชนิดการเรียกเก็บเงินได้อย่างถูกต้อง การตั้งค่ารายการด้วยชนิดการเรียกเก็บเงินมีชนิดที่ไม่สามารถคิดค่าธรรมเนียมได้จะไม่แสดงค่าบนบรรทัดในสัญญาหรือในใบเสนอราคา  
   
- ทันทีที่คุณได้ติดตั้งบทบาททรัพยากร คุณสามารถตั้งค่าต้นทุนและราคาขายกับรายการราคา  
+ ทันทีที่คุณได้ติดตั้งบทบาททรัพยากร คุณสามารถตั้งค่าต้นทุนและราคาขายกับราคาตลาด  
   
  สำหรับแต่ละบทบาทที่คุณต้องการเพิ่ม ให้ทำสิ่งต่อไปนี้:  
   
@@ -57,6 +59,3 @@ ms.locfileid: "7002804"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [ตั้งค่าทรัพยากรที่สามารถจองได้](../psa/set-up-resources.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

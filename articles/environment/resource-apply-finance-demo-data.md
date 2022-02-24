@@ -2,16 +2,18 @@
 title: นำข้อมูลสาธิตไปใช้กับสภาพแวดล้อมที่เป็นโฮสต์บนระบบคลาวด์ของ Finance
 description: หัวข้อนี้อธิบายถึงวิธีการใช้ข้อมูลสาธิตจาก Project Operations กับภาพแวดล้อมที่โฮสต์บนระบบคลาวด์ของ Dynamics 365 Finance
 author: sigitac
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c04aab6ffb332a3095ca2a7890deb73f15a8b5e3713021c60eec02eb13dbd0cb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
+ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009689"
+ms.lasthandoff: 11/03/2020
+ms.locfileid: "4365261"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>นำข้อมูลสาธิตไปใช้กับสภาพแวดล้อมที่เป็นโฮสต์บนระบบคลาวด์ของ Finance
 
@@ -22,7 +24,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 1. ในโครงการ LCS ของคุณ ให้เปิดเพจ **รายละเอียดสภาพแวดล้อม** สังเกตว่ามีรายละเอียดที่จำเป็นในการเชื่อมต่อกับสภาพแวดล้อมโดยใช้โพรโทคอลการใช้เดสก์ท็อประยะไกล (RDP)
 
-![รายละเอียดสภาพแวดล้อม](./media/1EnvironmentDetails.png)
+![ รายละเอียดสภาพแวดล้อม](./media/1EnvironmentDetails.png)
 
 ข้อมูลประจำตัวที่ไฮไลต์ชุดแรกคือข้อมูลประจำตัวของบัญชีภายในเครื่องและมีไฮเปอร์ลิงก์ไปยังการเชื่อมต่อเดสก์ท็อประยะไกล ข้อมูลประจำตัวงรวมถึงชื่อผู้ใช้และรหัสผ่านของผู้ดูแลระบบสภาพแวดล้อม ข้อมูลประจำตัวชุดที่สองใช้เพื่อเข้าสู่ระบบ SQL Server ในสภาพแวดล้อมนี้
 
@@ -66,7 +68,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 15. เรียกใช้ไฟล์ .ext โดยใช้ที่อยู่ผู้ใช้ของคุณในฟิลด์ **ที่อยู่อีเมล** 
 16. เลือก **ส่ง**
 
-![การเตรียมใช้งานผู้ใช้ที่เป็นผู้ดูแลระบบ](./media/8AdminUserProvisioning.png)
+![การจัดเตรียมผู้ใช้ที่เป็นผู้ดูแลระบบ](./media/8AdminUserProvisioning.png)
 
 การดำเนินการนี้ใช้เวลาสองถึงสามนาที คุณควรได้รับข้อความยืนยันว่าปรับปรุงผู้ใช้ที่เป็นผู้ดูแลระบบเรียบร้อยแล้ว
 
@@ -77,6 +79,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 18. ปิดเซสชันเดสก์ท็อประยะไกลและใช้เพจ **รายละเอียดสภาพแวดล้อม** ของ LCS เพื่อเข้าสู่สภาพแวดล้อมในการยืนยันว่าทำงานได้ตามที่คาดไว้
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

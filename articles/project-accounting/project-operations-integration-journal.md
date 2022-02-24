@@ -2,16 +2,18 @@
 title: สมุดรายวันการรวมใน Project Operations
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการทำงานกับสมุดรายวันการรวมใน Project Operations
 author: sigitac
+manager: Annbe
 ms.date: 10/27/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: c5cc3254c52750b35be2c66137b6c57bbd9acbfbc89dedc6559059a89c8e2393
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 4a5f4d524530594bd3118f9b320acf4033c5d503
+ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987954"
+ms.lasthandoff: 04/27/2021
+ms.locfileid: "5948353"
 ---
 # <a name="integration-journal-in-project-operations"></a>สมุดรายวันการรวมใน Project Operations
 

@@ -2,8 +2,10 @@
 title: การแก้ไขเป็นกลุ่มของข้อมูลจริงที่สร้างขึ้นโดยเวลาที่ได้รับอนุมัติและรายการค่าใช้จ่าย
 description: หัวข้อนี้อธิบายวิธีที่ผู้ดูแลระบบสามารถทำการแก้ไขเดียวหรือเป็นกลุ่มสำหรับรายการเวลาหรือค่าใช้จ่ายที่ได้รับอนุมัติก่อนหน้านี้ หากการเรียกเก็บเงินไม่สมบูรณ์
 author: rumant
+manager: AnnBe
 ms.date: 04/02/2020
 ms.topic: article
+ms.service: dynamics-ax-applications
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
@@ -16,12 +18,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 063c4d017f5904f09c3c239bfa432a128872e4d7
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995424"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144976"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>การแก้ไขเป็นกลุ่มของข้อมูลจริงที่สร้างขึ้นโดยเวลาที่ได้รับอนุมัติและรายการค่าใช้จ่าย
 
@@ -88,6 +90,3 @@ ms.locfileid: "6995424"
 8. ในหน้าโครงการ บนแท็บ **ข้อมูลจริง** ตรวจสอบ **มุมมองที่เกี่ยวข้องจริง** รายการต้นฉบับและรายการที่แก้ไขจะแสดงรายการ ภาพต่อไปนี้แสดงจำนวนรายการค่าใช้จ่ายดั้งเดิมและจำนวนรายการค่าใช้จ่ายที่แก้ไขแล้วซึ่งสอดคล้องกัน 
 
 ![ค่าใช้จ่ายตามจริง](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

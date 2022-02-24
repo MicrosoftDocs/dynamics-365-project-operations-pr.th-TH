@@ -2,16 +2,18 @@
 title: ปิดโอกาสทางการขาย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการปิดโอกาสทางการขายของโครงการ
 author: rumant
+manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: da388c19fb32a1dc62a0273a4de1203a45345dfb0c0a56e76b73cccc751e9545
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 59a4cd96a4fd24987179f0ab17f1379efc22bbbe
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006404"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128756"
 ---
 # <a name="close-an-opportunity"></a>ปิดโอกาสทางการขาย
 
@@ -21,7 +23,4 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 คุณจะไม่ได้รับอนุญาตให้ปิดโอกาสทางการขายนี้หากมีการเชื่อมโยงกับใบเสนอราคาที่ใช้งานอยู่ คุณสามารถปิดใบเสนอราคาที่ใช้งานอยู่และแบบร่างทั้งหมดที่เกี่ยวข้องกับโอกาสทางการขายได้พร้อมกัน จากนั้น คุณจะได้รับอนุญาตให้ปิดโอกาสทางการขายนี้
 
-สำหรับข้อมูลทั่วไปเกี่ยวกับการปิดโอกาสทางการขาย ดูที่ [ปิดโอกาสทางการขายเป็นชนะหรือแพ้](/dynamics365/sales-enterprise/close-opportunity-won-lost-sales)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+สำหรับข้อมูลทั่วไปเกี่ยวกับการปิดโอกาสทางการขาย ดูที่ [ปิดโอกาสทางการขายเป็นชนะหรือแพ้](https://docs.microsoft.com/dynamics365/sales-enterprise/close-opportunity-won-lost-sales)

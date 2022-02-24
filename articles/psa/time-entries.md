@@ -2,6 +2,8 @@
 title: สร้างรายการเวลา
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการสร้างรายการเวลา
 author: rumant
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/20/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0d0e21d0964788564d3db9173c3a0b3378cd0049b4455a23ccc1bccd1c21d9e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 520d3a6e6cc3d486d778c66c2ef7fd3ff20cd582
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990429"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149701"
 ---
 # <a name="create-time-entries"></a>สร้างรายการเวลา
 
@@ -68,6 +70,3 @@ ms.locfileid: "6990429"
 ## <a name="group-by-sort-search-and-filter-capabilities"></a>ความสามารถของการจัดกลุ่ม การเรียง การค้นหาและการกรอง
 
 คุณสามารถจัดกลุ่มและกรองรายการเวลาเรียงตามมิติที่ระบุในคอลัมน์ได้ ในฟิลด์ **จัดกลุ่มตาม** ให้เลือกมิติเพื่อใช้กรองรายการเวลา คุณยังสามารถเรียงเรกคอร์ดรายการเวลาจากน้อยไปหามากหรือจากมากไปหาน้อยโดยใช้ลูกศรจัดเรียงหรือใช้ส่วนหัวของคอลัมน์ นอกจากนี้ คุณสามารถแสดงหรือซ่อนรายการโดยการเลือกปุ่ม **กรอง** ในส่วนหัวของคอลัมน์จากนั้นในกล่อง **ค้นหา** ป้อนข้อความที่จะใช้ในการค้นหารายการเวลาตามชื่อโครงการ ตามงานโครงการ ตามรายการเวลา หรือตามทรัพยากร
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

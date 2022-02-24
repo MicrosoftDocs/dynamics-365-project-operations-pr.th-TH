@@ -2,9 +2,11 @@
 title: จัดการการมอบสิทธิ์
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีที่ผู้รับมอบสิทธิ์ค่าใช้จ่ายสามารถสร้างและจัดการรายงานค่าใช้จ่ายสำหรับพนักงานคนอื่นได้
 author: suvaidya
+manager: AnnBe
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -13,12 +15,12 @@ ms.search.region: ''
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: f68d62ea96c9a31771b1938ee4c6505aadf0f2a81f168920a1f057227b986281
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 09fc5a58b3367d1b70d2ddddb8e920769055f9d2
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997809"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4122726"
 ---
 # <a name="manage-delegation"></a>จัดการการมอบสิทธิ์
 ผู้รับมอบสิทธิ์ค่าใช้จ่ายสามารถสร้างและจัดการรายงานค่าใช้จ่ายสำหรับพนักงานคนอื่นได้
@@ -37,6 +39,3 @@ ms.locfileid: "6997809"
 ผู้รับมอบสิทธิ์สามารถกรองและค้นหารายงานค่าใช้จ่ายที่มีอยู่ซึ่งมีการมอบหมายให้พวกเขาไปแล้วได้อย่างรวดเร็ว ผู้รับมอบสิทธิ์ยังสามารถสร้างรายงานค่าใช้จ่ายใหม่สำหรับผู้ใช้รายอื่นได้อย่างรวดเร็วโดยการเลือก **รายงานค่าใช้จ่ายใหม่**
 
 ผู้รับมอบสิทธิ์สามารถสร้างและจัดการรายงานค่าใช้จ่ายสำหรับพนักงานคนอื่นๆ ได้โดยไปที่ **การจัดการค่าใช้จ่าย** > **ค่าใช้จ่ายของฉัน** > **รายงานค่าใช้จ่าย** และเลือก **เปิดค่าใช้จ่ายของผู้ใช้รายอื่น**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

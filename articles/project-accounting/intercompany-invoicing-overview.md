@@ -2,17 +2,18 @@
 title: ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
 description: หัวข้อนี้ให้ข้อมูลและตัวอย่างเกี่ยวกับการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการ
 author: sigitac
+manager: tfehr
 ms.date: 11/19/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.custom: intro-internal
-ms.openlocfilehash: c343c5bf525574e496036793cd4e131394e8b1b471153147a66cfebe1acf3fce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 670b5d15ecf1ef7dcc034064e625814cbe6d54b0
+ms.sourcegitcommit: addbe0647619413e85e7cde80f6a21db95ab623e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005414"
+ms.lasthandoff: 11/20/2020
+ms.locfileid: "4595567"
 ---
 # <a name="intercompany-invoicing-overview"></a>ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
 
@@ -20,7 +21,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 องค์กรของคุณอาจมีหลายแผนก บริษัท หน่วยย่อย และนิติบุคคลอื่นๆ ที่โอนผลิตภัณฑ์และบริการซึ่งกันและกันสำหรับโครงการต่างๆ นิติบุคคลที่ให้บริการหรือผลิตภัณฑ์เรียกว่า *นิติบุคคลที่ให้ยืม* นิติบุคคลที่รับบริการหรือผลิตภัณฑ์เรียกว่า *นิติบุคคลที่กู้ยืม*
 
-ภาพประกอบต่อไปนี้แสดงสถานการณ์สมมติทั่วไปที่นิติบุคคลสองราย Contoso Robotics USA (นิติบุคคลที่ขอยืม) และ Contoso Robotics UK (นิติบุคคลที่ให้ยืม) แบ่งปันทรัพยากรเพื่อส่งมอบโครงการให้กับลูกค้า Adventure Works สำหรับสถานการณ์นี้ Contoso Robotics USA ได้รับการว่าจ้างให้ส่งมอบงานให้กับ Adventure Works
+ภาพประกอบต่อไปนี้แสดงสถานการณ์ทั่วไปที่นิติบุคคล 2 แห่งคือ Contoso Robotics USA (นิติบุคคลที่กู้ยืม) และ Contoso Robotics UK (นิติบุคคลที่ให้ยืม) ใช้ทรัพยากรร่วมกันเพื่อส่งมอบโครงการให้กับลูกค้า Adventure works สำหรับสถานการณ์นี้ Contoso Robotics USA ได้รับสัญญาให้ส่งมอบงานให้กับ Adventure Works
 
 ![การออกใบแจ้งหนี้ระหว่างบริษัท](./media/IntercompanyScenario.png) 
 
@@ -42,6 +43,3 @@ Dynamics 365 Project Operations ใช้โฟลว์ต่อไปนี้
 - [กำหนดค่าการออกใบแจ้งหนี้ระหว่างบริษัท](configure-intercompany-invoicing.md)
 - [บันทึกธุรกรรมระหว่างบริษัท](create-intercompany-transactions.md)
 - [สร้างใบแจ้งหนี้ของลูกค้าและผู้ขายระหว่างบริษัท](create-intercompany-customer-vendor-invoices.md)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

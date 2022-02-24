@@ -2,18 +2,19 @@
 title: ภาพรวมค่าใช้จ่าย
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันค่าใช้จ่ายใน Project Operations
 author: stsporen
+manager: AnnBe
 ms.date: 10/06/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.custom: intro-internal
-ms.openlocfilehash: 7ba4d090e15bffa687d69d3d8e5733d2519668e2879249e1d6dc6aba26f7fbf6
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d946a8dcbf3b2369631d83e80788eed4904be95d
+ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988494"
+ms.lasthandoff: 12/17/2020
+ms.locfileid: "4764932"
 ---
 # <a name="expense-home-page"></a>โฮมเพจค่าใช้จ่าย
 
@@ -43,6 +44,3 @@ Dynamics 365 Project Operations รองรับความสามารถ
 
 ## <a name="determine-your-expense-deployment"></a>กำหนดการปรับใช้งานค่าใช้จ่ายของคุณ
 หากต้องการตรวจสอบว่าคุณกำลังเรียกใช้การปรับใช้งานการจัดการค่าใช้จ่ายขั้นพื้นฐานหรือไม่ ให้ตรวจสอบว่า URL ที่อยู่ลงท้ายด้วย **.crm.dynamics.com** 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

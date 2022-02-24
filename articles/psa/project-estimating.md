@@ -2,6 +2,8 @@
 title: ต้นทุนและรายได้ของโครงการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการประเมินต้นทุนและรายได้ของโครงการ
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002579"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5148351"
 ---
 # <a name="project-costs-and-revenue"></a>ต้นทุนและรายได้ของโครงการ
 
@@ -31,7 +33,7 @@ ms.locfileid: "7002579"
 
 การประเมินโครงการแสดงมุมมองทางการเงินสำหรับงานที่ถูกประเมินและวางกำหนดการในกำหนดการของโครงการ แท็บ **Estimates** บนหน้า **Projects** จะแสดงผลกระทบของต้นทุนและรายได้ของงานที่คุณได้วางแผนไว้ นอกจากนี้ยังแสดงข้อมูลเกี่ยวกับมิติที่กำหนดไว้ล่วงหน้าหลาย ๆ ด้าน 
 
-> ![แท็บประมาณการ](media/project-5.png)
+> ![แท็บที่ใช้ในการประเมิน](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>มูลค่าของต้นทุนและยอดขายของโครงการ
 
@@ -66,7 +68,7 @@ ms.locfileid: "7002579"
 
 แท็บ **Estimates** จะมีมุมมองตารางที่แสดงรายการประเมิน ตารางประกอบด้วยคอลัมน์ของหน่วย ราคาต้นทุนรวม และราคาขายรวม เช่นเดียวกับที่จะแสดงให้เห็นต่อไปนี้ 
 
-> ![มุมมองกริดบนแท็บประมาณการ](media/project-6.png)
+> ![มุมมองตารางบนแท็บการประเมิน](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>มุมมองตามระยะเวลาของการประเมินโครงการ
 
@@ -95,6 +97,3 @@ ms.locfileid: "7002579"
 ## <a name="expense-estimates"></a>การประเมินค่าใช้จ่าย
 
 ปุ่ม **Add a New Expense Estimate** ในมุมมองตารางจะทำให้คุณบันทึกค่าใช้จ่ายใด ๆ ที่เกิดขึ้นในโครงการ แต่ไม่เกี่ยวข้องโดยตรงกับการจ้างงาน คุณสามารถบันทึกการประเมินค่าใช้จ่ายของงานเฉพาะหรือสำหรับทั้งโครงการ เลือกประเภทค่าใช้จ่ายที่และวันที่คาดไว้เมื่อคุณคาดว่าจะมีการใช้จ่ายเกิดขึ้น ถ้ารายการราคาต้นทุนที่เกี่ยวข้องและรายการราคาขายมีราคาเริ่มต้น (หรือถ้าเปอร์เซนต์มาร์กอัพถูกระบุในประเภทค่าใช้จ่าย) จะมีการป้อนรายการประเมินอัตโนมัติเมื่อมีงานเกิดขึ้น
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

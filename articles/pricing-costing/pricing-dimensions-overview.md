@@ -2,18 +2,19 @@
 title: ภาพรวมมิติการกำหนดราคา
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับมิติการกำหนดราคาใน Dynamics 365 Project Operations
 author: rumant
+manager: AnnBe
 ms.date: 11/30/2020
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: 4b3b71c0b64a24f6914c70c4383eee654e7d4947ececaf9b4e6394f45a081a4c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 33f55976eafedd046fba952ab6381c297ab4e271
+ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001994"
+ms.lasthandoff: 11/30/2020
+ms.locfileid: "4650237"
 ---
 # <a name="pricing-dimensions-overview"></a>ภาพรวมมิติการกำหนดราคา
 
@@ -33,7 +34,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 Dynamics 365 Project Operations จัดส่งกับชุดการกำหนดราคาเริ่มต้น คุณสามารถมิติการกำหนดราคาเหล่านี้ได้โดยไปที่ **Project Operations** > **พารามิเตอร์** ในบันทึกพารามิเตอร์ บนแท็บ **Amount-based pricing dimensions** ตรวจสอบบทบาทนั้น **msdyn_resourcecategory** และจัดเตรียมทรัพยากรหน่อยองค์กร **msdyn_organizationalunit** มีฟิล์ด **Applicable to sales** และ **Applicable to cost** ให้ตั้งเป็น **Yes** เมื่อเปิดใช้งานฟิลด์เหล่านี้ คุณสามารถตั้งค่าการกำหนดราคาและการคิดต้นทุนสำหรับทุกบทบาทและการรวมหน่วยองค์กร
 
-![ภาพหน้าจอของพารามิเตอร์ Project Service กับ “Applicable to Sales” ที่เน้น](media/PS-OOB-parameters.png)
+![ภาพหน้าจอของพารามิเตอร์ Project Service กับ “Applicable to Sales” ที่ไฮไลต์](media/PS-OOB-parameters.png)
 
 ถ้าคุณต้องการกำหนดราคาหรือคิดต้นทุนสำหรับทรัพยากรของคุณโดยใช้แอตทริบิวต์เพิ่มเติม คุณสามารถสร้างฟิล์ดที่กำหนดเอง เอนทิตี และมิติ สำหรับข้อมูลเพิ่มเติม ดูหัวข้อต่อไปนี้ 
   
@@ -60,16 +61,13 @@ Dynamics 365 Project Operations จัดส่งกับชุดการก
 
 | บทบาท        | หน่วยองค์กร    |หน่วย      |ราคา      |สกุลเงิน  |
 | ------------|-------------|----------|----------:|----------|
-| นักพัฒนา   | Contoso US  |ชั่วโมง | 200|USD     |
-| นักพัฒนา   | Contoso อินเดีย |ชั่วโมง|   112|USD     |
+| นักพัฒนา   | Contoso US  |Hour | 200|USD     |
+| นักพัฒนา   | Contoso India |Hour|   112|USD     |
 
 
 **ตัวอย่างอัตราต้นทุน**
 
 | แถบเงินเดือน     | หน่วยองค์กร    |หน่วย      |ราคา      |สกุลเงิน  |
 | ----------------|-------------|----------|----------:|----------|
-| บริษัทของฉัน_Band1 | Contoso US  |ชั่วโมง | 145|USD     |
-| บริษัทของฉัน_Band2 | Contoso อินเดีย |ชั่วโมง|   67|USD     |
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+| บริษัทของฉัน_Band1 | Contoso US  |Hour | 145|USD     |
+| บริษัทของฉัน_Band2 | Contoso India |Hour|   67|USD     |

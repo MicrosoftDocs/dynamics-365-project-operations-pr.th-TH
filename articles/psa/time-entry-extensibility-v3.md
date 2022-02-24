@@ -2,6 +2,8 @@
 title: ปรับแต่งการป้อนข้อมูลเวลารายสัปดาห์
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้กฎทางธุรกิจแบบกำหนดเองที่สนับสนุนการปฏิบัติขององค์กร
 author: stsporen
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 07/09/2019
@@ -16,14 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: fa2ef927e0234919ee4777f24c60569fb33a8570f6d48be6aef356df4f08a6e7
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a34244884bc81da74ae3bf550bde6f982d04abd3
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7002309"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149656"
 ---
-# <a name="customize-weekly-time-entry"></a>ปรับแต่งการป้อนเวลารายสัปดาห์ 
+# <a name="customize-weekly-time-entry"></a>ปรับแต่งการป้อนข้อมูลเวลารายสัปดาห์ 
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
@@ -130,6 +132,3 @@ ms.locfileid: "7002309"
 
 > [!IMPORTANT] 
 > ขณะนี้ ปัญหาที่ทราบบนเพจ TBX ป้องกันผู้ใช้จากการแก้ไขข้อมูลและการเลือกใหม่เมื่อการปรับปรุงล้มเหลวในการตรวจสอบปลั๊กอิน ในฐานะที่เป็นวิธีแก้ปัญหา ให้ตั้งค่าการตรวจสอบกฎทางธุรกิจเพื่อป้องกันสถานการณ์นี้ให้มากที่สุดเท่าที่จะเป็นไปได้
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

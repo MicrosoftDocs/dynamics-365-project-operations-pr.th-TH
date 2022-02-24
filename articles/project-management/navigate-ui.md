@@ -2,16 +2,18 @@
 title: การนำทางอินเทอร์เฟซผู้ใช้
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดการทรัพยากรในการดำเนินการ Dynamics 365 Project
 author: ruhercul
+manager: AnnBe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 97483a53163edbbe6dfe383d6a6a60183a17e6e9df9ec3c47c9f33aef88aea3e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: deedfe0c6601fd09e09460034c9a0db936b6566e
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989169"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4127541"
 ---
 # <a name="navigating-the-user-interface"></a>การนำทางอินเทอร์เฟซผู้ใช้
 
@@ -31,7 +33,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 - **ทีม**: ให้รายละเอียดเกี่ยวกับผู้เข้าร่วมโครงการ กำลังคนที่ได้รับมอบหมายของสมาชิกทีมแต่ละคนยังสรุปไว้ในมุมมองนี้ด้วย
 
-    ![แท็บกลุ่มคนและฟิลด์](media/navigation9.png)
+    ![แท็บทีมและฟิลด์](media/navigation9.png)
 
 - **การมอบหมายทรัพยากร**: ให้มุมมองตามระยะเวลาของกำลังคนของทรัพยากรแต่ละรายในโครงการ
 
@@ -87,7 +89,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 **ขยาย**: แสดงเส้นตารางที่มองเห็นเป็นแบบเต็มหน้าจอเพื่อเพิ่มความสามารถในการดูบทบาทเพิ่มเติม
 
-![ปุ่มขยาย](media/navigation4.png)
+![ปุ่ม ขยาย](media/navigation4.png)
 
 ### <a name="time-phase-by"></a>ระยะเวลาตาม
 
@@ -100,6 +102,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 **เพิ่มคอลัมน์**: อนุญาตให้ผู้ใช้กำหนดคอลัมน์ที่มองเห็นได้ในตาราง คุณสามารถเพิ่มได้เฉพาะคอลัมน์สำเร็จรูปในตารางในฟอร์ม **การวางแผนโครงการ** เท่านั้น
 
 ![ปุ่มเพิ่มคอลัมน์](media/navigation5.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

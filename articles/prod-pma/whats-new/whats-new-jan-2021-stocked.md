@@ -2,17 +2,19 @@
 title: มีอะไรใหม่หรือเปลี่ยนแปลงในเดือนมกราคม 2021 - Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการอัปเดตคุณภาพที่มีอยู่ใน Project Operations รุ่นเดือนมกราคม 2021 สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
 author: andchoi
+manager: tfehr
 ms.date: 1/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: f7ad339872f18bf5aaae6f472436fc318d4cd919fcae58cc1b6e4d5ab19bd68c
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ce1c83e1e238d7919c38d2babea622ca59de86d3
+ms.sourcegitcommit: ef7d498bf80b0bcc1245dc42f30c410c31f891bb
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992769"
+ms.lasthandoff: 01/13/2021
+ms.locfileid: "4958671"
 ---
 # <a name="whats-new-or-changed-in-project-operations-january-2021-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือเปลี่ยนแปลงในเดือนมกราคม 2021 - Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
 
@@ -142,7 +144,4 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | การเดินทางและค่าใช้จ่าย                  | [525106](https://fix.lcs.dynamics.com/Issue/Details/?bugId=525106) | ใน Project Operations เวลาที่มีงานระหว่างกันใน Dataverse ไม่สามารถสร้างหรืออนุมัติได้                                                                                                                                                                                             |
 
 ### <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
-
-
-[!INCLUDE[footer-include](../../includes/footer-banner.md)]
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](https://docs.microsoft.com/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ

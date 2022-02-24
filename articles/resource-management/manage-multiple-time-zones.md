@@ -2,16 +2,18 @@
 title: จัดการโซนเวลาต่างๆ
 description: เมื่อสร้างโครงการ โซนเวลาจะขึ้นอยู่กับโซนเวลาที่กำหนดไว้ในแม่แบบชั่วโมงการทำงานที่ใช้
 author: ruhercul
+manager: Annbe
 ms.date: 10/05/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: d3fc0453e3038839107a98c4179e6bd4aede95cf4a5fcfe2d52f823b83029485
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 278b226c88c2f441262eb5be0504f34a1964848c
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988719"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4119846"
 ---
 # <a name="manage-time-zones"></a>จัดการโซนเวลาต่างๆ
 
@@ -34,11 +36,11 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
  
   ![การตั้งค่าโซนเวลาใน Windows 10](media/reconcile-assignments-03.png)
 
-  ![การตั้งค่าโซนเวลาในการตั้งค่าที่เป็นการตั้งค่าส่วนบุคคล](media/reconcile-assignments-04.png)
+  ![การตั้งค่าโซนเวลาในการตั้งค่าส่วนบุคคล](media/reconcile-assignments-04.png)
  
 - ทรัพยากรที่สามารถจองได้ต้องมีเวลาทำงานอย่างน้อยหนึ่งนาทีที่ทับซ้อนกับเส้นชั้นที่ใช้เพื่อกำหนดส่วนขยายที่ร้องขอ ตัวอย่างเช่น ทรัพยากรต่อไปนี้ซึ่งมีเวลาทำงานอยู่ระหว่าง 9.00 น. ถึง 19.00 น. 
 
-  ![การเปรียบเทียบของเส้นชั้นทรัพยากร](media/reconcile-assignments-05.png)
+  ![การเปรียบเทียบเส้นชั้นของทรัพยากร](media/reconcile-assignments-05.png)
 
 ตารางต่อไปนี้แสดง:
 
@@ -47,7 +49,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 - ทรัพยากร B: ทรัพยากรนี้อยู่ในโซนเวลาที่แตกต่างจากโครงการ และเริ่มเวลา 07:00 น. ในโซนเวลาของพวกเขา อย่างไรก็ตาม การจองจะเริ่มในเวลา 9.00 น. เนื่องจากเป็นเวลาเริ่มต้นที่เร็วที่สุดของเส้นชั้นการมอบหมาย
 - ทรัพยากร C และ D: ทรัพยากรอยู่ในโซนเวลาที่แตกต่างกัน ทั้งคู่แตกต่างกันและแตกต่างจากโครงการ และการจองของพวกเขาเริ่มต้นไม่เร็วกว่าเวลาเริ่มต้นที่มีอยู่ตามลำดับ
 
-|Entity  |ปฏิทิน  |
+|เอนทิตี  |ปฏิทิน  |
 |-|-|
 |แม่แบบปฏิทินโครงการ   | ![ปฏิทินโครงการ](media/reconcile-assignments-06.png) |
 |ทรัพยากร A  | ![ปฏิทินทรัพยากร A](media/reconcile-assignments-06.png) |
@@ -65,7 +67,4 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 โปรดสังเกตว่าการดูข้อมูลการจองอย่างละเอียดยิ่งขึ้นจะเห็นความแตกต่างในเวลาเริ่มต้นของการจอง การจองเริ่มต้นไม่เร็วกว่าเวลาเริ่มต้นของลักษณะการมอบหมายและไม่เร็วกว่าเวลาเริ่มต้นที่มีอยู่ของทรัพยากร
 
-![การจองทรัพยากรใหม่ในบอร์ดกำหนดการ](media/reconcile-assignments-12.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+![การจองทรัพยากรใหม่ในตารางกำหนดการ](media/reconcile-assignments-12.png)

@@ -2,16 +2,18 @@
 title: ส่งคำขอทรัพยากร
 description: คุณสามารถส่งคำขอทรัพยากรที่สร้างขึ้นเป็นคำขอทรัพยากรได้ จากนั้นคำขอจะถูกส่งไปยังผู้จัดการทรัพยากรเพื่อทำตามคำขอ
 author: ruhercul
+manager: Annbe
 ms.date: 10/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: dedde7778cc726d3f06aefc0243edfe130e6d0b58773e0bb8e87cfcb13f1cc79
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 18f43acc64ed72b1543a2d7d91a2648e7e185fc4
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994749"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4128846"
 ---
 # <a name="submit-a-resource-request"></a>ส่งคำขอทรัพยากร
 
@@ -19,12 +21,9 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 คุณสามารถส่งคำขอทรัพยากรที่สร้างขึ้นเป็นคำขอทรัพยากรได้ จากนั้นคำขอจะถูกส่งไปยังผู้จัดการทรัพยากรเพื่อทำตามคำขอ
 
-1. ใน Dynamics 365 Project Operations บนเพจ **โครงการ** ให้เลือกแท็บ **ทีม** เพื่อดูรายการทรัพยากรที่สามารถจองได้ 
+1. ใน Dynamics 365 Project Operations บนเพจ **โครงการ** เลือกแท็บ **ทีม** เพื่อดูรายการทรัพยากรที่สามารถจองได้ 
 2. เลือกทรัพยากรทั่วไปที่มีความจำเป็นจากในรายการ จากนั้นคลิก **ส่งคำขอ**
 
 สถานะของคำขอของสมาชิกทีมทั่วไปจะถูกเปลี่ยนเป็น **ส่งแล้ว**
 
 หลังจากคำขอได้รับการทำตาม ทรัพยากรทั่วไปจะถูกแทนที่ด้วยทรัพยากรที่ระบุชื่อ หากผู้จัดการทรัพยากรทำตามคำขอด้วยการจองของทรัพยากรที่ระบุชื่อ มิฉะนั้น หากผู้จัดการทรัพยากรได้เสนอทรัพยากรที่ระบุชื่อ ทรัพยากรทั่วไปจะยังคงอยู่ในทีมและสถานะคำขอจะถูกเปลี่ยนเป็น **ต้องมีการตรวจทาน**
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

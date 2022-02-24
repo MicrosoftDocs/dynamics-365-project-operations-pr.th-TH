@@ -2,6 +2,8 @@
 title: ใช้ตารางหมายกำหนดการให้บริการในการจองทรัพยากรของโครงการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจองทรัพยากร
 author: ruhercul
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/28/2019
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5e4516d13a30ddfb5763fe600b0c1fc675ba6cf980730912e1795cc3d6f4991f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9c9db2e602ca97d63ba237fd2c0eb757583caebc
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6998259"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5144436"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>ใช้ตารางหมายกำหนดการให้บริการในการจองทรัพยากรของโครงการ
 
@@ -40,17 +42,14 @@ ms.locfileid: "6998259"
 4. เลือกทรัพยากรอย่างน้อยหนึ่งรายการจากตารางหมายกำหนดการให้บริการ 
 5. ในหน้าต่าง **สร้างการจองทรัพยากร** ทางด้านขวาของหน้า ให้ป้อนข้อมูลการจองแล้วเลือก **จองและออก**
 
-    ![หน้าต่างสร้างการจองทรัพยากรสำหรับทรัพยากรที่สามารถจองได้ที่เลือกไว้](media/Resource-Management-image74.png)
+    ![หน้าต่างสร้างการจองทรัพยากรสำหรับทรัพยากรที่สำรองที่สามารถจองได้ที่เลือกไว้](media/Resource-Management-image74.png)
 
 6. ในขณะที่ความต้องการถูกเลือกในหน้าต่าง **สร้างการจองทรัพยากร** ให้เลือกเซลล์หนึ่งรายการขึ้นไปของทรัพยากรไปสร้างการจอง
 
-    ![เซลล์หลายเซลล์ที่เลือกสำหรับทรัพยากร](media/Resource-Management-image75.png)
+    ![หลายเซลล์ที่เลือกสำหรับทรัพยากร](media/Resource-Management-image75.png)
 
 7. เลือก **จอง**
 
 ความต้องการจะดำเนินการโดยการใช้ทรัพยากรที่เลือก ในหน้าต่าง **ความต้องการในการจอง** ให้สังเกตว่าความต้องการได้รับการอัพเดตและทรัพยากรจะถูกแสดงเป็นจองในโครงการ
 
 ![ทรัพยากรที่จองไว้ในโครงการ](media/Resource-Management-image76.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

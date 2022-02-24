@@ -1,6 +1,8 @@
 ---
 title: กำลังส่งคำขอทรัพยากร
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการส่งคำขอสำหรับทรัพยากรโครงการ
+manager: kfend
+ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/1/2018
@@ -16,12 +18,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: da3e2798079816409ffbcfed911c05f3d51307fef22c48d112802927828faeb2
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 173572be43149aea253bf7beddb993f8c50ab337
+ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6985029"
+ms.lasthandoff: 02/10/2021
+ms.locfileid: "5149746"
 ---
 # <a name="submitting-a-resource-request"></a>กำลังส่งคำขอทรัพยากร
 
@@ -34,11 +36,8 @@ ms.locfileid: "6985029"
 1. ใน Project Service Automation (PSA) ในเพจ **โครงการ** ให้คลิกแท็บ **ทีม** เพื่อดูรายการทรัพยากรที่สามารถจองได้ 
 2. เลือกทรัพยากรทั่วไปที่มีความจำเป็นจากในรายการ จากนั้นคลิก **ส่งคำขอ**
 
-![การส่งคำขอทรัพยากร](media/RM-how-to-18.png)
+![กำลังส่งคำขอทรัพยากร](media/RM-how-to-18.png)
 
 สถานะของคำขอของสมาชิกทีมทั่วไปจะถูกเปลี่ยนเป็น **ส่งแล้ว**
 
 หลังจากคำขอได้รับการทำตามโดยผู้จัดการทรัพยากร ทรัพยากรทั่วไปจะถูกแทนที่ด้วยทรัพยากรที่ระบุชื่อ หากผู้จัดการทรัพยากรทำตามคำขอด้วยการจองของทรัพยากรที่ระบุชื่อ มิฉะนั้น ทรัพยากรทั่วไปจะยังคงอยู่ในทีมและสถานะคำขอจะถูกเปลี่ยนเป็น **ตามมีการตรวจทาน** หากผู้จัดการทรัพยากรได้เสนอทรัพยากรที่ระบุชื่อ
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

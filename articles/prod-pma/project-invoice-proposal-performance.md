@@ -2,9 +2,11 @@
 title: ประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงประสิทธิภาพของข้อเสนอใบแจ้งหนี้โครงการ
 author: Yowelle
-ms.date: 06/16/2021
+manager: AnnBe
+ms.date: 04/20/2021
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ''
 audience: Application User, IT Pro
@@ -16,12 +18,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 20121-03-05
 ms.dyn365.ops.version: 10.0.18
-ms.openlocfilehash: 8b6df8baf1013720778308ce536b037dec4775f040d2925a47508fb373900f81
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1641d5f731029fdbdc16c4b652cc752a583058c6
+ms.sourcegitcommit: 68d52fc983861114e654ffc8d2472b4db9b48981
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005729"
+ms.lasthandoff: 04/20/2021
+ms.locfileid: "5920325"
 ---
 # <a name="project-invoice-proposal-performance"></a>ประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
 
@@ -44,6 +46,4 @@ ms.locfileid: "7005729"
 3.  รีเฟรชเบราว์เซอร์ของคุณ
 
 > [!NOTE]
-> ใช้ประสิทธิภาพของข้อเสนอใบแจ้งหนี้ไม่ได้เมื่อเปิดใช้กฎการเรียกเก็บเงิน
-> 
-> ในระหว่างกระบวนการชุดงานเพื่อสร้างข้อเสนอใบแจ้งหนี้ จำนวนงานย่อยจะแบ่งงานออกเป็นจำนวนสูงสุดตามจำนวนสัญญาที่มีธุรกรรมที่ออกใบแจ้งหนี้ได้ ไม่ว่าคุณจะป้อนอะไรก็ตาม ตัวอย่างเช่น หากคุณป้อน **3** สำหรับจำนวนงานย่อยสำหรับการสร้างข้อเสนอใบแจ้งหนี้ในชุดงาน และมีเพียงสองสัญญาที่มีธุรกรรมที่ออกใบแจ้งหนี้ได้ จะมีการสร้างงานย่อยเพียงสองงานเท่านั้น
+> ไม่สามารถใช้ประสิทธิภาพข้อเสนอใบแจ้งหนี้ได้เมื่อเปิดใช้งานกฎการเรียกเก็บเงินหรือกระบวนการชุดงานกำลังทำงานอยู่

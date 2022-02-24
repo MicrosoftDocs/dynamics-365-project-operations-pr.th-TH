@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 513f7fe75cfb7b1658b4be71ed0a17da7b64a1023992e1dada9adca8f0dbf21e
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d33786a5d0a2485a06d174eb7afcbaaa2f337cf6
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987639"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5992989"
 ---
 # <a name="create-a-project-booking-from-the-schedule-board"></a>สร้างการจองโครงการจากตารางกำหนดการ
 
@@ -62,7 +62,7 @@ ms.locfileid: "6987639"
 
 1. เพื่อจองทรัพยากรที่มีความต้องการหลัก บนตารางกำหนดการ เลือกแท็บ **โครงการ** คุณอาจต้องการใช้ตัวกรองคอลัมน์ในคอลัมน์ **โครงการ** ถ้าคุณมีหลายโครงการ
 
-   ![ตัวกรองคอลัมน์บนบอร์ดกำหนดการ](media/FAQ-Project-Booking-Schedule-Board-2.png "ภาพหน้าจอของตารางการจองและการกำหนด")
+   ![ตัวกรองคอลัมน์บนตารางกำหนดการ](media/FAQ-Project-Booking-Schedule-Board-2.png "ภาพหน้าจอของตารางการจองและการกำหนด")
 
 2. เลือกความต้องการที่มีชื่อโครงการเป็นชื่อของตนเอง และมีระยะเวลาเป็นศูนย์ (0) เท่านั้น
 

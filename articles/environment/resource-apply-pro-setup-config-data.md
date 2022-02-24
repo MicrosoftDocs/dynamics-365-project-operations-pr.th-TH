@@ -2,16 +2,18 @@
 title: ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าและการใช้ข้อมูลการกำหนดค่าใน Project Operations
 author: sigitac
-ms.date: 05/10/2021
+manager: Annbe
+ms.date: 11/04/2020
 ms.topic: article
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 26f49ad3b9fb08824071699128f8b907ec98bb54505c6fea3c97288cbaf31633
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
+ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986649"
+ms.lasthandoff: 11/25/2020
+ms.locfileid: "4642251"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service 
 
@@ -21,7 +23,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มกำหนดค่าข้อมูลใน Common Data Service (CDS) ต้องเป็นไปตามข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่คุณจะกำหนดค่าข้อมูลใน Common Data Service (CDS) ต้องปฏิบัติตามข้อกำหนดเบื้องต้นต่อไปนี้:
 
 1.  จัดเตรียมสภาพแวดล้อม CDS และสภาพแวดล้อม Dynamics 365 Finance สำหรับ Project Operations
 2.  ข้อมูลนิติบุคคลจาก Dynamics 365 Finance ถูกแบ่งปันกับสภาพแวดล้อม CDS ซึ่งหมายความว่าเอนทิตี **บริษัท** ใน CDS มีเรกคอร์ดบริษัทดังต่อไปนี้:
@@ -31,7 +33,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="install-setup-and-configuration-data"></a>ติดตั้งโปรแกรมตั้งค่าและข้อมูลการกำหนดค่า
 
-1. ดาวน์โหลด ยกเลิกการบล็อก และ unzip [แพคเกจโปรแรกมตั้งค่าและข้อมูลการกำหนดค่า](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip)
+1. ดาวน์โหลด ยกเลิกการบล็อก และ unzip [แพคเกจโปรแรกมตั้งค่าและข้อมูลการกำหนดค่า](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip)
 2. ไปที่โฟลเดอร์ที่ unzip และเรียกใช้ไฟล์ปฏิบัติการ *DataMigrationUtility*
 3. ในเพจ 1 ของวิซาร์ดการย้ายการกำหนดค่า Common Data Service (CMT) เลือก **นำเข้าข้อมูล** แล้วเลือก **ดำเนินการต่อ**
 
@@ -41,7 +43,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 5. เลือกกล่องกาเครื่องหมาย **แสดงรายชื่อขององค์กรที่มีอยู่** และ **แสดงขั้นสูง**
 6. เลือกภูมิภาคของผู้เช่าของคุณ ป้อนข้อมูลประจำตัวของคุณ และเลือก **เข้าสู่ระบบ**
 
-![การลงชื่อเข้าใช้การตั้งค่าคอนฟิก](./media/2ConfigurationSignin.png)
+![การลงชื่อเข้าใช้การกำหนดค่า](./media/2ConfigurationSignin.png)
 
 7. ในเพจ 3 จากรายชื่อองค์กรในผู้เช่า ให้เลือกองค์กรที่คุณต้องการนำเข้าข้อมูลสาธิต และเลือก **เข้าสู่ระบบ**
 8. ในเพจ 4 เลือกไฟล์ zip *SampleSetupAndConfigData* จากโฟลเดอร์ที่ขยาย
@@ -55,20 +57,13 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 ![นำเข้าข้อมูล](./media/5ImportData.png)
 
 10. การนำเข้าจะทำงานประมาณสองถึงสิบนาที ขึ้นอยู่กับความเร็วเครือข่ายของคุณ หลังจากนำเข้าเสร็จแล้ว ให้ออกจากวิซาร์ด CMT 
-11. ตรวจสอบองค์กรของคุณสำหรับข้อมูลใน 26 เอนทิตีต่อไปนี้:
+11. ตรวจสอบองค์กรของคุณสำหรับข้อมูลใน 19 เอนทิตีต่อไปนี้:
 
   - สกุลเงิน
-  - แผนภูมิของบัญชี
-  - ปฏิทินทางบัญชี
-  - ชนิดอัตราแลกเปลี่ยนสกุลเงิน
-  - วันที่การชำระเงิน
-  - กำหนดการของการชำระเงิน
-  - เงื่อนไขการชำระเงิน
   - หน่วยองค์กร
-  - ผู้ติดต่อ
+  - ติดต่อ
   - กลุ่มภาษี
   - กลุ่มลูกค้า
-  - กลุ่มผู้จัดจำหน่าย
   - หน่วย
   - กลุ่มของหน่วย
   - ราคาตลาด
@@ -84,7 +79,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
   - การกำหนดประเภททรัพยากรที่สามารถจองได้
   - คุณลักษณะทรัพยากรที่สามารถจองได้
 
-![ทำให้การนำเข้าเสร็จสมบูรณ์](./media/6CompleteImport.png)
+![การนำเข้าเสร็จสมบูรณ์](./media/6CompleteImport.png)
 
 ## <a name="update-project-operations-configurations"></a>ปรับปรุงการกำหนดค่า Project Operations
 
@@ -119,11 +114,11 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 9. ไปที่ **การตั้งค่า** > **แม่แบบปฏิทิน** และเลือก **ใหม่**
  
- ![เทมเพลตปฏิทิน](./media/14CalendarTemplates.png)
+ ![แม่แบบปฏิทิน](./media/14CalendarTemplates.png)
  
  10. ป้อนชื่อ เลือกทรัพยากรแม่แบบที่คุณสร้างขึ้น จากนั้นเลือก **บันทึก** 
  
- ![บันทึกเทมเพลตปฏิทิน](./media/15SaveCalendarTemplate.png)
+ ![บันทึกแม่แบบปฏิทิน](./media/15SaveCalendarTemplate.png)
  
  11. ไปที่ **พารามิเตอร์** แล้วดับเบิลคลิกที่เรกคอร์ด 
  
@@ -139,6 +134,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 13. เลือก **บันทึก** 
 
 ![พารามิเตอร์โครงการที่ปรับปรุง](./media/17UpdatedProjectParameters.png)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,25 +2,27 @@
 title: ภาพรวมการกระทบยอดทรัพยากร
 description: หัวข้อนี้ให้ข้อมูลที่จะช่วยให้คุณมั่นใจได้ว่าการจองทรัพยากรและการมอบหมายสำหรับโครงการจะสอดคล้องกัน
 author: ruhercul
+manager: AnnBe
 ms.date: 01/08/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
 ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1542e97955902486d22ca637514e4e121fae70e2b227cafc7020c031061b5f98
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8723cfad1e7cd07774e37023c5427b0a5833a554
+ms.sourcegitcommit: cffc84187007b34211c90babef8af5152d4d92ea
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994794"
+ms.lasthandoff: 01/12/2021
+ms.locfileid: "4849647"
 ---
 # <a name="resource-reconciliation-overview"></a>ภาพรวมการกระทบยอดทรัพยากร
 
@@ -46,6 +48,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 การจองที่สร้างผ่านการดำเนินการ **ขยายการจอง** เกี่ยวข้องกับความต้องการของโครงการหลัก เมื่อเริ่มต้นส่วนขยาย จะไม่สามารถกำหนดข้อกำหนดเฉพาะที่ต้องขยายได้ เนื่องจากทรัพยากรอาจเชื่อมโยงกับข้อกำหนดมากกว่าหนึ่งข้อสำหรับโครงการ
 
 จากนั้น ผู้จัดการโครงการหรือผู้จัดการทรัพยากรสามารถใช้บอร์ดกำหนดการเพื่อจัดการกับสถานการณ์ใดๆ ที่ทรัพยากรถูกจองเกินกว่ากำลังการผลิต
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

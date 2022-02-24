@@ -2,24 +2,26 @@
 title: ข้อมูลจริง
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการทำงานกับข้อมูลจริงใน Microsoft Dynamics 365 Project Operations
 author: rumant
+manager: AnnBe
 ms.date: 04/01/2021
 ms.topic: article
 ms.prod: ''
+ms.service: project-operations
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
-ms.custom: intro-internal
+ms.custom: ''
 ms.assetid: ''
 ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: a086fe0be67c21ed73793b6f3b58b47ad08eaa4e8a4c98870b4b2264562e3dce
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 304c51a4e502ad6ecec1fd821e98d6604ddd59ba
+ms.sourcegitcommit: b4a05c7d5512d60abdb0d05bedd390e288e8adc9
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991824"
+ms.lasthandoff: 04/02/2021
+ms.locfileid: "5852567"
 ---
 # <a name="actuals"></a>ข้อมูลจริง 
 
@@ -182,7 +184,7 @@ Project Operations จะบันทึกธุรกรรมทางกา�
 <td>สกุลเงินตามสัญญาโครงการ</td>
 </tr>
 <tr>
-<td>การขายที่เรียกเก็บเงินแล้วและคิดค่าธรรมเนียมไม่ได้ สำหรับความแตกต่าง</td>
+<td>การขายที่เรียกเก็บเงินแล้วและคิดค่าธรรมเนียมไม่ได้สำหรับความแตกต่าง</td>
 <td>สกุลเงินตามสัญญาโครงการ</td>
 </tr>
 <tr>

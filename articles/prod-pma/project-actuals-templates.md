@@ -2,9 +2,11 @@
 title: ซิงโครไนซ์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการเพื่อลงรายการบัญชีใน Finance and Operations
 description: หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์ค่าจริงของโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Finance and Operations
 author: Yowelle
+manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +17,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988134"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086064"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>ซิงโครไนซ์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการเพื่อลงรายการบัญชีใน Finance and Operations
 
@@ -93,9 +95,9 @@ ms.locfileid: "6988134"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปงานแม่แบบในการรวมข้อมูล การแม็ปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Project Service Automation ไปยัง Finance
 
-[![การแม็ปเทมเพลต - ข้อมูลจริง](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
+[![การแม็ปแม่แบบ - ข้อมูลจริง](./media/ActualsMapping.jpg)](./media/ActualsMapping.jpg)
 
-[![การแม็ปเทมเพลต - การเชื่อมต่อธุรกรรม](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
+[![การแม็ปแม่แบบ - การเชื่อมต่อธุรกรรม](./media/TransactionConnections.jpg)](./media/TransactionConnections.jpg)
 
 ## <a name="import-from-staging-table-after-integration-from-project-service-automation"></a>นำเข้าจากตารางการจัดเตรียมหลังจากการรวมจาก Project Service Automation
 
@@ -135,9 +137,6 @@ ms.locfileid: "6988134"
 
 ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปงานแม่แบบในการรวมข้อมูล การแม็ปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Finance ไปยัง Project Service Automation
 
-[![การแม็ปเทมเพลต - การอัปเดตข้อมูลจริง](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
+[![การแม็ปแม่แบบ - อัปเดตข้อมูลจริง](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
-[![การแม็ปเทมเพลต - การอัปเดตธุรกรรม](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
+[![การแม็ปแม่แบบ - อัปเดตธุรกรรม](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)

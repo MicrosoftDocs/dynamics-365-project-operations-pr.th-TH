@@ -2,9 +2,11 @@
 title: แอปพลิเคชันบนมือถือ Project Timesheet
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับแอปพลิเคชันบนมือถือ Microsoft Dynamics 365 Project Timesheet แอปสำหรับอุปกรณ์เคลื่อนที่ Project Timesheet ช่วยให้ผู้ใช้สามารถส่งและอนุมัติแผ่นเวลาสำหรับโครงการบนอุปกรณ์มือถือของตนได้
 author: abruer
+manager: AnnBe
 ms.date: 04/08/2019
 ms.topic: article
 ms.prod: ''
+ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -16,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b9cbd84ecb0d71a99982e158d7e0ea1e236fb369
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997224"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086105"
 ---
 # <a name="project-timesheet-mobile-application"></a>แอปพลิเคชันบนมือถือ Project Timesheet
 
@@ -94,6 +96,3 @@ ms.locfileid: "6997224"
 ## <a name="review-timesheets"></a>รีวิวแผ่นเวลา
 
 รายการของแผ่นเวลาที่ต้องถูกตรวจสอบ พร้อมใช้งานในเมนู ตัวเลือกนี้พร้อมใช้งานเฉพาะในกรณีที่คุณถูกกำหนดให้เป็นผู้อนุมัติเวิร์กโฟลว์ รองรับทั้งการอนุมัติส่วนหัวและรายการ การอนุมัติระดับรายการช่วยให้สามารถทำเครื่องหมายหนึ่งรายการขึ้นไปเพื่อขออนุมัติได้ หลังจากตรวจสอบข้อมูลแผ่นเวลาแล้ว ให้คลิก **อนุมัติ** **ผู้รับมอบสิทธิ์** หรือ **ส่งคืน** เพื่อดำเนินการเวิร์กโฟลว์ต่อ
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]
