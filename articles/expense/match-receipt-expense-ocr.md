@@ -1,5 +1,5 @@
 ---
-title: บันทึกภาพใบเสร็จโดยใช้ OCR
+title: จับคู่ใบเสร็จกับค่าใช้จ่ายโดยใช้ OCR
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการประมวลผลการรู้จำอักขระด้วยแสง (OCR) สำหรับใบเสร็จรับเงิน
 author: suvaidya
 manager: AnnBe
@@ -15,16 +15,16 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: fd0cb0fb094260fa3e82d7a2f200f328a39dd7a1
-ms.sourcegitcommit: f78087174a8512199a1bcbd7e8610bbc80e64801
+ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/04/2021
-ms.locfileid: "5499874"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4124346"
 ---
-# <a name="capture-a-receipt-using-ocr"></a>บันทึกภาพใบเสร็จโดยใช้ OCR
+# <a name="match-a-receipt-to-an-expense-using-ocr"></a>จับคู่ใบเสร็จกับค่าใช้จ่ายโดยใช้ OCR
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 รายการค่าใช้จ่ายได้รับการปรับปรุงโดยการใช้การประมวลผลการรู้จำอักขระด้วยแสง (OCR) สำหรับใบเสร็จรับเงิน ฟังก์ชันนี้ออกแบบมาเพื่อปรับปรุงประสบการณ์ของผู้ใช้เมื่อสร้างรายงานค่าใช้จ่าย
 
@@ -94,6 +94,3 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 Finance จะติดต่อ Cognitive Services เพื่อดึงข้อมูลภาคสนาม Cognitive Services จะเก็บสำเนาใบเสร็จรับเงินของคุณไว้เป็นเวลา 24 ชั่วโมงในขณะที่มีการประมวลผล หลังจากการประมวลผลเสร็จสิ้น Cognitive Services จะลบใบเสร็จรับเงินออก ใบเสร็จรับเงินยังคงเก็บไว้ใน Finance
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [เปิดใช้งานการทำความเข้าใจใบเสร็จรับเงินด้วยความสามารถใหม่ของตัวรู้จำฟอร์ม](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/)
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

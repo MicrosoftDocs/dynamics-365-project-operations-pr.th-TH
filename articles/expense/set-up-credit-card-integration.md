@@ -2,11 +2,9 @@
 title: ตั้งค่าการรวมบัตรเครดิต
 description: หัวข้อนี้อธิบายวิธีการทำงานกับธุรกรรมบัตรเครดิตที่เกี่ยวข้องกับค่าใช้จ่าย
 author: suvaidya
-manager: AnnBe
 ms.date: 04/02/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 72ff98f5985af4362cde3c9914e0d20247f1f09a
-ms.sourcegitcommit: ca0fc078d1a12484eca193fe051b8442c0559db8
+ms.openlocfilehash: 51c364dff41d856e493581e1b87fd29571f641c70e7233bdebb910efbc64b983
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/07/2021
-ms.locfileid: "5866706"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996234"
 ---
 # <a name="set-up-credit-card-integration"></a>ตั้งค่าการรวมบัตรเครดิต
 

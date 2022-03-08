@@ -2,18 +2,16 @@
 title: ใช้ประเภทธุรกรรมเป็นมิติการกำหนดราคา
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ฟิลด์ประเภทธุรกรรมเป็นมิติการกำหนดราคา
 author: rumant
-manager: tfehr
 ms.date: 11/05/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: bace11455d34fdda95e08be1a7cc37850a0cf589
-ms.sourcegitcommit: 869bde007805ef255f61b03937e4a44aeef61df9
+ms.openlocfilehash: ab8093aca9a33bbbaef41c6fc7d33cad930bfadd13b0f7587c3de9032ac0d630
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/12/2020
-ms.locfileid: "4514032"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996144"
 ---
 # <a name="use-transaction-category-as-a-pricing-dimension"></a>ใช้ประเภทธุรกรรมเป็นมิติการกำหนดราคา
 
@@ -50,3 +48,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 2. บนเพจ **พารามิเตอร์** บนแท็บ **มิติการกำหนดราคาตามจำนวนเงิน** ตรวจสอบให้แน่ใจว่ากริดแสดงเรกคอร์ดในเอนทิตี **มิติการกำหนดราคา**
 3. เพิ่ม **ประเภทธุรกรรม** ไปยังรายการนี้และตั้งค่าฟิลด์ **สามารถใช้งานได้กับต้นทุน** และ **สามารถใช้งานได้กับการขาย** ตั้งค่าเป็น **ใช่**
 4. ในฟิลด์ **ชนิดมิติ** ให้เลือก **ตามยอดเงิน** แล้วเลือกระดับความสำคัญสำหรับ **ประเภทของธุรกรรม** ที่เกี่ยวข้องกับต้นทุนและการขาย
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

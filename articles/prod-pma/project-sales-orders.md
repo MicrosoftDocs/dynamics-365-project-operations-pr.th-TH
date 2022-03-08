@@ -2,11 +2,9 @@
 title: ใบสั่งขายของโครงการสำหรับโครงการเวลาและวัสดุ
 description: หัวข้อนี้อธิบายวิธีสร้างใบสั่งขายตามโครงการสำหรับโครงการเวลาและวัสดุ
 author: Yowelle
-manager: AnnBe
 ms.date: 04/05/2019
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3653a6869dab323be88f1fd0f9fd0f2cb35c456f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: bec39790b0a41e72b4cc9798d37a01e87029e18335f77d895680aafbb74fac3b
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085917"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992859"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>ใบสั่งขายของโครงการสำหรับโครงการเวลาและวัสดุ
 
@@ -41,3 +39,6 @@ ms.locfileid: "4085917"
 - ไปที่ตัวโครงการเอง ในบานหน้าต่างการดำเนินการ เลือก **จัดการ > งานของสินค้า > ใบสั่งขาย** ข้อมูลโครงการจะเริ่มต้นเป็นใบสั่งขายจากโครงการ หากสัญญาโครงการมีแหล่งเงินทุนมากกว่าหนึ่งแห่ง คุณจะต้องเลือกแหล่งเงินทุนเพื่อตั้งค่าลูกค้าสำหรับใบสั่งขาย หากมีแหล่งเงินทุนเพียงแห่งเดียวสำหรับโครงการ ลูกค้าจะได้รับการตั้งค่าโดยอัตโนมัติ
 - ไปที่หน้ารายการ **ใบสั่งขายทั้งหมด** และสร้างใบสั่งขายใหม่ คุณจะต้องเลือกโครงการสำหรับใบสั่งขาย หลังจากเลือกโครงการแล้ว ลูกค้าจะได้รับการตั้งค่าจากแหล่งเงินทุน หรือคุณจะต้องเลือกแหล่งเงินทุน หากสัญญาโครงการมีแหล่งเงินทุนหลายแห่ง
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

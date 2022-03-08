@@ -2,25 +2,24 @@
 title: ภาพรวมโหมดการจัดการทรัพยากร
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันการจัดการทรัพยากรใน Dynamics 365 Project Operations
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 73ba6190e2e366f22372102d14d26f6d71ba0bc1
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.custom: intro-internal
+ms.openlocfilehash: 5c0f98a6f08129ebef9b6d3fed1cc85969aa347c815a643d3c8dd639b42c0e8c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118541"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008249"
 ---
 # <a name="resource-management-modes-overview"></a>ภาพรวมโหมดการจัดการทรัพยากร
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 
-Dynamics 365 Project Operations รองรับสองโหมดเพื่อให้คุณดำเนินการตามขั้นตอนการจองโดยรวม โหมดการจัดการมีการกำหนดเป็นพารามิเตอร์โครงการและสามารถแก้ไขได้หากธุรกิจของคุณต้องการการเปลี่ยนแปลง    
+Dynamics 365 Project Operations รองรับสองโหมดเพื่อให้คุณสามารถดำเนินการตามโฟลว์การจองโดยรวม โหมดการจัดการมีการกำหนดเป็นพารามิเตอร์โครงการและสามารถแก้ไขได้หากธุรกิจของคุณต้องการการเปลี่ยนแปลง    
 
 ## <a name="central-mode"></a>โหมดส่วนกลาง
 สำหรับองค์กรที่รวมศูนย์การจัดสรรทรัพยากรให้กับโครงการ โหมดส่วนกลางจะกำหนดวิธีที่จะทำให้ผู้จัดการโครงการสามารถกำหนดความต้องการทรัพยากรในระดับโครงการได้ การปฏิบัติตามความต้องการทรัพยากรถูกมอบหมายให้กับผู้จัดการทรัพยากร ผู้จัดการโครงการสามารถยอมรับหรือปฏิเสธทรัพยากรที่เสนอโดยผู้จัดการทรัพยากรได้
@@ -29,11 +28,11 @@ Dynamics 365 Project Operations รองรับสองโหมดเพื
 
 หากต้องการจัดการทรัพยากรด้วยโหมดส่วนกลาง โปรดดู:
 
-- [มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
-- [ส่งคำขอทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/submit-resource-request)
-- [เติมเต็มคำขอทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/resource-management-fulfill-requests)
-- [ยอมรับหรือปฏิเสธทรัพยากรโครงการที่นำเสนอจากคำขอทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/accept-reject-proposed-resource)
+- [มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร](/dynamics365/project-service/assign-generic-bookable-resource)
+- [จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร](/dynamics365/project-service/book-named-resource)
+- [ส่งคำขอทรัพยากร](/dynamics365/project-service/submit-resource-request)
+- [เติมเต็มคำขอทรัพยากร](/dynamics365/project-service/resource-management-fulfill-requests)
+- [ยอมรับหรือปฏิเสธทรัพยากรโครงการที่นำเสนอจากคำขอทรัพยากร](/dynamics365/project-service/accept-reject-proposed-resource)
 
 ## <a name="hybrid-mode"></a>โหมดไฮบริด
 สำหรับองค์กรที่ต้องการความยืดหยุ่นในการจัดสรรทรัพยากร โหมดไฮบริดช่วยให้ทั้งผู้จัดการโครงการและผู้จัดการทรัพยากรสามารถจองทรัพยากรได้
@@ -43,8 +42,11 @@ Dynamics 365 Project Operations รองรับสองโหมดเพื
 นอกเหนือจากกระบวนการของโหมดส่วนกลางที่รองรับแล้ว โปรดดูหัวข้อต่อไปนี้เพื่อจัดการขั้นตอนการจองที่รองรับอื่นๆ ทั้งหมดในโหมดไฮบริด:
 
 จองทรัพยากรให้กับโครงการโดยตรง
-- [จองทรัพยากรที่มีชื่อว่าสามารถจองได้ให้ทีมโครงการและมอบหมายงาน](https://docs.microsoft.com/dynamics365/project-service/assign-named-bookable-resource)
+- [จองทรัพยากรที่มีชื่อว่าสามารถจองได้ให้ทีมโครงการและมอบหมายงาน](/dynamics365/project-service/assign-named-bookable-resource)
 
 จองทรัพยากรจากความต้องการทรัพยากร:
-- [มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/assign-generic-bookable-resource)
-- [จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร](https://docs.microsoft.com/dynamics365/project-service/book-named-resource)
+- [มอบหมายทรัพยากรทั่วไปที่จองได้ให้กับงานและสร้างความต้องการของทรัพยากร](/dynamics365/project-service/assign-generic-bookable-resource)
+- [จองทรัพยากรที่ระบุชื่อจากความต้องการทรัพยากร](/dynamics365/project-service/book-named-resource)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

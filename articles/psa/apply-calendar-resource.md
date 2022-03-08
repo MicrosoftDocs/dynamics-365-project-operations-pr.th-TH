@@ -2,8 +2,6 @@
 title: นำปฏิทินไปใช้กับทรัพยากร
 description: วิธีการนำปฏิทินไปใช้กับทรัพยากรใน Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 7/31/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 94c646db684525cdc71bd935643a3b7ee2d40ea7
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 4f925711e642167e6b5e8e0cbff7e549d35b2efa
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145516"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009504"
 ---
 # <a name="apply-a-calendar-to-a-resource-project-service"></a>นำปฏิทินไปใช้กับทรัพยากร (Project Service)
 
@@ -45,3 +43,6 @@ ms.locfileid: "5145516"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [ตั้งค่าทรัพยากรที่สามารถจองได้](../psa/set-up-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

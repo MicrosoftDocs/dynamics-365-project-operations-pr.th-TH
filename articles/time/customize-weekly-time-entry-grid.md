@@ -8,18 +8,18 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: stsporen
-ms.openlocfilehash: d9c14f0550d4429ac794607a3fb61717566207e4
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: f446e24f3a61914a46a552fdc38b986d8b924747
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124661"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5277181"
 ---
 # <a name="extending-time-entries"></a>การขยายรายการเวลา
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
-Dynamics 365 Project Operations มีการควบคุมแบบกำหนดเองของรายการเวลาที่ขยายได้ การควบคุมนี้มีคุณลักษณะดังต่อไปนี้:
+Dynamics 365 Project Operations มีตัวควบคุมแบบกำหนดเองของรายการเวลาที่ขยายได้ การควบคุมนี้มีคุณลักษณะดังต่อไปนี้:
 
 - ป้อนเวลาในแนวนอนเป็นเวลาหนึ่งสัปดาห์
 - ผลรวมตามวัน แถว หรือสัปดาห์
@@ -144,3 +144,6 @@ Dynamics 365 Project Operations มีการควบคุมแบบกำ
 
 ### <a name="copying-time-entries"></a>การคัดลอกรายการเวลา
 ใช้มุมมอง **คัดลอกคอลัมน์รายการเวลา** เพื่อกำหนดรายการฟิลด์ที่จะคัดลอกระหว่างรายการเวลา **วันที่** และ **ระยะเวลา** เป็นฟิลด์ที่จำเป็นและไม่ควรลบออกจากมุมมอง
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

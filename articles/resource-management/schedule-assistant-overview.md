@@ -5,15 +5,15 @@ author: ruhercul
 manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: dynamics-365-customerservice
+ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: da551e805f395e466952df1dbb7d193bdddba358
-ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
+ms.openlocfilehash: e14dbe5abb69a547e2d09ef9e6bcba48e1f89455
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085788"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279251"
 ---
 # <a name="schedule-assistant-overview"></a>ภาพรวมระบบจัดการกำหนดการ
 
@@ -25,7 +25,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ระบบจัดการกำหนดการเป็นส่วนหนึ่งของโซลูชัน Universal Resource Scheduling โซลูชันนี้รวมและติดตั้งกับ Dynamics 365 Project Operations, Dynamics 365 Field Service และ Dynamics 365 Customer Service
+ระบบจัดการกำหนดการเป็นส่วนหนึ่งของโซลูชัน Universal Resource Scheduling โซลูชันนี้รวมและติดตั้ง Dynamics 365 Project Operations, Dynamics 365 Field Service และ Dynamics 365 Customer Service ด้วย
 
 ## <a name="matching-requirements-and-resources"></a>ความต้องการการจับคู่ และทรัพยากร
 
@@ -57,3 +57,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 -   บริษัทที่จัดหาทรัพยากร
 -   ชนิดทรัพยากร
 -   ทรัพยากรที่ต้องการ
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

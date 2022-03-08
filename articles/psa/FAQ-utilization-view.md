@@ -2,6 +2,8 @@
 title: ดูการใช้ประโยชน์ที่คิดค่าธรรมเนียมได้สำหรับทรัพยากร
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับมุมมองการใช้ประโยชน์ของทรัพยากร
 author: ruhercul
+manager: kfend
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/26/2019
@@ -16,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e1c123854209b3cb5c310e3bbcb242c9219279a8
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 6daa6cfa1c6a237d8a1685123f7c1a6926418bfe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "5992857"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085954"
 ---
 # <a name="view-chargeable-utilization-for-resources"></a>ดูการใช้ประโยชน์ที่คิดค่าธรรมเนียมได้สำหรับทรัพยากร
-
-[!include [banner](../includes/psa-now-project-operations.md)]
  
 **มุมมองการใช้ประโยชน์** บนเพจ **การใช้ประโยชน์ Project Service** แสดงการใช้ประโยชน์ที่คิดค่าธรรมเนียมได้สำหรับแต่ละทรัพยากรที่จองได้ เนื่องจากมุมมองจะขึ้นอยู่กับตารางกำหนดการ ดังนั้นคุณจะพบฟังก์ชันเดียวกันจำนวนมาก
 
@@ -99,6 +99,3 @@ ms.locfileid: "5992857"
   - บทบาทในรายละเอียดการให้บริการตามสัญญาของโครงการที่สนับสนุนโครงการ ได้ถูกตั้งค่าให้ไม่คิดค่าธรรมเนียม
   - แม่แบบสัญญานี้ไม่มีรายละเอียดการให้บริการตามสัญญาที่เชื่อมโยง
 
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

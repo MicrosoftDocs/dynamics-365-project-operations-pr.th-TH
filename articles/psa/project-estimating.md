@@ -2,8 +2,6 @@
 title: ต้นทุนและรายได้ของโครงการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการประเมินต้นทุนและรายได้ของโครงการ
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 03/01/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 279c1119d334a7f60906e33b3fc7ca22ff9a360d
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5148351"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009189"
 ---
 # <a name="project-costs-and-revenue"></a>ต้นทุนและรายได้ของโครงการ
 
@@ -97,3 +95,6 @@ ms.locfileid: "5148351"
 ## <a name="expense-estimates"></a>การประเมินค่าใช้จ่าย
 
 ปุ่ม **Add a New Expense Estimate** ในมุมมองตารางจะทำให้คุณบันทึกค่าใช้จ่ายใด ๆ ที่เกิดขึ้นในโครงการ แต่ไม่เกี่ยวข้องโดยตรงกับการจ้างงาน คุณสามารถบันทึกการประเมินค่าใช้จ่ายของงานเฉพาะหรือสำหรับทั้งโครงการ เลือกประเภทค่าใช้จ่ายที่และวันที่คาดไว้เมื่อคุณคาดว่าจะมีการใช้จ่ายเกิดขึ้น ถ้ารายการราคาต้นทุนที่เกี่ยวข้องและรายการราคาขายมีราคาเริ่มต้น (หรือถ้าเปอร์เซนต์มาร์กอัพถูกระบุในประเภทค่าใช้จ่าย) จะมีการป้อนรายการประเมินอัตโนมัติเมื่อมีงานเกิดขึ้น
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

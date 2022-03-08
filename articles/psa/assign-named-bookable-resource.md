@@ -3,7 +3,7 @@ title: จองทรัพยากรที่มีชื่อว่าส�
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจองทรัพยากรที่มีชื่อให้กับทีมโครงการและการมอบหมายงาน
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 11/28/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: d8a49b6ae8423cb99c710e40704475b4a71d3724
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: defc92e701ae6baf9d54f41dca123a09ef834c35
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5145381"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086051"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>จองทรัพยากรที่มีชื่อว่าสามารถจองได้ให้ทีมโครงการและมอบหมายงาน 
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 

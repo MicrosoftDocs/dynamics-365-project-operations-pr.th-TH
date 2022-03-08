@@ -2,11 +2,9 @@
 title: กำหนดนโยบายค่าใช้จ่าย
 description: คุณสามารถกำหนดนโยบายค่าใช้จ่ายที่ผู้ปฏิบัติงานของคุณต้องปฏิบัติตามเมื่อป้อนและส่งรายงานค่าใช้จ่ายและใบเบิกค่าเดินทาง
 author: suvaidya
-manager: AnnBe
 ms.date: 09/23/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,12 +13,12 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: c55cec132649daf9ee08ea4d8db3668860247934
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: d29b1a9c1a935b933f403f78279b74577d11089007ce1d1090c361075822263a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128441"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986379"
 ---
 # <a name="define-expense-policies"></a>กำหนดนโยบายค่าใช้จ่าย
 
@@ -53,3 +51,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 ## <a name="when-to-evaluate-policies"></a>เวลาในการประเมินนโยบาย
 
 ในพารามิเตอร์การจัดการค่าใช้จ่าย คุณสามารถเลือกที่จะประเมินนโยบายการจัดการค่าใช้จ่ายเมื่อมีการบันทึกรายการหรือเมื่อมีการส่งรายงานค่าใช้จ่าย หากคุณเลือกที่จะประเมินเมื่อมีการบันทึกรายการ ผู้ใช้จะสามารถมองเห็นได้ก่อนว่าพวกเขาต้องทำอะไรเพื่อทำรายงานค่าใช้จ่ายให้เสร็จสมบูรณ์ทั้งหมดพร้อมกัน หรือคุณสามารถชะลอการประเมินนโยบายและประหยัดเวลาได้โดยการตรวจสอบความถูกต้องในตอนท้าย ระหว่างการส่งไปยังเวิร์กโฟลว์
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

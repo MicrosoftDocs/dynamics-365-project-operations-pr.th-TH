@@ -2,18 +2,16 @@
 title: จัดการประมาณการรายได้
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการทำงานกับการประมาณรายได้สำหรับโครงการ
 author: sigitac
-manager: Annbe
 ms.date: 11/04/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 98df0301eaa8e9f8e9cd51fc5714254ae3bbc83d
-ms.sourcegitcommit: 2d399bc9d07807626f0d6b2d0cf304240c47591c
+ms.openlocfilehash: e3cbaff18d8bd4d6f6a7577bba25b3e843b1757e
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/17/2020
-ms.locfileid: "4531573"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6013870"
 ---
 # <a name="manage-revenue-estimates"></a>จัดการประมาณการรายได้
 
@@ -90,3 +88,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 ใช้หน้านี้เพื่อย้อนกลับการกำจัดทั้งหมดด้วยวันที่ประมาณการที่ระบุและสถานะการประมาณ **ถูกลบ** สถานะธุรกรรมจะเปลี่ยนไปหลังจากที่คุณเลือกฟิลด์ที่เหมาะสม
 
 นอกจากนี้ยังเปลี่ยนสถานะโครงการโดยอัตโนมัติเป็น **อยู่ระหว่างดำเนินการ** หากขั้นตอนโครงการถูกตั้งค่าเป็นเสร็จสิ้น สถานะการประมาณการของระยะเวลาโครงการจะเปลี่ยนกลับไปเป็น **โพสต์**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

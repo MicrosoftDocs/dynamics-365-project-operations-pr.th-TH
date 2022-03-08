@@ -1,8 +1,6 @@
 ---
 title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation รุ่น 3.x เวฟ 1 2020
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับสิ่งใหม่และสิ่งที่เปลี่ยนแปลงใน Project Service Automation รุ่น 3 เวฟ 1 2020
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 5110679038ae7ed1e21a3e7dc80a4657e0752b49
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a88b777c54ce54935d5483f616f3a24724ee192d40fbfd5d514f990e958dd5ea
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150961"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002129"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation รุ่น 3 เวฟ 1 2020
 
@@ -43,3 +41,6 @@ ms.locfileid: "5150961"
 
 ### <a name="currently-extended-time-entry-changes"></a>การเปลี่ยนแปลงรายการเวลาที่นานขึ้นในปัจจุบัน
 เพื่อลดผลกระทบต่อผู้ใช้งานปัจจุบันของรายการเวลา การเปลี่ยนแปลงบทบาทนี้เป็นข้อกำหนดหลักเพียงอย่างเดียวที่จำเป็นในการใช้ประโยชน์จากรายการเวลาต่อไป หากคุณสร้างมุมมองที่กำหนดเองหรือประสบการณ์รายการเวลาแยกกันคุณต้องตั้งค่าฟิลด์ **การตั้งค่ารายการเวลา** เป็นค่า PSA ที่ถูกต้อง
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

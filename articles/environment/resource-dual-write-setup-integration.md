@@ -2,19 +2,17 @@
 title: การตั้งค่าและการรวมข้อมูลการตั้งค่าคอนฟิกของ Project Operations
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าและการตั้งค่าคอนฟิกแผนที่การรวมแบบสองทิศทางของ Project Operations
 author: sigitac
-manager: Annbe
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: d5fe81dca30039f99d5d7b9bb459214e540db945
-ms.sourcegitcommit: bc51629df94c164325cf2afee387d0e7cda66da7
+ms.openlocfilehash: 6d263f7c5ef0d562edde6a603340a3b8746195df190fdb527bfa40297f68eed2
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/23/2021
-ms.locfileid: "5939057"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986559"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>การตั้งค่าและการรวมข้อมูลการตั้งค่าคอนฟิกของ Project Operations
 
@@ -53,7 +51,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 รายละเอียดการให้บริการตามสัญญาของโครงการที่ใช้วิธีการเรียกเก็บเงินราคาคงที่ จะออกใบแจ้งหนี้ผ่านหลักเป้าหมายในการเรียกเก็บเงิน หลักเป้าหมายในการเรียกเก็บเงินจะซิงโครไนซ์กับธุรกรรมในบัญชีโครงการในแอป Finance and Operations โดยใช้แผนที่ตาราง **เหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาการรวมของ Project Operations (msdyn\_contractlinescheduleofvalues)**
 
-  ![การรวมหลักเป้าหมายในการเรียกเก็บเงิน](./media/2Milestones.jpg)
+  ![การรวมเหตุการณ์สำคัญในการเรียกเก็บเงิน](./media/2Milestones.jpg)
 
 นักบัญชีสามารถตรวจสอบธุรกรรมในบัญชีและปรับแอตทริบิวต์การบัญชีสำหรับธุรกรรมเหล่านั้นได้โดยไปที่ **การจัดการโครงการและการบัญชี** > **สัญญาโครงการ** > **รักษา** > **ธุรกรรมในบัญชี** หรือ **การจัดการโครงการและการบัญชี** > **โครงการทั้งหมด** > **รักษา** > **ธุรกรรมในบัญชี**
 

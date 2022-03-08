@@ -3,7 +3,7 @@ title: การติดตั้งข้อมูลตัวอย่าง
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการติดตั้งข้อมูลตัวอย่างใน Project Service Automation
 ms.custom: dyn365-projectservice
 ms.date: 11/08/2018
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.suite: ''
 applies_to: Dynamics 365 Project Service Automation
@@ -11,16 +11,14 @@ author: ruhercul
 ms.author: ruhercul
 search.audienceType: IT Pro, Developer
 search.app: ''
-ms.openlocfilehash: aaeb4163c7ace1c3bf4db61f1a10a13cfbdc4fc2
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 46dbd8d125396baa97537ea5d11c47864558c113
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144526"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085997"
 ---
 # <a name="sample-data-installation-for-the-project-service-application"></a>การติดตั้งข้อมูลตัวอย่างสำหรับแอพลิเคชัน Project Service
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 เพื่อช่วยคุณในการสร้างสภาพแวดล้อมสาธิตของคุณเอง Microsoft มีแพคเกจข้อมูลตัวอย่างที่สามารถดาวน์โหลดได้ ที่แสดงความสามารถของแอปของคุณ มีแพคเกจข้อมูลตัวอย่างสองชนิด ได้แก่:
 - ข้อมูลการอ้างอิง/การตั้งค่า
@@ -51,7 +49,7 @@ ms.locfileid: "5144526"
 
 - สร้าง หรือตั้งค่าพารามิเตอร์เริ่มต้นสำหรับการใช้ Project Service Field Service หรือแอพลิเคชันทั้งสอง (ถ้ามี)
 
-- นำเข้าข้อมูลตัวอย่างสำหรับแอพลิเคชัน เช่น ทรัพยากรที่สามารถจองได้ บทบาทเฉพาะแอพลิเคชัน การขาย และรายการราคาต้นทุน หน่วยองค์กร เรกคอร์ดกระบวนการขาย และเอนทิตีอื่น เพื่อสาธิตความสามารถหลัก  
+- นำเข้าข้อมูลตัวอย่างสำหรับแอพลิเคชัน เช่น ทรัพยากรที่สามารถจองได้ บทบาทเฉพาะแอพลิเคชัน การขาย และรายการราคาต้นทุน หน่วยองค์กร เรกคอร์ดกระบวนการขาย และเอนทิตีอื่น เพื่อสาธิตความสามารถหลัก  
 
 ด้วยแพคเกจ **ข้อมูลสาธิต** คุณได้รับข้อมูลธุรกรรมด้านบนและเพิ่มเติม เช่น ใบสั่งผลิต และโครงการ
 

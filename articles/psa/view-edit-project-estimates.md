@@ -3,7 +3,7 @@ title: ดู และแก้ไขการประเมินโครง
 description: วิธีการดูและแก้ไขการประเมินโครงการใน Project Service
 author: rumant
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f31327df6be375dd82c615b2a9e8194145fcd19c
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d6f8375b71ef17319924e3a57800b1218f7258ee
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144076"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086008"
 ---
 # <a name="view-and-edit-project-estimates-project-service"></a>ดูและแก้ไขการประเมินโครงการ (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

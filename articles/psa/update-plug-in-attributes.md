@@ -2,11 +2,9 @@
 title: อัพเดตแอททริบิวต์ของปลั๊กอินเพื่อรวมมิติการกำหนดราคาใหม่
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการอัพเดตแอททริบิวต์ปลั๊กอินสำหรับมิติการกำหนดราคา
 author: Rumant
-manager: kfend
 ms.custom: ''
 ms.date: 11/19/2018
 ms.topic: article
-ms.service: project-operations
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -16,12 +14,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 603b0e9a10dc2fe23c9fa0fa7065bc3f500dc540
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: d04561fb6bcbc64f6ad3ea922bff1912824be64c6bb2b18cddd95e9b1b5c7850
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5147091"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6988809"
 ---
 # <a name="update-plug-in-attributes-to-include-new-pricing-dimensions"></a>อัพเดตแอททริบิวต์ของปลั๊กอินเพื่อรวมมิติการกำหนดราคาใหม่
 
@@ -54,11 +52,11 @@ ms.locfileid: "5147091"
  
 5. ในหน้าต่างการปรับปรุง ให้คลิกจุดไข่ปลา (**...**) ในการกรองแอตทริบิวต์
 
- ![ภาพหน้าจอของการปรับปรุงข้อมูลการกำหนดค่าขั้นตอนที่มีอยู่](media/PRT-3.png)
+ ![ภาพหน้าจอของการอัพเดตข้อมูลการตั้งค่าคอนฟิกขั้นตอนที่มีอยู่](media/PRT-3.png)
  
 6. เลือกกล่องกาเครื่องหมายแอททริบิวต์การกำหนดราคา
 
- ![ภาพหน้าจอที่แสดงการเลือกช่องทำเครื่องหมายสำหรับแอตทริบิวต์การกำหนดราคา](media/PRT-4.png)
+ ![ภาพหน้าจอที่แสดงการเลือกกล่องกาเครื่องหมายสำหรับแอตทริบิวต์การกำหนดราคา](media/PRT-4.png)
 
 7. คลิก **ตกลง** เพื่อปิดเพจและจากนั้นเลือก **ขั้นตอนการปรับปรุง**
 
@@ -68,3 +66,6 @@ ms.locfileid: "5147091"
 
 9. ปิด Plug-in Registration Tool
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

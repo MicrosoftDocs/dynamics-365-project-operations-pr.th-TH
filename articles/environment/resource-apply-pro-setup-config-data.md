@@ -2,18 +2,16 @@
 title: ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าและการใช้ข้อมูลการกำหนดค่าใน Project Operations
 author: sigitac
-manager: Annbe
-ms.date: 11/04/2020
+ms.date: 05/10/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 7742e81316b217066f9f3b8d5c23aa64f1a7efc4
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 2ea00df6112fb69b61f1889463424fdfee79aec9
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642251"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6001314"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service 
 
@@ -23,7 +21,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะกำหนดค่าข้อมูลใน Common Data Service (CDS) ต้องปฏิบัติตามข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่คุณจะเริ่มกำหนดค่าข้อมูลใน Common Data Service (CDS) ต้องเป็นไปตามข้อกำหนดเบื้องต้นต่อไปนี้:
 
 1.  จัดเตรียมสภาพแวดล้อม CDS และสภาพแวดล้อม Dynamics 365 Finance สำหรับ Project Operations
 2.  ข้อมูลนิติบุคคลจาก Dynamics 365 Finance ถูกแบ่งปันกับสภาพแวดล้อม CDS ซึ่งหมายความว่าเอนทิตี **บริษัท** ใน CDS มีเรกคอร์ดบริษัทดังต่อไปนี้:
@@ -33,7 +31,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="install-setup-and-configuration-data"></a>ติดตั้งโปรแกรมตั้งค่าและข้อมูลการกำหนดค่า
 
-1. ดาวน์โหลด ยกเลิกการบล็อก และ unzip [แพคเกจโปรแรกมตั้งค่าและข้อมูลการกำหนดค่า](https://download.microsoft.com/download/1/3/4/1349369c-6209-42b7-b3b4-5be0e67cacd8/ProjOpsSampleSetupData-%20Integrated%20UR1.zip)
+1. ดาวน์โหลด ยกเลิกการบล็อก และ unzip [แพคเกจโปรแรกมตั้งค่าและข้อมูลการกำหนดค่า](https://download.microsoft.com/download/e/2/d/e2da6c98-d5dd-450c-aabe-fd6bf2ba374b/ProjOpsSampleSetupData-%20Integrated%20Latest.zip)
 2. ไปที่โฟลเดอร์ที่ unzip และเรียกใช้ไฟล์ปฏิบัติการ *DataMigrationUtility*
 3. ในเพจ 1 ของวิซาร์ดการย้ายการกำหนดค่า Common Data Service (CMT) เลือก **นำเข้าข้อมูล** แล้วเลือก **ดำเนินการต่อ**
 
@@ -57,13 +55,20 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 ![นำเข้าข้อมูล](./media/5ImportData.png)
 
 10. การนำเข้าจะทำงานประมาณสองถึงสิบนาที ขึ้นอยู่กับความเร็วเครือข่ายของคุณ หลังจากนำเข้าเสร็จแล้ว ให้ออกจากวิซาร์ด CMT 
-11. ตรวจสอบองค์กรของคุณสำหรับข้อมูลใน 19 เอนทิตีต่อไปนี้:
+11. ตรวจสอบองค์กรของคุณสำหรับข้อมูลใน 26 เอนทิตีต่อไปนี้:
 
   - สกุลเงิน
+  - แผนภูมิของบัญชี
+  - ปฏิทินทางบัญชี
+  - ชนิดอัตราแลกเปลี่ยนสกุลเงิน
+  - วันที่การชำระเงิน
+  - กำหนดการของการชำระเงิน
+  - เงื่อนไขการชำระเงิน
   - หน่วยองค์กร
-  - ติดต่อ
+  - ผู้ติดต่อ
   - กลุ่มภาษี
   - กลุ่มลูกค้า
+  - กลุ่มผู้จัดจำหน่าย
   - หน่วย
   - กลุ่มของหน่วย
   - ราคาตลาด
@@ -134,3 +139,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 13. เลือก **บันทึก** 
 
 ![พารามิเตอร์โครงการที่ปรับปรุง](./media/17UpdatedProjectParameters.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,8 +2,6 @@
 title: ดูและส่งใบแจ้งหนี้
 description: วิธีดูและส่งใบแจ้งหนี้ใน Project Service
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f67254267e1d6f5db3a1cdf4b9c0f4d44226a4f3
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: fef14421431f8a597d7593d857d0878a15aa4aa0ce603fb1ed8614903a8f6104
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143941"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996684"
 ---
 # <a name="view-and-send-invoices-project-service"></a>ดูและส่งใบแจ้งหนี้ (Project Service)
 
@@ -58,3 +56,6 @@ ms.locfileid: "5143941"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [คำแนะนำของผู้จัดการโครงการ](../psa/project-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

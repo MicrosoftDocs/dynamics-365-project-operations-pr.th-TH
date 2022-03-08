@@ -2,19 +2,17 @@
 title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนเมษายน 2021 สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่มีอยู่ในรุ่นเดือนเมษายน 2021 ของ Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
 author: andchoi
-manager: tfehr
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: andchoi
-ms.openlocfilehash: 2e2e3c1c717b5296964e0921aeec4999dd2f6e29
-ms.sourcegitcommit: 69fadd3ce475d6aed2e1ed81a15becb28f020eb9
+ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/22/2021
-ms.locfileid: "5935587"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005594"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนเมษายน 2021 สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
 

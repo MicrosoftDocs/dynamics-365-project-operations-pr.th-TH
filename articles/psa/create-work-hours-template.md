@@ -2,8 +2,6 @@
 title: สร้างแม่แบบชั่วโมงทำงาน
 description: หัวข้อนี้อธิบายวิธีการสร้างเท็มเพลตชั่วโมงทำงานใน Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 525f601ad6fee902cb6d5c128b596cc2d33f30c4
-ms.sourcegitcommit: c45ceda833b30ad39861f5bcd3ba1bbfff11fe7a
+ms.openlocfilehash: 90525cf1e7cd487a03b064466ad1b13f8afb7819443fc4bacf9c7d3eee86f0b6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2021
-ms.locfileid: "5981278"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6987414"
 ---
 # <a name="create-a-work-hours-template-project-service"></a>สร้างเท็มเพลตชั่วโมงทำงาน (Project Service)
 
@@ -51,7 +49,7 @@ ms.locfileid: "5981278"
 
 1. ไปที่ **ทรัพยากร** \> **ทรัพยากร**
 2. สร้างทรัพยากรใหม่เพื่ออ้างอิงในเทมเพลตปฏิทิน หรือเลือกทรัพยากรที่มีอยู่
-3. เลือกแท็บ **ชั่วโมงทำงาน** ของทรัพยากร และกรอกคำแนะนำใน [กำหนดชั่วโมงการทำงานสำหรับทรัพยากร](https://docs.microsoft.com/dynamics365/field-service/set-work-hours-resource) เพื่อตั้งค่าคอนฟิกกฎปฏิทิน
+3. เลือกแท็บ **ชั่วโมงทำงาน** ของทรัพยากร และกรอกคำแนะนำใน [กำหนดชั่วโมงการทำงานสำหรับทรัพยากร](/dynamics365/field-service/set-work-hours-resource.md) เพื่อตั้งค่าคอนฟิกกฎปฏิทิน
 
 **สร้างเทมเพลตปฏิทินใหม่**
 

@@ -2,8 +2,6 @@
 title: จัดการคำขอของทรัพยากร
 description: วิธีการจัดการคำขอของทรัพยากรใน Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 4fa7db6ab96cd4e93ba973b3c9466fe12ed57c7f
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 518edcb210e33a7922e8920f896479a79d264ab62742641cc66b7c3a33b6c6e8
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149881"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985164"
 ---
 # <a name="manage-resource-requests-project-service"></a>จัดการคำขอของทรัพยากร (Project Service)
 
@@ -51,3 +49,6 @@ ms.locfileid: "5149881"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [คำแนะนำของผู้จัดการทรัพยากร](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -2,18 +2,16 @@
 title: นำข้อมูลสาธิตไปใช้กับสภาพแวดล้อมที่เป็นโฮสต์บนระบบคลาวด์ของ Finance
 description: หัวข้อนี้อธิบายถึงวิธีการใช้ข้อมูลสาธิตจาก Project Operations กับภาพแวดล้อมที่โฮสต์บนระบบคลาวด์ของ Dynamics 365 Finance
 author: sigitac
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a7cdbd2847ce45972aadd0d1a2d4f26270727ad9
-ms.sourcegitcommit: d33ef0ae39f90fe3b0f6b4524f483e8052057361
+ms.openlocfilehash: 7d8a198b3bfd71ae08bc338d17896519b5ffd6b8
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/03/2020
-ms.locfileid: "4365261"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6000189"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>นำข้อมูลสาธิตไปใช้กับสภาพแวดล้อมที่เป็นโฮสต์บนระบบคลาวด์ของ Finance
 
@@ -79,3 +77,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 18. ปิดเซสชันเดสก์ท็อประยะไกลและใช้เพจ **รายละเอียดสภาพแวดล้อม** ของ LCS เพื่อเข้าสู่สภาพแวดล้อมในการยืนยันว่าทำงานได้ตามที่คาดไว้
 
 ![Finance and Operations](./media/10FinanceAndOperations.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

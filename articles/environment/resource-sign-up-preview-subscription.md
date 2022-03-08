@@ -5,21 +5,19 @@ author: sigitac
 manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 917ead8ff6d9d3ef8374f8ccde608b6cebd50c8c
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 7a03f021b1ae0a87dfc947976b8a16c8246e1684
+ms.sourcegitcommit: 11a61db54119503e82faec5f99c4273e8d1247e5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5948487"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4085818"
 ---
 # <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>ลงทะเบียนการสมัครใช้งานรุ่นพรีวิวของ Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
-
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 หัวข้อนี้อธิบายถึงวิธีการสมัครรับข้อเสนอรุ่นพรีวิว/คู่ค้าและปรับใช้งานสภาพแวดล้อม Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
@@ -77,7 +75,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ![มอบหมายสิทธิ์การใช้งาน](./media/15AssignLicenses.png)
 
-3. ตรวจสอบว่าสิทธิ์การใช้งาน **พรีวิว Dynamics 365 Project Operations (CRM)** และ **Office 365 Project Operations - พรีวิว** ถูกเลือกและเลือก **บันทึกการเปลี่ยนแปลง**
+3. ตรวจสอบว่าสิทธิ์การใช้งาน **การแสดงตัวอย่าง Dynamics 365 Project Operations (CRM)** และ **Office 365 การดำเนินงานโครงการ - ดูตัวอย่าง** ถูกเลือกและเลือก **บันทึกการเปลี่ยนแปลง**
 
 > [!NOTE]
 > ข้อเสนอการทดลองใช้ Finance ไม่จำเป็นต้องมอบหมายให้กับผู้ใช้
@@ -92,12 +90,9 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>ปรับใช้งานสภาพแวดล้อมสาธิต Finance ด้วย Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
-ทำตามคำแนะนำในหัวข้อ [จัดเตรียมสภาพแวดล้อมใหม่](resource-provision-new-environment.md) เพื่อทำให้การปรับใช้งานเสร็จสมบูรณ์ ใช้ชนิดการปรับใช้งาน [สภาพแวดล้อมสาธิต](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) สำหรับพรีวิว 
+ทำตามคำแนะนำในหัวข้อ [จัดเตรียมสภาพแวดล้อมใหม่](resource-provision-new-environment.md) เพื่อทำให้การปรับใช้งานเสร็จสมบูรณ์ ใช้ชนิดการปรับใช้งาน [สภาพแวดล้อมสาธิต](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) สำหรับพรีวิว 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>ติดตั้งโปรแกรมตั้งค่า CDS และข้อมูลการกำหนดค่า
 
 ติดตั้งโปรแกรมตั้งค่า CDS และข้อมูลการกำหนดค่าตามที่อธิบายไว้ในหัวข้อ [ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service](resource-apply-pro-setup-config-data.md)
 ทำตามขั้นตอนนี้หลังจากที่สภาพแวดล้อมการสาธิต Finance ถูกปรับใช้ และข้อมูลสาธิตใน FO พร้อมแล้ว
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

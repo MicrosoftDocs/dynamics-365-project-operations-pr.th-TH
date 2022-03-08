@@ -2,19 +2,17 @@
 title: อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีอัปเดต Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ
 author: ruhercul
-manager: tfehr
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 249b8dba17165da04596ec46a625131b9b4daeb5
-ms.sourcegitcommit: f4fc6e3a81e8551da050e92f8fde85f8d7b52fbd
+ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/29/2020
-ms.locfileid: "4816648"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986784"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
 
@@ -35,7 +33,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 4. ตรวจสอบว่าสภาพแวดล้อมกำลังทำงานอยู่ หากยังไม่เริ่มต้น ให้เริ่มสภาพแวดล้อม
 5. ในส่วน **รุ่นใหม่** ภายใต้ **การอัปเดตที่มีอยู่** เลือก **ดูการอัปเดต** สำหรับ 10.0.15.
 
-![ดูปุ่มอัปเดต](media/view-update.png)
+![ดูปุ่มอัพเดต](media/view-update.png)
 
 6. บนหน้า **การปรับปรุงไบนารี** ให้เลือก **บันทึกแพคเกจ**
 7. บนหน้า **ตรวจทานและบันทึกอัปเดต** ให้เลือก **บันทึกแพคเกจ**
@@ -53,7 +51,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 4. เลือก **ใช่** เพื่อยืนยันว่าคุณต้องการอัปเดตโปรแกรมประยุกต์
 
-![ยืนยันกล่องโต้ตอบการอัปเดตโปรแกรมประยุกต์](media/confirm-application-update.png)
+![กล่องโต้ตอบยืนยันการอัพเดตแอปพลิเคชัน](media/confirm-application-update.png)
 
 การปรับใช้และการอัปเดตโปรแกรมประยุกต์จะเริ่มขึ้น 
 
@@ -123,5 +121,8 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 6. จากรายการแผนที่ เลือกแมป **บัญชีแยกประเภท (msdyn_ledgers)** ด้วยข้อกำหนดเบื้องต้นทั้งหมดและเลือกกล่องกาเครื่องหมาย **การทำข้อมูลให้ตรงกันครั้งแรก** 
 7. ในฟิลด์ **ข้อมูลหลักสำหรับการทำข้อมูลให้ตรงกันครั้งแรก** ให้เลือก **แอป Finance and Operations** จากนั้นเลือก **เรียกใช้**
  
- ![การทำข้อมูลแมปบัญชีแยกประเภทให้ตรงกัน](media/DW6.png)
+ ![การซิงโครไนซ์แผนที่บัญชีแยกประเภท](media/DW6.png)
  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

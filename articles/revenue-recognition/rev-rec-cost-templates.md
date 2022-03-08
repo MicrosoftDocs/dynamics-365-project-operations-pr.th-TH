@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 786b2b9b140f82d406044c2ed05761d7f46ee9e0
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 4d9dcc54e62682a02ea6cf8caca90586b4217908
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642746"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5278981"
 ---
 # <a name="set-up-cost-templates"></a>ตั้งค่าแม่แบบต้นทุน
 
@@ -79,3 +79,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 7. บนแท็บ **ประเภท** เลือกประเภทโครงการที่จะรวมไว้ในบรรทัดแม่แบบต้นทุน
 8. บนแท็บ **ทั่วไป** เลือกว่าจะรวมบรรทัดนี้ในเปอร์เซ็นต์ของการคำนวณความสำเร็จหรือไม่
 9. เลือกวิธีต้นทุนเพื่อทำให้เสร็จสมบูรณ์เพื่อใช้ในการคำนวณเปอร์เซ็นต์ของความสำเร็จ
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

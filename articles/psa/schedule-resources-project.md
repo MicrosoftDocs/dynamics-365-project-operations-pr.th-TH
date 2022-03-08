@@ -2,8 +2,6 @@
 title: จัดกำหนดการทรัพยากรสำหรับโครงการ
 description: วิธีการจัดกำหนดการทรัพยากรสำหรับโครงการใน Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e39c95386eb2dd31fb54878bc203bd94931274de
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 7beb1f86795a909a1266b2a2c97421e1f04ef3c4cf2f9b49413cd1382b0f2011
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5150466"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998169"
 ---
 # <a name="schedule-resources-for-a-project-project-service"></a>จัดกำหนดการทรัพยากรสำหรับโครงการ (Project Service)
 
@@ -35,7 +33,7 @@ ms.locfileid: "5150466"
   
 บอร์ดกำหนดการแสดงรายการของทรัพยากรและความพร้อม เลือกโหมดมุมมองเพื่อแสดงความพร้อมใช้งานตาม **ชั่วโมง** **วัน** **สัปดาห์** หรือ **เดือน**  
   
-ก่อนที่คุณจะใช้ตารางกำหนดการ สิ่งสำคัญคือการตั้งค่า สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกบอร์ดกำหนดการ (Field Service หรือ Project Service Automation)](https://docs.microsoft.com/dynamics365/field-service/configure-schedule-board)
+ก่อนที่คุณจะใช้ตารางกำหนดการ สิ่งสำคัญคือการตั้งค่า สำหรับข้อมูลเพิ่มเติม โปรดดู [ตั้งค่าคอนฟิกบอร์ดกำหนดการ (Field Service หรือ Project Service Automation)](/dynamics365/field-service/configure-schedule-board)
   
 ถ้าคุณกำลังใช้รุ่นที่เก่ากว่า สำหรับความพร้อมใช้งานของทรัพยากร โปรดดู [ดูความพร้อมใช้งานของทรัพยากร](../psa/view-resource-availability.md)  
 
@@ -83,3 +81,6 @@ ms.locfileid: "5150466"
   
 ### <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม  
  [คู่มือของผู้จัดการทรัพยากร](../psa/resource-manager-guide.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

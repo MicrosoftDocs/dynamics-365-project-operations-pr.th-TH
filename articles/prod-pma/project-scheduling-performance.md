@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10.0.14
 ms.search.validFrom: 2020-09-01
-ms.openlocfilehash: c3f219ce0635545976a6a4639233f166e18468af
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 34c31570778f9b64c23387112cf56fa1139cd0fd
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085915"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5289032"
 ---
 # <a name="project-resource-scheduling-performance"></a>ประสิทธิภาพการจัดกำหนดการทรัพยากรโครงการ
 
@@ -69,3 +69,6 @@ ms.locfileid: "4085915"
 
 > [!NOTE]
 > สิ่งนี้จะกระจายข้อมูลทั่วไปไปยังตาราง **ResRollup** ทั่วบริษัททั้งหมดในสภาพแวดล้อมของคุณ ดังนั้นชุดงานจะต้องทำงานในนิติบุคคลเดียวเท่านั้น งานชุดนี้จำเป็นสำหรับมุมมอง **ความพร้อมของทรัพยากร** ทั้งหมด หากไม่ได้เรียกใช้งานชุดนี้ ข้อมูล **ResRollup** จะถูกสร้างขึ้นทันที ซึ่งอาจต้องใช้เวลา
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

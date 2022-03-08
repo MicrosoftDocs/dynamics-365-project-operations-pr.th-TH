@@ -2,11 +2,9 @@
 title: ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance
 description: หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 author: Yowelle
-manager: AnnBe
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 1a470fd86ceccd7b6058da6972399a6d6be2a991
-ms.sourcegitcommit: 2b74edd31f38410024a01124c9202a4d94464d04
+ms.openlocfilehash: 2f5fa0143c903f08b3937426805cb43d5d6109e3
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/17/2020
-ms.locfileid: "4764842"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999829"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance 
 
@@ -109,8 +107,8 @@ ms.locfileid: "4764842"
 ## <a name="prerequisites-and-mapping-setup"></a>ข้อกำหนดเบื้องต้นและการตั้งค่าการแม็ป
 
 - ก่อนที่จะเกิดการซิงโครไนซ์สัญญาโครงการและโครงการ คุณต้องซิงโครไนซ์บัญชี
-- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์การรวมสำหรับ **msdyn\_organizationalunits** ไปยัง **msdyn\_name \[ชื่อ\]** ก่อนอื่นคุณอาจต้องเพิ่มโครงการลงในชุดการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม โปรดดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](https://docs.microsoft.com/powerapps/administrator/data-integrator)
-- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์การรวมสำหรับ **msdyn\_projects** ไปยัง **msdynce\_projectnumber \[หมายเลขโครงการ\]** ก่อนอื่นคุณอาจต้องเพิ่มโครงการลงในชุดการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม โปรดดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](https://docs.microsoft.com/powerapps/administrator/data-integrator)
+- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์การรวมสำหรับ **msdyn\_organizationalunits** ไปยัง **msdyn\_name \[ชื่อ\]** ก่อนอื่นคุณอาจต้องเพิ่มโครงการลงในชุดการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม โปรดดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](/powerapps/administrator/data-integrator)
+- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์การรวมสำหรับ **msdyn\_projects** ไปยัง **msdynce\_projectnumber \[หมายเลขโครงการ\]** ก่อนอื่นคุณอาจต้องเพิ่มโครงการลงในชุดการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม โปรดดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](/powerapps/administrator/data-integrator)
 - **SourceDataID** สำหรับสัญญาโครงการและโครงการสามารถอัปเดตเป็นค่าอื่นหรือลบออกจากการแม็ป ค่าแม่แบบเริ่มต้นคือ **Project Service Automation**
 - การแม็ป **เงื่อนไขการชำระเงิน** ต้องอัปเดตเพื่อให้แสดงเงื่อนไขการชำระเงินที่ถูกต้องใน Finance คุณยังสามารถลบการแม็ปออกจากงานโครงการได้ แม็ปค่าเริ่มต้นมีค่าเริ่มต้นสำหรับข้อมูลสาธิต ตารางต่อไปนี้แสดงค่าใน Project Service Automation
 
@@ -131,7 +129,7 @@ ms.locfileid: "4764842"
 หากคุณต้องใช้ Power Query ให้ปฏิบัติตามแนวทางเหล่านี้:
 
 - แม่แบบโครงการและสัญญา (PSA กับ Fin and Ops) มีตัวกรองเริ่มต้นที่รวมเฉพาะใบสั่งขายของประเภท **รายการงาน (msdyn\_ordertype = 192350001)** ตัวกรองนี้ช่วยรับประกันว่าไม่ได้สร้างสัญญาโครงการสำหรับใบสั่งขายใน Finance หากคุณสร้างแม่แบบของคุณเอง คุณต้องเพิ่มตัวกรองนี้
-- สร้างตัวกรอง Power Query ที่มีเฉพาะองค์กรตามสัญญาที่ควรซิงโครไนซ์กับนิติบุคคลของชุดการเชื่อมต่อการรวม ตัวอย่างเช่น สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso US ควรซิงโครไนซ์กับนิติบุคคล USSI แต่สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso Global ควรซิงโครไนซ์กับนิติบุคคลของ USMF หากคุณไม่เพิ่มตัวกรองนี้ในการแม็ปงานของคุณ สัญญาโครงการทั้งหมดจะซิงโครไนซ์กับนิติบุคคลที่กำหนดไว้สำหรับชุดการเชื่อมต่อ โดยไม่คำนึงถึงหน่วยขององค์กรตามสัญญา
+- สร้างตัวกรอง Power Query ที่มีเฉพาะองค์กรตามสัญญาที่ควรซิงโครไนซ์กับนิติบุคคลของชุดการเชื่อมต่อการรวม ตัวอย่างเช่น สัญญาโครงการที่คุณมีกับหน่วยขององค์กรของสัญญาคือ Contoso US ควรจะซิงโครไนซ์กับนิติบุคคล USSI แต่สัญญาโครงการที่คุณมีกับหน่วยขององค์กรของสัญญา Contoso Global ควรจะซิงโครไนซ์กับนิติบุคคล USMF หากคุณไม่เพิ่มตัวกรองนี้ในการแม็ปงานของคุณ สัญญาโครงการทั้งหมดจะซิงโครไนซ์กับนิติบุคคลที่กำหนดไว้สำหรับชุดการเชื่อมต่อ โดยไม่คำนึงถึงหน่วยขององค์กรตามสัญญา
 
 ## <a name="template-mapping-in-data-integration"></a>การแม็ปแม่แบบในการรวมข้อมูล
 
@@ -153,3 +151,6 @@ ms.locfileid: "4764842"
 #### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>การแม็ปเป้าหมายรายละเอียดการให้บริการตามสัญญาโครงการในโครงการและสัญญา (PSA 3.x ถึง Dynamics) - แม่แบบ v2:
 
 [![การแม็ปเหตุการณ์สำคัญรายละเอียดการให้บริการตามสัญญาโครงการพร้อมแม่แบบรุ่นสอง](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

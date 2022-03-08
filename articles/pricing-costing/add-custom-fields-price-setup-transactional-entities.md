@@ -17,12 +17,12 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: c324e0e8797d0b6d3a06ffc2a40b787a475c49b5
-ms.sourcegitcommit: 16c442258ba24c79076cf5877a0f3c1f51a85f61
+ms.openlocfilehash: 66cd638a3726cb68c0e92d3b0b54de28ff94b2a5
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/20/2020
-ms.locfileid: "4590924"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5275786"
 ---
 # <a name="add-required-custom-fields-to-price-setup-and-transactional-entities"></a>เพิ่มฟิลด์แบบกำหนดเองที่ต้องการในการตั้งค่าราคาและเอนทิตีธุรกรรม
 
@@ -146,3 +146,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 |  ตามจริง|• ข้อมูล<br>• ข้อมูลจริงที่ใช้งาน|• มุมมองร่วมของข้อมูลจริง|
 
 ฟิลด์ที่กำหนดเองอาจจำเป็นต้องเพิ่มลงในกฎธุรกิจ โดยขึ้นอยู่กับสิ่งที่คุณได้กำหนดไว้ ตัวอย่างสำเร็จรูปหนึ่งตัวอย่างคือสำหรับกฎธุรกิจ **ความสามารถในการแก้ไขรายการเวลาตามสถานะ** กฎนี้กำหนดว่าฟิลด์ใดจำเป็นต้องถูกล็อก เมื่อรายการเวลาอยู่ในสถานะที่ไม่สามารถแก้ไขได้ เช่น **อนุมัติแล้ว** เพิ่มฟิลด์ลงในกฎทางธุรกิจนี้ เพื่อให้ฟิลด์ถูกล็อกเพื่อแก้ไข เมื่อรายการเวลาอยู่ในสถานะอื่นที่ไม่ใช่ **แบบร่าง** หรือ **ถูกส่งคืน**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

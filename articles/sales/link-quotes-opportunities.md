@@ -2,18 +2,16 @@
 title: สร้างใบเสนอราคาโครงการจากโอกาสทางการขาย
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการสร้างใบเสนอราคาโครงการจากโอกาสทางการขาย
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 4d2cc35e3205332d2941bf17fb8c7d8c9d9f310c
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: acc7c6d0d3162163f071a9ab56950e4876aa711c94d36b3c9149cd46d76c57bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4118136"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999654"
 ---
 # <a name="create-project-quotes-from-opportunities"></a>สร้างใบเสนอราคาโครงการจากโอกาสทางการขาย
 
@@ -56,3 +54,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
    เมื่อคุณย้ายโอกาสทางการขายไปยังลำดับขั้นนี้ คุณสามารถเลือกใบเสนอราคานี้จากรายการของใบเสนอราคาที่เกี่ยวข้องกับโอกาสทางการขายนี้ได้ การเลือกใบเสนอราคานี้บ่งบอกว่าคุณกำลังเลื่อนไปข้างหน้า
 
    ใบเสนอราคาอื่นๆ ทั้งหมดที่เกี่ยวข้องกับโอกาสทางการขายนี้จะยังคงมีอยู่และใช้งานได้จนกว่าจะได้รับหนึ่งในใบเสนอราคานั้น คุณสามารถย้ายกระบวนการขายกลับไปยังลำดับขั้นก่อนหน้า ซึ่งคือ **รับรอง** และเลือกใบเสนอราคาอื่นเพื่อเลื่อนไปข้างหน้า
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

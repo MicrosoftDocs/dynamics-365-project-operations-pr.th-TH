@@ -8,12 +8,12 @@ ms.topic: article
 ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 1d04148f2e0953744da5ca32aa9062e3ae9530e7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 68675ca95f78382e7a3702805da840a5c8ef2f50
+ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128891"
+ms.lasthandoff: 02/15/2021
+ms.locfileid: "5279206"
 ---
 # <a name="skills-and-certifications"></a>ทักษะและการรับรอง
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
@@ -43,3 +43,5 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 3. ในตารางย่อย **ทักษะ** เลือก **+ เพิ่มลักษณะเฉพาะความต้องการใหม่**
 4. ในบานหน้าต่างสร้างด่วน ให้ค้นหาและเลือกลักษณะเฉพาะที่ต้องการ และเพิ่ม **ค่าการจัดอันดับคะแนน**
 5. เลือก **บันทึกและปิด**
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

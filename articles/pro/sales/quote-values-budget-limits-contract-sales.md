@@ -2,18 +2,16 @@
 title: ข้อมูลสรุปเกี่ยวกับใบเสนอราคาโครงการ - Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับข้อมูลและการตั้งค่าที่ใช้กับและส่งผลกระทบต่อใบเสนอราคาโครงการ (Sales)
 author: rumant
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 0a7fb3419536ca3a595ec339b971e32c11f9671e
-ms.sourcegitcommit: df30839484ef278675c5c712af0f7ba66ed9cdd3
+ms.openlocfilehash: ddc85d8c475dc7cdbe910fad31b5a6d8b617512c8a19cbae9543cb7a3e1d409e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 03/17/2021
-ms.locfileid: "5664021"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989664"
 ---
 # <a name="header-details-for-project-quotes"></a>รายละเอียดส่วนหัวสำหรับใบเสนอราคาโครงการ
 

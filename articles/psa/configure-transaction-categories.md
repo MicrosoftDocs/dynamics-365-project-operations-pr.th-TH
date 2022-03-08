@@ -2,8 +2,6 @@
 title: กำหนดค่าประเภทธุรกรรม
 description: วิธีการตั้งค่าประเภทธุรกรรมใน Project Service
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 404135d1f5ff73120d167d9d0e774b415164a2c1
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: a6f88f3f2a883a663c3594fa4a08cc9e170330ae30318c1b8f322cca6349bf3f
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5149521"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008699"
 ---
 # <a name="configure-transaction-categories-project-service"></a>ตั้งค่าคอนฟิกประเภทธุรกรรม (Project Service)
 
@@ -43,3 +41,6 @@ ms.locfileid: "5149521"
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [ตั้งค่าคอนฟิก Project Service](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

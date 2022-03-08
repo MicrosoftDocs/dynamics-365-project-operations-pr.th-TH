@@ -2,11 +2,9 @@
 title: ซิงโครไนซ์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการเพื่อลงรายการบัญชีใน Finance and Operations
 description: หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์ค่าจริงของโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Finance and Operations
 author: Yowelle
-manager: AnnBe
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -17,12 +15,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: cff62e739e88dc45e7c3d1ea044875f0600f2bc1
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: db63413456e4b91d308af9c1103000d5cdc693f7
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4086064"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "5999919"
 ---
 # <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>ซิงโครไนซ์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการเพื่อลงรายการบัญชีใน Finance and Operations
 
@@ -140,3 +138,6 @@ ms.locfileid: "4086064"
 [![การแม็ปแม่แบบ - อัปเดตข้อมูลจริง](./media/ActualsUpdateMapping.jpg)](./media/ActualsUpdateMapping.jpg)
 
 [![การแม็ปแม่แบบ - อัปเดตธุรกรรม](./media/TransactionConnectionsUpdate.jpg)](./media/TransactionConnectionsUpdate.jpg)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

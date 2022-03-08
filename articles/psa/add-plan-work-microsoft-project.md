@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 9556feac5481e20bde1c9624c0eccc05385eaa94
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 6bc74442866caccc02e53afc913a55aab81f9629
+ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146011"
+ms.lasthandoff: 10/28/2020
+ms.locfileid: "4129701"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>ใช้ Add-in Project Service Automation เพื่อวางแผนการทำงานของคุณใน Microsoft Project
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 
@@ -87,7 +85,7 @@ ms.locfileid: "5146011"
 ## <a name="publish-your-project"></a>เผยแพร่โครงการของคุณ  
 เมื่อการวางแผนโครงการของคุณเสร็จสมบูรณ์แล้ว ขั้นตอนถัดไปคือการนำเข้าและการเผยแพร่โครงการใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
 
-โครงการจะนำเข้าไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] กระบวนการการกำหนดราคาและการสร้างทีมงานจะถูกนำไปใช้ เปิดโครงการใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เพื่อดูว่ากลุ่มคน การประเมินโครงการ และโครงสร้างการแบ่งงาน ได้ถูกสร้างขึ้น ตารางต่อไปนี้แสดงตำแหน่งที่จะพบผลลัพธ์:
+โครงการจะนำเข้าไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] กระบวนการการกำหนดราคาและการสร้างทีมงานจะถูกนำไปใช้ เปิดโครงการใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เพื่อดูว่าทีม การประเมินโครงการ และโครงสร้างการแบ่งงาน ได้ถูกสร้างขึ้น ตารางต่อไปนี้แสดงตำแหน่งที่จะพบผลลัพธ์:
 
 
 |                                                                                          |                                                                                                                                   |
@@ -175,59 +173,6 @@ ms.locfileid: "5146011"
 4. คลิก **เผยแพร่**  
 
 การเชื่อมโยงแฟ้มโครงการไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ทำให้แฟ้มโครงการเป็นต้นแบบ และตั้งค่าโครงสร้างการแบ่งงานในเท็มเพลต [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ให้เป็นแบบอ่านอย่างเดียว  เมื่อต้องการทำการเปลี่ยนแปลงไปยังรายการแผนการของโครงการ คุณต้องดำเนินการใน [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] และเผยแพร่เป็นการปรับปรุงไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]
-
-## <a name="read-a-resource-loaded-schedule"></a>อ่านกำหนดการที่โหลดทรัพยากร
-
-เมื่ออ่านโครงการจาก Project Service Automation ปฏิทินของทรัพยากรจะไม่ถูกซิงโครไนซ์กับไคลเอ็นต์เดสก์ท็อป หากระยะเวลางาน ความพยายาม หรือจุดสิ้นสุด มีความแตกต่างกัน อาจเป็นเพราะทรัพยากรและไคลเอ็นต์เดสก์ท็อปไม่มีปฏิทินแม่แบบชั่วโมงการทำงานเดียวกันที่ใช้กับโครงการ
-
-
-## <a name="data-synchronization"></a>การซิงโครไนซ์ข้อมูล
-
-ตารางต่อไปนี้แสดงวิธีการซิงโครไนซ์ข้อมูลระหว่าง Project Service Automation และ Microsoft Project desktop add-in
-
-| **เอนทิตี** | **ฟิลด์** | **Microsoft Project ไปยัง Project Service Automation** | **Project Service Automation ไปยัง Microsoft Project** |
-| --- | --- | --- | --- |
-| งานโครงการ | วันครบกำหนด | ● | - |
-| งานโครงการ | ความพยายามโดยประมาณ | ● | - |
-| งานโครงการ | รหัสไคลเอ็นต์ MS Project | ● | - |
-| งานโครงการ | งานหลัก | ● | - |
-| งานโครงการ | Project | ● | - |
-| งานโครงการ | งานโครงการ | ● | - |
-| งานโครงการ | ชื่องานโครงการ | ● | - |
-| งานโครงการ | หน่วยการจัดเตรียมทรัพยากร (ถูกตัดออกใน v3.0) | ● | - |
-| งานโครงการ | ระยะเวลาตามกำหนดการ | ● | - |
-| งานโครงการ | วันที่เริ่ม | ● | - |
-| งานโครงการ | รหัส WBS | ● | - |
-
-| **เอนทิตี** | **ฟิลด์** | **Microsoft Project ไปยัง Project Service Automation** | **Project Service Automation ไปยัง Microsoft Project** |
-| --- | --- | --- | --- |
-| สมาชิกของทีม | รหัสไคลเอ็นต์ MS Project | ● | - |
-| สมาชิกของทีม | ชื่อตำแหน่ง | ● | - |
-| สมาชิกของทีม | โครงการ | ● | ● |
-| สมาชิกของทีม | ทีมโครงการ | ● | ● |
-| สมาชิกของทีม | หน่วยการจัดเตรียมทรัพยากร | - | ● |
-| สมาชิกของทีม | บทบาท | - | ● |
-| สมาชิกของทีม | ชั่วโมงทำงาน | ไม่ได้ซิงค์ | ไม่ได้ซิงค์ |
-
-| **เอนทิตี** | **ฟิลด์** | **Microsoft Project ไปยัง Project Service Automation** | **Project Service Automation ไปยัง Microsoft Project** |
-| --- | --- | --- | --- |
-| การมอบหมายทรัพยากร | วันที่เริ่มต้น | ● | - |
-| การมอบหมายทรัพยากร | จำนวนชั่วโมง | ● | - |
-| การมอบหมายทรัพยากร | รหัสไคลเอ็นต์ MS Project | ● | - |
-| การมอบหมายทรัพยากร | งานตามแผน | ● | - |
-| การมอบหมายทรัพยากร | Project | ● | - |
-| การมอบหมายทรัพยากร | ทีมโครงการ | ● | - |
-| การมอบหมายทรัพยากร | การมอบหมายทรัพยากร | ● | - |
-| การมอบหมายทรัพยากร | งาน | ● | - |
-| การมอบหมายทรัพยากร | จนถึงปัจจุบัน | ● | - |
-
-| **เอนทิตี** | **ฟิลด์** | **Microsoft Project ไปยัง Project Service Automation** | **Project Service Automation ไปยัง Microsoft Project** |
-| --- | --- | --- | --- |
-| การขึ้นต่อกันของงานโครงการ | การขึ้นต่อกันของงานโครงการ | ● | - |
-| การขึ้นต่อกันของงานโครงการ | ชนิดลิงก์ | ● | - |
-| การขึ้นต่อกันของงานโครงการ | งานที่ต้องทำก่อน | ● | - |
-| การขึ้นต่อกันของงานโครงการ | Project | ● | - |
-| การขึ้นต่อกันของงานโครงการ | งานที่ตามมา | ● | - |
 
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [คำแนะนำของผู้จัดการโครงการ](../psa/project-manager-guide.md)

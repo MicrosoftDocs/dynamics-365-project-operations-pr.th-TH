@@ -3,7 +3,7 @@ title: ดูความพร้อมใช้งานของทรัพ�
 description: วิธีการดูความพร้อมใช้งานของทรัพยากรใน Project Service
 author: JohnPBurrows
 manager: kfend
-ms.service: project-operations
+ms.service: dynamics-365-customerservice
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,16 +18,14 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: af05506481d96193c01c063c00e044242f786f5e
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: 18f2287eeba5df9dae150c213e2a7c88de8c7276
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5143896"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086006"
 ---
 # <a name="view-resource-availability-project-service"></a>ดูความพร้อมใช้งานของทรัพยากร (Project Service)
-
-[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-1x-2x](../includes/cc-applies-to-psa-app-1x-2x.md)]
 

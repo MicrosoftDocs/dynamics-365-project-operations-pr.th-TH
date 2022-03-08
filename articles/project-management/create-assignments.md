@@ -2,18 +2,16 @@
 title: สร้างการมอบหมายทรัพยากร
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการสร้างการมอบหมายทรัพยากรทั่วไปและที่ระบุชื่อ
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 829c1d1de7270e7cafbb98ef80235ae6404f77f7
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 610d9f7abbe7bc2eea8cc9a238dd7cfa1c626787
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4131771"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6006984"
 ---
 # <a name="create-resource-assignments"></a>สร้างการมอบหมายทรัพยากร
 
@@ -42,3 +40,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 1. จากตารางงาน ตารางหรือเส้นเวลา ไปที่เซลล์ **มอบหมายให้**
 2. เริ่มพิมพ์ชื่อในช่องค้นหา ผลลัพธ์การค้นหาสำหรับชื่อที่แสดงใน **ตัวเลือกทรัพยากร** ภายใต้ **ทรัพยากรอื่น ๆ**
 3. เลือกทรัพยากรที่คุณต้องการมอบหมายให้กับงาน หรือเลือกชื่อของทรัพยากรภายใต้ **ทรัพยากรอื่นๆ ของทีม**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

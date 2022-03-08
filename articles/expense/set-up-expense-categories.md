@@ -2,18 +2,16 @@
 title: ตั้งค่าประเภทค่าใช้จ่าย
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีตั้งค่าประเภทค่าใช้จ่ายและประเภทที่ใช้ร่วมกันสำหรับรายงานค่าใช้จ่าย
 author: suvaidya
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: suvaidya
-ms.openlocfilehash: 13e72e4b852fd0edac5ad35d5162e74b016bce33
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 8f5b1a5d069b8d73051406369ecba2c4547eaa38e0d5bde2e34f52c5b7b724bd
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123806"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993129"
 ---
 # <a name="set-up-expense-categories"></a>ตั้งค่าประเภทค่าใช้จ่าย
 
@@ -61,3 +59,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
     - ประเภทย่อยใดๆ ไม่รวมอยู่ในการขอคืนภาษีหรือไม่
     - กลุ่มภาษีขายสินค้าของประเภทย่อยคืออะไร
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

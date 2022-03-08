@@ -2,11 +2,9 @@
 title: โฮมเพจการจัดเตรียมทรัพยากรโครงการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดเตรียมทรัพยากรโครงการ
 author: Yowelle
-manager: AnnBe
 ms.date: 09/01/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
@@ -18,12 +16,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 3ecf8ee588de9ec41e0b4f384110f912759ed53f
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 00632be050b2ac98aaa6b98c3b09ff324c606e72
+ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085918"
+ms.lasthandoff: 05/10/2021
+ms.locfileid: "6009729"
 ---
 # <a name="project-resourcing-home-page"></a>โฮมเพจการจัดเตรียมทรัพยากรโครงการ
 
@@ -50,8 +48,11 @@ ms.locfileid: "4085918"
 - [จัดการความสามารถของทรัพยากร](manage-resource-competencies.md)
 - [สร้างโครงการใหม่](create-new-project.md)
 - [ตั้งค่าการกำหนดราคาตามบทบาท](set-up-role-based-pricing.md)
-- [สร้างกลุ่มคนของโครงการ](create-project-team.md)
+- [สร้างทีมโครงการ](create-project-team.md)
 - [ทำข้อมูลความสามารถรองรับของทรัพยากรให้ตรงกัน](synchronize-resource-capacity.md)
 - [ประสิทธิภาพการจัดกำหนดการทรัพยากรโครงการ](project-scheduling-performance.md)
 - [ตั้งค่าบทบาทในแม่แบบโครงสร้างการแบ่งงาน](set-up-roles-wbs-template.md)
 - [การเติมเต็มทรัพยากรสำหรับทรัพยากรที่วางแผนไว้](resource-fulfillment-planned-resources.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

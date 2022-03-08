@@ -18,12 +18,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e6f6424b983f76a96825d76e1b4b81b54dc84b84
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 1970a24a5073de6af43db1f1c068332c9ba9c8fe
+ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5270971"
+ms.lasthandoff: 10/16/2020
+ms.locfileid: "4086069"
 ---
 # <a name="create-and-apply-vendor-payment-retention-terms"></a>สร้างและใช้นโยบายการเก็บรักษาสำหรับการชำระเงินของผู้จัดจำหน่าย
 
@@ -65,6 +65,3 @@ ms.locfileid: "5270971"
 6. หากโครงการมีเงื่อนไขการจ่ายเมื่อชำระเงิน (PWP) ที่ตั้งค่าไว้สำหรับผู้จัดจำหน่ายด้วย ให้ป้อนเปอร์เซ็นต์เกณฑ์สำหรับโครงการในฟิลด์ **เปอร์เซ็นต์เกณฑ์ PWP**
 
 เงื่อนไขการรักษาผู้จัดจำหน่ายจะแสดงในใบสั่งซื้อที่คุณสร้างขึ้นสำหรับผู้จัดจำหน่ายด้วย
-
-
-[!INCLUDE[footer-include](../includes/footer-banner.md)]

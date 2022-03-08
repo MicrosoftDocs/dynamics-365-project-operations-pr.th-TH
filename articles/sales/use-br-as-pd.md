@@ -2,18 +2,16 @@
 title: ใช้ทรัพยากรที่สามารถจองได้เป็นมิติการกำหนดราคา
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการใช้ทรัพยากรที่จองได้เป็นมิติการกำหนดราคา
 author: Rumant
-manager: tfehr
 ms.date: 11/18/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: b0c5cb85f7c43f7b2fd9c367d7f7ac9c3250e0a1
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 1e8487d3d32acab294bb2de16fb0278f357f774e62b553eb0c1ebd5b6246e332
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4643106"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6996279"
 ---
 # <a name="use-a-bookable-resource-as-a-pricing-dimension"></a>ใช้ทรัพยากรที่สามารถจองได้เป็นมิติการกำหนดราคา
 
@@ -78,3 +76,6 @@ ms.locfileid: "4643106"
 5. เพิ่ม **msdyn_bookableresourceid** เป็น **ชื่อฟิลด์**
 
  ![ฟอร์มชื่อฟิลด์มิติการกำหนดราคาใหม่](media/PD-fieldname-Added.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

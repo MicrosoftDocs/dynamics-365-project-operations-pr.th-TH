@@ -2,11 +2,9 @@
 title: ตั้งค่าและใช้การชำระเงินให้แก่ผู้จัดจำหน่ายแบบจ่ายเมื่อชำระเงิน
 description: หัวข้อนี้จะอธิบายวิธีสร้างเงื่อนไขการจ่ายเมื่อชำระเงิน (PWP) เพื่อให้คุณสามารถปล่อยการชำระเงินให้แก่ผู้จัดจำหน่ายบางส่วน โดยยึดตามการชำระเงินของลูกค้า
 author: RadhikaRS
-manager: AnnBe
 ms.date: 03/30/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: kfend
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: e872c4a2d35cef4cddc6851615c6c4d73b4e9d9a
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 9976dadf57f1c84bf3f295ff3c8359c16e4849a3bf887f8bd33e46a04e2a5952
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085911"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7008879"
 ---
 # <a name="set-up-and-use-pay-when-paid-vendor-payments"></a>ตั้งค่าและใช้การชำระเงินให้แก่ผู้จัดจำหน่ายแบบจ่ายเมื่อชำระเงิน
 
@@ -80,3 +78,6 @@ ms.locfileid: "4085911"
 2. บนหน้า **ใบแจ้งหนี้ของผู้จัดจำหน่ายที่มีการจ่ายเมื่อชำระเงิน** ในช่องค้นหา ป้อนค่าเพื่อค้นหาใบแจ้งหนี้ของผู้จัดจำหน่ายที่คุณต้องการรีวิว และจากนั้น เลือก **ค้นหา**
 3. บน FastTab **รายการใบแจ้งหนี้ของผู้จัดจำหน่าย**  เลือกรายการที่คุณต้องการเปลี่ยนแปลง
 4. ถ้าตรงตามเงื่อนไข **จ่ายเมื่อชำระเงิน** สำหรับรายการใบแจ้งหนี้ เลือก **ปล่อยการชำระเงินให้แก่ผู้จัดจำหน่าย** ตัวเลือก **จ่ายเมื่อชำระเงิน** จะถูกยกเลิกการเลือก และค่าของฟิลด์ **พร้อมสำหรับการชำระเงิน** ถูกเปลี่ยนฟิลด์เป็น **ใช่**
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

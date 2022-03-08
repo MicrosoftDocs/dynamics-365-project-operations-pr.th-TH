@@ -2,12 +2,10 @@
 title: การสร้างฟิลด์และเอนทิตีแบบกำหนดเอง
 description: หัวข้อนี้อธิบายถึงวิธีการสร้างชุดตัวเลือกและเอนทิตีในโซลูชันของคุณในแพลตฟอร์ม Power Apps
 author: Rumant
-manager: kfend
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: business-applications
 ms.author: rumant
 audience: Admin
 search.audienceType:
@@ -17,12 +15,12 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b9e32c8871a8986ba827f742baf4e4d5cd9dd235
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: f501bcc106a296f35bba996b6ab3a8b758cefb1926033faf04ee23c42bc94d39
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144886"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6992454"
 ---
 # <a name="create-custom-fields-and-entities"></a>การสร้างฟิลด์และเอนทิตีแบบกำหนดเอง 
 
@@ -56,9 +54,9 @@ ms.locfileid: "5144886"
 2. ใน Solution Explorer บนบานหน้าต่างการนำทางด้านซ้าย เลือก **ชุดตัวเลือก** 
 3. คลิก **สร้าง** เพื่อสร้างชุดตัวเลือกใหม่ ป้อนข้อมูลที่จำเป็นให้ครบ และจากนั้นคลิก **บันทึก**
 
-> ![มิติการกำหนดราคาตามชุดตัวเลือกที่เรียกว่า สถานที่ทำงานของทรัพยากร ](media/Option-set-PD-called-Resource-Work-Location.png)
+> ![มิติการกำหนดราคาตามชุดตัวเลือกที่เรียกว่า สถานที่ทำงานของทรัพยากร](media/Option-set-PD-called-Resource-Work-Location.png)
 
-> ![มิติการกำหนดราคาตามชุดตัวเลือกที่เรียกว่า ชั่วโมงทำงานของทรัพยากร ](media/Option-set-PD-called-Resource-Work-Hours.PNG)
+> ![มิติการกำหนดราคาตามชุดตัวเลือกที่เรียกว่า ชั่วโมงทำงานของทรัพยากร](media/Option-set-PD-called-Resource-Work-Hours.PNG)
 
 
 ## <a name="create-data-for-entity-based-dimensions"></a>สร้างข้อมูลสำหรับมิติตามเอนทิตี้
@@ -70,6 +68,9 @@ ms.locfileid: "5144886"
 3. ปิดฟอร์ม 
 4. ทำซ้ำขั้นตอนที่ 1-3 เพื่อสร้างชื่อมาตรฐานอื่นสำหรับ "Senior Systems Engineer"
 
-> ![ข้อมูลตัวอย่างสำหรับเอนทิตีชื่อมาตรฐาน ](media/ST-data.png)
+> ![ข้อมูลตัวอย่างสำหรับเอนทิตีชื่อมาตรฐาน](media/ST-data.png)
 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]
