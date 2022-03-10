@@ -2,8 +2,6 @@
 title: การจองทรัพยากรแบบไม่ตายตัว
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจัดกำหนดการอย่างไม่แน่นอนหรือจองสมาชิกทีมโครงการแบบไม่ตายตัว
 author: ruhercul
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 9/25/2019
@@ -12,12 +10,12 @@ ms.author: ruhercul
 audience: Admin
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 2675096085fc4c673d15741042ffc1b82ed3de8b
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: cf67769fef39f95785320ae38055f0a3359b3a82d996b740bdb5d51e864f3d56
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5146461"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005369"
 ---
 # <a name="soft-book-a-resource"></a>การจองทรัพยากรแบบไม่ตายตัว
 
@@ -67,3 +65,6 @@ ms.locfileid: "5146461"
 2. คลิกขวาที่การจอง ข้างล่าง **เปลี่ยนสถานะ** เลือก **การจองแบบตายตัว** \> **แบบตายตัว** ขณะนี้ สถานะการจองเป็น **แบบตายตัว**
 3. หลังจากคุณปิดบอร์ดกำหนดการ กลับไปยังโครงการ และเปิดแท็บ **ทีม** คุณจะเห็นว่า ชั่วโมงสำหรับทรัพยากรได้ย้ายจากคอลัมน์ **ชั่วโมงที่จองแบบไม่ตายตัว** ไปยังคอลัมน์ **ชั่วโมงที่จองแบบตายตัว** บนแท็บ **ทีม** เมื่ออยู่ในมุมมอง **สมาชิกทีมที่ตั้งชื่อ** ถ้าทรัพยากรถูกมอบหมายให้กับงานเหล่านั้น รายการเหล่านั้นจะไม่แสดงการขาดการจองบนแท็บ **การกระทบยอด** อีกต่อไป เนื่องจากขณะนี้การจองของพวกเขาเป็นแบบตายตัว
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

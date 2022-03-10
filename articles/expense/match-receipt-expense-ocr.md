@@ -1,12 +1,10 @@
 ---
-title: จับคู่ใบเสร็จกับค่าใช้จ่ายโดยใช้ OCR
+title: บันทึกภาพใบเสร็จโดยใช้ OCR
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการประมวลผลการรู้จำอักขระด้วยแสง (OCR) สำหรับใบเสร็จรับเงิน
 author: suvaidya
-manager: AnnBe
-ms.date: 09/23/2020
+ms.date: 11/10/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.search.form: ''
 audience: Application User
 ms.reviewer: kfend
@@ -15,16 +13,16 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 55f63c8c092942b73a55c9d86d867bca600f42e5
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
+ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4124346"
+ms.lasthandoff: 11/11/2021
+ms.locfileid: "7798063"
 ---
-# <a name="match-a-receipt-to-an-expense-using-ocr"></a>จับคู่ใบเสร็จกับค่าใช้จ่ายโดยใช้ OCR
+# <a name="capture-a-receipt-using-ocr"></a>บันทึกภาพใบเสร็จโดยใช้ OCR
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 รายการค่าใช้จ่ายได้รับการปรับปรุงโดยการใช้การประมวลผลการรู้จำอักขระด้วยแสง (OCR) สำหรับใบเสร็จรับเงิน ฟังก์ชันนี้ออกแบบมาเพื่อปรับปรุงประสบการณ์ของผู้ใช้เมื่อสร้างรายงานค่าใช้จ่าย
 
@@ -87,10 +85,24 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 **คุณลักษณะนี้มีให้บริการและประมวลผลที่ไหน**
 
-ปัจจุบัน รองรับในสหรัฐอเมริกา
+ความพร้อมใช้งานของคุณลักษณะนี้ในภูมิภาคต่างๆ แสดงอยู่ในตารางต่อไปนี้ หากภูมิภาคของคุณยังไม่รองรับในขณะนี้ ให้ส่งคำขอเพื่อจัดลำดับความสำคัญความพร้อมใช้งานของบริการ OCR ในภูมิภาคของคุณ 
+
+| ขอบเขต | รองรับ                         |
+|--------|-----------------------------------|
+| USA    | ตกลง                               |
+| CAN    | ตกลง                               |
+| สหราชอาณาจักร     | ตกลง                               |
+| AUS    | ตกลง                               |
+| EU     | บางส่วน ใบเสร็จรับเงินภาษาอังกฤษเท่านั้น |
+| เอเชีย   | ไม่                                |
+| ญี่ปุ่น  | ไม่                                |
+| แอฟริกา | ไม่                                |
 
 **ใบเสร็จรับเงินของฉันไปที่ไหน**
 
 Finance จะติดต่อ Cognitive Services เพื่อดึงข้อมูลภาคสนาม Cognitive Services จะเก็บสำเนาใบเสร็จรับเงินของคุณไว้เป็นเวลา 24 ชั่วโมงในขณะที่มีการประมวลผล หลังจากการประมวลผลเสร็จสิ้น Cognitive Services จะลบใบเสร็จรับเงินออก ใบเสร็จรับเงินยังคงเก็บไว้ใน Finance
 
 สำหรับข้อมูลเพิ่มเติม โปรดดู [เปิดใช้งานการทำความเข้าใจใบเสร็จรับเงินด้วยความสามารถใหม่ของตัวรู้จำฟอร์ม](https://azure.microsoft.com/blog/enable-receipt-understanding-with-form-recognizer-s-new-capability/)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

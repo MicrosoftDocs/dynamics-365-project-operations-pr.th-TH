@@ -2,8 +2,6 @@
 title: ตรวจทานรายการคงค้างการออกใบแจ้งหนี้ในโครงการและสัญญาโครงการ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีที่จะตรวจทานเวลา ค่าใช้จ่าย และรายการคงค้างผลิตภัณฑ์ และวิธีที่จะทำเครื่องหมายว่าพร้อมสำหรับการออกใบแจ้งหนี้
 author: rumant
-manager: kfend
-ms.service: project-operations
 ms.custom: ''
 ms.author: rumant
 ms.date: 03/11/2019
@@ -16,14 +14,16 @@ search.audienceType:
 search.app:
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: bcdcc0cae06ce61bd582d56a8398e718051ff564
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: fb2f267c626126302a6afb6adba6070dedce4b030abc761e32b23df174d49ecb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4123986"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7006989"
 ---
 # <a name="review-the-invoicing-backlog-on-projects-and-project-contracts"></a>ตรวจทานรายการคงค้างการออกใบแจ้งหนี้ในโครงการและสัญญาโครงการ
+
+[!include [banner](../includes/psa-now-project-operations.md)]
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
@@ -40,7 +40,7 @@ ms.locfileid: "4123986"
 
 ในการตรวจทานรายการคงค้างการเรียกเก็บเงินสำหรับเวลาและวัสดุ ไปที่ **การขาย** \> **การเรียกเก็บเงิน** \> **รายการคงค้างของการเรียกเก็บเงินสำหรับเวลาและวัสดุ** เลือกการขายจริงที่ยังไม่ได้เรียกเก็บเงินทั้งหมดที่พร้อมที่จะออกใบแจ้งหนี้ แล้วเลือก **พร้อมที่จะออกใบแจ้งหนี้** สถานะการเรียกเก็บเงินของรายการจริงเหล่านี้จะถูกเปลี่ยนเป็น **พร้อมที่จะออกใบแจ้งหนี้**
 
-![รายการคงค้างการเรียกเก็บเงินสำหรับเวลาและวัสดุ](media/TMBacklog.png)
+![รายการคงค้างของการเรียกเก็บเงินสำหรับเวลาและวัสดุ](media/TMBacklog.png)
 
 ## <a name="review-the-product-billing-backlog"></a>ตรวจทานรายการคงค้างของการเรียกเก็บเงินสำหรับเวลาและวัสดุ
 
@@ -56,4 +56,7 @@ ms.locfileid: "4123986"
 
 ในการตรวจทานเหตุการณ์สำคัญเป้าหมายราคาคงที่ ไปที่ **การขาย** \> **การเรียกเก็บเงิน** \> **หลักเป้าหมายราคาคงที่** เลือกเหตุการณ์สำคัญที่พร้อมที่จะออกใบแจ้งหนี้ แล้วเลือก **พร้อมที่จะออกใบแจ้งหนี้** สถานะการเรียกเก็บเงินของเหตุการณ์สำคัญเหล่านี้จะถูกเปลี่ยนเป็น **พร้อมที่จะออกใบแจ้งหนี้**
 
-![หลักเป้าหมายราคาคงที่](media/FPBacklog.png)
+![เหตุการณ์สําคัญราคาคงที่](media/FPBacklog.png)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

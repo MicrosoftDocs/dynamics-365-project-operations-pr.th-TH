@@ -2,18 +2,16 @@
 title: การทำงานร่วมกับกลุ่ม Office
 description: กลุ่ม Office ช่วยให้คุณสามารถแชร์โครงการกับสมาชิกทีมคนอื่นๆ ได้ภายใน Common Data Service
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 815658ef66fb8083fb066f8f4d64a503580bfad2
-ms.sourcegitcommit: 573be7e36604ace82b35e439cfa748aa7c587415
+ms.openlocfilehash: 2ad284bb3eb461e254292fcf78ea135c9b978deeded30927c3c442afc2ec0b7e
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/25/2020
-ms.locfileid: "4642521"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7003164"
 ---
 # <a name="collaboration-with-office-groups"></a>การทำงานร่วมกับกลุ่ม Office
 
@@ -26,3 +24,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 > [!NOTE] 
 > จะมีการเพิ่มผู้ใช้ลงในกลุ่มเฉพาะเมื่อคุณกด **กลุ่ม** และเพิ่มเข้าไป ซึ่งแตกต่างจากลักษณะการทำงานของโครงการสำหรับเว็บ 
 
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

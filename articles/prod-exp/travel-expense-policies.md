@@ -2,11 +2,9 @@
 title: ตั้งค่านโยบายค่าใช้จ่าย
 description: คุณสามารถตั้งค่านโยบายค่าใช้จ่ายที่ผู้ปฏิบัติงานของคุณต้องปฏิบัติตาม เมื่อป้อนและส่งรายงานค่าใช้จ่ายและใบขอเดินทางใน Microsoft Dynamics 365 Finance
 author: suvaidya
-manager: AnnBe
 ms.date: 05/20/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
@@ -16,16 +14,14 @@ ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 6240a7be175800ce6f3b066de9e935ab370629ef
-ms.sourcegitcommit: 13a4e58eddbb0f81aca07c1ff452c420dbd8a68f
+ms.openlocfilehash: 050e19016edac53ef22764d227d4ef96d89ba298287b10416febbb55bb00973a
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/30/2020
-ms.locfileid: "4650117"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7005954"
 ---
 # <a name="set-up-expense-policies"></a>ตั้งค่านโยบายค่าใช้จ่าย
-
-[!include [banner](../includes/banner.md)]
 
 คุณสามารถกำหนดนโยบายที่ผู้ปฏิบัติงานของคุณต้องปฏิบัติตามเมื่อป้อนและส่งรายงานค่าใช้จ่ายและใบเบิกค่าเดินทาง         
 การใช้นโยบายค่าใช้จ่ายสามารถช่วยคุณจัดการค่าใช้จ่ายได้อย่างมีประสิทธิภาพ         
@@ -53,3 +49,6 @@ ms.locfileid: "4650117"
 ## <a name="when-to-evaluate-policies"></a>เวลาในการประเมินนโยบาย
 
 ในพารามิเตอร์การจัดการค่าใช้จ่าย มีตัวเลือกในการประเมินนโยบายการจัดการค่าใช้จ่าย เมื่อมีการบันทึกรายการ หรือเมื่อมีการส่งรายงานค่าใช้จ่าย หากคุณเลือกที่จะประเมินเมื่อมีการบันทึกรายการ นี่จะทำให้มั่นใจว่าผู้ใช้สามารถมองเห็นล่วงหน้าในสิ่งที่พวกเขาต้องทำเพื่อให้รายงานค่าใช้จ่ายของพวกเขาเสร็จสมบูรณ์ทั้งหมดพร้อมกัน หรือคุณสามารถชะลอการประเมินนโยบายและประหยัดเวลาได้ หากคุณมีการตรวจสอบความถูกต้องในตอนท้าย ระหว่างการส่งไปยังเวิร์กโฟลว์
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

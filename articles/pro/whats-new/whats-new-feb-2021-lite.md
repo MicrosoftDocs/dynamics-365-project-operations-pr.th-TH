@@ -2,19 +2,17 @@
 title: มีอะไรใหม่ในเดือนกุมภาพันธ์ 2021 - การปรับใช้งาน Project Operations แบบ Lite
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการอัปเดตคุณภาพที่มีอยู่ใน Project Operations รุ่นเดือนกุมภาพันธ์ 2021 สำหรับการปรับใช้งาน Project Operations แบบ Lite
 author: sigitac
-manager: tfehr
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: bfc4c622c423e689938e58666ae47abbe3c23d48
-ms.sourcegitcommit: 625b5244aaadff5a24a79d9addff91f87c6b015a
+ms.openlocfilehash: f9f162dd07f62b1ef82367de7d8186002fedae57b56bb83dbc6741232d70e4f6
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/09/2021
-ms.locfileid: "5141360"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7009329"
 ---
 # <a name="whats-new-february-2021---project-operations-lite-deployment"></a>มีอะไรใหม่ในเดือนกุมภาพันธ์ 2021 - การปรับใช้งาน Project Operations แบบ Lite
 
@@ -38,3 +36,6 @@ ms.locfileid: "5141360"
 | **การวางแผนและการติดตามโครงการ** | 2164035 | แก้ไขปัญหาเกี่ยวกับฟังก์ชัน **คัดลอกโครงการ** |
 | **รายการเวลา** | 2129161 | มีการใช้ข้อจำกัดที่เข้มงวดมากขึ้นเพื่อให้แน่ใจว่าผู้ใช้ไม่สามารถเปลี่ยนแปลงและอัปเดตรายการเวลาที่ถูกส่งหรือได้รับการอนุมัติ |
 | **รายการเวลา** | 2103572 | การอนุมัติเวลาสำหรับรายการเวลาที่ไม่ใช่โครงการต้องไม่มองหาบทบาทผู้อนุมัติโครงการ |
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]

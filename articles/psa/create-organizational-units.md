@@ -2,8 +2,6 @@
 title: สร้างหน่วยองค์กร
 description: วิธีการสร้างหน่วยองค์กรใน Project Service
 author: JohnPBurrows
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 8/03/2018
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: f8d44254adc9fc1e35d39080e284ea6195bfa821
-ms.sourcegitcommit: 418fa1fe9d605b8faccc2d5dee1b04b4e753f194
+ms.openlocfilehash: e4df3775e802681c51d6d6491110419bea2a17d7e7694f0879417800b5a6db37
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/10/2021
-ms.locfileid: "5144751"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993714"
 ---
 # <a name="create-organizational-units-project-service"></a>สร้างหน่วยองค์กร (Project Service)
 
@@ -44,11 +42,14 @@ ms.locfileid: "5144751"
   
 4.  คลิก **บันทึก** เพื่อสร้างเรกคอร์ดเพื่อที่คุณจะสามารถทำการแก้ไขตอไปได้  
   
-5.  ภายใต้ **รายการราคาต้นทุน** คลิก **+** เพื่อเพิ่มราคาตลาด คุณสามารถเพิ่มราคาตลาดได้เฉพาะกับบริบทที่นี่ได้ **ต้นทุน**  
+5.  ภายใต้ **รายการราคาต้นทุน** คลิก **+** เพื่อเพิ่มรายการราคา คุณสามารถเพิ่มรายการราคาได้เฉพาะกับบริบทที่นี่ได้ **ต้นทุน**  
   
-6.  ในฟิลด์ **ชื่อ** คลิกปุ่ม **ค้นหา** และเลือกราคาตลาดคุณต้องการทำให้ร้อมใช้งานไปที่หน่วยองค์กรนี้ การเพิ่มราคาตลาดต่อไปตามความต้องการ  
+6.  ในฟิลด์ **ชื่อ** คลิกปุ่ม **ค้นหา** และเลือกรายการราคาคุณต้องการทำให้ร้อมใช้งานไปที่หน่วยองค์กรนี้ การเพิ่มรายการราคาต่อไปตามความต้องการ  
   
 7.  เมื่อคุณทำเสร็จแล้ว คลิก **บันทึก** ที่มุมล่างขวาของหน้าจอ  
   
 ### <a name="see-also"></a>ดูเพิ่มเติม  
  [การตั้งค่า Project Service Automation](../psa/configure.md)
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

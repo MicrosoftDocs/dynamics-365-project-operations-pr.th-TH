@@ -2,11 +2,9 @@
 title: รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
 description: หัวข้อนี้อธิบายวิธีการรับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
 author: Yowelle
-manager: AnnBe
 ms.date: 08/06/2019
 ms.topic: business-process
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 ms.search.form: ProjProjectsListPage, ProjTable, ProjSalesItemReq, InventItemIdLookupSimple, PurchCreateFromSalesOrder, VendAccountItemLookup, PurchTable, PurchEditLines
 audience: Application User
@@ -16,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-06-30
 ms.dyn365.ops.version: Version 7.0.0
-ms.openlocfilehash: c2083516ff929113fd6db377acfe5aeb104666dd
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: da5eff576040f20cc206800b4d4ca987d08b0185ec5364bc1efc940f85d36371
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288251"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6998979"
 ---
 # <a name="receive-items-on-purchase-order-from-item-requirement"></a>รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
 

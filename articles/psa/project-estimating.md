@@ -16,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 48f313b15f788645b88a4d878e3bece419d63126
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: fe51af8adb7c3831a57494b8359def2a0176b552efe16feb53a2a265f5ffcb0c
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6009189"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7002579"
 ---
 # <a name="project-costs-and-revenue"></a>ต้นทุนและรายได้ของโครงการ
 
@@ -31,7 +31,7 @@ ms.locfileid: "6009189"
 
 การประเมินโครงการแสดงมุมมองทางการเงินสำหรับงานที่ถูกประเมินและวางกำหนดการในกำหนดการของโครงการ แท็บ **Estimates** บนหน้า **Projects** จะแสดงผลกระทบของต้นทุนและรายได้ของงานที่คุณได้วางแผนไว้ นอกจากนี้ยังแสดงข้อมูลเกี่ยวกับมิติที่กำหนดไว้ล่วงหน้าหลาย ๆ ด้าน 
 
-> ![แท็บที่ใช้ในการประเมิน](media/project-5.png)
+> ![แท็บประมาณการ](media/project-5.png)
 
 ## <a name="cost-and-sales-values-of-the-project"></a>มูลค่าของต้นทุนและยอดขายของโครงการ
 
@@ -66,7 +66,7 @@ ms.locfileid: "6009189"
 
 แท็บ **Estimates** จะมีมุมมองตารางที่แสดงรายการประเมิน ตารางประกอบด้วยคอลัมน์ของหน่วย ราคาต้นทุนรวม และราคาขายรวม เช่นเดียวกับที่จะแสดงให้เห็นต่อไปนี้ 
 
-> ![มุมมองตารางบนแท็บการประเมิน](media/project-6.png)
+> ![มุมมองกริดบนแท็บประมาณการ](media/project-6.png)
 
 ## <a name="time-phased-view-of-project-estimates"></a>มุมมองตามระยะเวลาของการประเมินโครงการ
 

@@ -2,20 +2,18 @@
 title: สัญญาโครงการ - แนวคิดหลัก - Lite
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับแนวคิดหลักของสัญญาโครงการ
 author: rumant
-manager: Annbe
 ms.date: 10/07/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 55d1310de4338e50a1fc7d0af8cd83e63856db61
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: a797a4fef6276f6ed008b0e58eed4c7480ba3492bcc166a362d4ff2816acf777
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5273806"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6991464"
 ---
-# <a name="project-contracts---key-concepts---lite"></a>สัญญาโครงการ - แนวคิดหลัก - Lite
+# <a name="concepts-unique-to-project-contracts"></a>แนวคิดเฉพาะสำหรับสัญญาโครงการ
 
 _**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 

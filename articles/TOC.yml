@@ -4,8 +4,14 @@
   items:
     - name: กำหนดชนิดการปรับใช้งานของคุณ
       href: environment/determine-deployment-type.md
+    - name: ลงทะเบียนรับรุ่นทดลองใช้ Project Operations
+      href: environment/admin-trials.md
     - name: การปรับปรุง Project Operations
       href: whats-new/project-operations-updates.md
+    - name: คุณลักษณะที่เอาออกหรือไม่สนับสนุน
+      items:
+        - name: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Project Operations
+          href: whats-new/removed-depreciated-features-project.md
 - name: Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในสต็อก
   items:
     - name: เริ่มต้นใช้งาน
@@ -28,6 +34,8 @@
               href: environment/resource-apply-pro-setup-config-data.md
         - name: ปรับใช้งานสภาพแวดล้อม
           items:
+            - name: ปรับใช้แอป Project Operations Dataverse พร้อมการรองรับการรวมแบบสองทิศทาง
+              href: environment/resource-manual-deploy-dataverse-dualwrite.md
             - name: เตรียมใช้งานสภาพแวดล้อมใหม่
               href: environment/resource-provision-new-environment.md
             - name: โมเดลความปลอดภัย
@@ -50,8 +58,24 @@
               href: environment/resource-dual-write-expense.md
             - name: การรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
               href: environment/resource-dual-write-vendor-invoice.md
+        - name: ถอนการติดตั้ง Dynamics 365 Project Operations
+          href: environment/uninstall-project-operations.md
     - name: มีอะไรใหม่
       items:
+        - name: ธันวาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-dec-2021-resource-based.md
+        - name: พฤศจิกายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-nov-2021-resource-based.md
+        - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-oct-2021-resource-based.md
+        - name: กันยายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-sept-2021-resource-based.md
+        - name: สิงหาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-august-2021-resource-based.md
+        - name: กรกฎาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-july-2021-resource-based.md
+        - name: มิถุนายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-june-2021-resource-based.md
         - name: พฤษภาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-may-2021-resource-based.md
         - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -282,13 +306,17 @@
           items:
             - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
               href: project-management/dev-copy-project.md
-            - name: ใช้ API กำหนดการ (พรีวิวสำหรับสาธารณะ)
+            - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
+            - name: ประสิทธิภาพของ API กำหนดการโครงการ
+              href: project-management/project-schedule-api-performance.md
+            - name: บันทึกการจัดกำหนดการโครงการ
+              href: project-management/schedule-api-logs.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
           href: resource-management/resource-management-key-concepts.md
-        - name: การจองเทียบกับการมอบหมายงาน
+        - name: การจองเทียบกับการมอบหมาย
           href: resource-management/booking-vs-assignment.md
         - name: ภาพรวมโหมดการจัดการทรัพยากร
           href: resource-management/resource-management-mode-overview.md
@@ -378,6 +406,8 @@
               href: expense/set-up-expense-categories.md
             - name: ตั้งค่าระยะทางโดยใช้ระดับอัตราระยะทางสะสม
               href: expense/set-up-mileage.md
+        - name: การแสดงรายการค่าใช้จ่าย
+          href: prod-exp/expense-itemization.md
         - name: ค่าใช้จ่ายส่วนตัว
           href: expense/personal-expenses-expense-report.md
         - name: ค่าใช้จ่ายระหว่างบริษัท
@@ -412,6 +442,8 @@
       items:
         - name: ภาพรวมการอนุมัติ
           href: approvals/approvals-overview.md
+        - name: ชุดการอนุมัติ
+          href: approvals/approval-sets.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
             - name: หมายเหตุสำหรับนักพัฒนาสำหรับการอนุมัติ
@@ -432,12 +464,18 @@
           href: procurement/configure-materials-nonstocked.md
         - name: จัดหาวัสดุที่ไม่มีในสต็อกสำหรับโครงการโดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
           href: procurement/pending-vendor-invoices.md
+        - name: สั่งวัสดุที่ไม่มีในสต็อกสำหรับโครงการโดยใช้ใบสั่งซื้อโครงการ
+          href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: การรักษาผู้จัดจำหน่าย
+          items:
+            - name: ภาพรวมของการรักษาผู้จัดจำหน่าย
+              href: procurement/vendor-retention-overview.md
+            - name: ตั้งค่าการรักษาผู้จัดจำหน่าย
+              href: procurement/set-up-vendor-retention.md
     - name: การออกใบแจ้งหนี้
       items:
         - name: ภาพรวมของการประมวลผลใบแจ้งหนี้
           href: invoicing/post-project-invoices.md
-        - name: จัดการข้อเสนอใบแจ้งหนี้โครงการชั่วคราว
-          href: invoicing/format-update-project-invoice-proposals.md
         - name: การออกใบแจ้งหนี้ชั่วคราว
           items:
             - name: จัดการรายการคงค้างของการเรียกเก็บเงินตามโครงการ
@@ -456,8 +494,22 @@
               href: proforma-invoicing/corrective-invoices.md
             - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้ตามโครงการ
               href: proforma-invoicing/configure-automated-invoice-creation.md
-        - name: จัดการข้อเสนอใบแจ้งหนี้โครงการชั่วคราว
-          href: invoicing/format-update-project-invoice-proposals.md
+        - name: การออกใบแจ้งหนี้สำหรับลูกค้า
+          items:
+            - name: จัดการข้อเสนอใบแจ้งหนี้โครงการ
+              href: invoicing/format-update-project-invoice-proposals.md
+            - name: แก้ไขการบัญชีบนข้อเสนอใบแจ้งหนี้โครงการฉบับร่าง
+              href: invoicing/correct-project-invoice-proposals.md
+        - name: การออกใบแจ้งหนี้ระหว่างบริษัท
+          items:
+            - name: ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
+              href: project-accounting/intercompany-invoicing-overview.md
+            - name: กำหนดค่าการออกใบแจ้งหนี้ระหว่างบริษัท
+              href: project-accounting/configure-intercompany-invoicing.md
+            - name: สร้างธุรกรรมระหว่างบริษัท
+              href: project-accounting/create-intercompany-transactions.md
+            - name: สร้างใบแจ้งหนี้ของลูกค้าและผู้ขายระหว่างบริษัท
+              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: การบัญชีของโครงการ
       items:
         - name: ค่าเริ่มต้นของมิติทางการเงิน
@@ -470,16 +522,6 @@
           href: project-accounting/configure-accounting-billable-projects.md
         - name: สมุดรายวันการรวมใน Project Operations
           href: project-accounting/project-operations-integration-journal.md
-        - name: การออกใบแจ้งหนี้ระหว่างบริษัท
-          items:
-            - name: ภาพรวมการออกใบแจ้งหนี้ระหว่างบริษัท
-              href: project-accounting/intercompany-invoicing-overview.md
-            - name: กำหนดค่าการออกใบแจ้งหนี้ระหว่างบริษัท
-              href: project-accounting/configure-intercompany-invoicing.md
-            - name: สร้างธุรกรรมระหว่างบริษัท
-              href: project-accounting/create-intercompany-transactions.md
-            - name: สร้างใบแจ้งหนี้ของลูกค้าและผู้ขายระหว่างบริษัท
-              href: project-accounting/create-intercompany-customer-vendor-invoices.md
     - name: การรับรู้รายได้
       items:
         - name: ภาพรวมการรับรู้รายได้
@@ -496,6 +538,12 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: จัดการประมาณการรายได้
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: การแก้ไขปัญหา
+      items:
+        - name: กระบวนการขายของโครงการ
+          items:
+            - name: ข้อผิดพลาดของสกุลเงินไม่ตรงกันเมื่อสร้างโครงการ สัญญา ใบเสนอราคา หรือทรัพยากรที่สามารถจองได้
+              href: troubleshooting/project-sales-process/currency-mismatch-error.md
 - name: การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
   items:
     - name: เริ่มต้นใช้งาน
@@ -512,6 +560,22 @@
           href: environment/security-model.md
     - name: มีอะไรใหม่
       items:
+        - name: มีอะไรใหม่การเข้าใช้ล่วงหน้า 2021 เวฟ 2 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: มีอะไรใหม่เดือนธันวาคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-dec-2021-lite.md
+        - name: มีอะไรใหม่เดือนพฤศจิกายน 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-nov-2021-lite.md
+        - name: มีอะไรใหม่เดือนตุลาคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-oct-2021-lite.md
+        - name: มีอะไรใหม่เดือนกันยายน 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-sept-2021-lite.md
+        - name: มีอะไรใหม่เดือนสิงหาคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-august-2021-lite.md
+        - name: มีอะไรใหม่เดือนกรกฎาคม 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-july-2021-lite.md
+        - name: มีอะไรใหม่เดือนมิถุนายน 2021 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-june-2021-lite.md
         - name: มีอะไรใหม่เดือนพฤษภาคม 2021 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-may-2021-lite.md
         - name: มีอะไรใหม่เดือนเมษายน 2021 - การปรับใช้งานแบบ Lite
@@ -762,13 +826,15 @@
           items:
             - name: พัฒนาแม่แบบโครงการด้วยคัดลอกโครงการ
               href: project-management/dev-copy-project.md
-            - name: ใช้ API กำหนดการ (พรีวิวสำหรับสาธารณะ)
+            - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
+            - name: ประสิทธิภาพของ API กำหนดการโครงการ
+              href: project-management/project-schedule-api-performance.md
     - name: การจัดการทรัพยากร
       items:
         - name: แนวคิดหลัก
           href: resource-management/resource-management-key-concepts.md
-        - name: การจองเทียบกับการมอบหมายงาน
+        - name: การจองเทียบกับการมอบหมาย
           href: resource-management/booking-vs-assignment.md
         - name: ภาพรวมโหมดการจัดการทรัพยากร
           href: resource-management/resource-management-mode-overview.md
@@ -820,6 +886,44 @@
           items:
             - name: ภาพรวมการใช้ประโยชน์ของทรัพยากร
               href: resource-management/resource-utilization-overview.md
+    - name: การจัดการการรับเหมารายย่อยใน Project Operations
+      items:
+        - name: การจัดการการรับเหมารายย่อยใน Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: การรับเหมารายย่อยในการเข้าใช้ล่วงหน้าเดือนตุลาคม 2021
+          href: pro/subcontracting/Subcontracting_EA_scope.md
+        - name: แนวคิดหลักในการรับเหมารายย่อย
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: กำลังจัดการผู้จัดจำหน่ายและราคาตลาดของโครงการ
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: ผู้รับเหมารายย่อยเป็นทรัพยาการที่สามารถจองได้
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: รายละเอียดส่วนหัวสำหรับผู้รับเหมารายย่อย
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: รายการรับเหมารายย่อยสำหรับเวลา
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: รายการรับเหมารายย่อยสำหรับประเภทค่าใช้จ่าย
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: รายการรับเหมารายย่อยสำหรับผลิตภัณฑ์
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: ทรัพยากรของรายการรับเหมารายย่อย
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: หลักเป้าหมายของรายการรับเหมารายย่อย
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: สมาชิกของทีมโครงการรับเหมารายย่อย
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: ตัวเลือกการรับเหมารายย่อยสำหรับสมาชิกของทีมโครงการ
+          href: pro/subcontracting/subcon-options.md
+        - name: การประเมินต้นทุนของการกำหนดทรัพยากรที่รับเหมารายย่อย
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: กำหนดค่ากระดานหมายกำหนดการให้บริการเพื่อแสดงผู้ปฏิบัติงานแบบสัญญาจ้างและความสามารถในการรับเหมารายย่อย
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: การจัดโครงการกับผู้ปฏิบัติงานแบบสัญญาจ้างและความสามารถในการรับเหมารายย่อย
+          href: pro/subcontracting/staffing-cw.md
+        - name: การบันทึกเวลา ค่าใช้จ่าย และการใช้วัสดุสำหรับส่วนประกอบที่รับเหมารายย่อย
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: การเปลี่ยนสถานะในสัญญารับเหมารายย่อย
+          href: pro/subcontracting/subcon-states.md
     - name: เวลา
       items:
         - name: ภาพรวมของเวลา
@@ -846,6 +950,8 @@
       items:
         - name: ภาพรวมการอนุมัติ
           href: approvals/approvals-overview.md
+        - name: ชุดการอนุมัติ
+          href: approvals/approval-sets.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
             - name: หมายเหตุสำหรับนักพัฒนาสำหรับการอนุมัติ
@@ -882,6 +988,14 @@
   items:
     - name: มีอะไรใหม่
       items:
+        - name: มีอะไรใหม่ในเดือนตุลาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-oct-2021-stocked.md
+        - name: มีอะไรใหม่ในเดือนกันยายน 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-sep-2021-stocked.md
+        - name: มีอะไรใหม่ในเดือนกรกฎาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-jul-2021-stocked.md
+        - name: มีอะไรใหม่ในเดือนพฤษภาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-may-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนเมษายน 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
           href: prod-pma/whats-new/whats-new-apr-2021-stocked.md
         - name: มีอะไรใหม่ในเดือนมีนาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
@@ -1032,8 +1146,24 @@
       href: psa/overview.md
     - name: มีอะไรใหม่
       items:
-        - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
+        - name: กำหนดการออกรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 38, V3'
+          href: psa/whats-new-ur-38.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 37.5, V3'
+          href: psa/whats-new-ur-37-5.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 37, V3'
+          href: psa/whats-new-ur-37.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 36, V3'
+          href: psa/whats-new-ur-36.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 35, V3'
+          href: psa/whats-new-ur-35.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 34, V3'
+          href: psa/whats-new-ur-34.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 33, V3'
+          href: psa/whats-new-ur-33.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 32.5, V3'
+          href: psa/whats-new-ur-32-5.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 32, V3'
           href: psa/whats-new-ur-32.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 31, V3'
@@ -1106,6 +1236,8 @@
           href: psa/implementation-guides/resource-management-guide.md
         - name: คู่มือการรายงาน
           href: psa/implementation-guides/reporting-guide.md
+    - name: การปรับรุ่นจาก Project Service Automation เป็น Project Operations - lite
+      href: psa/upgrade-project-operations-non-stocked.md
     - name: การปรับรุ่น Project Service Automation (แอปรุ่น 3.x)
       items:
         - name: การปรับรุ่น Project Service Automation
@@ -1274,7 +1406,7 @@
               href: psa/time-entry-calendar.md
             - name: ปรับแต่งการป้อนเวลารายสัปดาห์
               href: psa/time-entry-extensibility-v3.md
-            - name: ชุดการอนุมัติ
+            - name: ชุดการอนุมัติใน Project Service Automation
               href: psa/approval-set.md
     - name: คำถามที่ถามบ่อยและการแก้ไขปัญหา (3.x)
       items:

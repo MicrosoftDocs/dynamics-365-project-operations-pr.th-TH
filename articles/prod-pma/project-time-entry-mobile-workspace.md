@@ -2,11 +2,9 @@
 title: พื้นที่ทำงานสำหรับอุปกรณ์มือถือในการป้อนเวลาโครงการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับพื้นที่ทำงานสำหรับอุปกรณ์มือถือในการป้อนเวลาโครงการ พื้นที่ทำงานนี้ช่วยให้ผู้ใช้สามารถป้อนและประหยัดเวลาเทียบกับโครงการโดยใช้อุปกรณ์เคลื่อนที่ของพวกเขา
 author: Yowelle
-manager: AnnBe
 ms.date: 12/01/2017
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-ax-applications
 ms.technology: ''
 audience: Application User
 ms.reviewer: josaw
@@ -18,12 +16,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 7eae471cf42f02e64844a4682cc8ed02cbb14c34
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5288897"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989574"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>พื้นที่ทำงานสำหรับอุปกรณ์มือถือในการป้อนเวลาโครงการ
 
@@ -48,7 +46,7 @@ ms.locfileid: "5288897"
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับเวอร์ชันของ Microsoft Dynamics 365 ที่ปรับใช้สำหรับองค์กรของคุณ
 
 ### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>ข้อกำหนดเบื้องต้น หากคุณใช้ Dynamics 365 Finance
-ถ้า Finance ถูกปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือ **การป้อนเวลาโครงการ** สำหรับคำแนะนำ โปรดดู [เผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือ](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
+ถ้า Finance ถูกปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือ **การป้อนเวลาโครงการ** สำหรับคำแนะนำ โปรดดู [เผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือ](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น หากคุณใช้เวอร์ชัน 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
 หากเวอร์ชัน 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า ถูกปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องดำเนินการตามข้อกำหนดเบื้องต้นต่อไปนี้ 
@@ -68,17 +66,17 @@ ms.locfileid: "5288897"
 <td>ผู้ดูแลระบบ</td>
 <td>KB 4018050 เป็นการปรับปรุง X ++ หรือโปรแกรมแก้ไขด่วนข้อมูลเมตาที่มีพื้นที่ทำงานสำหรับอุปกรณ์มือถือ <strong>การป้อนเวลาโครงการ</strong> ในการใช้ KB 4018050 ผู้ดูแลระบบของคุณต้องทำตามขั้นตอนเหล่านี้
 <ol>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนข้อมูลเมตา</a></li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">สร้างแพ็คเกจที่ปรับใช้ได้</a> ที่มีแบบจำลอง <strong>ApplicationSuite</strong> และ <strong>ProjectMobile</strong> และจากนั้น อัปโหลดแพ็กเกจที่ปรับใช้ได้ไปยัง LCS</li>
-<li><a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพ็คเกจที่ปรับใช้ได้</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/download-hotfix-lcs">ดาวน์โหลดโปรแกรมแก้ไขด่วนข้อมูลเมตาจาก Microsoft Dynamics Lifecycle Services (LCS)</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/migration-upgrade/install-metadata-hotfix-package">ติดตั้งโปรแกรมแก้ไขด่วนข้อมูลเมตา</a></li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/create-apply-deployable-package">สร้างแพ็คเกจที่ปรับใช้ได้</a> ที่มีแบบจำลอง <strong>ApplicationSuite</strong> และ <strong>ProjectMobile</strong> และจากนั้น อัปโหลดแพ็กเกจที่ปรับใช้ได้ไปยัง LCS</li>
+<li><a href="/dynamics365/fin-ops-core/dev-itpro/deployment/apply-deployable-package-system">ใช้แพ็คเกจที่ปรับใช้ได้</a></li>
 
 </ol></td>
 </tr>
 <tr class="even">
 <td>เผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือสำหรับ <strong>การป้อนเวลาโครงการ</strong></td>
 <td>ผู้ดูแลระบบ</td>
-<td>โปรดดู <a href="https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือ</a></td>
+<td>โปรดดู <a href="/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace">เผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือ</a></td>
 </tr>
 </tbody>
 </table>
@@ -103,11 +101,11 @@ ms.locfileid: "5288897"
 2.  เลือก **การป้อนเวลา** วันที่ในปฏิทินสำหรับสัปดาห์ปัจจุบันจะแสดง
 3.  สำหรับวันที่ที่เลือก ให้เลือก **การดำเนินการ** &gt; **รายการใหม่**
 4.  ป้อนจำนวนของชั่วโมงที่จะบันทึก
-5.  เลือกโครงการสำหรับการป้อนเวลา รายการจะแสดงโครงการที่ถูกโหลดลงในแอปของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น มีการโหลด 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [แพลตฟอร์ม Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
+5.  เลือกโครงการสำหรับการป้อนเวลา รายการจะแสดงโครงการที่ถูกโหลดลงในแอปของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น มีการโหลด 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [แพลตฟอร์ม Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
 6.  หากโครงการของคุณไม่อยู่ในรายการ ให้เลือก **ค้นหา** ค้นหาตามชื่อ หรือเปลี่ยนไปค้นหาตามชื่อโครงการหรือลูกค้า
-7.  เลือกประเภท รายการจะแสดงประเภทที่ถูกโหลดลงในแอปของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น มีการโหลด 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [แพลตฟอร์ม Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
+7.  เลือกประเภท รายการจะแสดงประเภทที่ถูกโหลดลงในแอปของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น มีการโหลด 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [แพลตฟอร์ม Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
 8.  หากประเภทของคุณไม่อยู่ในรายการ ให้เลือก **ค้นหา** ค้นหาตามประเภท หรือเปลี่ยนไปค้นหาตามชื่อประเภท
-9.  เลือกกิจกรรม รายการจะแสดงกิจกรรมที่ถูกโหลดลงในแอปของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น มีการโหลด 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [แพลตฟอร์ม Mobile](https://docs.microsoft.com/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
+9.  เลือกกิจกรรม รายการจะแสดงกิจกรรมที่ถูกโหลดลงในแอปของคุณสำหรับการใช้งานแบบออฟไลน์ โดยค่าเริ่มต้น มีการโหลด 50 รายการ แต่นักพัฒนาสามารถเปลี่ยนจำนวนนี้ได้ สำหรับข้อมูลเพิ่มเติม โปรดดูที่ [แพลตฟอร์ม Mobile](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/mobile-app-home-page)
 10. หากกิจกรรมของคุณไม่อยู่ในรายการ ให้เลือก **ค้นหา** ค้นหาตามหมายเลขกิจกรรม หรือเปลี่ยนเป็นการค้นหาตามวัตถุประสงค์
 
 11. เลือกคุณสมบัติของรายการ

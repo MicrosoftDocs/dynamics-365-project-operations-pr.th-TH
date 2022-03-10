@@ -2,8 +2,6 @@
 title: คู่มือพื้นฐานของการเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
 description: หัวข้อนี้ขะแสดงการเชื่อมโยงไปยังข้อมูลเกี่ยวกับการเสนอราคา การกำหนดราคา และการเรียกเก็บเงินขั้นพื้นฐานใน Project Service Automation
 author: kfend
-manager: kfend
-ms.service: project-operations
 ms.custom:
 - dyn365-projectservice
 ms.date: 2/14/2019
@@ -18,12 +16,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: e170adcc87ac69e31a00c85aefa718cc316dbd5a
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: 69d80a4dc6377f7da1d0ad273dd9be3c8265214b152e7976c7d0c73e46a7dbd1
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5284426"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6985614"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>คู่มือพื้นฐานของการเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
 

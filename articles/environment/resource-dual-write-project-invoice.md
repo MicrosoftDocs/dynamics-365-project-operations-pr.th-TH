@@ -5,15 +5,14 @@ author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 102a7cdba467a2071119c5b32d2e75e48170c783
-ms.sourcegitcommit: 02f00960198cc78a5e96955a9e4390c2c6393bbf
+ms.openlocfilehash: 37549080d76e3bffd7cb002aee8e3c46b9eeb18e3cec915cd971881b69747534
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/28/2021
-ms.locfileid: "5955847"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6993264"
 ---
 # <a name="project-invoice-integration"></a>การรวมใบแจ้งหนี้ของโครงการ
 

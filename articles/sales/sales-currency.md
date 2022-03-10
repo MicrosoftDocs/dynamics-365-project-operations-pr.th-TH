@@ -2,11 +2,9 @@
 title: สกุลเงิน
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการเพิ่มและลบชนิดสกุลเงินใน Project Operations
 author: rumant
-manager: AnnBe
 ms.date: 09/18/2020
 ms.topic: article
 ms.prod: ''
-ms.service: dynamics-365-customerservice
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: ''
@@ -17,16 +15,18 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 1db7e76dbb220954b9f9088b2168eed1a1902abc
-ms.sourcegitcommit: 5c4c9bf3ba018562d6cb3443c01d550489c415fa
+ms.openlocfilehash: 0a5ae29f1a11f62c6edfca64c4751338f42a26f24c4f8230018b0b45a4ee2ddb
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/16/2020
-ms.locfileid: "4085964"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6999609"
 ---
 # <a name="currency"></a>สกุลเงิน
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+
+[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
 สกุลเงินจะใช้เพื่อกำหนดราคาสำหรับผลิตภัณฑ์ในแค็ตตาล็อกผลิตภัณฑ์ และต้นทุนของการทำธุรกรรม เช่น ใบสั่งขาย ถ้าลูกค้าของคุณแพร่กระจายตามพื้นที่ ให้เพิ่มสกุลเงินของพวกเขาเพื่อจัดการธุรกรรมของคุณ เพิ่มสกุลเงินที่เหมาะสมที่สุดสำหรับความจำเป็นทางธุรกิจในปัจจุบันและในอนาคต  
 
@@ -69,3 +69,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 > [!IMPORTANT]
 >  คุณไม่สามารถลบสกุลเงินที่เรกคอร์ดอื่นใช้อยู่ แต่คุณสามารถปิดใช้งานได้เท่านั้น การปิดใช้งานเรกคอร์ดสกุลเงินจะไม่เป็นการเอาข้อมูลสกุลเงินที่เก็บไว้ในเรกคอร์ดที่มีอยู่ออก เช่น โอกาสทางการขาย หรือใบสั่ง อย่างไรก็ตาม คุณจะไม่สามารถเลือกสกุลเงินที่ปิดใช้งานสำหรับธุรกรรมใหม่  
+
+
+[!INCLUDE[footer-include](../includes/footer-banner.md)]

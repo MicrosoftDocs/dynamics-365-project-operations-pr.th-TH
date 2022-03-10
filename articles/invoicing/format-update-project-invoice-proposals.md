@@ -2,18 +2,16 @@
 title: จัดการข้อเสนอใบแจ้งหนี้โครงการชั่วคราว
 description: หัวข้อนี้ให้รายละเอียดเกี่ยวกับการประมวลผลใบแจ้งหนี้ที่ติดต่อกับลูกค้าด้วย Project Operations สำหรับสถานการณ์ที่อิงตามทรัพยากร/ที่ไม่ได้เก็บในคลัง
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: 6b8eacf2b43219a9adad897637b78a9c94351554
-ms.sourcegitcommit: 3d78338773929121d17ec3386f6cb67bfb2272cc
+ms.openlocfilehash: 61b43e05eb179e2b00189076290433dd72f89a6bc7ef72140fc1efd752149d43
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/27/2021
-ms.locfileid: "5950737"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989934"
 ---
 # <a name="manage-project-invoice-proposals"></a>จัดการข้อเสนอใบแจ้งหนี้โครงการชั่วคราว
 

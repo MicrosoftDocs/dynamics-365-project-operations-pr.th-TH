@@ -10,18 +10,18 @@ ms.search.form: ProjTable; ProjProjectManagementWorkspace
 audience: Application User
 ms.reviewer: kfend
 ms.search.scope: Core, Operations
-ms.custom: 87983
+ms.custom: intro-internal
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: a6d3b9eb97fce836e5b2310714d8f731b2c09e6c
-ms.sourcegitcommit: 40f68387f594180af64a5e5c748b6efa188bd300
+ms.openlocfilehash: 1465e68fb119927f474bf4d5b26cb0cd1d60824340a7d46e59d23036d99503f3
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/10/2021
-ms.locfileid: "6008154"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "7007529"
 ---
 # <a name="project-management-and-accounting-overview"></a>ภาพรวมการจัดการโครงการและการบัญชี
 

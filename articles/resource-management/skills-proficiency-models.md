@@ -2,18 +2,16 @@
 title: ทักษะและการรับรอง
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการเพิ่มลักษณะทักษะและการรับรองให้กับทรัพยากร
 author: ruhercul
-manager: Annbe
 ms.date: 10/01/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: ruhercul
-ms.openlocfilehash: 68675ca95f78382e7a3702805da840a5c8ef2f50
-ms.sourcegitcommit: fa32b1893286f20271fa4ec4be8fc68bd135f53c
+ms.openlocfilehash: bf892d791b192005cc72d7fed08f2f22a12c002eb270a0faef6ae476fafafc20
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 02/15/2021
-ms.locfileid: "5279206"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6990204"
 ---
 # <a name="skills-and-certifications"></a>ทักษะและการรับรอง
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_

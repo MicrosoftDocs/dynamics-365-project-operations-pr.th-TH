@@ -2,18 +2,16 @@
 title: เพิ่มการสมัครใช้งาน Azure ไปยังโครงการ LCS
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีเชื่อมต่อการสมัครใช้งาน Azure กับโครงการ LCS
 author: sigitac
-manager: Annbe
 ms.date: 04/12/2021
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: sigitac
-ms.openlocfilehash: a80c926ba67a1620e39d8c7677a05678454e6340
-ms.sourcegitcommit: 7468d668c48c1d87934aab9a034decd51e56dec6
+ms.openlocfilehash: e4502c1dec3bfeed083186b2d053549fefc9339609946c8da919b46e0e56cc79
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/13/2021
-ms.locfileid: "5880561"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6986694"
 ---
 # <a name="add-an-azure-subscription-to-an-lcs-project"></a>เพิ่มการสมัครใช้งาน Azure ไปยังโครงการ LCS
 
@@ -41,7 +39,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ขณะนี้ การอนุญาตเสร็จสมบูรณ์แล้ว 
 
-![การอนุมัติสำเร็จ](./media/5AuthorizationComplete.png)
+![การอนุญาตสำเร็จ](./media/5AuthorizationComplete.png)
 
 ## <a name="provide-dynamics-deployment-services-access-to-your-azure-subscription"></a><a name="provide"></a>ให้การเข้าถึงบริการปรับใช้งาน Dynamics กับการสมัครใช้งาน Azure ของคุณ
 

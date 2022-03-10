@@ -2,24 +2,22 @@
 title: ยืนยันสัญญาโครงการ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการยืนยันสัญญาใน Project Operations
 author: rumant
-manager: Annbe
 ms.date: 10/13/2020
 ms.topic: article
-ms.service: project-operations
 ms.reviewer: kfend
 ms.author: rumant
-ms.openlocfilehash: 24da0887c0266d51bddcbbf8efd6f2644b6d0f4f
-ms.sourcegitcommit: 4cf1dc1561b92fca4175f0b3813133c5e63ce8e6
+ms.openlocfilehash: e0ca43eb6005948f440fca16e98a6d05db3493c82e518441bb50f9413da91ead
+ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/28/2020
-ms.locfileid: "4128308"
+ms.lasthandoff: 08/06/2021
+ms.locfileid: "6989844"
 ---
 # <a name="confirm-a-project-contract"></a>ยืนยันสัญญาโครงการ
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
-สัญญาโครงการใน Dynamics 365 Project Operations สามารถใช้งานได้ด้วยเหตุผลของการ **ได้รับการยืนยัน** หรือปิดด้วยเหตุผลของการ **แพ้** เมื่อคุณยืนยันสัญญาโครงการ สถานะจะอัปเดตจาก **แบบร่าง** เป็น **ใช้งาน** และคำอธิบายรายการของสถานะคือ **ได้รับการยืนยัน** ไม่สามารถแก้ไขหรือเปิดสัญญาที่ใช้งานอยู่หรือปิดได้ 
+สัญญาโครงการใน Dynamics 365 Project Operations สามารถใช้งานได้ด้วยเหตุผล **ได้รับการยืนยัน** หรือปิดแล้วด้วยเหตุผล **แพ้** เมื่อคุณยืนยันสัญญาโครงการ สถานะจะอัปเดตจาก **แบบร่าง** เป็น **ใช้งาน** และคำอธิบายรายการของสถานะคือ **ได้รับการยืนยัน** ไม่สามารถแก้ไขหรือเปิดสัญญาที่ใช้งานอยู่หรือปิดได้ 
 
 ### <a name="financial-impact-of-confirming-a-project-contract"></a>ผลกระทบทางการเงินของการยืนยันสัญญาโครงการ
 
@@ -35,3 +33,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 > [!NOTE]
 > ใน Dynamics 365 Project Operations การปิดสัญญาโครงการเป็นแพ้จะไม่ส่งผลกระทบต่อสถานะของโอกาสทางการขายที่เกี่ยวข้อง โอกาสทางการขายนี้จะยังคงเปิดอยู่และต้องปิดด้วยตนเอง
+
+
+[!INCLUDE[footer-include](../../includes/footer-banner.md)]
