@@ -62,6 +62,14 @@
           href: environment/uninstall-project-operations.md
     - name: มีอะไรใหม่
       items:
+        - name: พฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-may-2022-resource-based.md
+        - name: เมษายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-apr-2022-resource-based.md
+        - name: มีนาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-mar-2022-resource-based.md
+        - name: กุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-feb-2022-resource-based.md
         - name: ธันวาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
           href: whats-new/whats-new-dec-2021-resource-based.md
         - name: พฤศจิกายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
@@ -102,6 +110,8 @@
               href: sales/sales-units-unit-groups.md
             - name: สกุลเงิน
               href: sales/sales-currency.md
+            - name: หน่วยองค์กร
+              href: sales/OrgUnits.md
         - name: จัดการลูกค้าเป้าหมายของโครงการ
           href: sales/manage-leads.md
         - name: จัดการโอกาสทางการขายของโครงการ
@@ -288,8 +298,6 @@
               href: project-management/project-cost-tracking.md
             - name: การติดตามรายได้ค่าแรงในโครงการ
               href: project-management/project-sales-tracking.md
-            - name: อัปเดตการประมาณการเมื่อดำเนินงานเสร็จสมบูรณ์
-              href: project-management/update-completed-estimate.md
         - name: สมาชิกของทีมโครงการ
           items:
             - name: ภาพรวมสมาชิกของทีมโครงการ
@@ -308,6 +316,8 @@
               href: project-management/dev-copy-project.md
             - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
+            - name: ใช้ API กำหนดการโครงการด้วย Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: ประสิทธิภาพของ API กำหนดการโครงการ
               href: project-management/project-schedule-api-performance.md
             - name: บันทึกการจัดกำหนดการโครงการ
@@ -426,8 +436,8 @@
           href: expense/travel-requisition.md
         - name: การเบิกเงินสดล่วงหน้า
           href: expense/cash-advance.md
-        - name: เบี้ยเลี้ยง
-          href: expense/per-diems.md
+        - name: ค่าใช้จ่ายด้านเบี้ยเลี้ยงต่อวัน
+          href: expense/per-diem-expenses.md
         - name: แอปค่าใช้จ่ายสำหรับอุปกรณ์เคลื่อนที่
           href: expense/expense-using-mobile.md
         - name: การจัดการทางการเงิน
@@ -444,27 +454,39 @@
           href: approvals/approvals-overview.md
         - name: ชุดการอนุมัติ
           href: approvals/approval-sets.md
+        - name: ยกเลิกการอนุมัติรายการที่ได้รับอนุมัติก่อนหน้านี้
+          href: approvals/cancelapproval.md
+        - name: การเรียกคืนรายการที่อนุมัติก่อนหน้านี้
+          href: approvals/recall-cancel.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
             - name: หมายเหตุสำหรับนักพัฒนาสำหรับการอนุมัติ
               href: approvals/dev-notes-approvals.md
     - name: ข้อมูลจริง
       items:
+        - name: ธุรกรรมทางธุรกิจใน Project Operations
+          href: actuals/businesstransactions.md
         - name: ภาพรวมข้อมูลจริง
           href: actuals/actuals-overview.md
-        - name: เชื่อมโยงข้อมูลจริงกับเรกคอร์ดเดิม
+        - name: ต้นทางของธุรกรรม - เชื่อมโยงข้อมูลจริงกับแหล่งที่มา
           href: actuals/linkingactuals.md
-        - name: สมุดรายวันการแก้ไข
+        - name: การเชื่อมต่อธุรกรรม - เชื่อมโยงข้อมูลจริงของชนิดธุรกรรมที่แตกต่างกัน
+          href: actuals/connectingactuals.md
+        - name: สมุดรายวัน
           items:
+            - name: สร้างและยืนยันสมุดรายวันสำหรับบันทึกรายการ
+              href: actuals/create-confirm-entry-journals.md
             - name: สร้างและยืนยันสมุดรายวันการแก้ไข
               href: actuals/create-confirm-correction-journals.md
     - name: การจัดซื้อ
       items:
         - name: กำหนดค่าวัสดุที่ไม่มีในสต็อกและใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
           href: procurement/configure-materials-nonstocked.md
-        - name: จัดหาวัสดุที่ไม่มีในสต็อกสำหรับโครงการโดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
+        - name: กำหนดค่าหมวดหมู่การจัดซื้อสำหรับโครงการ
+          href: procurement/configure-procurement-categories.md
+        - name: จัดหาสินค้าและบริการสำหรับโครงการโดยใช้ใบแจ้งหนี้ของผู้จัดจำหน่ายที่รอดำเนินการ
           href: procurement/pending-vendor-invoices.md
-        - name: สั่งวัสดุที่ไม่มีในสต็อกสำหรับโครงการโดยใช้ใบสั่งซื้อโครงการ
+        - name: สั่งสินค้าและบริการสำหรับโครงการโดยใช้ใบสั่งซื้อโครงการ
           href: procurement/non-stocked-materials-project-purchase-orders.md
         - name: การรักษาผู้จัดจำหน่าย
           items:
@@ -538,6 +560,18 @@
           href: revenue-recognition/cost-complete-methods.md
         - name: จัดการประมาณการรายได้
           href: revenue-recognition/rev-rec-completed-contract-method.md
+    - name: การกำหนดค่าขั้นสูง
+      items:
+        - name: ย้ายเหตุการณ์สำคัญในการเรียกเก็บเงินตามใบแจ้งหนี้เต็มจำนวนระหว่างการโยกย้าย
+          href: advanced-configuration/migrating-invoiced-milestones.md
+    - name: อัปเกรด
+      items:
+        - name: อัปเกรดข้อควรพิจารณาสำหรับการอนุมัติแบบใหม่
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: แอป Project Operations
+      items:
+        - name: แอปสมาชิกทีม Project Operations
+          href: team-member/project-operations-team-member.md
     - name: การแก้ไขปัญหา
       items:
         - name: กระบวนการขายของโครงการ
@@ -562,6 +596,14 @@
       items:
         - name: มีอะไรใหม่การเข้าใช้ล่วงหน้า 2021 เวฟ 2 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-2021-early-access-lite.md
+        - name: มีอะไรใหม่เดือนพฤษภาคม 2022 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-may-2022-lite.md
+        - name: มีอะไรใหม่เดือนเมษายน 2022 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-apr-2022-lite.md
+        - name: มีอะไรใหม่เดือนมีนาคม 2022 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-mar-2022-lite.md
+        - name: มีอะไรใหม่เดือนกุมภาพันธ์ 2022 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-feb-2022-lite.md
         - name: มีอะไรใหม่เดือนธันวาคม 2021 - การปรับใช้งานแบบ Lite
           href: pro/whats-new/whats-new-dec-2021-lite.md
         - name: มีอะไรใหม่เดือนพฤศจิกายน 2021 - การปรับใช้งานแบบ Lite
@@ -602,6 +644,8 @@
               href: sales/sales-units-unit-groups.md
             - name: สกุลเงิน
               href: sales/sales-currency.md
+            - name: หน่วยองค์กร
+              href: sales/OrgUnits.md
         - name: จัดการลูกค้าเป้าหมายของโครงการ
           href: pro/sales/managing-leads-sales.md
         - name: จัดการโอกาสทางการขายของโครงการ
@@ -808,8 +852,6 @@
               href: project-management/project-cost-tracking.md
             - name: การติดตามรายได้ค่าแรงในโครงการ
               href: project-management/project-sales-tracking.md
-            - name: อัปเดตการประมาณการเมื่อดำเนินงานเสร็จสมบูรณ์
-              href: project-management/update-completed-estimate.md
         - name: สมาชิกของทีมโครงการ
           items:
             - name: ภาพรวมสมาชิกของทีมโครงการ
@@ -828,6 +870,8 @@
               href: project-management/dev-copy-project.md
             - name: ใช้ API กำหนดการโครงการ
               href: project-management/schedule-api-preview.md
+            - name: ใช้ API กำหนดการโครงการด้วย Power Automate
+              href: project-management/scheduling-apis-powerautomate.md
             - name: ประสิทธิภาพของ API กำหนดการโครงการ
               href: project-management/project-schedule-api-performance.md
     - name: การจัดการทรัพยากร
@@ -886,12 +930,10 @@
           items:
             - name: ภาพรวมการใช้ประโยชน์ของทรัพยากร
               href: resource-management/resource-utilization-overview.md
-    - name: การจัดการการรับเหมารายย่อยใน Project Operations
+    - name: การจัดการการรับเหมารายย่อย
       items:
         - name: การจัดการการรับเหมารายย่อยใน Project Operations
           href: pro/subcontracting/managing-subcontracts-overview.md
-        - name: การรับเหมารายย่อยในการเข้าใช้ล่วงหน้าเดือนตุลาคม 2021
-          href: pro/subcontracting/Subcontracting_EA_scope.md
         - name: แนวคิดหลักในการรับเหมารายย่อย
           href: pro/subcontracting/key-concepts-subcontracting.md
         - name: กำลังจัดการผู้จัดจำหน่ายและราคาตลาดของโครงการ
@@ -924,6 +966,28 @@
           href: pro/subcontracting/recording-subcon-actuals.md
         - name: การเปลี่ยนสถานะในสัญญารับเหมารายย่อย
           href: pro/subcontracting/subcon-states.md
+    - name: ใบแจ้งหนี้ของผู้จัดจำหน่ายของโครงการ
+      items:
+        - name: การออกใบแจ้งหนี้ผู้จัดจำหน่าย - แนวคิดและผลงาน
+          href: pro/subcontracting/vendor-invoice-overview.md
+        - name: รายละเอียดส่วนหัวสำหรับใบแจ้งหนี้ของผู้จัดจำหน่าย
+          href: pro/subcontracting/vendor-invoice-header.md
+        - name: รายการใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับเวลา
+          href: pro/subcontracting/vendor-invoice-line-time.md
+        - name: รายการใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับผลิตภัณฑ์
+          href: pro/subcontracting/vi-line-material.md
+        - name: รายการใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับเหตุการณ์สำคัญ
+          href: pro/subcontracting/vi-line-milestone.md
+        - name: รายการใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับประเภทค่าใช้จ่าย
+          href: pro/subcontracting/vi-line-expense.md
+        - name: การตรวจสอบใบแจ้งหนี้ของผู้จัดจำหน่ายพร้อมข้อมูลจริงที่ได้รับอนุมัติ
+          href: pro/subcontracting/VI-Verification.md
+        - name: ยกเลิกใบแจ้งหนี้ของผู้จัดจำหน่ายของโครงการ
+          href: pro/subcontracting/cancel-vi.md
+        - name: ยืนยันใบแจ้งหนี้ของผู้จัดจำหน่ายของโครงการ
+          href: pro/subcontracting/confirm-vi.md
+        - name: การเปลี่ยนสถานะในใบแจ้งหนี้ของผู้จัดจำหน่าย
+          href: pro/subcontracting/vi-state-model.md
     - name: เวลา
       items:
         - name: ภาพรวมของเวลา
@@ -952,18 +1016,28 @@
           href: approvals/approvals-overview.md
         - name: ชุดการอนุมัติ
           href: approvals/approval-sets.md
+        - name: ยกเลิกการอนุมัติรายการที่ได้รับอนุมัติก่อนหน้านี้
+          href: approvals/cancelapproval.md
+        - name: การเรียกคืนรายการที่อนุมัติก่อนหน้านี้
+          href: approvals/recall-cancel.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
             - name: หมายเหตุสำหรับนักพัฒนาสำหรับการอนุมัติ
               href: approvals/dev-notes-approvals.md
     - name: ข้อมูลจริง
       items:
+        - name: ธุรกรรมทางธุรกิจใน Project Operations
+          href: actuals/businesstransactions.md
         - name: ภาพรวมข้อมูลจริง
           href: actuals/actuals-overview.md
-        - name: เชื่อมโยงข้อมูลจริงกับเรกคอร์ดเดิม
+        - name: ต้นทางของธุรกรรม - เชื่อมโยงข้อมูลจริงกับแหล่งที่มา
           href: actuals/linkingactuals.md
-        - name: สมุดรายวันการแก้ไข
+        - name: การเชื่อมต่อธุรกรรม - เชื่อมโยงข้อมูลจริงของชนิดธุรกรรมที่แตกต่างกัน
+          href: actuals/connectingactuals.md
+        - name: สมุดรายวัน
           items:
+            - name: สร้างและยืนยันสมุดรายวันสำหรับบันทึกรายการ
+              href: actuals/create-confirm-entry-journals.md
             - name: สร้างและยืนยันสมุดรายวันการแก้ไข
               href: actuals/create-confirm-correction-journals.md
     - name: การออกใบแจ้งหนี้ชั่วคราว
@@ -984,6 +1058,14 @@
           href: pro/proforma-invoicing/corrective-invoices-sales.md
         - name: กำหนดค่าระบบอัตโนมัติใบแจ้งหนี้โครงการ
           href: pro/proforma-invoicing/configure-automated-invoice-creation-sales.md
+    - name: อัปเกรด
+      items:
+        - name: อัปเกรดข้อควรพิจารณาสำหรับการอนุมัติแบบใหม่
+          href: upgrade/upgrade-considerations-modern-approvals.md
+    - name: แอป Project Operations
+      items:
+        - name: แอปสมาชิกทีม Project Operations
+          href: team-member/project-operations-team-member.md
 - name: Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
   items:
     - name: มีอะไรใหม่
@@ -1010,43 +1092,39 @@
       href: prod-pma/project-operations-prod-order-deployment-overview.md
     - name: ภาพรวมการจัดการโครงการและการบัญชี
       href: prod-pma/overview-project-management-accounting.md
-    - name: การออกใบแจ้งหนี้ระหว่างบริษัท
-      href: prod-pma/intercompany-invoicing.md
-    - name: กำหนดค่าการออกใบแจ้งหนี้โครงการระหว่างบริษัท
-      href: prod-pma/tasks/configure-intercompany-project-invoicing.md
-    - name: กำหนดค่าต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่าย
-      href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
-    - name: สร้างและใช้เงื่อนไขเงินประกันผลงานสำหรับการชำระเงินของผู้จัดจำหน่าย
-      href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
-    - name: ตั้งค่าและใช้การชำระเงินของผู้จัดจำหน่ายแบบจ่ายเมื่อได้รับชำระเงิน
-      href: prod-pma/setup-manage-vendor-payments.md
-    - name: ต้นทุนโครงการคงค้างในใบเสร็จรับเงินการซื้อ
-      href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
-    - name: การออกใบแจ้งหนี้โครงการ
-      href: /dynamics365/finance/accounts-payable/project-invoicing
-    - name: ประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
-      href: prod-pma/project-invoice-proposal-performance.md
-    - name: สัญญาโครงการ
-      href: prod-pma/project-contracts.md
-    - name: สร้างสัญญาขั้นสูงสำหรับการเรียกเก็บเงินตามความคืบหน้า
-      href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
-    - name: การคาดการณ์และงบประมาณของโครงการ
-      href: prod-pma/project-forecasts-budgets.md
-    - name: สร้างแบบจำลองการคาดการณ์สำหรับงบประมาณโครงการ
-      href: prod-pma/create-forecast-models-project-budgets.md
-    - name: โอนงบประมาณโครงการเมื้อสิ้นปีบัญชี
-      href: prod-pma/process-project-budgets-for-fiscal-year-end.md
-    - name: ใบสั่งขายของโครงการ
-      href: prod-pma/project-sales-orders.md
-    - name: ใบสั่งซื้อสำหรับโครงการ
-      href: prod-pma/project-purchase-orders.md
-    - name: ใบเสนอราคาโครงการ
-      href: prod-pma/project-quotations.md
-    - name: ยืนยัน ปรับปรุง และส่งใบเสนอราคาโครงการ
-      href: prod-pma/confirm-update-send-project-quotation.md
-    - name: โอนใบเสนอราคาไปยังโครงการ
-      href: prod-pma/transfer-quote-new-existing-project.md
-    - name: การจัดหาทรัพยากรโครงการ
+    - name: กระบวนการขายของโครงการ
+      items:
+        - name: ใบเสนอราคาโครงการ
+          href: prod-pma/project-quotations.md
+        - name: ยืนยัน ปรับปรุง และส่งใบเสนอราคาโครงการ
+          href: prod-pma/confirm-update-send-project-quotation.md
+        - name: โอนใบเสนอราคาไปยังโครงการ
+          href: prod-pma/transfer-quote-new-existing-project.md
+        - name: สัญญาโครงการ
+          href: prod-pma/project-contracts.md
+        - name: เงินช่วยเหลือโครงการ
+          href: prod-pma/project-grants.md
+    - name: การกำหนดราคาและการคิดต้นทุน
+      items:
+        - name: กำหนดค่าต้นทุนมาตรฐานสำหรับแรงงานและค่าใช้จ่าย
+          href: prod-pma/tasks/configure-standard-costs-labor-expenses.md
+    - name: การจัดการโครงการ
+      items:
+        - name: ภาพรวมของโครงสร้างการแบ่งงาน
+          href: prod-pma/work-breakdown-structures.md
+        - name: การรวม Microsoft Project Client
+          href: prod-pma/project-integration.md
+        - name: ภาพรวมแอปพลิเคชันสำหรับอุปกรณ์เคลื่อนที่ของโครงการ
+          href: prod-pma/project-mobile-application-overview.md
+        - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่รายการเวลาโครงการ
+          href: prod-pma/project-time-entry-mobile-workspace.md
+        - name: แอปสำหรับอุปกรณ์เคลื่อนที่ใบบันทึกเวลาโครงการ
+          href: prod-pma/project-timesheet.md
+        - name: ใบบันทึกเวลาโครงการบนอุปกรณ์เคลื่อนที่
+          href: prod-pma/mobile-timesheets.md
+        - name: ใช้ฟิลด์ที่กำหนดเองกับแอปสำหรับอุปกรณ์เคลื่อนที่ของ Project Timesheet
+          href: prod-pma/custom-fields-mobile.md
+    - name: การจัดการทรัพยากร
       items:
         - name: ภาพรวมของการจัดหาทรัพยากรโครงการ
           href: prod-pma/project-resourcing.md
@@ -1068,28 +1146,106 @@
           href: prod-pma/set-up-roles-wbs-template.md
         - name: การเติมเต็มทรัพยากรสำหรับทรัพยากรที่วางแผนไว้
           href: prod-pma/resource-fulfillment-planned-resources.md
-    - name: รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
-      href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
-    - name: โครงสร้างการแบ่งงาน
+    - name: งบประมาณและการคาดการณ์ของโครงการ
       items:
-        - name: ภาพรวมของโครงสร้างการแบ่งงาน
-          href: prod-pma/work-breakdown-structures.md
-        - name: การรวม Microsoft Project Client
-          href: prod-pma/project-integration.md
-        - name: ภาพรวมแอปพลิเคชันสำหรับอุปกรณ์เคลื่อนที่ของโครงการ
-          href: prod-pma/project-mobile-application-overview.md
-        - name: พื้นที่ทำงานบนอุปกรณ์เคลื่อนที่รายการเวลาโครงการ
-          href: prod-pma/project-time-entry-mobile-workspace.md
-        - name: แอปสำหรับอุปกรณ์เคลื่อนที่ใบบันทึกเวลาโครงการ
-          href: prod-pma/project-timesheet.md
-        - name: ใบบันทึกเวลาโครงการบนอุปกรณ์เคลื่อนที่
-          href: prod-pma/mobile-timesheets.md
-        - name: ใช้ฟิลด์ที่กำหนดเองกับแอปสำหรับอุปกรณ์เคลื่อนที่ใบบันทึกเวลาโครงการ
-          href: prod-pma/custom-fields-mobile.md
-    - name: เงินช่วยเหลือโครงการ
-      href: prod-pma/project-grants.md
-    - name: ตัดประมาณการโครงการออก
-      href: prod-pma/eliminate-project-estimate.md
+        - name: การคาดการณ์และงบประมาณของโครงการ
+          href: prod-pma/project-forecasts-budgets.md
+        - name: สร้างแบบจำลองการคาดการณ์สำหรับงบประมาณโครงการ
+          href: prod-pma/create-forecast-models-project-budgets.md
+        - name: โอนงบประมาณโครงการเมื้อสิ้นปีบัญชี
+          href: prod-pma/process-project-budgets-for-fiscal-year-end.md
+    - name: เวลา
+      items:
+        - name: การกำหนดมิติทางการเงินสำหรับรายการเวลาของโครงการ
+          href: prod-pma/time-entry-dimension-defaults.md
+    - name: ค่าใช้จ่าย
+      items:
+        - name: ภาพรวมค่าใช้จ่าย
+          href: expense/expense-overview.md
+        - name: ประสบการณ์ค่าใช้จ่ายใหม่
+          items:
+            - name: รายงานค่าใช้จ่ายที่สมมติขึ้น
+              href: expense/expense-reports-reimagined.md
+            - name: บันทึกภาพใบเสร็จโดยใช้ OCR
+              href: expense/match-receipt-expense-ocr.md
+        - name: การกำหนดค่าคอนฟิกและตั้งค่า
+          items:
+            - name: ตั้งค่านโยบาย
+              href: expense/set-up-policies.md
+            - name: ตั้งค่าเวิร์กโฟลว์
+              href: expense/set-up-workflows.md
+            - name: จัดการการมอบสิทธิ์
+              href: expense/manage-delegation.md
+            - name: กำหนดค่าพารามิเตอร์การจัดการค่าใช้จ่าย
+              href: expense/configure-expense-management-parameters.md
+            - name: ตั้งค่าการรวมบัตรเครดิต
+              href: expense/set-up-credit-card-integration.md
+            - name: ตั้งค่าประเภทค่าใช้จ่าย
+              href: expense/set-up-expense-categories.md
+            - name: ตั้งค่าระยะทางโดยใช้ระดับอัตราระยะทางสะสม
+              href: expense/set-up-mileage.md
+        - name: การแสดงรายการค่าใช้จ่าย
+          href: prod-exp/expense-itemization.md
+        - name: ค่าใช้จ่ายส่วนตัว
+          href: expense/personal-expenses-expense-report.md
+        - name: ค่าใช้จ่ายระหว่างบริษัท
+          href: prod-exp/intercompany-expense.md
+        - name: สร้างรายงานค่าใช้จ่าย
+          items:
+            - name: การกระจายในรายงานค่าใช้จ่าย
+              href: expense/distributions-expense-report.md
+        - name: อนุมัติรายงานค่าใช้จ่าย
+          items:
+            - name: รายงานค่าใช้จ่ายและผู้อนุมัติหลายราย
+              href: expense/expense-reports-multiple-approvers.md
+        - name: โพสต์รายงานค่าใช้จ่าย
+          href: expense/posting-expense-reports.md
+        - name: ใบขอเดินทาง
+          href: expense/travel-requisition.md
+        - name: การเบิกเงินสดล่วงหน้า
+          href: expense/cash-advance.md
+        - name: ค่าใช้จ่ายด้านเบี้ยเลี้ยงต่อวัน
+          href: expense/per-diem-expenses.md
+        - name: แอปค่าใช้จ่ายสำหรับอุปกรณ์เคลื่อนที่
+          href: expense/expense-using-mobile.md
+        - name: การจัดการทางการเงิน
+          items:
+            - name: การขอคืน VAT
+              href: expense/vat-recovery.md
+    - name: การจัดซื้อ
+      items:
+        - name: ใบสั่งซื้อสำหรับโครงการ
+          href: prod-pma/project-purchase-orders.md
+        - name: ต้นทุนโครงการคงค้างในใบเสร็จรับเงินการซื้อ
+          href: /dynamics365/finance/accounts-payable/project-cost-accrual-purchase-receipts
+        - name: รับสินค้าในใบสั่งซื้อจากความต้องการสินค้า
+          href: prod-pma/tasks/receive-items-purchase-order-item-requirement.md
+        - name: ตั้งค่าและใช้การชำระเงินของผู้จัดจำหน่ายแบบจ่ายเมื่อได้รับชำระเงิน
+          href: prod-pma/setup-manage-vendor-payments.md
+        - name: สร้างและใช้เงื่อนไขเงินประกันผลงานสำหรับการชำระเงินของผู้จัดจำหน่าย
+          href: prod-pma/create-and-apply-vendor-payment-retention-terms.md
+    - name: การออกใบแจ้งหนี้โครงการ
+      items:
+        - name: การออกใบแจ้งหนี้โครงการ
+          href: /dynamics365/finance/accounts-payable/project-invoicing
+        - name: ประสิทธิภาพข้อเสนอใบแจ้งหนี้โครงการ
+          href: prod-pma/project-invoice-proposal-performance.md
+        - name: สร้างสัญญาขั้นสูงสำหรับการเรียกเก็บเงินตามความคืบหน้า
+          href: prod-pma/project-create-advanced-contracts-for-billing-based-progress.md
+        - name: ใบสั่งขายของโครงการ
+          href: prod-pma/project-sales-orders.md
+        - name: ข้อกำหนดรายการสำหรับสัญญาโครงการที่มีแหล่งเงินทุนหลายแหล่ง
+          href: prod-pma/multiple-funding-sources-item-req.md
+    - name: การออกใบแจ้งหนี้ระหว่างบริษัท
+      items:
+        - name: การออกใบแจ้งหนี้ระหว่างบริษัท
+          href: prod-pma/intercompany-invoicing.md
+        - name: กำหนดค่าการออกใบแจ้งหนี้โครงการระหว่างบริษัท
+          href: prod-pma/tasks/configure-intercompany-project-invoicing.md
+    - name: การรับรู้รายได้
+      items:
+        - name: ตัดประมาณการโครงการออก
+          href: prod-pma/eliminate-project-estimate.md
 - name: การจัดการค่าใช้จ่าย
   items:
     - name: ภาพรวมของการจัดการค่าใช้จ่าย
@@ -1148,6 +1304,16 @@
       items:
         - name: กำหนดการออกรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 43, V3'
+          href: psa/whats-new-ur43.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 42, V3'
+          href: psa/whats-new-ur-42.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 41, V3'
+          href: psa/whats-new-ur-41.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 40, V3'
+          href: psa/whats-new-ur-40.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 39, V3'
+          href: psa/whats-new-ur-39.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 38, V3'
           href: psa/whats-new-ur-38.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 37.5, V3'
@@ -1238,6 +1404,8 @@
           href: psa/implementation-guides/reporting-guide.md
     - name: การปรับรุ่นจาก Project Service Automation เป็น Project Operations - lite
       href: psa/upgrade-project-operations-non-stocked.md
+    - name: การเปลี่ยนแปลงคุณลักษณะ Project Service Automation เป็น Project Operations
+      href: psa/psa-project-operations-changes.md
     - name: การปรับรุ่น Project Service Automation (แอปรุ่น 3.x)
       items:
         - name: การปรับรุ่น Project Service Automation
