@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: b5b6c4d608ae083d01be24258af35ed8f64e67a897690f1a2678f76b8befdcb1
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 974a4f6e8c3332ff03e0985db10ad20cc64f4b34
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6990824"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579421"
 ---
 # <a name="find-your-next-project-with-the-project-finder-mobile-app-project-service"></a>ค้นหาโครงการต่อไปของคุณที่มีแอพลิเคชัน Project Finder Mobile (Project Service)
 
@@ -31,7 +32,7 @@ ms.locfileid: "6990824"
 
 ด้วยแอพลิเคชัน Project Finder Mobile บนโทรศัพท์ [!INCLUDE[tn_iphone](../includes/tn-iphone.md)] [!INCLUDE[tn_android](../includes/tn-android.md)] ของคุณ หรือ [!INCLUDE[pn_windows_phone](../includes/pn-windows-phone.md)] คุณสามารถค้นหาโครงการและลงทะเบียนสำหรับรายการที่ดีที่สุดที่เป็นไปตามชุดทักษะและความสนใจของคุณ คุณยังสามารถอัพเดตทักษะและระดับความคล่องแคล่วของคุณกับแอปนี้  
   
- เมื่อคุณเริ่มโปรแกรมประยุกต์ครั้งแรก คุณจำเป็นต้องใส่ URL สำหรับระบบ [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] หของคุณ รหัสผู้ใช้ของคุณ และรหัสผ่านของคุณ ถ้าคุณไม่มีข้อมูลนี้ ให้ติดต่อผู้ดูแลระบบ [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] ของคุณ  
+ เมื่อคุณเริ่มแอปพลิเคชันครั้งแรก คุณจำเป็นต้องใส่ URL สำหรับระบบ [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] หของคุณ รหัสผู้ใช้ของคุณ และรหัสผ่านของคุณ ถ้าคุณไม่มีข้อมูลนี้ ให้ติดต่อผู้ดูแลระบบ [!INCLUDE[pn_crm_shortest](../includes/pn-crm-shortest.md)] ของคุณ  
   
 ## <a name="find-a-project"></a>ค้นหาโครงการ  
  แอป Project Finder Mobile แสดงรายการของโครงการที่มีการจัดอันดับว่าทักษะและระดับความคล่องแคล่วของคุณตรงกับทักษะที่จำเป็นและระดับความคล่องแคล่วสำหรับโครงการดีเพียงใด โครงการที่เหมาะสมที่สุดสำหรับคุณที่จะปรากฏที่ด้านบนของรายการ กล่องที่มีการเลือกภายใต้ชื่อโครงการ บ่งชี้ว่าทักษะของคุณตรงกันหรือเกินกว่าความต้องการสำหรับโครงการ  

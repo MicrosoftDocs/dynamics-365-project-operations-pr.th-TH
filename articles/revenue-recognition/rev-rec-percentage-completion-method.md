@@ -4,14 +4,14 @@ description: หัวข้อนี้แสดงข้อมูลเกี�
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 451f0403f0111b5ea4de6c91b54eae157830e413d3a21f23bd841a66905e147b
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 290608e5663f9c953212c156771bbf1ad6b1e901
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006449"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8578731"
 ---
 # <a name="fixed-price-revenue-estimate-projects"></a>โครงการประมาณการรายได้ราคาคงที่ 
 

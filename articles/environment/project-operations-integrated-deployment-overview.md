@@ -3,16 +3,15 @@ title: Project Operations สำหรับภาพรวมการปรั
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับชนิดการปรับใช้ Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 author: rumant
 ms.date: 11/02/2020
-ms.topic: article
-ms.reviewer: kfend
+ms.topic: overview
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.custom: intro-internal
-ms.openlocfilehash: a66877471e584bc76ddfe508a5d4cb47e38dd7aeb5f2bebe795b41a1de462ef9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: d751ec9c75e72a6804f073f181591755afc6e261
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7009734"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575144"
 ---
 # <a name="project-operations-for-resourcenon-stocked-based-scenarios-deployment-overview"></a>Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก
 
@@ -24,7 +23,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 - การกำหนดราคาหลายมิติ และต้นทุนสำหรับทรัพยากรแรงงาน
 - การกำหนดราคาตามประเภทสำหรับประเภทค่าใช้จ่าย
 - การจัดการการขายตามโครงการโดยใช้ความสามารถของ Dynamics 365 Sales
-- Universal Resource Scheduling ที่รวมเข้ากับโปรแกรมประยุกต์อื่น ๆ เช่น Dynamics 365 Field Service และ Dynamics 365 Customer Service
+- Universal Resource Scheduling ที่รวมเข้ากับแอปพลิเคชันอื่น ๆ เช่น Dynamics 365 Field Service และ Dynamics 365 Customer Service
 - ความคืบหน้าโครงการและการติดตามเวลา
 - ประสบการณ์การจัดการค่าใช้จ่ายสำหรับโครงการและค่าใช้จ่ายที่ไม่ใช่โครงการพื้นฐานและแบบเต็มพร้อมการบันทึกใบเสร็จโดยใช้ความสามารถของ OCR
 - การออกใบแจ้งหนี้ที่ขยายจากชั่วคราวไปยังลูกค้าและได้รับการสนับสนุนโดยภาษีการขายระดับองค์กรและระบบอัตราแลกเปลี่ยนวันที่ที่มีผลบังคับใช้
@@ -32,16 +31,16 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 - การรับรู้รายได้โครงการ
 - ความสามารถในการขยายผ่าน Power Platform
 
-ชนิดการปรับใช้นี้ยังมีส่วนขยายให้กับฟังก์ชันการทำงานที่มีให้โดยโปรแกรมประยุกต์ Dynamics 365 Finance และ Dynamics 365 Supply Chain Management
+การปรับใช้งานประเภทนี้มีส่วนขยายของฟังก์ชันที่มีให้โดย Dynamics 365 Finance และแอปพลิเคชัน Dynamics 365 Supply Chain Management
 
 ชนิดการปรับใช้นี้ควรถูกเลือกความคาดหวังจาก Project Operations คือเพื่อใช้สำหรับวงจรชีวิตของโครงการแบบเต็ม รวมถึงข้อกำหนดต่อไปนี้:
 
-- ความสามารถในการจัดการการขายตามโครงการกับการขายประเภทอื่น ๆ โดยใช้ความสามารถในโปรแกรมประยุกต์ Sales
+- ความสามารถในการจัดการการขายตามโครงการกับการขายประเภทอื่น ๆ โดยใช้ความสามารถในแอปพลิเคชัน Sales
 - ระบบการจัดการโครงการแบบรวมที่จัดการโครงการภายในและที่เรียกเก็บเงินได้สำหรับกำหนดการและการเงินตั้งแต่การขายโครงการไปจนถึงการบัญชี
 - ระบบการจัดการค่าใช้จ่ายซึ่งรวมถึงการบังคับใช้นโยบายและการชำระเงินคืนสำหรับการติดตามโครงการและค่าใช้จ่ายที่ไม่ใช่โครงการ
 - จำเป็นต้องมีภาษีการขายระดับองค์กรและกลไกอัตราแลกเปลี่ยนสมบูรณ์เพื่อสร้างใบแจ้งหนี้สำหรับลูกค้าสำหรับโครงการ
 - มาตรฐานการรายงานทางการเงินระหว่างประเทศ (IFRS) - ตามโครงการบัญชีและระบบการรับรู้รายได้
-- โปรแกรมประยุกต์ Finance หรือ Supply Chain Management และการรวมธุรกรรมตามโครงการ
+- แอปพลิเคชัน Finance หรือ Supply Chain Management และการรวมธุรกรรมตามโครงการ
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

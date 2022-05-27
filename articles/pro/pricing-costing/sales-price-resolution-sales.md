@@ -4,14 +4,14 @@ description: หัวข้อนี้ให้ข้อมูลเกี่�
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2152b3f59050482cab0d1c5940d6743f420206bfc90e034dc2d754df8bd513a5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8aa731d48a3ce39dfbf4fc1e5934b0844caf2953
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6996099"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575787"
 ---
 # <a name="resolve-sales-prices-for-project-estimates-and-actuals"></a>แก้ไขราคาขายสำหรับประมาณการและข้อมูลจริงของโครงการ
 

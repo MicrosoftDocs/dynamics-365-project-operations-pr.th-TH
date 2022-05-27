@@ -4,14 +4,14 @@ description: หัวข้อนี้แสดงข้อมูลเกี�
 author: ruhercul
 ms.date: 10/05/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 851d63510a2e8e7917fa432988a7c4d74597adacbb64ebea646f23f958e3e131
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 7c7b2f45c56289c46cfa8f79c0704a7085f6db3a
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997089"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8575423"
 ---
 # <a name="maintain-team-members"></a>ดูแลสมาชิกในทีม
 

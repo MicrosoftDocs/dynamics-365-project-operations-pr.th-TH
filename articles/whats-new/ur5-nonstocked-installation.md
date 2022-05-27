@@ -1,25 +1,25 @@
 ---
 title: อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีอัปเดต Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการปรับปรุง Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 3665bccfa25c759c0f2351c691d24901867c178f7c339f4a524856842666aec5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986784"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8579973"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
 
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีอัปเดต Dynamics 365 Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ มีสามกระบวนงานที่จำเป็นในการอัปเดต Project Operations เป็น Update 5 (UR5):
+หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการปรับปรุง Dynamics 365 Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ มีสามกระบวนงานที่จำเป็นในการอัปเดต Project Operations เป็น Update 5 (UR5):
 
 - [นำเข้าแพคเกจไปยังโครงการตัวอย่างของคุณ](#import)
 - [ใช้การปรับปรุง](#apply)
@@ -49,13 +49,13 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ![กล่องโต้ตอบยืนยันการปรับใช้แพคเกจ](media/confirm-package-deployment.png)
 
-4. เลือก **ใช่** เพื่อยืนยันว่าคุณต้องการอัปเดตโปรแกรมประยุกต์
+4. เลือก **ใช่** เพื่อยืนยันว่าคุณต้องการอัปเดตแอปพลิเคชัน
 
 ![กล่องโต้ตอบยืนยันการอัพเดตแอปพลิเคชัน](media/confirm-application-update.png)
 
-การปรับใช้และการอัปเดตโปรแกรมประยุกต์จะเริ่มขึ้น 
+การปรับใช้และการอัปเดตแอปพลิเคชันจะเริ่มขึ้น 
 
-บนหน้า **รายละเอียดสภาพแวดล้อม** ที่มุมบนขวา สถานะสภาพแวดล้อมจะอัปเดตเป็น **บริการ** ในเวลาประมาณสองชั่วโมง การอัปเดตจะเสร็จสมบูรณ์ ข้อมูลการเปิดตัวโปรแกรมประยุกต์จะอัปเดตเป็น **Microsoft Dynamics 365 for Finance and Operations 10.0.15)** และสถานะสภาพแวดล้อมจะอัปเดตเป็น **ปรับใช้แล้ว**
+บนหน้า **รายละเอียดสภาพแวดล้อม** ที่มุมบนขวา สถานะสภาพแวดล้อมจะอัปเดตเป็น **บริการ** ในเวลาประมาณสองชั่วโมง การอัปเดตจะเสร็จสมบูรณ์ ข้อมูลการเปิดตัวแอปพลิเคชันจะอัปเดตเป็น **Microsoft Dynamics 365 for Finance and Operations 10.0.15)** และสถานะสภาพแวดล้อมจะอัปเดตเป็น **ปรับใช้แล้ว**
 
 
 ## <a name="update-your-dataverse-environment"></a><a name="update"></a>อัปเดตสภาพแวดล้อม Dataverse ของคุณ
@@ -119,7 +119,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 4. บนหน้า **รุ่นแผนที่ตาราง** ใช้รุ่นใหม่ของแผนที่กับแต่ละเอนทิตีทั้งสาม
 5. บนหน้า **การรวมแบบสองทิศทาง** เลือกรันเพื่อรีสตาร์ทแผนที่
 6. จากรายการแผนที่ เลือกแมป **บัญชีแยกประเภท (msdyn_ledgers)** ด้วยข้อกำหนดเบื้องต้นทั้งหมดและเลือกกล่องกาเครื่องหมาย **การทำข้อมูลให้ตรงกันครั้งแรก** 
-7. ในฟิลด์ **ข้อมูลหลักสำหรับการทำข้อมูลให้ตรงกันครั้งแรก** ให้เลือก **แอป Finance and Operations** จากนั้นเลือก **เรียกใช้**
+7. ในฟิลด์ **ข้อมูลหลักสำหรับการทำข้อมูลให้ตรงกันครั้งแรก** เลือก **แอปการเงินและการดำเนินงาน** แล้วเลือก **เรียกใช้**
  
  ![การซิงโครไนซ์แผนที่บัญชีแยกประเภท](media/DW6.png)
  

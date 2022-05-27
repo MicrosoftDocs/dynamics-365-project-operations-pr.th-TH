@@ -6,7 +6,7 @@ ms.custom:
 - dyn365-projectservice
 - intro-internal
 ms.date: 9/23/2019
-ms.topic: article
+ms.topic: overview
 ms.author: ruhercul
 audience: Admin
 search.audienceType:
@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 06894a64e4d96ec14799b528ff17b92fbb0d36ba8fdbc9b58abb892563e822b5
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 4479f8b1d7cce5d3008ffa285c66da2669532576
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7000284"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580203"
 ---
 # <a name="what-is-dynamics-365-project-service-automation"></a>Dynamics 365 Project Service Automation คืออะไร
 
@@ -42,14 +43,6 @@ ms.locfileid: "7000284"
 - และอื่นๆ...
 
 นอกจากนี้ จะช่วยคุณในการตรวจสอบและควบคุมต้นทุนสำหรับงานตามโครงการของคุณ ที่ปรึกษาแต่ละรายป้อนและติดตามเวลาของโครงการและค่าใช้จ่ายได้อย่างง่ายดายบนมือถือหรือใช้เว็บเบราว์เซอร์ อย่างใดอย่างหนึ่ง
-
-## <a name="whats-new-in-psa"></a>มีอะไรใหม่ใน PSA
-กลุ่มคนรู้สึกตื่นเต้นที่จะประกาศการปรับปรุงใหม่ล่าสุดของเรา! ตั้งแต่การปรับปรุงไปจนถึงส่วนติดต่อผู้ใช้ การแก้ไขข้อบกพร่อง และการเพิ่มคุณลักษณะและความสามารถใหม่ที่สำคัญ คุณขอ; เรารับฟัง
-
-ลองดูที่ [บันทึกย่อประจำรุ่นของเดือนตุลาคม 2019](/dynamics365-release-plan/2019wave2/index) เพื่อดูการปรับปรุงและส่วนเพิ่มเติมใหม่ล่าสุดของเรา
-
-### <a name="in-development"></a>ในการพัฒนา
-เพื่อดูว่าพวกเราได้วางแผนอะไรไว้บ้างในอนาคตอันใกล้ ตรงไปที่ [Dynamics 365: แผนการปล่อย 2020 เวฟ 1](/dynamics365-release-plan/2020wave1/index)
 
 ## <a name="get-help-with-psa-version-3x"></a>ได้รับข้อมูลวิธีใช้รวมทั้งการใช้ร่วมกันกับ PSA รุ่น 3.x
 ค้นหาทรัพยากรที่จะช่วยในการวางแผนการนำไปใช้ของคุณ? ตรวจสอบคู่มือที่สามารถดาวน์โหลดเหล่านี้
@@ -80,10 +73,6 @@ ms.locfileid: "7000284"
  [เอกสาร (รุ่นแอป 2.x or 1.x)](../psa/white-papers.md)
 
  [หมายเหตุสำหรับนักพัฒนา (แอปรุ่น 2.x)](../psa/developer-guides/add-custom-qoi-forms-v2.x.md)
-
- ## <a name="watch-a-2-minute-overview-video"></a>ดูวิดีโอแสดงภาพรวม 2 นาที
- <a name="heroArea"></a> [![ProjectService_IntroVideo](../psa/media/project-service-intro-video.png "ProjectService_IntroVideo"](https://go.microsoft.com/fwlink/p/?LinkId=799457)
-
 
 
 
