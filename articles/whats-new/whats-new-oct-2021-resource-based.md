@@ -5,23 +5,23 @@ author: sigitac
 ms.date: 10/06/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 078869ad01a23bac1108629c5f532ba57a2967e9
-ms.sourcegitcommit: f37502a50cabdaf736aeba149feb5f8288e23df7
+ms.openlocfilehash: c64ef1e2ba9e33b2ca7575a40cc51e0ae987a9f8
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/04/2021
-ms.locfileid: "7753315"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8598511"
 ---
 # <a name="whats-new-october-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
 
-*นำไปใช้กับ: Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง*
+*นำไปใช้กับ: Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง*
 
 หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
 
    - Project Operations ในสภาพแวดล้อม Microsoft Dataverse รุ่น 4.25.0.91.
-   - การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance รุ่น 10.0.21
+   - การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.21
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในรุ่นนี้:
 

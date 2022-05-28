@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 07/01/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: dadcf3e9fa8432fb66f76b7c2f0fdb98bc00511d93984ea98fa30b4fc03fa426
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: db5bb27650d65bb68f45f95cb2562f4b773ddcea
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992724"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8597085"
 ---
 # <a name="whats-new-or-changed-in-project-operations-july-2021-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนกรกฎาคม 2021 สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
 
@@ -20,7 +20,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
 
-- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance รุ่น 10.0.20
+- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.20
  
 ### <a name="quality-updates"></a>การปรับปรุงคุณภาพ
                                                                                                                                                                                   
@@ -64,7 +64,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | การเดินทางและค่าใช้จ่าย                  | [523557](https://fix.lcs.dynamics.com/Issue/Details/?bugId=523557) | เครื่องมือ **รีเซ็ตสถานะเอกสารค่าใช้จ่าย** ควรรีเซ็ตสถานะรายงานค่าใช้จ่ายเป็น **ร่าง** หากไม่พบเวิร์กโฟลว์ 
 
 ### <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถเข้าสู่ระบบ Lifecycle Services (LCS) และดูการปรับปรุงด้านระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงกฎระเบียบสำหรับแอปการเงินและการดำเนินงาน โปรดดู [การปรับปรุงตามกฎระเบียบ](/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถเข้าสู่ระบบ Lifecycle Services (LCS) และดูการปรับปรุงด้านระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

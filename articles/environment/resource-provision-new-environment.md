@@ -5,20 +5,20 @@ author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a00426678d23000dc19386792d346318eab74ed9
-ms.sourcegitcommit: d3f66dfb5978c5c6b7fd51363c7f9278737c49c1
+ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/17/2021
-ms.locfileid: "7928684"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8594877"
 ---
 # <a name="provision-a-new-environment"></a>เตรียมใช้งานสภาพแวดล้อมใหม่
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานสภาพแวดล้อม Dynamics 365 Project Operations ใหม่สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง
 
@@ -34,7 +34,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="provision-a-project-operations-environment"></a>เตรียมใช้งานสภาพแวดล้อม Project Operations
 
-1. เปิดการปรับใช้งาน Dynamics 365 Finance [สภาพแวดล้อมสาธิต](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) หรือ [sandbox/ สภาพแวดล้อมการทำงานจริง](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) 
+1. เปิดการปรับใช้งาน [สภาพแวดล้อมการสาธิต](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) หรือ [สภาพแวดล้อมสภาพแวดล้อม sandbox/ สภาพแวดล้อมการทำงานจริง](/dynamics365/fin-ops-core/dev-itpro/deployment/deployenvironment-newinfrastructure) ของ Dynamics 365 Finance ใหม่ 
 2. ดำเนินการตามวิซาร์ด **การเตรียมใช้งานสภาพแวดล้อม** 
 
    > [!IMPORTANT]
@@ -117,7 +117,7 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 
     ![ใช้โซลูชัน](./media/13ApplySolutions.png)
 
-5. เลือกทั้งสองโซลูชัน **แผนที่เอนทิตีแบบสองทิศทางของ Dynamics 365 Finance and Operations** และ **แผนที่เอนทิตีแบบสองทิศทางของ Dynamics 365 Project Operations** แล้วเลือก **สมัคร**
+5. เลือกทั้งสองโซลูชัน **แผนผังเอนทิตีการรวมแบบสองทิศทางของ Dynamics 365 Finance and Operations** และ **แผนผังเอนทิตีการรวมแบบสองทิศทางของ Dynamics 365 Project Operations** แล้วเลือก **นำมาใช้**
 
     ![ยืนยันโซลูชัน](./media/14ConfirmSolutions.png)
 

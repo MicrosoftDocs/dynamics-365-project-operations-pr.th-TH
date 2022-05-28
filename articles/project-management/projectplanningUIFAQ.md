@@ -2,17 +2,17 @@
 title: แก้ไขปัญหาการทำงานในกริดงาน
 description: หัวข้อนี้ให้ข้อมูลการแก้ไขปัญหาที่จำเป็น เมื่อทำงานในกริดงาน
 author: ruhercul
-ms.date: 09/22/2021
+ms.date: 04/05/2022
 ms.topic: article
 ms.product: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 67136229d84a09886fffe9677b10f671aea3c393
-ms.sourcegitcommit: 74a7e1c9c338fb8a4b0ad57c5560a88b6e02d0b2
+ms.openlocfilehash: ee80363cf6f9a65a91be43a84434d37f02511f26
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 09/23/2021
-ms.locfileid: "7547222"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596441"
 ---
 # <a name="troubleshoot-working-in-the-task-grid"></a>แก้ไขปัญหาการทำงานในกริดงาน 
 
@@ -70,6 +70,9 @@ Project Operations ต้องการให้พารามิเตอร�
       | Project Operations                   | ชนิด=2             |
 
 4. ลบฟิลด์ออกจากหน้า **พารามิเตอร์โครงการ**
+
+### <a name="mitigation-3-sign-in-to-projectmicrosoftcom"></a>การย้าย 3: ลงชื่อเข้าใช้ project.microsoft.com
+ในเบราว์เซอร์ Microsoft Edge ของคุณ เปิดแท็บใหม่ ไปที่ project.microsoft.com และลงชื่อเข้าใช้โดยใช้บทบาทผู้ใช้ที่คุณใช้ในการเข้าถึง Project Operations
 
 ## <a name="issue-the-project-doesnt-load-and-the-ui-is-stuck-on-the-spinner"></a>ปัญหา: โครงการไม่โหลดและ UI ค้างอยู่ที่สปินเนอร์
 

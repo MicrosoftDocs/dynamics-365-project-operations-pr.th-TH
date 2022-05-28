@@ -7,18 +7,18 @@ ms.topic: article
 ms.prod: ''
 ms.search.form: ''
 audience: Application User
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.search.scope: ''
 ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: 4dc1628a0dde0551aaf3bc10af628ef57881d85e
-ms.sourcegitcommit: a51f40c905874103040708be2188c04ab0716c38
+ms.openlocfilehash: 1d4c2cce88514e7822515fc407fc7cf31cb34924
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/11/2021
-ms.locfileid: "7798063"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8596303"
 ---
 # <a name="capture-a-receipt-using-ocr"></a>บันทึกภาพใบเสร็จโดยใช้ OCR
 
@@ -52,7 +52,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="installation"></a>การติดตั้ง
 
-หากต้องการใช้ความสามารถของค่าใช้จ่ายขั้นสูงเหล่านี้ ให้ติดตั้ง Add-in ของ บริการจัดการค่าใช้จ่ายสำหรับ Microsoft Dynamics 365 Finance และเปิดคุณลักษณะในอินสแตนซ์ของคุณ คุณสามารถเข้าถึง Add-in จากโครงการของคุณใน Microsoft Dynamics Lifecycle Services (LCS)
+เมื่อต้องการใช้ความสามารถในการใช้ค่าใช้จ่ายขั้นสูงเหล่านี้ ให้ติดตั้ง Add-in บริการการจัดการค่าใช้จ่ายสำหรับ Microsoft Microsoft Dynamics 365 Finance และเปิดใช้งานคุณลักษณะในอินสแตนซ์ของคุณ คุณสามารถเข้าถึง Add-in จากโครงการของคุณใน Microsoft Dynamics Lifecycle Services (LCS)
 
 1. ลงชื่อเข้าใช้ LCS และเปิดสภาพแวดล้อมที่ต้องการ
 2. ไปที่ **รายละเอียดทั้งหมด**

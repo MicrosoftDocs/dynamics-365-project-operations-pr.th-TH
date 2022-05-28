@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 03/03/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b11a57ae152be154fd6a7d330c8520f3b295ce3ef5cc7051ac9b343e3bcdbe12
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: a59aa5591dd5f5ed129ce710196eea572e66ea0b
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7006359"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8599478"
 ---
 # <a name="whats-new-march-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่เดือนมีนาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
 
@@ -21,7 +21,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
 
 - Project Operations บนสภาพแวดล้อม Dataverse รุ่น 4.8.0.91 
-- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance รุ่น 10.0.16 
+- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.16 
 
 ## <a name="quality-updates"></a>การปรับปรุงคุณภาพ
 
@@ -48,7 +48,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
 
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates) อีกวิธีหนึ่งในการเรียนรู้เกี่ยวกับการอัปเดตกฎข้อบังคับคือการลงชื่อเข้าใช้ LCS และดูการอัปเดตกฎข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงกฎระเบียบสำหรับแอปการเงินและการดำเนินงาน โปรดดู [การปรับปรุงตามกฎระเบียบ](/dynamics365/finance/localizations/regulatory-updates) อีกวิธีหนึ่งในการเรียนรู้เกี่ยวกับการอัปเดตกฎข้อบังคับคือการลงชื่อเข้าใช้ LCS และดูการอัปเดตกฎข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]
