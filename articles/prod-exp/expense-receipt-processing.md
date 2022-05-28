@@ -1,24 +1,23 @@
 ---
 title: การประมวลผลใบเสร็จรับเงินค่าใช้จ่าย
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการประมวลผลการรู้จำอักขระด้วยแสง (OCR) สำหรับใบเสร็จรับเงิน คุณลักษณะนี้ออกแบบมาเพื่อปรับปรุงประสบการณ์ของผู้ใช้เมื่อสร้างรายงานค่าใช้จ่ายใน Microsoft Dynamics 365 Finance
+description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการประมวลผลการรู้จำอักขระด้วยแสง (OCR) สำหรับใบเสร็จรับเงิน คุณลักษณะนี้ได้รับการออกแบบมาเพื่อปรับปรุงประสบการณ์การใช้งานของผู้ใช้ เมื่อมีการสร้างรายงานค่าใช้จ่ายใน Microsoft Dynamics 365 Finance
 author: stsporen
 ms.date: 05/14/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Operations, Core
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: stsporen
 ms.search.validFrom: 2019-11-20
 ms.dyn365.ops.version: 10.0.8
-ms.openlocfilehash: 0d43c44bf4f2a58e3249d6cc1028353555cfd836580a802ad6e1878dc9b2e263
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 067432106742447d2b8fa215ec05bf05f4b41e70
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001409"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684343"
 ---
 # <a name="expense-receipt-processing"></a>การประมวลผลใบเสร็จรับเงินค่าใช้จ่าย
 
@@ -51,7 +50,7 @@ ms.locfileid: "7001409"
 
 คุณลักษณะนี้ทำงานร่วมกับคุณลักษณะ **รายงานค่าใช้จ่ายที่สมมติขึ้น** ที่จะช่วยลดความซับซ้อนของประสบการณ์ค่าใช้จ่าย คุณลักษณะนี้ใช้ได้เฉพาะกับสภาพแวดล้อมระดับ 2+ ซึ่ง ได้แก่ Sandbox และการใช้งานจริง
 
-หากต้องการใช้ความสามารถของค่าใช้จ่ายขั้นสูงเหล่านี้ ให้ติดตั้ง Add-in ของ บริการจัดการค่าใช้จ่ายสำหรับ Microsoft Dynamics 365 Finance และเปิดคุณลักษณะในอินสแตนซ์ของคุณ คุณสามารถเข้าถึง Add-in จากโครงการของคุณใน Microsoft Dynamics Lifecycle Services (LCS)
+เมื่อต้องการใช้ความสามารถในการใช้ค่าใช้จ่ายขั้นสูงเหล่านี้ ให้ติดตั้ง Add-in บริการการจัดการค่าใช้จ่ายสำหรับ Microsoft Microsoft Dynamics 365 Finance และเปิดใช้งานคุณลักษณะในอินสแตนซ์ของคุณ คุณสามารถเข้าถึง Add-in จากโครงการของคุณใน Microsoft Dynamics Lifecycle Services (LCS)
 
 1. ลงชื่อเข้าใช้ LCS และเปิดสภาพแวดล้อมที่ต้องการ
 2. ไปที่ **รายละเอียดทั้งหมด**

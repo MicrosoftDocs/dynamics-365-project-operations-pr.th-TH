@@ -1,32 +1,31 @@
 ---
-title: ซิงโครไนซ์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการเพื่อลงรายการบัญชีใน Finance and Operations
-description: หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์ค่าจริงของโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Finance and Operations
+title: ซิงโครไนส์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการสำหรับการลงรายการบัญชีใน Finance and Operations
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์การนำเข้าจริงของโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Finance and Operations
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 85b6c07464e919e363f28d8bc62115e8fb4c72ea6631269b98fd00f324a01cba
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 12929c324bb3a7c344edc9be2e3a8f4941ff9ea4
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6988134"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683561"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>ซิงโครไนซ์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการเพื่อลงรายการบัญชีใน Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>ซิงโครไนส์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการสำหรับการลงรายการบัญชีใน Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์ค่าจริงของโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์การนำเข้าจริงของโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 
 แม่แบบซิงโครไนซ์ธุรกรรมจาก Project Service Automation ไปยังตารางการจัดเตรียมใน Finance หลังจากการซิงโครไนซ์เสร็จสิ้น คุณ **ต้อง** นำเข้าข้อมูลจากตารางการจัดเตรียมลงในสมุดรายวันการรวม
 
@@ -75,7 +74,7 @@ ms.locfileid: "6988134"
 
 ### <a name="power-query"></a>Power Query
 
-ในแม่แบบค่าจริงของโครงการ คุณต้องใช้ Microsoft Power Query สำหรับ Excel เพื่อทำงานเหล่านี้ให้เสร็จสิ้น:
+ในเทมเพลตข้อมูลจริงของโครงการ คุณต้องใช้ Microsoft Power Query for Excel เพื่อทำให้งานเหล่านี้เสร็จสมบูรณ์:
 
 - แปลงชนิดธุรกรรมใน Project Service Automation เป็นชนิดธุรกรรมที่ถูกต้องใน Finance การเปลี่ยนแปลงนี้ได้กำหนดไว้แล้วในแม่แบบ Project actuals (PSA ไปยัง Fin and Ops)
 - แปลงชนิดการเรียกเก็บเงินใน Project Service Automation เป็นชนิดการเรียกเก็บเงินที่ถูกต้องใน Finance การเปลี่ยนแปลงนี้ได้กำหนดไว้แล้วในแม่แบบ Project actuals (PSA ไปยัง Fin and Ops) จากนั้นประเภทการเรียกเก็บเงินจะถูกจับคู่กับคุณสมบัติรายการ ตามการกำหนดค่าบนหน้า **พารามิเตอร์การรวม Project Service Automation**
@@ -84,9 +83,9 @@ ms.locfileid: "6988134"
 - ถ้าค่าจริงของเวลาระหว่างบริษัทหรือค่าใช้จ่ายระหว่างบริษัทจะไม่ซิงโครไนซ์กับ Finance คุณต้องลบคอลัมน์เงื่อนไขสุดท้ายที่แทรกออกจากแม่แบบของคุณ มิฉะนั้นข้อผิดพลาดในการรวมอาจเกิดขึ้นหรืออาจมีการนำเข้าธุรกรรมตามจริงที่ไม่ถูกต้องไปยัง Finance
 
 #### <a name="contract-organizational-unit"></a>หน่วยองค์กรตามสัญญา
-หากต้องการอัปเดตคอลัมน์เงื่อนไขสุดท้ายที่แทรกในแม่แบบ ให้คลิกลูกศร **แม็ป** เพื่อเปิดการแม็ป เลือกลิงก์ **การสืบค้นและการกรองขั้นสูง** เพื่อเปิด Power Query
+หากต้องการอัปเดตคอลัมน์เงื่อนไขสุดท้ายที่แทรกในแม่แบบ ให้คลิกลูกศร **แม็ป** เพื่อเปิดการแม็ป เลือกลิงก์ **การสอบถามและการกรองขั้นสูง** เพื่อเปิด Power Query
 
-- หากคุณกำลังใช้แม่แบบค่าจริงของโครงการเริ่มต้น (PSA ไปยัง Fin และ Ops) ใน Power Query ให้เลือก **แทรกเงื่อนไข** สุดท้ายจากส่วน **ขั้นตอนที่ใช้** ในรายการ **ฟังก์ชัน** ให้แทนที่ **USSI** ด้วยชื่อของนิติบุคคลที่ควรใช้กับการรวม เพิ่มเงื่อนไขเพิ่มเติมในรายการ **ฟังก์ชัน** ตามที่คุณต้องการและอัปเดตเงื่อนไข **อื่น** จาก **USMF** ไปเป็นนิติบุคคลที่ถูกต้อง
+- ถ้าคุณกำลังใช้เท็มเพลตรายการจริงของโครงการเริ่มต้น (PSA ไปยัง Fin and Ops) ใน Power Query เลือกส่วน **เงื่อนไขที่แทรก** ล่าสุด จากส่วน **ขั้นตอนที่ใช้** ในรายการ **ฟังก์ชัน** ให้แทนที่ **USSI** ด้วยชื่อของนิติบุคคลที่ควรใช้กับการรวม เพิ่มเงื่อนไขเพิ่มเติมในรายการ **ฟังก์ชัน** ตามที่คุณต้องการและอัปเดตเงื่อนไข **อื่น** จาก **USMF** ไปเป็นนิติบุคคลที่ถูกต้อง
 - หากคุณกำลังสร้างแม่แบบใหม่ คุณต้องเพิ่มคอลัมน์เพื่อรองรับเวลาและค่าใช้จ่ายระหว่างบริษัท เลือก **เพิ่มคอลัมน์เงื่อนไข** และป้อนชื่อสำหรับคอลัมน์ใหม่ เช่น **LegalEntity** ป้อนเงื่อนไขสำหรับคอลัมน์โดย ที่ถ้า **msdyn\_contractorganizationalunitid.msdyn\_ชื่อ** คือ \<organizational unit\> แล้ว \<enter the legal entity\>; อื่นว่าง
 
 ### <a name="template-mapping-in-data-integration"></a>การแม็ปแม่แบบในการรวมข้อมูล
@@ -126,7 +125,7 @@ ms.locfileid: "6988134"
 
 ### <a name="power-query"></a>Power Query
 
-ในแม่แบบการอัปเดตค่าจริงของโครงการ คุณต้องใช้ Power Query เพื่อทำงานเหล่านี้ให้เสร็จสิ้น:
+ในเทมเพลตการปรับปรุงข้อมูลจริงของโครงการ คุณต้องใช้ Microsoft Power Query เพื่อทำให้งานเหล่านี้เสร็จสมบูรณ์:
 
 - แปลงชนิดธุรกรรมใน Finance เป็นชนิดธุรกรรมที่ถูกต้องใน Project Service Automation การเปลี่ยนแปลงนี้ได้กำหนดไว้แล้วในการอัปเดตค่าจริงของแม่แบบโครงการ (Fin Ops ไปยัง PSA)
 - แปลงชนิดการเรียกเก็บเงินใน Finance เป็นชนิดการเรียกเก็บเงินที่ถูกต้องใน Project Service Automation การเปลี่ยนแปลงนี้ได้กำหนดไว้แล้วในการอัปเดตค่าจริงของแม่แบบโครงการ (Fin Ops ไปยัง PSA)

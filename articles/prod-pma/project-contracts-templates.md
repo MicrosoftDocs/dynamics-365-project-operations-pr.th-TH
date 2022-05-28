@@ -1,34 +1,33 @@
 ---
 title: ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance
-description: หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
+description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: acb87be977cc009f89ceac5b01c9028d6741b552a441ef49e024b6b078a188d4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001094"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684665"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance 
 
 [!include[banner](../includes/banner.md)]
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
+
+หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 
 > [!NOTE] 
 > หากคุณใช้ Enterprise edition รุ่น 7.3.0 คุณต้องติดตั้ง KB 4074835
@@ -112,7 +111,7 @@ ms.locfileid: "7001094"
 - **SourceDataID** สำหรับสัญญาโครงการและโครงการสามารถอัปเดตเป็นค่าอื่นหรือลบออกจากการแม็ป ค่าแม่แบบเริ่มต้นคือ **Project Service Automation**
 - การแม็ป **เงื่อนไขการชำระเงิน** ต้องอัปเดตเพื่อให้แสดงเงื่อนไขการชำระเงินที่ถูกต้องใน Finance คุณยังสามารถลบการแม็ปออกจากงานโครงการได้ แม็ปค่าเริ่มต้นมีค่าเริ่มต้นสำหรับข้อมูลสาธิต ตารางต่อไปนี้แสดงค่าใน Project Service Automation
 
-    | Value | รายละเอียด   |
+    | มูลค่า | Description   |
     |-------|---------------|
     | 1     | 30 วันสุทธิ        |
     | 2     | 2% 10, 30 วันสุทธิ |
@@ -121,15 +120,15 @@ ms.locfileid: "7001094"
 
 ## <a name="power-query"></a>Power Query
 
-ใช้ Microsoft Power Query สำหรับ Excel เพื่อกรองข้อมูล หากตรงตามเงื่อนไขต่อไปนี้:
+ใช้ Microsoft Power Query for Excel เพื่อกรองข้อมูล ถ้าเป็นไปตามเงื่อนไขต่อไปนี้:
 
 - คุณมีใบสั่งขายใน Dynamics 365 Sales
 - คุณมีหน่วยขององค์กรหลายหน่วยใน Project Service Automation และหน่วยขององค์กรเหล่านี้จะถูกแม็ปกับนิติบุคคลหลายแห่งใน Finance
 
-หากคุณต้องใช้ Power Query ให้ปฏิบัติตามแนวทางเหล่านี้:
+ถ้าคุณต้องใช้ Power Query ให้ทำตามคำแนะนำเหล่านี้:
 
 - แม่แบบโครงการและสัญญา (PSA กับ Fin and Ops) มีตัวกรองเริ่มต้นที่รวมเฉพาะใบสั่งขายของประเภท **รายการงาน (msdyn\_ordertype = 192350001)** ตัวกรองนี้ช่วยรับประกันว่าไม่ได้สร้างสัญญาโครงการสำหรับใบสั่งขายใน Finance หากคุณสร้างแม่แบบของคุณเอง คุณต้องเพิ่มตัวกรองนี้
-- สร้างตัวกรอง Power Query ที่มีเฉพาะองค์กรตามสัญญาที่ควรซิงโครไนซ์กับนิติบุคคลของชุดการเชื่อมต่อการรวม ตัวอย่างเช่น สัญญาโครงการที่คุณมีกับหน่วยขององค์กรของสัญญาคือ Contoso US ควรจะซิงโครไนซ์กับนิติบุคคล USSI แต่สัญญาโครงการที่คุณมีกับหน่วยขององค์กรของสัญญา Contoso Global ควรจะซิงโครไนซ์กับนิติบุคคล USMF หากคุณไม่เพิ่มตัวกรองนี้ในการแม็ปงานของคุณ สัญญาโครงการทั้งหมดจะซิงโครไนซ์กับนิติบุคคลที่กำหนดไว้สำหรับชุดการเชื่อมต่อ โดยไม่คำนึงถึงหน่วยขององค์กรตามสัญญา
+- สร้างตัวกรอง Power Query ที่รวมเฉพาะองค์กรในสัญญาที่ควรถูกซิงโครไนส์กับนิติบุคคลของชุดการเชื่อมต่อแบบรวม ตัวอย่างเช่น สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso US ควรซิงโครไนซ์กับนิติบุคคล USSI แต่สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso Global ควรซิงโครไนซ์กับนิติบุคคลของ USMF หากคุณไม่เพิ่มตัวกรองนี้ในการแม็ปงานของคุณ สัญญาโครงการทั้งหมดจะซิงโครไนซ์กับนิติบุคคลที่กำหนดไว้สำหรับชุดการเชื่อมต่อ โดยไม่คำนึงถึงหน่วยขององค์กรตามสัญญา
 
 ## <a name="template-mapping-in-data-integration"></a>การแม็ปแม่แบบในการรวมข้อมูล
 

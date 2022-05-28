@@ -1,33 +1,31 @@
 ---
 title: ภาพรวมของ Project Service Automation
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับโซลูชันการรวม Dynamics 365 Project Service Automation กับ Dynamics 365 Finance
+description: หัวข้อนี้แสดงข้อมูลทั่วไปเกี่ยวกับโซลูชันการรวม Dynamics 365 Project Service Automation กับ Dynamics 365 Finance
 author: ruhercul
 ms.date: 07/25/2019
-ms.topic: article
+ms.topic: overview
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: ruhercul
-ms.search.scope: Core, Operations
-ms.custom: intro-internal
+ms.reviewer: johnmichalak
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: ruhercul
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 551d511fda83857459a0488cfb48a9c7829171d2e4bd526ab27b4ee74b21910d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 1b8588e664f140ca1b0dd740d27fe6a5137da595
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005909"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685585"
 ---
 # <a name="project-service-automation-overview"></a>ภาพรวมของ Project Service Automation
 
 [!include[banner](../includes/banner.md)]
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
 
-โซลูชันการรวม Project Service Automation กับ Finance ใช้คุณลักษณะการรวมข้อมูลเพื่อซิงโครไนซ์ข้อมูลระหว่างอินสแตนซ์ของ Dynamics 365 Finance และ Dynamics 365 Project Service Automation ผ่าน Common Data Service แม่แบบการรวมที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูล เปิดใช้งานโฟลว์ของโครงการ สัญญาโครงการ รายละเอียดการให้บริการตามสัญญาโครงการ เหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาโครงการ งานโครงการ ประเภทธุรกรรมค่าใช้จ่าย การประมาณการชั่วโมง และการประมาณการค่าใช้จ่าย จาก Project Service Automation ไปยัง Finance
+
+โซลูชันการรวม Project Service Automation กับ Finance ใช้คุณลักษณะการรวมข้อมูลเพื่อซิงโครไนส์ข้อมูลระหว่างอินสแตนซ์ของ Dynamics 365 Finance กับ Dynamics 365 Project Service Automation ผ่าน Common Data Service แม่แบบการรวมที่พร้อมใช้งานกับคุณลักษณะการรวมข้อมูล เปิดใช้งานโฟลว์ของโครงการ สัญญาโครงการ รายละเอียดการให้บริการตามสัญญาโครงการ เหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาโครงการ งานโครงการ ประเภทธุรกรรมค่าใช้จ่าย การประมาณการชั่วโมง และการประมาณการค่าใช้จ่าย จาก Project Service Automation ไปยัง Finance
 
 > [!NOTE]
 > - หากคุณใช้เวอร์ชัน 7.3.0 คุณต้องติดตั้ง KB 4074835 จากนั้น คุณจะสามารถรวมโครงการราคาคงที่

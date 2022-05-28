@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: 10
 ms.search.validFrom: 2019-01-15
-ms.openlocfilehash: df6d286b6d5716fb0ea908ed71c2257b4db21ecfd35148fea65dfd96e058ac9a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cd5ea257472ef8dfa0d7181223a518c677c6d77b
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6997224"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683240"
 ---
 # <a name="project-timesheet-mobile-application"></a>แอปพลิเคชันบนมือถือ Project Timesheet
 
@@ -29,7 +28,7 @@ ms.locfileid: "6997224"
 
 ## <a name="overview"></a>ภาพรวม
 
-แอปสำหรับอุปกรณ์เคลื่อนที่ Microsoft Dynamics 365 Project Timesheet ช่วยให้ผู้ใช้สามารถส่งและอนุมัติแผ่นเวลาสำหรับโครงการบนอุปกรณ์มือถือของตนได้ (iPhone หรือ Android) แอปสำหรับอุปกรณ์เคลื่อนที่นี้แสดงฟังก์ชันแผ่นเวลาที่อยู่ในพื้นที่การจัดการโครงการและการบัญชีของ Dynamics 365 Finance ซึ่งปรับปรุงประสิทธิภาพและประสิทธิผลของผู้ใช้ ตลอดจนการเปิดใช้งานการป้อนข้อมูลและการอนุมัติแผ่นเวลาโครงการได้ทันเวลา
+แอปสำหรับอุปกรณ์เคลื่อนที่ Microsoft Dynamics 365 Project Timesheet ช่วยให้ผู้ใช้สามารถส่งและอนุมัติแผ่นเวลาสำหรับโครงการบนอุปกรณ์มือถือของตนได้ (iPhone หรือ Android) แอปบนมือถือนี้จัดการฟังก์ชันแผ่นเวลาที่อยู่ในการจัดการโครงการและพื้นที่การลงบัญชีของ Dynamics 365 Finance ซึ่งปรับปรุงประสิทธิภาพการทำงานของผู้ใช้และประสิทธิภาพ ตลอดจนการเปิดใช้งานรายการตามเวลาที่กำหนดและการอนุมัติของแผ่นเวลาโครงการ
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่
 

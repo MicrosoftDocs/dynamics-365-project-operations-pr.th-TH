@@ -1,32 +1,31 @@
 ---
-title: ซิงโครไนซ์ประเภทค่าใช้จ่ายโครงการระหว่าง Finance and Operations และ Project Service Automation
-description: หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์ประเภทค่าใช้จ่ายของโครงการระหว่าง Microsoft Dynamics 365 Finance และ Dynamics 365 Project Service Automation
+title: ปซิงโครไนส์ระเภทค่าใช้จ่ายโครงการระหว่าง Finance and Operations และ Project Service Automation
+description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์ประเภทค่าใช้จ่ายโครงการระหว่าง Microsoft Microsoft Dynamics 365 Finance กับ Dynamics 365 Project Service Automation
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: 52c79f8b641d4b2df3b30964331633f2487402f8f8d229b540f9544c0f848557
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7001139"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8685493"
 ---
-# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>ซิงโครไนซ์ประเภทค่าใช้จ่ายโครงการระหว่าง Finance and Operations และ Project Service Automation
+# <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>ปซิงโครไนส์ระเภทค่าใช้จ่ายโครงการระหว่าง Finance and Operations และ Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์ประเภทค่าใช้จ่ายของโครงการระหว่าง Dynamics 365 Finance และ Dynamics 365 Project Service Automation
+หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์ประเภทค่าใช้จ่ายโครงการระหว่าง Dynamics 365 Finance กับ Dynamics 365 Project Service Automation
 
 > [!NOTE]
 > - การรวมงานโครงการ ประเภทธุรกรรมค่าใช้จ่าย การประมาณชั่วโมง การประมาณค่าใช้จ่าย และการล็อกฟังก์ชัน จะพร้อมใช้งานในเวอร์ชัน 8.0
@@ -81,10 +80,10 @@ ms.locfileid: "7001139"
 
 ### <a name="power-query"></a>Power Query
 
-เมื่อคุณซิงโครไนซ์กับ Project Service Automation คุณต้องใช้ Microsoft Power Query สำหรับ Excel เพื่อตั้งค่าประเภทการเรียกเก็บเงินในประเภทธุรกรรม แม่แบบประเภทธุรกรรมค่าใช้จ่ายโครงการ (Fin และ Ops ไปยัง PSA) มีคอลัมน์และการแม็ปเริ่มต้น หากคุณสร้างแม่แบบของคุณเอง คุณต้องเพิ่มคอลัมน์เงื่อนไขใน Power Query ให้ทำตามขั้นตอนเหล่านี้
+เมื่อคุณต้องซิงโครไนส์กับ Project Service Automation คุณต้องใช้ Microsoft Power Query for Excel เพื่อตั้งค่าชนิดการเรียกเก็บเงินในประเภทธุรกรรม แม่แบบประเภทธุรกรรมค่าใช้จ่ายโครงการ (Fin และ Ops ไปยัง PSA) มีคอลัมน์และการแม็ปเริ่มต้น ถ้าคุณสร้างเทมเพลตของคุณเอง คุณต้องเพิ่มคอลัมน์แบบมีเงื่อนไขใน Power Query ให้ทำตามขั้นตอนเหล่านี้
 
 1. คลิกลูกศรเพื่อเปิดการแม็ปของงานประเภทค่าใช้จ่ายโครงการในแม่แบบประเภทธุรกรรมค่าใช้จ่ายโครงการ (Fin และ Ops ไปยัง PSA)
-2. คลิกลิงก์ **การสืบค้นและการกรองขั้นสูง** เพื่อเปิด Power Query
+2. คลิกลิงก์ **การสอบถามและการกรองขั้นสูง** เพื่อเปิด Power Query
 2. เลือก **เพิ่มคอลัมน์เงื่อนไข**
 3. ป้อนชื่อสำหรับคอลัมน์ใหม่ เช่น **BillingType**
 4. ป้อนเงื่อนไขต่อไปนี้: **ถ้า CATEGORYID ไม่เท่ากับ null ดังนั้นเท่ากับ 19235001 มิฉะนั้นจะเป็น null**

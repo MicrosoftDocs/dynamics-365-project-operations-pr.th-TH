@@ -5,8 +5,7 @@ author: rumant
 ms.date: 04/02/2020
 ms.topic: article
 audience: Application User
-ms.reviewer: kfend
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: ''
 ms.assetid: ''
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.dyn365.ops.version: 7
 ms.search.validFrom: 2019-01-15
 search.app:
 - ProjectOperations
-ms.openlocfilehash: 88706946e5c5c59be996640f4c7b37e958c1cf1d9fd14c72c0c6dc854a77dab4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 107ba01f2fd5717e1717824631aeee099d8a8205
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6995424"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683385"
 ---
 # <a name="bulk-corrections-of-actuals-created-by-approved-time-and-expense-entries"></a>การแก้ไขเป็นกลุ่มของข้อมูลจริงที่สร้างขึ้นโดยเวลาที่ได้รับอนุมัติและรายการค่าใช้จ่าย
 
@@ -60,10 +59,7 @@ ms.locfileid: "6995424"
 
 10. ในรายการ **มุมมองที่เกี่ยวข้องจริง** คุณจะเห็นว่ารายการเวลาดั้งเดิมที่ถูกกลับรายการนั้นยังคงอยู่ในรายการ เช่นเดียวกับรายการเวลาที่แก้ไขที่สอดคล้องกัน 
 
-ตัวอย่างเช่น ในกราฟิกต่อไปนี้ มีรายการสองรายการที่มีปริมาณเป็น 8.00 ซึ่งมีเดบิตที่แสดงรายการในคอลัมน์จำนวนเงิน นอกจากนี้ ยังมีรายการสองรายการที่มีปริมาณเป็น -8.00 ซึ่งแสดงจำนวนที่มีการให้สินเชื่อในคอลัมน์จำนวนเงิน การแก้ไขเหล่านี้ทำให้ปริมาณเป็นศูนย์
 
-![รายการมุมมองที่เชื่อมโยงตามจริง](https://github.com/MicrosoftDocs/dynamics-365-customer-engagement-pr/blob/bulk-corrections-actuals-created-by-approved-time-expense-entries.md/time-actuals.png)
- 
 ## <a name="correct-approved-expense-entries"></a>แก้ไขรายการค่าใช้จ่ายที่อนุมัติ
 
 ทำขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์ เพื่อแก้ไขรายการค่าใช้จ่ายอย่างน้อยหนึ่งรายการ 
@@ -86,8 +82,6 @@ ms.locfileid: "6995424"
 7. หลังจากที่คุณยืนยันสมุดรายวันการแก้ไข ให้นำทางกลับไปที่โครงการหรือโครงการที่คุณปรับปรุง เพื่อดูการเปลี่ยนแปลงของคุณ  
 
 8. ในหน้าโครงการ บนแท็บ **ข้อมูลจริง** ตรวจสอบ **มุมมองที่เกี่ยวข้องจริง** รายการต้นฉบับและรายการที่แก้ไขจะแสดงรายการ ภาพต่อไปนี้แสดงจำนวนรายการค่าใช้จ่ายดั้งเดิมและจำนวนรายการค่าใช้จ่ายที่แก้ไขแล้วซึ่งสอดคล้องกัน 
-
-![ค่าใช้จ่ายตามจริง](https://user-images.githubusercontent.com/60806505/77122219-4cd52900-69fa-11ea-8349-ccd2ffebf640.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

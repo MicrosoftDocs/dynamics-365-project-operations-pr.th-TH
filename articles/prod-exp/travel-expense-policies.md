@@ -1,6 +1,6 @@
 ---
 title: ตั้งค่านโยบายค่าใช้จ่าย
-description: คุณสามารถตั้งค่านโยบายค่าใช้จ่ายที่ผู้ปฏิบัติงานของคุณต้องปฏิบัติตาม เมื่อป้อนและส่งรายงานค่าใช้จ่ายและใบขอเดินทางใน Microsoft Dynamics 365 Finance
+description: คุณสามารถตั้งค่านโยบายค่าใช้จ่ายซึ่งผู้ปฏิบัติงานของคุณต้องปฏิบัติตาม เมื่อป้อนหรือส่งรายงานค่าใช้จ่ายและใบเบิกค่าเดินทางใน Microsoft Microsoft Dynamics 365 Finance
 author: suvaidya
 ms.date: 05/20/2020
 ms.topic: article
@@ -8,18 +8,17 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: SysPolicyListPage, TrvPolicyRule
 audience: Application User
-ms.reviewer: roschlom
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.search.region: Global
 ms.author: suvaidya
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: 050e19016edac53ef22764d227d4ef96d89ba298287b10416febbb55bb00973a
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b3dc5d1768b57baa68f134af318dd9d2d7cdd756
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005954"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684757"
 ---
 # <a name="set-up-expense-policies"></a>ตั้งค่านโยบายค่าใช้จ่าย
 

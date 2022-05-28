@@ -1,32 +1,31 @@
 ---
-title: ซิงโครไนซ์งานโครงการโดยตรงจาก Project Service Automation ถึง Finance and Operations
-description: หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์งานโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ถึง Dynamics 365 Finance
+title: ซิงโครไนส์งานโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations
+description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์งานโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 87983
 ms.assetid: b454ad57-2fd6-46c9-a77e-646de4153067
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 45846d7a6dd7b84fe28f0a78ccc103679236917ea506180c5b383fd2828624eb
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992814"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683333"
 ---
-# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>ซิงโครไนซ์งานโครงการโดยตรงจาก Project Service Automation ถึง Finance and Operations
+# <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>ซิงโครไนส์งานโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายแม่แบบและงานพื้นฐานที่ใช้เพื่อซิงโครไนซ์งานโครงการโดยตรงจาก Dynamics 365 Project Service Automation ถึง Dynamics 365 Finance
+หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์งานโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 
 > [!NOTE]
 > - การรวมงานโครงการ ประเภทธุรกรรมค่าใช้จ่าย การประมาณชั่วโมง การประมาณค่าใช้จ่าย และการล็อกฟังก์ชัน จะพร้อมใช้งานในเวอร์ชัน 8.0
@@ -68,11 +67,11 @@ ms.locfileid: "6992814"
 
 ## <a name="power-query"></a>Power Query
 
-คุณต้องใช้ Microsoft Power Query สำหรับ Excel เพื่อกรองข้อมูล หากตรงตามเงื่อนไขนี้:
+คุณต้องใช้ Microsoft Power Query for Excel เพื่อกรองข้อมูล ถ้าเป็นไปตามเงื่อนไขนี้:
 
 - คุณมีเรกคอร์ดเฉพาะทรัพยากรในงานโครงการ
 
-หากคุณต้องใช้ Power Query ให้ปฏิบัติตามแนวทางนี้:
+ถ้าคุณต้องใช้ Power Query ให้ทำตามคำแนะนำนี้:
 
 - แม่แบบงานโครงการ (PSA ถึง Fin และ Ops) มีตัวกรองเริ่มต้นที่แยกเรกคอร์ดเฉพาะทรัพยากรออกจากงานโครงการ โดยตั้งค่าตัวกรองใน **IsLineTask** เป็น **เท็จ** หากคุณสร้างแม่แบบของคุณเอง คุณต้องเพิ่มตัวกรองนี้
 

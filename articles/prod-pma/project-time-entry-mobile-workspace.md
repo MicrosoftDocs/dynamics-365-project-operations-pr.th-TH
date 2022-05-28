@@ -7,8 +7,7 @@ ms.topic: article
 ms.prod: ''
 ms.technology: ''
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: 272101
 ms.assetid: 4505f021-b9bb-4b87-be24-6bf0bd88ee60
 ms.search.region: Global
@@ -16,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: andchoi
 ms.dyn365.ops.version: Version 1611
 ms.search.validFrom: 2016-11-30
-ms.openlocfilehash: 04024cc005b67b8f4e5821b22be65cfd1822b2414c85e1fbb75c3b2ac4339dc4
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 64a80d931332a4d6edfcd175d7168a7815ddca38
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989574"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8683975"
 ---
 # <a name="project-time-entry-mobile-workspace"></a>พื้นที่ทำงานสำหรับอุปกรณ์มือถือในการป้อนเวลาโครงการ
 
@@ -45,7 +44,7 @@ ms.locfileid: "6989574"
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 ข้อกำหนดเบื้องต้นแตกต่างกันไป โดยขึ้นอยู่กับเวอร์ชันของ Microsoft Dynamics 365 ที่ปรับใช้สำหรับองค์กรของคุณ
 
-### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>ข้อกำหนดเบื้องต้น หากคุณใช้ Dynamics 365 Finance
+### <a name="prerequisites-if-you-use-dynamics-365-finance"></a>ข้อกำหนดเบื้องต้นหากคุณใช้ Dynamics 365 Finance
 ถ้า Finance ถูกปรับใช้สำหรับองค์กรของคุณ ผู้ดูแลระบบต้องเผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือ **การป้อนเวลาโครงการ** สำหรับคำแนะนำ โปรดดู [เผยแพร่พื้นที่ทำงานสำหรับอุปกรณ์มือถือ](/dynamics365/fin-ops-core/dev-itpro/mobile-apps/publish-mobile-workspace).
 
 ### <a name="prerequisites-if-you-use-version-1611-with-platform-update-3-or-later"></a>ข้อกำหนดเบื้องต้น หากคุณใช้เวอร์ชัน 1611 ที่มีการปรับปรุงแพลตฟอร์ม 3 หรือใหม่กว่า
@@ -83,13 +82,13 @@ ms.locfileid: "6989574"
 
 ## <a name="download-and-install-the-mobile-app"></a>ดาวน์โหลดและติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่
 
-ดาวน์โหลดและติดตั้งแอปสำหรับอุปกรณ์เคลื่อนที่ Finance and Operations:
+ดาวน์โหลดและติดตั้งแอปการเงินและการดำเนินงานบนมือถือ
 
 -   [สำหรับโทรศัพท์ Android](https://go.microsoft.com/fwlink/?linkid=850662)
 -   [สำหรับ iPhone](https://go.microsoft.com/fwlink/?linkid=850663)
 
 ## <a name="sign-in-to-the-mobile-app"></a>ลงชื่อเข้าใช้แอปสำหรับอุปกรณ์เคลื่อนที่
-1.  เริ่มต้นแอปบนอุปกรณ์มือถือของคุณ
+1.  เริ่มต้นแอปบนอุปกรณ์เคลื่อนที่ของคุณ
 2.  ป้อน URL ของ Dynamics 365
 3.  ในครั้งแรกที่คุณลงชื่อเข้าใช้ คุณจะได้รับแจ้งให้ใส่ชื่อผู้ใช้และรหัสผ่านของคุณ ป้อนข้อมูลประจำตัวของคุณ
 4.  หลังจากที่คุณลงชื่อเข้าใช้ พื้นที่ทำงานที่พร้อมใช้งานสำหรับบริษัทของคุณจะปรากฏขึ้น โปรดทราบว่าหากผู้ดูแลระบบของคุณเผยแพร่พื้นที่ทำงานใหม่ในภายหลัง คุณจะต้องรีเฟรชรายการของพื้นที่ทำงานสำหรับอุปกรณ์มือถือ

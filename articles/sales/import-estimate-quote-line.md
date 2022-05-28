@@ -4,14 +4,14 @@ description: หัวข้อนี้ให้ข้อมูลเกี่�
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: a9ac27b7694927f9cea88b49310f3106fbc6542cc0f7f1756744b970358c1057
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 24869ccc0c08470805a01dafc25f44ee12359d93
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993534"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600489"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-quote-line"></a>นำเข้าประมาณการสำหรับโครงการไปยังรายการใบเสนอราคาโครงการ
 

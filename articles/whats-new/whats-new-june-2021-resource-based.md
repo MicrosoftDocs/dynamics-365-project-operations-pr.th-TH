@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 06/14/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: c6a40335df89cc6b2bb35e54832140aac6eb9ac6
-ms.sourcegitcommit: 03414a74ddf1f2d63043d734ebdee7485f1aadd2
+ms.openlocfilehash: 21a446fdb9526c1a2b110c5368516dafb64b5e01
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/25/2021
-ms.locfileid: "7679232"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8600811"
 ---
 # <a name="whats-new-june-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนมิถุนายน 2021 - Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
 
@@ -21,7 +21,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
 
 - Project Operations บนสภาพแวดล้อม Dynamics 365 Dataverse รุ่น 4.11.0.156 หรือ 4.11.0.164
-- การจัดการโครงการและการบัญชีในสภาพแวดล้อมของแอป Finance and Operations รุ่น 10.0.19
+- การจัดการโครงการและการบัญชีในสภาพแวดล้อมของแอปการเงินและการดำเนินงาน เวอร์ชัน 10.0.19
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในรุ่นนี้:
 
@@ -38,7 +38,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 สำหรับรายการปัจจุบันและรุ่นของแผนที่การรวมแบบสองทิศทางของ Project Operations โปรดดูที่ [รุ่นของแผนที่การรวมแบบสองทิศทางของ Project Operations](../environment/resource-dual-write-maps.md)
 
-เรียกใช้แผนที่เวอร์ชันล่าสุดในสภาพแวดล้อมของคุณเสมอ และเปิดใช้งานแผนที่ตารางที่เกี่ยวข้องทั้งหมด เมื่อคุณอัปเดตโซลูชัน Project Operations Dataverse และเวอร์ชันโซลูชันของแอป Finance and Operations ของคุณ คุณลักษณะและความสามารถบางอย่างอาจทำงานไม่ถูกต้อง หากไม่ได้เปิดใช้งานแผนที่เวอร์ชันล่าสุด คุณสามารถดูรุ่นที่ใช้งานของแผนที่บนหน้า **การรวมแบบสองทิศทาง** ในคอลัมน์ **รุ่น** เปิดใช้งานแผนที่รุ่นใหม่โดยเลือก **รุ่นแผนที่ตาราง** เลือกรุ่นล่าสุด แล้วบันทึกรุ่นที่เลือก หากคุณได้ปรับแต่งแผนที่ตารางแบบสำเร็จรูป ให้ใช้การเปลี่ยนแปลงอีกครั้ง สำหรับข้อมูลเพิ่มเติม โปรดดู [การจัดการวงจรชีวิตของแอปพลิเคชัน](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
+เรียกใช้แผนผังรุ่นล่าสุดในสภาพแวดล้อมของคุณเสมอ และเปิดใช้งานแผนผังตารางที่เกี่ยวข้องทั้งหมดเมื่อคุณปรับปรุงโซลูชัน Project Operations Dataverse และรุ่นโซลูชันแอปการเงินและการดำเนินงานของคุณ คุณลักษณะและความสามารถบางอย่างอาจทำงานไม่ถูกต้อง หากไม่ได้เปิดใช้งานแผนที่เวอร์ชันล่าสุด คุณสามารถดูรุ่นที่ใช้งานของแผนที่บนหน้า **การรวมแบบสองทิศทาง** ในคอลัมน์ **รุ่น** เปิดใช้งานแผนที่รุ่นใหม่โดยเลือก **รุ่นแผนที่ตาราง** เลือกรุ่นล่าสุด แล้วบันทึกรุ่นที่เลือก หากคุณได้ปรับแต่งแผนที่ตารางแบบสำเร็จรูป ให้ใช้การเปลี่ยนแปลงอีกครั้ง สำหรับข้อมูลเพิ่มเติม โปรดดู [การจัดการวงจรชีวิตของแอปพลิเคชัน](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/app-lifecycle-management)
 
 หากคุณประสบปัญหาในการเริ่มแผนที่ ให้ทำตามคำแนะนำในส่วน [ปัญหาคอลัมน์ตารางที่หายไปบนแผนที่](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-troubleshooting-finops-upgrades#missing-table-columns-issue-on-maps) ในคู่มือการแก้ไขปัญหาการรวมแบบสองทิศทาง
 

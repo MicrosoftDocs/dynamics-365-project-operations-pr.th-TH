@@ -8,20 +8,19 @@ ms.prod: ''
 ms.technology: ''
 ms.search.form: ProjProjectsListPage
 audience: Application User
-ms.reviewer: josaw
-ms.search.scope: Core, Operations
+ms.reviewer: johnmichalak
 ms.custom: intro-internal
 ms.assetid: bd2fb375-84c6-428a-8e54-f0f719045898
 ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-02-28
 ms.dyn365.ops.version: AX 7.0.0
-ms.openlocfilehash: ea2a34ed9e0bf5b28649a53db88976ec56aaf10d1c80af99cb0856250873a2ab
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 38793c4b9fc6cd2c1999661cb2acc587086b0143
+ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7007349"
+ms.lasthandoff: 05/04/2022
+ms.locfileid: "8684895"
 ---
 # <a name="project-resourcing-home-page"></a>โฮมเพจการจัดเตรียมทรัพยากรโครงการ
 
@@ -29,7 +28,7 @@ ms.locfileid: "7007349"
 
 หัวข้อนี้แสดงข้อมูลเกี่ยวกับการจัดเตรียมทรัพยากรโครงการ
 
-ความท้าทายอย่างหนึ่งสำหรับผู้จัดการโครงการและ Resource Manager ในระหว่างลำดับขั้นการวางแผนโครงการคือการจัดสรรทรัพยากร ซึ่งพวกเขาต้องกำหนดและสงวนทรัพยากรที่ถูกต้องเพื่อทำงานในโครงการ ใน Dynamics 365 Finance ความสามารถในการจัดเตรียมทรัพยากรสำหรับโครงการช่วยให้คุณสามารถกำหนดบทบาทที่ถือว่าเป็นทรัพยากรชั่วคราวที่สามารถสงวนไว้สำหรับการมีส่วนร่วมเฉพาะ หรือส่วนหนึ่งของการมีส่วนร่วม การจัดเตรียมทรัพยากรชนิดนี้ช่วยให้ผู้จัดการโครงการและ Resource Manager สามารถทำงานต่อไปนี้ได้เสร็จสมบูรณ์:
+ความท้าทายอย่างหนึ่งสำหรับผู้จัดการโครงการและ Resource Manager ในระหว่างลำดับขั้นการวางแผนโครงการคือการจัดสรรทรัพยากร ซึ่งพวกเขาต้องกำหนดและสงวนทรัพยากรที่ถูกต้องเพื่อทำงานในโครงการ ใน Dynamics 365 Finance ความสามารถในการจัดเตรียมทรัพยากรสำหรับโครงการอนุญาตให้คุณกำหนดบทบาทที่จะได้รับการดูแลในฐานะทรัพยากรชั่วคราวที่สามารถรักษาไว้ได้ สำหรับการมีส่วนร่วมเฉพาะหรือส่วนหนึ่งของการมีส่วนร่วม การจัดเตรียมทรัพยากรชนิดนี้ช่วยให้ผู้จัดการโครงการและ Resource Manager สามารถทำงานต่อไปนี้ได้เสร็จสมบูรณ์:
 
 - กำหนดบทบาทที่มีความสามารถที่จำเป็น เพื่อให้จับคู่ทรัพยากรได้ง่าย
 - ใช้บทบาทเพื่อกำหนดกำหนดการในการมีส่วนร่วมเริ่มต้นที่ยึดตามทรัพยากรที่สงวนไว้

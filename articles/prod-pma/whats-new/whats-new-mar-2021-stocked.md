@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 03/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 2569133200b531197a46da095547fcc3f444cc98bfcc139b77a7db58e1439ca9
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 0f8d57db75f426d87bcdcdde8fb9dfbe1ccc479f
+ms.sourcegitcommit: 577fa51e0892625f98f17ff39874ed1a09444421
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6991194"
+ms.lasthandoff: 05/06/2022
+ms.locfileid: "8723745"
 ---
 # <a name="whats-new-or-changed-in-project-operations-march-2021-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนมีนาคม 2021 สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
 
@@ -20,7 +20,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
 
-- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance รุ่น 10.0.17
+- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.17
 
 ## <a name="features-included-in-this-release"></a>คุณลักษณะที่รวมอยู่ในรุ่นนี้:
 คุณลักษณะดังต่อไปนี้รวมอยู่ในรุ่นนี้:
@@ -121,7 +121,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | การจัดการและการบัญชีโครงการ | [533530](https://fix.lcs.dynamics.com/Issue/Details/?bugId=533530) | ไม่สนับสนุนวิธีการของคลาสโครงสร้างการแบ่งงาน (WBS) ดั้งเดิม **ProjWBSUpdateController::updateOutlineNumbersAndPublishInPreOrder** อีกต่อไป                                                                                                   |
 
 ### <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates.md) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงกฎระเบียบสำหรับแอปการเงินและการดำเนินงาน โปรดดู [การปรับปรุงตามกฎระเบียบ](/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

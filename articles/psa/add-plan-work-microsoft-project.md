@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: ccebf1439f49092b23da5b4fc2ebb4fc484de4dd17c870eea9fe37b00fbb3689
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 460b5bb7baabcb804b9745f5fddae9bcc3fc7541
+ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005324"
+ms.lasthandoff: 05/07/2022
+ms.locfileid: "8727981"
 ---
 # <a name="use-the-project-service-automation-add-in-to-plan-your-work-in-microsoft-project"></a>ใช้ Add-in Project Service Automation เพื่อวางแผนการทำงานของคุณใน Microsoft Project
 
@@ -40,7 +41,7 @@ ms.locfileid: "7005324"
 ## <a name="download-and-install-the-add-in"></a>ดาวน์โหลดและติดตั้ง add-in  
  เตรียมข้อมูลการลงชื่อเข้าใช้ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ของคุณให้พร้อม คุณจะต้องใช้ข้อมูลนี้ในการเชื่อมต่อจาก [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] ไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]  
 
-1.  จากศูนย์ดาวน์โหลด ดาวน์โหลด Add-in สำหรับรุ่นที่ได้รับการสนับสนุนของ Project Service ของคุณ ทั้ง [V2.X](https://go.microsoft.com/fwlink/?linkid=828268) หรือ [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956)  
+1.  จากศูนย์ดาวน์โหลด ดาวน์โหลด Add-in สำหรับรุ่นที่ได้รับการสนับสนุนของ Project Service ของคุณ ทั้ง [V2.X](/dynamics365/project-operations/psa/overview#guidance-for-earlier-versions-app-version-2x-or-1x) หรือ [V3.4+](https://www.microsoft.com/download/details.aspx?id=57956)  
 
 2.  คลิกการเชื่อมโยงดาวน์โหลด  
 
@@ -87,9 +88,8 @@ ms.locfileid: "7005324"
 
 โครงการจะนำเข้าไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] กระบวนการการกำหนดราคาและการสร้างทีมงานจะถูกนำไปใช้ เปิดโครงการใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เพื่อดูว่ากลุ่มคน การประเมินโครงการ และโครงสร้างการแบ่งงาน ได้ถูกสร้างขึ้น ตารางต่อไปนี้แสดงตำแหน่งที่จะพบผลลัพธ์:
 
-
-|                                                                                          |                                                                                                                                   |
-|------------------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| Project | Details |
+| ---- | --- |
 |  [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **แผนภูมิแกนต์**   | นำเข้าลงในหน้าจอ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **โครงสร้างการแบ่งงาน** |
 | [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **รีเฟรชแผ่นงานทรัพยากร** |   นำเข้าลงในหน้าจอ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]**สมาชิกทีมโครงการ**   |
 |   [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] **ใช้การใช้งาน**    |    นำเข้าลงในหน้าจอ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] **การประเมินโครงการ**     |
