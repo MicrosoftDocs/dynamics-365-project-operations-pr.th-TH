@@ -2,16 +2,16 @@
 title: จองสำหรับโครงการ
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจองทรัพยากรให้กับโครงการ
 author: ruhercul
-ms.date: 10/01/2020
+ms.date: 01/24/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 719892a37f381fc0ad6c3ccaca5c4d87c9947a4d7a39dca96aef464d04a71af0
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: b47ae8cb38be6d29804aec8b069e6a8aec0ffb70
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6994929"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591412"
 ---
 # <a name="book-to-a-project"></a>จองสำหรับโครงการ
 
@@ -52,7 +52,10 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
     - วันที่เสร็จสิ้น
     - สถานะการจอง
     - วิธีการจอง
-    - ระยะเวลา
+    - Duration
+   
+   > [!NOTE]
+   > ปัจจุบัน Dynamics 365 Project Operations ไม่สนับสนุนตารางกำหนดการ   
 
 ## <a name="book-from-the-project-form"></a>จองจากฟอร์มโครงการ
 

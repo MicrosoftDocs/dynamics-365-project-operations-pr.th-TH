@@ -2,76 +2,80 @@
 title: พัฒนาแม่แบบโครงการด้วย คัดลอกโครงการ
 description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีสร้างแม่แบบโครงการโดยใช้การดำเนินการ คัดลอกโครงการ แบบกำหนดเอง
 author: stsporen
-ms.date: 01/21/2021
+ms.date: 03/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: d12301b4e7baabeb0f045f9a11d4695fc026339af3fa7650db7177c495c71e90
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 72aa2db7c717eeab85ada448c673bf702087baeb
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6989299"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8590924"
 ---
 # <a name="develop-project-templates-with-copy-project"></a>พัฒนาแม่แบบโครงการด้วย คัดลอกโครงการ
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
-
 Dynamics 365 Project Operations สนับสนุนความสามารถในการคัดลอกโครงการและเปลี่ยนการมอบหมายกลับไปยังทรัพยากรทั่วไปที่แสดงถึงบทบาท ลูกค้าสามารถใช้ฟังก์ชันนี้เพื่อสร้างแม่แบบโครงการพื้นฐาน
 
 เมื่อคุณเลือก **คัดลอกโครงการ** สถานะของโครงการเป้าหมายจะได้รับการอัปเดต ใช้ **คำอธิบายรายการของสถานะ** เพื่อพิจารณาว่าการคัดลอกเสร็จสมบูรณ์เมื่อใด กำลังเลือก **คัดลอกโครงการ** นอกจากนี้ยังอัปเดตวันที่เริ่มต้นของโครงการเป็นวันที่เริ่มต้นปัจจุบันหากไม่พบวันที่เป้าหมายในเอนทิตีโครงการเป้าหมาย
 
-## <a name="copy-project-custom-action"></a>การดำเนินการ คัดลอกโครงการ แบบกำหนดเอง 
+## <a name="copy-project-custom-action"></a>การดำเนินการ คัดลอกโครงการ แบบกำหนดเอง
 
-### <a name="name"></a>ชื่อ 
+### <a name="name"></a>Name 
 
-**msdyn_CopyProjectV2**
+msdyn\_CopyProjectV3
 
 ### <a name="input-parameters"></a>พารามิเตอร์อินพุต
+
 มีพารามิเตอร์ข้อมูลป้อนเข้าสามรายการ:
 
-| พารามิเตอร์          | พิมพ์ข้อความ   | มูลค่า                                                   | 
-|--------------------|--------|----------------------------------------------------------|
-| ProjectCopyOption  | String | **{"removeNamedResources":true}** หรือ **{"clearTeamsAndAssignments":true}** |
-| SourceProject      | การอ้างอิงเอนทิตี | โครงการต้นทาง |
-| เป้าหมาย             | การอ้างอิงเอนทิตี | โครงการเป้าหมาย |
+- **ReplaceNamedResources** หรือ **ClearTeamsAndAssignments** – ตั้งค่าตัวเลือกเดียวเท่านั้น อย่าตั้งค่าทั้งคู่
 
+    - **\{"ReplaceNamedResources":true\}** – ลักษณะการทำงานเริ่มต้นสำหรับ Project Operations ทรัพยากรที่ระบุชื่อถุกแทนที่ด้วยทรัพยากรทั่วไป
+    - **\{"ClearTeamsAndAssignments":true\}** – ลักษณะการทำงานเริ่มต้นสำหรับ Project for the Web การมอบหมายและสมาชิกทีมทั้งหมดจะถูกลบออก
 
-- **{"clearTeamsAndAssignments":true}**: เป็นลักษณะการทำงานเริ่มต้นสำหรับโครงการสำหรับเว็บและจะลบการมอบหมายงานและสมาชิกในทีมทั้งหมด
-- **{"removeNamedResources":true}** ลักษณะการทำงานเริ่มต้นสำหรับ Project Operations และจะเปลี่ยนการมอบหมายกลับเป็นทรัพยากรทั่วไป
+- **SourceProject** – การอ้างอิงเอนทิตีของโครงการต้นทางที่จะคัดลอก พารามิเตอร์ไม่สามารถเป็นไม่มีค่า
+- **Target** – การอ้างอิงเอนทิตีของโครงการเป้าหมายในการคัดลอก พารามิเตอร์ไม่สามารถเป็นไม่มีค่า
 
-สำหรับค่าเริ่มต้นบนการดำเนินการ ดูที่ [ใช้การดำเนินการ API เว็บ](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+ตารางต่อไปนี้แสดงสรุปข้อมูลของพารามิเตอร์สามรายการ
 
-## <a name="specify-fields-to-copy"></a>ระบุช่องที่จะคัดลอก 
+| พารามิเตอร์                | ขนิด             | มูลค่า                 |
+|--------------------------|------------------|-----------------------|
+| ReplaceNamedResources    | Boolean          | **จริง** หรือ **เท็จ** |
+| ClearTeamsAndAssignments | Boolean          | **จริง** หรือ **เท็จ** |
+| SourceProject            | การอ้างอิงเอนทิตี | โครงการต้นทาง    |
+| Target                   | การอ้างอิงเอนทิตี | โครงการเป้าหมาย    |
+
+สำหรับค่าเริ่มต้นเกี่ยวกับการดำเนินการเพิ่มเติม ดูที่ [ใช้การดำเนินการ Web API](/powerapps/developer/common-data-service/webapi/use-web-api-actions)
+
+### <a name="validations"></a>การตรวจสอบความถูกต้อง
+
+การตรวจสอบความถูกต้องที่ดำเนินการมีดังต่อไปนี้
+
+1. ไม่มีค่า จะตรวจสอบและเรียกค้นโครงการต้นทางและเป้าหมายเพื่อยืนยันการมีอยู่ของทั้งสองโครงการในองค์กร
+2. ระบบจะตรวจสอบว่าโครงการเป้าหมายนั้นถูกต้องสำหรับการคัดลอกโดยตรวจสอบเงื่อนไขต่อไปนี้:
+
+    - ไม่มีกิจกรรมก่อนหน้าในโครงการ (รวมถึงการเลือกแท็บ **งาน**) และโครงการจะถูกสร้างขึ้นใหม่
+    - ไม่มีสำเนาก่อนหน้า ไม่มีการร้องขอการนำเข้าในโครงการนี้ และโครงการไม่มีสถานะ **ล้มเหลว**
+
+3. การดำเนินการนี้ไม่ได้ถูกเรียกโดยใช้ HTTP
+
+## <a name="specify-fields-to-copy"></a>ระบุช่องที่จะคัดลอก
+
 เมื่อมีการเรียกการดำเนินการ **คัดลอกโครงการ** จะดูมุมมองโครงการ **คัดลอกคอลัมน์โครงการ** เพื่อกำหนดฟิลด์ที่จะคัดลอกเมื่อโครงการถูกคัดลอก
 
+### <a name="example"></a>ตัวอย่างเช่น
 
-### <a name="example"></a>ตัว อย่าง เช่น
-ตัวอย่างต่อไปนี้แสดงวิธีการเรียกการดำเนินการที่กำหนดเอง **CopyProject** ด้วยชุดพารามิเตอร์ **removeNamedResources**
+ตัวอย่างต่อไปนี้แสดงวิธีการเรียกการดำเนินการที่กำหนดเอง **CopyProjectV3** ด้วยชุดพารามิเตอร์ **removeNamedResources**
+
 ```C#
 {
     using System;
     using System.Runtime.Serialization;
     using Microsoft.Xrm.Sdk;
     using Newtonsoft.Json;
-
-    [DataContract]
-    public class ProjectCopyOption
-    {
-        /// <summary>
-        /// Clear teams and assignments.
-        /// </summary>
-        [DataMember(Name = "clearTeamsAndAssignments")]
-        public bool ClearTeamsAndAssignments { get; set; }
-
-        /// <summary>
-        /// Replace named resource with generic resource.
-        /// </summary>
-        [DataMember(Name = "removeNamedResources")]
-        public bool ReplaceNamedResources { get; set; }
-    }
 
     public class CopyProjectSample
     {
@@ -89,27 +93,32 @@ Dynamics 365 Project Operations สนับสนุนความสามา
             var sourceProject = new Entity("msdyn_project", sourceProjectId);
 
             Entity targetProject = new Entity("msdyn_project");
-            targetProject["msdyn_subject"] = "Example Project";
+            targetProject["msdyn_subject"] = "Example Project - Copy";
             targetProject.Id = organizationService.Create(targetProject);
 
-            ProjectCopyOption copyOption = new ProjectCopyOption();
-            copyOption.ReplaceNamedResources = true;
-
-            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption);
+            CallCopyProjectAPI(sourceProject.ToEntityReference(), targetProject.ToEntityReference(), copyOption, true, false);
             Console.WriteLine("Done ...");
         }
 
-        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, ProjectCopyOption projectCopyOption)
+        private void CallCopyProjectAPI(EntityReference sourceProject, EntityReference TargetProject, bool replaceNamedResources = true, bool clearTeamsAndAssignments = false)
         {
-            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV2");
+            OrganizationRequest req = new OrganizationRequest("msdyn_CopyProjectV3");
             req["SourceProject"] = sourceProject;
             req["Target"] = TargetProject;
-            req["ProjectCopyOption"] = JsonConvert.SerializeObject(projectCopyOption);
+
+            if (replaceNamedResources)
+            {
+                req["ReplaceNamedResources"] = true;
+            }
+            else
+            {
+                req["ClearTeamsAndAssignments"] = true;
+            }
+
             OrganizationResponse response = organizationService.Execute(req);
         }
     }
 }
 ```
-
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

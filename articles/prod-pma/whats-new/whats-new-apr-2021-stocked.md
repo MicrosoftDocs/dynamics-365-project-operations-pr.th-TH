@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 04/22/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 0b214678a17e5b1cdacb89ae00e4acb83b8292d02ff937f30e307751d39f152d
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 42b4da3a77d56891454d094cd771575ff9bff081
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7005594"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589633"
 ---
 # <a name="whats-new-or-changed-in-project-operations-april-2021-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนเมษายน 2021 สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
 
@@ -20,7 +20,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
 
-- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance รุ่น 10.0.18
+- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.18
  
 ### <a name="quality-updates"></a>การปรับปรุงคุณภาพ
                                                                                                                                                                                   
@@ -83,7 +83,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | การเดินทางและค่าใช้จ่าย                | [550575](https://fix.lcs.dynamics.com/Issue/Details/?bugId=550575) | เมื่อประเภทค่าใช้จ่ายเป็นประเภทที่ไม่ใช่โครงการ มิติทางการเงินที่เลือกบนหน้า **ค่าใช้จ่าย** ไม่มีการคัดลอกไปยังรายงานค่าใช้จ่าย                                          |
 
 ### <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงกฎระเบียบสำหรับแอปการเงินและการดำเนินงาน โปรดดู [การปรับปรุงตามกฎระเบียบ](/dynamics365/finance/localizations/regulatory-updates) คุณยังสามารถลงชื่อเข้าใช้ LCS และดูการอัปเดตระเบียบข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

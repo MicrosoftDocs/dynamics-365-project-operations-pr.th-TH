@@ -4,20 +4,20 @@ description: หัวข้อนี้ให้ข้อมูลเกี่�
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e25d358f1fd7705d580855d372d85690f6a5e265d3ba2b60fc26742bf3edc86f
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ecb5da3bccf35f8ed7e2246f68dd4da2b145c6be
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6993309"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8587011"
 ---
 # <a name="apply-demo-setup-and-configuration-data-for-project-operations---lite"></a>ใช้การตั้งค่าสาธิตและข้อมูลการกำหนดค่าสำหรับ Project Operations - Lite 
 
 _**การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 

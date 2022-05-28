@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 02/08/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 41d7d7133652069ca3899db7f12e67e9ba531bcd3e36d67c3686a6b637b077d3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: cb6ab1337652d18a30fba56560ffe50f78dd4eb4
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986829"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8589035"
 ---
 # <a name="whats-new-february-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่เดือนกุมภาพันธ์ 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
 
@@ -21,7 +21,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
 
 - Project Operations บนสภาพแวดล้อม Dataverse 4.7.0.95
-- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance รุ่น 10.0.16 
+- การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.16 
 
 ## <a name="quality-updates"></a>การปรับปรุงคุณภาพ
 
@@ -46,12 +46,12 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ### <a name="project-management-and-accounting-in-dynamics-365-finance"></a>การจัดการโครงการและการบัญชีใน Dynamics 365 Finance 
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการโครงการและการบัญชีใน Dynamics 365 Finance โปรดดู [มีอะไรใหม่ในเดือนมกราคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่ได้เก็บในสต็อก](whats-new-jan-2021-resource-based.md)
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการจัดการโครงการและการบัญชีใน Dynamics 365 Finance โปรดดู [มีอะไรใหม่เดือนมกราคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง](whats-new-jan-2021-resource-based.md).
 
 
 ## <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
 
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates) อีกวิธีหนึ่งในการเรียนรู้เกี่ยวกับการอัปเดตกฎข้อบังคับคือการลงชื่อเข้าใช้ Lifecycle Services (LCS) และดูการอัปเดตกฎข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงกฎระเบียบสำหรับแอปการเงินและการดำเนินงาน โปรดดู [การปรับปรุงตามกฎระเบียบ](/dynamics365/finance/localizations/regulatory-updates) อีกวิธีหนึ่งในการเรียนรู้เกี่ยวกับการอัปเดตกฎข้อบังคับคือการลงชื่อเข้าใช้ Lifecycle Services (LCS) และดูการอัปเดตกฎข้อบังคับที่วางแผนไว้โดยใช้เครื่องมือค้นหาปัญหา การค้นหาปัญหาช่วยให้คุณค้นหาตามประเทศ ชนิดของคุณลักษณะ และรุ่นต่างๆ
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -5,14 +5,14 @@ author: sigitac
 ms.date: 04/27/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 538a2694591f1d0d368ee0ffeed9bdf12cb47420c3d0571f75185fe433f23436
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 8650eed2230b99b821c1635fdc88252bb65c5583
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6986514"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8591198"
 ---
 # <a name="vendor-invoice-integration"></a>การรวมใบแจ้งหนี้ของผู้จัดจำหน่าย
 
@@ -34,7 +34,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
      > [!NOTE]
      > รายละเอียดใบแจ้งหนี้ของผู้จัดจำหน่ายใน Dataverse ไม่สามารถแก้ไขได้
 
-บัญชีแยกประเภทย่อยภาษี บัญชีแยกประเภทย่อยผู้จัดจำหน่าย และการลงรายการบัญชีทางการเงินอื่นๆ จะได้รับการบันทึกไว้ว่าสามารถใช้งานได้ใน Dynamics 365 Finance เมื่อมีการลงรายการบัญชีใบแจ้งหนี้ของผู้จัดจำหน่าย
+บัญชีแยกประเภทภาษี บัญชีแยกประเภทย่อยของผู้จัดจำหน่าย และการลงรายการบัญชีทางการเงินอื่นๆ จะถูกบันทึกตามความเหมาะสมใน Dynamics 365 Finance เมื่อมีการลงรายการบัญชีใบแจ้งหนี้ของผู้จัดจำหน่าย
 
 ![การรวมใบแจ้งหนี้ของผู้จัดจำหน่าย](media/DW7VendorInvoice.png)
 
