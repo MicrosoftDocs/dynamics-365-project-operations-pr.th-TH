@@ -2,22 +2,22 @@
 title: ลงทะเบียนรับรุ่นทดลองใช้ Project Operations
 description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการปรับใช้งานรุ่นทดลองใช้ของ Dynamics 365 Project Operations
 author: ruhercul
-ms.date: 12/08/2021
+ms.date: 01/10/2022
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e40b4ac23241730f5c2db89f0dc674083f9e7abe
-ms.sourcegitcommit: 8f970b46d0303dafaa75fc7d00567d232e1e600b
+ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 12/09/2021
-ms.locfileid: "7901640"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8584297"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>ลงทะเบียนรับรุ่นทดลองใช้ Project Operations 
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต_ 
 
-[!include [rename-banner](~/includes/cc-data-platform-banner.md)]
+
 
 หัวข้อนี้อธิบายวิธีสมัครรับข้อเสนอจากคู่ค้าตัวอย่างและปรับใช้งานสภาพแวดล้อม Dynamics 365 Project Operations
 
@@ -36,7 +36,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | การใช้งานข้อเสนอ                    | หนึ่งครั้งต่อผู้เช่า                          |
 | ระยะเวลาของข้อเสนอ               | 30 วันตามปฏิทิน                             |
 | การแลกรับต่อผู้เช่า       | 1                                            |
-| จำนวนผู้ใช้              | 25                                           |
 | ส่วนขยาย                    | ขยายเวลา 1 ครั้ง, 30 วันตามปฏิทิน               |
 | จำนวนของสภาพแวดล้อมการทดลองใช้ | 3                                            |
 
@@ -87,7 +86,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
  
   เมื่อการเตรียมใช้งานเสร็จสมบูรณ์ สถานะของสภาพแวดล้อมของคุณคือ **พร้อม** การเตรียมใช้งานสภาพแวดล้อมรวมถึงการปรับใช้งานข้อมูลสาธิตด้วย
  
-4.  เลือก URL ของ Microsoft Dataverse  และ URLของแอป Finance and Operations ตามลำดับเพื่อตรวจสอบการปรับใช้งาน
+4.  เลือก URL ของ Microsoft Dataverse URL และ URLของแอปการเงินและการดำเนินงานที่เกี่ยวข้องเพื่อตรวจสอบการปรับใช้งาน
 
 ## <a name="configuring-dual-write"></a>การกำหนดค่าการรวมแบบสองทิศทาง
 - ในการกำหนดค่าบทบาทความปลอดภัยสำหรับการรวมแบบสองทิศทาง โปรดดูที่ [ปรับปรุงการตั้งค่าความปลอดภัยของ Project Operations ใน Dataverse](resource-provision-new-environment.md)
@@ -97,7 +96,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 คุณจะต้องมีสิทธิ์การเข้าถึงระดับผู้ดูแลระบบสำหรับพอร์ทัล Microsoft 365 ขององค์กรของคุณเพื่อทำตามขั้นตอนต่อไปนี้
 
-1. ไปที่ [ศูนย์จัดการ Microsoft 365](https://portal.office.com/) เพื่อมอบหมายสิทธิ์การใช้งานให้กับผู้ใช้ของคุณ
+1. ไปที่ [ศูนย์การจัดการ Microsoft 365](https://portal.office.com/) เพื่อกำหนดสิทธิ์การใช้งานให้กับผู้ใช้ของคุณ
 
    ![โฮมเพจศูนย์การจัดการ](./media/14AdminPortal.png)
 
@@ -117,7 +116,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="frequently-asked-questions"></a>คำถามที่ถามบ่อย
 
-### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>จะเป็นอย่างไรหากฉันต้องการ ALM หรือ ELM สำหรับสภาพแวดล้อมของแอป Finance and Operations ของฉัน
+### <a name="what-if-i-require-alm-or-elm-for-my-finance-and-operations-apps-environment"></a>จะเกิดอะไรขึ้นหากฉันต้องการ ALM หรือ ELM สำหรับสภาพแวดล้อมของแอปการเงินและการดำเนินงานของฉัน
 
 - สำหรับคู่ค้าที่ต้องการความสามารถในการจัดการวงจรชีวิตของสภาพแวดล้อมแบบเต็ม โปรดดูที่ [คำขอสิทธิ์การใช้งาน Sandbox ของคู่ค้า](https://experience.dynamics.com/requestlicense) เพื่อตรวจสอบข้อเสนอใหม่ของคู่ค้า 
 - สำหรับคู่ค้าที่ต้องการข้อมูลเพิ่มเติมเกี่ยวกับสิทธิ์การใช้งานภายใน โปรดดูที่ [ประโยชน์ของสิทธิ์การใช้งานภายในบนระบบคลาวด์และซอฟต์แวร์ (microsoft.com](https://partner.microsoft.com/membership/internal-use-software)

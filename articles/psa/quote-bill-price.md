@@ -17,12 +17,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 0b3d40158534f039160156087d6edab0d21dd5f3eaf71d5b665eff794793a9b3
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 09be2e3ed2bb17374f5d5151abf4ce7e5e2530a1
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7004784"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8581123"
 ---
 # <a name="quoting-pricing-and-billing-home-page"></a>โฮมเพจการเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
 
@@ -30,7 +31,7 @@ ms.locfileid: "7004784"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-การเสนอราคา การกำหนดราคา และการเรียกเก็บเงินเป็นคุณลักษณะที่ใช้โดยองค์กรขนาดเล็กและขนาดใหญ่ โดยการเข้าใจว่าคุณลักษณะเหล่านี้ทำงานในโปรแกรมประยุกต์อย่างไร องค์กรสามารถปรับแต่งการกำหนดค่าได้อย่างง่ายดายมากขึ้น
+การเสนอราคา การกำหนดราคา และการเรียกเก็บเงินเป็นคุณลักษณะที่ใช้โดยองค์กรขนาดเล็กและขนาดใหญ่ โดยการเข้าใจว่าคุณลักษณะเหล่านี้ทำงานในแอปพลิเคชันอย่างไร องค์กรสามารถปรับแต่งการกำหนดค่าได้อย่างง่ายดายมากขึ้น
 
 หัวข้อต่อไปนี้แสดงข้อมูลเพิ่มเติมเกี่ยวกับฟังก์ชันการเสนอราคา การกำหนดราคา และการเรียกเก็บเงินใน PSA
 

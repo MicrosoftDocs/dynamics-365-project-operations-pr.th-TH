@@ -5,14 +5,14 @@ author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 7016d702719b2d432ec929aaca8d609ebf6e996b
-ms.sourcegitcommit: abdd6cb3461ebb12fd2ca7ea78439c29aecd0a94
+ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 11/16/2021
-ms.locfileid: "7815858"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8582043"
 ---
 # <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนกันยายน 2021 สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
 
@@ -91,6 +91,6 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="regulatory-updates"></a>การปรับปรุงระเบียบข้อบังคับ
 
-สำหรับข้อมูลเกี่ยวกับการปรับปรุงระเบียบข้อบังคับสำหรับแอป Finance and Operations ดูที่ [การปรับปรุงระเบียบข้อบังคับ](/dynamics365/finance/localizations/regulatory-updates) นอกจากนี้ คุณยังสามารถลงชื่อเข้าใช้ Microsoft Dynamics Lifecycle Services (LCS) และใช้เครื่องมือค้นหาปัญหาเพื่อดูข้อมูลปรับปรุงด้านกฎระเบียบที่วางแผนไว้ การค้นหาปัญหาให้คุณสามารถค้นหาตามประเทศหรือภูมิภาค ประเภทของคุณลักษณะ และรุ่น
+สำหรับข้อมูลเกี่ยวกับการปรับปรุงกฎระเบียบสำหรับแอปการเงินและการดำเนินงาน โปรดดู [การปรับปรุงตามกฎระเบียบ](/dynamics365/finance/localizations/regulatory-updates) นอกจากนี้ คุณยังสามารถลงชื่อเข้าใช้ Microsoft Dynamics Lifecycle Services (LCS) และใช้เครื่องมือค้นหาปัญหาเพื่อดูข้อมูลปรับปรุงด้านกฎระเบียบที่วางแผนไว้ การค้นหาปัญหาให้คุณสามารถค้นหาตามประเทศหรือภูมิภาค ประเภทของคุณลักษณะ และรุ่น
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

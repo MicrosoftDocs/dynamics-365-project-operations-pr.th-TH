@@ -4,14 +4,14 @@ description: หัวข้อนี้ให้ข้อมูลเกี่�
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 894e8f6e4ffbb5f003cdd1f69594e2a1e043b514923de5673d7ba9afaa6894e8
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: 43b75ea823a62acaab708a1ef2fa2467904fdd00
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6992679"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8583424"
 ---
 # <a name="configure-automatic-invoice-creation"></a>กำหนดค่าการสร้างใบแจ้งหนี้อัตโนมัติ
 

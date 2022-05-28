@@ -16,12 +16,13 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 55696b32b7b37048ba4c292b33d93b7b12614f2186fb972a2c3f3732e5512c82
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.reviewer: johnmichalak
+ms.openlocfilehash: 06490148d0f245ac49d5599e0e23bc1a59976204
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "6987594"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8580387"
 ---
 # <a name="unit-groups-and-units"></a>กลุ่มหน่วยนับและหน่วยนับ
 
@@ -86,7 +87,7 @@ Dynamics 365 Project Service Automation ใช้หน่วยนับแล�
 
 | บทบาท      | กลุ่มของหน่วยนับ | หน่วย | หน่วยองค์กร | ราคา   |
 |-----------|------------|------|---------------------|---------|
-| นักพัฒนา | เวลา       | วัน  | Contoso สหราชอาณาจักร          | 800 GBP |
+| นักพัฒนา | Time       | Day  | Contoso UK          | 800 GBP |
 
 ### <a name="time-entry"></a>รายการเวลา
 

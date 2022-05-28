@@ -4,14 +4,14 @@ description: หัวข้อนี้ให้ข้อมูลเกี่�
 author: rumant
 ms.date: 04/07/2021
 ms.topic: article
-ms.reviewer: kfend
+ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 0fee2c98713f4d1f8da85a0b60fb3fc2a873e5f82a64cf350ebeb68fe65fab35
-ms.sourcegitcommit: 7f8d1e7a16af769adb43d1877c28fdce53975db8
+ms.openlocfilehash: ffb947533a42ace3615e7755c12a5ab69491f747
+ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2021
-ms.locfileid: "7003569"
+ms.lasthandoff: 04/14/2022
+ms.locfileid: "8585539"
 ---
 # <a name="set-up-labor-bill-rates"></a>ตั้งค่าอัตราการเรียกเก็บเงินค่าแรง
 
