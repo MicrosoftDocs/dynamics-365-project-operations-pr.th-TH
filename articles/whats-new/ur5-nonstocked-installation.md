@@ -1,25 +1,25 @@
 ---
 title: อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการปรับปรุง Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการปรับปรุง Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ
 author: ruhercul
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 9cd562ac3360298796fbe34dbe2ac8708b00150f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0cf9da8cc9d1f29dc41d4b119278e545047020bc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579973"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912493"
 ---
 # <a name="update-project-operations-in-your-finance-environment"></a>อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการปรับปรุง Dynamics 365 Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ มีสามกระบวนงานที่จำเป็นในการอัปเดต Project Operations เป็น Update 5 (UR5):
+บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการปรับปรุง Dynamics 365 Project Operations ในสภาพแวดล้อม Dynamics 365 Finance ของคุณ มีสามกระบวนงานที่จำเป็นในการอัปเดต Project Operations เป็น Update 5 (UR5):
 
 - [นำเข้าแพคเกจไปยังโครงการตัวอย่างของคุณ](#import)
 - [ใช้การปรับปรุง](#apply)

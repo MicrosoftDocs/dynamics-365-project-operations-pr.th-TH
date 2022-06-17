@@ -1,6 +1,6 @@
 ---
 title: ข้อควรพิจารณาในการอัพเกรดสำหรับโครงสร้างการแบ่งงาน
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการอัพเกรดโครงสร้างการแบ่งงานจาก Project Service Automation 2.x เป็น 3.x.
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการปรับรุ่นโครงสร้างการแบ่งงานจาก Project Service Automation 2.x เป็น 3.x.
 ms.custom:
 - dyn365-projectservice
 ms.date: 10/18/2019
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 13ad93d5be3c0ab07c81db28d3e13561e9d40017
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 42bf03b5e3be4b7bdce87148254ce69e381ffdf1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599753"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913137"
 ---
 # <a name="upgrade-considerations-for-the-work-breakdown-structure"></a>ข้อควรพิจารณาในการอัพเกรดสำหรับโครงสร้างการแบ่งงาน
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับการอัพเกรดโครงสร้างการแบ่งงานจาก Project Service Automation 2.x เป็น 3.x. หัวข้อนี้กำหนดสถานะสุขภาพของโครงการใน Project Service Automation (PSA) ที่จำเป็นสำหรับการอัพเกรดที่ประสบความสำเร็จ นอกจากนี้ยังมีข้อมูลเกี่ยวกับเงื่อนไขการปิดกั้นทั่วไปที่จะทำให้การอัพเกรดล้มเหลว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดงานของโครงการและฟังก์ชันภายในกำหนดการโครงการ ให้ดูที่ [ตารางเวลาโครงการ](project-creating.md)
+บทความนี้ให้ข้อมูลเกี่ยวกับการปรับรุ่นโครงสร้างการแบ่งงานจาก Project Service Automation 2.x เป็น 3.x. บทความนี้กำหนดสถานะความสมบูรณ์ของโครงการใน Project Service Automation (PSA) ที่จำเป็นสำหรับการปรับรุ่นที่ประสบความสำเร็จ นอกจากนี้ยังมีข้อมูลเกี่ยวกับเงื่อนไขการปิดกั้นทั่วไปที่จะทำให้การอัพเกรดล้มเหลว สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการกำหนดงานของโครงการและฟังก์ชันภายในกำหนดการโครงการ ให้ดูที่ [ตารางเวลาโครงการ](project-creating.md)
 
 ## <a name="key-entities"></a>เอนทิตีคีย์
 สำหรับโครงสร้างการแบ่งงานที่ถูกต้องที่ถูกโหลดด้วยทรัพยากรอยู่แล้ว จำเป็นต้องมีเอนทิตีต่อไปนี้:

@@ -1,21 +1,21 @@
 ---
 title: กำหนดความต้องการทรัพยากร
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการกำหนดข้อมูลความต้องการทรัพยากร
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการกำหนดข้อมูลความต้องการทรัพยากร
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 6f1b69269203a9b05dbda9d3ac8d9fbb57d917c5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 0ea0b883b764478f381312d9fb9c323a1563b22a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594417"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924959"
 ---
 # <a name="define-resource-requirements"></a>กำหนดความต้องการทรัพยากร
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ความต้องการทรัพยากรมีการกำหนดโดยผู้จัดการโครงการเพื่อสร้างทรัพยากรที่จำเป็นในการดำเนินงานในโครงการ ทำขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์เพื่อกำหนดความต้องการทรัพยากร
 

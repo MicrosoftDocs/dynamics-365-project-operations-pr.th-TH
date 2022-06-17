@@ -1,6 +1,6 @@
 ---
 title: การเบิกเงินสดล่วงหน้า
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการเบิกเงินสดล่วงหน้า
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการเบิกเงินสดล่วงหน้า
 author: suvaidya
 ms.date: 03/25/2021
 ms.topic: article
@@ -8,16 +8,16 @@ ms.reviewer: johnmichalak
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8151ecfb83f0d6da32451d509364b8f63dffdb4d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bc270944faa7c16d2e97a988495a2a16380ba879
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585723"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931537"
 ---
 # <a name="cash-advance"></a>การเบิกเงินสดล่วงหน้า
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
 การเบิกเงินสดล่วงหน้าช่วยให้พนักงานสามารถกู้ยืมเงินจากบริษัทของตนได้ก่อนที่จะมีค่าใช้จ่ายใดๆ เมื่อการขอเบิกเงินสดล่วงหน้าได้รับการอนุมัติและจ่ายให้แล้ว พนักงานสามารถใช้เงินดังกล่าวสำหรับค่าใช้จ่ายทางธุรกิจที่พวกเขาอาจจะต้องจ่าย 
 

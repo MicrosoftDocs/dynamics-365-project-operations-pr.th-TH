@@ -1,24 +1,24 @@
 ---
 title: มีอะไรใหม่เดือนกรกฎาคม 2021 - การปรับใช้งาน Project Operations แบบ Lite
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการอัปเดตคุณภาพที่มีให้ในการเปิดตัว Project Operations เดือนกรกฎาคม 2021 สำหรับการปรับใช้งาน Project Operations แบบ Lite
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่มีอยู่ในการปรับใช้งาน Project Operations แบบ Lite ประจำเดือนกรกฎาคม 2021
 author: sigitac
 ms.date: 07/07/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 475ceea3a6c6db9fe63e3950eaca5d9074faa766
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7964f38c1bc7a8e0440e2e922ff153fd9bede131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583975"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914011"
 ---
 # <a name="whats-new-july-2021---project-operations-lite-deployment"></a>มีอะไรใหม่เดือนกรกฎาคม 2021 - การปรับใช้งาน Project Operations แบบ Lite
 
 _นำไปใช้กับ: การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
-หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
+บทความนี้ใช้กับส่วนประกอบและเวอร์ชันของ Dynamics 365 Project Operations ต่อไปนี้:
 
   - Project Operations ในสภาพแวดล้อม Dataverse รุ่น 4.12.0.148 or 4.12.0.152
 

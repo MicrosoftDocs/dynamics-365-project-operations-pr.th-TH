@@ -1,21 +1,21 @@
 ---
 title: ตั้งค่าคอนฟิกการออกใบแจ้งหนี้ระหว่างบริษัท
-description: หัวข้อนี้ให้ข้อมูลและตัวอย่างเกี่ยวกับการตั้งค่าคอนฟิกการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการ
+description: บทความนี้ให้ข้อมูลและตัวอย่างเกี่ยวกับการกำหนดค่าการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการ
 author: sigitac
 ms.date: 04/12/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ad6022670048e5aa3635998852b78c49af461d4e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ae0c2662bb6b2789ab520f08c7c21935b651ced5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591611"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929421"
 ---
 # <a name="configure-intercompany-invoicing"></a>ตั้งค่าคอนฟิกการออกใบแจ้งหนี้ระหว่างบริษัท
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 ทำตามขั้นตอนต่อไปนี้ให้เสร็จสมบูรณ์เพื่อตั้งค่าการออกใบแจ้งหนี้ระหว่างบริษัทสำหรับโครงการใน Dynamics 365 Project Operations ธุรกรรมระหว่างบริษัท คือธุรกรรมเวลาและค่าใช้จ่ายจากสัญญาโครงการที่เป็นของหนึ่งบริษัทหรือหน่วยงาน ในขณะที่ทรัพยากรในสัญญาโครงการเป็นส่วนหนึ่งของ บริษัทหรือหน่วยงานอื่น
 
@@ -78,7 +78,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
         - **นิติบุคคลที่ขอยืม** = **USPM**
         - **บัญชีหลัก** = เลือกบัญชีหลักสำหรับรายได้ระหว่างบริษัท ต้องการการตั้งค่านี้ การตั้งค่านี้ใช้สำหรับโฟลว์ระหว่างบริษัทใน Finance แต่ไม่ได้อยู่ในโฟลว์ระหว่างบริษัทที่เกี่ยวข้องกับโครงการ การเลือกนี้ไม่มีผลกระทบดาวน์สตรีม 
 
-5. **ตั้งค่าการกำหนดราคาโอนสำหรับแรงงาน** การกำหนดราคาโอนระหว่างบริษัทถูกตั้งค่าคอนฟิกใน Project Operations ใน Dataverse ตั้งค่าคอนฟิก [อัตราต้นทุนแรงงาน](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) และ [อัตราการเรียกเก็บเงินค่าแรง](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) สำหรับการออกใบแจ้งหนี้ระหว่างบริษัท ไม่รองรับการกำหนดราคาโอนสำหรับธุรกรรมค่าใช้จ่ายระหว่างบริษัท ราคาขายต่อหน่วยระหว่างองค์กรจะถูกกำหนดเป็นค่าเดียวกับราคาต้นทุนต่อหน่วยการจัดเตรียมทรัพยากรเสมอ
+5. **ตั้งค่าการกำหนดราคาโอนสำหรับแรงงาน** การกำหนดราคาโอนระหว่างบริษัทถูกตั้งค่าคอนฟิกใน Project Operations ใน Dataverse กำหนดค่า [อัตราต้นทุนแรงงาน](../pricing-costing/set-up-labor-cost-rate.md#transfer-pricing-and-costs-for-resources-outside-of-your-division-or-legal-entity) และ [อัตราการเรียกเก็บเงินค่าแรง](../pricing-costing/set-up-labor-bill-rate.md#transfer-pricing-or-set-up-bill-rates-for-resources-from-other-organizational-units-or-divisions) สำหรับการออกใบแจ้งหนี้ระหว่างบริษัท ไม่รองรับการกำหนดราคาโอนสำหรับธุรกรรมค่าใช้จ่ายระหว่างบริษัท ราคาขายต่อหน่วยระหว่างองค์กรจะถูกกำหนดเป็นค่าเดียวกับราคาต้นทุนต่อหน่วยการจัดเตรียมทรัพยากรเสมอ
 
       ต้นทุนทรัพยากรของนักพัฒนาใน Contoso Robotics UK คือ 88 GBP ต่อชั่วโมง Contoso Robotics UK จะเรียกเก็บเงินจาก Contoso Robotics USA 120 USD ทุกชั่วโมงที่ทรัพยากรนี้ทำงานในโครงการ US Contoso Robotics USA จะเรียกเก็บเงินจาก Adventure Works ของลูกค้า 200 USD สำหรับงานที่ทำโดยทรัพยากรของนักพัฒนา Contoso Robotics UK
 

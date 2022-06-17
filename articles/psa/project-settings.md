@@ -1,6 +1,6 @@
 ---
 title: การตั้งค่าโครงการ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าการจัดการของโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าการจัดการของโครงการ
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 075cbdd30c4986e514e4d357a08ef99cf3eb101f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3d4b9b920150d31ae2366b4a1ee4168d71d70a17
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601317"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915851"
 ---
 # <a name="project-settings"></a>การตั้งค่าโครงการ
 
@@ -32,7 +32,7 @@ ms.locfileid: "8601317"
 
 ใช้การตั้งค่าต่อไปนี้ เพื่อเข้าถึงคุณลักษณะการวางแผนโครงการ
 
-## <a name="work-template"></a>เท็มเพลตงาน
+## <a name="work-template"></a>เทมเพลตงาน
 
 เมื่อต้องการสร้างหมายกำหนดการให้บริการโครงการ สร้างแม่แบบปฏิทินโครงการที่กำหนดจำนวนของชั่วโมงการทำงานต่อวัน และระยะเวลาที่ปิดดำเนินการใดๆ เมื่อต้องการสร้างแม่แบบปฏิทินโครงการ คุณเชื่อมโยงแม่แบบงานกับฟิลด์ **แม่แบบปฏิทิน** สำหรับโครงการ ทำตามขั้นตอนเหล่านี้เพื่อสร้างแม่แบบงาน
 

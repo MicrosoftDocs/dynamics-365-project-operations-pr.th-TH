@@ -1,23 +1,23 @@
 ---
 title: กำหนดค่าการรวม Project Operations ตามนิติบุคคล
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าการรวมโดยนิติบุคคลใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าการรวมตามนิติบุคคลใน Project Operations
 author: sigitac
 ms.date: 10/21/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 64606a20a49fd8e9602b6ac3c1ab1880796eb128
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f33e641ee0932655282618c99a26e2603660059
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585861"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914701"
 ---
 # <a name="configure-project-operations-integration-per-legal-entity"></a>กำหนดค่าการรวม Project Operations ตามนิติบุคคล 
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
-หัวข้อนี้จะแนะนำคุณตลอดขั้นตอนที่จำเป็นในการกำหนดค่า Dynamics 365 Project Operations ต่อนิติบุคคล
+บทความนี้จะอธิบายขั้นตอนที่จำเป็นในการกำหนดค่า Dynamics 365 Project Operations ต่อนิติบุคคล
 
 ## <a name="enable-feature-keys-in-dynamics-365-finance"></a>เปิดใช้งานคีย์คุณลักษณะใน Dynamics 365 Finance
 
@@ -34,7 +34,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="define-the-project-operations-deployment-scenario-for-a-legal-entity"></a>กำหนดสถานการณ์จำลองการปรับใช้ Project Operations สำหรับนิติบุคคล
 
-คุณสามารถเปิดใช้งาน Project Operations บน Dynamics 365 Customer Engagement ในระดับนิติบุคคล คุณสามารถมีนิติบุคคลได้หนึ่งแห่งที่ใช้ Project Operations บน Dynamics 365 Customer Engagement สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง ในสภาพแวดล้อมเดียวกัน คุณสามารถมีนิติบุคคลอื่นโดยใช้ Project Operations สำหรับสถานการณ์จำลองในสต็อก / ใบสั่งผลิต
+คุณสามารถเปิดใช้งาน Project Operations บน Dynamics 365 Customer Engagement ในระดับนิติบุคคล คุณสามารถมีนิติบุคคลได้หนึ่งแห่งที่ใช้ Project Operations บน Dynamics 365 Customer Engagement สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง ในสภาพแวดล้อมเดียวกัน คุณสามารถมีนิติบุคคลอื่นโดยใช้ Project Operations สำหรับสถานการณ์จำลองในสต็อก / ใบสั่งผลิต
 
 1. ใน Dynamics 365 Finance ไปที่ **การจัดการโครงการและการบัญชี** > **ตั้งค่า** > **พารามิเตอร์การจัดการโครงการและการบัญชีส่วนกลาง**
 2. ในรายการของนิติบุคคลที่มีอยู่ เลือกเอนทิตีที่จะเปิดใช้งานรายละเอียดการให้บริการตามสัญญาและคุณลักษณะ Project Operations บน Dynamics 365 Customer Engagement จะเปิดใช้งาน ปล่อยให้นิติบุคคลที่จะใช้ Project Operations สำหรับสถานการณ์จำลองในสต็อก / ใบสั่งผลิตไม่ถูกเลือก

@@ -1,24 +1,24 @@
 ---
 title: การตั้งค่าและการรวมข้อมูลการตั้งค่าคอนฟิกของ Project Operations
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าและการตั้งค่าคอนฟิกแผนที่การรวมแบบสองทิศทางของ Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าและการกำหนดค่าแผนผังการรวมแบบสองทิศทางของ Project Operations
 author: sigitac
 ms.date: 4/23/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1ffa25ff36c39010d6aee31d928c3eaa0086c3d8
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 173ff01e938af48d2d6488d5e59cf4e74b3af8e4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8586919"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914563"
 ---
 # <a name="project-operations-setup-and-configuration-data-integration"></a>การตั้งค่าและการรวมข้อมูลการตั้งค่าคอนฟิกของ Project Operations
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับการรวมแบบสองทิศทางของ Project Operations สำหรับเอนทิตีการตั้งค่าและการตั้งค่าคอนฟิก
+บทความนี้ให้ข้อมูลเกี่ยวกับการรวมแบบสองทิศทางของ Project Operations สำหรับเอนทิตีการตั้งค่าและการกำหนดค่า
 
 ## <a name="project-contracts-contract-lines-and-projects"></a>สัญญาโครงการ รายละเอียดการให้บริการตามสัญญา และโครงการ
 

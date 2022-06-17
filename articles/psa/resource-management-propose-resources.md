@@ -1,6 +1,6 @@
 ---
 title: เสนอทรัพยากรโครงการ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการเสนอทรัพยากรโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการเสนอทรัพยากรโครงการ
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: fc18c5cbd1a564e186f533a3c0f972e60229a6d9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 379c75578846e2834321045edc7deb116aff7b06
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587471"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930847"
 ---
 # <a name="propose-project-resources"></a>เสนอทรัพยากรโครงการ
 
@@ -105,7 +105,7 @@ ms.locfileid: "8587471"
 
 ![ทรัพยากรที่สามารถจองได้ที่ขยายบนบอร์ดกำหนดการ](media/Resource-Management-image69.png)
 
-เนืองจาก Dynamics 365 Project Service Automation ใช้เอ็นจิน Universal Resource Scheduling ถ้าคุณยังได้ติดตั้ง Dynamics 365 Field Service ไว้ คุณสามารถดูรายละเอียดของการจองทรัพยากรสำหรับโครงการ ใบสั่งงานและเอนทิตี้อื่นๆ ที่คุณขยายการจัดกำหนดการให้
+เนืองจาก Dynamics 365 Project Service Automation ใช้เอ็นจิน Universal Resource Scheduling ถ้าคุณยังได้ติดตั้ง Dynamics 365 Field Service ไว้ คุณสามารถดูรายละเอียดของการจองทรัพยากรสำหรับโครงการ ใบสั่งงานและเอนทิตีอื่นๆ ที่คุณขยายการจัดกำหนดการให้
 
 ![รายละเอียดของการจองทรัพยากรสำหรับโครงการและใบสั่งงาน](media/Resource-Management-image70.png)
 

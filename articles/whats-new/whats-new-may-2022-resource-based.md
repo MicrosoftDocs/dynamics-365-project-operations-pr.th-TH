@@ -1,24 +1,24 @@
 ---
-title: มีอะไรใหม่ในเดือนพฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่พร้อมใช้งานในรุ่นเดือนพฤษภาคม 2022 ของ Microsoft Dynamics 365 Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+title: มีอะไรใหม่ในเดือนพฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่มีอยู่ในรุ่นเดือนพฤษภาคม 2022 ของ Microsoft Dynamics 365 Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
 author: sigitac
 ms.date: 05/02/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d3ac63f0d33d36cc5b6d4cea3ab8167e5974cfe6
-ms.sourcegitcommit: 7e419a5f73f80fa887084e3b212c90586fc397dd
+ms.openlocfilehash: beb75fc4b721d52cddbdaf2d20194218cefced5e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/05/2022
-ms.locfileid: "8710030"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921417"
 ---
-# <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนพฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+# <a name="whats-new-may-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนพฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
-หัวข้อนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
+บทความนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
 
 - Project Operations ในสภาพแวดล้อม Dataverse เวอร์ชัน 4.42.0.70
 - การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.26

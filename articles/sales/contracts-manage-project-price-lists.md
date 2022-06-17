@@ -1,21 +1,21 @@
 ---
 title: จัดการรายการราคาของโครงการในสัญญาโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการจัดการรายการราคาโครงการในสัญญาโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการจัดการรายการราคาของโครงการในสัญญาโครงการ
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 2ad0e260fde65cf3eb32539fbcdb7101796cb53b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 23b9e6f9bc3e4bc3fb03de62064644dd58da34c7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600535"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926201"
 ---
 # <a name="manage-project-price-lists-on-project-contracts"></a>จัดการรายการราคาของโครงการในสัญญาโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 สัญญาโครงการใน Dynamics 365 Project Operations ได้รับการออกแบบมาเพื่อสนับสนุนรายการราคาการขายที่มีผลในวันที่หลายรายการในสัญญา ใน Project Operations มีเอนทิตีที่เกี่ยวข้องใหม่ที่เรียกว่า **รายการราคาโครงการ** เอนทิตีนี้มีความสัมพันธ์แบบหนึ่งต่อกลุ่มกับสัญญาโครงการ
 

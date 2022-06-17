@@ -1,21 +1,21 @@
 ---
 title: โหมดการจัดกำหนดการ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับโหมดการจัดกำหนดการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับโหมดการจัดกำหนดการ
 author: ruhercul
 ms.date: 05/28/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: cb507528c4815f5149c813bba0a354f7d840a4a5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3cbe14f8d458c5d9631e0595912afa8cbb87b9de
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588437"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923671"
 ---
 # <a name="scheduling-modes"></a>โหมดการจัดกำหนดการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 
 Dynamics 365 Project Operations ให้ความสามารถสำหรับองค์กรในการกำหนดวิธีจัดการการเปลี่ยนแปลงไปยังตัวแปรหลักในงานภายในโครงสร้างการแบ่งงาน ตามความต้องการเฉพาะขององค์กร ผู้จัดการโครงการสามารถทำการเปลี่ยนแปลงไปยังโหมดการจัดกำหนดการ เมื่อมีการสร้างโครงการ
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations ให้ความสามารถสำห
 | งานที่ความพยายามคงที่    | ระยะเวลาจะถูกคำนวณใหม่ | หน่วยจะถูกคำนวณใหม่    | ระยะเวลาจะถูกคำนวณใหม่ |
 | งานที่ระยะเวลาคงที่  | ความพยายามถูกคำนวณใหม่   | ความพยายามถูกคำนวณใหม่    | หน่วยจะถูกคำนวณใหม่   |
 
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับผลกระทบของโหมดที่กำหนด โปรดดู [เปลี่ยนชนิดงานเพื่อการจัดกำหนดการที่แม่นยำยิ่งขึ้น](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72) ในหัวข้อ คำว่า **งาน** ถูกใช้แทน **ความพยายาม**
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับผลกระทบของโหมดที่กำหนด โปรดดู [เปลี่ยนชนิดงานเพื่อการจัดกำหนดการที่แม่นยำยิ่งขึ้น](https://support.microsoft.com/en-us/office/change-the-task-type-for-more-accurate-scheduling-b0b969ad-45bc-4e9e-8967-435587548a72) ในบทความนี้ มีการใช้คำว่า **งาน** แทน **ความพยายาม**
 
 ## <a name="change-the-organizations-scheduling-mode"></a>เปลี่ยนโหมดการจัดกำหนดการขององค์กร
 

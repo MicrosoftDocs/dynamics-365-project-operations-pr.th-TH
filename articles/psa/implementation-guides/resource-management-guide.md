@@ -1,6 +1,6 @@
 ---
 title: คู่มือการจัดการทรัพยากร
-description: หัวข้อนี้แสดงการเชื่องโยงไปยังข้อมูลเกี่ยวกับการจัดการทรัพยากรใน Project Service Automation
+description: บทความนี้แสดงลิงก์ไปยังข้อมูลเกี่ยวกับการจัดการทรัพยากรใน Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 630f77060caa84d9941c0552c54412d7a235a4f2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6b4506bbc0a7cbdd78b3f9b37f1a7f1b258f6500
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595475"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910821"
 ---
 # <a name="resource-management-guide"></a>คู่มือการจัดการทรัพยากร
 
@@ -30,7 +30,7 @@ ms.locfileid: "8595475"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../../includes/cc-applies-to-psa-app-3x.md)]
 
-การเชื่อมโยง PDF ที่ก่อนหน้านี้ในหัวข้อนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังหัวข้อต่อไปนี้:
+การเชื่อมโยง PDF ที่ก่อนหน้านี้ในบทความนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังบทความต่อไปนี้:
 
 - [โฮมเพจการจัดการทรัพยากร](../resource-management-home-page.md)
 - [แนวคิดหลัก](../reports-key-concepts.md)
@@ -42,7 +42,7 @@ ms.locfileid: "8595475"
 - [คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร](../resource-management-faq.md)
 
 > [!NOTE]
-> หัวข้อนี้จะถูกเอาออกในการปรับปรุงเอกสารในอนาคต 
+> บทความนี้จะถูกเอาออกในการปรับปรุงคู่มือในอนาคต 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

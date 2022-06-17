@@ -1,6 +1,6 @@
 ---
 title: การปรับรุ่นจาก Project Service Automation เป็น Project Operations
-description: หัวข้อนี้แสดงภาพรวมของกระบวนการที่จะปรับรุ่นจาก Microsoft Dynamics 365 Project Service Automation เป็น Dynamics 365 Project Operations
+description: บทความนี้แสดงภาพรวมของกระบวนการที่จะปรับรุ่นจาก Microsoft Dynamics 365 Project Service Automation ไปเป็น Dynamics 365 Project Operations
 author: ruhercul
 ms.custom: dyn365-projectservice
 ms.date: 01/13/2022
@@ -16,16 +16,16 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3f31173197a3055cdc51567261dd91925fc9f430
-ms.sourcegitcommit: bec7382d1319d59645e8e79fdb20df58617c97c6
+ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/21/2022
-ms.locfileid: "8626726"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912999"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>การปรับรุ่นจาก Project Service Automation เป็น Project Operations
 
-เรารู้สึกตื่นเต้นที่จะประกาศเกี่ยวกับระยะแรกของสามระยะในการปรับรุ่นจาก Microsoft Dynamics 365 Project Service Automation เป็น Dynamics 365 Project Operations หัวข้อนี้จะให้ภาพรวมสำหรับลูกค้าที่เริ่มต้นการเดินทางที่น่าตื่นเต้นนี้ หัวข้อในอนาคตจะเป็นข้อควรพิจารณาสำหรับนักพัฒนาและรายละเอียดเกี่ยวกับการปรับปรุงคุณลักษณะ หัวข้อดังกล่าวไม่เพียงให้คำแนะนำเพื่อช่วยคุณเตรียมความพร้อมสำหรับการปรับรุ่นเป็น Project Operations เท่านั้น แต่ยังอธิบายสิ่งที่คุณคาดหวังได้หลังจากที่คุณปรับรุ่นแล้วด้วย
+เรารู้สึกตื่นเต้นที่จะประกาศเกี่ยวกับระยะแรกของสามระยะในการปรับรุ่นจาก Microsoft Dynamics 365 Project Service Automation เป็น Dynamics 365 Project Operations บทความนี้จะให้ภาพรวมสำหรับลูกค้าที่เริ่มต้นการเดินทางที่น่าตื่นเต้นนี้ บทความในอนาคตจะเป็นข้อควรพิจารณาสำหรับนักพัฒนาและรายละเอียดเกี่ยวกับการปรับปรุงคุณลักษณะ หัวข้อดังกล่าวไม่เพียงให้คำแนะนำเพื่อช่วยคุณเตรียมความพร้อมสำหรับการปรับรุ่นเป็น Project Operations เท่านั้น แต่ยังอธิบายสิ่งที่คุณคาดหวังได้หลังจากที่คุณปรับรุ่นแล้วด้วย
 
 โปรแกรมจัดส่งการปรับรุ่นจะแบ่งออกเป็นสามระยะ
 
@@ -90,7 +90,7 @@ ms.locfileid: "8626726"
     > [!NOTE]
     > การปรับรุ่นอาจใช้เวลาหลายชั่วโมง ทั้งนี้ขึ้นอยู่กับปริมาณข้อมูลในสภาพแวดล้อม ทีมหลักที่จัดการกับการปรับรุ่นควรวางแผนตามนั้นและเรียกใช้การปรับรุ่นนอกช่วงเวลาทำการ ในบางกรณี หากข้อมูลมีปริมาณมาก ควรทำการปรับรุ่นในช่วงสุดสัปดาห์ การตัดสินใจเกี่ยวกับการจัดกำหนดการควรขึ้นอยู่กับผลการทดสอบในสภาพแวดล้อมที่ต่ำกว่า
 
-3. ปรับรุ่นโซลูชันที่กำหนดเองตามความเหมาะสม ในจุดนี้ ให้ปรับใช้การเปลี่ยนแปลงใดๆ ที่คุณทำกับการปรับแต่งของคุณในส่วน [การทดสอบและการปรับโครงสร้างการปรับแต่ง](#testing-and-refactoring-customizations) ของหัวข้อนี้
+3. ปรับรุ่นโซลูชันที่กำหนดเองตามความเหมาะสม ในจุดนี้ ให้ปรับใช้การเปลี่ยนแปลงใดๆ ที่คุณทำกับการปรับแต่งของคุณในส่วน [การทดสอบและการปรับโครงสร้างการปรับแต่ง](#testing-and-refactoring-customizations) ของบทความนี้
 4. ไปที่ **การตั้งค่า** \> **โซลูชัน** และเลือกถอนการติดตั้งโซลูชัน **ส่วนประกอบที่เลิกสนับสนุนของ Project Operations**
 
     โซลูชันนี้เป็นโซลูชันชั่วคราวที่เก็บรูปแบบข้อมูลและส่วนประกอบที่มีอยู่ระหว่างการปรับรุ่น คุณสามารถเอาฟิลด์และส่วนประกอบทั้งหมดที่ไม่ได้ใช้อีกต่อไปออกได้โดยการเอาโซลูชันนี้ออก ด้วยวิธีนี้ คุณสามารถลดความซับซ้อนของส่วนติดต่อและทำให้การรวมและการขยายง่ายขึ้น
@@ -112,7 +112,7 @@ ms.locfileid: "8626726"
 ในฐานะเป็นส่วนหนึ่งของการลงทุนอย่างต่อเนื่องใน Project Operations มีความสามารถใหม่ๆ หลายอย่างในการเรียกเก็บเงินและการกำหนดราคา นี่คือตัวอย่าง:
 
 - [การบันทึกการใช้วัสดุในโครงการและงานโครงการ](../material/material-usage-log.md)
-- [การจัดการการรับเหมารายย่อย](../pro/subcontracting/managing-subcontracts-overview.md)
+- [การจัดการสัญญารับเหมารายย่อย](../pro/subcontracting/managing-subcontracts-overview.md)
 - [สัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้า](../pro/sales/set-up-advances-retainer-based-contracts-sales.md)
 - [สถานะไม่เกินของสัญญาและการตรวจสอบความถูกต้อง](../pro/proforma-invoicing/manage-nte-status-validations-sales.md)
 - การเรียกเก็บเงินตามงาน
@@ -126,7 +126,6 @@ ms.locfileid: "8626726"
 | Project Service Automation                             | การปรับใช้งาน Project Operations Lite                        | รองรับ               |
 | การจัดการโครงการและการบัญชีใน Dynamics 365 Finance | การปรับใช้งาน Project Operations Lite                        | ยังไม่รองรับในขณะนี้ |
 | การจัดการโครงการและการบัญชีของ Finance              | Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง     | ยังไม่รองรับในขณะนี้ |
-| การจัดการโครงการและการบัญชีของ Finance              | Project Operations สำหรับสถานการณ์เก็บในคลัง/ใบสั่งผลิต | ยังไม่รองรับในขณะนี้ |
 | Project Service Automation 3.x                         | Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง     | ยังไม่รองรับในขณะนี้ |
 | Project for the Web (สภาพแวดล้อมเฉพาะ)            | การปรับใช้งาน Project Operations Lite                        | ยังไม่รองรับในขณะนี้ |
 

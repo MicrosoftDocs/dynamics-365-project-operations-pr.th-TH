@@ -1,6 +1,6 @@
 ---
 title: ใช้ตารางหมายกำหนดการให้บริการในการจองทรัพยากรของโครงการ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจองทรัพยากร
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการจองทรัพยากร
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 01b6b5f5c688ee4e1a1f0da52b39532d06e5362a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2c2b1c122992e2fab971d0da3638f25c6c3fcc21
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593589"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913459"
 ---
 # <a name="use-the-schedule-board-to-book-project-resources"></a>ใช้ตารางหมายกำหนดการให้บริการในการจองทรัพยากรของโครงการ
 

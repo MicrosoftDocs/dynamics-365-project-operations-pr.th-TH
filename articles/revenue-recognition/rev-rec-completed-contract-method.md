@@ -1,23 +1,23 @@
 ---
 title: จัดการประมาณการรายได้
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการทำงานกับการประมาณรายได้สำหรับโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการทำงานกับประมาณการรายได้ของโครงการ
 author: sigitac
 ms.date: 11/04/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6f91a0eb6fa0d13ebe8dfb6e837dae0bbff3eb5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 051535ce8dd4997a923b1511d242638361076979
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595889"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928501"
 ---
 # <a name="manage-revenue-estimates"></a>จัดการประมาณการรายได้
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
-คุณสามารถสร้า งคำนวณ โพสต์ ย้อนกลับ หรือกำจัดการประมาณการรายได้ คุณสามารถทำได้ด้วยตนเองหรือโดยใช้กระบวนการเป็นระยะ หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการทำงานกับการประมาณรายได้สำหรับโครงการ
+คุณสามารถสร้า งคำนวณ โพสต์ ย้อนกลับ หรือกำจัดการประมาณการรายได้ คุณสามารถทำได้ด้วยตนเองหรือโดยใช้กระบวนการเป็นระยะ บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการทำงานกับประมาณการรายได้ของโครงการ
 
 ### <a name="manage-revenue-estimates-manually"></a>จัดการประมาณการรายได้ด้วยตนเอง
 

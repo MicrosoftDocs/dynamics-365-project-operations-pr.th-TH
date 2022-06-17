@@ -1,6 +1,6 @@
 ---
 title: คู่มือพื้นฐานของการเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
-description: หัวข้อนี้ขะแสดงการเชื่อมโยงไปยังข้อมูลเกี่ยวกับการเสนอราคา การกำหนดราคา และการเรียกเก็บเงินขั้นพื้นฐานใน Project Service Automation
+description: บทความนี้มีลิงก์ที่ไปยังข้อมูลเกี่ยวกับการเสนอราคา การกำหนดราคา และการเรียกเก็บเงินขั้นพื้นฐานใน Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 119fa9941a1f06108950e1ea1c08f84988530373
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 19b149e3cf9ee9c14af591968bc2afeb56a0abd4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592255"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8910837"
 ---
 # <a name="basic-guide-to-quoting-pricing-and-billing"></a>คู่มือพื้นฐานของการเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน
 
@@ -32,12 +32,12 @@ ms.locfileid: "8592255"
 
 ความสามารถในการค้นหาทรัพยากรที่ถูกต้องในเวลาที่เหมาะสม จองทรัพยากรเหล่านั้นในโครงการ และเก็บทรัพยากรที่ใช้ ช่วยให้องค์กรบรรลุเป้าหมายรายได้และเป้าหมายความพึงพอใจของลูกค้า 
 
-การเชื่อมโยง PDF ที่ก่อนหน้านี้ในหัวข้อนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังหัวข้อต่อไปนี้:
+การเชื่อมโยง PDF ที่ก่อนหน้านี้ในบทความนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังบทความต่อไปนี้:
 
 - [การเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน](../quote-bill-price.md)
 - [กระบวนการขาย](../basic-sales-process.md)
-- [ใบเสนอราคาและบรรทัดใบเสนอราคา](../basic-quote-lines.md)
-- [บรรทัดใบเสนอราคาตามโผลิตภัณฑ์](../product-based-quote-lines.md)
+- [ใบเสนอราคาและรายการใบเสนอราคา](../basic-quote-lines.md)
+- [รายการใบเสนอราคาตามโผลิตภัณฑ์](../product-based-quote-lines.md)
 - [การกำหนดราคา](../basic-pricing.md)
 - [การกำหนดราคาแค็ตตาล็อกผลิตภัณฑ์](../product-catalog-pricing.md)
 - [ธุรกรรมทางธุรกิจ](../basic-business-transactions.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8592255"
 - [ค่าจริงของการบันทึก](../advanced-actuals.md)
 
 > [!NOTE]
-> หัวข้อนี้จะถูกเอาออกในการปรับปรุงเอกสารในอนาคต 
+> บทความนี้จะถูกเอาออกในการปรับปรุงคู่มือในอนาคต 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

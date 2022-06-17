@@ -1,6 +1,6 @@
 ---
 title: ใช้ฟิลด์ที่มีอยู่ใน Project Service เป็นมิติการกำหนดราคา
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการใช้ฟิลด์ Project Service ที่มีอยู่เป็นมิติการกำหนดราคา
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการใช้ฟิลด์ Project Service ที่มีอยู่เป็นมิติการกำหนดราคา
 author: Rumant
 ms.custom:
 - dyn365-projectservice
@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 3d8251b4516b4598c9c92779c59b9609d8113ac9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: abc3a3a2b61ea6f8dd34d82bf91546f8f7552a61
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580157"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925235"
 ---
 # <a name="use-an-existing-field-in-project-service-as-a-pricing-dimension"></a>ใช้ฟิลด์ที่มีอยู่ใน Project Service เป็นมิติการกำหนดราคา
 

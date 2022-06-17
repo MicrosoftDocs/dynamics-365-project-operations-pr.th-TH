@@ -1,22 +1,22 @@
 ---
-title: การรวมแบบสองทิศทางของ Project Operations
-description: หัวข้อนี้ให้ภาพรวมของการรวมแบบสองทิศทางของ Project Operations
+title: การรวม Project Operations ด้วยการรวมแบบสองทิศทาง
+description: บทความนี้แสดงภาพรวมของการรวม Project Operations ด้วยการรวมแบบสองทิศทาง
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: overview
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9b57b8bab9a6821e71a16b191804af21ae5d0b5a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d365a036f96ff4f7b14107b43e8c6b70df0b5362
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582779"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927995"
 ---
-# <a name="project-operations-dual-write-integration-overview"></a>ภาพรวมการรวมแบบสองทิศทางของ Project Operations
+# <a name="project-operations-dual-write-integration-overview"></a>ภาพรวมของการรวม Project Operations ด้วยการรวมแบบสองทิศทาง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 Project Operations ใช้ [ความสามารถของการรวมแบบสองทิศทาง](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/dual-write-home-page) เพื่อซิงโครไนซ์ข้อมูลใน Microsoft Dataverse และ Dynamics 365 Finance
 

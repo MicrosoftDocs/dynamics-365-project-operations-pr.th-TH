@@ -1,6 +1,6 @@
 ---
 title: ปซิงโครไนส์ระเภทค่าใช้จ่ายโครงการระหว่าง Finance and Operations และ Project Service Automation
-description: หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์ประเภทค่าใช้จ่ายโครงการระหว่าง Microsoft Microsoft Dynamics 365 Finance กับ Dynamics 365 Project Service Automation
+description: บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์ประเภทค่าใช้จ่ายโครงการระหว่าง Microsoft Microsoft Dynamics 365 Finance กับ Dynamics 365 Project Service Automation
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 8.0.0
-ms.openlocfilehash: c5513285c8beb96e2aa8b9c67ebde38b3c938edd
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 630c4fa7a159aa46b46984736080cd007d519a6c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8685493"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927259"
 ---
 # <a name="synchronize-project-expense-categories-between-finance-and-operations-and-project-service-automation"></a>ปซิงโครไนส์ระเภทค่าใช้จ่ายโครงการระหว่าง Finance and Operations และ Project Service Automation
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเท็มเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์ประเภทค่าใช้จ่ายโครงการระหว่าง Dynamics 365 Finance กับ Dynamics 365 Project Service Automation
+บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์ประเภทค่าใช้จ่ายโครงการระหว่าง Dynamics 365 Finance กับ Dynamics 365 Project Service Automation
 
 > [!NOTE]
 > - การรวมงานโครงการ ประเภทธุรกรรมค่าใช้จ่าย การประมาณชั่วโมง การประมาณค่าใช้จ่าย และการล็อกฟังก์ชัน จะพร้อมใช้งานในเวอร์ชัน 8.0
@@ -80,19 +80,19 @@ ms.locfileid: "8685493"
 
 ### <a name="power-query"></a>Power Query
 
-เมื่อคุณต้องซิงโครไนส์กับ Project Service Automation คุณต้องใช้ Microsoft Power Query for Excel เพื่อตั้งค่าชนิดการเรียกเก็บเงินในประเภทธุรกรรม แม่แบบประเภทธุรกรรมค่าใช้จ่ายโครงการ (Fin และ Ops ไปยัง PSA) มีคอลัมน์และการแม็ปเริ่มต้น ถ้าคุณสร้างเทมเพลตของคุณเอง คุณต้องเพิ่มคอลัมน์แบบมีเงื่อนไขใน Power Query ให้ทำตามขั้นตอนเหล่านี้
+เมื่อคุณต้องซิงโครไนส์กับ Project Service Automation คุณต้องใช้ Microsoft Power Query for Excel เพื่อตั้งค่าชนิดการเรียกเก็บเงินในประเภทธุรกรรม แม่แบบประเภทธุรกรรมค่าใช้จ่ายโครงการ (Fin และ Ops ไปยัง PSA) มีคอลัมน์และการแมปเริ่มต้น ถ้าคุณสร้างเทมเพลตของคุณเอง คุณต้องเพิ่มคอลัมน์แบบมีเงื่อนไขใน Power Query ให้ทำตามขั้นตอนเหล่านี้
 
-1. คลิกลูกศรเพื่อเปิดการแม็ปของงานประเภทค่าใช้จ่ายโครงการในแม่แบบประเภทธุรกรรมค่าใช้จ่ายโครงการ (Fin และ Ops ไปยัง PSA)
+1. คลิกลูกศรเพื่อเปิดการแมปของงานประเภทค่าใช้จ่ายโครงการในแม่แบบประเภทธุรกรรมค่าใช้จ่ายโครงการ (Fin และ Ops ไปยัง PSA)
 2. คลิกลิงก์ **การสอบถามและการกรองขั้นสูง** เพื่อเปิด Power Query
 2. เลือก **เพิ่มคอลัมน์เงื่อนไข**
 3. ป้อนชื่อสำหรับคอลัมน์ใหม่ เช่น **BillingType**
 4. ป้อนเงื่อนไขต่อไปนี้: **ถ้า CATEGORYID ไม่เท่ากับ null ดังนั้นเท่ากับ 19235001 มิฉะนั้นจะเป็น null**
 5. คลิก **ตกลง** บนคอลัมน์
-6. อย่าลืมแม็ปคอลัมน์ใหม่นี้ในหน้าการแม็ป
+6. อย่าลืมแมปคอลัมน์ใหม่นี้ในหน้าการแมป
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปงานแม่แบบในการรวมข้อมูล การแม็ปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Finance ไปยัง Project Service Automation
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแมปงานแม่แบบในการรวมข้อมูล การแมปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Finance ไปยัง Project Service Automation
 
-[![การแม็ปประเภทค่าใช้จ่ายโครงการกับเทมเพลต Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
+[![การแมปประเภทค่าใช้จ่ายโครงการกับเทมเพลต Project Service Automation](./media/ProjectExpenseCategoriesToPSAMapping.jpg)](./media/ProjectExpenseCategoriesToPSAMapping.jpg)
 
 ## <a name="project-expense-category-synchronization-from-project-service-automation-to-finance"></a>การซิงโครไนซ์ประเภทค่าใช้จ่ายโครงการจาก Project Service Automation ไปยัง Finance
 
@@ -113,14 +113,14 @@ ms.locfileid: "8685493"
 
 ประเภทค่าใช้จ่ายโครงการได้รับการจัดการใน Finance และมีการซิงโครไนซ์กับ Project Service Automation เป็นประเภทค่าใช้จ่าย การซิงโครไนซ์กลับไปที่ Finance จะอัปเดตประเภทโครงการใน Finance ด้วยรหัสการรวมจาก Project Service Automation
 
-### <a name="template-mapping-in-data-integration"></a>การแม็ปแม่แบบในการรวมข้อมูล
+### <a name="template-mapping-in-data-integration"></a>การแมปแม่แบบในการรวมข้อมูล
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปงานแม่แบบในการรวมข้อมูล
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแมปงานแม่แบบในการรวมข้อมูล
 
 > [!NOTE]
-> การแม็ปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Project Service Automation ไปยัง Finance
+> การแมปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Project Service Automation ไปยัง Finance
 
-[![การแม็ปเทมเพลต Project Service Automation กับ Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
+[![การแมปเทมเพลต Project Service Automation กับ Finance](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)](./media/ProjectExpenseCategoriesToFinOpsMapping.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

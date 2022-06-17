@@ -1,20 +1,20 @@
 ---
 title: ทักษะและการรับรอง
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการเพิ่มลักษณะทักษะและการรับรองให้กับทรัพยากร
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการเพิ่มคุณสมบัติทักษะและการรับรองให้กับทรัพยากร
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 836784bf45ba45da35d685e9372b29bb843a7268
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 12871964fec536849c55888f0704725b439dd2af
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594279"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918382"
 ---
 # <a name="skills-and-certifications"></a>ทักษะและการรับรอง
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ลักษณะมีการใช้เพื่อเพิ่มคุณลักษณะที่ใช้เพื่ออธิบายความสามารถของทรัพยากร ลักษณะแต่ละอย่างของทรัพยากรสามารถอธิบายเป็น **ทักษะ** หรือ **การรับรอง**
 

@@ -1,21 +1,21 @@
 ---
 title: ภาพรวมโหมดการจัดการทรัพยากร
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับฟังก์ชันการจัดการทรัพยากรใน Dynamics 365 Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับฟังก์ชันการจัดการทรัพยากรใน Dynamics 365 Project Operations
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: f30bac95b2beb92345cbe25332963c58d2bde4bb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: dd50d12686a6ad17f6a95ccf0c2f1447cc470bf7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585125"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928455"
 ---
 # <a name="resource-management-modes-overview"></a>ภาพรวมโหมดการจัดการทรัพยากร
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 
 Dynamics 365 Project Operations รองรับสองโหมดเพื่อให้คุณสามารถดำเนินการตามโฟลว์การจองโดยรวม โหมดการจัดการมีการกำหนดเป็นพารามิเตอร์โครงการและสามารถแก้ไขได้หากธุรกิจของคุณต้องการการเปลี่ยนแปลง    
@@ -38,7 +38,7 @@ Dynamics 365 Project Operations รองรับสองโหมดเพื
 
 ![โหมดไฮบริด](./media/resource-management-hybrid.png)
 
-นอกเหนือจากกระบวนการของโหมดส่วนกลางที่รองรับแล้ว โปรดดูหัวข้อต่อไปนี้เพื่อจัดการขั้นตอนการจองที่รองรับอื่นๆ ทั้งหมดในโหมดไฮบริด:
+นอกเหนือจากกระบวนการของโหมดส่วนกลางที่ได้รับการสนับสนุนแล้ว โปรดดูบทความต่อไปนี้เพื่อจัดการขั้นตอนการจองอื่นๆ ที่ได้รับการสนับสนุนในโหมดไฮบริด:
 
 จองทรัพยากรให้กับโครงการโดยตรง
 - [จองทรัพยากรที่มีชื่อว่าสามารถจองได้ให้ทีมโครงการและมอบหมายงาน](/dynamics365/project-service/assign-named-bookable-resource)

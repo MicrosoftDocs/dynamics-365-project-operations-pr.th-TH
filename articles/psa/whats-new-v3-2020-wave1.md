@@ -1,6 +1,6 @@
 ---
 title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation รุ่น 3.x เวฟ 1 2020
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับสิ่งใหม่และสิ่งที่เปลี่ยนแปลงใน Project Service Automation รุ่น 3 เวฟ 1 2020
+description: บทความนี้ให้ข้อมูลเกี่ยวกับสิ่งใหม่และสิ่งที่เปลี่ยนแปลงใน Project Service Automation รุ่น 3 เวฟ 1 2020
 ms.custom:
 - dyn365-projectservice
 ms.date: 05/15/2020
@@ -17,18 +17,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 073b70b4ae02d943eb0794b51e888815ee16f438
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c762f2e7931046d32464cfa8486ef8405aa7d836
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577903"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928639"
 ---
 # <a name="whats-new-or-changed-in-project-service-automation-version-3-wave-1-2020"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation รุ่น 3 เวฟ 1 2020
 
 [!include [banner](../includes/psa-now-project-operations.md)]
 
-หัวข้อเน้นข้อควรพิจารณาในการปรับรุ่นของคีย์เมื่อย้ายไปยังรุ่นล่าสุดของ Project Service Automation (PSA) รุ่น 3.x เวฟ 1 2020
+บทความนี้เน้นย้ำข้อควรพิจารณาในการปรับรุ่นที่สำคัญเมื่อย้ายไปใช้รุ่นล่าสุดของ Project Service Automation (PSA) รุ่น 3.x เวฟ 1 2020
 
 ## <a name="time-entry"></a>รายการเวลา
 ประสบการณ์รายการเวลาได้รับการขยายเพื่อมอบความสามารถในการขยายเวลาเข้าสู่สถานการณ์ลูกค้ามากขึ้น ซึ่งรวมถึงความสามารถในการเพิ่มประเภทรายการ ซึ่งตอนนี้กระตุ้นให้เกิดพฤติกรรมที่เฉพาะเจาะจง ขึ้นอยู่กับชื่อ Schema **การตั้งค่ารายการเวลา** แสดงเป็น **แหล่งเวลา** มีการเพิ่มโซลูชันใหม่ที่เรียกว่าเวลา ค่าใช้จ่าย สถานะ และการอนุมัติ (TESA) เพื่อรองรับฟังก์ชันการทำงานนี้

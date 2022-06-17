@@ -1,21 +1,21 @@
 ---
 title: นำเข้าประมาณการสำหรับโครงการไปยังรายการใบเสนอราคาตามโครงการ - Lite
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการนำเข้าการประมาณการจากโครงการไปยังรายละเอียดการให้บริการตามใบเสนอราคา
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการนำเข้าประมาณการจากโครงการไปยังรายการใบเสนอราคา
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 1c676011660cd06e49996c137f7e9dca0ef2e491
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 820d858fecf70e50a9ce8943db706ff6cac29992
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584067"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917323"
 ---
 # <a name="import-estimates-for-a-project-to-a-project-based-quote-line"></a>นำเข้าประมาณการสำหรับโครงการไปยังรายการใบเสนอราคาตามโครงการ 
 
-_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 หากมีการสร้างโครงการในช่วงก่อนการขาย คุณสามารถเลือกนำเข้าประมาณการทางการเงินจากโครงการไปยังรายการใบเสนอราคาตามโครงการ
 

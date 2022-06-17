@@ -1,21 +1,21 @@
 ---
 title: บันทึกการจัดกำหนดการโครงการ
-description: หัวข้อนี้ให้ข้อมูลและตัวอย่างที่จะช่วยให้คุณใช้บันทึกการจัดกำหนดการโครงการเพื่อติดตามความล้มเหลวที่เกี่ยวข้องกับบริการจัดกำหนดการโครงการและ API การจัดกำหนดการโครงการ
+description: บทความนี้ให้ข้อมูลและตัวอย่างที่จะช่วยให้คุณใช้บันทึกการจัดกำหนดการโครงการเพื่อติดตามความล้มเหลวที่เกี่ยวข้องกับบริการจัดกำหนดการโครงการและ API การจัดกำหนดการโครงการ
 author: ruhercul
 ms.date: 11/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 1a58a588d3e2fb92f1b4a4ed0f6f69d0a63908db
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c57419642e90e4def01f2cd2474c9e82dc162b86
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589541"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923718"
 ---
 # <a name="project-scheduling-logs"></a>บันทึกการจัดกำหนดการโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_, _Project for the Web_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_, _Project for the Web_
 
 Microsoft Dynamics 365 Project Operations ใช้ [Project for the Web](https://support.microsoft.com/office/what-is-project-for-the-web-c19b2421-3c9d-4037-97c6-f66b6e1d2eb5) เป็นเครื่องมือการจัดกำหนดการโครงการหลัก แทนการใช้ Application Programming Interface (API) ของเว็ปแอปพลิเคชัน Microsoft Dataverse Project Operations ใช้ API การจัดกำหนดการโครงการใหม่เพื่อสร้าง ปรับปรุง และลบงานโครงการ การกำหนดทรัพยากร การขึ้นต่อกันของงาน บักเก็ตโครงการ และสมาชิกทีมโครงการ อย่างไรก็ตาม เมื่อสร้าง ปรับปรุง หรือลบการดำเนินการโดยทางโปรแกรมกับเอนทิตีโครงสร้างการแบ่งงาน (WBS) อาจเกิดข้อผิดพลาดขึ้นได้ เพื่อติดตามข้อผิดพลาดและประวัติการดำเนินงานเหล่านี้ มีการนำบันทึกการดูแลระบบใหม่มาใช้สองรายการ: **ชุดการดำเนินงาน** และ **บริการจัดกำหนดการโครงการ (PSS)** หากต้องการเข้าถึงบันทึกเหล่านี้ ให้ไปที่ **การตั้งค่า** \> **การรวมกำหนดการ**
 

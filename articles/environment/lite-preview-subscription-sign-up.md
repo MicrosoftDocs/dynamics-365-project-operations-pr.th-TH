@@ -1,21 +1,21 @@
 ---
 title: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสมัครใช้งานและปรับใช้งาน Project Operations Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการสมัครใช้งานและปรับใช้ Project Operations แบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3b06ac29e8021967490534d3aefc8b5ce733413b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588023"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921279"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite 
 
-หัวข้อนี้อธิบายวิธีสมัครรับข้อเสนอรุ่นทดลองใช้งานและการปรับใช้งาน Dynamics 365 Project Operations แบบ lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+บทความนี้อธิบายวิธีการสมัครใช้งานข้อเสนอการทดลองใช้และปรับใช้ Dynamics 365 Project Operations แบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
 
 > [!NOTE]
 > กระบวนการนี้จะเปลี่ยนไปใน Project Operations รุ่นที่กำลังจะออกมา
@@ -50,7 +50,7 @@ ms.locfileid: "8588023"
 
 ## <a name="create-a-new-dataverse-environment"></a>สร้างสภาพแวดล้อม Dataverse ใหม่
 
-1. จัดเตรียมสภาพแวดล้อมการปรับใช้งาน Project Operations Dataverse ใหม่โดยทำตามคำแนะนำในหัวข้อ [รูปแบบการปรับใช้งาน Dataverse](lite-deployment.md) เมื่อคุณเลือกประเภทสภาพแวดล้อม อย่าลืมใช้ **การทดลองใช้ (ตามการสมัครสมาชิก)**
+1. จัดเตรียมสภาพแวดล้อมการปรับใช้ Project Operations Dataverse ใหม่โดยทำตามคำแนะนำในบทความ [โมเดลการปรับใช้ Dataverse](lite-deployment.md) เมื่อคุณเลือกประเภทสภาพแวดล้อม อย่าลืมใช้ **การทดลองใช้ (ตามการสมัครสมาชิก)**
 
   ![สภาพแวดล้อมใหม่](./media/19CreateEnvironment.png)
 
@@ -63,9 +63,9 @@ ms.locfileid: "8588023"
 
 ![ติดตั้งโซลูชัน](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>ติดตั้งการกำหนดค่า CDS และตั้งค่าข้อมูลสาธิต
+## <a name="install-a-cds-configuration-and-setup-demo-data"></a>ติดตั้งข้อมูลสาธิตการกำหนดค่าและการตั้งค่า CDS
 
-ติดตั้งการกำหนดค่า CDS และตั้งค่าข้อมูลสาธิตโดยทำตามคำแนะนำในหัวข้อ [ใช้การตั้งค่าการสาธิตและข้อมูลการกำหนดค่า](lite-apply-demo-setup-config-data.md)
+ติดตั้งข้อมูลสาธิตการกำหนดค่าและการตั้งค่า CDS โดยทำตามคำแนะนำในบทความ [ใช้ข้อมูลสาธิตการตั้งค่าและการกำหนดค่า](lite-apply-demo-setup-config-data.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

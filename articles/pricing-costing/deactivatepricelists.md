@@ -1,6 +1,6 @@
 ---
 title: ปิดการใช้งานรายการราคา
-description: หัวข้อนี้จะอธิบายวิธีการปิดใช้การงานหรือเอารายการราคาที่ไม่ได้ใช้งานหรือของเก่าออก
+description: บทความนี้อธิบายวิธีปิดการใช้งานหรือลบรายการราคาที่ไม่ได้ใช้หรือของเก่า
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.industry: Professional Service industries
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ab790764f7a99118fd42bc76934105389173ff88
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 56bd498d2cb892bdf0c7514d0918e3873098b8d4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8596906"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924407"
 ---
 # <a name="deactivate-price-lists"></a>ปิดการใช้งานรายการราคา 
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 การเอารายการราคาของเก่าหรือที่ไม่ได้ใช้งานออกจาก Dynamics 365 Project Operations มีสองขั้นตอนที่คุณต้องทำ 
 

@@ -1,21 +1,21 @@
 ---
 title: เพิ่มสมาชิกทีมจากตารางสมาชิกทีม
-description: หัวข้อนี้จะให้ข้อมูลเกี่ยวกับวิธีที่คุณสามารถจัดการกับทรัพยากรสมาชิกทีม
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีที่คุณสามารถจัดการกับทรัพยากรสมาชิกทีม
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 85dc7ab4b30359a24994f8f9bf38de3fc2325e60
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3c0c277ca1fe2b709a6ff1c626f5ea7ec63705d6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588115"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8928593"
 ---
 # <a name="add-team-members-from-the-team-member-grid"></a>เพิ่มสมาชิกทีมจากตารางสมาชิกทีม
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 Dynamics 365 Project Operations รวมแดชบอร์ดผู้จัดการทรัพยากรที่ให้ภาพรวมที่เห็นได้ของความต้องการของทรัพยากรและการใช้ประโยชน์ทั่วทั้งองค์กร คุณสามารถใช้แผนภูมิบนแดชบอร์ดนี้เพื่อช่วยแสดงภาพของข้อมูลดังต่อไปนี้:
 

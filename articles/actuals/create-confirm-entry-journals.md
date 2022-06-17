@@ -1,6 +1,6 @@
 ---
 title: สร้างและยืนยันสมุดรายวันรายการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างและยืนยันสมุดรายวันรายการใน Microsoft Dynamics 365 Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างและยืนยันสมุดรายวันรายการใน Microsoft Dynamics 365 Project Operations
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -13,16 +13,16 @@ ms.assetid: ''
 ms.author: rumant
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 8cb768337bc197895a837670f93b99b132c97437
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 138dccd72607d6515eeeffb066fa485f83eabbec
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912355"
 ---
 # <a name="create-and-confirm-entry-journals"></a>สร้างและยืนยันสมุดรายวันรายการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 คุณใช้สมุดรายวันรายการเพื่อบันทึกรายการจริงโดยตรงใน Microsoft Dynamics 365 Project Operations เมื่อคุณใช้สมุดรายวันรายการ คุณไม่จำเป็นต้องป้อนบันทึกการใช้เวลา ค่าใช้จ่าย และวัสดุใน Project Operations
 

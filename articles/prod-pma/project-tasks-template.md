@@ -1,6 +1,6 @@
 ---
 title: ซิงโครไนส์งานโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations
-description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์งานโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
+description: บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์งานโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 666e0d757969b32f16e08128d9f78a2ffe1e8357
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 7b8ba77bbb08052952a8a557bb71300652dca3b2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8683333"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931169"
 ---
 # <a name="synchronize-project-tasks-directly-from-project-service-automation-to-finance-and-operations"></a>ซิงโครไนส์งานโครงการโดยตรงจาก Project Service Automation ไปยัง Finance and Operations
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์งานโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
+บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์งานโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 
 > [!NOTE]
 > - การรวมงานโครงการ ประเภทธุรกรรมค่าใช้จ่าย การประมาณชั่วโมง การประมาณค่าใช้จ่าย และการล็อกฟังก์ชัน จะพร้อมใช้งานในเวอร์ชัน 8.0
@@ -61,7 +61,7 @@ ms.locfileid: "8683333"
 
 งานโครงการได้รับการจัดการใน Project Service Automation และมีการซิงโครไนซ์กับ Finance เป็นกิจกรรมของโครงการ
 
-## <a name="prerequisites-and-mapping-setup"></a>ข้อกำหนดเบื้องต้นและการตั้งค่าการแม็ป
+## <a name="prerequisites-and-mapping-setup"></a>ข้อกำหนดเบื้องต้นและการตั้งค่าการแมป
 
 ก่อนที่จะเกิดการซิงโครไนซ์งานโครงการ คุณต้องซิงโครไนซ์สัญญาโครงการและโครงการ
 
@@ -75,11 +75,11 @@ ms.locfileid: "8683333"
 
 - แม่แบบงานโครงการ (PSA ถึง Fin และ Ops) มีตัวกรองเริ่มต้นที่แยกเรกคอร์ดเฉพาะทรัพยากรออกจากงานโครงการ โดยตั้งค่าตัวกรองใน **IsLineTask** เป็น **เท็จ** หากคุณสร้างแม่แบบของคุณเอง คุณต้องเพิ่มตัวกรองนี้
 
-## <a name="template-mapping-in-data-integration"></a>การแม็ปแม่แบบในการรวมข้อมูล
+## <a name="template-mapping-in-data-integration"></a>การแมปแม่แบบในการรวมข้อมูล
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปงานแม่แบบในการรวมข้อมูล การแม็ปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Project Service Automation ไปยัง Finance
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแมปงานแม่แบบในการรวมข้อมูล การแมปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Project Service Automation ไปยัง Finance
 
-[![การแม็ปเทมเพลต](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
+[![การแมปเทมเพลต](./media/ProjectTasksMapping.png)](./media/ProjectTasksMapping.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

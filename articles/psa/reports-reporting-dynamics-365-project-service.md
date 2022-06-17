@@ -1,6 +1,6 @@
 ---
 title: โฮมเพจการรายงาน
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการรายงานใน Dynamics 365 Project Service Automation
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการรายงานใน Dynamics 365 Project Service Automation
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: da9458741563aa918bc09259e35ba9002ff0ba13
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cf55495cc435d929bd305c9fea270aeb2d62a3da
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595981"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921693"
 ---
 # <a name="reporting-home-page"></a>โฮมเพจการรายงาน
 
@@ -47,7 +47,7 @@ Microsoft Power BI และ Dynamics 365 ทั้งสองให้คุ�
 
 
 ## <a name="additional-resources"></a>ทรัพยากรเพิ่มเติม
-สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรายงานใน PSA โปรดดูหัวข้อต่อไปนี้:
+สำหรับข้อมูลเพิ่มเติมเกี่ยวกับการรายงานใน PSA โปรดดูบทความต่อไปนี้:
 
 - [การทำงานกับแบบจำลองข้อมูล Project Service](reports-working-project-service-data-model.md)
 - [แดชบอร์ด](reports-dashboards.md)

@@ -1,24 +1,24 @@
 ---
-title: มีอะไรใหม่ในเดือนธันวาคม 2020 - Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการอัปเดตคุณภาพที่มีอยู่ใน Project Operations รุ่นเดือนธันวาคม 2020 สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
+title: มีอะไรใหม่ในเดือนธันวาคม 2020 - Project Operations สำหรับสถานการณ์เก็บในคลัง/ตามการผลิต
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่มีอยู่ใน Project Operations ประจำเดือนธันวาคม 2020 สำหรับสถานการณ์เก็บในคลัง/ตามการผลิต
 author: Yowelle
 ms.date: 12/11/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 9550cf8fd594585b70d373ecf9eea1b32285e47f
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e570bf3e7a808afa5d41db0c073045c91e4931d7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594969"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911389"
 ---
-# <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือเปลี่ยนแปลงในเดือนธันวาคม 2020 - Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต
+# <a name="whats-new-or-changed-in-project-operations-december-2020-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือเปลี่ยนแปลงในเดือนธันวาคม 2020 - Project Operations สำหรับสถานการณ์เก็บในคลัง/ตามการผลิต
 
-_นำไปใช้กับ: Project Operations สำหรับสถานการณ์วัสดุที่เก็บในคลัง/ตามการผลิต_
+_นำไปใช้กับ: Project Operations สำหรับสถานการณ์เก็บในคลัง/ตามการผลิต_
 
-หัวข้อนี้ใช้กับส่วนประกอบและรุ่นของ Dynamics 365 Project Operations ต่อไปนี้:
+บทความนี้ใช้กับส่วนประกอบและเวอร์ชันของ Dynamics 365 Project Operations ต่อไปนี้:
 
   - การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.15
 

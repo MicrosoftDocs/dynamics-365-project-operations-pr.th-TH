@@ -1,21 +1,21 @@
 ---
 title: 'ตั้งค่าหมายกำหนดการให้บริการค่าธรรมเนียมล่วงหน้า '
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีตั้งค่ากำหนดการของค่าธรรมเนียมล่วงหน้าใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่ากำหนดการค่าธรรมเนียมล่วงหน้าใน Project Operations
 author: rumant
 ms.date: 10/22/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b1c48f04aa47d50c9f3ab46031ef0d6cd68619d5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 077961d2f649754149315438252970609c246555
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574775"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927765"
 ---
 # <a name="set-up-a-retainer-schedule"></a>ตั้งค่าหมายกำหนดการให้บริการค่าธรรมเนียมล่วงหน้า 
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 กำหนดการของค่าธรรมเนียมล่วงหน้าตั้งค่าไว้ที่หน้า **สัญญาโครงการ** ใน Dynamics 365 Project Operations
 

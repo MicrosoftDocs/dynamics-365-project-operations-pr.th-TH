@@ -1,24 +1,24 @@
 ---
 title: การรวมการประมาณการและข้อมูลจริงของโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการรวมแบบสองทิศทางของ Project Operations สำหรับการประมาณการและข้อมูลจริงของโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการรวม Project Operations ด้วยการรวมแบบสองทิศทางสำหรับประมาณการและข้อมูลจริงของโครงการ
 author: sigitac
 ms.date: 4/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5aaa59020427438fa6ebab3789fbb70c5b86e272
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 43c868b051bf141cfc3211669c0a44333b4b2c65
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577213"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8914609"
 ---
 # <a name="project-estimates-and-actuals-integration"></a>การรวมการประมาณการและข้อมูลจริงของโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับการรวมแบบสองทิศทางของ Project Operations สำหรับการประมาณการและข้อมูลจริงของโครงการ
+บทความนี้ให้ข้อมูลเกี่ยวกับการรวม Project Operations ด้วยการรวมแบบสองทิศทางสำหรับประมาณการและข้อมูลจริงของโครงการ
 
 ## <a name="project-estimates"></a>การประมาณการโครงการ
 

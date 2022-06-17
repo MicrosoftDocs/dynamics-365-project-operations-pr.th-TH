@@ -1,6 +1,6 @@
 ---
 title: คู่มือการรายงาน
-description: หัวข้อนี้แสดงการเชื่อมโยงไปยังข้อมูลเกี่ยวกับการรายงาน
+description: บทความนี้แสดงลิงก์ที่ไปยังข้อมูลเกี่ยวกับการรายงาน
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1039f38e0a3ced13d824e10d88cd502f546b96fc
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: acd9b885c17ae0ca05780242a4c8d3837f814f10
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577581"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919209"
 ---
 # <a name="reporting-guide"></a>คู่มือการรายงาน
 
@@ -32,14 +32,14 @@ ms.locfileid: "8577581"
 
 วิธีการรายงานและเทคโนโลยีในแอปนี้สามารถที่จะช่วยให้คุณตรวจสอบสุขภาพของโครงการของคุณ และระบุเวลาที่คุณต้องการดำเนินการแก้ไข 
 
-การเชื่อมโยง PDF ที่ก่อนหน้านี้ในหัวข้อนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังหัวข้อต่อไปนี้:
+การเชื่อมโยง PDF ที่ก่อนหน้านี้ในบทความนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังบทความต่อไปนี้:
 
 - [โฮมเพจการรายงาน](../reports-reporting-dynamics-365-project-service.md)
 - [แดชบอร์ด](../reports-dashboards.md)
 - [การทำงานกับแบบจำลองข้อมูล Project Service Automation](../reports-working-project-service-data-model.md)
 
 > [!NOTE]
-> หัวข้อนี้จะถูกเอาออกในการปรับปรุงเอกสารในอนาคต 
+> บทความนี้จะถูกเอาออกในการปรับปรุงคู่มือในอนาคต 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

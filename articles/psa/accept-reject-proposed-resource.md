@@ -1,6 +1,6 @@
 ---
 title: การยอมรับหรือปฏิเสธทรัพยากรโครงการที่นำเสนอ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการอนุมัติหรือปฏิเสธทรัพยากรโครงการที่นำเสนอ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการอนุมัติหรือปฏิเสธทรัพยากรโครงการที่นำเสนอ
 ms.custom:
 - dyn365-projectservice
 ms.date: 12/07/2018
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8337ed19764e62cf2e095ec2f51d325caf92e6fb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 94c3f9f960adc7c348b19e23a11bc05bd60e0b56
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599155"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916219"
 ---
 # <a name="accept-or-reject-a-proposed-project-resource"></a>การยอมรับหรือปฏิเสธทรัพยากรโครงการที่นำเสนอ
 
@@ -30,7 +30,7 @@ ms.locfileid: "8599155"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการอนุมัติหรือปฏิเสธทรัพยากรโครงการที่นำเสนอ
+บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการอนุมัติหรือปฏิเสธทรัพยากรโครงการที่นำเสนอ
 
 เมื่อผู้จัดการทรัพยากรเสนอทรัพยากรที่มีชื่อ เพื่อเติมคำขอทรัพยากรทั่วไปสำหรับโครงการ ฟิลด์ **สถานะคำขอ** สำหรับสมาชิกในทีมทั่วไปจะได้รับการอัปเดตเป็น **ต้องการการตรวจทาน** การร้องขอจะถูกส่งไปยังผู้จัดการโครงการเพื่อขออนุมัติหรือปฏิเสธ
 

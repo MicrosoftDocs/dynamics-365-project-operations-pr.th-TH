@@ -1,21 +1,21 @@
 ---
 title: คัดลอกโครงการ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการคัดลอกโครงการใน Dynamics 365 Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการคัดลอกโครงการใน Dynamics 365 Project Operations
 author: ruhercul
 ms.date: 03/07/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e9b637d2d282d123dfacb8a295292ea06549aa1e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b358f9e45278d886f3e6e8e8cd747fc0ea30212b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574453"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925787"
 ---
 # <a name="copy-a-project"></a>คัดลอกโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ด้วย Dynamics 365 Project Operations คุณสามารถสร้างโครงการใหม่ได้อย่างรวดเร็วโดยเลือก **คัดลอกโครงการ** บนแบบฟอร์ม **โครงการ** ในการคัดลอกโครงการ ให้เปิดโครงการที่คุณต้องการคัดลอก จากนั้นเลือก **คัดลอกโครงการ** การดำเนินการจะคัดลอกสิ่งต่อไปนี้:
 
@@ -32,7 +32,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 เมื่อมีการคัดลอกโครงการ จะมีการคัดลอกค่าในฟิลด์ต่อไปนี้
 
-| ฟิลด์ | Project Operations สำหรับวัสดุที่ไม่เก็บในคลัง | Project Operations Lite | Project for the Web |
+| ฟิลด์ | Project Operations สำหรับวัสดุที่ไม่ได้เก็บในคลัง | Project Operations Lite | Project for the Web |
 |-------|------------------------------------------|-------------------------|---------------------|
 | Name | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | Description | :heavy_check_mark: | :heavy_check_mark: | |
@@ -71,7 +71,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 เมื่อมีการคัดลอกโครงการ รายการทรัพยากร ค่าใช้จ่าย และวัสดุจะถูกคัดลอกจากโครงการต้นทาง 
 
-สำหรับข้อมูลเกี่ยวกับวิธีการเข้าถึงการคัดลอกโครงการโดยทางโปรแกรม โปรดดู [พัฒนาแม่แบบโครงการด้วย คัดลอกโครงการ](dev-copy-project.md)
+สำหรับข้อมูลเกี่ยวกับวิธีการเข้าถึงการคัดลอกโครงการโดยทางโปรแกรม โปรดดู [พัฒนาเทมเพลตโครงการด้วย คัดลอกโครงการ](dev-copy-project.md)
 
 ## <a name="quotes-and-contracts"></a>ใบเสนอราคาและสัญญา
 

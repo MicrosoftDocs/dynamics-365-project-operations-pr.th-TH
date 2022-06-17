@@ -1,21 +1,21 @@
 ---
 title: รายการราคาเริ่มต้น
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการขายและรายการราคาใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับรายการราคาสำหรับการขายและต้นทุนเริ่มต้นใน Project Operations
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 83458d6f62c8790eb967cf07c21ffe7851e14a3a
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7a8f99cd03e5c2c15941c17469cc5632765b0fdc
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591795"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917737"
 ---
 # <a name="default-price-lists"></a>รายการราคาเริ่มต้น
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ## <a name="sales-price-lists"></a>รายการราคาสำหรับการขาย
 

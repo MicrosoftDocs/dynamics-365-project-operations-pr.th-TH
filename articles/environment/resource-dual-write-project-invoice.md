@@ -1,22 +1,22 @@
 ---
 title: การรวมใบแจ้งหนี้ของโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการรวมแบบสองทิศทางของ Project Operations สำหรับการออกใบแจ้งหนี้ของลูกค้า
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการรวม Project Operations ด้วยการรวมแบบสองทิศทางสำหรับการออกใบแจ้งหนี้ของลูกค้า
 author: sigitac
 ms.date: 04/26/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 1e7294360f041b030efca225c6754fe3bbc0eadf
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5ee2d78f1ca1d78f6909d9995a92ac301f06d6a6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8581261"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912125"
 ---
 # <a name="project-invoice-integration"></a>การรวมใบแจ้งหนี้ของโครงการ
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับการรวมแบบสองทิศทางของ Project Operations สำหรับการออกใบแจ้งหนี้ของลูกค้า
+บทความนี้ให้ข้อมูลเกี่ยวกับการรวม Project Operations ด้วยการรวมแบบสองทิศทางสำหรับการออกใบแจ้งหนี้ของลูกค้า
 
 ใน Project Operations ผู้จัดการโครงการจะจัดการรายการค้างชำระของการเรียกเก็บเงินโครงการ และสร้างใบแจ้งหนี้ชั่วคราวสำหรับลูกค้าใน Microsoft Dataverse จากใบแจ้งหนี้ชั่วคราวนี้ เสมียนบัญชีลูกหนี้หรือนักบัญชีโครงการจะสร้างใบแจ้งหนี้สำหรับลูกค้า การรวมแบบสองทิศทางช่วยให้แน่ใจว่ารายละเอียดใบแจ้งหนี้ชั่วคราวซิงโครไนซ์กับแอปการเงินและการดำเนินงาน หลังจากมีการลงรายการบัญชีใบแจ้งหนี้สำหรับลูกค้า ระบบจะอัปเดตข้อมูลจริงของโครงการที่เกี่ยวข้องใน Dataverse พร้อมรายละเอียดการบัญชี กราฟิกต่อไปนี้แสดงภาพรวมแนวคิดระดับสูงของการรวมนี้
 

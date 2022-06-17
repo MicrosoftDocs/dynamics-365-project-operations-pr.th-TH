@@ -1,21 +1,21 @@
 ---
 title: ยืนยันใบแจ้งหนี้ตามโครงการชั่วคราว
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการยืนยันใบแจ้งหนี้ตามโครงการชั่วคราว
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการยืนยันใบแจ้งหนี้ตามโครงการชั่วคราว
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 46db66be0c346b9ad0006efc3ca2f3019a467daa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a4ad243e8959af61993e2ff6ce89209be378f7df
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580525"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8929467"
 ---
 # <a name="confirm-a-proforma-project-based-invoice"></a>ยืนยันใบแจ้งหนี้ตามโครงการชั่วคราว
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 หลังจากยืนยันใบแจ้งหนี้ Proforma แล้วสถานะของใบแจ้งหนี้โครงการจะอัปเดตเป็น **ได้รับการยืนยัน** เมื่อใบแจ้งหนี้ได้รับการยืนยัน จะกลายเป็นแบบอ่านอย่างเดียว นับจากนี้ไปคุณจะสามารถแก้ไขใบแจ้งหนี้ได้ก็ต่อเมื่อมีการแก้ไขหรือเครดิตที่ลูกค้าเป็นผู้เริ่มต้นเท่านั้น
 

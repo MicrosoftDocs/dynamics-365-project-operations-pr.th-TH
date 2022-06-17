@@ -1,23 +1,23 @@
 ---
 title: ภาพรวมการรับรู้รายได้
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการรับรู้รายได้ใน Project Operations.
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการรับรู้รายได้ใน Project Operations
 author: sigitac
 ms.date: 11/16/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 51c553ecf45452615cbcadce6386f32be427acaa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 22486693226256f765589b272e6df36aceaf9c1c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926293"
 ---
 # <a name="revenue-recognition-overview"></a>ภาพรวมการรับรู้รายได้
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
-ใน Dynamics 365 Project Operations หลักการรับรู้รายได้จะแตกต่างกันไปตามวิธีการเรียกเก็บเงินที่เลือกสำหรับโครงการหรือบางส่วนของโครงการ หัวข้อนี้แสดงข้อมูลเกี่ยวกับการรับรู้รายได้ใน Project Operations.
+ใน Dynamics 365 Project Operations หลักการรับรู้รายได้จะแตกต่างกันไปตามวิธีการเรียกเก็บเงินที่เลือกสำหรับโครงการหรือบางส่วนของโครงการ บทความนี้ให้ข้อมูลเกี่ยวกับการรับรู้รายได้ใน Project Operations
 
 ## <a name="transactions-accounted-using-time-and-material-billing-method"></a>ธุรกรรมพิจารณาโดยใช้วิธีการเรียกเก็บเงินสำหรับเวลาและวัสดุ
 

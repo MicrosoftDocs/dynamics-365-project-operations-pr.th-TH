@@ -1,6 +1,6 @@
 ---
 title: ผลกระทบของข้อมูลจริงในระหว่างลำดับขั้นก่อนการขายของการทำข้อตกลง
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับผลกระทบต่อตารางข้อมูลจริงในเหตุการณ์ต่างๆ ขณะที่การทำสัญญาอยู่ในลำดับขั้นก่อนการขายใน Microsoft Dynamics 365 Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับผลกระทบต่อตารางข้อมูลจริงในเหตุการณ์ต่างๆ ขณะที่การทำสัญญาอยู่ในลำดับขั้นก่อนการขายใน Microsoft Dynamics 365 Project Operations
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,16 +13,16 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: ad62639b345d5519b103d4bde3fbb033b9a7a519
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d03d6ac2154806189d0d9d0b232bb317f51071ba
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577259"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922383"
 ---
 # <a name="actuals-impact-during-the-pre-sales-stage-of-an-engagement"></a>ผลกระทบของข้อมูลจริงในระหว่างลำดับขั้นก่อนการขายของการทำข้อตกลง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ตารางต่อไปนี้แสดงรายการข้อมูลจริงของชนิดธุรกรรมต่างๆ ที่สร้างขึ้นในเหตุการณ์ต่างๆ ระหว่างลำดับขั้นก่อนการขายในการทำข้อตกลงโครงการ
 

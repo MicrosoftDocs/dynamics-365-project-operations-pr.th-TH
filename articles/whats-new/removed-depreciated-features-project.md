@@ -1,24 +1,24 @@
 ---
 title: คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Project Operations
-description: หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออกหรือที่มีการวางแผนไว้สำหรับการเอาออกจาก Dynamics 365 Project Operations
+description: บทความนี้อธิบายคุณลักษณะที่ถูกลบออกหรือที่มีการวางแผนไว้สำหรับการเอาออกจาก Dynamics 365 Project Operations
 author: sigitac
 ms.date: 03/16/2022
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 61bb84b94274762636eb8532f09634db1109e969
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: df9d8a40fa853e72416e64846bf59748815048be
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8601593"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921509"
 ---
 # <a name="removed-or-deprecated-features-in-dynamics-365-project-operations"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Dynamics 365 Project Operations
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว และProject Operations สำหรับสถานการณ์เก็บในคลัง/การผลิต_
 
-หัวข้อนี้อธิบายคุณลักษณะที่ถูกลบออกหรือที่มีการวางแผนไว้สำหรับการเอาออกจาก Dynamics 365 Project Operations
+บทความนี้อธิบายคุณลักษณะที่ถูกลบออกหรือที่มีการวางแผนไว้สำหรับการเอาออกจาก Dynamics 365 Project Operations
 
 - คุณลักษณะ *ที่เอาออก* ไม่มีในผลิตภัณฑ์อีกต่อไป
 - คุณลักษณะที่ *เลิกสนับสนุน* ไม่ได้อยู่ในการพัฒนาและอาจถูกลบออกในการอัปเดตในอนาคต
@@ -67,7 +67,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | **เหตุผลในการเลิกใช้งาน/ลบ** | เลิกใช้เนื่องจากการปรับปรุงหน้าที่เริ่มมีการใช้ร่วมกับคีย์คุณลักษณะ **ใช้ฟอร์มข้อเสนอใบแจ้งหนี้และสมุดรายวันใบแจ้งหนี้ของโครงการที่มีมุมมองส่วนหัวและรายการ** |
 | **แทนที่ด้วยคุณลักษณะอื่นหรือไม่** | ตกลง |
 | **พื้นที่ผลิตภัณฑ์ได้รับผลกระทบ** | แอปพลิเคชัน |
-| **ตัวเลือกการปรับใช้** | Project Operations สำหรับสถานการณ์การผลิต/เก็บในคลัง; Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่เก็บในคลัง |
+| **ตัวเลือกการปรับใช้** | Project Operations สำหรับสถานการณ์การผลิต/เก็บในคลัง; Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง |
 | **สถานะ** | ไม่สนับสนุน: ภายในวันที่ 1 มีนาคม 2023 เราจะปิดหน้าก่อนหน้า (เดิม) และเปิดคีย์คุณลักษณะ **ใช้ฟอร์มข้อเสนอใบแจ้งหนี้และสมุดรายวันใบแจ้งหนี้ของโครงการที่มีมุมมองส่วนหัวและรายการ** โดยค่าเริ่มต้น |
 
 ## <a name="features-removed-or-deprecated-in-the-project-operations-december-2021-release"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Project Operations รุ่นเดือนธันวาคม 2021

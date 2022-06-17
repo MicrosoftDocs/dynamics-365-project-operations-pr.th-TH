@@ -1,6 +1,6 @@
 ---
 title: วางแผนงานของคุณใน Microsoft Project ด้วย Add-in ของ Project Service
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการใช้ add-in ของ Microsoft Project สำหรับ Project Service
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการใช้ Add-in ของ Microsoft Project สำหรับ Project Service
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1b1c9861f2a3fbb62b29ccad272dab28dc766439
-ms.sourcegitcommit: 30242d7754bca300b594b0887eb4212d10bea1c4
+ms.openlocfilehash: 779d83a896dd7d92c6584e6f1c57b1ea567e9051
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/07/2022
-ms.locfileid: "8728027"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911021"
 ---
 # <a name="plan-your-work-in-microsoft-project-with-the-project-service-add-in"></a>วางแผนงานของคุณใน Microsoft Project ด้วย Add-in ของ Project Service
 
@@ -47,7 +47,7 @@ ms.locfileid: "8728027"
 
 3.  เมื่อการดาวน์โหลดเสร็จสมบูรณ์ เลือก **ใช่** เพื่อติดตั้ง add-in  
 
-## <a name="configure-the-add-in"></a>ตั้งค่าคอนฟิก add-in  
+## <a name="configure-the-add-in"></a>กำหนดค่า add-in  
 
 1. เปิด [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] และเลือกแท็บ **Project Service**  
 
@@ -57,15 +57,15 @@ ms.locfileid: "8728027"
 
    ตอนนี้ คุณสามารถเริ่มการใช้ add-in ได้  
 
-## <a name="read-from-a-template"></a>อ่านจากเท็มเพลต  
- อ่านจากเท็มเพลตที่คุณได้สร้างขึ้นใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] และได้คัดลอกลงใน [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] เพื่อเริ่มการวางแผนโครงการของคุณ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [สร้างเท็มเพลตโครงการ (Project Service Automation)](../psa/create-project-template.md)  
+## <a name="read-from-a-template"></a>อ่านจากเทมเพลต  
+ อ่านจากเทมเพลตที่คุณได้สร้างขึ้นใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] และได้คัดลอกลงใน [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] เพื่อเริ่มการวางแผนโครงการของคุณ [!INCLUDE[proc_more_information](../includes/proc-more-information.md)] [สร้างเทมเพลตโครงการ (Project Service Automation)](../psa/create-project-template.md)  
 
 1.  จากแท็บ **Project Service** เลือก **อ่าน** > **เทมเพลตโครงการ Project Service Automation**  
 
 2.  เลือกเทมเพลตโครงการจากรายการ และจากนั้น เลือก **เปิด**  
 
     > [!NOTE]
-    >  โดยค่าเริ่มต้น งานที่จะถูกคัดลอกจากเท็มเพลตลงในโครงการจะถูกตั้งค่าเป็น จัดกำหนดการแล้วด้วยตนเอง  
+    >  โดยค่าเริ่มต้น งานที่จะถูกคัดลอกจากเทมเพลตลงในโครงการจะถูกตั้งค่าเป็น จัดกำหนดการแล้วด้วยตนเอง  
 
 ## <a name="assign-pn_project_service_auto-roles-to-project-resources"></a>มอบหมายบทบาท [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ให้กับทรัพยากรโครงการ  
 
@@ -162,8 +162,8 @@ ms.locfileid: "8728027"
 
 4. แฟ้ม [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] สามารถถูกพบได้ใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ภายใต้ **เอกสาร** สำหรับโครงการ [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เฉพาะได้  
 
-## <a name="publish--your-project-as-a-template"></a>เผยแพร่โครงการของคุณเป็นเท็มเพลต  
- คุณสามารถบันทึกโครงการของคุณ และนำมาใช้ใหม่ได้โดยการบันทึกเป็นเท็มเพลตโครงการใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เท็มเพลตโครงการเป็นแผนโครงการที่สามารถนำมาใช้ใหม่ได้ใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างเทมเพลตโครงการ (Project Service Automation)](../psa/create-project-template.md) 
+## <a name="publish--your-project-as-a-template"></a>เผยแพร่โครงการของคุณเป็นเทมเพลต  
+ คุณสามารถบันทึกโครงการของคุณ และนำมาใช้ใหม่ได้โดยการบันทึกเป็นเทมเพลตโครงการใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] เทมเพลตโครงการเป็นแผนโครงการที่สามารถนำมาใช้ใหม่ได้ใน [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] สำหรับข้อมูลเพิ่มเติม โปรดดู [สร้างเทมเพลตโครงการ (Project Service Automation)](../psa/create-project-template.md) 
 
 1. บนแท็บ **Project Service** ไปที่ **เผยแพร่** > **เทมเพลตโครงการ Project Service Automation ใหม่**  
 
@@ -173,7 +173,7 @@ ms.locfileid: "8728027"
 
 4. เลือก **เผยแพร่**  
 
-การเชื่อมโยงแฟ้มโครงการไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ทำให้แฟ้มโครงการเป็นต้นแบบ และตั้งค่าโครงสร้างการแบ่งงานในเท็มเพลต [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ให้เป็นแบบอ่านอย่างเดียว  เมื่อต้องการทำการเปลี่ยนแปลงไปยังรายการแผนการของโครงการ คุณต้องดำเนินการใน [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] และเผยแพร่เป็นการปรับปรุงไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]
+การเชื่อมโยงแฟ้มโครงการไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ทำให้แฟ้มโครงการเป็นต้นแบบ และตั้งค่าโครงสร้างการแบ่งงานในเทมเพลต [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)] ให้เป็นแบบอ่านอย่างเดียว  เมื่อต้องการทำการเปลี่ยนแปลงไปยังรายการแผนการของโครงการ คุณต้องดำเนินการใน [!INCLUDE[pn_microsoft_project](../includes/pn-microsoft-project.md)] และเผยแพร่เป็นการปรับปรุงไปยัง [!INCLUDE[pn_project_service_auto](../includes/pn-project-service-auto.md)]
 
 ## <a name="read-a-resource-loaded-schedule"></a>อ่านกำหนดการที่โหลดทรัพยากร
 

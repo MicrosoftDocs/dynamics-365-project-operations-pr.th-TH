@@ -1,21 +1,21 @@
 ---
 title: ค่าเริ่มต้นของมิติทางการเงิน
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีตั้งค่าเริ่มต้นมิติทางการเงิน
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าค่าเริ่มต้นของมิติทางการเงิน
 author: sigitac
 ms.date: 12/14/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9f43fed57a1411a55dcd7929f34e87aed136a6b5
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 10d9e0d739ac1b7681e2e77ec651daf3da8316ff
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579513"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931077"
 ---
 # <a name="financial-dimension-defaults"></a>ค่าเริ่มต้นของมิติทางการเงิน
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 
 

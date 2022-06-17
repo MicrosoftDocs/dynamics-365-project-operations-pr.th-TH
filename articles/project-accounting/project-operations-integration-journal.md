@@ -1,21 +1,21 @@
 ---
 title: สมุดรายวันการรวมใน Project Operations
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการทำงานกับสมุดรายวันการรวมใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการทำงานกับสมุดรายวันการรวมใน Project Operations
 author: sigitac
 ms.date: 10/27/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 5e1a455d055fe562a1946cc3b90c8274ef1a4b12
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: befb1756ad77708805f3cbb06168b93e44296df0
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582457"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8923901"
 ---
 # <a name="integration-journal-in-project-operations"></a>สมุดรายวันการรวมใน Project Operations
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 รายการเวลาและค่าใช้จ่ายสร้างธุรกรรม **ตามจริง** ซึ่งแสดงถึงมุมมองการดำเนินงานของงานที่เสร็จสมบูรณ์กับโครงการ Dynamics 365 Project Operations ช่วยให้นักบัญชีมีเครื่องมือในการตรวจสอบธุรกรรมและปรับแอตทริบิวต์ทางบัญชีตามต้องการ หลังจากการตรวจทานและการปรับปรุงเสร็จสมบูรณ์ ธุรกรรมจะถูกลงรายการบัญชีไปยังบัญชีแยกประเภทย่อยของโครงการและบัญชีแยกประเภททั่วไป นักบัญชีสามารถดำเนินกิจกรรมเหล่านี้ได้โดยใช้สมุดรายวัน **การรวม Project Operations** (**Dynamics 365 Finance** > **การจัดการโครงการและการบัญชี** > **สมุดรายวัน** > **การรวม Project Operations**
 

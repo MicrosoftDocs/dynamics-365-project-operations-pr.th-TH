@@ -1,24 +1,24 @@
 ---
 title: การรวมการจัดการค่าใช้จ่าย
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการรวมรายงานค่าใช้จ่ายใน Project Operations โดยใช้การรวมแบบสองทิศทาง
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการรวมรายงานค่าใช้จ่ายใน Project Operations โดยใช้การรวมแบบสองทิศทาง
 author: sigitac
 ms.date: 04/28/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: b41be519dbfa89668712bc28ccb1888cd08c38a2
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: c64c318dc1915a9a87b6ae3c6b8a2aa6d3c9cd36
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8585815"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924637"
 ---
 # <a name="expense-management-integration"></a>การรวมการจัดการค่าใช้จ่าย
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับการรวมรายงานค่าใช้จ่ายใน Project Operations [การปรับใช้ค่าใช้จ่ายแบบเต็ม](../expense/expense-overview.md) โดยใช้การรวมแบบสองทิศทาง
+บทความนี้ให้ข้อมูลเกี่ยวกับการรวมรายงานค่าใช้จ่ายใน [การปรับใช้งานค่าใช้จ่ายทั้งหมด](../expense/expense-overview.md) ของ Project Operations โดยใช้การรวมแบบสองทิศทาง
 
 ## <a name="expense-categories"></a>ประเภทค่าใช้จ่าย
 

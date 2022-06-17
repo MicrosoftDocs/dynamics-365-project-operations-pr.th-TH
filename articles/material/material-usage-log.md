@@ -1,21 +1,21 @@
 ---
 title: บันทึกการใช้วัสดุในโครงการและงานโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีบันทึกการใช้วัสดุกับโครงการและงานโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการลงบันทึกการใช้วัสดุกับโครงการและงานโครงการ
 author: rumant
 ms.date: 03/31/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 60aed9aa82eeb0339e71b0171719e765a63d91e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: eeb8303821bc4c246e37333ddbcb77ca798d2e8f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579697"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920083"
 ---
 # <a name="record-material-usage-on-projects-and-project-tasks"></a>บันทึกการใช้วัสดุในโครงการและงานโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ในฐานะทีมโครงการทำงานผ่านงานในโครงการ พวกเขาจะใช้วัสดุได้ บันทึกการใช้วัสดุเป็นวิธีบันทึกการใช้งานนี้เพื่อให้ผู้จัดการโครงการอนุมัติและออกใบแจ้งหนี้ให้กับลูกค้าได้ในที่สุด 
 

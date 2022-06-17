@@ -1,6 +1,6 @@
 ---
 title: ผลกระทบของข้อมูลจริงในการทำข้อตกลงแบบราคาคงที่
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับผลกระทบต่อตารางข้อมูลจริงในเหตุการณ์ต่างๆ ระหว่างวงจรชีวิตของการทำข้อตกลงแบบราคาคงที่ใน Microsoft Dynamics 365 Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับผลกระทบต่อตารางข้อมูลจริงในเหตุการณ์ต่างๆ ระหว่างวงจรชีวิตของการทำข้อตกลงแบบราคาคงที่ใน Microsoft Dynamics 365 Project Operations
 author: rumant
 ms.date: 02/22/2022
 ms.topic: overview
@@ -13,16 +13,16 @@ ms.search.region: ''
 ms.search.industry: ''
 ms.author: rumant
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 222e7c5eefd7c619e4d7389cdaff2f96176ff275
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 50819d77d56935bfe5438d7d9dae99562bcc0b49
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579251"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918151"
 ---
 # <a name="actuals-impact-in-a-fixed-price-engagement"></a>ผลกระทบของข้อมูลจริงในการทำข้อตกลงแบบราคาคงที่
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ตารางต่อไปนี้แสดงรายการข้อมูลจริงของชนิดธุรกรรมต่างๆ ที่สร้างขึ้นในเหตุการณ์ต่างๆ ในการทำข้อตกลงแบบราคาคงที่
 

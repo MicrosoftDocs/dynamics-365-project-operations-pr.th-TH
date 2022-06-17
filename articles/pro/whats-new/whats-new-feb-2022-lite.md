@@ -1,24 +1,24 @@
 ---
 title: มีอะไรใหม่ในเดือนกุมภาพันธ์ 2022 - การปรับใช้งาน Project Operations แบบ Lite
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่พร้อมใช้งานในการปรับใช้งานแบบ Lite ของ Project Operations ประจำเดือนกุมภาพันธ์ 2022
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่มีอยู่ในการปรับใช้งาน Project Operations แบบ Lite ประจำเดือนกุมภาพันธ์ 2022
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: af66a5f61adf4f016f3fa547bbdfc75d06b2711b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1203faa2dd53a8fb82cff0857a1725426ebff19a
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8574591"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922843"
 ---
 # <a name="whats-new-february-2022---project-operations-lite-deployment"></a>มีอะไรใหม่ในเดือนกุมภาพันธ์ 2022 - การปรับใช้งาน Project Operations แบบ Lite
 
 _นำไปใช้กับ: การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
-หัวข้อนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
+บทความนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
 
 - Project Operations ในสภาพแวดล้อม Dataverse เวอร์ชัน 4.28.0.120
 

@@ -1,6 +1,6 @@
 ---
 title: ตรวจทานทรัพยากรที่เสนอ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการเสนอทรัพยากรโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการเสนอทรัพยากรโครงการ
 author: ruhercul
 ms.date: 08/18/2021
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 3d2ab3ba9e5b18a2b42acaa2dc51ad94b8189274
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3f20dda2b7b384608b8f4b548c18ac21d07fee07
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584987"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924867"
 ---
 # <a name="review-proposed-resources"></a>ตรวจทานทรัพยากรที่เสนอ
 
@@ -62,7 +62,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ถ้าลูกศรชี้ขวาปรากฏถัดจากทรัพยากรที่สามารถจองได้แต่ละรายการบน **ตารางกำหนดการ** ทรัพยากรนั้นจะสามารถถูกขยายเพื่อแสดงรายละเอียดของงานที่ทรัพยากรนั้นถูกจองกับงานนั้น
 
-เนืองจาก Dynamics 365 Project Operations ใช้เอ็นจิน Universal Resource Scheduling ถ้าคุณยังได้ติดตั้ง Dynamics 365 Field Service ไว้ คุณสามารถดูรายละเอียดของการจองทรัพยากรสำหรับโครงการ ใบสั่งงานและเอนทิตี้อื่นๆ ที่คุณขยายการจัดกำหนดการให้
+เนืองจาก Dynamics 365 Project Operations ใช้เอ็นจิน Universal Resource Scheduling ถ้าคุณยังได้ติดตั้ง Dynamics 365 Field Service ไว้ คุณสามารถดูรายละเอียดของการจองทรัพยากรสำหรับโครงการ ใบสั่งงานและเอนทิตีอื่นๆ ที่คุณขยายการจัดกำหนดการให้
 
 หากต้องการดูรายละเอียดเพิ่มเติมเกี่ยวกับทรัพยากรแต่ละรายการ ให้คลิกขวาเพื่อเปิดบัตรทรัพยากร
 

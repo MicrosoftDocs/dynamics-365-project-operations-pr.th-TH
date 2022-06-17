@@ -1,17 +1,17 @@
 ---
 title: การบันทึกเวลา ค่าใช้จ่าย และการใช้วัสดุสำหรับส่วนประกอบที่รับเหมารายย่อย
-description: หัวข้อนี้อธิบายว่า Microsoft Dynamics 365 Project Operations จะติดตามเวลา ค่าใช้จ่าย และการใช้วัสดุที่บันทึกในโครงการจากส่วนประกอบที่รับเหมารายย่อยอย่างไร
+description: บทความนี้อธิบายว่า Microsoft Dynamics 365 Project Operations จะติดตามเวลา ค่าใช้จ่าย และการใช้วัสดุที่บันทึกในโครงการจากส่วนประกอบที่รับเหมารายย่อยอย่างไร
 author: rumant
 ms.date: 12/03/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 5a31b4a1092cc4829cbfc789e8b8e30030b2826b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1c05b941fb51c8b56422e3b5d3868c9b69197187
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8599247"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8927673"
 ---
 # <a name="recording-time-expenses-and-material-usage-on-projects-for-subcontracted-components"></a>การบันทึกเวลา ค่าใช้จ่าย และการใช้วัสดุในโครงการสำหรับส่วนประกอบที่รับเหมารายย่อย
 
@@ -19,7 +19,7 @@ ms.locfileid: "8599247"
 
 _**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
-หัวข้อนี้อธิบายว่า Microsoft Dynamics 365 Project Operations จะติดตามเวลา ค่าใช้จ่าย และการใช้วัสดุที่บันทึกในโครงการจากส่วนประกอบที่รับเหมารายย่อยอย่างไร
+บทความนี้อธิบายว่า Microsoft Dynamics 365 Project Operations จะติดตามเวลา ค่าใช้จ่าย และการใช้วัสดุที่บันทึกในโครงการจากส่วนประกอบที่รับเหมารายย่อยอย่างไร
 
 ## <a name="costing-for-subcontractor-time-on-projects"></a>การคิดต้นทุนสำหรับเวลาของผู้รับเหมารายย่อยในโครงการ
 ใน Project Operations ผู้ปฏิบัติงานแบบสัญญาจ้างสามารถบันทึกเวลาในโครงการในลักษณะเดียวกันกับพนักงาน เมื่อป้อนเวลาในโครงการและ/หรืองานโครงการ ผู้ปฏิบัติงานแบบสัญญาจ้างสามารถเลือกสัญญารับเหมารายย่อยและรายการสัญญารับเหมารายย่อยที่เฉพาะเจาะจงได้

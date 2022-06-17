@@ -1,21 +1,21 @@
 ---
 title: การสร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการสร้างเงินทดรองจ่ายบนสัญญาตามต้องการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการสร้างเงินทดรองจ่ายในสัญญาตามความจำเป็น
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: ee97710a9f0229cef3ff9dbfda6a2f108726df20
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3e450a17990c6fc783ddffdb05e1ab5b9429a3c1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594049"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8922199"
 ---
 # <a name="creating-an-ad-hoc-advance-on-a-contract"></a>การสร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 Microsoft Dynamics 365 Project Operations สนับสนุนสถานการณ์การออกใบแจ้งหนี้ที่เกี่ยวข้องกับการชำระเงินล่วงหน้าและเงินทดรองจ่าย ขั้นตอนการใช้ **เงินทดรองจ่าย** ใน **Project Operations** เหมือนกับสัญญา **ค่าธรรมเนียมล่วงหน้า** 
 

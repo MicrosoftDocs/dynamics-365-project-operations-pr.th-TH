@@ -1,21 +1,21 @@
 ---
 title: คัดลอกโอกาสทางการขายตามโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการคัดลอกโอกาสทางการขายตามโครงการใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการคัดลอกโอกาสทางการขายตามโครงการใน Project Operations
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3ca48125d90ee50c5621780be19bd4ceb2130d2d
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: cc772391de97f4b2de6e9e29f97a6af4d5514319
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577811"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8926155"
 ---
 # <a name="copy-project-based-opportunities"></a>คัดลอกโอกาสทางการขายตามโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 
 สามารถคัดลอกโอกาสทางการขายของโครงการเพื่อสร้างโอกาสทางการขายของโครงการใหม่ได้อย่างง่ายดาย 

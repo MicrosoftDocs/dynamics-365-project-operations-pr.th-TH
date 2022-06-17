@@ -1,6 +1,6 @@
 ---
 title: แดชบอร์ด
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับแดชบอร์ดการรายงานที่รวมอยู่ใน Dynamics 365 Project Service Automation
+description: บทความนี้ให้ข้อมูลเกี่ยวกับแดชบอร์ดการรายงานที่รวมอยู่ใน Dynamics 365 Project Service Automation
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2474318dd720550d08d30945e534afba3cb86a64
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7aebeb412defbe373325c4229773969de8af3d82
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8580295"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919025"
 ---
 # <a name="dashboards"></a>แดชบอร์ด
 

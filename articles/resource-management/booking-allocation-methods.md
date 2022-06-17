@@ -1,6 +1,6 @@
 ---
 title: วิธีการจัดสรรการจอง
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการทำงานของวิธีการจัดสรรการจองใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีที่การจัดสรรการจองทำงานใน Project Operations
 author: ruhercul
 ms.date: 09/23/2020
 ms.topic: article
@@ -15,12 +15,12 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: db3cb98227343465af1cf6a447ec9c5d6bdd13ff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 55bf54ada3150bb42d1d47046ddc7e3a1fd8d192
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583055"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912769"
 ---
 # <a name="booking-allocation-methods"></a>วิธีการจัดสรรการจอง
 

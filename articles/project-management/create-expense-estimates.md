@@ -1,20 +1,20 @@
 ---
 title: ประมาณการทางการเงินสำหรับค่าใช้จ่ายในโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการกำหนดหรือการประเมินค่าใช้จ่ายตามโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการกำหนดหรือการประเมินค่าใช้จ่ายตามโครงการ
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c14dc31d666d0e0d026cf9cddfa1e78dee40f717
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5a29244a65dd88d3ba0f8333a63627bb0c068273
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589496"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8925732"
 ---
 # <a name="financial-estimates-for-expenses-on-projects"></a>ประมาณการทางการเงินสำหรับค่าใช้จ่ายในโครงการ
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 Dynamics 365 Project Operations อนุญาตให้ผู้จัดการโครงการกำหนดค่าใช้จ่ายตามโครงการสำหรับแต่ละโครงการหรืองาน รายการค่าใช้จ่ายแต่ละรายการสามารถเชื่อมโยงกับงานโครงการเฉพาะ ค่าใช้จ่ายแบ่งออกเป็นค่าใช้จ่ายประเภทต่างๆ ซึ่งกำหนดไว้ที่ระดับองค์กร การกำหนดราคาและการคิดต้นทุนสำหรับค่าใช้จ่ายแต่ละประเภทกำหนดไว้ในรายการราคา 
 

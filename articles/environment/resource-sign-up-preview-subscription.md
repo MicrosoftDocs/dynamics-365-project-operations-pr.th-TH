@@ -1,25 +1,25 @@
 ---
-title: ลงทะเบียนการสมัครใช้งานรุ่นพรีวิวของ Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีสมัครใช้งานและปรับใช้งาน Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
+title: ลงทะเบียนการสมัครใช้งานรุ่นพรีวิวของ Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการสมัครใช้งานและปรับใช้ Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
 author: sigitac
 ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9094b6928c5c276a40166ef5d8cb0facb539685b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: fb196a50b4cb9e8533db52414e8536d77a30e425
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575833"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8920129"
 ---
-# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>ลงทะเบียนการสมัครใช้งานรุ่นพรีวิวของ Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
+# <a name="sign-up-for-project-operations-preview-subscriptions-for-resource-non-stocked-scenarios"></a>ลงทะเบียนการสมัครใช้งานรุ่นพรีวิวของ Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
 
 
-หัวข้อนี้อธิบายวิธีสมัครรับข้อเสนอรุ่นทดลองใช้งานและปรับใช้สภาพแวดล้อมของ Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในสต็อก
+บทความนี้อธิบายวิธีการสมัครใช้งานข้อเสนอการทดลองใช้และปรับใช้สภาพแวดล้อม Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 - ผู้ใช้ที่ปรับใช้งานรุ่นพรีวิวต้องมีสิทธิ์ของผู้ดูแลระบบส่วนกลางของลูกค้า Azure คุณสามารถสร้างผู้เช่าได้ในระหว่างการแลกรับข้อเสนอครั้งแรก 
@@ -60,19 +60,19 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="start-a-new-project-in-lcs"></a>เริ่มต้นโครงการใหม่ใน LCS
 
-สร้างโครงการ LCS ใหม่ตามที่อธิบายไว้ในหัวข้อ [เริ่มโครงการใหม่ใน LCS](create-lcs-project.md)
+สร้างโครงการ LCS ใหม่ตามที่อธิบายไว้ในบทความ [เริ่มโครงการใหม่ใน LCS](create-lcs-project.md)
 
 ## <a name="add-an-azure-subscription-to-an-lcs-project"></a>เพิ่มการสมัครใช้งาน Azure ไปยังโครงการ LCS
 
-ทำตามขั้นตอนในหัวข้อ [เพิ่มการสมัครใช้งาน Azure ไปยังโครงการ LCS](resource-add-azure-subscription-lcs-project.md)
+เพื่อให้งานนี้เสร็จสมบูรณ์ ให้ทำตามขั้นตอนในบทความ [เพิ่มการสมัครใช้งาน Azure ไปยังโครงการ LCS](resource-add-azure-subscription-lcs-project.md)
 
-## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>ปรับใช้งานสภาพแวดล้อมสาธิต Finance ด้วย Project Operations สำหรับสถานการณ์ทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง
+## <a name="deploy-finance-demo-environment-with-project-operations-for-resourcenon-stocked-scenarios"></a>ปรับใช้งานสภาพแวดล้อมสาธิต Finance ด้วย Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง
 
-ทำตามคำแนะนำในหัวข้อ [จัดเตรียมสภาพแวดล้อมใหม่](resource-provision-new-environment.md) เพื่อทำให้การปรับใช้งานเสร็จสมบูรณ์ ใช้ชนิดการปรับใช้งาน [สภาพแวดล้อมสาธิต](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) สำหรับพรีวิว 
+ทำตามคำแนะนำในบทความ [จัดเตรียมสภาพแวดล้อมใหม่](resource-provision-new-environment.md) เพื่อดำเนินการปรับใช้ให้เสร็จสิ้น ใช้ชนิดการปรับใช้งาน [สภาพแวดล้อมสาธิต](/dynamics365/fin-ops-core/dev-itpro/deployment/deploy-demo-environment) สำหรับพรีวิว 
 
 ## <a name="install-cds-setup-and-configuration-data"></a>ติดตั้งโปรแกรมตั้งค่า CDS และข้อมูลการกำหนดค่า
 
-ติดตั้งโปรแกรมตั้งค่า CDS และข้อมูลการกำหนดค่าตามที่อธิบายไว้ในหัวข้อ [ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service](resource-apply-pro-setup-config-data.md)
+ติดตั้งข้อมูลการตั้งค่าและการกำหนดค่า CDS ตามที่อธิบายไว้ในบทความ [ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service](resource-apply-pro-setup-config-data.md)
 ทำตามขั้นตอนนี้หลังจากปรับใช้สภาพแวดล้อมสาธิตทางการเงินและข้อมูลสาธิตพร้อมแล้วเท่านั้น
 
 

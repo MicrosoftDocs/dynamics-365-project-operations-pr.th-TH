@@ -1,21 +1,21 @@
 ---
 title: จัดการใบเสนอราคาโครงการ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับใบเสนอราคาโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับใบเสนอราคาโครงการ
 author: rumant
 ms.date: 10/26/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: eab780241953bbabab199e146c94a15e272e35c9
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b9dad9ab9b6cef11ad337f9c3f536fe467b6a347
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579605"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911665"
 ---
 # <a name="manage-project-quotes"></a>จัดการใบเสนอราคาโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ใน Dynamics 365 Project Operations ใบเสนอราคาโครงการออกแบบมาเพื่อช่วยสร้างข้อเสนอสำหรับงานโครงการ โครงสร้างของใบเสนอราคาโครงการใน Project Operations ได้รับการปรับให้เหมาะกับข้อเสนอโครงการโดยมีส่วนประกอบต่อไปนี้:
 

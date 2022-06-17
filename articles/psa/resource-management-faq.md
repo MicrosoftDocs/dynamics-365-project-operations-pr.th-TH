@@ -1,6 +1,6 @@
 ---
 title: คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
-description: หัวข้อนี้แสดงคำตอบของคำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
+description: บทความนี้แสดงคำตอบของคำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: c8ce1edf7d7c535271fa8076befd26f092fbd495
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 6610098737b79d76b38c3d467135b9118c2a8ec7
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587517"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913367"
 ---
 # <a name="resource-management-faq"></a>คำถามที่ถามบ่อยเกี่ยวกับการจัดการทรัพยากร
 

@@ -1,21 +1,21 @@
 ---
 title: ภาพรวมการใช้ประโยชน์ของทรัพยากร
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการใช้ประโยชน์ของทรัพยากรใน Project Operations.
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการใช้ประโยชน์ทรัพยากรใน Project Operations
 author: ruhercul
 ms.date: 11/05/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: e24bbb33cdf34426d4e7fff21b68fcaea2fcef5e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5fbba4c9feaf3b26fba3423e160b09c58e049c70
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587149"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918519"
 ---
 # <a name="resource-utilization-overview"></a>ภาพรวมการใช้ประโยชน์ของทรัพยากร
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ทรัพยากรสามารถมีการใช้ประโยชน์ที่เรียกเก็บเงินได้ของเป้าหมาย การใช้ประโยชน์เป้าหมายนี้ถูกกำหนดเป็นแอตทริบิวต์ในบทบาทเริ่มต้นของทรัพยากร หรือตั้งค่าในเรกคอร์ดของทรัพยากรที่สามารถจองได้แต่ละรายการ การคำนวณการใช้ประโยชน์จะขึ้นอยู่กับชั่วโมงจริงที่ทรัพยากรได้ถูกรายงานโดยใช้รายการเวลาที่ได้รับอนุมัติ
 

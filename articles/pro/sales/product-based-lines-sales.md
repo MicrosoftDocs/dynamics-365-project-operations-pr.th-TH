@@ -1,18 +1,18 @@
 ---
 title: รายการโอกาสทางการขายตามผลิตภัณฑ์ - Lite
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับข้อมูลเกี่ยวกับการแสดงรายการโอกาสทางการขายตามโครงการใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับสินค้าในรายการโอกาสทางการขายตามผลิตภัณฑ์ใน Project Operations
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c669f8154225c5c456de3e3bb84e361aff05bd9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 2e19b371c6e821aecce38d64392db9c027b17106
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8595797"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917139"
 ---
 # <a name="product-based-opportunity-lines---lite"></a>รายการโอกาสทางการขายตามผลิตภัณฑ์ - Lite
 

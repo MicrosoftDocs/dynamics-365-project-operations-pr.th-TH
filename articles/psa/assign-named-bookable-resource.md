@@ -1,6 +1,6 @@
 ---
 title: จองทรัพยากรที่มีชื่อว่าสามารถจองได้ให้ทีมโครงการและมอบหมายงาน
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจองทรัพยากรที่มีชื่อให้กับทีมโครงการและการมอบหมายงาน
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการจองทรัพยากรที่มีชื่อให้กับทีมโครงการและมอบหมายงาน
 author: JohnPBurrows
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: cdbcd84d2277ba1c8e68270d5b1f8ca45c17f05e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 61c9b47088e836c0a9c78477adf891df3d14853b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575373"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919347"
 ---
 # <a name="book-named-bookable-resources-to-a-project-team-and-assign-tasks"></a>จองทรัพยากรที่มีชื่อว่าสามารถจองได้ให้ทีมโครงการและมอบหมายงาน 
 

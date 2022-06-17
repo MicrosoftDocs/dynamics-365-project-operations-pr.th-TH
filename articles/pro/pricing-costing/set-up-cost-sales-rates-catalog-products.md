@@ -1,18 +1,18 @@
 ---
 title: ตั้งค่าอัตราต้นทุนและการขายสำหรับผลิตภัณฑ์ในแค็ตตาล็อก - Lite
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีตั้งค่าต้นทุนและอัตราการขายสำหรับสินค้าในแค็ตตาล็อกผลิตภัณฑ์
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าอัตราต้นทุนและอัตราการขายสำหรับสินค้าในแค็ตตาล็อกผลิตภัณฑ์
 author: rumant
 ms.date: 10/09/2020
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 12e09d99e9832c93c3aea34ec0d4488cdf6b02fa
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4689d6929e24ebaa992232f809a7ec60908ee517
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576845"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8917415"
 ---
 # <a name="set-up-cost-and-sales-rates-for-catalog-products---lite"></a>ตั้งค่าอัตราต้นทุนและการขายสำหรับผลิตภัณฑ์ในแค็ตตาล็อก - Lite
 

@@ -1,21 +1,21 @@
 ---
 title: การแก้ไขราคาต้นทุนสำหรับประมาณการและตามจริง
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการแก้ไขราคาต้นทุนสำหรับการประมาณการและตามจริง
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการแก้ไขราคาต้นทุนสำหรับประมาณการและตามจริง
 author: rumant
 ms.date: 04/09/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 7395a1845f4a895efbabda36ba3b2a2f3c1eea52
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: af17712f0aef4fe3e6e758edd976cc377e90631d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587931"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8919991"
 ---
 # <a name="resolving-cost-prices-for-estimates-and-actuals"></a>การแก้ไขราคาต้นทุนสำหรับประมาณการและตามจริง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 ในการแก้ไขราคาต้นทุนและรายการราคาต้นทุนสำหรับการประมาณการและตามจริง ระบบจะใช้ข้อมูลในฟิลด์ **วันที่** **สกุลเงิน** และ **หน่วยที่ทำสัญญา** ของโครงการที่เกี่ยวข้อง หลังจากแก้ไขรายการราคาต้นทุนแล้ว แอปพลิเคชันจะแก้ไขอัตราต้นทุน
 

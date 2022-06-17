@@ -1,25 +1,25 @@
 ---
 title: ปรับใช้แอป Project Operations Dataverse พร้อมการรองรับการรวมแบบสองทิศทาง
-description: หัวข้อนี้อธิบายวิธีปรับใช้แอป Project Operations Dataverse ด้วยตนเองเพื่อรองรับการรวมแบบสองทิศทาง
+description: บทความนี้อธิบายวิธีการปรับใช้แอป Project Operations Dataverse ด้วยตนเองเพื่อให้รองรับการรวมแบบสองทิศทาง
 author: stsporen
 ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: b82eef7b5f64705f37f224172c14f6734612329e
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591243"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8912033"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>ปรับใช้แอป Project Operations Dataverse พร้อมการรองรับการรวมแบบสองทิศทาง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
-หัวข้อนี้อธิบายวิธีปรับใช้ Microsoft Dynamics 365 Project Operations ใน Microsoft Dataverse ด้วยตนเองเพื่อรองรับการรวมแบบสองทิศทาง Project Operations ตรวจพบการกำหนดค่าของสภาพแวดล้อมและเพิ่มการสนับสนุนเพิ่มเติมสำหรับการรวมแบบสองทิศทางหากตรงตามข้อกำหนดเบื้องต้น
+บทความนี้อธิบายวิธีการปรับใช้แอป Microsoft Dynamics 365 Project Operations ใน Microsoft Dataverse ด้วยตนเองเพื่อให้รองรับการรวมแบบสองทิศทาง Project Operations ตรวจพบการกำหนดค่าของสภาพแวดล้อมและเพิ่มการสนับสนุนเพิ่มเติมสำหรับการรวมแบบสองทิศทางหากตรงตามข้อกำหนดเบื้องต้น
 
-ในระหว่างการปรับใช้งานผ่าน Microsoft Dynamics Lifecycle Services (LCS) หากคุณได้ปฏิบัติตามคำแนะนำในหัวข้อนี้ คุณสามารถข้ามการปรับใช้งานของการรวม Microsoft Power Platform ได้ (เดิมเรียกว่าสภาพแวดล้อม Common Data Service)
+ระหว่างการใช้ผ่าน Microsoft Dynamics Lifecycle Services (LCS) หากคุณปฏิบัติตามคำแนะนำในบทความนี้ คุณสามารถข้ามการปรับใช้การรวม Microsoft Power Platform (ที่เดิมเรียกว่าสภาพแวดล้อม Common Data Service)
 
 กระบวนการปรับใช้งาน Project Operations ใน Dataverse เพื่อให้รองรับการรวมแบบสองทิศทางมีสี่ขั้นตอนหลัก:
 

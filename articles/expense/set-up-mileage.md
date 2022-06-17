@@ -1,21 +1,21 @@
 ---
 title: ตั้งค่าระยะทางโดยใช้ระดับอัตราระยะทางสะสม
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับอัตราระยะทางสะสมและระดับอัตราระยะทางสะสม
+description: บทความนี้ให้ข้อมูลเกี่ยวกับอัตราระยะทางสะสมและระดับอัตราระยะทางสะสม
 author: suvaidya
 ms.date: 05/20/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: suvaidya
-ms.openlocfilehash: 04dc6d0f2d8c7439012368ab6f46a1f69cb02804
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 03ca18c8fef6228f2ba553ebe50447beda5a857c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576983"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930157"
 ---
 # <a name="set-up-mileage-using-mileage-rate-tiers"></a>ตั้งค่าระยะทางโดยใช้ระดับอัตราระยะทางสะสม
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 เมื่อมีการรายงานค่าใช้จ่ายและประเภทค่าใช้จ่ายที่เลือกคือ **ระยะทาง** จำนวนเงินสำหรับรายการค่าใช้จ่ายนั้นคำนวณตามจำนวน *อัตราต่อระยะทาง* จำนวนนี้จะกำหนดโดยใช้ระดับระยะทางที่กำหนดไว้ หรือหากไม่มีการตั้งค่าระดับของอัตราระยะทางสะสม ให้เป็นไปตามอัตรามาตรฐานของระยะทางสะสม 
 

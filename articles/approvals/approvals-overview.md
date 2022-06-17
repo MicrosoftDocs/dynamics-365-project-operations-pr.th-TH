@@ -1,21 +1,21 @@
 ---
 title: ภาพรวมการอนุมัติ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการทำงานกับการอนุมัติใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการทำงานกับการอนุมัติใน Project Operations
 author: stsporen
 ms.date: 03/31/2021
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: 735cd820011a4badb83dbf6540ffe9c49f960ca1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d5b5c93dc948992505054ef7b17579aafcdf8f8d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8576201"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924729"
 ---
 # <a name="approvals-overview"></a>ภาพรวมการอนุมัติ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 การส่งเวลา ค่าใช้จ่าย และการใช้วัสดุจะเลื่อนผ่านเวิร์กโฟลว์การอนุมัติ หลังจากรายการได้รับการอนุมัติ จะมีการบันทึกการทำรายการในข้อมูลจริงหรือมีการจองเวลาไว้ในตาราง
 

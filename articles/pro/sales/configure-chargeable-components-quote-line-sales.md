@@ -1,21 +1,21 @@
 ---
-title: กำหนดค่าส่วนประกอบที่คิดค่าธรรมเนียมได้ของรายการใบเสนอราคา
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าส่วนประกอบที่คิดค่าธรรมเนียมได้และไม่ได้ในรายการใบเสนอราคาตามโครงการ
+title: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินของรายการใบเสนอราคา
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าส่วนประกอบที่เรียกเก็บเงินได้และไม่สามารถเรียกเก็บเงินได้ในรายการใบเสนอราคาตามโครงการ
 author: rumant
 ms.date: 03/30/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 3c9bd23f4e78e3ea5ae8f74ff1a4829a11f91929
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: d4829055f429546c7911a05a765bc28ae085afa1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8598419"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8930065"
 ---
 # <a name="configure-the-chargeable-components-of-a-quote-line"></a>กำหนดค่าส่วนประกอบที่เรียกเก็บเงินของรายการใบเสนอราคา 
 
-_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 รายการใบเสนอราคาตามโครงการมีแนวคิดส่วนประกอบ *รวม* และส่วนประกอบ *คิดค่าธรรมเนียมได้*
 

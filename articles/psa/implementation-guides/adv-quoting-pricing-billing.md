@@ -1,6 +1,6 @@
 ---
 title: การเสนอราคา การกำหนดราคา และการเรียกเก็บเงินขั้นสูง
-description: หัวข้อนี้จะแสดงข้อมูลเกี่ยวกับการเสนอราคา การเรียกเก็บเงิน และการกำหนดราคาใน Project Service Automation
+description: บทความนี้จะแสดงข้อมูลเกี่ยวกับการเสนอราคา การเรียกเก็บเงิน และการกำหนดราคาใน Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 54047f34d950fc79e510bfe0d6601e271c02a92c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 8106a18fefc34141fdc5d350c60e87ec4b2a4c1d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579375"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921831"
 ---
 # <a name="advanced-quoting-pricing-and-billing-guide"></a>คู่มือการเสนอราคาขั้นสูง การกำหนดราคา และการเรียกเก็บเงิน
 
@@ -32,12 +32,12 @@ ms.locfileid: "8579375"
 
 ความสามารถในการค้นหาทรัพยากรที่ถูกต้องในเวลาที่เหมาะสม จองทรัพยากรเหล่านั้นในโครงการ และเก็บทรัพยากรที่ใช้ ช่วยให้องค์กรบรรลุเป้าหมายรายได้และเป้าหมายความพึงพอใจของลูกค้า 
 
-การเชื่อมโยง PDF ที่ก่อนหน้านี้ในหัวข้อนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังหัวข้อต่อไปนี้:
+การเชื่อมโยง PDF ที่ก่อนหน้านี้ในบทความนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังบทความต่อไปนี้:
 
 - [การเสนอราคา การกำหนดราคา และการเรียกเก็บเงิน](../quote-bill-price.md)
 - [กระบวนการขาย](../basic-sales-process.md)
-- [ใบเสนอราคาและบรรทัดใบเสนอราคา](../basic-quote-lines.md)
-- [บรรทัดใบเสนอราคาตามโผลิตภัณฑ์](../product-based-quote-lines.md)
+- [ใบเสนอราคาและรายการใบเสนอราคา](../basic-quote-lines.md)
+- [รายการใบเสนอราคาตามผลิตภัณฑ์](../product-based-quote-lines.md)
 - [การกำหนดราคา](../basic-pricing.md)
 - [การกำหนดราคาแค็ตตาล็อกผลิตภัณฑ์](../product-catalog-pricing.md)
 - [ธุรกรรมทางธุรกิจ](../basic-business-transactions.md)
@@ -50,7 +50,7 @@ ms.locfileid: "8579375"
 - [ค่าจริงของการบันทึก](../advanced-actuals.md)
 
 > [!NOTE]
-> หัวข้อนี้จะถูกเอาออกในการปรับปรุงเอกสารในอนาคต 
+> บทความนี้จะถูกเอาออกในการปรับปรุงคู่มือในอนาคต 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]

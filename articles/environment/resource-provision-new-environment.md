@@ -1,18 +1,18 @@
 ---
 title: เตรียมใช้งานสภาพแวดล้อมใหม่
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานสภาพแวดล้อม Project Operations ของคุณ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานสภาพแวดล้อม Project Operations ใหม่
 author: sigitac
 ms.date: 09/13/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 03626cb1579fad7f8d8eb501905056cd13092754
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 9cc3dafd6a2b6f92b585643c5d43ab52a3faf59e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594877"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931629"
 ---
 # <a name="provision-a-new-environment"></a>เตรียมใช้งานสภาพแวดล้อมใหม่
 
@@ -20,7 +20,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานสภาพแวดล้อม Dynamics 365 Project Operations ใหม่สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง
+บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการเตรียมใช้งานสภาพแวดล้อม Dynamics 365 Project Operations ใหม่สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง
 
 ## <a name="enable-project-operations-automated-provisioning-in-an-lcs-project"></a>เปิดใช้งานการเตรียมใช้งานอัตโนมัติของ Project Operations ในโครงการ LCS
 
@@ -113,7 +113,7 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 
     ![เชื่อมโยงไปยัง CDS](./media/12LinktoCDS.png)
 
-4. เลือก **ใช้โซลูชัน** เพื่อเข้าถึงเอนทิตีที่จะถูกแม็ปในการรวม
+4. เลือก **ใช้โซลูชัน** เพื่อเข้าถึงเอนทิตีที่จะถูกแมปในการรวม
 
     ![ใช้โซลูชัน](./media/13ApplySolutions.png)
 
@@ -125,7 +125,7 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 
     ![การใช้โซลูชัน](./media/15ApplyingSolutions.png)
 
-    หลังจากใช้เอนทิตีแล้ว การแม็ปที่มีอยู่ทั้งหมดจะแสดงรายการในสภาพแวดล้อม
+    หลังจากใช้เอนทิตีแล้ว การแมปที่มีอยู่ทั้งหมดจะแสดงรายการในสภาพแวดล้อม
 
     ![แผนที่การรวมแบบสองทิศทาง](./media/15DWMappings.png)
 
@@ -164,12 +164,12 @@ Project Operations ต้องการสภาพแวดล้อม Financ
 5. หลังจากปรับปรุงบทบาทความปลอดภัยแล้ว ให้ไปที่ **การตั้งค่า** > **ความปลอดภัย** > **กลุ่มคน** และเลือกกลุ่มคนเริ่มต้นในมุมมองของกลุ่มคน **เจ้าของธุรกิจในพื้นที่**
 6. เลือก **จัดการบทบาท** และตรวจสอบว่าสิทธิ์ความปลอดภัย **ผู้ใช้แอปการรวมแบบสองทิศทาง** ถูกนำไปใช้กับกลุ่มคนนี้
 
-## <a name="run-project-operations-dual-write-maps"></a>เรียกใช้การแม็ปการรวมแบบสองทิศทางของ Project Operations
+## <a name="run-project-operations-dual-write-maps"></a>เรียกใช้การแมปการรวมแบบสองทิศทางของ Project Operations
 
 1. ในโครงการ LCS ของคุณ ไปที่เพจ **รายละเอียดสภาพแวดล้อม**
-2. ภายใต้ **ข้อมูลสภาพแวดล้อม Common Data Service** เลือก **ลิงก์ไปยัง CDS สำหรับแอป** หลังจากคุณเลือกลิงก์ คุณจะได้รับการเปลี่ยนเส้นทางไปยังรายการเอนทิตีในการแม็ป
-3. เริ่มต้นการแม็ป ดูข้อมูลเพิ่มเติมได้ที่ [เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations](resource-dual-write-maps.md#project-operations-dual-write-maps)
-4. ตรวจสอบว่าการแม็ปที่เกี่ยวข้องกับโครงการทั้งหมดอยู่ในสถานะกำลังทำงาน
+2. ภายใต้ **ข้อมูลสภาพแวดล้อม Common Data Service** เลือก **ลิงก์ไปยัง CDS สำหรับแอป** หลังจากคุณเลือกลิงก์ คุณจะได้รับการเปลี่ยนเส้นทางไปยังรายการเอนทิตีในการแมป
+3. เริ่มต้นการแมป ดูข้อมูลเพิ่มเติมได้ที่ [เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations](resource-dual-write-maps.md#project-operations-dual-write-maps)
+4. ตรวจสอบว่าการแมปที่เกี่ยวข้องกับโครงการทั้งหมดอยู่ในสถานะกำลังทำงาน
 
     ![การเรียกใช้แผนที่ทั้งหมด](./media/22AllMapsRunning.png)
 

@@ -1,21 +1,21 @@
 ---
 title: แนวคิดหลักในการจัดการทรัพยากร
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับความสามารถในการจัดการทรัพยากรใน Microsoft Dynamics Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับความสามารถในการจัดการทรัพยากรใน Microsoft Dynamics Project Operations
 author: ruhercul
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: dc9505543f461bb0e275a4dec462675c5e3848b7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3d780484420e409488b7eb57a8bb4977316a7c81
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588575"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8915621"
 ---
 # <a name="resource-management-key-concepts"></a>แนวคิดหลักในการจัดการทรัพยากร
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ทรัพยากรเป็นสินทรัพย์ที่สำคัญที่สุดขององค์กรที่ใช้การบริการ ความสามารถในการค้นหาทรัพยากรที่ถูกต้องในเวลาที่เหมาะสม จองทรัพยากรเหล่านั้นในโครงการ และใช้ทรัพยากร และช่วยให้องค์กรบรรลุเป้าหมายรายได้ และเป้าหมายความพึงพอใจของลูกค้า คุณสามารถใช้ฟังก์ชันการจัดเตรียมทรัพยากรโครงการใน Dynamics 365 Project Operations เพื่อทำงานต่างๆ ต่อไปนี้:
 

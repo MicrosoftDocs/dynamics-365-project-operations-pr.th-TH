@@ -1,6 +1,6 @@
 ---
 title: หน่วยนับและกลุ่มของหน่วยนับ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีสร้างหน่วยนับและกลุ่มของหน่วยนับใน Dynamics 365 Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างหน่วยและกลุ่มของหน่วยนับใน Dynamics 365 Project Operations
 author: rumant
 ms.date: 09/18/2020
 ms.topic: article
@@ -15,20 +15,20 @@ ms.search.industry: Service industries
 ms.author: suvaidya
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: e0e1339c8fccb52b7471dc49a19be4dfc37be605
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: a46b7d182d3d7fc77c1275c108f5dc569ffebff1
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578455"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921463"
 ---
 # <a name="units-and-unit-groups"></a>หน่วยนับและกลุ่มของหน่วยนับ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 หน่วยคือปริมาณหรือการวัดที่คุณขายผลิตภัณฑ์หรือการบริการของคุณ ตัวอย่างเช่น ถ้าคุณขายวัสดุอุปกรณ์ทำสวน คุณอาจขายเมล็ดพืชในหน่วยของห่อ กล่อง และแท่นวางสินค้า กลุ่มของหน่วยนับคือคอลเลกชันของหน่วยต่างๆ
 
-การทำตามขั้นตอนในหัวข้อนี้ ตรวจสอบให้แน่ใจว่าคุณได้รับมอบหมายบบทบาท System Administrator หรือ Sales Professional Manager หรือมีสิทธิ์เทียบเท่า
+เพื่อทำตามกระบวนการในบทความนี้ให้เสร็จสมบูรณ์ ตรวจสอบให้แน่ใจว่าคุณได้รับการกำหนดบทบาทเป็นผู้ดูแลระบบหรือผู้จัดการฝ่ายขายหรือมีสิทธิ์เทียบเท่า
 
 ## <a name="create-a-unit-group"></a>การสร้างกลุ่มของหน่วยนับ
 

@@ -1,21 +1,21 @@
 ---
 title: คัดลอกรายการราคา
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการคัดลอกรายการราคาใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการคัดลอกรายการราคาใน Project Operations
 author: rumant
 ms.date: 10/13/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e5d6e46af2eef47246b677494fd3503c838560d1
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 3fce3a362fe6326e362c3f77054c10281a9c146c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8587977"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8921187"
 ---
 # <a name="copy-price-lists"></a>คัดลอกรายการราคา
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 คุณสามารถสร้างสำเนาของรายการราคาใน Dynamics 365 Project Operations ได้ ตัวอย่างเช่น คุณสามารถสร้างรายการราคาสำหรับปีที่กำลังจะมาถึงโดยใช้รายการราคาจากปีปัจจุบัน  หรือคุณอาจคัดลอกรายการราคาสำหรับอัตราการเรียกเก็บเงินและราคาขายจากรายการราคาสำหรับต้นทุน 
 

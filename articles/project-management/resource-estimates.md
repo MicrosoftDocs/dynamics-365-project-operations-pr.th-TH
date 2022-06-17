@@ -1,21 +1,21 @@
 ---
 title: ประมาณการทางการเงินสำหรับเวลาของทรัพยากรในโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีคำนวณประมาณการทางการเงินสำหรับเวลา
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการคำนวณประมาณการทางการเงินสำหรับเวลา
 author: rumant
 ms.date: 03/19/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: aab5c11a7dc23331c935403a4f96ec7197ec1572
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 03416feb178d883bba57dc14692049503b151ffd
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8592577"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913551"
 ---
 # <a name="financial-estimates-for-resource-time-on-projects"></a>ประมาณการทางการเงินสำหรับเวลาของทรัพยากรในโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ประมาณการทางการเงินสำหรับเวลามีการคำนวณจากปัจจัยสามประการ: 
 

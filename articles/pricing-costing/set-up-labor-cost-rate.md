@@ -1,21 +1,21 @@
 ---
 title: กำหนดอัตราต้นทุนแรงงาน
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าอัตราสำหรับ Project Operations ของต้นทุนของแรงงาน
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการตั้งค่าอัตราสำหรับต้นทุนแรงงานใน Project Operations
 author: rumant
 ms.date: 10/12/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 96c74195209641f31e84af9159241123559fab17
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 5216c0af29eb33ce664857b1f42b4a3130f02c50
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8588529"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8924269"
 ---
 # <a name="set-up-labor-cost-rates"></a>กำหนดอัตราต้นทุนแรงงาน
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 
 รายการราคาแต่ละรายการจะมีชุดของอัตราแรงงาน (ราคาตามบทบาท) ที่สอดคล้องกับเนื้อหาและวันที่ที่มีผลบังคับใช้ของรายการราคา

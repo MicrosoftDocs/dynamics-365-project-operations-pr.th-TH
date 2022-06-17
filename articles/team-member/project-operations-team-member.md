@@ -1,6 +1,6 @@
 ---
 title: แอปสมาชิกทีม Project Operations
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับแอปสมาชิกทีม Project Operations ใน Microsoft Dynamics 365 Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับแอปสมาชิกทีม Project Operations ใน Microsoft Dynamics 365 Project Operations
 author: stsporen
 ms.date: 04/20/2022
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: stsporen
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: d87d532d114b7c6055f3cbe5d5ec70b3e7bc643f
-ms.sourcegitcommit: 4524cbab47ceb54dce62e055b0e05956216a14cb
+ms.openlocfilehash: 90ea1d13e263934c6dafb5c7f81699a021683ce6
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/29/2022
-ms.locfileid: "8657566"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918243"
 ---
 # <a name="project-operations-team-member-app"></a>แอปสมาชิกทีม Project Operations
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 แอปสมาชิกทีม Project Operations (เดิมเรียกว่า ฮับทรัพยากรโครงการ) มีความสามารถทั้งหมดที่ Microsoft Dynamics 365 Project Operations เสนอให้กับสิทธิ์การใช้งานของผู้ใช้ที่เป็นสมาชิกทีม
 

@@ -1,6 +1,6 @@
 ---
 title: โฮมเพจการจัดการทรัพยากร
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการจัดการทรัพยากร
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการจัดการทรัพยากร
 author: ruhercul
 ms.custom:
 - dyn365-projectservice
@@ -18,12 +18,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 1d909b0cb3530b5f1a829983d2d4737d81bf0d1b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: bf61922ab185a4a5589b9aa9247ab93909ce169b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578777"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8913275"
 ---
 # <a name="resource-management-home-page"></a>โฮมเพจการจัดการทรัพยากร
 
@@ -31,7 +31,7 @@ ms.locfileid: "8578777"
 
 [!INCLUDE[cc-applies-to-psa-app-3.x](../includes/cc-applies-to-psa-app-3x.md)]
 
-ทรัพยากรเป็นสินทรัพย์ที่สำคัญที่สุดขององค์กรที่ใช้การบริการ ความสามารถในการค้นหาและจองทรัพยากรที่ถูกต้องเมื่อคุณต้องการทรัพยากรเหล่านี้และเพื่อใช้ทรัพยากร ช่วยให้องค์กรบรรลุเป้าหมายรายได้ และเป้าหมายความพึงพอใจของลูกค้า หัวข้อต่อไปนี้จะมุ่งเน้นไปที่ความสามารถในการจัดการทรัพยากรของ Dynamics 365 Project Service Automation:
+ทรัพยากรเป็นสินทรัพย์ที่สำคัญที่สุดขององค์กรที่ใช้การบริการ ความสามารถในการค้นหาและจองทรัพยากรที่ถูกต้องเมื่อคุณต้องการทรัพยากรเหล่านี้และเพื่อใช้ทรัพยากร ช่วยให้องค์กรบรรลุเป้าหมายรายได้ และเป้าหมายความพึงพอใจของลูกค้า บทความต่อไปนี้จะมุ่งเน้นไปที่ความสามารถในการจัดการทรัพยากรของ Dynamics 365 Project Service Automation:
 
 - [จัดการทรัพยากร](manage-resources.md)
 - [แนวคิดหลัก](reports-key-concepts.md)

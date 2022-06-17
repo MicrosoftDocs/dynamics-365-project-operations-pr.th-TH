@@ -1,24 +1,24 @@
 ---
-title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนกันยายน 2021 สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่พร้อมใช้งานใน Project Operations ประจำเดือนกันยายน 2021 สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่เก็บในคลัง
+title: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนกันยายน 2021 สำหรับสถานการณ์เก็บในคลัง/ตามการผลิต
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่มีอยู่ใน Project Operations ประจำเดือนกันยายน 2021 สำหรับสถานการณ์ตามทรัพยากร/เก็บในคลัง
 author: andchoi
 ms.date: 11/11/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: andchoi
-ms.openlocfilehash: 24de8626199a3ed56bb6703b78d746ff7a43a089
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 1e99471b4338209c1f7fe411084d1745d74b2d2c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8582043"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8916541"
 ---
-# <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนกันยายน 2021 สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+# <a name="whats-new-or-changed-in-project-operations-september-2021-for-stockedproduction-based-scenarios"></a>มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Operations เดือนกันยายน 2021 สำหรับสถานการณ์เก็บในคลัง/ตามการผลิต
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์เก็บในคลัง/ตามการผลิต_
 
-หัวข้อนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
+บทความนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
 
 - การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.21
  

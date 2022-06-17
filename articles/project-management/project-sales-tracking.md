@@ -1,21 +1,21 @@
 ---
 title: การติดตามการขายของโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีที่ Project Operations ติดตามความคืบหน้าเทียบกับรายได้ต่อแรงงานในโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีที่ Project Operations ติดตามความคืบหน้าเทียบกับรายได้จากแรงงานในโครงการ
 author: rumant
 ms.date: 03/24/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: fff5fa6b12dddd780eb6bf77edca85a3a0c0629c
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ce61acf95ee5e9ac10047406c9d4a5c9b1f92aad
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8583469"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8911297"
 ---
 # <a name="project-sales-tracking"></a>การติดตามการขายของโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 Dynamics 365 Project Operations ติดตามประมาณการแรงงานและรายได้ในระดับรายละเอียดที่จำเป็นส่วนที่เล็กที่สุดในแผนโครงการ ประมาณการของรายได้ต่อแรงงานขึ้นอยู่กับกำลังคนตามแผนและทรัพยากรทั่วไปหรือทรัพยากรที่ระบุชื่อที่กำหนดให้กับงานโหนดปลายสุดแต่ละงานในแผนโครงการ เมื่อโครงการเริ่มต้นขึ้นและบุคคลเริ่มรายงานเวลาเกี่ยวกับงานโครงการต่างๆ จะมีการสรุปรายได้จริงของแรงงานซึ่งจะเริ่มต้นการคำนวณของการวางแผน
 

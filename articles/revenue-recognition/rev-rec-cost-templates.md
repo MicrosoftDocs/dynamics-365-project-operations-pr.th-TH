@@ -1,24 +1,24 @@
 ---
 title: ตั้งค่าแม่แบบต้นทุน
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างและใช้แม่แบบต้นทุนใน Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างและใช้เทมเพลตต้นทุนใน Project Operations
 author: sigitac
 ms.date: 11/18/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 9e163dc3180d2b35ddf9b15aa0577bf51e3b72ce
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ffb45d46cf1305fffd5933f4c10b169bf802046d
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8594233"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8918427"
 ---
 # <a name="set-up-cost-templates"></a>ตั้งค่าแม่แบบต้นทุน
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
 
 
-หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างและใช้แม่แบบต้นทุนใน Project Operations แม่แบบต้นทุนกำหนด:
+บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการสร้างและใช้เทมเพลตต้นทุนใน Project Operations แม่แบบต้นทุนกำหนด:
 
 - ประเภทโครงการสำหรับธุรกรรมการคาดการณ์และจริงที่จะรวมอยู่ในเปอร์เซ็นต์ของการคำนวณความสำเร็จของโครงการ จากนั้นค่าเปอร์เซ็นต์ที่สมบูรณ์จะถูกใช้เพื่อคำนวณว่ารายได้รับรู้ได้เท่าใด
 - เปอร์เซ็นต์ความสำเร็จสามารถแก้ไขได้หรือไม่หากคำนวณโดยอัตโนมัติ
