@@ -1,21 +1,21 @@
 ---
 title: จัดการใบแจ้งหนี้ตามโครงการชั่วคราว
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีการจัดการและทำงานกับใบแจ้งหนี้ตามโครงการชั่วคราว
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีจัดการและทำงานกับใบแจ้งหนี้ตามโครงการชั่วคราว
 author: rumant
 ms.date: 04/05/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c61b0d887ae35988f1765d40de0447aa5fd7efd4
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 31822947a4fbb60218ce1c3c9415a60491f6d8fa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8593773"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8932135"
 ---
 # <a name="manage-a-proforma-project-based-invoice"></a>จัดการใบแจ้งหนี้ตามโครงการชั่วคราว
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 ใน Dynamics 365 Project Operations ใบแจ้งหนี้ชั่วคราวถูกสร้างขึ้นเพื่อเป็นส่วนขยายของใบแจ้งหนี้ใน Dynamics 365 Sales อย่างไรก็ตาม มีความแตกต่างหลายประการในกระบวนการออกใบแจ้งหนี้ระหว่าง Sales และ Project Operations เมื่อพูดถึงการออกใบแจ้งหนี้ ตัวอย่างเช่น ไม่สามารถสร้างใบแจ้งหนี้ใหม่จากหน้า **รายการใบแจ้งหนี้** ใน Project Operations แต่สามารถทำได้ใน Sales ความแตกต่างและส่วนขยายเหล่านี้มีไว้เพื่อรองรับกระบวนการออกใบแจ้งหนี้สำหรับโครงการที่แตกต่างจากใบแจ้งหนี้ทั่วไปสำหรับใบสั่งขาย
 

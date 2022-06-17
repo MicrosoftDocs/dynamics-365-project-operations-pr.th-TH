@@ -1,6 +1,6 @@
 ---
 title: ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance
-description: หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
+description: บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 author: Yowelle
 ms.date: 12/17/2020
 ms.topic: article
@@ -14,12 +14,12 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2017-12-13
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 92ebdd864c59168d6f4a4540c6915d6b0dc8a1fb
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 62a24f3af823d474cbb4d63f8d079c708256a75e
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684665"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933883"
 ---
 # <a name="synchronize-project-contracts-and-projects-directly-from-project-service-automation-to-finance"></a>ซิงโครไนซ์สัญญาโครงการและโครงการโดยตรงจาก Project Service Automation ไปยัง Finance 
 
@@ -27,7 +27,7 @@ ms.locfileid: "8684665"
 
 
 
-หัวข้อนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
+บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์สัญญาโครงการและโครงการโดยตรงจาก Dynamics 365 Project Service Automation ไปยัง Dynamics 365 Finance
 
 > [!NOTE] 
 > หากคุณใช้ Enterprise edition รุ่น 7.3.0 คุณต้องติดตั้ง KB 4074835
@@ -103,13 +103,13 @@ ms.locfileid: "8684665"
 
 เมื่อใช้โซลูชันการรวม Project Service Automation กับ Finance สคริปต์อัปเกรดจะตั้งค่าฟิลด์ **รหัสสัญญาโครงการ** สำหรับสัญญาโครงการที่มีอยู่และฟิลด์ **หมายเลขโครงการ** สำหรับโครงการที่มีอยู่ใน Project Service Automation
 
-## <a name="prerequisites-and-mapping-setup"></a>ข้อกำหนดเบื้องต้นและการตั้งค่าการแม็ป
+## <a name="prerequisites-and-mapping-setup"></a>ข้อกำหนดเบื้องต้นและการตั้งค่าการแมป
 
 - ก่อนที่จะเกิดการซิงโครไนซ์สัญญาโครงการและโครงการ คุณต้องซิงโครไนซ์บัญชี
-- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์การรวมสำหรับ **msdyn\_organizationalunits** ไปยัง **msdyn\_name \[ชื่อ\]** ก่อนอื่นคุณอาจต้องเพิ่มโครงการลงในชุดการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม โปรดดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](/powerapps/administrator/data-integrator)
-- ในชุดการเชื่อมต่อของคุณ เพิ่มการแม็ปฟิลด์คีย์การรวมสำหรับ **msdyn\_projects** ไปยัง **msdynce\_projectnumber \[หมายเลขโครงการ\]** ก่อนอื่นคุณอาจต้องเพิ่มโครงการลงในชุดการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม โปรดดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](/powerapps/administrator/data-integrator)
-- **SourceDataID** สำหรับสัญญาโครงการและโครงการสามารถอัปเดตเป็นค่าอื่นหรือลบออกจากการแม็ป ค่าแม่แบบเริ่มต้นคือ **Project Service Automation**
-- การแม็ป **เงื่อนไขการชำระเงิน** ต้องอัปเดตเพื่อให้แสดงเงื่อนไขการชำระเงินที่ถูกต้องใน Finance คุณยังสามารถลบการแม็ปออกจากงานโครงการได้ แม็ปค่าเริ่มต้นมีค่าเริ่มต้นสำหรับข้อมูลสาธิต ตารางต่อไปนี้แสดงค่าใน Project Service Automation
+- ในชุดการเชื่อมต่อของคุณ เพิ่มการแมปฟิลด์คีย์การรวมสำหรับ **msdyn\_organizationalunits** ไปยัง **msdyn\_name \[ชื่อ\]** ก่อนอื่นคุณอาจต้องเพิ่มโครงการลงในชุดการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม โปรดดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](/powerapps/administrator/data-integrator)
+- ในชุดการเชื่อมต่อของคุณ เพิ่มการแมปฟิลด์คีย์การรวมสำหรับ **msdyn\_projects** ไปยัง **msdynce\_projectnumber \[หมายเลขโครงการ\]** ก่อนอื่นคุณอาจต้องเพิ่มโครงการลงในชุดการเชื่อมต่อ สำหรับข้อมูลเพิ่มเติม โปรดดู [รวมข้อมูลลงใน Common Data Service สำหรับแอป](/powerapps/administrator/data-integrator)
+- **SourceDataID** สำหรับสัญญาโครงการและโครงการสามารถอัปเดตเป็นค่าอื่นหรือลบออกจากการแมป ค่าแม่แบบเริ่มต้นคือ **Project Service Automation**
+- การแมป **เงื่อนไขการชำระเงิน** ต้องอัปเดตเพื่อให้แสดงเงื่อนไขการชำระเงินที่ถูกต้องใน Finance คุณยังสามารถลบการแมปออกจากงานโครงการได้ แมปค่าเริ่มต้นมีค่าเริ่มต้นสำหรับข้อมูลสาธิต ตารางต่อไปนี้แสดงค่าใน Project Service Automation
 
     | มูลค่า | Description   |
     |-------|---------------|
@@ -123,33 +123,33 @@ ms.locfileid: "8684665"
 ใช้ Microsoft Power Query for Excel เพื่อกรองข้อมูล ถ้าเป็นไปตามเงื่อนไขต่อไปนี้:
 
 - คุณมีใบสั่งขายใน Dynamics 365 Sales
-- คุณมีหน่วยขององค์กรหลายหน่วยใน Project Service Automation และหน่วยขององค์กรเหล่านี้จะถูกแม็ปกับนิติบุคคลหลายแห่งใน Finance
+- คุณมีหน่วยขององค์กรหลายหน่วยใน Project Service Automation และหน่วยขององค์กรเหล่านี้จะถูกแมปกับนิติบุคคลหลายแห่งใน Finance
 
 ถ้าคุณต้องใช้ Power Query ให้ทำตามคำแนะนำเหล่านี้:
 
-- แม่แบบโครงการและสัญญา (PSA กับ Fin and Ops) มีตัวกรองเริ่มต้นที่รวมเฉพาะใบสั่งขายของประเภท **รายการงาน (msdyn\_ordertype = 192350001)** ตัวกรองนี้ช่วยรับประกันว่าไม่ได้สร้างสัญญาโครงการสำหรับใบสั่งขายใน Finance หากคุณสร้างแม่แบบของคุณเอง คุณต้องเพิ่มตัวกรองนี้
-- สร้างตัวกรอง Power Query ที่รวมเฉพาะองค์กรในสัญญาที่ควรถูกซิงโครไนส์กับนิติบุคคลของชุดการเชื่อมต่อแบบรวม ตัวอย่างเช่น สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso US ควรซิงโครไนซ์กับนิติบุคคล USSI แต่สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso Global ควรซิงโครไนซ์กับนิติบุคคลของ USMF หากคุณไม่เพิ่มตัวกรองนี้ในการแม็ปงานของคุณ สัญญาโครงการทั้งหมดจะซิงโครไนซ์กับนิติบุคคลที่กำหนดไว้สำหรับชุดการเชื่อมต่อ โดยไม่คำนึงถึงหน่วยขององค์กรตามสัญญา
+- เทมเพลตโครงการและสัญญา (PSA กับ Fin and Ops) มีตัวกรองเริ่มต้นที่รวมเฉพาะใบสั่งขายของประเภท **รายการงาน (msdyn\_ordertype = 192350001)** ตัวกรองนี้ช่วยรับประกันว่าไม่ได้สร้างสัญญาโครงการสำหรับใบสั่งขายใน Finance หากคุณสร้างแม่แบบของคุณเอง คุณต้องเพิ่มตัวกรองนี้
+- สร้างตัวกรอง Power Query ที่รวมเฉพาะองค์กรในสัญญาที่ควรถูกซิงโครไนส์กับนิติบุคคลของชุดการเชื่อมต่อแบบรวม ตัวอย่างเช่น สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso US ควรซิงโครไนซ์กับนิติบุคคล USSI แต่สัญญาโครงการที่คุณมีกับหน่วยองค์กรตามสัญญาของ Contoso Global ควรซิงโครไนซ์กับนิติบุคคลของ USMF หากคุณไม่เพิ่มตัวกรองนี้ในการแมปงานของคุณ สัญญาโครงการทั้งหมดจะซิงโครไนซ์กับนิติบุคคลที่กำหนดไว้สำหรับชุดการเชื่อมต่อ โดยไม่คำนึงถึงหน่วยขององค์กรตามสัญญา
 
-## <a name="template-mapping-in-data-integration"></a>การแม็ปแม่แบบในการรวมข้อมูล
+## <a name="template-mapping-in-data-integration"></a>การแมปแม่แบบในการรวมข้อมูล
 
 > [!NOTE] 
-> ฟิลด์ **การอ้างอิงของลูกค้า** **ที่อยู่เมือง** **รหัสภูมิภาคในประเทศ** **คำอธิบายที่อยู่** **ที่อยู่บรรทัดที่ 1** **ที่อยู่บรรทัดที่ 2** **รัฐที่อยู่** และ **รหัสไปรษณีย์ตามที่อยู่** ไม่รวมอยู่ในการแม็ปเริ่มต้นสำหรับสัญญาโครงการ คุณสามารถเพิ่มการแม็ปได้ หากคุณต้องการให้ซิงโครไนซ์ข้อมูลนี้สำหรับสัญญาโครงการ
+> ฟิลด์ **การอ้างอิงของลูกค้า** **ที่อยู่เมือง** **รหัสภูมิภาคในประเทศ** **คำอธิบายที่อยู่** **ที่อยู่บรรทัดที่ 1** **ที่อยู่บรรทัดที่ 2** **รัฐที่อยู่** และ **รหัสไปรษณีย์ตามที่อยู่** ไม่รวมอยู่ในการแมปเริ่มต้นสำหรับสัญญาโครงการ คุณสามารถเพิ่มการแมปได้ หากคุณต้องการให้ซิงโครไนซ์ข้อมูลนี้สำหรับสัญญาโครงการ
 >
-> ฟิลด์ **คำอธิบาย** **รหัสหลัก** **กลุ่มโครงการ** **หมายเลขส่วนตัวของผู้จัดการโครงการ** และ **ประเภทโครงการ** ไม่รวมอยู่ในการแม็ปเริ่มต้นสำหรับโครงการ คุณสามารถเพิ่มการแม็ปได้หากคุณต้องการให้ซิงโครไนซ์ข้อมูลนี้สำหรับโครงการ
+> ฟิลด์ **คำอธิบาย** **รหัสหลัก** **กลุ่มโครงการ** **หมายเลขส่วนตัวของผู้จัดการโครงการ** และ **ประเภทโครงการ** ไม่รวมอยู่ในการแมปเริ่มต้นสำหรับโครงการ คุณสามารถเพิ่มการแมปได้หากคุณต้องการให้ซิงโครไนซ์ข้อมูลนี้สำหรับโครงการ
 
-ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแม็ปงานแม่แบบในการรวมข้อมูล การแม็ปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Project Service Automation ไปยัง Finance
+ภาพประกอบต่อไปนี้แสดงตัวอย่างของการแมปงานแม่แบบในการรวมข้อมูล การแมปแสดงข้อมูลฟิลด์ที่จะซิงโครไนซ์จาก Project Service Automation ไปยัง Finance
 
-[![การแม็ปแม่แบบสัญญาโครงการ](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
+[![การแมปแม่แบบสัญญาโครงการ](./media/ProjectContractTemplateMapping.JPG)](./media/ProjectContractTemplateMapping.JPG)
 
-[![การแม็ปแม่แบบโครงการ](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
+[![การแมปเทมเพลตโครงการ](./media/ProjectTemplateMapping.JPG)](./media/ProjectTemplateMapping.JPG)
 
-[![การแม็ปแม่แบบรายละเอียดการให้บริการตามสัญญาโครงการ](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
+[![การแมปแม่แบบรายละเอียดการให้บริการตามสัญญาโครงการ](./media/ProjectContractLinesMapping.JPG)](./media/ProjectContractLinesMapping.JPG)
 
-[![การแม็ปเทมเพลตเหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาโครงการ](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
+[![การแมปเทมเพลตเหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาโครงการ](./media/ProjectContractLineMilestonesMapping.JPG)](./media/ProjectContractLineMilestonesMapping.JPG)
 
-#### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>การแม็ปเป้าหมายรายละเอียดการให้บริการตามสัญญาโครงการในโครงการและสัญญา (PSA 3.x ถึง Dynamics) - แม่แบบ v2:
+#### <a name="project-contract-line-milestone-mapping-in-the-projects-and-contracts-psa-3x-to-dynamics---v2-template"></a>การแมปเป้าหมายรายละเอียดการให้บริการตามสัญญาโครงการในโครงการและสัญญา (PSA 3.x ถึง Dynamics) - แม่แบบ v2:
 
-[![การแม็ปเหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาโครงการพร้อมเทมเพลตรุ่นที่สอง](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
+[![การแมปเหตุการณ์สำคัญของรายละเอียดการให้บริการตามสัญญาโครงการพร้อมเทมเพลตรุ่นที่สอง](./media/ProjectContractLineMilestoneMapping_v2.jpg)](./media/ProjectContractLineMilestoneMapping_v2.jpg)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

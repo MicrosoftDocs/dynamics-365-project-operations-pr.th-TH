@@ -1,17 +1,17 @@
 ---
 title: รายการสัญญารับเหมารายย่อยสำหรับผลิตภัณฑ์
-description: หัวข้อนี้อธิบายวิธีการบันทึกรายการสัญญารับเหมารายย่อยสำหรับผลิตภัณฑ์และใช้ฟิลด์ต่างๆ เพื่อบันทึกการซื้อผลิตภัณฑ์จากผู้จัดจำหน่าย
+description: บทความนี้อธิบายวิธีการบันทึกรายการสัญญารับเหมารายย่อยสำหรับผลิตภัณฑ์และใช้ฟิลด์ต่างๆ เพื่อบันทึกการซื้อผลิตภัณฑ์จากผู้จัดจำหน่าย
 author: rumant
 ms.date: 08/06/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 71e4a48c3d29d7ea5b015f6c6797da60001fccff
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: ff9636f86102fa671a443d7646614070b3e2ee79
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8579096"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934389"
 ---
 # <a name="subcontract-lines-for-products"></a>รายการสัญญารับเหมารายย่อยสำหรับผลิตภัณฑ์
 

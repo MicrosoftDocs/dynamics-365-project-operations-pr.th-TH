@@ -1,23 +1,23 @@
 ---
 title: เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations
-description: หัวข้อนี้แสดงรายการของแผนที่การรวมแบบสองทิศทางที่จำเป็นสำหรับ Dynamics 365 Project Operations
+description: บทความนี้แสดงรายการแผนผังการรวมแบบสองทิศทางที่จำเป็นสำหรับ Dynamics 365 Project Operations
 author: sigitac
 ms.date: 04/22/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 385893e8ecdb29f4dc411c233b9ae19bb2448dfd
-ms.sourcegitcommit: 9916f536a71b6a0078297402564ac79308ec6890
+ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/18/2022
-ms.locfileid: "8612787"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959509"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
-การใช้ Dynamics 365 Project Operations สำหรับสถานการณ์จำลองทรัพยากร/ที่ไม่เก็บในคลัง ต้องการชุดของแผนที่การรวมแบบสองทิศทางเพื่อทำงานในสภาพแวดล้อม 
+การใช้ Dynamics 365 Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง ต้องการชุดของแผนที่การรวมแบบสองทิศทางเพื่อทำงานในสภาพแวดล้อม 
 
 ## <a name="prerequisite-maps-dual-write-orchestration-solution"></a>แผนที่ข้อกำหนดเบื้องต้น: โซลูชันกระบวนการปฏิบัติการรวมแบบสองทิศทาง
 
@@ -54,7 +54,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | เอนทิตีการรวม Project Operations สำหรับการประมาณการชั่วโมง (msdyn_resourceassignments) | 1.0.0.5 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | เอนทิตีการส่งออกประเภทค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn_expensecategories) | 1.0.0.1 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | เอนทิตีการส่งออกค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn_expenses) | 1.0.0.3 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
-| เอนทิตีการส่งออกใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวม Project Operations (msdyn_projectvendorinvoices) | 1.0.0.0 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
+| เอนทิตีการส่งออกใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวม Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |10.0.26 หรือรุ่นที่ใหม่กว่า|
 | เอนทิตีการส่งออกรายการใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวม Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | ไม่จำเป็นสำหรับการเตรียมใช้งาน | 10.0.26 หรือรุ่นที่ใหม่กว่า |
 | บทบาททรัพยากรโครงการสำหรับทุกบริษัท (bookableresourcecategories) | 1.0.0.1 | ต้องมีการทำข้อมูลให้ตรงกันครั้งแรกสำหรับแผนที่Dynamics 365ตารางเพื่อซิงโครไนซ์บทบาททรัพยากรของผู้จัดการโครงการและสมาชิกทีมที่ถูกบรรจุในสภาพแวดล้อม Dynamics 365 Dataverse ในระหว่างการเตรียมใช้งาน Dataverse เป็นแหล่งข้อมูลหลักสำหรับการทำข้อมูลให้ตรงกันครั้งแรก ||
 | งานโครงการ (msdyn_projecttasks) | 1.0.0.4 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||

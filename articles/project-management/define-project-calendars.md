@@ -1,6 +1,6 @@
 ---
 title: กำหนดปฏิทินโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับวิธีใช้เทมเพลตปฏิทินกับโครงการเพื่อติดตามกำหนดการของโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการนำเทมเพลตปฏิทินไปใช้กับโครงการเพื่อติดตามกำหนดการของโครงการ
 author: ruhercul
 ms.date: 02/05/2021
 ms.topic: article
@@ -15,16 +15,16 @@ ms.search.industry: Service industries
 ms.author: ruhercul
 ms.dyn365.ops.version: ''
 ms.search.validFrom: 2020-10-01
-ms.openlocfilehash: 0e31fcaf039ae214394b08b60b5d41987dc648e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: e195cdb0dc5acc2ea816fadce40811675a855de2
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578961"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933561"
 ---
 # <a name="define-project-calendars"></a>กำหนดปฏิทินโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ในการสร้างและจัดการโครงการ คุณต้องใช้เทมเพลตปฏิทินกับโครงการ เทมเพลตปฏิทินกำหนดแอตทริบิวต์โครงการต่อไปนี้:
 

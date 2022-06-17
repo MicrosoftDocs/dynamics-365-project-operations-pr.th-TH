@@ -1,21 +1,21 @@
 ---
 title: การตั้งค่าใบเสนอราคาโครงการ
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับข้อมูลและการตั้งค่าที่ใช้กับและส่งผลกระทบต่อใบเสนอราคาโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับข้อมูลและการตั้งค่าที่ใช้และส่งผลกระทบต่อใบเสนอราคาโครงการ
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: c5870c75d5337b951a453000369baf9f6e81a1da
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 661dd40edeea890ad684b801bcc99ce2c242bb9b
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8575189"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931951"
 ---
 # <a name="header-details-for-project-based-quotes"></a>รายละเอียดส่วนหัวสำหรับใบเสนอราคาตามโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 
 บทความนี้อธิบายข้อมูลที่ใช้กับใบเสนอราคาโครงการ ซึ่งรวมถึงการตั้งค่าที่ส่งผลต่อรายการใบเสนอราคาทั้งหมดและข้อมูลเกี่ยวกับใบเสนอราคาที่สรุปในการแสดงรายการทั้งหมดเพื่อส่งเสริม KPI ของใบเสนอราคาโครงการ

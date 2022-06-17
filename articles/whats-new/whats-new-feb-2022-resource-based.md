@@ -1,24 +1,24 @@
 ---
-title: มีอะไรใหม่เดือนกุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
-description: หัวข้อนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่พร้อมใช้งานใน Project Operations ประจำเดือนกุมภาพันธ์ 2022 สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+title: มีอะไรใหม่เดือนกุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการปรับปรุงคุณภาพที่มีอยู่ใน Project Operations ประจำเดือนกุมภาพันธ์ 2022 สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
 author: sigitac
 ms.date: 01/27/2021
 ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 76ae00517c857415c89d7a03f421686dad28da93
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b036c0a3c39c52cb15277293679ef88906cae2c4
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8600857"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933009"
 ---
-# <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่เดือนกุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
+# <a name="whats-new-february-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่เดือนกุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
 
 *นำไปใช้กับ: Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง*
 
-หัวข้อนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
+บทความนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
 
 - Project Operations ในสภาพแวดล้อม Dataverse เวอร์ชัน 4.28.0.120
 - การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.24
@@ -76,11 +76,11 @@ ms.locfileid: "8600857"
 
 ## <a name="removed-and-deprecated-features"></a>คุณลักษณะที่เอาออกหรือเลิกสนับสนุน
 
-หัวข้อ [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Project Operations](removed-depreciated-features-project.md) อธิบายคุณลักษณะที่เอาออกหรือเลิกสนับสนุนสำหรับ Dynamics 365 Project Operations
+บทความ [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Project Operations](removed-depreciated-features-project.md) อธิบายคุณลักษณะที่เอาออกหรือเลิกสนับสนุนสำหรับ Dynamics 365 Project Operations
 
 - คุณลักษณะ ที่เอาออก ไม่มีในผลิตภัณฑ์อีกต่อไป
 - คุณลักษณะที่เลิกสนับสนุนไม่ได้อยู่ในการพัฒนาที่ใช้งานอยู่ และอาจถูกลบออกในการปรับปรุงในอนาคต
 
-การประกาศการแจ้งเตือนการยกเลิกการใช้จะปรากฏในหัวข้อ [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Project Operations](removed-depreciated-features-project.md) เป็นเวลา 12 เดือนก่อนที่จะมีการเอาออกจากผลิตภัณฑ์
+การประกาศการแจ้งเตือนการยกเลิกการใช้จะปรากฏในบทความ [คุณลักษณะที่เอาออกหรือเลิกสนับสนุนใน Project Operations](removed-depreciated-features-project.md) เป็นเวลา 12 เดือนก่อนที่จะมีการเอาออกจากผลิตภัณฑ์
 
 สำหรับการจำแนกการเปลี่ยนแปลงที่มีผลกระทบเฉพาะต่อเวลาการคอมไพล์ แต่เป็นไบนารีที่เข้ากันได้กับสภาพแวดล้อม sandbox และสภาพแวดล้อมการผลิต เวลาในการยกเลิกการใช้จะน้อยกว่า 12 เดือน โดยทั่วไป การเปลี่ยนแปลงเหล่านี้คือการปรับปรุงการทำงานที่จำเป็นต้องทำกับคอมไพเลอร์

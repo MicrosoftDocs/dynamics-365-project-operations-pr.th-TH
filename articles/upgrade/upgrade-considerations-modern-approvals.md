@@ -1,21 +1,21 @@
 ---
 title: ข้อควรพิจารณาในการปรับรุ่นสำหรับการอนุมัติแบบใหม่
-description: หัวข้อนี้ครอบคลุมประเด็นที่ผู้ดูแลระบบควรพิจารณาเมื่อเปิดใช้งานฟังก์ชันการอนุมัติแบบใหม่
+description: บทความนี้ครอบคลุมประเด็นที่ผู้ดูแลระบบควรพิจารณาเมื่อเปิดใช้งานฟังก์ชันการอนุมัติแบบใหม่
 author: stsporen
 ms.date: 01/31/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: a3757f057a801318feccde9be3e49c7b40fa8fcb
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 44a933c92d4ef8dff40f20200d74c4bbdf8caa76
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8578409"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8931767"
 ---
 # <a name="upgrade-considerations-for-modern-approvals"></a>ข้อควรพิจารณาในการปรับรุ่นสำหรับการอนุมัติแบบใหม่ 
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 ในการเป็นส่วนหนึ่งของการรีลีสเดือนเมษายน 2022 เวฟ 1 ฟังก์ชันการอนุมัติแบบใหม่จะเปิดใช้งานตามค่าเริ่มต้น ฟังก์ชันนี้ช่วยปรับปรุงความน่าเชื่อถือของตรรกะการอนุมัติ และทำให้แน่ใจว่าคุณสามารถระบุเหตุผลได้หากตรรกะการอนุมัติล้มเหลว
 

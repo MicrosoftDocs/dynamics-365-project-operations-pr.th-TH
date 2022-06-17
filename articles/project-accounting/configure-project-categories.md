@@ -1,21 +1,21 @@
 ---
 title: กำหนดค่าประเภทโครงการ
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับการตั้งค่าประเภทต่างๆ ของโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าประเภทโครงการ
 author: sigitac
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 94b66feef4164f3cd52d5fe917071647f731b047
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 440fc712750c07e8426d54e3a1f994f506879e3c
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8591565"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933607"
 ---
 # <a name="configure-project-categories"></a>กำหนดค่าประเภทโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/วัสดุที่ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 Project Operations นำเสนอความสามารถที่ยอดเยี่ยมสำหรับการจัดประเภทรายได้และค่าใช้จ่ายในโครงการ ประเภทให้ความสามารถในการรายงานและวิเคราะห์ธุรกรรมโครงการและส่งเสริมการลงรายการบัญชีไปยังบัญชีแยกประเภททั่วไป
 

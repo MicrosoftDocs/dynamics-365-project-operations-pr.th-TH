@@ -1,17 +1,17 @@
 ---
 title: ลงทะเบียนรับรุ่นทดลองใช้ Project Operations
-description: หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการปรับใช้งานรุ่นทดลองใช้ของ Dynamics 365 Project Operations
+description: บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการปรับใช้รุ่นทดลองใช้ของ Dynamics 365 Project Operations
 author: ruhercul
 ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: a0c2532370c99cfe75b54da42c329f5b244a47e7
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 7db7ea6b3cffe6eb43ee0519bbaccfc9092c9311
+ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8584297"
+ms.lasthandoff: 06/14/2022
+ms.locfileid: "8959533"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>ลงทะเบียนรับรุ่นทดลองใช้ Project Operations 
 
@@ -19,9 +19,9 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 
 
-หัวข้อนี้อธิบายวิธีสมัครรับข้อเสนอจากคู่ค้าตัวอย่างและปรับใช้งานสภาพแวดล้อม Dynamics 365 Project Operations
+บทความนี้อธิบายวิธีการสมัครใช้งานข้อเสนอพรีวิวของคู่ค้าและปรับใช้สภาพแวดล้อม Dynamics 365 Project Operations
 
-ด้วยรุ่นทดลองใช้ Project Operations ใหม่ คุณสามารถปรับใช้งานสถานการณ์การปรับใช้งานที่ได้รับการสนับสนุนสามสถานการณ์โดยอัตโนมัติโดยกรอกแบบสอบถามที่แนะนำแนวทางการปรับใช้งานที่ดีที่สุด หัวข้อนี้แสดงข้อมูลเกี่ยวกับวิธีการ:
+ด้วยรุ่นทดลองใช้ Project Operations ใหม่ คุณสามารถปรับใช้งานสถานการณ์การปรับใช้งานที่ได้รับการสนับสนุนสามสถานการณ์โดยอัตโนมัติโดยกรอกแบบสอบถามที่แนะนำแนวทางการปรับใช้งานที่ดีที่สุด บทความนี้ให้ข้อมูลเกี่ยวกับวิธีการ:
 
 - แลกรับข้อเสนอการทดลองใช้
 - เริ่มการเตรียมใช้งาน
@@ -89,7 +89,8 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 4.  เลือก URL ของ Microsoft Dataverse URL และ URLของแอปการเงินและการดำเนินงานที่เกี่ยวข้องเพื่อตรวจสอบการปรับใช้งาน
 
 ## <a name="configuring-dual-write"></a>การกำหนดค่าการรวมแบบสองทิศทาง
-- ในการกำหนดค่าบทบาทความปลอดภัยสำหรับการรวมแบบสองทิศทาง โปรดดูที่ [ปรับปรุงการตั้งค่าความปลอดภัยของ Project Operations ใน Dataverse](resource-provision-new-environment.md)
+- ในการกำหนดค่าบทบาทความปลอดภัยสำหรับการรวมแบบสองทิศทาง โปรดดูที่ [ปรับปรุงการตั้งค่าความปลอดภัยของ Project Operations ใน Dataverse](resource-provision-new-environment.md#update-security-settings-on-project-operations-on-dataverse)
+- ในการเข้าถึงการกำหนดค่าการรวมแบบสองทิศทาง ให้ไปที่อินสแตนซ์ Finance and Operations จากนั้นไปที่ **การจัดการข้อมูล** > **การรวมแบบสองทิศทาง**
 - ในการกำหนดค่าแผนผังการรวมแบบสองทิศทาง โปรดดูที่ [เรียกใช้แผนผังการรวมแบบสองทิศทางของ Project Operations](resource-provision-new-environment.md#run-project-operations-dual-write-maps)
 
 ## <a name="assign-licenses"></a>กำหนดสิทธิ์การใช้งาน

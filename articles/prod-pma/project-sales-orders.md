@@ -1,6 +1,6 @@
 ---
 title: ใบสั่งขายของโครงการสำหรับโครงการเวลาและวัสดุ
-description: หัวข้อนี้อธิบายวิธีสร้างใบสั่งขายตามโครงการสำหรับโครงการเวลาและวัสดุ
+description: บทความนี้อธิบายวิธีการสร้างใบสั่งขายตามโครงการสำหรับโครงการเวลาและวัสดุ
 author: Yowelle
 ms.date: 04/05/2019
 ms.topic: article
@@ -14,18 +14,18 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2019-04-05
 ms.dyn365.ops.version: AX 10.0.2
-ms.openlocfilehash: 3e88235b08ca2b8a5ccaab3dfdd7bcff4ab64f5f
-ms.sourcegitcommit: 2c2a5a11d446adec2f21030ab77a053d7e2da28e
+ms.openlocfilehash: 3a040de6d22b626b9e3d462272f43c5763b5b90f
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 05/04/2022
-ms.locfileid: "8684528"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933837"
 ---
 # <a name="project-sales-orders-for-time-and-material-projects"></a>ใบสั่งขายของโครงการสำหรับโครงการเวลาและวัสดุ
 
 [!include[banner](../includes/banner.md)]
 
-หัวข้อนี้อธิบายวิธีสร้างใบสั่งขายสำหรับโครงการ สามารถสร้างใบสั่งขายสำหรับโครงการชนิด **เวลาและวัสดุ** เท่านั้น
+บทความนี้อธิบายวิธีการสร้างใบสั่งขายสำหรับโครงการ สามารถสร้างใบสั่งขายสำหรับโครงการชนิด **เวลาและวัสดุ** เท่านั้น
 
 หากโครงการเวลาและวัสดุมีแหล่งเงินทุนหลายแห่งในสัญญาโครงการ คุณต้องเปิดใช้งานพารามิเตอร์ **อนุญาตใบสั่งขายสำหรับโครงการที่มีแหล่งเงินทุนหลายแห่ง** บนหน้า **พารามิเตอร์การจัดการโครงการและการบัญชี** 
 

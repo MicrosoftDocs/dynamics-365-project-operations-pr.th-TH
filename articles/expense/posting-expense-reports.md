@@ -1,6 +1,6 @@
 ---
-title: โพสต์รายงานค่าใช้จ่าย
-description: หัวข้อนี้จะอธิบายวิธีการลงรายการบัญชีรายงานค่าใช้จ่าย
+title: ลงรายการบัญชีรายงานค่าใช้จ่าย
+description: บทความนี้อธิบายวิธีการลงรายการบัญชีรายงานค่าใช้จ่าย
 author: suvaidya
 ms.date: 09/09/2020
 ms.topic: article
@@ -13,14 +13,14 @@ ms.search.region: ''
 ms.author: shylaw
 ms.search.validFrom: ''
 ms.dyn365.ops.version: ''
-ms.openlocfilehash: d19945e1626885574ef6ab702f9207d3d9708c94
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: 4b084357179a28279344c995047f1a0a458cf9aa
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8577121"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8934527"
 ---
-# <a name="post-expense-reports"></a>โพสต์รายงานค่าใช้จ่าย
+# <a name="post-expense-reports"></a>ลงรายการบัญชีรายงานค่าใช้จ่าย
 
 หลังจากรายงานค่าใช้จ่ายได้รับการอนุมัติและโอนไปยังสมุดรายวันทั่วไปแล้ว รายงานสามารถลงรายการบัญชีได้ เมื่อคุณลงรายการบัญชีค่าใช้จ่าย จะมีการระบุค่าใช้จ่ายที่สามารถเรียกคืนภาษีมูลค่าเพิ่ม (VAT) ได้ งานในการตรวจสอบและเรียกคืนการจ่ายภาษีมูลค่าเพิ่มจะมีการมอบหมายให้กับพนักงานที่รับผิดชอบในการตรวจสอบรายงานค่าใช้จ่าย
 

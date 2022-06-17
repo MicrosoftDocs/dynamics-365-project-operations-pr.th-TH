@@ -1,6 +1,6 @@
 ---
 title: การวางแผนและการติดตามโครงการ
-description: หัวข้อนี้จะแสดงการเชื่อมโยงข้อมูลเกี่ยวกับการการวางแผน และการติดตามใน Project Service Automation
+description: บทความนี้จะแสดงการเชื่อมโยงข้อมูลเกี่ยวกับการการวางแผนและการติดตามใน Project Service Automation
 author: kfend
 ms.custom:
 - dyn365-projectservice
@@ -17,12 +17,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 781e5afb30f5f3e7d81084c5f9bdb0c8ab200d9b
-ms.sourcegitcommit: c0792bd65d92db25e0e8864879a19c4b93efb10c
+ms.openlocfilehash: b10a9b2f636b05955783c320597673fa7d24e131
+ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 04/14/2022
-ms.locfileid: "8589909"
+ms.lasthandoff: 06/03/2022
+ms.locfileid: "8933285"
 ---
 # <a name="project-planning-and-tracking"></a>การวางแผนและการติดตามโครงการ
 
@@ -32,18 +32,18 @@ ms.locfileid: "8589909"
 
 แอปพลิเคชัน Project Service ช่วยให้องค์กรบริการระบุโอกาส ส่งราคาเสนอ เข้าถึงข้อตกลงตามสัญญา จัดการทรัพยากร ติดตามเวลาและค่าใช้จ่าย ลูกค้าใบแจ้งหนี้และจัดส่งโครงการตรงเวลาและภายในงบประมาณ 
 
-การเชื่อมโยง PDF ที่ก่อนหน้านี้ในหัวข้อนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังหัวข้อต่อไปนี้:
+การเชื่อมโยง PDF ที่ก่อนหน้านี้ในบทความนี้ได้ถูกเอาออกและมีการย้ายเนื้อหาไปยังบทความต่อไปนี้:
 
 - [กำหนดการโครงการ](../project-creating.md)
 - [ต้นทุนและรายได้โครงการ](../project-estimating.md)
 - [ยอดขายของโครงการและโครงการ](../project-leveraging.md)
 - [ความคืบหน้าและการใช้ต้นทุนของโครงการ](../project-tracking.md)
-- [แม่แบบโครงการ](../project-templates.md)
+- [เทมเพลตโครงการ](../project-templates.md)
 - [ลำดับขั้นของโครงการ](../project-stages.md)
 - [การตั้งค่าโครงการ](../project-settings.md)
 
 > [!NOTE]
-> หัวข้อนี้จะถูกเอาออกในการปรับปรุงเอกสารในอนาคต 
+> บทความนี้จะถูกเอาออกในการปรับปรุงคู่มือในอนาคต 
 
 
 [!INCLUDE[footer-include](../../includes/footer-banner.md)]
