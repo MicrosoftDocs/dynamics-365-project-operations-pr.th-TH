@@ -6,18 +6,18 @@ ms.date: 03/30/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 43f47a44260d1a47437846f2764b56f680d4b682
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 7bf48dd17063daece5df3ce44c0375eec3dc3cae
+ms.sourcegitcommit: 49c2a668b8d7bf0acb9e9b0bb44687e6d3dcaa8c
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8914241"
+ms.lasthandoff: 07/28/2022
+ms.locfileid: "9204198"
 ---
 # <a name="verification-of-vendor-invoices-with-approved-actuals"></a>การตรวจสอบใบแจ้งหนี้ของผู้จัดจำหน่ายกับข้อมูลจริงที่อนุมัติ
 
 [!include [banner](../../includes/dataverse-preview.md)]
 
-_ **นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว
+_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 Microsoft Dynamics 365 Project Operations ให้ผู้จัดการโครงการสามารถตรวจสอบรายการใบแจ้งหนี้ของผู้จัดจำหน่ายด้วยวิธีต่อไปนี้:
 

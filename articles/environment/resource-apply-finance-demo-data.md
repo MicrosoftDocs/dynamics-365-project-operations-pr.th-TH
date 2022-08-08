@@ -6,16 +6,16 @@ ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 4ce53c171929f0610c53025becaebea46d902c90
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 793b1a01f3bf692bb9f4c2d9abad9a44b110544a
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924683"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029920"
 ---
 # <a name="apply-demo-data-to-a-finance-cloud-hosted-environment"></a>นำข้อมูลสาธิตไปใช้กับสภาพแวดล้อมที่เป็นโฮสต์บนระบบคลาวด์ของ Finance
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 > [!IMPORTANT]
 > บทความนี้ใช้ได้กับ Microsoft Dynamics 365 Finance เวอร์ชัน 10.0.13 และสามารถทำได้เฉพาะในสภาพแวดล้อมที่โฮสต์บนระบบคลาวด์ ทำตามขั้นตอนในบทความนี้ **ก่อน** คุณใช้การปรับปรุงคุณภาพกับสภาพแวดล้อม
@@ -76,7 +76,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 18. ปิดเซสชันเดสก์ท็อประยะไกลและใช้เพจ **รายละเอียดสภาพแวดล้อม** ของ LCS เพื่อเข้าสู่สภาพแวดล้อมในการยืนยันว่าทำงานได้ตามที่คาดไว้
 
-![Finance and Operations](./media/10FinanceAndOperations.png)
+![การเงินและการดำเนินงาน](./media/10FinanceAndOperations.png)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

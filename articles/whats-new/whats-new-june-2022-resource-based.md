@@ -7,20 +7,20 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: fde1f0be42eecfc5ee809cb9b2191d3aeae57131
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: 32bc7793c5a0ee8c04272d3ffcbd290b39fce4cc
+ms.sourcegitcommit: 7772d72a7c96a44ffb23369f8ffb436813449239
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959521"
+ms.lasthandoff: 06/20/2022
+ms.locfileid: "9031354"
 ---
 # <a name="whats-new-june-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนมิถุนายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 บทความนี้ใช้กับส่วนประกอบและเวอร์ชันของ Microsoft Dynamics 365 Project Operations ต่อไปนี้:
 
-- Project Operations ในสภาพแวดล้อม Dataverse เวอร์ชัน 4.43.0.77
+- Project Operations ในสภาพแวดล้อม Dataverse เวอร์ชัน 4.43.0.77 หรือ 4.43.0.119
 - การจัดการโครงการและการบัญชีในสภาพแวดล้อม Dynamics 365 Finance เวอร์ชัน 10.0.27
 
 ## <a name="project-operations-dual-write-maps-updates"></a>การปรับปรุงแผนที่การรวมแบบสองทิศทางของ Project Operations

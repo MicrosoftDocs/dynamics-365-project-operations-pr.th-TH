@@ -6,12 +6,12 @@ ms.date: 05/04/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a54ca1ec5e78d9d0af7b67914f6a63154c7347d3
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 079856e7cf2ffa9b80ab31ebad1c1b5dbe36a4ad
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931215"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028511"
 ---
 # <a name="item-requirements-for-project-contracts-with-multiple-funding-sources"></a>ข้อกำหนดสินค้าสำหรับสัญญาโครงการที่มีแหล่งเงินทุนหลายแหล่ง
 
@@ -33,7 +33,7 @@ Contoso ชนะสัญญาการต่ออายุอุปกรณ
 
 ### <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-- Microsoft Dynamics 365 Finance and Operations **เวอร์ชัน 10.0.27 หรือใหม่กว่า** ต้องใช้ข้อกำหนดของสินค้าที่มีบัญชีใบแจ้งหนี้หลายบัญชี
+- Microsoft Dynamics 365 Finance **เวอร์ชัน 10.0.27 หรือใหม่กว่า** ต้องใช้ข้อกำหนดของสินค้าที่มีบัญชีใบแจ้งหนี้หลายบัญชี
 - ผู้ดูแลระบบของคุณต้องเปิดใช้งานคุณลักษณะ **อนุญาตข้อกำหนดของสินค้าที่มีแหล่งเงินทุนหลายแหล่งสำหรับสถานการณ์เก็บในคลัง/ตามการผลิตของ Project Operations** ในพื้นที่ทำงาน **การจัดการคุณลักษณะ**
 
 ### <a name="set-up-the-invoice-account-defaulting-rules"></a>ตั้งค่ากฎการกำหนดค่าเริ่มต้นบัญชีใบแจ้งหนี้

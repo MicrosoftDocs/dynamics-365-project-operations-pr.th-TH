@@ -1,6 +1,6 @@
 ---
-title: ซิงโครไนส์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการสำหรับการลงรายการบัญชีใน Finance and Operations
-description: บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์การนำเข้าจริงของโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยัง Finance and Operations
+title: ซิงโครไนส์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการสำหรับการลงรายการบัญชีในการเงินและการดำเนินการ
+description: บทความนี้อธิบายเทมเพลตและงานพื้นฐานที่ใช้ซิงโครไนส์การนำเข้าจริงของโครงการโดยตรงจาก Microsoft Dynamics 365 Project Service Automation ไปยังการเงินและการดำเนินงาน
 author: Yowelle
 ms.date: 07/20/2018
 ms.topic: article
@@ -14,14 +14,14 @@ ms.search.region: Global
 ms.author: andchoi
 ms.search.validFrom: 2016-11-28
 ms.dyn365.ops.version: AX 7.3.0
-ms.openlocfilehash: 7d912a11d9c7bc66ed43911ee32f25092d551cd6
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 34a0a0f7277777895077d221cd95e8d962d2a902
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8929513"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029001"
 ---
-# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>ซิงโครไนส์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการสำหรับการลงรายการบัญชีใน Finance and Operations
+# <a name="synchronize-project-actuals-directly-from-project-service-automation-to-the-project-integration-journal-for-posting-in-finance-and-operations"></a>ซิงโครไนส์ข้อมูลจริงของโครงการโดยตรงจาก Project Service Automation ไปยังสมุดรายวันการรวมโครงการสำหรับการลงรายการบัญชีในการเงินและการดำเนินการ
 
 [!include[banner](../includes/banner.md)]
 
@@ -41,7 +41,7 @@ ms.locfileid: "8929513"
 
 ภาพประกอบต่อไปนี้แสดงวิธีซิงโครไนซ์ข้อมูลระหว่าง Project Service Automation และ Finance
 
-[![โฟลว์ข้อมูลสำหรับการรวม Project Service Automation กับ Finance and Operations](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
+[![โฟลว์ข้อมูลสำหรับการรวม Project Service Automation กับการเงินและการดำเนินงาน](./media/ProjectActualsFlow.jpg)](./media/ProjectActualsFlow.jpg)
 
 ## <a name="project-actuals-from-project-service-automation"></a>ค่าจริงของโครงการจาก Project Service Automation
 

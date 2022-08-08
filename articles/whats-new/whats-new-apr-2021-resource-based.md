@@ -7,16 +7,16 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: a060bdc4e4c9f37ec666b1cf4d078986ad1571db
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 490b7aa38bfdfbcdce21a21e582296e4ce15aeeb
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912447"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9029277"
 ---
 # <a name="whats-new-april-2021---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนเมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 บทความนี้ใช้กับส่วนประกอบและเวอร์ชันของ Dynamics 365 Project Operations ต่อไปนี้:
 
@@ -42,8 +42,8 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | **เอนทิตีแมป** | **เวอร์ชันที่ปรับปรุง** | **ความคิดเห็น** |
 | --- | --- | --- |
 | ข้อมูลจริงของการรวม Project Operations (msdyn\_actuals) | 1.0.0.14 | แผนที่ที่แก้ไขเพื่อซิงโครไนซ์ข้อมูลจริงของโครงการวัสดุ |
-| เอนทิตีการรวม Project Operations สำหรับการประมาณการค่าใช้จ่าย (msdyn\_estimateslines) | 1.0.0.2 | เพิ่มการซิงค์รายละเอียดการให้บริการตามสัญญากับแอปการเงินและการดำเนินงานสำหรับการสนับสนุนการเรียกเก็บเงินตามงาน |
-| เอนทิตีการรวม Project Operations สำหรับการประมาณการชั่วโมง (msdyn\_resourceassignments) | 1.0.0.5 | เพิ่มการซิงค์รายละเอียดการให้บริการตามสัญญากับแอปการเงินและการดำเนินงานสำหรับการสนับสนุนการเรียกเก็บเงินตามงาน |
+| เอนทิตีการรวม Project Operations สำหรับการประมาณการค่าใช้จ่าย (msdyn\_estimateslines) | 1.0.0.2 | เพิ่มการซิงค์รายละเอียดการให้บริการตามสัญญาของโครงการกับแอปการเงินและการดำเนินงานสำหรับการสนับสนุนการเรียกเก็บเงินตามงาน |
+| เอนทิตีการรวม Project Operations สำหรับการประมาณการชั่วโมง (msdyn\_resourceassignments) | 1.0.0.5 | เพิ่มการซิงค์รายละเอียดการให้บริการตามสัญญาของโครงการกับแอปการเงินและการดำเนินงานสำหรับการสนับสนุนการเรียกเก็บเงินตามงาน |
 | ตารางการรวม Project Operations สำหรับการประมาณวัสดุ (msdyn\_estimatelines) | 1.0.0.0 | แผนผังตารางใหม่ที่จะซิงโครไนซ์ประมาณการวัสดุจาก Dataverse ไปยังแอปการเงินและการดำเนินงาน |
 | เอนทิตีการส่งออกใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวมของ Project Operations (msdyn\_projectvendorinvoices) | 1.0.0.0 | แผนผังตารางใหม่ที่จะซิงโครไนซ์ส่วนหัวใบแจ้งหนี้ของผู้จัดจำหน่ายจากแอปการเงินและการดำเนินงานไปยัง Dataverse |
 | เอนทิตีการส่งออกรายการใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวมของ Project Operations (msdyn\_projectvendorinvoicelines) | 1.0.0.0 | แผนผังตารางใหม่ที่จะซิงโครไนซ์รายการใบแจ้งหนี้ของผู้จัดจำหน่ายจากแอปการเงินและการดำเนินงานไปยัง Dataverse |

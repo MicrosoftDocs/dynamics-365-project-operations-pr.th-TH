@@ -6,16 +6,16 @@ ms.date: 06/18/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: stsporen
-ms.openlocfilehash: be80ea3956fbf0264c2eeb7a5e30dd50b77e3c78
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a25e2a59f1c069057c6689825ce52b13d842af71
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912033"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028587"
 ---
 # <a name="manually-deploy-the-project-operations-dataverse-app-with-dual-write-support"></a>ปรับใช้แอป Project Operations Dataverse พร้อมการรองรับการรวมแบบสองทิศทาง
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 บทความนี้อธิบายวิธีการปรับใช้แอป Microsoft Dynamics 365 Project Operations ใน Microsoft Dataverse ด้วยตนเองเพื่อให้รองรับการรวมแบบสองทิศทาง Project Operations ตรวจพบการกำหนดค่าของสภาพแวดล้อมและเพิ่มการสนับสนุนเพิ่มเติมสำหรับการรวมแบบสองทิศทางหากตรงตามข้อกำหนดเบื้องต้น
 
@@ -62,4 +62,4 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="link-your-environments"></a><a name="link"></a>เชื่อมโยงสภาพแวดล้อมของคุณ
 
-หลังจากสภาพแวดล้อม Dataverse ถูกปรับใช้ คุณสามารถตั้งค่าลิงก์ในแอปการเงินและการดำเนินงานของคุณ ทำตามขั้นตอนใน [ใช้ตัวช่วยสร้างการรวมแบบสองทิศทางเพื่อเชื่อมโยงสภาพแวดล้อมของคุณ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment)
+หลังจากสภาพแวดล้อม Dataverse ถูกปรับใช้งาน คุณสามารถตั้งค่าการเชื่อมโยงในแอปการเงินและการดำเนินงานของคุณ ทำตามขั้นตอนใน [ใช้ตัวช่วยสร้างการรวมแบบสองทิศทางเพื่อเชื่อมโยงสภาพแวดล้อมของคุณ](/dynamics365/fin-ops-core/dev-itpro/data-entities/dual-write/link-your-environment)

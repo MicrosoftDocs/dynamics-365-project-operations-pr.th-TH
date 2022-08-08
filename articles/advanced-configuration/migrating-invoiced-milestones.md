@@ -6,16 +6,16 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: d7bb3dbb5acd9be447c405ec17f18d00c500f655
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 05cd71f9860b5698e3a26bc72660b0b2044206c8
+ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912263"
+ms.lasthandoff: 06/18/2022
+ms.locfileid: "9028725"
 ---
 # <a name="migrate-fully-invoiced-billing-milestones-at-cutover"></a>ย้ายหลักเป้าหมายการเรียกเก็บเงินที่ออกใบแจ้งหนี้เต็มจำนวนเมื่อถ่ายโอน
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_
 
 ## <a name="scenario"></a>สถานการณ์สมมติ
 

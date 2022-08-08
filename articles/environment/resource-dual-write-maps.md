@@ -2,16 +2,16 @@
 title: เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations
 description: บทความนี้แสดงรายการแผนผังการรวมแบบสองทิศทางที่จำเป็นสำหรับ Dynamics 365 Project Operations
 author: sigitac
-ms.date: 04/22/2021
+ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: ee0b6a1722405e6a50c42db6bd2a25b872c6118c
-ms.sourcegitcommit: 51745acac29dfacba43a4003d86baff4d6ca2fb8
+ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
+ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/14/2022
-ms.locfileid: "8959509"
+ms.lasthandoff: 07/02/2022
+ms.locfileid: "9112452"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations
 
@@ -46,7 +46,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | ส่วนหัวของสัญญาโครงการ (ใบสั่งขาย) | 1.0.0.1 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | รายละเอียดการให้บริการตามสัญญาตามโครงการ (salesorderdetails) | 1.0.0.0 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | แหล่งเงินทุนของโครงการ (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
-| ตารางการรวม Project Operations สำหรับการประมาณวัสดุ (msdyn\_estimatelines) | 1.0.0.0 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
+| ตารางการรวมโครงการสำหรับการประมาณการวัสดุ (msdyn\_estimatelines) | 1.0.0.0 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | ข้อเสนอใบแจ้งหนี้โครงการV2 (ใบแจ้งหนี้) | 1.0.0.3 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | ข้อมูลจริงของการรวม Project Operations (msdyn_actuals) | 1.0.0.14 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | หลักเป้าหมายในรายละเอียดการให้บริการตามสัญญาของการรวม Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
