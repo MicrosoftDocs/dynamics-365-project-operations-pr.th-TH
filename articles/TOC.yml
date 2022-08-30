@@ -60,49 +60,51 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: ถอนการติดตั้ง Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: มีอะไรใหม่บ้าง
+    - name: มีอะไรใหม่
       items:
-        - name: กรกฎาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
-          href: whats-new/whats-new-july-2022-resource-based.md
+        - name: สิงหาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+          href: whats-new/whats-new-aug-2022-resource-based.md
         - name: ข้อมูลเก็บถาวร
           items:
-            - name: มิถุนายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: กรกฎาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+              href: whats-new/whats-new-july-2022-resource-based.md
+            - name: มิถุนายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-june-2022-resource-based.md
-            - name: พฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: พฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-may-2022-resource-based.md
-            - name: เมษายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: เมษายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-apr-2022-resource-based.md
-            - name: มีนาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: มีนาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-mar-2022-resource-based.md
-            - name: กุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: กุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-feb-2022-resource-based.md
-            - name: ธันวาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: ธันวาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-dec-2021-resource-based.md
-            - name: พฤศจิกายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: พฤศจิกายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-nov-2021-resource-based.md
-            - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-oct-2021-resource-based.md
-            - name: กันยายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: กันยายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-sept-2021-resource-based.md
-            - name: สิงหาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: สิงหาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-august-2021-resource-based.md
-            - name: กรกฎาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: กรกฎาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-july-2021-resource-based.md
-            - name: มิถุนายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: มิถุนายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-june-2021-resource-based.md
-            - name: พฤษภาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: พฤษภาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-may-2021-resource-based.md
-            - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-apr-2021-resource-based.md
-            - name: มีนาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: มีนาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-mar-2021-resource-based.md
-            - name: กุมภาพันธ์ 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: กุมภาพันธ์ 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-feb-2021-resource-based.md
-            - name: มกราคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: มกราคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-jan-2021-resource-based.md
-            - name: ธันวาคม 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: ธันวาคม 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-dec-2020-resource-based.md
-            - name: พฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/สินค้าที่ไม่เก็บในคลัง
+            - name: พฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-nov-2020-resource-based.md
     - name: กระบวนการขายของโครงการ
       items:
@@ -384,6 +386,42 @@
           items:
             - name: ภาพรวมการใช้ประโยชน์ของทรัพยากร
               href: resource-management/resource-utilization-overview.md
+    - name: การจัดการการรับเหมารายย่อย
+      items:
+        - name: การจัดการการรับเหมารายย่อยใน Project Operations
+          href: pro/subcontracting/managing-subcontracts-overview.md
+        - name: แนวคิดหลักในการรับเหมารายย่อย
+          href: pro/subcontracting/key-concepts-subcontracting.md
+        - name: กำลังจัดการผู้จัดจำหน่ายและราคาตลาดของโครงการ
+          href: pro/subcontracting/vendors-purchase-price-lists.md
+        - name: ผู้รับเหมารายย่อยเป็นทรัพยาการที่สามารถจองได้
+          href: pro/subcontracting/subcontractors-as-bookable-resources.md
+        - name: รายละเอียดส่วนหัวสำหรับผู้รับเหมารายย่อย
+          href: pro/subcontracting/subcontract-header-details.md
+        - name: รายการรับเหมารายย่อยสำหรับเวลา
+          href: pro/subcontracting/subcontract-line-time.md
+        - name: รายการรับเหมารายย่อยสำหรับประเภทค่าใช้จ่าย
+          href: pro/subcontracting/subcontract-line-expense.md
+        - name: รายการรับเหมารายย่อยสำหรับผลิตภัณฑ์
+          href: pro/subcontracting/subcontract-line-products.md
+        - name: ทรัพยากรของรายการรับเหมารายย่อย
+          href: pro/subcontracting/subcontract-line-resources.md
+        - name: หลักเป้าหมายของรายการรับเหมารายย่อย
+          href: pro/subcontracting/subcontract-line-milestones.md
+        - name: สมาชิกของทีมโครงการรับเหมารายย่อย
+          href: pro/subcontracting/subcontracting-project-team-members.md
+        - name: ตัวเลือกการรับเหมารายย่อยสำหรับสมาชิกของทีมโครงการ
+          href: pro/subcontracting/subcon-options.md
+        - name: การประเมินต้นทุนของการกำหนดทรัพยากรที่รับเหมารายย่อย
+          href: pro/subcontracting/costing-subcon-ra.md
+        - name: กำหนดค่ากระดานหมายกำหนดการให้บริการเพื่อแสดงผู้ปฏิบัติงานแบบสัญญาจ้างและความสามารถในการรับเหมารายย่อย
+          href: pro/subcontracting/configure-sb-subcon.md
+        - name: การจัดโครงการกับผู้ปฏิบัติงานแบบสัญญาจ้างและความสามารถในการรับเหมารายย่อย
+          href: pro/subcontracting/staffing-cw.md
+        - name: การบันทึกเวลา ค่าใช้จ่าย และการใช้วัสดุสำหรับส่วนประกอบที่รับเหมารายย่อย
+          href: pro/subcontracting/recording-subcon-actuals.md
+        - name: การเปลี่ยนสถานะในสัญญารับเหมารายย่อย
+          href: pro/subcontracting/subcon-states.md
     - name: เวลา
       items:
         - name: ภาพรวมของเวลา
@@ -578,8 +616,10 @@
           href: revenue-recognition/rev-rec-completed-contract-method.md
     - name: การกำหนดค่าขั้นสูง
       items:
-        - name: ย้ายเหตุการณ์สำคัญในการเรียกเก็บเงินตามใบแจ้งหนี้เต็มจำนวนระหว่างการโยกย้าย
+        - name: ย้ายเหตุการณ์สำคัญในการเรียกเก็บเงินตามใบแจ้งหนี้เต็มจำนวนระหว่างเคลื่อนย้าย
           href: advanced-configuration/migrating-invoiced-milestones.md
+        - name: ซิงค์สถานะโครงการเพื่อป้องกันการป้อนข้อมูลในโครงการที่ปิดแล้ว
+          href: advanced-configuration/sync-project-status.md
     - name: อัปเกรด
       items:
         - name: อัปเกรดข้อควรพิจารณาสำหรับการอนุมัติแบบใหม่
@@ -608,12 +648,14 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: โมเดลความปลอดภัย
           href: environment/security-model.md
-    - name: มีอะไรใหม่บ้าง
+    - name: มีอะไรใหม่
       items:
-        - name: มีอะไรใหม่เดือนกรกฎาคม 2022 - การปรับใช้งานแบบ Lite
-          href: pro/whats-new/whats-new-july-2022-lite.md
+        - name: มีอะไรใหม่เดือนสิงหาคม 2022 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-aug-2022-lite.md
         - name: ข้อมูลเก็บถาวร
           items:
+            - name: มีอะไรใหม่เดือนกรกฎาคม 2022 - การปรับใช้งานแบบ Lite
+              href: pro/whats-new/whats-new-july-2022-lite.md
             - name: มีอะไรใหม่เดือนมิถุนายน 2022 - การปรับใช้งานแบบ Lite
               href: pro/whats-new/whats-new-june-2022-lite.md
             - name: มีอะไรใหม่การเข้าใช้ล่วงหน้า 2021 เวฟ 2 - การปรับใช้งานแบบ Lite
@@ -1112,7 +1154,7 @@
           items:
             - name: อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
               href: whats-new/ur5-nonstocked-installation.md
-    - name: มีอะไรใหม่บ้าง
+    - name: มีอะไรใหม่
       items:
         - name: มีอะไรใหม่ในเดือนกรกฎาคม 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
           href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
@@ -1366,7 +1408,7 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: มีอะไรใหม่บ้าง
+    - name: มีอะไรใหม่
       items:
         - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
