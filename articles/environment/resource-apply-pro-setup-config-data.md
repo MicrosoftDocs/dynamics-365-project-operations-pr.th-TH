@@ -1,17 +1,17 @@
 ---
-title: ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service
+title: ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Microsoft Dataverse
 description: บทความนี้ให้ข้อมูลเกี่ยวกับการตั้งค่าและการใช้ข้อมูลการกำหนดค่าใน Project Operations
 author: sigitac
 ms.date: 05/10/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 2c918425e9a6c5fe8888ed8a4258ca59f0464828
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: b09d3ea7348082a0467fd7b47918c9e00d1f1e8c
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8928041"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230275"
 ---
 # <a name="set-up-and-apply-configuration-data-in-the-common-data-service"></a>ตั้งค่าและใช้ข้อมูลการกำหนดค่าใน Common Data Service 
 
@@ -21,10 +21,10 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
 
-ก่อนที่คุณจะเริ่มกำหนดค่าข้อมูลใน Common Data Service (CDS) ต้องเป็นไปตามข้อกำหนดเบื้องต้นต่อไปนี้:
+ก่อนที่คุณจะเริ่มกำหนดค่าข้อมูลใน Microsoft Dataverse ต้องเป็นไปตามข้อกำหนดเบื้องต้นต่อไปนี้:
 
-1.  จัดเตรียมสภาพแวดล้อม CDS และสภาพแวดล้อม Dynamics 365 Finance สำหรับ Project Operations
-2.  ข้อมูลนิติบุคคลจาก Dynamics 365 Finance จะมีการแชร์กับสภาพแวดล้อม CDS ซึ่งหมายความว่าเอนทิตี **บริษัท** ใน CDS มีเรกคอร์ดบริษัทดังต่อไปนี้:
+1.  จัดเตรียมสภาพแวดล้อม Dataverse และสภาพแวดล้อม Dynamics 365 Finance สำหรับ Project Operations
+2.  ข้อมูลนิติบุคคลจาก Dynamics 365 Finance จะมีการแชร์กับสภาพแวดล้อม Dataverse ซึ่งหมายความว่าเอนทิตี **บริษัท** ใน Dataverse มีเรกคอร์ดบริษัทดังต่อไปนี้:
   - THPM
   - USPM
   - GBPM
@@ -35,13 +35,13 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 2. ไปที่โฟลเดอร์ที่ unzip และเรียกใช้ไฟล์ปฏิบัติการ *DataMigrationUtility*
 3. ในเพจ 1 ของวิซาร์ดการย้ายการกำหนดค่า Common Data Service (CMT) เลือก **นำเข้าข้อมูล** แล้วเลือก **ดำเนินการต่อ**
 
-![การโอนย้ายการตั้งค่าคอนฟิก](./media/1ConfigurationMigration.png)
+![การโอนย้ายการกำหนดค่า](./media/1ConfigurationMigration.png)
 
 4. ในเพจ 2 ของวิซาร์ด CMT ให้เลือก **Microsoft 365** เป็น **ชนิดการปรับใช้งาน**
 5. เลือกกล่องกาเครื่องหมาย **แสดงรายชื่อขององค์กรที่มีอยู่** และ **แสดงขั้นสูง**
 6. เลือกภูมิภาคของผู้เช่าของคุณ ป้อนข้อมูลประจำตัวของคุณ และเลือก **เข้าสู่ระบบ**
 
-![การลงชื่อเข้าใช้การตั้งค่าคอนฟิก](./media/2ConfigurationSignin.png)
+![การลงชื่อเข้าใช้การกำหนดค่า](./media/2ConfigurationSignin.png)
 
 7. ในเพจ 3 จากรายชื่อองค์กรในผู้เช่า ให้เลือกองค์กรที่คุณต้องการนำเข้าข้อมูลสาธิต และเลือก **เข้าสู่ระบบ**
 8. ในเพจ 4 เลือกไฟล์ zip *SampleSetupAndConfigData* จากโฟลเดอร์ที่ขยาย
@@ -117,11 +117,11 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 
 ![ปรับปรุงปฏิทิน](./media/13UpdateCalendar.png)
 
-9. ไปที่ **การตั้งค่า** > **แม่แบบปฏิทิน** และเลือก **ใหม่**
+9. ไปที่ **การตั้งค่า** > **เทมเพลตปฏิทิน** และเลือก **ใหม่**
  
  ![เทมเพลตปฏิทิน](./media/14CalendarTemplates.png)
  
- 10. ป้อนชื่อ เลือกทรัพยากรแม่แบบที่คุณสร้างขึ้น จากนั้นเลือก **บันทึก** 
+ 10. ป้อนชื่อ เลือกทรัพยากรเทมเพลตที่คุณสร้างขึ้น จากนั้นเลือก **บันทึก** 
  
  ![บันทึกเทมเพลตปฏิทิน](./media/15SaveCalendarTemplate.png)
  
@@ -134,7 +134,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
  - **บริษัทเริ่มต้น**: USPM
  - **หน่วยองค์กรเริ่มต้น**: Contoso Robotics Global
  - **ความถี่ของใบแจ้งหนี้**: วันที่เจ็ดและวันสุดท้าย
- - **แม่แบบชั่วโมงทำงาน**: เปลี่ยนเป็นแม่แบบที่คุณสร้างขึ้น
+ - **เทมเพลตชั่วโมงทำงาน**: เปลี่ยนเป็นเทมเพลตที่คุณสร้างขึ้น
 
 13. เลือก **บันทึก** 
 

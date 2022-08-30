@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 30eb02240de6617d4c550ce59db2a454eee36f5b
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: c7958c1474820361269f19ea8c9279b96f087d7a
+ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8912999"
+ms.lasthandoff: 08/06/2022
+ms.locfileid: "9230292"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>การปรับรุ่นจาก Project Service Automation เป็น Project Operations
 
@@ -67,7 +67,7 @@ ms.locfileid: "8912999"
 
 ## <a name="testing-and-refactoring-customizations"></a>การทดสอบและปรับโครงสร้างการปรับแต่ง
 
-ในฐานะเป็นจุดเริ่มต้น ให้นำเข้าการปรับแต่งทั้งหมดไปยังสภาพแวดล้อม Project Operations (lite) ของใหม่เพื่อยืนยันว่าการนำเข้าสำเร็จ และการดำเนินธุรกิจนั้นเป็นไปตามที่คาดไว้
+ในฐานะเป็นจุดเริ่มต้น ให้นำเข้าการปรับแต่งทั้งหมดไปยังสภาพแวดล้อม Project Operations (Lite) ของใหม่เพื่อยืนยันว่าการนำเข้าสำเร็จ และการดำเนินธุรกิจนั้นเป็นไปตามที่คาดไว้
 
 สิ่งที่ควรระวังมีดังต่อไปนี้
 
