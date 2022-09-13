@@ -6,12 +6,12 @@ ms.date: 07/02/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 6953956c0b3401a6c64ee597f966ba4a4c0d07b5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 29bf31cd1bc9c1c5ac757de989154b4c7acc53fe
+ms.sourcegitcommit: 16c9eded66d60d4c654872ff5a0267cccae9ef0e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921279"
+ms.lasthandoff: 09/07/2022
+ms.locfileid: "9410099"
 ---
 # <a name="sign-up-for-a-preview-subscription---lite"></a>ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite 
 
@@ -63,9 +63,9 @@ ms.locfileid: "8921279"
 
 ![ติดตั้งโซลูชัน](./media/21InstallSolution.png)
 
-## <a name="install-a-cds-configuration-and-setup-demo-data"></a>ติดตั้งข้อมูลสาธิตการกำหนดค่าและการตั้งค่า CDS
+## <a name="set-up-demo-data"></a>ตั้งค่าข้อมูลการสาธิต
 
-ติดตั้งข้อมูลสาธิตการกำหนดค่าและการตั้งค่า CDS โดยทำตามคำแนะนำในบทความ [ใช้ข้อมูลสาธิตการตั้งค่าและการกำหนดค่า](lite-apply-demo-setup-config-data.md)
+ตั้งค่าข้อมูลการสาธิตโดยทำตามคำแนะนำในบทความ [ใช้ข้อมูลสาธิตการตั้งค่าและการกำหนดค่า](lite-apply-demo-setup-config-data.md)
 
 
 [!INCLUDE[footer-include](../includes/footer-banner.md)]

@@ -7,12 +7,12 @@ ms.topic: article
 ms.prod: ''
 ms.reviewer: johnmichalak
 ms.author: ramagadu
-ms.openlocfilehash: 112dbb98de09ef342c03d122a29cb8025058e47f
-ms.sourcegitcommit: 6b6c2bfd04e3e613ed1f38355c7cd47c3a56748d
+ms.openlocfilehash: 4042dca72a33f48e04e51af2a3cfd2da83146afd
+ms.sourcegitcommit: 7ed8e77a92917f2d242988ca02bd7de9571cce5e
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/24/2022
-ms.locfileid: "9348030"
+ms.lasthandoff: 09/02/2022
+ms.locfileid: "9403880"
 ---
 # <a name="whats-new-august-2022---project-operations-for-resourcenon-stocked-based-scenarios"></a>มีอะไรใหม่ในเดือนสิงหาคม 2022 - Project Operations สำหรับสถานการณ์ทรัพยากร/ไม่ได้เก็บในคลัง
 
@@ -38,6 +38,11 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | พื้นที่คุณลักษณะ | หมายเลขอ้างอิง | การปรับปรุงคุณภาพ |
 | --- | --- | --- |
 |   การจัดการโอกาสทางการขาย | 2762089 | เกิดข้อผิดพลาดในการจัดการขณะปิดสัญญาเป็นแพ้หากการบันทึกอัตโนมัติในองค์กรถูกปิดใช้งาน|
+|การวางแผนและการติดตามโครงการ | 2767841 | การตรวจวัดระยะไกลอัปเดตเอนทิตีโครงการ สร้างหรืออัปเดตสถานการณ์|
+|การเรียกเก็บเงินและการกำหนดราคา | 2771072 | การจัดการข้อยกเว้นการอ้างอิงเป็นโมฆะในขณะที่ชนะการเสนอราคา|
+|การเรียกเก็บเงินและการกำหนดราคา | 2844181 |ล้มเหลวในการรับรหัสความสัมพันธ์ และการบล็อกการสร้างใบแจ้งหนี้|
+|การเรียกเก็บเงินและการกำหนดราคา | 2852836 | ค่าจริงระหว่างบริษัทที่ขาดหายไปสำหรับค่าใช้จ่ายระหว่างบริษัทที่สร้างและอนุมัติใน CE|
+
 
 ### <a name="project-management-and-accounting-in-finance"></a>ภาพรวมการจัดการโครงการและการบัญชีใน Finance
 

@@ -168,6 +168,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: คัดลอกใบเสนอราคาโครงการ
               href: sales/lose-quote.md
+            - name: เริ่มการใช้งานและแก้ไขใบเสนอราคาโครงการ
+              href: sales/activation-and-revision.md
             - name: ปิดใบเสนอราคาโครงการ
               href: sales/win-quote.md
         - name: จัดการสัญญาโครงการ
@@ -198,6 +200,8 @@
                   href: sales/import-estimate-project-contract-line.md
                 - name: สร้างกำหนดการใบแจ้งหนี้ในรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/invoice-schedules-contract-line.md
+            - name: คัดลอกสัญญาตามโครงการ
+              href: sales/copy-project-based-contracts-sales.md
             - name: ยืนยันสัญญาโครงการ
               href: pro/sales/confirm-contract-sales.md
             - name: เงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า
@@ -228,9 +232,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: แทนที่รายการราคาสำหรับการขายของโครงการ
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: แก้ไขราคาต้นทุนสำหรับประมาณการและข้อมูลจริง
+            - name: กำหนดราคาต้นทุนสำหรับประมาณการและตามจริง
               href: pricing-costing/cost-price-resolution.md
-            - name: แก้ไขราคาขายสำหรับประมาณการและข้อมูลจริง
+            - name: กำหนดราคาขายสำหรับประมาณการและตามจริง
               href: pricing-costing/sales-price-resolution.md
             - name: คัดลอกรายการราคา
               href: pricing-costing/copy-price-lists.md
@@ -392,7 +396,7 @@
           href: pro/subcontracting/managing-subcontracts-overview.md
         - name: แนวคิดหลักในการรับเหมารายย่อย
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: กำลังจัดการผู้จัดจำหน่ายและราคาตลาดของโครงการ
+        - name: การจัดการผู้จัดจำหน่ายและราคาตลาดของโครงการ
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: ผู้รับเหมารายย่อยเป็นทรัพยาการที่สามารถจองได้
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
@@ -766,6 +770,8 @@
                   href: sales/invoice-schedule-quote-line.md
             - name: คัดลอกใบเสนอราคาตามโครงการ
               href: sales/lose-quote.md
+            - name: เริ่มการใช้งานและแก้ไขใบเสนอราคาโครงการ
+              href: sales/activation-and-revision.md
             - name: ปิดใบเสนอราคาตามโครงการ
               href: pro/sales/win-quote-sales.md
         - name: จัดการสัญญาตามโครงการ
@@ -838,9 +844,9 @@
               href: pricing-costing/default-project-sales-price-lists.md
             - name: แทนที่รายการราคาสำหรับการขายของโครงการ
               href: pricing-costing/override-project-sales-price-list-default.md
-            - name: แก้ไขราคาต้นทุนในประมาณการและข้อมูลจริงของโครงการ
+            - name: กำหนดราคาต้นทุนในประมาณการและข้อมูลจริงของโครงการ
               href: pro/pricing-costing/cost-price-resolution-sales.md
-            - name: แก้ไขราคาขายสำหรับประมาณการและข้อมูลจริงของโครงการ
+            - name: กำหนดราคาขายสำหรับประมาณการและข้อมูลจริงของโครงการ
               href: pro/pricing-costing/sales-price-resolution-sales.md
             - name: คัดลอกรายการราคา
               href: pricing-costing/copy-price-lists.md
@@ -1000,7 +1006,7 @@
           href: pro/subcontracting/managing-subcontracts-overview.md
         - name: แนวคิดหลักในการรับเหมารายย่อย
           href: pro/subcontracting/key-concepts-subcontracting.md
-        - name: กำลังจัดการผู้จัดจำหน่ายและราคาตลาดของโครงการ
+        - name: การจัดการผู้จัดจำหน่ายและราคาตลาดของโครงการ
           href: pro/subcontracting/vendors-purchase-price-lists.md
         - name: ผู้รับเหมารายย่อยเป็นทรัพยาการที่สามารถจองได้
           href: pro/subcontracting/subcontractors-as-bookable-resources.md
