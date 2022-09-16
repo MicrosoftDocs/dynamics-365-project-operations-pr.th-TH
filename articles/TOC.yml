@@ -228,10 +228,12 @@
               href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: ค่าเริ่มต้นและการแทนที่
           items:
-            - name: รายการราคาเริ่มต้น
+            - name: ราคาตลาดเริ่มต้น
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: แทนที่รายการราคาสำหรับการขายของโครงการ
+            - name: แทนที่ราคาตลาดสำหรับการขายของโครงการ
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: ตั้งค่าการแทนที่วันที่มีผลบังคับใช้สำหรับราคาเฉพาะในราคาตลาด
+              href: pricing-costing/dateffective_price_overrides.md
             - name: กำหนดราคาต้นทุนสำหรับประมาณการและตามจริง
               href: pricing-costing/cost-price-resolution.md
             - name: กำหนดราคาขายสำหรับประมาณการและตามจริง
@@ -544,6 +546,14 @@
           href: procurement/pending-vendor-invoices.md
         - name: สั่งสินค้าและบริการสำหรับโครงการโดยใช้ใบสั่งซื้อโครงการ
           href: procurement/non-stocked-materials-project-purchase-orders.md
+        - name: ใบแจ้งหนี้ของผู้จัดจำหน่ายสำหรับผู้รับเหมาช่วงใน Dataverse
+          items:
+            - name: สร้างใบแจ้งหนี้ของผู้จัดจำหน่าย
+              href: procurement/Vendor-invoicing-concept-and-creation.md
+            - name: การตรวจสอบใบแจ้งหนี้ของผู้จัดจำหน่ายพร้อมข้อมูลจริงที่ได้รับอนุมัติ
+              href: pro/subcontracting/VI-Verification.md
+            - name: ยืนยันใบแจ้งหนี้ของผู้จัดจำหน่ายของโครงการ
+              href: procurement/Confirm-a-project-vendor-invoice.md
         - name: การรักษาผู้จัดจำหน่าย
           items:
             - name: ภาพรวมของการรักษาผู้จัดจำหน่าย
@@ -840,10 +850,12 @@
               href: pricing-costing/set-up-cost-sales-rates-materials.md
         - name: ค่าเริ่มต้นและการแทนที่
           items:
-            - name: รายการราคาเริ่มต้น
+            - name: ราคาตลาดเริ่มต้น
               href: pricing-costing/default-project-sales-price-lists.md
-            - name: แทนที่รายการราคาสำหรับการขายของโครงการ
+            - name: แทนที่ราคาตลาดสำหรับการขายของโครงการ
               href: pricing-costing/override-project-sales-price-list-default.md
+            - name: ตั้งค่าการแทนที่วันที่มีผลบังคับใช้สำหรับราคาเฉพาะในราคาตลาด
+              href: pricing-costing/dateffective_price_overrides.md
             - name: กำหนดราคาต้นทุนในประมาณการและข้อมูลจริงของโครงการ
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: กำหนดราคาขายสำหรับประมาณการและข้อมูลจริงของโครงการ
