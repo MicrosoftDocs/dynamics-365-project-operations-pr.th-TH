@@ -16,18 +16,18 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 8a6030faf777051ea1003679589af4bdf97322ab
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: a9c69fc4296d30763f3994a4955e64ab258ceb4f
+ms.sourcegitcommit: 675e9f3615e701c5f998de3a5ea3e25df11ae107
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8925373"
+ms.lasthandoff: 09/09/2022
+ms.locfileid: "9459950"
 ---
 # <a name="feature-changes-from-project-service-automation-to-project-operations"></a>การเปลี่ยนแปลงคุณลักษณะจาก Project Service Automation เป็น Project Operations
 
 การปรับรุ่นจาก Dynamics 365 Project Service Automation เป็น Dynamics 365 Project Operations Lite จะมีการนำเสนอในสามระยะ บทความนี้ให้ข้อมูลเกี่ยวกับการเปลี่ยนแปลงที่สำคัญที่คุณจะได้เห็นเมื่อการปรับรุ่นเสร็จสมบูรณ์
 
-| การจัดส่งการปรับรุ่น | ระยะที่ 1 <br>(มกราคม 2022) | ระยะที่ 2 <br>(เวฟเมษายน 2022) | ระยะที่ 3  |
+| การจัดส่งการปรับรุ่น | ระยะที่ 1 <br>(มกราคม 2022) | ระยะที่ 2 <br>(พฤศจิกายน 2022) | ระยะที่ 3  |
 |------------------|------------------------|---------------------------|---------------------------|
 | ไม่มีการขึ้นต่อกันของโครงสร้างการแบ่งงาน (WBS) สำหรับโครงการ | :heavy_check_mark: | :heavy_check_mark: | :heavy_check_mark: |
 | WBS มีการรวมอยู่ในขีดจำกัดที่รองรับในปัจจุบันของ Project Operations | &nbsp; | :heavy_check_mark: | :heavy_check_mark: |
