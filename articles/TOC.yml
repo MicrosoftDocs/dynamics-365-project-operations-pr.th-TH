@@ -508,6 +508,8 @@
           href: approvals/cancelapproval.md
         - name: การเรียกคืนรายการที่อนุมัติก่อนหน้านี้
           href: approvals/recall-cancel.md
+        - name: ความปลอดภัยและการอนุมัติ
+          href: approvals/approvals-security.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
             - name: หมายเหตุสำหรับนักพัฒนาสำหรับการอนุมัติ
@@ -560,6 +562,8 @@
               href: procurement/vendor-retention-overview.md
             - name: ตั้งค่าการรักษาผู้จัดจำหน่าย
               href: procurement/set-up-vendor-retention.md
+            - name: ชำระเมื่อมีการชำระ
+              href: procurement/Pay-when-paid.md
     - name: การออกใบแจ้งหนี้
       items:
         - name: ภาพรวมของการประมวลผลใบแจ้งหนี้
@@ -1102,6 +1106,8 @@
           href: approvals/cancelapproval.md
         - name: การเรียกคืนรายการที่อนุมัติก่อนหน้านี้
           href: approvals/recall-cancel.md
+        - name: ความปลอดภัยและการอนุมัติ
+          href: approvals/approvals-security.md
         - name: หมายเหตุสำหรับนักพัฒนา
           items:
             - name: หมายเหตุสำหรับนักพัฒนาสำหรับการอนุมัติ
