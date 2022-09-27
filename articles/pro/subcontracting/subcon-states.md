@@ -2,20 +2,20 @@
 title: การเปลี่ยนสถานะในสัญญารับเหมารายย่อย
 description: บทความนี้อธิบายการเปลี่ยนสถานะของสัญญารับเหมารายย่อยใน Microsoft Dynamics 365 Project Operations เมื่อมีการสร้าง ดำเนินการ และปิดสัญญารับเหมารายย่อย
 author: rumant
-ms.date: 12/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 02553099a6728c19c219659dff431ff9a5cf10fc
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 2804fc30f8dade42dc1093e5fc0f01fa1db22ca3
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9261298"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522909"
 ---
 # <a name="state-transitions-on-a-subcontract"></a>การเปลี่ยนสถานะในสัญญารับเหมารายย่อย 
 
-_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 บทความนี้อธิบายการเปลี่ยนสถานะในสัญญารับเหมารายย่อยใน Microsoft Dynamics 365 Project Operations แต่ละสถานะจะเป็นแบบร่าง ยืนยันแล้ว ปิดแล้ว หรือถูกยกเลิก รูปภาพต่อไปนี้แสดงถึงการเปลี่ยนสถานะ
 

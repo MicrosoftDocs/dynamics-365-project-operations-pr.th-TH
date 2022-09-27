@@ -2,20 +2,20 @@
 title: รายการสัญญารับเหมารายย่อยสำหรับผลิตภัณฑ์
 description: บทความนี้อธิบายวิธีการบันทึกรายการสัญญารับเหมารายย่อยสำหรับผลิตภัณฑ์และใช้ฟิลด์ต่างๆ เพื่อบันทึกการซื้อผลิตภัณฑ์จากผู้จัดจำหน่าย
 author: rumant
-ms.date: 08/06/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: b5852df1876eff591ae6a131b229d979eacf5aad
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 1ca042eaf95a5e252f00248e83efb959ab3ce801
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262146"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522866"
 ---
 # <a name="subcontract-lines-for-products"></a>รายการสัญญารับเหมารายย่อยสำหรับผลิตภัณฑ์
 
-_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 การรับเหมารายย่อยใน Dynamics 365 Project Operations สามารถมีรายการสัญญารับเหมารายย่อยสำหรับผลิตภัณฑ์ รายการเหล่านี้อนุญาตให้ผู้จัดการโครงการซื้อผลิตภัณฑ์จากผู้จัดจำหน่ายที่สามารถใช้ในงานโครงการได้
 

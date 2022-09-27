@@ -6,12 +6,12 @@ ms.date: 01/10/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: ruhercul
-ms.openlocfilehash: 6a6986cfd6c01d1c22d37a10c8d824730fad2e9e
-ms.sourcegitcommit: a798fed5c59e3fefa62cdfa42c852d529b33fd35
+ms.openlocfilehash: 60790d83d5fcc8c75fef8eac2877d1ca14a761f2
+ms.sourcegitcommit: 385081ecc839d7d4a557eda2bb1578ca073f7e41
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/18/2022
-ms.locfileid: "9029323"
+ms.lasthandoff: 09/19/2022
+ms.locfileid: "9528043"
 ---
 # <a name="sign-up-for-project-operations-trials"></a>ลงทะเบียนรับรุ่นทดลองใช้ Project Operations 
 
@@ -46,7 +46,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | **รายการ**                      | **แบบ Lite**                                     | **วัสดุที่ไม่ได้เก็บในคลัง** | **วัสดุที่เก็บในคลัง** |
 |-------------------------------|----------------------------------------------|---------------------------|-----------------------|
 | ข้อมูลการตั้งค่าที่ระบุไว้           | ตกลง                                          | ตกลง                       | ใช่ (USSI)            |
-| ข้อมูลธุรกรรม            | ไม่                                           | ไม่                        | ไม่                    |
+| ข้อมูลธุรกรรม            | ไม่ใช่                                           | ไม่ใช่                        | ไม่ใช่                    |
 | เวลาการเตรียมใช้งานเป็นนาที  | 15                                           | 90                        | 30                    |
  
 ## <a name="prerequisites"></a>ข้อกำหนดเบื้องต้น
@@ -112,7 +112,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 แหล่งข้อมูลต่อไปนี้จะให้คำแนะนำที่เป็นประโยชน์เมื่อคุณเริ่มต้นการเดินทาง Project Operations:
 
 - [ชุดวิดีโอ - ภาพรวมของ Project Operations, เจาะลึกรายละเอียดคุณลักษณะและแผนงาน](https://youtube.com/playlist?list=PLcakwueIHoT_LJ3Fr1tHnkPk5lioqE6uH)
-- [Dynamics 365 Project Operations](/learn/modules/examine-dynamics-365-project-operations/)
+- [Dynamics 365 Project Operations](/training/modules/examine-dynamics-365-project-operations/)
 - [กำหนดชนิดการปรับใช้งานของคุณ](determine-deployment-type.md)
 
 ## <a name="frequently-asked-questions"></a>คำถามที่ถามบ่อย
@@ -133,7 +133,7 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 ปัจจุบันยังไม่มีการรองรับการปรับรุ่นสภาพแวดล้อมจากแบบ Lite ไปเป็นการปรับใช้งานแบบไม่ได้เก็บในคลัง
 
 ### <a name="can-i-access-lifecycle-services-lcs-for-my-finance-environments"></a>ฉันสามารถเข้าถึง Lifecycle Services (LCS) สำหรับสภาพแวดล้อม Finance ของฉันได้หรือไม่  
-ไม่ สำหรับการทดลองใช้เหล่านี้ การปรับใช้งานจะได้รับการจัดการผ่านศูนย์จัดการ Power Platform ระบบจำกัดการเข้าถึงสภาพแวดล้อม Finance
+ไม่ใช่ สำหรับการทดลองใช้เหล่านี้ การปรับใช้งานจะได้รับการจัดการผ่านศูนย์จัดการ Power Platform ระบบจำกัดการเข้าถึงสภาพแวดล้อม Finance
 
 ### <a name="can-i-install-my-trial-on-an-existing-environment"></a>ฉันสามารถติดตั้งรุ่นทดลองใช้ในสภาพแวดล้อมที่มีอยู่ได้หรือไม่
 หากคุณมีสภาพแวดล้อมอยู่แล้ว คุณจะได้รับอนุญาตให้ติดตั้งการปรับใช้งานแบบ Lite ในสภาพแวดล้อม Dataverse สำหรับการขายที่มีอยู่จากศูนย์จัดการ Power Platform

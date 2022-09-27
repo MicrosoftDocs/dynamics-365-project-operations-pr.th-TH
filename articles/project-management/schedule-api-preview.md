@@ -6,284 +6,146 @@ ms.date: 01/13/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: 3248a057b831d81fdc2bc198b4ed4da5e46462f2
-ms.sourcegitcommit: 8edd24201cded2672cec16cd5dc84c6a3516b6c2
+ms.openlocfilehash: 159d395efff98f2af780e5ed1e5ab3d6483cba89
+ms.sourcegitcommit: b1c26ea57be721c5b0b1a33f2de0380ad102648f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/06/2022
-ms.locfileid: "9230339"
+ms.lasthandoff: 09/20/2022
+ms.locfileid: "9541148"
 ---
 # <a name="use-project-schedule-apis-to-perform-operations-with-scheduling-entities"></a>ใช้ API กำหนดการโครงการเพื่อดำเนินการกับเอนทิตีการจัดกำหนดการ
 
 _**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 
-
-## <a name="scheduling-entities"></a>เอนทิตีการจัดกำหนดการ
+**เอนทิตีการจัดกำหนดการ**
 
 API กำหนดการโครงการให้ความสามารถในการสร้าง อัปเดต และลบการดำเนินการด้วย **เอนทิตีการจัดกำหนดการ** เอนทิตีเหล่านี้ได้รับการจัดการผ่านกลไกการจัดกำหนดการในโครงการสำหรับเว็บ สร้าง ปรับปรุง และลบการดำเนินงานกับ **เอนทิตีการจัดกำหนดการ** มีการจำกัดใน Dynamics 365 Project Operations รุ่นก่อนหน้า
 
 ตารางต่อไปนี้แสดงรายการเอนทิตีกำหนดการโครงการทั้งหมด
 
-| ชื่อเอนทิตี  | ชื่อตรรกะของเอนทิตี |
-| --- | --- |
-| Project | msdyn_project |
-| งานโครงการ  | msdyn_projecttask  |
-| การขึ้นต่อกันของงานโครงการ  | msdyn_projecttaskdependency  |
-| การมอบหมายทรัพยากร | msdyn_resourceassignment |
-| บักเก็ตโครงการ  | msdyn_projectbucket |
-| สมาชิกของทีมโครงการ | msdyn_projectteam |
+| **ชื่อเอนทิตี**         | **ชื่อตรรกะของเอนทิตี**     |
+|-------------------------|-----------------------------|
+| Project                 | msdyn_project               |
+| งานโครงการ            | msdyn_projecttask           |
+| การขึ้นต่อกันของงานโครงการ | msdyn_projecttaskdependency |
+| การมอบหมายทรัพยากร     | msdyn_resourceassignment    |
+| บักเก็ตโครงการ          | msdyn_projectbucket         |
+| สมาชิกของทีมโครงการ     | msdyn_projectteam           |
+| รายการตรวจสอบของโครงการ      | msdyn_projectchecklist      |
+| ป้ายชื่อโครงการ           | msdyn_projectlabel          |
+| งานโครงการที่จะติดป้ายชื่อ   | msdyn_projecttasktolabel    |
+| สปรินท์โครงการ          | msdyn_projectsprint         |
 
-## <a name="operationset"></a>OperationSet
+**OperationSet**
 
 OperationSet เป็นรูปแบบหน่วยการทำงานที่สามารถใช้เมื่อต้องดำเนินการตามกำหนดการหลายรายการที่ส่งผลกระทบต่อคำขอภายในธุรกรรม
 
-## <a name="project-schedule-apis"></a>API กำหนดการโครงการ
+**API กำหนดการโครงการ**
 
 ต่อไปนี้คือรายการ API กำหนดการโครงการปัจจุบัน
 
-- **msdyn_CreateProjectV1**: API นี้สามารถใช้ในการสร้างโครงการ ระบบจะสร้างโครงการและบักเก็ตโปรเจ็กต์เริ่มต้นในทันที
-- **msdyn_CreateTeamMemberV1**: API นี้สามารถใช้เพื่อสร้างสมาชิกทีมโครงการ โดยจะมีการสร้างสมาชิกทีมในทันที
-- **msdyn_CreateOperationSetV1**: API นี้สามารถใช้เพื่อจัดกำหนดการคำขอต่างๆ ที่ต้องดำเนินการภายในธุรกรรม
-- **msdyn_PssCreateV1**: API นี้สามารถใช้เพื่อสร้างเอนทิตี เอนทิตีสามารถเป็นเอนทิตีการจัดกำหนดการโครงการใดๆ ที่สนับสนุนการดำเนินการสร้าง
-- **msdyn_PssUpdateV1**: API นี้สามารถใช้เพื่อปรับปรุงเอนทิตี เอนทิตีสามารถเป็นเอนทิตีการจัดกำหนดการโครงการใดๆ ที่สนับสนุนการดำเนินการอัปเดต
-- **msdyn_PssDeleteV1**: API นี้สามารถใช้เพื่อลบเอนทิตี เอนทิตีสามารถเป็นเอนทิตีการจัดกำหนดการโครงการใดๆ ที่สนับสนุนการดำเนินการลบ
-- **msdyn_ExecuteOperationSetV1**: API นี้ใช้เพื่อดำเนินงานทั้งหมดภายในชุดการดำเนินงานที่กำหนด
+| **API**                                 | Description                                                                                                                       |
+|-----------------------------------------|-----------------------------------------------------------------------------------------------------------------------------------|
+| **msdyn_CreateProjectV1**               | API นี้ใช้เพื่อสร้างโครงการ ระบบจะสร้างโครงการและบักเก็ตโปรเจ็กต์เริ่มต้นในทันที                         |
+| **msdyn_CreateTeamMemberV1**            | API นี้ใช้เพื่อสร้างสมาชิกทีมของโครงการ โดยจะมีการสร้างสมาชิกทีมในทันที                                  |
+| **msdyn_CreateOperationSetV1**          | API นี้ใช้เพื่อจัดกำหนดการคำขอต่างๆ ที่ต้องดำเนินการภายในธุรกรรม                                        |
+| **msdyn_PssCreateV1**                   | API นี้ใช้เพื่อสร้างเอนทิตี เอนทิตีสามารถเป็นเอนทิตีการจัดกำหนดการโครงการใดๆ ที่สนับสนุนการดำเนินการสร้าง |
+| **msdyn_PssUpdateV1**                   | API นี้ใช้เพื่อปรับปรุงเอนทิตี เอนทิตีสามารถเป็นเอนทิตีการจัดกำหนดการโครงการใดๆ ที่สนับสนุนการดำเนินการปรับปรุง  |
+| **msdyn_PssDeleteV1**                   | API นี้ใช้เพื่อลบเอนทิตี เอนทิตีสามารถเป็นเอนทิตีการจัดกำหนดการโครงการใดๆ ที่สนับสนุนการดำเนินการลบ |
+| **msdyn_ExecuteOperationSetV1**         | API นี้ใช้เพื่อดำเนินงานทั้งหมดภายในชุดการดำเนินงานที่กำหนด                                                 |
+| **msdyn_PssUpdateResourceAssignmentV1** | API นี้ใช้เพื่อปรับปรุงโครงร่างงานที่วางแผนของการกำหนดทรัพยากร                                                        |
 
-## <a name="using-project-schedule-apis-with-operationset"></a>การใช้ API กำหนดการโครงการกับ OperationSet
+
+
+**การใช้ API กำหนดการโครงการกับ OperationSet**
 
 เนื่องจากเรกคอร์ด **CreateProjectV1** และ **CreateTeamMemberV1** ทั้งคู่มีการสร้างขึ้นในทันที API เหล่านี้จึงไม่สามารถใช้ใน **OperationSet** ได้โดยตรง อย่างไรก็ตาม คุณสามารถใช้ API ดังกล่าวเพื่อสร้างเรกคอร์ดที่จำเป็น สร้าง **OperationSet** จากนั้นใช้เรกคอร์ดที่สร้างไว้ล่วงหน้าเหล่านี้ใน **OperationSet**
 
-## <a name="supported-operations"></a>การดำเนินการที่รองรับ
+**การดำเนินการที่รองรับ**
 
-| เอนทิตีการจัดกำหนดการ | สร้าง | ปรับปรุง | Delete | ข้อควรพิจารณาที่สำคัญ |
-| --- | --- | --- | --- | --- |
-งานโครงการ | ตกลง | ตกลง | ตกลง | ฟิลด์ **ความคืบหน้า**, **EffortCompleted** และ **EffortRemaining** สามารถแก้ไขได้ใน Project for the Web แต่ไม่สามารถแก้ไขใน Project Operations  |
-| การขึ้นต่อกันของงานโครงการ | ตกลง |  | ตกลง | ไม่ปรับปรุงเรกคอร์ดการขึ้นต่อกันของงานโครงการ แต่สามารถลบเรกคอร์ดเก่าและสร้างเรกคอร์ดใหม่ได้ |
-| การกำหนดทรัพยากร | ตกลง | ตกลง | | ไม่รองรับการดำเนินการกับฟิลด์ต่อไปนี้: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** และ **PlannedWork** ไม่ปรับปรุงเรกคอร์ดการกำหนดทรัพยากร แต่สามารถลบเรกคอร์ดเก่าและสร้างเรกคอร์ดใหม่ได้ |
-| บักเก็ตโครงการ | ตกลง | ตกลง | ตกลง | มีการสร้างบักเก็ตเริ่มต้นโดยใช้ **CreateProjectV1** API มีการเพิ่มการสนับสนุนสำหรับการสร้างและการลบบักเก็ตโครงการในการปรับปรุงรุ่น 16 |
-| สมาชิกของทีมโครงการ | ตกลง | ตกลง | ตกลง | สำหรับการดำเนินการสร้าง ให้ใช้ **CreateTeamMemberV1** API |
-| Project | ตกลง | ตกลง |  | ไม่รองรับการดำเนินการกับฟิลด์ต่อไปนี้: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** และ **Duration** |
+| **เอนทิตีการจัดกำหนดการ**   | **สร้าง** | **Update** | **Delete** | **ข้อควรพิจารณาที่สำคัญ**                                                                                                                                                                                                                                                                                                                            |
+|-------------------------|------------|------------|------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| งานโครงการ            | ตกลง        | ตกลง        | ตกลง        | ฟิลด์ **ความคืบหน้า**, **EffortCompleted** และ **EffortRemaining** สามารถแก้ไขได้ใน Project for the Web แต่ไม่สามารถแก้ไขใน Project Operations                                                                                                                                                                                             |
+| การขึ้นต่อกันของงานโครงการ | ใช่        | ไม่ใช่         | ใช่        | ไม่ปรับปรุงเรกคอร์ดการขึ้นต่อกันของงานโครงการ แต่สามารถลบเรกคอร์ดเก่าและสร้างเรกคอร์ดใหม่ได้                                                                                                                                                                                                                                 |
+| การกำหนดทรัพยากร     | ใช่        | ใช่\*      | ใช่        | ไม่รองรับการดำเนินการกับฟิลด์ต่อไปนี้: **BookableResourceID**, **Effort**, **EffortCompleted**, **EffortRemaining** และ **PlannedWork** ไม่ปรับปรุงเรกคอร์ดการกำหนดทรัพยากร แต่สามารถลบเรกคอร์ดเก่าและสร้างเรกคอร์ดใหม่ได้ มีการจัดเตรียม API แยกต่างหากเพื่อปรับปรุงโครงร่างการกำหนดทรัพยากร |
+| บักเก็ตโครงการ          | ใช่        | ใช่        | ใช่        | มีการสร้างบักเก็ตเริ่มต้นโดยใช้ **CreateProjectV1** API มีการเพิ่มการสนับสนุนสำหรับการสร้างและการลบบักเก็ตโครงการในการปรับปรุงรุ่น 16                                                                                                                                                                                                   |
+| สมาชิกของทีมโครงการ     | ตกลง        | ตกลง        | ตกลง        | สำหรับการดำเนินการสร้าง ให้ใช้ **CreateTeamMemberV1** API                                                                                                                                                                                                                                                                                           |
+| Project                 | ตกลง        | ตกลง        |            | ไม่รองรับการดำเนินการกับฟิลด์ต่อไปนี้: **StateCode**, **BulkGenerationStatus**, **GlobalRevisionToken**, **CalendarID**, **Effort**, **EffortCompleted**, **EffortRemaining**, **Progress**, **Finish**, **TaskEarliestStart** และ **Duration**                                                                                       |
+| รายการตรวจสอบของโครงการ      | ใช่        | ใช่        | ใช่        |                                                                                                                                                                                                                                                                                                                                                         |
+| ป้ายชื่อโครงการ           | ไม่ใช่         | ใช่        | ไม่ใช่         | สามารถเปลี่ยนป้ายชื่อได้ คุณลักษณะนี้สามารถใช้งานสำหรับ Project for the Web เท่านั้น                                                                                                                                                                                                                                                                      |
+| งานโครงการที่จะติดป้ายชื่อ   | ใช่        | ไม่ใช่         | ใช่        | คุณลักษณะนี้สามารถใช้งานสำหรับ Project for the Web เท่านั้น                                                                                                                                                                                                                                                                                                  |
+| สปรินท์โครงการ          | ใช่        | ใช่        | ใช่        | ฟิลด์ **เริ่มต้น** ต้องมีวันที่ก่อนหน้าฟิลด์ **สิ้นสุด** สปรินท์สำหรับโครงการเดียวกันไม่สามารถทับซ้อนกันได้ คุณลักษณะนี้สามารถใช้งานสำหรับ Project for the Web เท่านั้น                                                                                                                                                                    |
 
-API เหล่านี้สามารถเรียกใช้กับเอนทิตีอ็อบเจ็กต์ที่มีฟิลด์แบบกำหนดเอง
+
+
 
 รหัสคุณสมบัติเป็นแบบระบุหรือไม่ก็ได้ หากระบุ ระบบจะพยายามใช้และแสดงข้อยกเว้นหากไม่สามารถใช้งานได้ หากไม่ระบบ ระบบจะสร้างขึ้นเอง
 
-## <a name="restricted-fields"></a>ฟิลด์ที่ถูกจำกัด
+**ข้อจำกัดและปัญหาที่ทราบ**
 
-ตารางต่อไปนี้กำหนดฟิลด์ที่ถูกจำกัดจาก **สร้าง** และ **แก้ไข**
-
-### <a name="project-task"></a>งานโครงการ
-
-| ชื่อตรรกะ                           | สามารถสร้าง     | สามารถแก้ไข         |
-|----------------------------------------|----------------|------------------|
-| msdyn_actualcost                       | ไม่             | ไม่               |
-| msdyn_actualcost_base                  | ไม่             | ไม่               |
-| msdyn_actualend                        | ไม่             | ไม่               |
-| msdyn_actualend                      | ไม่             | ไม่               |
-| msdyn_actualsales_base                 | ไม่             | ไม่               |
-| msdyn_actualstart                      | ไม่             | ไม่               |
-| msdyn_costatcompleteestimate           | ไม่             | ไม่               |
-| msdyn_costatcompleteestimate_base      | ไม่             | ไม่               |
-| msdyn_costconsumptionpercentage        | ไม่             | ไม่               |
-| msdyn_effortcompleted                  | ไม่ (ใช่สำหรับโครงการ)             | ไม่ (ใช่สำหรับโครงการ)               |
-| msdyn_effortremaining                  | ไม่ (ใช่สำหรับโครงการ)              | ไม่ (ใช่สำหรับโครงการ)                |
-| msdyn_effortestimateatcomplete         | ไม่             | ไม่               |
-| msdyn_iscritical                       | ไม่             | ไม่               |
-| msdyn_iscriticalname                   | ไม่             | ไม่               |
-| msdyn_ismanual                         | ไม่             | ไม่               |
-| msdyn_ismanualname                     | ไม่             | ไม่               |
-| msdyn_ismilestone                      | ไม่             | ไม่               |
-| msdyn_ismilestonename                  | ไม่             | ไม่               |
-| msdyn_LinkStatus                       | ไม่             | ไม่               |
-| msdyn_linkstatusname                   | ไม่             | ไม่               |
-| msdyn_msprojectclientid                | ไม่             | ไม่               |
-| msdyn_plannedcost                      | ไม่             | ไม่               |
-| msdyn_plannedcost_base                 | ไม่             | ไม่               |
-| msdyn_plannedsales                     | ไม่             | ไม่               |
-| msdyn_plannedsales_base                | ไม่             | ไม่               |
-| msdyn_pluginprocessingdata             | ไม่             | ไม่               |
-| msdyn_progress                         | ไม่ (ใช่สำหรับโครงการ)             | ไม่ (ใช่สำหรับโครงการ) |
-| msdyn_remainingcost                    | ไม่             | ไม่               |
-| msdyn_remainingcost_base               | ไม่             | ไม่               |
-| msdyn_remainingsales                   | ไม่             | ไม่               |
-| msdyn_remainingsales_base              | ไม่             | ไม่               |
-| msdyn_requestedhours                   | ไม่             | ไม่               |
-| msdyn_resourcecategory                 | ไม่             | ไม่               |
-| msdyn_resourcecategoryname             | ไม่             | ไม่               |
-| msdyn_resourceorganizationalunitid     | ไม่             | ไม่               |
-| msdyn_resourceorganizationalunitidname | ไม่             | ไม่               |
-| msdyn_salesconsumptionpercentage       | ไม่             | ไม่               |
-| msdyn_salesestimateatcomplete          | ไม่             | ไม่               |
-| msdyn_salesestimateatcomplete_base     | ไม่             | ไม่               |
-| msdyn_salesvariance                    | ไม่             | ไม่               |
-| msdyn_salesvariance_base               | ไม่             | ไม่               |
-| msdyn_scheduleddurationminutes         | ไม่             | ไม่               |
-| msdyn_scheduledend                     | ไม่             | ไม่               |
-| msdyn_scheduledstart                   | ไม่             | ไม่               |
-| msdyn_schedulevariance                 | ไม่             | ไม่               |
-| msdyn_skipupdateestimateline           | ไม่             | ไม่               |
-| msdyn_skipupdateestimatelinename       | ไม่             | ไม่               |
-| msdyn_summary                          | ไม่             | ไม่               |
-| msdyn_varianceofcost                   | ไม่             | ไม่               |
-| msdyn_varianceofcost_base              | ไม่             | ไม่               |
-
-### <a name="project-task-dependency"></a>การขึ้นต่อกันของงานโครงการ
-
-| ชื่อตรรกะ                  | สามารถสร้าง     | สามารถแก้ไข     |
-|-------------------------------|----------------|--------------|
-| msdyn_linktype                | ไม่             | ไม่           |
-| msdyn_linktypename            | ไม่             | ไม่           |
-| msdyn_predecessortask         | ตกลง            | ไม่           |
-| msdyn_predecessortaskname     | ตกลง            | ไม่           |
-| msdyn_project                 | ตกลง            | ไม่           |
-| msdyn_projectname             | ตกลง            | ไม่           |
-| msdyn_projecttaskdependencyid | ตกลง            | ไม่           |
-| msdyn_successortask           | ตกลง            | ไม่           |
-| msdyn_successortaskname       | ตกลง            | ไม่           |
-
-### <a name="resource-assignment"></a>การกำหนดทรัพยากร
-
-| ชื่อตรรกะ                 | สามารถสร้าง     | สามารถแก้ไข     |
-|------------------------------|----------------|--------------|
-| msdyn_bookableresourceid     | ตกลง            | ไม่           |
-| msdyn_bookableresourceidname | ตกลง            | ไม่           |
-| msdyn_bookingstatusid        | ไม่             | ไม่           |
-| msdyn_bookingstatusidname    | ไม่             | ไม่           |
-| msdyn_committype             | ไม่             | ไม่           |
-| msdyn_committypename         | ไม่             | ไม่           |
-| msdyn_effort                 | ไม่             | ไม่           |
-| msdyn_effortcompleted        | ไม่             | ไม่           |
-| msdyn_effortremaining        | ไม่             | ไม่           |
-| msdyn_finish                 | ไม่             | ไม่           |
-| msdyn_plannedcost            | ไม่             | ไม่           |
-| msdyn_plannedcost_base       | ไม่             | ไม่           |
-| msdyn_plannedcostcontour     | ไม่             | ไม่           |
-| msdyn_plannedsales           | ไม่             | ไม่           |
-| msdyn_plannedsales_base      | ไม่             | ไม่           |
-| msdyn_plannedsalescontour    | ไม่             | ไม่           |
-| msdyn_plannedwork            | ไม่             | ไม่           |
-| msdyn_projectid              | ตกลง            | ไม่           |
-| msdyn_projectidname          | ไม่             | ไม่           |
-| msdyn_projectteamid          | ไม่             | ไม่           |
-| msdyn_projectteamidname      | ไม่             | ไม่           |
-| msdyn_start                  | ไม่             | ไม่           |
-| msdyn_taskid                 | ไม่             | ไม่           |
-| msdyn_taskidname             | ไม่             | ไม่           |
-| msdyn_userresourceid         | ไม่             | ไม่           |
-
-### <a name="project-team-member"></a>สมาชิกของทีมโครงการ
-
-| ชื่อตรรกะ                                     | สามารถสร้าง     | สามารถแก้ไข     |
-|--------------------------------------------------|----------------|--------------|
-| msdyn_calendarid                                 | ไม่             | ไม่           |
-| msdyn_creategenericteammemberwithrequirementname | ไม่             | ไม่           |
-| msdyn_deletestatus                               | ไม่             | ไม่           |
-| msdyn_deletestatusname                           | ไม่             | ไม่           |
-| msdyn_effort                                     | ไม่             | ไม่           |
-| msdyn_effortcompleted                            | ไม่             | ไม่           |
-| msdyn_effortremaining                            | ไม่             | ไม่           |
-| msdyn_finish                                     | ไม่             | ไม่           |
-| msdyn_hardbookedhours                            | ไม่             | ไม่           |
-| msdyn_hours                                      | ไม่             | ไม่           |
-| msdyn_markedfordeletiontimer                     | ไม่             | ไม่           |
-| msdyn_markedfordeletiontimestamp                 | ไม่             | ไม่           |
-| msdyn_msprojectclientid                          | ไม่             | ไม่           |
-| msdyn_percentage                                 | ไม่             | ไม่           |
-| msdyn_requiredhours                              | ไม่             | ไม่           |
-| msdyn_softbookedhours                            | ไม่             | ไม่           |
-| msdyn_start                                      | ไม่             | ไม่           |
-
-### <a name="project"></a>Project
-
-| ชื่อตรรกะ                           | สามารถสร้าง     | สามารถแก้ไข     |
-|----------------------------------------|----------------|--------------|
-| msdyn_actualexpensecost                | ไม่             | ไม่           |
-| msdyn_actualexpensecost_base           | ไม่             | ไม่           |
-| msdyn_actuallaborcost                  | ไม่             | ไม่           |
-| msdyn_actuallaborcost_base             | ไม่             | ไม่           |
-| msdyn_actualend                      | ไม่             | ไม่           |
-| msdyn_actualsales_base                 | ไม่             | ไม่           |
-| msdyn_contractlineproject              | ตกลง            | ไม่           |
-| msdyn_contractorganizationalunitid     | ตกลง            | ไม่           |
-| msdyn_contractorganizationalunitidname | ตกลง            | ไม่           |
-| msdyn_costconsumption                  | ไม่             | ไม่           |
-| msdyn_costestimateatcomplete           | ไม่             | ไม่           |
-| msdyn_costestimateatcomplete_base      | ไม่             | ไม่           |
-| msdyn_costvariance                     | ไม่             | ไม่           |
-| msdyn_costvariance_base                | ไม่             | ไม่           |
-| msdyn_duration                         | ไม่             | ไม่           |
-| msdyn_effort                           | ไม่             | ไม่           |
-| msdyn_effortcompleted                  | ไม่             | ไม่           |
-| msdyn_effortestimateatcompleteeac      | ไม่             | ไม่           |
-| msdyn_effortremaining                  | ไม่             | ไม่           |
-| msdyn_finish                           | ตกลง            | ตกลง          |
-| msdyn_globalrevisiontoken              | ไม่             | ไม่           |
-| msdyn_islinkedtomsprojectclient        | ไม่             | ไม่           |
-| msdyn_islinkedtomsprojectclientname    | ไม่             | ไม่           |
-| msdyn_linkeddocumenturl                | ไม่             | ไม่           |
-| msdyn_msprojectdocument                | ไม่             | ไม่           |
-| msdyn_msprojectdocumentname            | ไม่             | ไม่           |
-| msdyn_plannedexpensecost               | ไม่             | ไม่           |
-| msdyn_plannedexpensecost_base          | ไม่             | ไม่           |
-| msdyn_plannedlaborcost                 | ไม่             | ไม่           |
-| msdyn_plannedlaborcost_base            | ไม่             | ไม่           |
-| msdyn_plannedsales                     | ไม่             | ไม่           |
-| msdyn_plannedsales_base                | ไม่             | ไม่           |
-| msdyn_progress                         | ไม่             | ไม่           |
-| msdyn_remainingcost                    | ไม่             | ไม่           |
-| msdyn_remainingcost_base               | ไม่             | ไม่           |
-| msdyn_remainingsales                   | ไม่             | ไม่           |
-| msdyn_remainingsales_base              | ไม่             | ไม่           |
-| msdyn_replaylogheader                  | ไม่             | ไม่           |
-| msdyn_salesconsumption                 | ไม่             | ไม่           |
-| msdyn_salesestimateatcompleteeac       | ไม่             | ไม่           |
-| msdyn_salesestimateatcompleteeac_base  | ไม่             | ไม่           |
-| msdyn_salesvariance                    | ไม่             | ไม่           |
-| msdyn_salesvariance_base               | ไม่             | ไม่           |
-| msdyn_scheduleperformance              | ไม่             | ไม่           |
-| msdyn_scheduleperformancename          | ไม่             | ไม่           |
-| msdyn_schedulevariance                 | ไม่             | ไม่           |
-| msdyn_taskearlieststart                | ไม่             | ไม่           |
-| msdyn_teamsize                         | ไม่             | ไม่           |
-| msdyn_teamsize_date                    | ไม่             | ไม่           |
-| msdyn_teamsize_state                   | ไม่             | ไม่           |
-| msdyn_totalactualcost                  | ไม่             | ไม่           |
-| msdyn_totalactualcost_base             | ไม่             | ไม่           |
-| msdyn_totalplannedcost                 | ไม่             | ไม่           |
-| msdyn_totalplannedcost_base            | ไม่             | ไม่           |
-
-### <a name="project-bucket"></a>บักเก็ตโครงการ
-
-| ชื่อตรรกะ          | สามารถสร้าง      | สามารถแก้ไข     |
-|-----------------------|-----------------|--------------|
-| msdyn_displayorder    | ตกลง             | ไม่           |
-| msdyn_name            | ตกลง             | ตกลง          |
-| msdyn_project         | ตกลง             | ไม่           |
-| msdyn_projectbucketid | ตกลง             | ไม่           |
-
-## <a name="limitations-and-known-issues"></a>ข้อจำกัดและปัญหาที่ทราบ
 ต่อไปนี้เป็นรายการข้อจำกัดและปัญหาที่ทราบ:
 
-- API กำหนดการโครงการสามารถใช้ได้โดย **ผู้ใช้ที่มีใบอนุญาต Microsoft Project** เท่านั้น แต่ไม่สามารถใช้โดย:
+-   API กำหนดการโครงการสามารถใช้ได้โดย **ผู้ใช้ที่มีใบอนุญาต Microsoft Project** เท่านั้น แต่ไม่สามารถใช้โดย:
+    -   ผู้ใช้แอปพลิเคชัน
+    -   ผู้ใช้ของระบบ
+    -   ผู้ใช้การบูรณาการ
+    -   ผู้ใช้รายอื่นที่ไม่มีสิทธิ์การใช้งานที่จำเป็น
+-   **OperationSet** แต่ละรายการสามารถดำเนินงานได้สูงสุด 100 รายการ
+-   ผู้ใช้แต่ละรายสามารถมี **OperationSet** ที่เปิดอยู่ได้สูงสุด 10 รายการ
+-   ปัจจุบัน Project Operations รองรับงานทั้งหมดสูงสุด 500 งานในโครงการ
+-   การดำเนินการปรับปรุงโครงร่างการกำหนดทรัพยากรแต่ละครั้งนับเป็นการดำเนินการเดียว
+-   แต่ละรายการของโครงร่างที่ปรับปรุงสามารถมีการแบ่งเวลาได้สูงสุด 100 ครั้ง
+-   ขณะนี้สถานะความล้มเหลวและบันทึกความล้มเหลวของ **OperationSet** ยังไม่พร้อมใช้งาน
+-   มีจำนวนสูงสุด 400 สปรินท์ต่อโครงการ
+-   [ข้อจำกัดและขอบเขตในโครงการและงาน](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   ป้ายชื่อสามารถใช้งานสำหรับ Project for the Web เท่านั้น
 
-    - ผู้ใช้แอปพลิเคชัน
-    - ผู้ใช้ของระบบ
-    - ผู้ใช้การบูรณาการ
-    - ผู้ใช้รายอื่นที่ไม่มีสิทธิ์การใช้งานที่จำเป็น
+**การจัดการข้อผิดพลาด**
 
-- **OperationSet** แต่ละรายการสามารถดำเนินงานได้สูงสุด 100 รายการ
-- ผู้ใช้แต่ละรายสามารถมี **OperationSet** ที่เปิดอยู่ได้สูงสุด 10 รายการ
-- ปัจจุบัน Project Operations รองรับงานทั้งหมดสูงสุด 500 งานในโครงการ
-- ขณะนี้สถานะความล้มเหลวและบันทึกความล้มเหลวของ **OperationSet** ยังไม่พร้อมใช้งาน
-- [ข้อจำกัดและขอบเขตในโครงการและงาน](/project-for-the-web/project-for-the-web-limits-and-boundaries)
+-   หากต้องการตรวจสอบข้อผิดพลาดที่เกิดจาก Operation Sets ไปที่ **การตั้งค่า** \> **การรวมกำหนดการ** \> **Operation Sets**
+-   หากต้องการตรวจสอบข้อผิดพลาดที่เกิดจากบริการกำหนดการโครางการ ให้ไปที่ **การตั้งค่า** \> **การรวมกำหนดการ** \> **บันทึกข้อผิดพลาด PSS**
 
-## <a name="error-handling"></a>การจัดการข้อผิดพลาด
+**การแก้ไขโครงร่างการกำหนดทรัพยากร**
 
-- หากต้องการตรวจสอบข้อผิดพลาดที่เกิดจาก Operation Sets ไปที่ **การตั้งค่า** \> **การรวมกำหนดการ** \> **Operation Sets**
-- หากต้องการตรวจสอบข้อผิดพลาดที่เกิดจากบริการกำหนดการโครางการ ให้ไปที่ **การตั้งค่า** \> **การรวมกำหนดการ** \> **บันทึกข้อผิดพลาด PSS**
+ไม่เหมือนกับ API การจัดกำหนดการโครงการอื่นๆ ทั้งหมดที่ปรับปรุงเอนทิตี API โครงร่างการกำหนดทรัพยากรมีหน้าที่ในการปรับปรุงฟิลด์เดียวคือ msdyn_plannedwork บนเอนทิตีเดียวคือ msydn_resourceassignment
 
-## <a name="sample-scenario"></a>สถานการณ์ตัวอย่าง
+โหมดกำหนดการที่กำหนดคือ:
+
+-   **หน่วยคงที่**
+-   ปฏิทินโครงการคือ 9-5p โดยมี 9-5pst, จันทร์, อังคาร, พฤหัสบดี, ศุกร์ (หยุดทำงานวันพุธ)
+-   และปฏิทินทรัพยากรคือ 9-1p โดยมี PST จันทร์ถึงศุกร์
+
+การกำหนดนี้ใช้เวลาหนึ่งสัปดาห์ สี่ชั่วโมงต่อวัน ทั้งนี้เนื่องจากปฏิทินทรัพยากรมาจาก 9-1 PST หรือสี่ชั่วโมงต่อวัน
+
+| &nbsp;     | งาน | วันที่เริ่ม | วันที่สิ้นสุด  | ปริมาณ | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| ผู้ปฏิบัติงาน 9-1 |  T1  | 6/13/2022  | 6/17/2022 | 20       | 4         | 4         | 4         | 4         | 4         |
+
+ตัวอย่างเช่น ถ้าคุณต้องการให้ผู้ปฏิบัติงานทำงานเพียงสามชั่วโมงต่อวันในสัปดาห์นี้ และให้เวลาหนึ่งชั่วโมงสำหรับงานอื่นๆ
+
+#### <a name="updatedcontours-sample-payload"></a>ส่วนข้อมูลตัวอย่าง UpdatedContours:
+
+```json
+[{
+
+"minutes":900.0,
+
+"start":"2022-06-13T00:00:00-07:00",
+
+"end":"2022-06-18T00:00:00-07:00"
+
+}]
+```
+
+นี่คือการกำหนดหลังจาก API ปรับปรุงกำหนดการของโครงร่างทำงาน
+
+| &nbsp;     | งาน | วันที่เริ่ม | วันที่สิ้นสุด  | ปริมาณ | 6/13/2022 | 6/14/2022 | 6/15/2022 | 6/16/2022 | 6/17/2022 |
+|------------|------|------------|-----------|----------|-----------|-----------|-----------|-----------|-----------|
+| ผู้ปฏิบัติงาน 9-1 | T1   | 6/13/2022  | 6/17/2022 | 15       | 3         | 3         | 3         | 3         | 3         |
+
+
+**สถานการณ์ตัวอย่าง**
 
 ในสถานการณ์นี้ คุณจะสร้างโครงการ สมาชิกทีม งานสี่งาน และการกำหนดทรัพยากรสองรายการ จากนั้น คุณจะปรับปรุงหนึ่งงาน ปรับปรุงโครงการ ลบหนึ่งงาน ลบการกำหนดทรัพยากรหนึ่งรายการ และสร้างการขึ้นต่อกันของงาน
 
@@ -333,7 +195,7 @@ CallExecuteOperationSetAction(operationSetId);
 Console.WriteLine("Done....");
 ```
 
-## <a name="additional-samples"></a>ตัวอย่างเพิ่มเติม
+** ตัวอย่างเพิ่มเติม
 
 ```csharp
 #region Call actions --- Sample code ----

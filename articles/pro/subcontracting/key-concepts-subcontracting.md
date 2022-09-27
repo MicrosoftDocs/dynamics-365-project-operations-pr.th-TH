@@ -2,21 +2,21 @@
 title: แนวคิดหลักในการรับเหมารายย่อย
 description: บทความนี้อธิบายแนวคิดหลักบางประการที่นำไปใช้กับการรับเหมารายย่อยใน Microsoft Dynamics 365 Project Operations
 author: rumant
-ms.date: 08/03/2021
+ms.date: 09/14/2022
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: e75f2cf9c1092604e43e5cb60dda0e2a1b7dcd64
-ms.sourcegitcommit: b2224d1f3c0bd4925d647e6ca3960db81a209521
+ms.openlocfilehash: 9577169f12198222e647ed07ae8a1b6c55da4323
+ms.sourcegitcommit: 08eb3be9eda44e9446c43ed9b6aefd58d77927c5
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/11/2022
-ms.locfileid: "9262193"
+ms.lasthandoff: 09/15/2022
+ms.locfileid: "9522772"
 ---
 # <a name="key-concepts-in-subcontracting"></a>แนวคิดหลักในการรับเหมารายย่อย
 
 
-_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 บทความนี้อธิบายแนวคิดหลักบางประการที่คุณควรทราบก่อนเริ่มใช้ฟังก์ชันการรับเหมารายย่อยใน Microsoft Dynamics 365 Project Operations
 
