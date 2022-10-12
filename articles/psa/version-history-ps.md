@@ -22,12 +22,12 @@ search.app:
 - D365CE
 - D365PS
 - ProjectOperations
-ms.openlocfilehash: 14fd22c7c863d650baebf1c7c2c96521d0bd207c
-ms.sourcegitcommit: 153eb9325df25b31539bb2b44077326386ab41ae
+ms.openlocfilehash: 359fcc2d31d4d90339870b93560685d77cb03fc8
+ms.sourcegitcommit: 6536e79aca5ce2cb0276a4366db69d688962a21f
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 08/15/2022
-ms.locfileid: "9295855"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621965"
 ---
 # <a name="update-release-schedule-for-project-service-3x"></a>กำหนดการเผยแพร่การปรับปรุงสำหรับ Project Service 3.x
 
@@ -37,7 +37,7 @@ ms.locfileid: "9295855"
 
 | โซลูชัน  | รุ่นล่าสุด |
 |-------|----|
-| Project Service Automation    | 3.10.76.168 |
+| Project Service Automation    | 3.10.78.8 |
 | Add-in เดสก์ท็อป Project Service Automation                | 3.60          |
 
 สำหรับข้อมูลเกี่ยวกับการปรับปรุงอื่นๆ ของ Project Service ดูที่ [แผนการนำออกใช้ของ Dynamics 365](/dynamics365/release-plans/) 
@@ -45,30 +45,30 @@ ms.locfileid: "9295855"
 | สถานี  | ขอบเขต | รุ่นปัจจุบัน | รุ่นถัดไป |  วันที่ตามกำหนดการ
 | :---   | :---   | :---   | :---   |:---   |         
 |<strong>สถานี 1</strong> | |  |  | |
-| | <i>การเปิดตัวครั้งแรก</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 26 สิงหาคม 2022
+| | <i>การเปิดตัวครั้งแรก</i> | [3.10.78.8](whats-new-ur-47.md)| TBD | 07 ตุลาคม 2022
 |<strong>สถานี 2</strong> | |  |  | |
-| | <i>อเมริกาใต้</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
-| | <i>แคนาดา</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
-| | <i>อินเดีย</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
-| | <i>ฝรั่งเศส</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
-| | <i>แอฟริกาใต้</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
-| | <i>เยอรมนี</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
-| | <i>สวิตเซอร์แลนด์</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
-| | <i>เกาหลีใต้</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
-| | <i>นอร์เวย์</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 02 กันยายน 2022
+| | <i>อเมริกาใต้</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
+| | <i>แคนาดา</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
+| | <i>อินเดีย</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
+| | <i>ฝรั่งเศส</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
+| | <i>แอฟริกาใต้</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
+| | <i>เยอรมนี</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
+| | <i>สวิตเซอร์แลนด์</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
+| | <i>เกาหลีใต้</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
+| | <i>นอร์เวย์</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 14 ตุลาคม 2022
 |<strong>สถานี 3</strong> | |  |  | |
-| | <i>ญี่ปุ่น</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 กันยายน 2022
-| | <i>เอเชียแปซิฟิก</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 กันยายน 2022
-| | <i>สหราชอาณาจักร</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 กันยายน 2022
-| | <i>Oceana</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 กันยายน 2022
-| | <i>สหรัฐอาหรับเอมิเรตส์</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 09 กันยายน 2022
+| | <i>ญี่ปุ่น</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 ตุลาคม 2022
+| | <i>เอเชียแปซิฟิก</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 ตุลาคม 2022
+| | <i>สหราชอาณาจักร</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 ตุลาคม 2022
+| | <i>Oceana</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 ตุลาคม 2022
+| | <i>สหรัฐอาหรับเอมิเรตส์</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 ตุลาคม 2022
 |<strong>สถานี 4</strong> | |  |  | |
-| | <i>ยุโรป</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 16 กันยายน 2022
+| | <i>ยุโรป</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 21 ตุลาคม 2022
 |<strong>สถานี 5</strong> | |  |  | |
-| | <i>อเมริกาเหนือ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 23 กันยายน 2022
+| | <i>อเมริกาเหนือ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 04 พฤศจิกายน 2022
 |<strong>สถานี 6</strong> | |  |  | |
-| | <i>คลาวด์ชุมชนของรัฐบาล</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 21 กันยายน 2022
-| | <i>กลุ่มสเกลเฉพาะ</i> | [3.10.76.168](whats-new-ur-45.md) | TBD | 30 กันยายน 2022
+| | <i>คลาวด์ชุมชนของรัฐบาล</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 02 พฤศจิกายน 2022
+| | <i>กลุ่มสเกลเฉพาะ</i> | [3.10.78.8](whats-new-ur-47.md) | TBD | 11 พฤศจิกายน 2022
 
 
 

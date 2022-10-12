@@ -6,12 +6,12 @@ ms.date: 07/01/2021
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: sigitac
-ms.openlocfilehash: e904ad18b6ea94cd6d31d1878b5bc9e7c52be741
-ms.sourcegitcommit: c8b8fef5626790208c5290b1bb92b17a5d90d286
+ms.openlocfilehash: b86b9ecdc63989189c76dd8380024aa44c7641a5
+ms.sourcegitcommit: a2d720ac6d7ddb20a0967fe87992a376b2478208
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 07/02/2022
-ms.locfileid: "9112452"
+ms.lasthandoff: 10/04/2022
+ms.locfileid: "9621105"
 ---
 # <a name="project-operations-dual-write-map-versions"></a>เวอร์ชันแผนที่การรวมแบบสองทิศทางของ Project Operations
 
@@ -48,14 +48,14 @@ _**นำไปใช้กับ:** Project Operations สำหรับสถ
 | แหล่งเงินทุนของโครงการ (msdyn_projectcontractsplitbillingrules) | 1.0.0.2 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | ตารางการรวมโครงการสำหรับการประมาณการวัสดุ (msdyn\_estimatelines) | 1.0.0.0 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | ข้อเสนอใบแจ้งหนี้โครงการV2 (ใบแจ้งหนี้) | 1.0.0.3 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
-| ข้อมูลจริงของการรวม Project Operations (msdyn_actuals) | 1.0.0.14 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
+| ข้อมูลจริงของการรวม Project Operations (msdyn_actuals) | 1.0.0.15 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |10.0.29 หรือรุ่นที่ใหม่กว่า|
 | หลักเป้าหมายในรายละเอียดการให้บริการตามสัญญาของการรวม Project Operations (msdyn_contractlinescheduleofvalues) | 1.0.0.4 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | เอนทิตีการรวม Project Operations สำหรับประมาณการค่าใช้จ่าย (msdyn_estimatelines) | 1.0.0.2 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | เอนทิตีการรวม Project Operations สำหรับการประมาณการชั่วโมง (msdyn_resourceassignments) | 1.0.0.5 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | เอนทิตีการส่งออกประเภทค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn_expensecategories) | 1.0.0.1 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | เอนทิตีการส่งออกค่าใช้จ่ายโครงการของการรวม Project Operations (msdyn_expenses) | 1.0.0.3 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
-| เอนทิตีการส่งออกใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวม Project Operations (msdyn_projectvendorinvoices) | 1.0.0.1 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |10.0.26 หรือรุ่นที่ใหม่กว่า|
-| เอนทิตีการส่งออกรายการใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวม Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.4 | ไม่จำเป็นสำหรับการเตรียมใช้งาน | 10.0.26 หรือรุ่นที่ใหม่กว่า |
+| เอนทิตีการส่งออกใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวม Project Operations (msdyn_projectvendorinvoices) | 1.0.0.2 | ไม่จำเป็นสำหรับการเตรียมใช้งาน |10.0.29 หรือรุ่นที่ใหม่กว่า|
+| เอนทิตีการส่งออกรายการใบแจ้งหนี้ของผู้จัดจำหน่ายโครงการการรวม Project Operations (msdyn_projectvendorinvoicelines) | 1.0.0.5 | ไม่จำเป็นสำหรับการเตรียมใช้งาน | 10.0.29 หรือรุ่นที่ใหม่กว่า |
 | บทบาททรัพยากรโครงการสำหรับทุกบริษัท (bookableresourcecategories) | 1.0.0.1 | ต้องมีการทำข้อมูลให้ตรงกันครั้งแรกสำหรับแผนที่Dynamics 365ตารางเพื่อซิงโครไนซ์บทบาททรัพยากรของผู้จัดการโครงการและสมาชิกทีมที่ถูกบรรจุในสภาพแวดล้อม Dynamics 365 Dataverse ในระหว่างการเตรียมใช้งาน Dataverse เป็นแหล่งข้อมูลหลักสำหรับการทำข้อมูลให้ตรงกันครั้งแรก ||
 | งานโครงการ (msdyn_projecttasks) | 1.0.0.4 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||
 | ประเภทธุรกรรมโครงการ (msdyn_transactioncategories) | 1.0.0.0 | ไม่จำเป็นสำหรับการเตรียมใช้งาน ||

@@ -60,12 +60,14 @@
               href: environment/resource-dual-write-vendor-invoice.md
         - name: ถอนการติดตั้ง Dynamics 365 Project Operations
           href: environment/uninstall-project-operations.md
-    - name: มีอะไรใหม่
+    - name: มีอะไรใหม่บ้าง
       items:
-        - name: สิงหาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
-          href: whats-new/whats-new-aug-2022-resource-based.md
+        - name: กันยายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+          href: whats-new/whats-new-sept-2022-resource-based.md
         - name: ข้อมูลเก็บถาวร
           items:
+            - name: สิงหาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+              href: whats-new/whats-new-aug-2022-resource-based.md
             - name: กรกฎาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
               href: whats-new/whats-new-july-2022-resource-based.md
             - name: มิถุนายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
@@ -110,7 +112,7 @@
       items:
         - name: ภาพรวมกระบวนการขายของโครงการ
           href: sales/sales-overview.md
-        - name: การตั้งค่า
+        - name: ตั้งค่า
           items:
             - name: ผลิตภัณฑ์
               href: sales/sales-products.md
@@ -666,12 +668,14 @@
           href: environment/lite-apply-demo-setup-config-data.md
         - name: โมเดลความปลอดภัย
           href: environment/security-model.md
-    - name: มีอะไรใหม่
+    - name: มีอะไรใหม่บ้าง
       items:
-        - name: มีอะไรใหม่เดือนสิงหาคม 2022 - การปรับใช้งานแบบ Lite
-          href: pro/whats-new/whats-new-aug-2022-lite.md
+        - name: มีอะไรใหม่เดือนกันยายน 2022 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-sept-2022-lite.md
         - name: ข้อมูลเก็บถาวร
           items:
+            - name: มีอะไรใหม่เดือนสิงหาคม 2022 - การปรับใช้งานแบบ Lite
+              href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: มีอะไรใหม่เดือนกรกฎาคม 2022 - การปรับใช้งานแบบ Lite
               href: pro/whats-new/whats-new-july-2022-lite.md
             - name: มีอะไรใหม่เดือนมิถุนายน 2022 - การปรับใช้งานแบบ Lite
@@ -718,7 +722,7 @@
       items:
         - name: ภาพรวมกระบวนการขายของโครงการ
           href: sales/sales-overview.md
-        - name: การตั้งค่า
+        - name: ตั้งค่า
           items:
             - name: ผลิตภัณฑ์
               href: sales/sales-products.md
@@ -1178,12 +1182,14 @@
           items:
             - name: อัปเดต Project Operations ในสภาพแวดล้อม Finance ของคุณ
               href: whats-new/ur5-nonstocked-installation.md
-    - name: มีอะไรใหม่
+    - name: มีอะไรใหม่บ้าง
       items:
-        - name: มีอะไรใหม่ในเดือนกรกฎาคม 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
-          href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
+        - name: มีอะไรใหม่ในเดือนกันยายน 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
         - name: ข้อมูลเก็บถาวร
           items:
+            - name: มีอะไรใหม่ในเดือนกรกฎาคม 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+              href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: มีอะไรใหม่ในเดือนมิถุนายน 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
               href: prod-pma/whats-new/whats-new-jun-2022-stocked.md
             - name: มีอะไรใหม่ในเดือนตุลาคม 2021 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
@@ -1432,10 +1438,14 @@
   items:
     - name: Project Service Automation
       href: psa/overview.md
-    - name: มีอะไรใหม่
+    - name: มีอะไรใหม่บ้าง
       items:
-        - name: กำหนดการรุ่นการปรับปรุงสำหรับ Project Service 3.x
+        - name: กำหนดการออกรุ่นการปรับปรุงสำหรับ Project Service 3.x
           href: psa/version-history-ps.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 47, V3'
+          href: psa/whats-new-ur-47.md
+        - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 45, V3'
+          href: psa/whats-new-ur-45.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 44, V3'
           href: psa/whats-new-ur-44.md
         - name: 'มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงในการปรับปรุงรุ่น 43, V3'
