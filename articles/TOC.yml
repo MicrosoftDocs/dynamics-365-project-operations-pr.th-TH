@@ -1534,7 +1534,15 @@
           href: psa/whats-new-v3-2020-wave1.md
         - name: มีอะไรใหม่หรือมีอะไรเปลี่ยนแปลงใน Project Service Automation V3
           href: psa/whats-new-changed-v3.md
-    - name: วางแผนการนำไปใช้ของคุณ (รุ่นแอป 3.x)
+    - name: การปรับรุ่น Project Service Automation (แอป Project Operations เวอร์ชันไลท์ 4.x)
+      items:
+        - name: ปรับรุ่นจาก Project Service Automation เป็น Project Operations
+          href: psa/upgrade-project-operations-non-stocked.md
+        - name: การเปลี่ยนแปลงคุณลักษณะ Project Service Automation เป็น Project Operations
+          href: psa/psa-project-operations-changes.md
+        - name: กระบวนการแปลงการจัดกำหนดการโครงการจาก Project Service Automation เป็น Project Operations
+          href: psa/PSA-Upgrade-Project-Conversion.md
+    - name: วางแผนการนำไปใช้ของคุณ (แอปเวอร์ชัน 3.x)
       items:
         - name: การติดตั้งข้อมูลตัวอย่าง
           href: psa/install-sample-data-3-x.md
