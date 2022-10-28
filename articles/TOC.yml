@@ -1752,8 +1752,6 @@
               href: psa/FAQ-soft-book-in-web-app.md
             - name: ฉันจะกำหนดโฟลว์กระบวนการธุรกิจของลำดับขั้นของโครงการได้อย่างไร
               href: psa/FAQ-customize-bpf.md
-            - name: ข้อควรพิจารณาในการปรับรุ่นสำหรับโครงสร้างการแบ่งงาน
-              href: psa/upgrade-considerations-tasks.md
         - name: เอกสาร
           href: psa/white-papers.md
         - name: คู่มือผู้ดูแลระบบ
