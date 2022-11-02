@@ -16,12 +16,12 @@ search.app:
 - D365PS
 - ProjectOperations
 ms.reviewer: johnmichalak
-ms.openlocfilehash: 2d7b372cac391fab7a81ac6ac5d2ea6d12977b5c
-ms.sourcegitcommit: 9de444ae0460c8d15c77d225d0c0ad7f8445d5fc
+ms.openlocfilehash: 06a4de89be8176049d3a14a8c0d6427e228744ba
+ms.sourcegitcommit: 73aff2b3c5e5b8a2254735b0b25931cbb6754c87
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 10/18/2022
-ms.locfileid: "9686999"
+ms.lasthandoff: 10/20/2022
+ms.locfileid: "9709468"
 ---
 # <a name="upgrade-from-project-service-automation-to-project-operations"></a>การปรับรุ่นจาก Project Service Automation เป็น Project Operations
 
@@ -70,7 +70,7 @@ ms.locfileid: "9686999"
 
 ## <a name="licensing"></a>การให้สิทธิ์การใช้งาน
 
-หากคุณมีสิทธิ์การใช้งานที่ใช้งานอยู่สำหรับ Project Service Automation คุณสามารถติดตั้งและใช้ Project Operations รวมถึงความสามารถทั้งหมดของ Project Service Automation และอื่นๆ คุณสามารถทดสอบความสามารถของ Project Operations ในสภาพแวดล้อมแยกต่างหากขณะที่คุณยังคงใช้ Project Service Automation ในการทำงานจริงได้ หลังจากที่สิทธิ์การใช้งาน Project Service Automation ของคุณหมดอายุ คุณจะต้องเปลี่ยนไปใช้ Project Operations เมื่อคุณวางแผนที่ทำการเปลี่ยนแปลงนี้ คุณต้องคำนึงถึงข้อเท็จจริงที่ว่าสิทธิ์การใช้งาน Project Operations ไม่ได้รวมสิทธิ์การใช้งาน Project Service Automation
+หากคุณมีสิทธิ์การใช้งานที่ใช้งานอยู่สำหรับ Project Service Automation คุณสามารถติดตั้งและใช้ Project Operations รวมถึงความสามารถทั้งหมดของ Project Service Automation และอื่นๆ ด้วยวิธีนี้ คุณสามารถทดสอบความสามารถของ Project Operations ขณะที่คุณยังคงใช้ Project Service Automation ในการทำงานจริงได้ หลังจากที่สิทธิ์การใช้งาน Project Service Automation ของคุณหมดอายุ คุณจะต้องเปลี่ยนไปใช้ Project Operations เมื่อคุณวางแผนที่ทำการเปลี่ยนแปลงนี้ คุณต้องคำนึงถึงข้อเท็จจริงที่ว่าสิทธิ์การใช้งาน Project Operations ไม่ได้รวมสิทธิ์การใช้งาน Project Service Automation ลูกค้าที่มีสถานการณ์ที่พวกเขาปรับใช้งาน Project Service Automation และจำเป็นต้องใช้หรือเพิ่มสิทธิ์การใช้งานสำหรับ PSA ต่อไปในขณะที่พวกเขาวางแผนที่จะย้ายไปใช้ Project Operations อาจขอสิทธิ์การใช้งาน PSA ชั่วคราวตามสิทธิ์การใช้งานที่ซื้อใน Project Operations มีการออกสิทธิ์การใช้งาน Project Service Automation หนึ่งสิทธิ์ให้กับสิทธิ์การใช้งาน Project Operations หนึ่งสิทธิ์ คุณสามารถขอสิทธิ์การใช้งาน PSA ชั่วคราวได้โดยใช้ลิงก์นี้: aka.ms/ineedpsa
 
 ## <a name="testing-and-refactoring-customizations"></a>การทดสอบและปรับโครงสร้างการปรับแต่ง
 
