@@ -62,51 +62,55 @@
           href: environment/uninstall-project-operations.md
     - name: มีอะไรใหม่บ้าง
       items:
-        - name: กันยายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
-          href: whats-new/whats-new-sept-2022-resource-based.md
+        - name: พฤศจิกายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
+          href: whats-new/whats-new-nov-2022-resource-based.md
         - name: ข้อมูลเก็บถาวร
           items:
-            - name: สิงหาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: ตุลาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
+              href: whats-new/whats-new-oct-2022-resource-based.md
+            - name: กันยายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
+              href: whats-new/whats-new-sept-2022-resource-based.md
+            - name: สิงหาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-aug-2022-resource-based.md
-            - name: กรกฎาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: กรกฎาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-july-2022-resource-based.md
-            - name: มิถุนายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: มิถุนายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-june-2022-resource-based.md
-            - name: พฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: พฤษภาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-may-2022-resource-based.md
-            - name: เมษายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: เมษายน 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-apr-2022-resource-based.md
-            - name: มีนาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: มีนาคม 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-mar-2022-resource-based.md
-            - name: กุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: กุมภาพันธ์ 2022 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-feb-2022-resource-based.md
-            - name: ธันวาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: ธันวาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-dec-2021-resource-based.md
-            - name: พฤศจิกายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: พฤศจิกายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-nov-2021-resource-based.md
-            - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: ตุลาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-oct-2021-resource-based.md
-            - name: กันยายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: กันยายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-sept-2021-resource-based.md
-            - name: สิงหาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: สิงหาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-august-2021-resource-based.md
-            - name: กรกฎาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: กรกฎาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-july-2021-resource-based.md
-            - name: มิถุนายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: มิถุนายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-june-2021-resource-based.md
-            - name: พฤษภาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: พฤษภาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-may-2021-resource-based.md
-            - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: เมษายน 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-apr-2021-resource-based.md
-            - name: มีนาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: มีนาคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-mar-2021-resource-based.md
-            - name: กุมภาพันธ์ 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: กุมภาพันธ์ 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-feb-2021-resource-based.md
-            - name: มกราคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: มกราคม 2021 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-jan-2021-resource-based.md
-            - name: ธันวาคม 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: ธันวาคม 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-dec-2020-resource-based.md
-            - name: พฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่เก็บในคลัง
+            - name: พฤศจิกายน 2020 - Project Operations สำหรับสถานการณ์ตามทรัพยากร/ที่ไม่เก็บในคลัง
               href: whats-new/whats-new-nov-2020-resource-based.md
     - name: กระบวนการขายของโครงการ
       items:
@@ -122,9 +126,9 @@
               href: sales/sales-currency.md
             - name: หน่วยองค์กร
               href: sales/OrgUnits.md
-        - name: จัดการลูกค้าเป้าหมายของโครงการ
+        - name: จัดการลูกค้าเป้าหมายตามโครงการ
           href: sales/manage-leads.md
-        - name: จัดการโอกาสทางการขายของโครงการ
+        - name: จัดการโอกาสทางการขายตามโครงการ
           items:
             - name: ภาพรวมจัดการโอกาสทางการขายของโครงการ
               href: sales/manage-project-based-opportunities.md
@@ -132,13 +136,13 @@
               href: sales/opportunity-header.md
             - name: รายการโอกาสทางการขายตามโครงการ
               href: sales/project-based-lines.md
-            - name: สร้างใบเสนอราคาโครงการจากโอกาสทางการขาย
+            - name: สร้างใบเสนอราคาจากโอกาสทางการขายของโครงการ
               href: sales/link-quotes-opportunities.md
-            - name: คัดลอกโอกาสทางการขายตามโครงการ
+            - name: คัดลอกโอกาสทางการขายของโครงการ
               href: sales/copy-project-based-opportunity.md
             - name: ปิดโอกาสทางการขายของโครงการ
               href: sales/close-opportunity.md
-        - name: จัดการใบเสนอราคาโครงการ
+        - name: จัดการใบเสนอราคาตามโครงการ
           items:
             - name: ภาพรวมจัดการใบเสนอราคาโครงการ
               href: pro/sales/manage-quotes-sales.md
@@ -146,60 +150,58 @@
               href: sales/quotes-key-concepts.md
             - name: รายละเอียดส่วนหัวสำหรับใบเสนอราคาตามโครงการ
               href: sales/quote-values-budget-limits-contract.md
-            - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคาโครงการ
+            - name: จัดการลูกค้าหลายรายในใบเสนอราคาตามโครงการ
               href: sales/manage-multiple-customers-quote.md
-            - name: จัดการรายการราคาของโครงการในใบเสนอราคา
+            - name: ราคาตลาดของโครงการในใบเสนอราคาโครงการ
               href: pro/sales/manage-project-price-lists-sales.md
             - name: รายการใบเสนอราคาตามโครงการ
               items:
-                - name: ภาพรวมรายการใบเสนอราคาตามโครงการ
+                - name: ภาพรวมรายการใบเสนอราคาโครงการ
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
                 - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคาตามโครงการ
                   href: sales/manage-multiple-customers-quote-line.md
-                - name: แมปโครงการและงานกับรายการใบเสนอราคาตามโครงการ
+                - name: แมปโครงการและงานกับรายการใบเสนอราคาโครงการ
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินสำหรับรายการใบเสนอราคาตามโครงการ
+                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินในรายการใบเสนอราคาโครงการ
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินของรายการใบเสนอราคาโครงการ
-                  href: sales/configure-chargeable-quoteline.md
                 - name: ประเมินรายการใบเสนอราคาโครงการ
-                  href: sales/create-estimate-quote-line.md
-                - name: นำเข้าประมาณการจากโครงการไปยังรายการใบเสนอราคาตามโครงการ
-                  href: sales/import-estimate-quote-line.md
-                - name: กำหนดการใบแจ้งหนี้ในรายการใบเสนอราคาตามโครงการ
+                  href: pro/sales/create-estimate-quote-line-sales.md
+                - name: นำเข้าการประมาณจากโครงการไปยังรายการใบเสนอราคาโครงการ
+                  href: pro/sales/import-estimate-project-quote-sales.md
+                - name: กำหนดการใบแจ้งหนี้ในรายการใบเสนอราคาโครงการ
                   href: sales/invoice-schedule-quote-line.md
             - name: คัดลอกใบเสนอราคาโครงการ
               href: sales/lose-quote.md
             - name: เริ่มการใช้งานและแก้ไขใบเสนอราคาโครงการ
               href: sales/activation-and-revision.md
-            - name: ปิดใบเสนอราคาโครงการ
+            - name: ปิดใบเสนอราคาตามโครงการ
               href: sales/win-quote.md
-        - name: จัดการสัญญาโครงการ
+        - name: จัดการสัญญาตามโครงการ
           items:
-            - name: ภาพรวมจัดการสัญญาโครงการ
+            - name: จัดการสัญญาโครงการ
               href: pro/sales/manage-contracts-sales.md
             - name: แนวคิดเฉพาะสำหรับสัญญาตามโครงการ
               href: sales/contracts-key-concepts.md
             - name: รายละเอียดส่วนหัวสำหรับสัญญาตามโครงการ
               href: sales/project-contract-settings.md
-            - name: จัดการรายการราคาของโครงการในสัญญาโครงการ
+            - name: จัดการราคาตลาดของโครงการในสัญญาตามโครงการ
               href: sales/contracts-manage-project-price-lists.md
-            - name: จัดการลูกค้าหลายรายในสัญญาโครงการ
+            - name: จัดการลูกค้าหลายรายในสัญญาตามโครงการ
               href: sales/manage-multiple-customers-contract.md
             - name: รายละเอียดการให้บริการตามสัญญาตามโครงการ
               items:
-                - name: ภารวมของรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                - name: ภารวมของรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/manage-contract-values-project-based-sales.md
                 - name: จัดการลูกค้าหลายรายในรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/manage-multiple-customers-contract-line.md
-                - name: แมปโครงการและงานในรายละเอียดการให้บริการตามสัญญาโครงการ
+                - name: แมปโครงการและงานกับรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: กำหนดค่าส่วนประกอบที่คิดค่าบริการสำหรับรายละเอียดการให้บริการตามสัญญาโครงการ
+                - name: กำหนดค่าส่วนประกอบที่คิดค่าบริการในรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: ประมาณการรายละเอียดการให้บริการตามสัญญาโครงการ
+                - name: ประเมินรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/create-estimate-contract-line.md
-                - name: นำเข้าประมาณการจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ
-                  href: sales/import-estimate-project-contract-line.md
+                - name: นำเข้าการประมาณจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาโครงการ
+                  href: pro/sales/import-estimate-project-contract-line-sales.md
                 - name: สร้างกำหนดการใบแจ้งหนี้ในรายละเอียดการให้บริการตามสัญญาตามโครงการ
                   href: sales/invoice-schedules-contract-line.md
             - name: คัดลอกสัญญาตามโครงการ
@@ -208,17 +210,17 @@
               href: pro/sales/confirm-contract-sales.md
             - name: เงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า
               items:
-                - name: สัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้า
+                - name: สัญญาโครงการตามเงินทดรองและค่าธรรมเนียมล่วงหน้า
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
                 - name: ตั้งค่ากำหนดการค่าธรรมเนียมล่วงหน้า
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: สร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา
+                - name: สร้างเงินทดรองจ่ายเฉพาะกิจในสัญญาโครงการ
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: การกำหนดราคาและการคิดต้นทุน
       items:
-        - name: การตั้งค่ารายการราคา
+        - name: การตั้งค่าราคาตลาด
           items:
-            - name: ข้อกำหนดรายการราคา
+            - name: ข้อกำหนดราคาตลาด
               href: pricing-costing/price-list-setup.md
             - name: ตั้งค่าอัตราการเรียกเก็บเงินค่าแรง
               href: pricing-costing/set-up-labor-bill-rate.md
@@ -240,9 +242,9 @@
               href: pricing-costing/cost-price-resolution.md
             - name: กำหนดราคาขายสำหรับประมาณการและตามจริง
               href: pricing-costing/sales-price-resolution.md
-            - name: คัดลอกรายการราคา
+            - name: คัดลอกราคาตลาด
               href: pricing-costing/copy-price-lists.md
-            - name: ปิดการใช้งานรายการราคา
+            - name: ปิดการใช้งานราคาตลาด
               href: pricing-costing/deactivatepricelists.md
         - name: มิติการกำหนดราคา
           items:
@@ -642,6 +644,8 @@
           href: advanced-configuration/migrating-invoiced-milestones.md
         - name: ซิงค์สถานะโครงการเพื่อป้องกันการป้อนข้อมูลในโครงการที่ปิดแล้ว
           href: advanced-configuration/sync-project-status.md
+        - name: ตั้งค่าการแปลงสกุลเงินสำหรับคำนวณราคาขายจากอัตราต้นทุน
+          href: advanced-configuration/currencyconversion.md
     - name: อัปเกรด
       items:
         - name: อัปเกรดข้อควรพิจารณาสำหรับการอนุมัติแบบใหม่
@@ -664,7 +668,7 @@
           href: pro/project-operations-overview-lite.md
         - name: ลงทะเบียนเพื่อการสมัครใช้งานรุ่นพรีวิว - Lite
           href: environment/lite-preview-subscription-sign-up.md
-        - name: ปรับใช้งาน Project Operations - Lite
+        - name: ปรับใช้งาน Project Operations Lite
           href: environment/lite-deployment.md
         - name: ใช้การตั้งค่าสาธิตและข้อมูลการกำหนดค่า - Lite
           href: environment/lite-apply-demo-setup-config-data.md
@@ -672,10 +676,14 @@
           href: environment/security-model.md
     - name: มีอะไรใหม่บ้าง
       items:
-        - name: มีอะไรใหม่เดือนกันยายน 2022 - การปรับใช้งานแบบ Lite
-          href: pro/whats-new/whats-new-sept-2022-lite.md
+        - name: มีอะไรใหม่เดือนพฤศจิกายน 2022 - การปรับใช้งานแบบ Lite
+          href: pro/whats-new/whats-new-nov-2022-lite.md
         - name: ข้อมูลเก็บถาวร
           items:
+            - name: มีอะไรใหม่เดือนตุลาคม 2022 - การปรับใช้งานแบบ Lite
+              href: pro/whats-new/whats-new-oct-2022-lite.md
+            - name: มีอะไรใหม่เดือนกันยายน 2022 - การปรับใช้งานแบบ Lite
+              href: pro/whats-new/whats-new-sept-2022-lite.md
             - name: มีอะไรใหม่เดือนสิงหาคม 2022 - การปรับใช้งานแบบ Lite
               href: pro/whats-new/whats-new-aug-2022-lite.md
             - name: มีอะไรใหม่เดือนกรกฎาคม 2022 - การปรับใช้งานแบบ Lite
@@ -748,21 +756,21 @@
               href: pro/sales/project-based-lines-sales.md
             - name: สร้างใบเสนอราคาจากโอกาสทางการขายของโครงการ
               href: sales/link-quotes-opportunities.md
-            - name: คัดลอกโอกาสทางการขายตามโครงการ
+            - name: คัดลอกโอกาสทางการขายของโครงการ
               href: sales/copy-project-based-opportunity.md
             - name: ปิดโอกาสทางการขายของโครงการ
               href: sales/close-opportunity.md
-        - name: จัดการใบเสนอราคาตามโครงการ
+        - name: จัดการใบเสนอราคาโครงการ
           items:
-            - name: ภาพรวมใบเสนอราคาตามโครงการ
+            - name: ภาพรวมใบเสนอราคาโครงการ
               href: pro/sales/manage-quotes-sales.md
             - name: แนวคิดเฉพาะสำหรับใบเสนอราคาโครงการ
               href: pro/sales/quotes-key-concepts-sales.md
             - name: รายละเอียดส่วนหัวสำหรับใบเสนอราคาโครงการ
               href: pro/sales/quote-values-budget-limits-contract-sales.md
-            - name: ลูกค้าหลายรายในใบเสนอราคาโครงการ
+            - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคาโครงการ
               href: pro/sales/manage-multiple-customers-quote-sales.md
-            - name: รายการราคาของโครงการในใบเสนอราคาโครงการ
+            - name: ราคาตลาดของโครงการในใบเสนอราคาโครงการ
               href: pro/sales/manage-project-price-lists-sales.md
             - name: รายการใบเสนอราคาตามผลิตภัณฑ์
               items:
@@ -772,39 +780,39 @@
                   href: pro/sales/costing-product-based-quote-lines-sales.md
                 - name: จัดการหน่วยที่ซับซ้อนสำหรับรายการใบเสนอราคาตามผลิตภัณฑ์
                   href: pro/sales/managing-complex-units-product-based-quote-lines-sales.md
-            - name: รายการใบเสนอราคาตามโครงการ
+            - name: รายการใบเสนอราคาโครงการ
               items:
-                - name: ภาพรวมรายการใบเสนอราคาตามโครงการ
+                - name: ภาพรวมรายการใบเสนอราคาโครงการ
                   href: pro/sales/manage-quoted-values-budget-limits-quote-line-sales.md
-                - name: จัดการลูกค้าหลายราย
+                - name: จัดการลูกค้าหลายรายในรายการใบเสนอราคาโครงการ
                   href: pro/sales/manage-multiple-customers-quote-line-sales.md
-                - name: แมปโครงการและงาน
+                - name: แมปโครงการและงานกับรายการใบเสนอราคาโครงการ
                   href: pro/sales/mapping-projects-tasks-quote-line-sales.md
-                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงิน
+                - name: กำหนดค่าส่วนประกอบที่เรียกเก็บเงินในรายการใบเสนอราคาโครงการ
                   href: pro/sales/configure-chargeable-components-quote-line-sales.md
-                - name: ประเมินรายการใบเสนอราคาตามโครงการ
+                - name: ประเมินรายการใบเสนอราคาโครงการ
                   href: pro/sales/create-estimate-quote-line-sales.md
-                - name: นำเข้าการประมาณการจากโครงการ
+                - name: นำเข้าการประมาณจากโครงการไปยังรายการใบเสนอราคาโครงการ
                   href: pro/sales/import-estimate-project-quote-sales.md
-                - name: จัดการกำหนดการใบแจ้งหนี้
+                - name: กำหนดการใบแจ้งหนี้ในรายการใบเสนอราคาโครงการ
                   href: sales/invoice-schedule-quote-line.md
-            - name: คัดลอกใบเสนอราคาตามโครงการ
+            - name: คัดลอกใบเสนอราคาโครงการ
               href: sales/lose-quote.md
             - name: เริ่มการใช้งานและแก้ไขใบเสนอราคาโครงการ
               href: sales/activation-and-revision.md
-            - name: ปิดใบเสนอราคาตามโครงการ
+            - name: ปิดใบเสนอราคาโครงการ
               href: pro/sales/win-quote-sales.md
-        - name: จัดการสัญญาตามโครงการ
+        - name: จัดการสัญญาโครงการ
           items:
-            - name: ภาพรวมของสัญญาตามโครงการ
+            - name: ภาพรวมของสัญญาโครงการ
               href: pro/sales/manage-contracts-sales.md
             - name: แนวคิดเฉพาะสำหรับสัญญาโครงการ
               href: pro/sales/contracts-key-concepts-sales.md
             - name: รายละเอียดส่วนหัวสำหรับสัญญาโครงการ
               href: pro/sales/project-contract-settings-sales.md
-            - name: ลูกค้าหลายรายในสัญญาโครงการ
+            - name: จัดการลูกค้าหลายรายในสัญญาโครงการ
               href: pro/sales/manage-multiple-customers-contract-sales.md
-            - name: รายการราคาของโครงการสำหรับสัญญาโครงการ
+            - name: ราคาตลาดของโครงการสำหรับสัญญาโครงการ
               href: sales/contracts-manage-project-price-lists.md
             - name: รายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
               items:
@@ -814,21 +822,21 @@
                   href: pro/sales/cost-product-based-contract-lines-sales.md
                 - name: จัดการหน่วยที่ซับซ้อนสำหรับรายละเอียดการให้บริการตามสัญญาตามผลิตภัณฑ์
                   href: pro/sales/manage-complex-units-product-based-contract-lines-sales.md
-            - name: รายละเอียดการให้บริการตามสัญญาตามโครงการ
+            - name: รายละเอียดการให้บริการตามสัญญาโครงการ
               items:
-                - name: ภารวมของรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                - name: ภารวมของรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/manage-contract-values-project-based-sales.md
-                - name: จัดการลูกค้าหลายรายในสัญญา
+                - name: จัดการลูกค้าหลายรายในสัญญาโครงการ
                   href: pro/sales/manage-multiple-customers-contract-line-sales.md
                 - name: แมปโครงการและงานกับรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/mapping-projects-tasks-contract-line-sales.md
-                - name: กำหนดค่าส่วนประกอบที่คิดค่าบริการในรายละเอียดการให้บริการตามสัญญาของโครงการ
+                - name: กำหนดค่าส่วนประกอบที่คิดค่าบริการในรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/configure-chargeable-components-contract-line.md
-                - name: ประเมินรายละเอียดการให้บริการตามสัญญาตามโครงการ
+                - name: ประมาณการรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/create-estimate-project-contract-line-sales.md
-                - name: นำเข้าการประมาณจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาของโครงการ
+                - name: นำเข้าการประมาณจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/import-estimate-project-contract-line-sales.md
-                - name: จัดการกำหนดการใบแจ้งหนี้ในรายละเอียดการให้บริการตามสัญญาของโครงการ
+                - name: สร้างกำหนดการใบแจ้งหนี้ในรายละเอียดการให้บริการตามสัญญาโครงการ
                   href: pro/sales/invoice-schedules-contract-line-sales.md
             - name: คัดลอกสัญญาโครงการ
               href: pro/sales/copy-project-contracts-sales.md
@@ -836,19 +844,19 @@
               href: pro/sales/confirm-contract-sales.md
             - name: เงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า
               items:
-                - name: สัญญาตามเงินทดรองจ่ายและค่าธรรมเนียมล่วงหน้า - Lite
+                - name: สัญญาตามเงินทดรองและค่าธรรมเนียมล่วงหน้า
                   href: pro/sales/set-up-advances-retainer-based-contracts-sales.md
-                - name: ตั้งค่ากำหนดการของค่าธรรมเนียมล่วงหน้า - Lite
+                - name: ตั้งค่ากำหนดการค่าธรรมเนียมล่วงหน้า ตั้งค่ากำหนดการค่าธรรมเนียมล่วงหน้า
                   href: pro/sales/set-up-schedule-retainers-sales.md
-                - name: สร้างเงินทดรองจ่ายเฉพาะกิจในสัญญา - Lite
+                - name: สร้างเงินทดรองจ่ายเฉพาะกิจในสัญญาโครงการ
                   href: pro/sales/create-ad-hoc-advance-sales.md
     - name: การกำหนดราคาและการคิดต้นทุน
       items:
-        - name: การตั้งค่ารายการราคา
+        - name: การตั้งค่าราคาตลาด
           items:
-            - name: ข้อกำหนดรายการราคา
+            - name: ข้อกำหนดราคาตลาด
               href: pricing-costing/price-list-setup.md
-            - name: ตั้งค่ารายการราคาผลิตภัณฑ์
+            - name: ตั้งค่าราคาตลาดของผลิตภัณฑ์
               href: pricing-costing/product-price-list.md
             - name: ตั้งค่าอัตราการเรียกเก็บเงินสำหรับค่าแรง
               href: pro/pricing-costing/set-up-labor-bill-rate-sales.md
@@ -870,9 +878,9 @@
               href: pro/pricing-costing/cost-price-resolution-sales.md
             - name: กำหนดราคาขายสำหรับประมาณการและข้อมูลจริงของโครงการ
               href: pro/pricing-costing/sales-price-resolution-sales.md
-            - name: คัดลอกรายการราคา
+            - name: คัดลอกราคาตลาด
               href: pricing-costing/copy-price-lists.md
-            - name: ปิดการใช้งานรายการราคาของโครงการ
+            - name: ปิดการใช้งานราคาตลาดของโครงการ
               href: pricing-costing/deactivatepricelists.md
         - name: มิติการกำหนดราคา
           items:
@@ -1188,10 +1196,12 @@
               href: whats-new/ur5-nonstocked-installation.md
     - name: มีอะไรใหม่บ้าง
       items:
-        - name: มีอะไรใหม่ในเดือนกันยายน 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
-          href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
+        - name: มีอะไรใหม่ในเดือนตุลาคม 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+          href: prod-pma/whats-new/whats-new-oct-2022-stocked.md
         - name: ข้อมูลเก็บถาวร
           items:
+            - name: มีอะไรใหม่ในเดือนกันยายน 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
+              href: prod-pma/whats-new/whats-new-sept-2022-stocked.md
             - name: มีอะไรใหม่ในเดือนกรกฎาคม 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
               href: prod-pma/whats-new/whats-new-jul-2022-stocked.md
             - name: มีอะไรใหม่ในเดือนมิถุนายน 2022 - Project Operations สำหรับสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
@@ -1216,8 +1226,12 @@
               href: prod-pma/whats-new/whats-new-nov-2020-production-based.md
     - name: Project Operations สำหรับภาพรวมการปรับใช้งานสถานการณ์สินค้าที่เก็บในคลัง/ตามการผลิต
       href: prod-pma/project-operations-prod-order-deployment-overview.md
-    - name: ภาพรวมการจัดการโครงการและการบัญชี
-      href: prod-pma/overview-project-management-accounting.md
+    - name: การบัญชีของโครงการ
+      items:
+        - name: ภาพรวมการจัดการโครงการและการบัญชี
+          href: prod-pma/overview-project-management-accounting.md
+        - name: การปรับโครงการ
+          href: project-accounting/project-adjustments.md
     - name: กระบวนการขายของโครงการ
       items:
         - name: ใบเสนอราคาโครงการ
@@ -1784,7 +1798,7 @@
                   href: psa/configure-expense-categories.md
                 - name: สร้างรายการแค็ตตาล็อกผลิตภัณฑ์
                   href: psa/create-product-catalog-items.md
-                - name: สร้างรายการราคา
+                - name: สร้างราคาตลาด
                   href: psa/create-price-list.md
             - name: ตั้งค่าทรัพยากร
               items:
