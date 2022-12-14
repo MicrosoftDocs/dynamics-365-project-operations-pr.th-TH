@@ -1,21 +1,21 @@
 ---
-title: นำเข้าประมาณไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ - Lite
+title: นำเข้าการประมาณจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาของโครงการ
 description: บทความนี้ให้ข้อมูลเกี่ยวกับการนำเข้าประมาณการทางการเงินจากโครงการไปยังรายละเอียดการให้บริการตามสัญญา
 author: rumant
 ms.date: 10/19/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d6e3bdfeb1ea9de32d6712ac5671be39c243702a
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 73ae0ccbb5372c9dfbc28ac154094c89add0913d
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8924223"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824698"
 ---
-# <a name="import-an-estimate-to-a-project-based-contract-line---lite"></a>นำเข้าประมาณไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ - Lite
+# <a name="import-estimates-from-a-project-to-a-project-contract-line"></a>นำเข้าการประมาณจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาของโครงการ
 
-_**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** การปรับใช้แบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว, Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง_ _
 
 ใน Dynamics 365 Project Operations คุณสามารถนำเข้าประมาณการจากโครงการไปยังรายละเอียดการให้บริการตามสัญญาตามโครงการ
 

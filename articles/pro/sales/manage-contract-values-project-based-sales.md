@@ -1,21 +1,21 @@
 ---
-title: ภารวมของรายละเอียดการให้บริการตามสัญญาตามโครงการ
-description: บทความนี้ให้ข้อมูลเกี่ยวกับการทำงานกับรายละเอียดการให้บริการตามสัญญาตามโครงการ
+title: ภารวมของรายละเอียดการให้บริการตามสัญญาโครงการ
+description: บทความนี้ให้ข้อมูลเกี่ยวกับการทำงานกับรายละเอียดการให้บริการตามสัญญาโครงการใน Project Operations
 author: rumant
 ms.date: 10/28/2020
 ms.topic: overview
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: d32edac6537a4b0f51e9d2f72cb4a7342606d2c5
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: f5a529233692a39b0674417cd4ea225e40243086
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8931445"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824650"
 ---
-# <a name="project-based-contract-lines-overview"></a>ภารวมของรายละเอียดการให้บริการตามสัญญาตามโครงการ
+# <a name="project-contract-lines-overview"></a>ภารวมของรายละเอียดการให้บริการตามสัญญาโครงการ
 
-_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
+_**นำไปใช้กับ:** Project Operations สำหรับสถานการณ์ตามทรัพยากร/ไม่ได้เก็บในคลัง การปรับใช้ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
 รายละเอียดการให้บริการตามสัญญาตามโครงการใน Dynamics 365 Project Operations ออกแบบมาเพื่อเก็บค่าการประมาณการและข้อตกลงการเรียกเก็บเงินสำหรับองค์ประกอบเฉพาะของงานโครงการในการมีส่วนร่วม โครงสร้างของรายละเอียดการให้บริการตามสัญญาตามโครงการจะขยายสำหรับการประมาณการโครงการและสถานการณ์การเรียกเก็บเงินด้วยแนวคิดต่อไปนี้:
 

@@ -1,19 +1,19 @@
 ---
-title: จัดการลูกค้าหลายรายในใบเสนอราคาโครงการ - Lite
+title: จัดการลูกค้าหลายรายในใบเสนอราคาโครงการ
 description: บทความนี้ให้ข้อมูลเกี่ยวกับการทำงานกับใบเสนอราคาที่มีลูกค้าหลายรายที่จะเป็นแหล่งเงินทุนโครงการ (Sales)
 author: rumant
 ms.date: 10/01/2020
 ms.topic: article
 ms.reviewer: johnmichalak
 ms.author: rumant
-ms.openlocfilehash: 337619e8d8081cdebd73f9336fa9fa99885a0ab2
-ms.sourcegitcommit: 6cfc50d89528df977a8f6a55c1ad39d99800d9b4
+ms.openlocfilehash: 8c42b51c48b7327247eb604d1bbc4f15a2bf6998
+ms.sourcegitcommit: e0cbbe7c6f03d4978134405cf04bd8bc1d019f65
 ms.translationtype: HT
 ms.contentlocale: th-TH
-ms.lasthandoff: 06/03/2022
-ms.locfileid: "8921095"
+ms.lasthandoff: 12/05/2022
+ms.locfileid: "9824349"
 ---
-# <a name="manage-multiple-customers-on-project-quotes---lite"></a>จัดการลูกค้าหลายรายในใบเสนอราคาโครงการ - Lite
+# <a name="manage-multiple-customers-on-project-quotes"></a>จัดการลูกค้าหลายรายในใบเสนอราคาโครงการ
 
 _**นำไปใช้กับ:** การปรับใช้งานแบบ Lite - จัดการกับการออกใบแจ้งหนี้ชั่วคราว_
 
